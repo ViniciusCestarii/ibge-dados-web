@@ -3,6 +3,8 @@ import path from 'path'
 import env from '@/env'
 import chalk from 'chalk'
 
+export const basePathToJson = path.join(__dirname, '../json')
+
 interface FetchDataAndSaveAsJson {
   pathname: string
   urlName: string
@@ -13,22 +15,22 @@ export const fetchDataAndSaveAsJson = async ({
   urlName,
 }: FetchDataAndSaveAsJson) => {
   try {
-    const data = await fetchIbgeData(urlName)
+    const { data } = await fetchIbgeData(urlName)
     createJsonFile(pathname, data)
     console.log(chalk.green(`✅ Created JSON file: ${pathname}.json`))
   } catch (error) {
     if (error instanceof Error) {
       console.error(
         chalk.red(
-          `❌ Error for JSON file ${pathname}.json of url ${urlName}: ${error.message}`,
+          `❌ Error for JSON file ${pathname}.json of url ${getIbgeUrl(urlName)}: ${error.message}`,
         ),
       )
     }
   }
 }
 
-const fetchIbgeData = async (name: string) => {
-  const url = `${env.IBGE_BASE_URL}/${name}`
+const fetchIbgeData = async (pathname: string) => {
+  const url = getIbgeUrl(pathname)
 
   const response = await fetch(url)
   if (!response.ok) {
@@ -38,7 +40,7 @@ const fetchIbgeData = async (name: string) => {
   }
   const data = await response.json()
 
-  return data
+  return { data, response }
 }
 
 const createJsonFile = (filename: string, data: unknown) => {
@@ -55,4 +57,8 @@ const createJsonFile = (filename: string, data: unknown) => {
 
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8')
   console.log(chalk.green(`✅ Created JSON file: ${filePath}`))
+}
+
+const getIbgeUrl = (pathname: string) => {
+  return path.join(env.IBGE_BASE_URL, pathname)
 }
