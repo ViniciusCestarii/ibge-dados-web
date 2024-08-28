@@ -1,0 +1,186 @@
+{
+  "id": 3605,
+  "nome": "Pessoas de 10 anos ou mais de idade, por frequência à escola e local da escola, segundo a situação de ocupação na semana de referência e o local de exercício do trabalho principal e o sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3605",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 538,
+      "nome": "Frequência à escola e local da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 19434,
+          "nome": "Frequentavam escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19435,
+          "nome": "Frequentavam escola - no município de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19436,
+          "nome": "Frequentavam escola - em outro município",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19437,
+          "nome": "Frequentavam escola - em país estrangeiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19438,
+          "nome": "Não frequentavam escola",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "nome": "Situação de ocupação na semana de referência e local de exercício do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 19484,
+          "nome": "Ocupadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19478,
+          "nome": "Ocupadas - município de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19479,
+          "nome": "Ocupadas - município de residência - no domicílio de residência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 19480,
+          "nome": "Ocupadas - município de residência - fora do domicílio de residência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 19481,
+          "nome": "Ocupadas - outro município",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19482,
+          "nome": "Ocupadas - país estrangeiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19483,
+          "nome": "Ocupadas - mais de um município ou país",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 19485,
+          "nome": "Não ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

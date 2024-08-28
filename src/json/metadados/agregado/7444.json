@@ -1,0 +1,77 @@
+{
+  "id": 7444,
+  "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, de todos os trabalhos, a preços médios do último ano, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/7444",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10774,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 10775,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10776,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, efetivamente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 10777,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, efetivamente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

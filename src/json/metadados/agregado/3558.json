@@ -1,0 +1,310 @@
+{
+  "id": 3558,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por classes de rendimento nominal mensal do trabalho principal, segundo o sexo e a seção de atividade do trabalho principal - Amostra Rendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/3558",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11804,
+      "nome": "Classes de rendimento nominal mensal do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14586,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14587,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14859,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95365,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95366,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95367,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95368,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14860,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14861,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14862,
+          "nome": "Mais de 20 a 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14863,
+          "nome": "Mais de 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95950,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11805,
+      "nome": "Seção de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12640,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12641,
+          "nome": "Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12642,
+          "nome": "Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12643,
+          "nome": "Eletricidade e gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12644,
+          "nome": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95377,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12645,
+          "nome": "Comércio; reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12646,
+          "nome": "Transporte, armazenagem e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95379,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12647,
+          "nome": "Informação e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12648,
+          "nome": "Atividades financeiras, de seguros e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9205,
+          "nome": "Atividades imobiliárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12649,
+          "nome": "Atividades profissionais, científicas e técnicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12650,
+          "nome": "Atividades administrativas e serviços complementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95383,
+          "nome": "Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95384,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12651,
+          "nome": "Saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12652,
+          "nome": "Artes, cultura, esporte e recreação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12653,
+          "nome": "Outras atividades de serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95387,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99809,
+          "nome": "Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99810,
+          "nome": "Atividades mal especificadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

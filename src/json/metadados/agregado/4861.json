@@ -1,0 +1,166 @@
+{
+  "id": 4861,
+  "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência, total e distibuição, por utilização da Internet, no período de referência dos últimos três meses, posição na ocupação e categoria do emprego no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4861",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5694,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5175,
+      "nome": "Percentual de pessoas de 10 anos ou mais de idade ocupadas na semana de referência, distribuído pela posição na ocupação e categoria do emprego no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5620,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 10 anos ou mais de idade ocupadas na semana de referência, distribuído pela posição na ocupação e categoria do emprego no trabalho principal",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 422,
+      "nome": "Utilização da internet no período de referência dos últimos três meses",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10979,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10980,
+          "nome": "Utilizaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10981,
+          "nome": "Não utilizaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11913,
+      "nome": "Posição na ocupação e categoria do emprego no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 96165,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33209,
+          "nome": "Empregado e trabalhador doméstico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9875,
+          "nome": "Empregado e trabalhador doméstico - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 9876,
+          "nome": "Empregado e trabalhador doméstico - militar e estatutário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 9877,
+          "nome": "Empregado e trabalhador doméstico - outro sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96166,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96167,
+          "nome": "Empregado - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96168,
+          "nome": "Empregado - militar e funcionário público estatutário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96169,
+          "nome": "Empregado - outro sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 9885,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9873,
+          "nome": "Trabalhador na produção para o próprio consumo ou na construção para o próprio uso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96170,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96171,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

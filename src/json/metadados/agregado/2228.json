@@ -1,0 +1,98 @@
+{
+  "id": 2228,
+  "nome": "Número de municípios, total e os com serviço de manejo de águas pluviais, por percentual do orçamento destinado à drenagem urbana",
+  "URL": "https://sidra.ibge.gov.br/tabela/2228",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1160,
+      "nome": "Municípios com serviços de manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001160,
+      "nome": "Municípios com serviços de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12127,
+      "nome": "Percentual do orçamento destinado aos serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101278,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101279,
+          "nome": "Total de municípios com os serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101280,
+          "nome": "Até 5%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101281,
+          "nome": "Mais de 5 a 10%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101282,
+          "nome": "Mais de 10 a 20%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101283,
+          "nome": "Mais de 20%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101284,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101285,
+          "nome": "Não há previsão orçamentária",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

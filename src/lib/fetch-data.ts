@@ -16,8 +16,17 @@ export const fetchDataAndSaveAsJson = async ({
 }: FetchDataAndSaveAsJson) => {
   try {
     const { data } = await fetchIbgeData(urlName)
-    createJsonFile(pathname, data)
-    console.log(chalk.green(`✅ Created JSON file: ${pathname}.json`))
+    const jsonFileName = pathname.endsWith('.json')
+      ? pathname
+      : `${pathname}.json`
+    const filePath = path.resolve(__dirname, '../json/', jsonFileName)
+
+    createJsonFile(filePath, data)
+    console.log(
+      chalk.green(
+        `✅ Created JSON file: ${filePath} from url ${getIbgeUrl(urlName)}`,
+      ),
+    )
   } catch (error) {
     if (error instanceof Error) {
       console.error(
@@ -43,22 +52,16 @@ const fetchIbgeData = async (pathname: string) => {
   return { data, response }
 }
 
-const createJsonFile = (filename: string, data: unknown) => {
-  const jsonFileName = filename.endsWith('.json')
-    ? filename
-    : `${filename}.json`
-  const filePath = path.resolve(__dirname, '../json/', jsonFileName)
-
-  const dir = path.dirname(filePath)
+const createJsonFile = (pathname: string, data: unknown) => {
+  const dir = path.dirname(pathname)
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true })
     console.log(chalk.green(`✅ Created directory: ${dir}`))
   }
 
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8')
-  console.log(chalk.green(`✅ Created JSON file: ${filePath}`))
+  fs.writeFileSync(pathname, JSON.stringify(data, null, 2), 'utf-8')
 }
 
 const getIbgeUrl = (pathname: string) => {
-  return path.join(env.IBGE_BASE_URL, pathname)
+  return `${env.IBGE_BASE_URL}/${pathname}`
 }

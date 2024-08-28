@@ -1,0 +1,60 @@
+{
+  "id": 7461,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora, por condição de funcionamento do serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/7461",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2601,
+      "nome": "Municípios com serviço de esgotamento sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 921,
+      "nome": "Condição de funcionamento do serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48278,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48279,
+          "nome": "Em funcionamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48280,
+          "nome": "Em implantação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

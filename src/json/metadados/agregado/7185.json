@@ -1,0 +1,116 @@
+{
+  "id": 7185,
+  "nome": "Pessoas de 14 anos ou mais de idade que frequentaram curso de qualificação profissional, por cor ou raça e instituição de realização do curso",
+  "URL": "https://sidra.ibge.gov.br/tabela/7185",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2018,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10350,
+      "nome": "Pessoas de 14 anos ou mais de idade que frequentaram curso de qualificação profissional",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10351,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que frequentaram curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10352,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade que frequentaram curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10353,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade que frequentaram curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 884,
+      "nome": "Instituição de realização do curso",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47921,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47922,
+          "nome": "Instituição pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47923,
+          "nome": "Instituição dos Serviços Nacionais de Aprendizagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47924,
+          "nome": "Empreendimento em que trabalha(va)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47925,
+          "nome": "Outra instituição particular",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

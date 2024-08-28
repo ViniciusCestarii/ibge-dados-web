@@ -1,0 +1,142 @@
+{
+  "id": 8434,
+  "nome": "Número de municípios, por classe de tamanho da população do município e realização de Conferência Municipal nos últimos 4 anos",
+  "URL": "https://sidra.ibge.gov.br/tabela/8434",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1068,
+      "nome": "Realização de Conferência Municipal nos últimos 4 anos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50098,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50099,
+          "nome": "Com Conferência Municipal de Habitação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50104,
+          "nome": "Sem Conferência Municipal de Habitação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56944,
+          "nome": "Sem informação sobre Conferência Municipal de Habitação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50100,
+          "nome": "Com Conferência Municipal de Transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50101,
+          "nome": "Sem Conferência Municipal de Transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50102,
+          "nome": "Sem informação sobre a Conferência Municipal de Transporte",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

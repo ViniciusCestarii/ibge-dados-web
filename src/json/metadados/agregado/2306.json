@@ -1,0 +1,108 @@
+{
+  "id": 2306,
+  "nome": "Número de distritos-sede com serviços de coleta de lixo, por tipo de serviço de coleta e frequência da coleta",
+  "URL": "https://sidra.ibge.gov.br/tabela/2306",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1199,
+      "nome": "Número de distritos sede com serviço de coleta de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12187,
+      "nome": "Tipo de serviço de coleta de resíduos sólidos",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103380,
+          "nome": "Residencial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103381,
+          "nome": "Comercial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103382,
+          "nome": "Nas vias e logradouros públicos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12186,
+      "nome": "Frequência da coleta de resíduos sólidos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103374,
+          "nome": "Total de distritos-sede com serviço de coleta de lixo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103375,
+          "nome": "Diária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103378,
+          "nome": "Três vezes por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103377,
+          "nome": "Duas vezes por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103376,
+          "nome": "Uma vez por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103379,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

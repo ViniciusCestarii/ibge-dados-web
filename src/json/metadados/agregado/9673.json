@@ -1,0 +1,110 @@
+{
+  "id": 9673,
+  "nome": "Pessoas de 10 anos ou mais de idade que utilizaram a Internet no período de referência dos últimos três meses, por situação do domicílio e acesso gratuito à internet em locais públicos",
+  "URL": "https://sidra.ibge.gov.br/tabela/9673",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2620,
+      "nome": "Pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 2623,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5000,
+      "nome": "Percentual de pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5607,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1138,
+      "nome": "Acesso gratuito à internet em locais públicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59929,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12067,
+          "nome": "Acesso gratuito à internet em escola/universidade pública ou biblioteca pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12068,
+          "nome": "Acesso gratuito à internet em posto de saúde, hospital público ou outra unidade de saúde pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12069,
+          "nome": "Acesso gratuito à internet em praças ou parques públicos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 7456,
+  "nome": "Número médio de moradores por domicílio, por recebimento de rendimento de programa social e tipo de programa social",
+  "URL": "https://sidra.ibge.gov.br/tabela/7456",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10163,
+      "nome": "Número médio de moradores",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10164,
+      "nome": "Coeficiente de variação - Número médio de moradores",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1035,
+      "nome": "Recebimento de rendimento de programa social e tipo de programa social",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49238,
+          "nome": "Recebe Bolsa Família",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49240,
+          "nome": "Não recebe Bolsa Família",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49239,
+          "nome": "Recebe BPC-LOAS",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49241,
+          "nome": "Não recebe BPC-LOAS",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49475,
+          "nome": "Recebe outros programas sociais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49476,
+          "nome": "Não recebe outros programas sociais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

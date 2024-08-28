@@ -1,0 +1,81 @@
+{
+  "id": 1159,
+  "nome": "Distribuição percentual de moradores em domicílios particulares permanentes por tipo de abastecimento de água e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1159",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Acesso a sistema de abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2489,
+      "nome": "Distribuição percentual de moradores em domicílios particulares permanentes",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12934,
+      "nome": "Tipo de abastecimento de água",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119517,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119518,
+          "nome": "Poço ou nascente",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119519,
+          "nome": "Outro tipo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

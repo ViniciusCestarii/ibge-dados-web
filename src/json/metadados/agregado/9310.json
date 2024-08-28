@@ -1,0 +1,149 @@
+{
+  "id": 9310,
+  "nome": "Pessoas de 2 anos ou mais de idade, por grupo de idade e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9310",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11852,
+      "nome": "Pessoas de 2 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11855,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11856,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11859,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56853,
+          "nome": "2 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3518,
+          "nome": "10 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3519,
+          "nome": "20 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3300,
+          "nome": "40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3301,
+          "nome": "50 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3520,
+          "nome": "60 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95252,
+          "nome": "70 a 79 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2503,
+          "nome": "80 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

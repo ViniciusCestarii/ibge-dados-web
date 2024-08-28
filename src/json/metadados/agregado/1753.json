@@ -1,0 +1,137 @@
+{
+  "id": 1753,
+  "nome": "Número de municípios, total e os com captação de água, por existência e tipo de poluição ou contaminação na captação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1753",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 433,
+      "nome": "Municípios com captação superficial",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000433,
+      "nome": "Municípios com captação superficial - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 434,
+      "nome": "Municípios com captação de poço raso",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000434,
+      "nome": "Municípios com captação de poço raso - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 435,
+      "nome": "Municípios com captação de poço profundo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000435,
+      "nome": "Municípios com captação de poço profundo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12001,
+      "nome": "Existência e tipo de poluição ou contaminação na captação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8470,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8471,
+          "nome": "Total de municípios com captação de água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98595,
+          "nome": "Total com poluição ou contaminação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98596,
+          "nome": "Recebimento de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98597,
+          "nome": "Recebimento de despejo industrial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98598,
+          "nome": "Destinação inadequada de lixo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98599,
+          "nome": "Atividade mineradora",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98600,
+          "nome": "Resíduos agrotóxicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98601,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98602,
+          "nome": "Não existe poluição ou contaminação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

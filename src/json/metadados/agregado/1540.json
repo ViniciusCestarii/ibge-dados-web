@@ -1,0 +1,85 @@
+{
+  "id": 1540,
+  "nome": "Pessoas de 10 anos ou mais de idade, por estado conjugal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1540",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Nupcialidade e fecundidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 464,
+      "nome": "Estado conjugal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12108,
+          "nome": "Viviam em união",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12109,
+          "nome": "Não viviam em união",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12110,
+          "nome": "Não viviam, mas já viveram em união",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12111,
+          "nome": "Nunca viveram em união",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12112,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

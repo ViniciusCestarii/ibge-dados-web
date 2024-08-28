@@ -1,0 +1,462 @@
+{
+  "id": 8568,
+  "nome": "Número de estabelecimentos agropecuários com pessoal ocupado e Pessoal ocupado em estabelecimentos agropecuários, por pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar, tipo de pessoal ocupado e grupos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/8568",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10099,
+      "nome": "Número de estabelecimentos agropecuários com pessoal ocupado",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 185,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1363,
+      "nome": "Pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57437,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57438,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57439,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57440,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57483,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57484,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57485,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12578,
+      "nome": "Tipo de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 112967,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 45960,
+          "nome": "Trabalhadores com laços de parentesco com o produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45961,
+          "nome": "Trabalhadores com laços de parentesco com o produtor - Homens de 14 anos e mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45962,
+          "nome": "Trabalhadores com laços de parentesco com o produtor - Homens de menos de 14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45963,
+          "nome": "Trabalhadores com laços de parentesco com o produtor - Mulheres de 14 anos e mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45964,
+          "nome": "Trabalhadores com laços de parentesco com o produtor - Mulheres de menos de 14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45965,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45966,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Permanentes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45967,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Permanentes - Homens de 14 anos e mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45968,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Permanentes - Homens de menos de 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45969,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Permanentes - Mulheres de 14 anos e mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45970,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Permanentes - Mulheres de menos de 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45971,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Temporários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45972,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Temporários- Homens de 14 anos e mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45973,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Temporários- Homens de menos de 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45974,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Temporários- Mulheres de 14 anos e mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45975,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Temporários- Mulheres de menos de 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45976,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Parceiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45977,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Parceiros - Homens de 14 anos e mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45978,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Parceiros - Homens de menos de 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45979,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Parceiros - Mulheres de 14 anos e mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 45980,
+          "nome": "Trabalhadores sem laços de parentesco com o produtor - Parceiros - Mulheres de menos de 14 anos",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 12440,
+      "nome": "Grupos e classes de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110016,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112880,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112873,
+          "nome": "Cultivo de cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112874,
+          "nome": "Cultivo de algodão herbáceo e outras fibras da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112875,
+          "nome": "Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112876,
+          "nome": "Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112877,
+          "nome": "Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112878,
+          "nome": "Cultivo de oleaginosas de lavoura temporária, exceto soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112879,
+          "nome": "Cultivo de outros produtos da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112881,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112882,
+          "nome": "Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112883,
+          "nome": "Cultivo de flores, folhagens e plantas ornamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112884,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112885,
+          "nome": "Cultivo de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112886,
+          "nome": "Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112887,
+          "nome": "Cultivo de frutas da lavoura permanente, exceto laranja e uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112888,
+          "nome": "Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112889,
+          "nome": "Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112890,
+          "nome": "Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114048,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46508,
+          "nome": "Produção de sementes certificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46509,
+          "nome": "Produção de mudas e outras formas de propagação vegetal, certificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112894,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112895,
+          "nome": "Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112896,
+          "nome": "Criação de outros animais de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112897,
+          "nome": "Criação de ovinos e caprinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112898,
+          "nome": "Criação de suínos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112899,
+          "nome": "Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112900,
+          "nome": "Criação de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112901,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112902,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114050,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114055,
+          "nome": "Pesca em água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112903,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112904,
+          "nome": "Aquicultura em água salgada ou salobra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112905,
+          "nome": "Aquicultura em água doce",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

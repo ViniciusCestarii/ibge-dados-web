@@ -1,0 +1,181 @@
+{
+  "id": 149,
+  "nome": "Domicílios particulares permanentes por tipo de material da cobertura, tipo de material das paredes e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/149",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 138,
+      "nome": "Tipo de material da cobertura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2877,
+          "nome": "Laje de concreto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2878,
+          "nome": "Telha de barro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2879,
+          "nome": "Telha de cimento - amianto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2880,
+          "nome": "Zinco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2881,
+          "nome": "Madeira aparelhada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2882,
+          "nome": "Palha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2883,
+          "nome": "Material aproveitado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2884,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "nome": "Tipo de material das paredes externas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2871,
+          "nome": "Alvenaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2872,
+          "nome": "Madeira aparelhada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2873,
+          "nome": "Taipa não revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2874,
+          "nome": "Material aproveitado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2875,
+          "nome": "Palha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2876,
+          "nome": "Outro material",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

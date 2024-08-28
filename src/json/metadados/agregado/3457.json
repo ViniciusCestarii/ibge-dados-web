@@ -1,0 +1,202 @@
+{
+  "id": 3457,
+  "nome": "Pessoas de 25 anos ou mais de idade, por nível de instrução, sexo e religião - Características Gerais da População",
+  "URL": "https://sidra.ibge.gov.br/tabela/3457",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Religião",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1643,
+      "nome": "Pessoas de 25 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001643,
+      "nome": "Pessoas de 25 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11626,
+          "nome": "Não determinado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "nome": "Religião",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95263,
+          "nome": "Católica Apostólica Romana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95277,
+          "nome": "Evangélicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95264,
+          "nome": "Evangélicas de Missão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95265,
+          "nome": "Evangélicas de origem pentecostal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 121096,
+          "nome": "Evangélica não determinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2826,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2827,
+          "nome": "Umbanda e Candomblé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95275,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2836,
+          "nome": "Sem religião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12890,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2837,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

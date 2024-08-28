@@ -1,0 +1,83 @@
+{
+  "id": 2241,
+  "nome": "Número de municípios, total e os com serviço de manejo de águas pluviais, por existência de assoreamento da rede de drenagem",
+  "URL": "https://sidra.ibge.gov.br/tabela/2241",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1160,
+      "nome": "Municípios com serviços de manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001160,
+      "nome": "Municípios com serviços de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12132,
+      "nome": "Existência de assoreamento da rede de drenagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101320,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101321,
+          "nome": "Total de municípios com serviço de manejo de águas pluviais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101322,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101323,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101324,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

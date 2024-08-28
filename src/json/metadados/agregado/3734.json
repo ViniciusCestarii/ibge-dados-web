@@ -1,0 +1,79 @@
+{
+  "id": 3734,
+  "nome": "Domicílios particulares permanentes urbanos e distribuição percentual, por classes de rendimento mensal domiciliar per capita em salários mínimos",
+  "URL": "https://sidra.ibge.gov.br/tabela/3734",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Rendimento domiciliar per capita",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3615,
+      "nome": "Domicílios particulares permanentes urbanos",
+      "unidade": "Mil unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3614,
+      "nome": "Distribuição percentual dos domicílios particulares permanentes urbanos",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12381,
+      "nome": "Classes de rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107485,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31299,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107488,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107489,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107490,
+          "nome": "Mais de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

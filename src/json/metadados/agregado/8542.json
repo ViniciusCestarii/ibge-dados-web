@@ -1,0 +1,320 @@
+{
+  "id": 8542,
+  "nome": "Municípios, total com instituições de apoio a gestão de riscos e de desastres, por tipo de instituição, por atividades promovidas e por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/8542",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1239,
+      "nome": "Existência de instuições de apoio a gestão de riscos e de desastres",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 51200,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51201,
+          "nome": "Com alguma instituição de apoio a gestão de riscos e desastres elencadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51202,
+          "nome": "Com Unidade do Corpo de Bombeiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51203,
+          "nome": "Com Coordenação Municipal de Proteção e Defesa Civil (COMPDEC) ou órgão similar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57271,
+          "nome": "O responsável pela coordenação atua exclusivamente nesta função",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57272,
+          "nome": "Realiza ações articuladas e coordenadas do Sistema Municipal de Proteção e Defesa Civil",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57273,
+          "nome": "Conhece o Sistema Integrado de Informações sobre Desastres - S2ID",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57274,
+          "nome": "Utiliza sistema próprio na área de Proteção e Defesa Civil",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57275,
+          "nome": "Há previsão de recursos para ações de proteção e defesa civil na Lei Orçamentária Anual",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57276,
+          "nome": "Há outras fontes de recursos para ações de proteção e defesa civil",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57277,
+          "nome": "Dispõe de espaço físico exclusivo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57278,
+          "nome": "Dispõe de viatura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57279,
+          "nome": "Dispõe de computadores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57280,
+          "nome": "Dispõe de GPS",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57281,
+          "nome": "Dispõe de coletes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57282,
+          "nome": "Dispõe de servidores com vínculo empregatício",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57283,
+          "nome": "Dispõe de sistema de alerta antecipado de desastres",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57284,
+          "nome": "Nenhum dos itens citados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 57285,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 51204,
+          "nome": "Com Núcleo de Proteção e Defesa Civil (NUPDECs)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51205,
+          "nome": "Com Guarda Municipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51206,
+          "nome": "Nenhuma das insttuições citadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51207,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57286,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1244,
+      "nome": "Existência de atividades de proteção de defesa civil promovidas pelo município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 51238,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51239,
+          "nome": "Com alguma atividade de proteção de defesa civil promovida pelo município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51240,
+          "nome": "Com práticas educativas voltadas para conscientização e percepção da situação de risco nas escolas.",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51241,
+          "nome": "Com práticas educativas voltadas para conscientização e percepção da situação de risco nas comunidades",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51242,
+          "nome": "Com educação ambiental nas escolas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51243,
+          "nome": "Com educação ambiental nas comunidades",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51244,
+          "nome": "Com campanhas para conscientizar a população sobre os riscos de desastres",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51245,
+          "nome": "Com capacitação de profissionais de proteção e defesa civil",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51246,
+          "nome": "Com formação de NUDECs",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51247,
+          "nome": "Nenhuma das citadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51248,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

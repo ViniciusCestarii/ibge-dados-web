@@ -1,0 +1,153 @@
+{
+  "id": 4495,
+  "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa, por grupo de idade e situação do domicílio (2013)",
+  "URL": "https://sidra.ibge.gov.br/tabela/4495",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4468,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4469,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4470,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4885,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4471,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4472,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4473,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4886,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de diabetes e tomaram medicamento para diabetes ou usaram insulina nas duas últimas semanas anteriores à data da pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33062,
+          "nome": "30 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1152,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33063,
+          "nome": "65 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33064,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

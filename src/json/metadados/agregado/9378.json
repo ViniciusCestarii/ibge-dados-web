@@ -1,0 +1,102 @@
+{
+  "id": 9378,
+  "nome": "Média de horas dedicadas pelas pessoas de 14 anos ou mais de idade aos afazeres domésticos e/ou às tarefas de cuidado de pessoas, por sexo e grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/9378",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10192,
+      "nome": "Média de horas dedicadas pelas pessoas de 14 anos ou mais de idade aos afazeres domésticos e/ou às tarefas de cuidado de pessoas",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10193,
+      "nome": "Coeficiente de variação - Média de horas dedicadas pelas pessoas de 14 anos ou mais de idade aos afazeres domésticos e/ou às atividades de cuidado de pessoas",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47567,
+          "nome": "14 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100053,
+          "nome": "25 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

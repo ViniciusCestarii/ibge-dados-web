@@ -1,0 +1,70 @@
+{
+  "id": 1265,
+  "nome": "Índices de volume e de receita nominal de vendas no comércio varejista de hipermercados e supermercados, por tipos de índice (2000 = 100 - série encerrada em dezembro de 2003)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1265",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200001,
+    "fim": 200312
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 566,
+      "nome": "Índice de volume de vendas no comércio varejista de hipermercados e supermercados",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    },
+    {
+      "id": 567,
+      "nome": "Índice de receita nominal de vendas no comércio varejista de hipermercados e supermercados",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90667,
+          "nome": "Índice base fixa (2000=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90668,
+          "nome": "Variação mensal (base: igual mês do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90669,
+          "nome": "Variação acumulada no ano (base: igual período do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90670,
+          "nome": "Variação acumulada de 12 meses",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

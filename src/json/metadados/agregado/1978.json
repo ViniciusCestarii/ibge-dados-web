@@ -1,0 +1,169 @@
+{
+  "id": 1978,
+  "nome": "Pessoas de 10 anos ou mais de idade por estado civil, sexo e natureza da união",
+  "URL": "https://sidra.ibge.gov.br/tabela/1978",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Nupcialidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 9832,
+      "nome": "Estado civil",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99197,
+          "nome": "Casado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99207,
+          "nome": "Desquitado(a) ou separado(a) judicialmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78093,
+          "nome": "Divorciado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78094,
+          "nome": "Viúvo(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78090,
+          "nome": "Solteiro(a)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1598,
+      "nome": "Natureza da união conjugal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99754,
+          "nome": "Viviam em união",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99755,
+          "nome": "Viviam em união - casamento civil e religioso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99756,
+          "nome": "Viviam em união - só casamento civil",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99757,
+          "nome": "Viviam em união - só casamento religioso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99758,
+          "nome": "Viviam em união - união consensual",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99759,
+          "nome": "Não viviam em união",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

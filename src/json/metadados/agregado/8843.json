@@ -1,0 +1,409 @@
+{
+  "id": 8843,
+  "nome": "Número de estabelecimentos agropecuários dirigidos por casais, por pertencimento a Terra Indígena (TI) versus Agricultura Familiar, sexo do cônjuge do produtor, escolaridade do cônjuge do produtor, condição do produtor em relação às terras e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/8843",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9777,
+      "nome": "Número de estabelecimentos agropecuários dirigidos por casais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1080,
+      "nome": "Pertencimento a Terra de Indígena (TI) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50202,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50203,
+          "nome": "Dentro de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50204,
+          "nome": "Dentro de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50205,
+          "nome": "Dentro de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50206,
+          "nome": "Fora de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56880,
+          "nome": "Fora de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57504,
+          "nome": "Fora de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 815,
+      "nome": "Sexo do cônjuge do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41152,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41153,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41154,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 801,
+      "nome": "Escolaridade do cônjuge do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41156,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46512,
+          "nome": "Sabe ler e escrever - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46513,
+          "nome": "Sabe ler e escrever - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40733,
+          "nome": "Nunca frequentou escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40734,
+          "nome": "Classe de alfabetização - CA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40735,
+          "nome": "Alfabetização de jovens e adultos - AJA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40739,
+          "nome": "Antigo primário (elementar)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40740,
+          "nome": "Antigo ginasial (médio 1º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40741,
+          "nome": "Regular do ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40742,
+          "nome": "EJA - educação de jovens e adultos e supletivo do ensino fundamental ou do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40743,
+          "nome": "Antigo científico, clássico, etc. (médio 2º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40744,
+          "nome": "Regular de ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40745,
+          "nome": "Técnico de ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40746,
+          "nome": "EJA - Educação de jovens e adultos e supletivo do ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40747,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40748,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110085,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41139,
+          "nome": "De 2.500 a menos de 10.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40645,
+          "nome": "De 10.000 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": 8484,
+  "nome": "Municípios total e com programa ou ação social por tipo e área de atuação, por classe de tamanho da população",
+  "URL": "https://sidra.ibge.gov.br/tabela/8484",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1144,
+      "nome": "Existência de programa ou ação social, tipo de programa e área de atuação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50518,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50519,
+          "nome": "Com algum tipo de programa ou ação social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50520,
+          "nome": "De cunho social em apoio específico ao produtor agropecuário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50521,
+          "nome": "Na área de educação (cursos de formação ou capacitação)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50522,
+          "nome": "Na área de saúde ou higiene",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50523,
+          "nome": "Na área de distribuição de alimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50524,
+          "nome": "Em outra área",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50525,
+          "nome": "Para fomentar o artesanato junto às comunidades rurais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50526,
+          "nome": "Na área de capacitação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50527,
+          "nome": "Na área de estímulo ao associativismo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50528,
+          "nome": "Na área de apoio à comercialização",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50529,
+          "nome": "Outra área",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 50530,
+          "nome": "Sem algum programa ou ação social elencado anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57191,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

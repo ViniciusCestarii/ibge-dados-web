@@ -1,0 +1,86 @@
+{
+  "id": 2347,
+  "nome": "Número de municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos, por propriedade das áreas utilizadas",
+  "URL": "https://sidra.ibge.gov.br/tabela/2347",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1223,
+      "nome": "Municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001223,
+      "nome": "Municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12207,
+      "nome": "Propriedade das áreas utilizadas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103878,
+          "nome": "Total de municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103879,
+          "nome": "Prefeitura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103880,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103881,
+          "nome": "Entidade prestadora do serviço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103882,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103883,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 725,
+  "nome": "Número de processos de separação judicial encerrados em primeira instância por natureza da ação",
+  "URL": "https://sidra.ibge.gov.br/tabela/725",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Separações",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 227,
+      "nome": "Número de processos de separação judicial encerrados em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000227,
+      "nome": "Número de processos de separação judicial encerrados em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 262,
+      "nome": "Natureza da ação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6002,
+          "nome": "Consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6003,
+          "nome": "Não consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6004,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

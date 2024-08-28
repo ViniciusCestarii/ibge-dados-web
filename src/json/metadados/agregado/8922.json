@@ -1,0 +1,251 @@
+{
+  "id": 8922,
+  "nome": "Número de estabelecimentos agropecuários, por cor ou raça do produtor, direção dos trabalhos do estabelecimento agropecuário, sexo da pessoa que dirige o estabelecimento (produtor ou administrador), finalidade principal da produção agropecuária do estabelecimento, renda obtida com as atividades desenvolvidas no estabelecimento e residência da pessoa que dirige o estabelecimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/8922",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 830,
+      "nome": "Cor ou raça do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46427,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46424,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46425,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46426,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46428,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46429,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46430,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "nome": "Direção dos trabalhos do estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41149,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40591,
+          "nome": "Produtor(a) titular diretamente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40592,
+          "nome": "Casal (codireção)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40593,
+          "nome": "Produtor(a) titular através de um encarregado ou pessoa com laços de parentesco com o mesmo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40594,
+          "nome": "Administrador(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40595,
+          "nome": "Produtores (explorações comunitárias)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40596,
+          "nome": "Outra pessoa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46500,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 834,
+      "nome": "Finalidade principal da produção agropecuária do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46527,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46525,
+          "nome": "Consumo próprio e de pessoas com laços de parentescos com o produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46526,
+          "nome": "Comercialização da produção (inclusive troca ou escambo)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 835,
+      "nome": "Renda obtida com as atividades desenvolvidas no estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46528,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46529,
+          "nome": "Maior que as outras rendas obtidas pelo produtor - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46530,
+          "nome": "Maior que as outras rendas obtidas pelo produtor - não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46523,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46524,
+          "nome": "Outro local",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

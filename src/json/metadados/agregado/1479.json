@@ -1,0 +1,162 @@
+{
+  "id": 1479,
+  "nome": "Domicílios particulares permanentes por grupos de anos de estudo da pessoa responsável pelo domicílio e tipo de esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/1479",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11567,
+      "nome": "Grupos de anos de estudo da pessoa responsável pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92940,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92941,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92942,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92943,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92944,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92945,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92946,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11558,
+      "nome": "Tipo de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92855,
+          "nome": "Rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92856,
+          "nome": "Fossa séptica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92857,
+          "nome": "Fossa rudimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92858,
+          "nome": "Vala",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92859,
+          "nome": "Rio, lago ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92860,
+          "nome": "Outro escoadouro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92861,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

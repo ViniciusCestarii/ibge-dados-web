@@ -1,0 +1,446 @@
+{
+  "id": 2762,
+  "nome": "Número de estabelecimentos agropecuários, com agricultura familiar e não familiar, com produtor proprietário, por forma de obtenção das terras, naturalidade ou nacionalidade da pessoa que dirige o estabelecimento e grupos de atividade econômica - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2762",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2317,
+      "nome": "Número de estabelecimentos agropecuários com produtor proprietário, concessionário ou assentado sem titulação definitiva",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002317,
+      "nome": "Número de estabelecimentos agropecuários com produtor proprietário, concessionário ou assentado sem titulação definitiva - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12774,
+      "nome": "Forma de obtenção das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118260,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118213,
+          "nome": "Compra de particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118214,
+          "nome": "Compra via crédito fundiário (cédula da terra, Banco da terra, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118215,
+          "nome": "Titulação via reforma agrária, programa de reassentamento ou aguardando titulação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118216,
+          "nome": "Herança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118217,
+          "nome": "Doação particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118218,
+          "nome": "Usucapião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118219,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118220,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12557,
+      "nome": "Naturalidade ou nacionalidade da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112078,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112079,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112080,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112081,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112082,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112083,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112084,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112085,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112086,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112087,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112088,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112089,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112090,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112091,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112092,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112093,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112094,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112095,
+          "nome": "Espirito Santo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112096,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112097,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112098,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112099,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112100,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112101,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112102,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112103,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112104,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118082,
+          "nome": "Brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112107,
+          "nome": "Naturalizado brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112108,
+          "nome": "Alemanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112109,
+          "nome": "Espanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112110,
+          "nome": "Itália",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112111,
+          "nome": "Japão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112112,
+          "nome": "Polônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112113,
+          "nome": "Portugal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112114,
+          "nome": "Outro país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118083,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113601,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

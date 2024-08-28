@@ -1,0 +1,138 @@
+{
+  "id": 4883,
+  "nome": "Rendimento médio e mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade, por posse de telefone móvel celular para uso pessoal e grupos de anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/4883",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5014,
+      "nome": "Rendimento médio mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5624,
+      "nome": "Coeficiente de variação - Rendimento médio mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5015,
+      "nome": "Rendimento mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5625,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 427,
+      "nome": "Posse de telefone móvel celular para uso pessoal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 11326,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11327,
+          "nome": "Possuíam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11328,
+          "nome": "Não possuíam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95309,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3319,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1123,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1126,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1133,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1137,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2796,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

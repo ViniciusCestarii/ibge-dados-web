@@ -1,0 +1,114 @@
+{
+  "id": 9309,
+  "nome": "Pessoas de 2 anos ou mais de idade, por cor ou raça e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9309",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11852,
+      "nome": "Pessoas de 2 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11855,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11856,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11859,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

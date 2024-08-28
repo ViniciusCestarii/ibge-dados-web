@@ -1,0 +1,110 @@
+{
+  "id": 8269,
+  "nome": "Idade média das mulheres de 25 anos ou mais de idade quando fizeram a cirurgia para retirada do útero, por cor ou raça e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8269",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Saúde da mulher",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11877,
+      "nome": "Idade média das mulheres de 25 anos ou mais de idade quando fizeram a cirurgia para retirada do útero",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 11878,
+      "nome": "Idade média das mulheres de 25 anos ou mais de idade quando fizeram a cirurgia para retirada do útero, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 11879,
+      "nome": "Idade média das mulheres de 25 anos ou mais de idade quando fizeram a cirurgia para retirada do útero, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 11880,
+      "nome": "Coeficiente de variação - Idade média das mulheres de 25 anos ou mais de idade quando fizeram a cirurgia para retirada do útero",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

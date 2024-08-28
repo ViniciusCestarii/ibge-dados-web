@@ -1,0 +1,381 @@
+{
+  "id": 2580,
+  "nome": "Origem da receita operacional líquida das empresas com 20 ou mais pessoas ocupadas, segundo as atividades - CNAE 2.0",
+  "URL": "https://sidra.ibge.gov.br/tabela/2580",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Receitas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1561,
+      "nome": "Receita operacional líquida - total",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001561,
+      "nome": "Receita operacional líquida - total - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1562,
+      "nome": "Receita operacional líquida - mercado interno",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001562,
+      "nome": "Receita operacional líquida - mercado interno - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1563,
+      "nome": "Receita operacional líquida - mercado externo - informantes de exportação de mercadorias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001563,
+      "nome": "Receita operacional líquida - mercado externo - informantes de exportação de mercadorias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1564,
+      "nome": "Receita operacional líquida - mercado externo - exportação de mercadorias",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001564,
+      "nome": "Receita operacional líquida - mercado externo - exportação de mercadorias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1565,
+      "nome": "Receita operacional líquida - mercado externo - informantes de exportação de serviços",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001565,
+      "nome": "Receita operacional líquida - mercado externo - informantes de exportação de serviços - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1566,
+      "nome": "Receita operacional líquida - mercado externo - exportação de serviços",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001566,
+      "nome": "Receita operacional líquida - mercado externo - exportação de serviços - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12355,
+      "nome": "Atividades de serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 106829,
+          "nome": "1. Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106830,
+          "nome": "2. Serviços prestados às famílias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106831,
+          "nome": "2.1 Serviços de alojamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106832,
+          "nome": "2.2 Serviços de alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9277,
+          "nome": "2.3 Atividades culturais, recreativas e esportivas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106834,
+          "nome": "2.4 Serviços pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106835,
+          "nome": "2.5 Atividades de ensino continuado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9278,
+          "nome": "3. Serviços de informação e comunicação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106837,
+          "nome": "3.1 Telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9279,
+          "nome": "3.2 Tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106839,
+          "nome": "3.3 Serviços audiovisuais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9280,
+          "nome": "3.4 Edição e edição integrada à impressão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9281,
+          "nome": "3.5 Agências de notícias e outras atividades de serviços de informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9282,
+          "nome": "4. Serviços profissionais, administrativos e complementares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106842,
+          "nome": "4.1 Serviços técnico-profissionais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9283,
+          "nome": "4.2 Aluguéis não imobiliários e gestão de ativos intangíveis não financeiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9284,
+          "nome": "4.3 Seleção, agenciamento e locação de mão-de-obra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9285,
+          "nome": "4.4 Agências de viagens, operadores turísticos e outros serviços de turismo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9286,
+          "nome": "4.5 Serviços de investigação, vigilância, segurança e transporte de valores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9287,
+          "nome": "4.6 Serviços para edifícios e atividades paisagisticas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9288,
+          "nome": "4.7 Serviços de escritório e apoio administrativo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9289,
+          "nome": "4.8 Outros serviços prestados principalmente às empresas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106846,
+          "nome": "5. Transportes, serviços auxiliares aos transportes e correio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9290,
+          "nome": "5.1 Transporte e serviços auxiliares aos transportes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9291,
+          "nome": "5.1.1 Transporte ferroviário e metroferroviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9292,
+          "nome": "5.1.2 Transporte rodoviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9293,
+          "nome": "5.1.2.1 Transporte de passageiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 9294,
+          "nome": "5.1.2.2 Transporte de cargas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 9295,
+          "nome": "5.1.3 Transporte dutoviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9296,
+          "nome": "5.1.4 Transporte aquaviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9297,
+          "nome": "5.1.5 Transporte aéreo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9298,
+          "nome": "5.1.6 Armazenamento e atividades auxiliares aos transportes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9299,
+          "nome": "5.2 Correio e outras atividades de entrega",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9300,
+          "nome": "6. Atividades imobiliárias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9301,
+          "nome": "6.1 Compra, venda e aluguel de imóveis próprios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9302,
+          "nome": "6.2 Intermediação na compra, venda e aluguel de imoveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106860,
+          "nome": "7. Serviços de manutenção e reparação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106861,
+          "nome": "7.1 Manutenção e reparação de veículos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9303,
+          "nome": "7.2 Manutenção e reparação de equipamentos de informática e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9304,
+          "nome": "7.3 Manutenção e reparação de objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106864,
+          "nome": "8. Outras atividades de serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9305,
+          "nome": "8.1 Serviços auxiliares da agricultura, pecuária e produção florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9306,
+          "nome": "8.2 Serviços auxiliares financeiros, dos seguros e da previdência complementar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9307,
+          "nome": "8.3 Esgoto, coleta, tratamento e disposição de resíduos e recuperação de materiais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

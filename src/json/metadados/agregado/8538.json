@@ -1,0 +1,242 @@
+{
+  "id": 8538,
+  "nome": "Municípios com ocorrência de enxurradas e inundações bruscas nos últimos 4 anos, por áreas de ocorrência, por medidas implementadas para evitar ou minimizar os danos causados e por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/8538",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12444,
+      "nome": "Municípios atingidos por enchurradas ou inundações bruscas nos últimos 4 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1228,
+      "nome": "Áreas onde ocorreram enxurradas ou inundações bruscas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57262,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51104,
+          "nome": "Naturalmente inundáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51105,
+          "nome": "Não usualmente inundáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51106,
+          "nome": "Com ocupações regulares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51107,
+          "nome": "Com ocupações irregulares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51108,
+          "nome": "Com ocupações irregulares processo erosivo acelerado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51114,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51115,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1229,
+      "nome": "Existência de intervenções implementadas para evitar ou minimizar os danos causados por enxurradas ou inundações bruscas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57260,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57261,
+          "nome": "Com intervenção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51116,
+          "nome": "Barragem à montante para equalização das cheias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51117,
+          "nome": "Construção de canais de macrodrenagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51118,
+          "nome": "Construção de parque",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51119,
+          "nome": "Construção de reservatórios de amortecimento de cheias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51120,
+          "nome": "Desassoreamento de corpos hídricos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51121,
+          "nome": "Retificação de rios, aumento da calha ou desvio de cursos d'água",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51122,
+          "nome": "Realocação da população que vive em área de risco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51133,
+          "nome": "Revegetação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51134,
+          "nome": "Revitalização de rios ou bacias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51135,
+          "nome": "Outra solução",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51136,
+          "nome": "Nenhuma intervenção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51137,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

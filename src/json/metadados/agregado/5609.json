@@ -1,0 +1,79 @@
+{
+  "id": 5609,
+  "nome": "Número de inscrições de bens do Patrimônio Cultural Material, por tipo de Livro do Tombo",
+  "URL": "https://sidra.ibge.gov.br/tabela/5609",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Patrimônio cultural",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2014,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6301,
+      "nome": "Número de inscrições de bens do Patrimônio Cultural Material",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1006301,
+      "nome": "Número de inscrições de bens do Patrimônio Cultural Material - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 708,
+      "nome": "Tipo de Livro do Tombo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33522,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33518,
+          "nome": "Arqueológico, etnográfico e paisagístico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33519,
+          "nome": "Artes aplicadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33520,
+          "nome": "Belas artes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33521,
+          "nome": "Histórico",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 742,
+  "nome": "Número de famílias e Tamanho médio da família por cor ou raça da pessoa de referência da família e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/742",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12513,
+      "nome": "Cor ou raça da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111482,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111483,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111484,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111485,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

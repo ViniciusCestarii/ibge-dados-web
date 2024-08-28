@@ -1,0 +1,59 @@
+{
+  "id": 93,
+  "nome": "Taxa de rotatividade por classes de indústrias",
+  "URL": "https://sidra.ibge.gov.br/tabela/93",
+  "pesquisa": "Pesquisa Industrial Mensal - Dados Gerais",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198501,
+    "fim": 200104
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 27,
+      "nome": "Taxa de rotatividade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 7,
+      "nome": "Classes de indústrias",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 23,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 24,
+          "nome": "Indústria extrativa mineral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 25,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

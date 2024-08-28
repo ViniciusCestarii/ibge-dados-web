@@ -1,0 +1,141 @@
+{
+  "id": 5186,
+  "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, por nível de instrução e situação do domicílio (2013)",
+  "URL": "https://sidra.ibge.gov.br/tabela/5186",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5406,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5407,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5408,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5409,
+      "nome": "Coeficiente de variação - Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5410,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, em relação as que conseguiram atendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5411,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, em relação as que conseguiram atendimento, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5412,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, em relação as que conseguiram atendimento, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5413,
+      "nome": "Coeficiente de variação - Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e tiveram medicamento receitado, em relação as que conseguiram atendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

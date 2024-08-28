@@ -1,0 +1,83 @@
+{
+  "id": 1354,
+  "nome": "Número de municípios, total e os com coleta de esgoto sanitário, por tipo de rede coletora",
+  "URL": "https://sidra.ibge.gov.br/tabela/1354",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 336,
+      "nome": "Municípios com coleta de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000336,
+      "nome": "Municípios com coleta de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12005,
+      "nome": "Tipo de rede coletora de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101286,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98717,
+          "nome": "Total com coleta de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98718,
+          "nome": "Unitária ou mista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2074,
+          "nome": "Separadora convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2077,
+          "nome": "Separadora condominial",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

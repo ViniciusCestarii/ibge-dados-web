@@ -1,0 +1,300 @@
+{
+  "id": 1963,
+  "nome": "Número de estabelecimentos agropecuários, com agricultura familiar e não familiar, por tipo de fonte de energia elétrica usada, condição do produtor em relação às terras, residência da pessoa que dirige o estabelecimento e local de uso da energia elétrica - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1963",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12581,
+      "nome": "Tipo de fonte de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113560,
+          "nome": "Total de estabelecimentos agropecuários que utilizam energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113131,
+          "nome": "Externa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113132,
+          "nome": "Externa - comprada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113133,
+          "nome": "Externa - obtida por cessão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113134,
+          "nome": "Gerada no estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113135,
+          "nome": "Gerada no estabelecimento - por energia solar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113136,
+          "nome": "Gerada no estabelecimento - pelo vento (eólica)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113137,
+          "nome": "Gerada no estabelecimento - por energia hidráulica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113138,
+          "nome": "Gerada no estabelecimento - por queima de combustíveis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113139,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113561,
+          "nome": "Não utiliza",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113146,
+          "nome": "Não informado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12582,
+      "nome": "Local de uso da energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113147,
+          "nome": "Só na residência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113148,
+          "nome": "Só na atividade agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113149,
+          "nome": "Na residência e na atividade agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113150,
+          "nome": "Não utiliza",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

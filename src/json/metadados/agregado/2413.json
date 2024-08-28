@@ -1,0 +1,171 @@
+{
+  "id": 2413,
+  "nome": "Domicílios particulares permanentes com rendimento, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal dos domicílios particulares permamentes com rendimento por situação do domicílio e existência de serviços e bens duráveis",
+  "URL": "https://sidra.ibge.gov.br/tabela/2413",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11855,
+      "nome": "Existência de serviços e bens duráveis",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95809,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95781,
+          "nome": "Coleta de lixo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95782,
+          "nome": "Iluminação elétrica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95783,
+          "nome": "Linha telefônica instalada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95784,
+          "nome": "Forno de micro-ondas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95786,
+          "nome": "Geladeira ou freezer",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95788,
+          "nome": "Máquina de lavar roupa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95789,
+          "nome": "Aparelho de ar condicionado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95790,
+          "nome": "Rádio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95791,
+          "nome": "Televisão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95792,
+          "nome": "Videocassete",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95793,
+          "nome": "Microcomputador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95794,
+          "nome": "Automóvel para uso particular",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

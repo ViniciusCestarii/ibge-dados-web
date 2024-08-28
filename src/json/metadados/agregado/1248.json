@@ -1,0 +1,98 @@
+{
+  "id": 1248,
+  "nome": "Número de municípios, total e os que têm conhecimento da existência de catadores nas unidades de disposição de resíduos no solo, por tipo de trabalho social desenvolvido com os catadores",
+  "URL": "https://sidra.ibge.gov.br/tabela/1248",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2616,
+      "nome": "Municípios que têm conhecimento da existência de catadores nas unidades de disposição de resíduos no solo",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002616,
+      "nome": "Municípios que têm conhecimento da existência de catadores nas unidades de disposição de resíduos no solo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12211,
+      "nome": "Tipo de trabalho social desenvolvido com os catadores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121233,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103904,
+          "nome": "Total de municípios que têm conhecimento da existência de catadores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121234,
+          "nome": "Cadastro em unidades de disposição de resíduos no solo e encaminhamento a postos de trabalho e renda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121235,
+          "nome": "Encaminhamento a postos de trabalho e geração de renda em programas de coleta seletiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103908,
+          "nome": "Organização social dos catadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103909,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103910,
+          "nome": "Não existe trabalho social desenvolvido com os catadores",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

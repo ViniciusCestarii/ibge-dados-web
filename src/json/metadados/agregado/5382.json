@@ -1,0 +1,133 @@
+{
+  "id": 5382,
+  "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5382",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Violência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5896,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5897,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5898,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5899,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5900,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, em relação as que referiram ter sofrido alguma violência ou agressão de pessoa conhecida nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5901,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, em relação as que referiram ter sofrido alguma violência ou agressão de pessoa conhecida nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5902,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, em relação as que referiram ter sofrido alguma violência ou agressão de pessoa conhecida nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5903,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que sofreram violência ou agressão de pessoa conhecida nos últimos 12 meses e que tiveram alguma lesão corporal devido à violência ou agressão, em relação as que referiram ter sofrido alguma violência ou agressão de pessoa conhecida nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

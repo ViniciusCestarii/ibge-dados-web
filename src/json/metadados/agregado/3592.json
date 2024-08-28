@@ -1,0 +1,3826 @@
+{
+  "id": 3592,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, subgrupos principais, subgrupos e grupos de base da ocupação no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3592",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12397,
+      "nome": "Grandes grupos, subgrupos principais, subgrupos e grupos de base da ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 15966,
+          "nome": "1 Diretores e gerentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 15967,
+          "nome": "1.1 Diretores executivos, dirigentes da administração pública e membros do poder executivo e legislativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 15968,
+          "nome": "1.1.1 Membros superiores do poder executivo e legislativo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15969,
+          "nome": "1.1.1.1 Legisladores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15970,
+          "nome": "1.1.1.2 Dirigentes superiores da administração pública",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15971,
+          "nome": "1.1.1.3 Chefes de pequenas populações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15972,
+          "nome": "1.1.1.4 Dirigentes de organizações que apresentam um interesse especial",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15973,
+          "nome": "1.1.2 Diretores gerais e gerentes gerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15974,
+          "nome": "1.1.2.0 Diretores gerais e gerentes gerais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15975,
+          "nome": "1.2 Dirigentes administrativos e comerciais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 15976,
+          "nome": "1.2.1 Dirigentes de administração e de serviços",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15977,
+          "nome": "1.2.1.1 Dirigentes financeiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15978,
+          "nome": "1.2.1.2 Dirigentes de recursos humanos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15979,
+          "nome": "1.2.1.3 Dirigentes de políticas e planejamento",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15980,
+          "nome": "1.2.1.9 Dirigentes de administração e de serviços não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15981,
+          "nome": "1.2.2 Dirigentes de vendas, comercialização e desenvolvimento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15982,
+          "nome": "1.2.2.1 Dirigentes de vendas e comercialização",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15983,
+          "nome": "1.2.2.2 Dirigentes de publicidade e relações públicas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15984,
+          "nome": "1.2.2.3 Dirigentes de pesquisa e desenvolvimento",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15985,
+          "nome": "1.3 Dirigentes e gerentes de produção e operação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 15986,
+          "nome": "1.3.1 Dirigentes de produção agropecuária, silvicultura, aquicultura e pesca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15987,
+          "nome": "1.3.1.1 Dirigentes de produção agropecuária e silvicultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15988,
+          "nome": "1.3.1.2 Dirigentes de produção da aquicultura e pesca",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15989,
+          "nome": "1.3.2 Dirigentes de indústria de transformação, mineração, construção e distribuição",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15990,
+          "nome": "1.3.2.1 Dirigentes de indústria de transformação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15991,
+          "nome": "1.3.2.2 Dirigentes de explorações de mineração",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15992,
+          "nome": "1.3.2.3 Dirigentes de empresas de construção",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15993,
+          "nome": "1.3.2.4 Dirigentes de empresas de abastecimento, distribuição e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15994,
+          "nome": "1.3.3 Dirigentes de serviços de tecnologia da informação e comunicações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15995,
+          "nome": "1.3.3.0 Dirigentes de serviços de tecnologia da informação e comunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15996,
+          "nome": "1.3.4 Dirigentes e gerentes de serviços profissionais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 15997,
+          "nome": "1.3.4.1 Dirigentes de serviços de cuidados infantis",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15998,
+          "nome": "1.3.4.2 Dirigentes de serviços de saúde",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 15999,
+          "nome": "1.3.4.3 Dirigentes de serviços de cuidado a pessoas idosas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16000,
+          "nome": "1.3.4.4 Dirigentes de serviços de bem-estar social",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16001,
+          "nome": "1.3.4.5 Dirigentes de serviços de educação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16002,
+          "nome": "1.3.4.6 Gerentes de sucursais de bancos, de serviços financeiros e de seguros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16003,
+          "nome": "1.3.4.9 Dirigentes e gerentes de serviços profissionais não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16004,
+          "nome": "1.4 Gerentes de hotéis, restaurantes, comércios e outros serviços",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16005,
+          "nome": "1.4.1 Gerentes de hotéis e restaurantes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16006,
+          "nome": "1.4.1.1 Gerentes de hotéis",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16007,
+          "nome": "1.4.1.2 Gerentes de restaurantes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16008,
+          "nome": "1.4.2 Gerentes de comércios atacadistas e varejistas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16009,
+          "nome": "1.4.2.0 Gerentes de comércios atacadistas e varejistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16010,
+          "nome": "1.4.3 Outros gerentes de serviços",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16011,
+          "nome": "1.4.3.1 Gerentes de centros esportivos, de diversão e culturais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16012,
+          "nome": "1.4.3.9 Gerentes de serviços não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16013,
+          "nome": "2 Profissionais das ciências e intelectuais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 16014,
+          "nome": "2.1 Profissionais das ciências e da engenharia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16015,
+          "nome": "2.1.1 Físicos, químicos e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16016,
+          "nome": "2.1.1.1 Físicos e astrônomos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16017,
+          "nome": "2.1.1.2 Meteorologistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16018,
+          "nome": "2.1.1.3 Químicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16019,
+          "nome": "2.1.1.4 Geólogos e geofísicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16020,
+          "nome": "2.1.2 Matemáticos, atuários e estatísticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16021,
+          "nome": "2.1.2.0 Matemáticos, atuários e estatísticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16022,
+          "nome": "2.1.3 Profissionais em ciências biológicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16023,
+          "nome": "2.1.3.1 Biólogos, botânicos, zoólogos e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16024,
+          "nome": "2.1.3.2 Agrônomos e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16025,
+          "nome": "2.1.3.3 Profissionais da proteção do meio ambiente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16026,
+          "nome": "2.1.4 Engenheiros (exclusive eletrotecnólogos)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16027,
+          "nome": "2.1.4.1 Engenheiros industriais e de produção",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16028,
+          "nome": "2.1.4.2 Engenheiros civis",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16029,
+          "nome": "2.1.4.3 Engenheiros de meio ambiente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16030,
+          "nome": "2.1.4.4 Engenheiros mecânicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16031,
+          "nome": "2.1.4.5 Engenheiros químicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16032,
+          "nome": "2.1.4.6 Engenheiros de minas, metalúrgicos e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16033,
+          "nome": "2.1.4.9 Engenheiros não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16034,
+          "nome": "2.1.5 Engenheiros eletrotécnicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16035,
+          "nome": "2.1.5.1 Engenheiros eletricistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16036,
+          "nome": "2.1.5.2 Engenheiros eletrônicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16037,
+          "nome": "2.1.5.3 Engenheiros em telecomunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16038,
+          "nome": "2.1.6 Arquitetos, urbanistas, agrimensores e desenhistas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16039,
+          "nome": "2.1.6.1 Arquitetos de edificações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16040,
+          "nome": "2.1.6.2 Arquitetos paisagistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16041,
+          "nome": "2.1.6.3 Desenhistas de produtos e vestuário",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16042,
+          "nome": "2.1.6.4 Urbanistas e engenheiros de trânsito",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16043,
+          "nome": "2.1.6.5 Cartógrafos e agrimensores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16044,
+          "nome": "2.1.6.6 Desenhistas gráficos e de multimídia",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16045,
+          "nome": "2.2 Profissionais da saúde",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16046,
+          "nome": "2.2.1 Médicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16047,
+          "nome": "2.2.1.1 Médicos gerais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16048,
+          "nome": "2.2.1.2 Médicos especialistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16049,
+          "nome": "2.2.2 Profissionais de enfermagem e partos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16050,
+          "nome": "2.2.2.1 Profissionais de enfermagem",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16051,
+          "nome": "2.2.2.2 Profissionais de partos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16052,
+          "nome": "2.2.3 Profissionais da medicina tradicional e alternativa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16053,
+          "nome": "2.2.3.0 Profissionais da medicina tradicional e alternativa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16054,
+          "nome": "2.2.4 Paramédicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16055,
+          "nome": "2.2.4.0 Paramédicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16056,
+          "nome": "2.2.5 Veterinários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16057,
+          "nome": "2.2.5.0 Veterinários",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16058,
+          "nome": "2.2.6 Outros profissionais da saúde",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16059,
+          "nome": "2.2.6.1 Dentistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16060,
+          "nome": "2.2.6.2 Farmacêuticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16061,
+          "nome": "2.2.6.3 Profissionais da saúde e da higiene laboral e ambiental",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16062,
+          "nome": "2.2.6.4 Fisioterapeutas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16063,
+          "nome": "2.2.6.5 Dietistas e nutricionistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16064,
+          "nome": "2.2.6.6 Fonoaudiólogos e logopedistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16065,
+          "nome": "2.2.6.7 Optometristas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16066,
+          "nome": "2.2.6.9 Profissionais da saúde não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16067,
+          "nome": "2.3 Profissionais do ensino",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16068,
+          "nome": "2.3.1 Professores de universidades e do ensino superior",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16069,
+          "nome": "2.3.1.0 Professores de universidades e do ensino superior",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16070,
+          "nome": "2.3.2 Professores de formação profissional",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16071,
+          "nome": "2.3.2.0 Professores de formação profissional",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16072,
+          "nome": "2.3.3 Professores do ensino médio",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16073,
+          "nome": "2.3.3.0 Professores do ensino médio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16074,
+          "nome": "2.3.4 Professores do ensino fundamental e pré-escolar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16075,
+          "nome": "2.3.4.1 Professores do ensino fundamental",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16076,
+          "nome": "2.3.4.2 Professores do ensino pré-escolar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16077,
+          "nome": "2.3.5 Outros profissionais do ensino",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16078,
+          "nome": "2.3.5.1 Especialistas em métodos pedagógicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16079,
+          "nome": "2.3.5.2 Educadores para necessidades especiais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16080,
+          "nome": "2.3.5.3 Outros professores de idiomas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16081,
+          "nome": "2.3.5.4 Outros professores de música",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16082,
+          "nome": "2.3.5.5 Outros professores de artes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16083,
+          "nome": "2.3.5.6 Instrutores em tecnologias da informação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16084,
+          "nome": "2.3.5.9 Profissionais de ensino não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16085,
+          "nome": "2.4 Especialistas em organização da administração pública e de empresas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16086,
+          "nome": "2.4.1 Especialistas em finanças",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16087,
+          "nome": "2.4.1.1 Contadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16088,
+          "nome": "2.4.1.2 Assessores financeiros e em investimentos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16089,
+          "nome": "2.4.1.3 Analistas financeiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16090,
+          "nome": "2.4.2 Especialistas em organização de administração",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16091,
+          "nome": "2.4.2.1 Analistas de gestão e administração",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16092,
+          "nome": "2.4.2.2 Especialistas em políticas de administração",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16093,
+          "nome": "2.4.2.3 Especialistas em políticas e serviços de pessoal e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16094,
+          "nome": "2.4.2.4 Especialistas em formação de pessoal",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16095,
+          "nome": "2.4.3 Profissionais de vendas, comercialização e relações públicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16096,
+          "nome": "2.4.3.1 Profissionais da publicidade e da comercialização",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16097,
+          "nome": "2.4.3.2 Profissionais de relações públicas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16098,
+          "nome": "2.4.3.3 Profissionais de vendas técnicas e médicas (exclusive de tecnologia da informação e comunicações)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16099,
+          "nome": "2.4.3.4 Profissionais de vendas de tecnologia da informação e comunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16100,
+          "nome": "2.5 Profissionais de tecnologias da informação e comunicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16101,
+          "nome": "2.5.1 Desenvolvedores e analistas de programas e aplicativos (software) e multimídia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16102,
+          "nome": "2.5.1.1 Analistas de sistemas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16103,
+          "nome": "2.5.1.2 Desenvolvedores de programas e aplicativos (software)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16104,
+          "nome": "2.5.1.3 Desenvolvedores de páginas de internet (web) e multimídia",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16105,
+          "nome": "2.5.1.4 Programadores de aplicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16106,
+          "nome": "2.5.1.9 Desenvolvedores e analistas de programas e aplicativos (software) e multimídia não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16107,
+          "nome": "2.5.2 Especialistas em base de dados e em redes de computadores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16108,
+          "nome": "2.5.2.1 Desenhistas e administradores de bases de dados",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16109,
+          "nome": "2.5.2.2 Administradores de sistemas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16110,
+          "nome": "2.5.2.3 Profissionais em rede de computadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16111,
+          "nome": "2.5.2.9 Especialistas em base de dados e em redes de computadores não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16112,
+          "nome": "2.6 Profissionais em direito, em ciências sociais e culturais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16113,
+          "nome": "2.6.1 Profissionais em direito",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16114,
+          "nome": "2.6.1.1 Advogados e juristas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16115,
+          "nome": "2.6.1.2 Juízes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16116,
+          "nome": "2.6.1.9 Profissionais em direito não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16117,
+          "nome": "2.6.2 Arquivologistas, curadores de museus, bibliotecários e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16118,
+          "nome": "2.6.2.1 Arquivologistas e curadores de museus",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16119,
+          "nome": "2.6.2.2 Bibliotecários, documentaristas e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16120,
+          "nome": "2.6.3 Especialistas em ciências sociais e teologia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16121,
+          "nome": "2.6.3.1 Economistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16122,
+          "nome": "2.6.3.2 Sociólogos, antropólogos e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16123,
+          "nome": "2.6.3.3 Filósofos, historiadores e especialistas em ciência política",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16124,
+          "nome": "2.6.3.4 Psicólogos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16125,
+          "nome": "2.6.3.5 Assistentes sociais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16126,
+          "nome": "2.6.3.6 Ministros de cultos religiosos, missionários e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16127,
+          "nome": "2.6.4 Escritores, jornalistas e linguistas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16128,
+          "nome": "2.6.4.1 Escritores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16129,
+          "nome": "2.6.4.2 Jornalistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16130,
+          "nome": "2.6.4.3 Tradutores, intérpretes e linguistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16131,
+          "nome": "2.6.5 Artistas criativos e interpretativos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16132,
+          "nome": "2.6.5.1 Artistas plásticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16133,
+          "nome": "2.6.5.2 Músicos, cantores e compositores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16134,
+          "nome": "2.6.5.3 Bailarinos e coreógrafos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16135,
+          "nome": "2.6.5.4 Diretores de cinema, de teatro e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16136,
+          "nome": "2.6.5.5 Atores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16137,
+          "nome": "2.6.5.6 Locutores de rádio, televisão e outros meios de comunicação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16138,
+          "nome": "2.6.5.9 Artistas criativos e interpretativos não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16139,
+          "nome": "3 Técnicos e profissionais de nível médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 16140,
+          "nome": "3.1 Profissionais de nível médio das ciências e da engenharia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16141,
+          "nome": "3.1.1 Técnicos em ciências físicas e da engenharia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16142,
+          "nome": "3.1.1.1 Técnicos em ciências físicas e químicas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16143,
+          "nome": "3.1.1.2 Técnicos em engenharia civil",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16144,
+          "nome": "3.1.1.3 Eletrotécnicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16145,
+          "nome": "3.1.1.4 Técnicos em eletrônica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16146,
+          "nome": "3.1.1.5 Técnicos em engenharia mecânica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16147,
+          "nome": "3.1.1.6 Técnicos em química industrial",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16148,
+          "nome": "3.1.1.7 Técnicos em engenharia de minas e metalurgia",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16149,
+          "nome": "3.1.1.8 Desenhistas e projetistas técnicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16150,
+          "nome": "3.1.1.9 Técnicos em ciências físicas e da engenharia não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16151,
+          "nome": "3.1.2 Supervisores em engenharia de minas, de indústrias de transformação e da construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16152,
+          "nome": "3.1.2.1 Supervisores da mineração",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16153,
+          "nome": "3.1.2.2 Supervisores de indústrias de transformação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16154,
+          "nome": "3.1.2.3 Supervisores da construção",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16155,
+          "nome": "3.1.3 Técnicos em controle de processos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16156,
+          "nome": "3.1.3.1 Operadores de instalações de produção de energia",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16157,
+          "nome": "3.1.3.2 Operadores de incineradores, instalações de tratamento de água e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16158,
+          "nome": "3.1.3.3 Controladores de instalações de processamento de produtos químicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16159,
+          "nome": "3.1.3.4 Operadores de instalações de refino de petróleo e gás natural",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16160,
+          "nome": "3.1.3.5 Controladores de processos de produção de metais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16161,
+          "nome": "3.1.3.9 Técnicos em controle de processos não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16162,
+          "nome": "3.1.4 Técnicos e profissionais de nível médio em ciências biológicas e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16163,
+          "nome": "3.1.4.1 Técnicos e profissionais de nível médio em ciências biológicas (exclusive da medicina)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16164,
+          "nome": "3.1.4.2 Técnicos agropecuários",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16165,
+          "nome": "3.1.4.3 Técnicos florestais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16166,
+          "nome": "3.1.5 Técnicos e controladores da navegação marítima e aeronáutica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16167,
+          "nome": "3.1.5.1 Oficiais maquinistas em navegação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16168,
+          "nome": "3.1.5.2 Capitães, oficiais de coberta e práticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16169,
+          "nome": "3.1.5.3 Pilotos de aviação e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16170,
+          "nome": "3.1.5.4 Controladores de tráfego aéreo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16171,
+          "nome": "3.1.5.5 Técnicos em segurança aeronáutica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16172,
+          "nome": "3.2 Profissionais de nível médio da saúde e afins",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16173,
+          "nome": "3.2.1 Técnicos médicos e farmacêuticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16174,
+          "nome": "3.2.1.1 Técnicos em aparelhos de diagnóstico e tratamento médico",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16175,
+          "nome": "3.2.1.2 Técnicos de laboratórios médicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16176,
+          "nome": "3.2.1.3 Técnicos e assistentes farmacêuticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16177,
+          "nome": "3.2.1.4 Técnicos de próteses médicas e dentárias",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16178,
+          "nome": "3.2.2 Profissionais de nível médio de enfermagem e partos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16179,
+          "nome": "3.2.2.1 Profissionais de nível médio de enfermagem",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16180,
+          "nome": "3.2.2.2 Profissionais de nível médio de partos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16181,
+          "nome": "3.2.3 Profissionais de nível médio de medicina tradicional e alternativa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16182,
+          "nome": "3.2.3.0 Profissionais de nível médio de medicina tradicional e alternativa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16183,
+          "nome": "3.2.4 Técnicos e assistentes veterinários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16184,
+          "nome": "3.2.4.0 Técnicos e assistentes veterinários",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16185,
+          "nome": "3.2.5 Outros profissionais de nível médio da saúde",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16186,
+          "nome": "3.2.5.1 Dentistas auxiliares e ajudantes de odontologia",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16187,
+          "nome": "3.2.5.2 Técnicos em documentação sanitária",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16188,
+          "nome": "3.2.5.3 Trabalhadores comunitários da saúde",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16189,
+          "nome": "3.2.5.4 Técnicos em optometria e ópticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16190,
+          "nome": "3.2.5.5 Técnicos e assistentes fisioterapeutas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16191,
+          "nome": "3.2.5.6 Assistentes de medicina",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16192,
+          "nome": "3.2.5.7 Inspetores de saúde laboral, ambiental e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16193,
+          "nome": "3.2.5.8 Ajudantes de ambulâncias",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16194,
+          "nome": "3.2.5.9 Profissionais de nível médio da saúde não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16195,
+          "nome": "3.3 Profissionais de nível médio em operações financeiras e administrativas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16196,
+          "nome": "3.3.1 Profissionais de nível médio em finanças e matemática",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16197,
+          "nome": "3.3.1.1 Agentes e corretores de bolsa, câmbio e outros serviços financeiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16198,
+          "nome": "3.3.1.2 Agentes de empréstimos e financiamento",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16199,
+          "nome": "3.3.1.3 Contabilistas e guarda livros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16200,
+          "nome": "3.3.1.4 Profissionais de nível médio de serviços estatísticos, matemáticos e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16201,
+          "nome": "3.3.1.5 Avaliadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16202,
+          "nome": "3.3.2 Agentes e corretores comerciais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16203,
+          "nome": "3.3.2.1 Agentes de seguros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16204,
+          "nome": "3.3.2.2 Representantes comerciais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16205,
+          "nome": "3.3.2.3 Agentes de compras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16206,
+          "nome": "3.3.2.4 Corretores de comercialização",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16207,
+          "nome": "3.3.3 Agentes de serviços comerciais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16208,
+          "nome": "3.3.3.1 Despachantes aduaneiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16209,
+          "nome": "3.3.3.2 Organizadores de conferências e eventos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16210,
+          "nome": "3.3.3.3 Agentes de emprego e agenciadores de mão- de- obra",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16211,
+          "nome": "3.3.3.4 Agentes imobiliários",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16212,
+          "nome": "3.3.3.9 Agentes de serviços comerciais não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16213,
+          "nome": "3.3.4 Secretários administrativos e especializados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16214,
+          "nome": "3.3.4.1 Supervisores de secretaria",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16215,
+          "nome": "3.3.4.2 Secretários jurídicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16216,
+          "nome": "3.3.4.3 Secretários executivos e administrativos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16217,
+          "nome": "3.3.4.4 Secretários de medicina",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16218,
+          "nome": "3.3.5 Agentes da administração pública para aplicação da lei e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16219,
+          "nome": "3.3.5.1 Agentes aduaneiros e inspetores de fronteiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16220,
+          "nome": "3.3.5.2 Agentes da administração tributária",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16221,
+          "nome": "3.3.5.3 Agentes de serviços de seguridade social",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16222,
+          "nome": "3.3.5.4 Agentes de serviços de expedição de licenças e permissões",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16223,
+          "nome": "3.3.5.5 Inspetores de polícia e detetives",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16224,
+          "nome": "3.3.5.9 Agentes da administração pública para aplicação da lei e afins não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16225,
+          "nome": "3.4 Profissionais de nível médio de serviços jurídicos, sociais, culturais e afins",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16226,
+          "nome": "3.4.1 Profissionais de nível médio de serviços jurídicos, sociais e religiosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16227,
+          "nome": "3.4.1.1 Profissionais de nível médio do direito e serviços legais e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16228,
+          "nome": "3.4.1.2 Trabalhadores e assistentes sociais de nível médio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16229,
+          "nome": "3.4.1.3 Auxiliares leigos de religião",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16230,
+          "nome": "3.4.2 Trabalhadores do esporte e condicionamento físico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16231,
+          "nome": "3.4.2.1 Atletas e esportistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16232,
+          "nome": "3.4.2.2 Treinadores, instrutores e árbitros de atividades esportivas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16233,
+          "nome": "3.4.2.3 Instrutores de educação física e atividades recreativas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16234,
+          "nome": "3.4.3 Profissionais de nível médio em atividades culturais, artísticas e culinárias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16235,
+          "nome": "3.4.3.1 Fotógrafos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16236,
+          "nome": "3.4.3.2 Desenhistas e decoradores de interiores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16237,
+          "nome": "3.4.3.3 Técnicos em galerias de arte, museus e bibliotecas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16238,
+          "nome": "3.4.3.4 Chefes de cozinha",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16239,
+          "nome": "3.4.3.5 Outros profissionais de nível médio em atividades culturais e artísticas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16240,
+          "nome": "3.5 Técnicos de nível médio da tecnologia da informação e das comunicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16241,
+          "nome": "3.5.1 Técnicos em operações de tecnologia da informação e das comunicações e assistência ao usuário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16242,
+          "nome": "3.5.1.1 Técnicos em operações de tecnologia da informação e das comunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16243,
+          "nome": "3.5.1.2 Técnicos em assistência ao usuário de tecnologia da informação e das comunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16244,
+          "nome": "3.5.1.3 Técnicos de redes e sistemas de computadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16299,
+          "nome": "3.5.1.4 Técnicos da web",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16300,
+          "nome": "3.5.2 Técnicos em telecomunicações e radiodifusão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16301,
+          "nome": "3.5.2.1 Técnicos de radiodifusão e gravação audiovisual",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16302,
+          "nome": "3.5.2.2 Técnicos de engenharia de telecomunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16307,
+          "nome": "4 Trabalhadores de apoio administrativo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 16308,
+          "nome": "4.1 Escriturários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16309,
+          "nome": "4.1.1 Escriturários gerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16310,
+          "nome": "4.1.1.0 Escriturários gerais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16311,
+          "nome": "4.1.2 Secretários (geral)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16312,
+          "nome": "4.1.2.0 Secretários (geral)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16313,
+          "nome": "4.1.3 Operadores de máquinas de escritório",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16314,
+          "nome": "4.1.3.1 Operadores de máquinas de processamento de texto e mecanógrafos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16315,
+          "nome": "4.1.3.2 Operadores de entrada de dados",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16316,
+          "nome": "4.2 Trabalhadores de atendimento direto ao público",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16402,
+          "nome": "4.2.1 Caixas de banco, cobradores, pagadores e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16403,
+          "nome": "4.2.1.1 Caixas de banco e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16404,
+          "nome": "4.2.1.2 Coletores de apostas e de jogos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16405,
+          "nome": "4.2.1.3 Trabalhadores em escritórios de empréstimos e penhor",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16406,
+          "nome": "4.2.1.4 Cobradores e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16407,
+          "nome": "4.2.2 Trabalhadores de serviços de informação ao cliente",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16408,
+          "nome": "4.2.2.1 Trabalhadores de agências de viagem",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16409,
+          "nome": "4.2.2.2 Trabalhadores de centrais de atendimento",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16410,
+          "nome": "4.2.2.3 Telefonistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16411,
+          "nome": "4.2.2.4 Recepcionistas de hotéis",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16412,
+          "nome": "4.2.2.5 Trabalhadores dos serviços de informações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16415,
+          "nome": "4.2.2.6 Recepcionistas em geral",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16416,
+          "nome": "4.2.2.7 Entrevistadores de pesquisas de mercado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16417,
+          "nome": "4.2.2.9 Trabalhadores de serviços de informação ao cliente não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16418,
+          "nome": "4.3 Trabalhadores de cálculos numéricos e encarregados do registro de materiais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16419,
+          "nome": "4.3.1 Auxiliares contábeis e financeiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16420,
+          "nome": "4.3.1.1 Trabalhadores de contabilidade e cálculo de custos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16421,
+          "nome": "4.3.1.2 Trabalhadores de serviços estatísticos, financeiros e de seguros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16422,
+          "nome": "4.3.1.3 Trabalhadores encarregados de folha de pagamento",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16423,
+          "nome": "4.3.2 Trabalhadores encarregados de registros de materiais e de transportes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16424,
+          "nome": "4.3.2.1 Trabalhadores de controle de abastecimento e estoques",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16425,
+          "nome": "4.3.2.2 Trabalhadores de serviços de apoio à produção",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16426,
+          "nome": "4.3.2.3 Trabalhadores de serviços de transporte",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16427,
+          "nome": "4.4 Outros trabalhadores de apoio administrativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16428,
+          "nome": "4.4.1 Outros trabalhadores de apoio administrativo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16429,
+          "nome": "4.4.1.1 Trabalhadores de bibliotecas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16430,
+          "nome": "4.4.1.2 Trabalhadores de serviços de correios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16431,
+          "nome": "4.4.1.3 Codificadores de dados, revisores de provas de impressão e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16432,
+          "nome": "4.4.1.4 Outros escreventes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16433,
+          "nome": "4.4.1.5 Trabalhadores de arquivos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16434,
+          "nome": "4.4.1.6 Trabalhadores do serviço de pessoal",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16435,
+          "nome": "4.4.1.9 Trabalhadores de apoio administrativo não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16436,
+          "nome": "5 Trabalhadores dos serviços, vendedores dos comércios e mercados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 16437,
+          "nome": "5.1 Trabalhadores dos serviços pessoais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16438,
+          "nome": "5.1.1 Trabalhadores do serviço direto aos passageiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16439,
+          "nome": "5.1.1.1 Auxiliares de serviço de bordo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16489,
+          "nome": "5.1.1.2 Fiscais e cobradores de transportes públicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16490,
+          "nome": "5.1.1.3 Guias de turismo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16491,
+          "nome": "5.1.2 Cozinheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16492,
+          "nome": "5.1.2.0 Cozinheiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16493,
+          "nome": "5.1.3 Garçons e atendentes de bar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16494,
+          "nome": "5.1.3.1 Garçons",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16495,
+          "nome": "5.1.3.2 Atendentes de bar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16496,
+          "nome": "5.1.4 Cabeleireiros, especialistas em tratamento de beleza e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16497,
+          "nome": "5.1.4.1 Cabeleireiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16498,
+          "nome": "5.1.4.2 Especialistas em tratamento de beleza e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16499,
+          "nome": "5.1.5 Supervisores de manutenção e limpeza de edifícios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16500,
+          "nome": "5.1.5.1 Supervisores de manutenção e limpeza de edifícios em escritórios, hotéis e estabelecimentos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16501,
+          "nome": "5.1.5.2 Governantas e mordomos domésticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16502,
+          "nome": "5.1.5.3 Porteiros e zeladores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16503,
+          "nome": "5.1.6 Outros trabalhadores de serviços pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16504,
+          "nome": "5.1.6.1 Astrólogos, adivinhos e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16505,
+          "nome": "5.1.6.2 Acompanhantes e criados particulares",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16506,
+          "nome": "5.1.6.3 Trabalhadores de funerárias e embalsamadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16507,
+          "nome": "5.1.6.4 Cuidadores de animais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16508,
+          "nome": "5.1.6.5 Instrutores de autoescola",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16509,
+          "nome": "5.1.6.8 Trabalhadores do sexo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16510,
+          "nome": "5.1.6.9 Trabalhadores de serviços pessoais não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16560,
+          "nome": "5.2 Vendedores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16561,
+          "nome": "5.2.1 Vendedores de rua e postos de mercado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16562,
+          "nome": "5.2.1.1 Vendedores de quiosques e postos de mercados",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16563,
+          "nome": "5.2.1.2 Vendedores ambulantes de serviços de alimentação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16564,
+          "nome": "5.2.2 Comerciantes e vendedores de lojas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16565,
+          "nome": "5.2.2.1 Comerciantes de lojas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16566,
+          "nome": "5.2.2.2 Supervisores de lojas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16567,
+          "nome": "5.2.2.3 Balconistas e vendedores de lojas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16568,
+          "nome": "5.2.3 Caixas e expedidores de bilhetes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16569,
+          "nome": "5.2.3.0 Caixas e expedidores de bilhetes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16570,
+          "nome": "5.2.4 Outros vendedores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16571,
+          "nome": "5.2.4.1 Modelos de moda, arte e publicidade",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16572,
+          "nome": "5.2.4.2 Demonstradores de lojas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16573,
+          "nome": "5.2.4.3 Vendedores a domicilio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16574,
+          "nome": "5.2.4.4 Vendedores por telefone",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16575,
+          "nome": "5.2.4.5 Frentistas de posto de gasolina",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16576,
+          "nome": "5.2.4.6 Balconistas dos serviços de alimentação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16577,
+          "nome": "5.2.4.9 Vendedores não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16578,
+          "nome": "5.3 Trabalhadores dos cuidados pessoais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16579,
+          "nome": "5.3.1 Cuidadores de crianças e ajudantes de professores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16580,
+          "nome": "5.3.1.1 Cuidadores de crianças",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16581,
+          "nome": "5.3.1.2 Ajudantes de professores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16582,
+          "nome": "5.3.2 Trabalhadores de cuidados pessoais nos serviços de saúde",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16583,
+          "nome": "5.3.2.1 Trabalhadores de cuidados pessoais em instituições",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16584,
+          "nome": "5.3.2.2 Trabalhadores de cuidados pessoais a domicílios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16585,
+          "nome": "5.3.2.9 Trabalhadores de cuidados pessoais nos serviços de saúde não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16586,
+          "nome": "5.4 Trabalhadores dos serviços de proteção e segurança",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16587,
+          "nome": "5.4.1 Trabalhadores dos serviços de proteção e segurança",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16588,
+          "nome": "5.4.1.1 Bombeiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16589,
+          "nome": "5.4.1.2 Policiais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16590,
+          "nome": "5.4.1.3 Guardiões de presídios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16591,
+          "nome": "5.4.1.4 Guardas de segurança",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16592,
+          "nome": "5.4.1.9 Trabalhadores dos serviços de proteção e segurança não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16593,
+          "nome": "6 Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 16594,
+          "nome": "6.1 Agricultores e trabalhadores qualificados da agropecuária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16595,
+          "nome": "6.1.1 Agricultores e trabalhadores qualificados em atividades da agricultura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16596,
+          "nome": "6.1.1.1 Agricultores e trabalhadores qualificados em atividades da agricultura (exclusive hortas, viveiros e jardins)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16597,
+          "nome": "6.1.1.2 Agricultores e trabalhadores qualificados no cultivo de hortas, viveiros e jardins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16598,
+          "nome": "6.1.1.4 Agricultores e trabalhadores qualificados de cultivos mistos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16968,
+          "nome": "6.1.2 Criadores e trabalhadores qualificados da pecuária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16969,
+          "nome": "6.1.2.1 Criadores de gado e trabalhadores qualificados da criação de gado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16970,
+          "nome": "6.1.2.2 Avicultores e trabalhadores qualificados da avicultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16971,
+          "nome": "6.1.2.3 Apicultores, sericicultores e trabalhadores qualificados da apicultura e sericicultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16972,
+          "nome": "6.1.2.9 Outros criadores e trabalhadores qualificados da pecuária não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16973,
+          "nome": "6.1.3 Produtores e trabalhadores qualificados de exploração agropecuária mista",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16974,
+          "nome": "6.1.3.0 Produtores e trabalhadores qualificados de exploração agropecuária mista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16975,
+          "nome": "6.2 Trabalhadores florestais qualificados, pescadores e caçadores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 16976,
+          "nome": "6.2.1 Trabalhadores florestais qualificados e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 16977,
+          "nome": "6.2.1.0 Trabalhadores florestais qualificados e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 16978,
+          "nome": "6.2.2 Pescadores e caçadores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17000,
+          "nome": "6.2.2.1 Trabalhadores da aquicultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17001,
+          "nome": "6.2.2.4 Caçadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17002,
+          "nome": "6.2.2.5 Pescadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17179,
+          "nome": "7 Trabalhadores qualificados, operários e artesãos da construção, das artes mecânicas e outros ofícios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 17180,
+          "nome": "7.1 Trabalhadores qualificados e operários da construção exclusive eletricistas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17181,
+          "nome": "7.1.1 Trabalhadores da construção civil em obras estruturais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17182,
+          "nome": "7.1.1.1 Construtores de casas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17189,
+          "nome": "7.1.1.2 Pedreiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17190,
+          "nome": "7.1.1.3 Canteiros, cortadores e gravadores de pedras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17191,
+          "nome": "7.1.1.4 Trabalhadores em cimento e concreto armado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17192,
+          "nome": "7.1.1.5 Carpinteiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17193,
+          "nome": "7.1.1.9 Outros trabalhadores qualificados e operários da construção não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17194,
+          "nome": "7.1.2 Trabalhadores qualificados da construção (acabamento)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17195,
+          "nome": "7.1.2.1 Telhadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17196,
+          "nome": "7.1.2.2 Aplicadores de revestimentos cerâmicos, pastilhas, pedras e madeiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17197,
+          "nome": "7.1.2.3 Gesseiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17198,
+          "nome": "7.1.2.4 Instaladores de material isolante térmico e acústico",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17205,
+          "nome": "7.1.2.5 Vidraceiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17206,
+          "nome": "7.1.2.6 Bombeiros e encanadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17207,
+          "nome": "7.1.2.7 Mecânicos-instaladores de sistemas de refrigeração e climatização",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17208,
+          "nome": "7.1.3 Pintores, limpadores de fachadas e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17209,
+          "nome": "7.1.3.1 Pintores e empapeladores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17210,
+          "nome": "7.1.3.2 Lustradores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17211,
+          "nome": "7.1.3.3 Limpadores de fachadas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17212,
+          "nome": "7.2 Trabalhadores qualificados e operários da metalurgia, da construção mecânica e afins",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17213,
+          "nome": "7.2.1 Moldadores, soldadores, chapistas, caldeireiros, montadores de estruturas metálicas e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17214,
+          "nome": "7.2.1.1 Moldadores de metal e macheiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17215,
+          "nome": "7.2.1.2 Soldadores e oxicortadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17216,
+          "nome": "7.2.1.3 Chapistas e caldeireiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17217,
+          "nome": "7.2.1.4 Montadores de estruturas metálicas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17218,
+          "nome": "7.2.1.5 Aparelhadores e emendadores de cabos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17219,
+          "nome": "7.2.2 Ferreiros, ferramenteiros e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17220,
+          "nome": "7.2.2.1 Ferreiros e forjadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17221,
+          "nome": "7.2.2.2 Ferramenteiros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17222,
+          "nome": "7.2.2.3 Reguladores e operadores de máquinas-ferramentas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17223,
+          "nome": "7.2.2.4 Polidores de metais e afiadores de ferramentas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17224,
+          "nome": "7.2.3 Mecânicos e reparadores de máquinas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17225,
+          "nome": "7.2.3.1 Mecânicos e reparadores de veículos a motor",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17226,
+          "nome": "7.2.3.2 Mecânicos e reparadores de motores de avião",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17227,
+          "nome": "7.2.3.3 Mecânicos e reparadores de máquinas agrícolas e industriais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17228,
+          "nome": "7.2.3.4 Reparadores de bicicletas e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17229,
+          "nome": "7.3 Artesãos e operários das artes gráficas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17230,
+          "nome": "7.3.1 Artesãos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17231,
+          "nome": "7.3.1.1 Mecânicos e reparadores de instrumentos de precisão",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17232,
+          "nome": "7.3.1.2 Confeccionadores e afinadores de instrumentos musicais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17233,
+          "nome": "7.3.1.3 Joalheiros e lapidadores de gemas, artesãos de metais preciosos e semipreciosos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17234,
+          "nome": "7.3.1.4 Ceramistas e afins (preparação e fabricação)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17235,
+          "nome": "7.3.1.5 Cortadores, polidores, jateadores e gravadores de vidros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17236,
+          "nome": "7.3.1.6 Redatores de cartazes, pintores decorativos e gravadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17237,
+          "nome": "7.3.1.7 Artesãos de pedra, madeira, vime e materiais semelhantes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17238,
+          "nome": "7.3.1.8 Artesãos de tecidos, couros e materiais semelhantes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17239,
+          "nome": "7.3.1.9 Artesãos não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17240,
+          "nome": "7.3.2 Trabalhadores qualificados e operários das artes gráficas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17241,
+          "nome": "7.3.2.1 Trabalhadores da pré-impressão gráfica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17242,
+          "nome": "7.3.2.2 Impressores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17243,
+          "nome": "7.3.2.3 Encadernadores e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17244,
+          "nome": "7.4 Trabalhadores especializados em eletricidade e eletrônica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17266,
+          "nome": "7.4.1 Instaladores e reparadores de equipamentos elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17267,
+          "nome": "7.4.1.1 Eletricistas de obras e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17268,
+          "nome": "7.4.1.2 Mecânicos e ajustadores eletricistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17269,
+          "nome": "7.4.1.3 Instaladores e reparadores de linhas elétricas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17270,
+          "nome": "7.4.2 Instaladores e reparadores de equipamentos eletrônicos e de telecomunicações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17271,
+          "nome": "7.4.2.1 Mecânicos e reparadores em eletrônica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17332,
+          "nome": "7.4.2.2 Instaladores e reparadores em tecnologias da informação e comunicações",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17333,
+          "nome": "7.5 Operários e oficiais de processamento de alimentos, da madeira, da confecção e afins",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17334,
+          "nome": "7.5.1 Trabalhadores qualificados do processamento de alimentos e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17335,
+          "nome": "7.5.1.1 Magarefes e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17336,
+          "nome": "7.5.1.2 Padeiros, confeiteiros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17337,
+          "nome": "7.5.1.3 Trabalhadores da pasteurização do leite e fabricação de laticínios e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17338,
+          "nome": "7.5.1.4 Trabalhadores da conservação de frutas, legumes e similares",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17339,
+          "nome": "7.5.1.5 Trabalhadores da degustação e classificação de alimentos e bebidas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17340,
+          "nome": "7.5.1.6 Trabalhadores qualificados da preparação do fumo e seus produtos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17341,
+          "nome": "7.5.2 Trabalhadores qualificados do tratamento da madeira, marceneiros e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17342,
+          "nome": "7.5.2.1 Trabalhadores de tratamento e preparação da madeira",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17343,
+          "nome": "7.5.2.2 Marceneiros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17344,
+          "nome": "7.5.2.3 Operadores de máquinas de lavrar madeira",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17345,
+          "nome": "7.5.3 Trabalhadores qualificados e operários da confecção de roupas, calçados e acessórios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17346,
+          "nome": "7.5.3.1 Alfaiates, modistas, chapeleiros e peleteiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17347,
+          "nome": "7.5.3.2 Trabalhadores qualificados da preparação da confecção de roupas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17348,
+          "nome": "7.5.3.3 Costureiros, bordadeiros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17349,
+          "nome": "7.5.3.4 Tapeceiros, colchoeiros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17350,
+          "nome": "7.5.3.5 Trabalhadores qualificados do tratamento de couros e peles",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17351,
+          "nome": "7.5.3.6 Sapateiros e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17359,
+          "nome": "7.5.4 Outros trabalhadores qualificados e operários da indústria e do artesanato",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17360,
+          "nome": "7.5.4.1 Trabalhadores subaquáticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17361,
+          "nome": "7.5.4.2 Dinamitadores e detonadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17362,
+          "nome": "7.5.4.3 Classificadores e provadores de produtos (exceto de bebidas e alimentos)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17363,
+          "nome": "7.5.4.4 Fumigadores e outros controladores de pragas e ervas daninhas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17364,
+          "nome": "7.5.4.9 Outros trabalhadores qualificados e operários da indústria e do artesanato não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17365,
+          "nome": "8 Operadores de instalações e máquinas e montadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 17366,
+          "nome": "8.1 Operadores de instalações fixas e máquinas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17367,
+          "nome": "8.1.1 Operadores de instalações mineradoras e de extração e processamento de minerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17368,
+          "nome": "8.1.1.1 Mineiros e operadores de máquinas e de instalações em minas e pedreiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17369,
+          "nome": "8.1.1.2 Operadores de instalações de processamento de minerais e rochas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17370,
+          "nome": "8.1.1.3 Perfuradores e sondadores de poços e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17371,
+          "nome": "8.1.1.4 Operadores de máquinas para fabricar cimento, pedras e outros produtos minerais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17372,
+          "nome": "8.1.2 Operadores de instalações de processamento e recobridoras de metais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17373,
+          "nome": "8.1.2.1 Operadores de instalações de processamento de metais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17374,
+          "nome": "8.1.2.2 Operadores de máquinas polidoras, galvanizadoras e recobridoras de metais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17375,
+          "nome": "8.1.3 Operadores de instalações e máquinas de produtos químicos e fotográficos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17376,
+          "nome": "8.1.3.1 Operadores de instalações e máquinas de produtos químicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17377,
+          "nome": "8.1.3.2 Operadores de máquinas para fabricar produtos fotográficos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17378,
+          "nome": "8.1.4 Operadores de máquinas para fabricar produtos de borracha, de papel e de material plástico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17379,
+          "nome": "8.1.4.1 Operadores de máquinas para fabricar produtos de borracha",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17380,
+          "nome": "8.1.4.2 Operadores de máquinas para fabricar produtos de material plástico",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17381,
+          "nome": "8.1.4.3 Operadores de máquinas para fabricar produtos de papel",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17382,
+          "nome": "8.1.5 Operadores de máquinas para fabricar produtos de têxteis e artigos de couro e pele",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17383,
+          "nome": "8.1.5.1 Operadores de máquinas de preparação de fibras, fiação e bobinamento de fios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17384,
+          "nome": "8.1.5.2 Operadores de teares e outras máquinas de tecelagem",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17385,
+          "nome": "8.1.5.3 Operadores de máquinas de costura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17386,
+          "nome": "8.1.5.4 Operadores de máquinas de branqueamento, tingimento e limpeza de tecidos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17387,
+          "nome": "8.1.5.5 Operadores de máquinas de processamento de couros e peles",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17388,
+          "nome": "8.1.5.6 Operadores de máquinas para fabricação de calçados e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17506,
+          "nome": "8.1.5.7 Operadores de máquinas de lavar, tingir e passar roupas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17507,
+          "nome": "8.1.5.9 Operadores de máquinas para fabricar produtos têxteis e artigos de couro e pele não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17508,
+          "nome": "8.1.6 Operadores de máquinas para elaborar alimentos e produtos afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17509,
+          "nome": "8.1.6.0 Operadores de máquinas para elaborar alimentos e produtos afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17510,
+          "nome": "8.1.7 Operadores de instalações para a preparação de papel e de processamento de madeira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17511,
+          "nome": "8.1.7.1 Operadores de instalações para a preparação de pasta de papel e papel",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17512,
+          "nome": "8.1.7.2 Operadores de instalações para processamento de madeira",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17513,
+          "nome": "8.1.8 Outros operadores de instalações fixas e máquinas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17514,
+          "nome": "8.1.8.1 Operadores de instalações de vidraria e cerâmica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17515,
+          "nome": "8.1.8.2 Operadores de máquinas de vapor e caldeiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17516,
+          "nome": "8.1.8.3 Operadores de máquinas de embalagem, engarrafamento e etiquetagem",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17517,
+          "nome": "8.1.8.9 Operadores de máquinas e de instalações fixas não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17518,
+          "nome": "8.2 Montadores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17519,
+          "nome": "8.2.1 Montadores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17520,
+          "nome": "8.2.1.1 Mecânicos montadores de maquinaria mecânica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17521,
+          "nome": "8.2.1.2 Montadores de equipamentos elétricos e eletrônicos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17522,
+          "nome": "8.2.1.9 Montadores não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17523,
+          "nome": "8.3 Condutores de veículos e operadores de equipamentos móveis pesados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17524,
+          "nome": "8.3.1 Maquinistas de locomotivas e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17525,
+          "nome": "8.3.1.1 Maquinistas de locomotivas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17526,
+          "nome": "8.3.1.2 Guarda-freios e agentes de manobras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17527,
+          "nome": "8.3.2 Condutores de automóveis, caminhonetes e motocicletas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17528,
+          "nome": "8.3.2.1 Condutores de motocicletas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17529,
+          "nome": "8.3.2.2 Condutores de automóveis, taxis e caminhonetes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17530,
+          "nome": "8.3.3 Condutores de caminhões pesados e ônibus",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17531,
+          "nome": "8.3.3.1 Condutores de ônibus e bondes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17532,
+          "nome": "8.3.3.2 Condutores de caminhões pesados",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17533,
+          "nome": "8.3.4 Operadores de equipamentos móveis pesados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17534,
+          "nome": "8.3.4.1 Operadores de máquinas agrícolas e florestais móveis",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17535,
+          "nome": "8.3.4.2 Operadores de máquinas de movimentação de terras e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17536,
+          "nome": "8.3.4.3 Operadores de guindastes, gruas, aparatos de elevação e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17537,
+          "nome": "8.3.4.4 Operadores de empilhadeiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17538,
+          "nome": "8.3.5 Marinheiros de coberta e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17539,
+          "nome": "8.3.5.0 Marinheiros de coberta e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17540,
+          "nome": "9 Ocupações elementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 17541,
+          "nome": "9.1 Trabalhadores domésticos e outros trabalhadores de limpeza de interior de edifícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17542,
+          "nome": "9.1.1 Trabalhadores domésticos e outros trabalhadores de limpeza de interior de edifícios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17543,
+          "nome": "9.1.1.1 Trabalhadores dos serviços domésticos em geral",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17544,
+          "nome": "9.1.1.2 Trabalhadores de limpeza de interior de edifícios, escritórios, hotéis e outros estabelecimentos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17556,
+          "nome": "9.1.2 Lavadores de veículos, janelas, roupas e outras limpezas manuais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17557,
+          "nome": "9.1.2.1 Lavadeiros de roupas e passadeiros manuais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17558,
+          "nome": "9.1.2.2 Lavadores de veículos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17559,
+          "nome": "9.1.2.3 Limpadores de janelas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17560,
+          "nome": "9.1.2.9 Outros trabalhadores de limpeza",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17561,
+          "nome": "9.2 Trabalhadores elementares da agropecuária, da pesca e florestais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17562,
+          "nome": "9.2.1 Trabalhadores elementares da agropecuária, da pesca e florestais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17563,
+          "nome": "9.2.1.1 Trabalhadores elementares da agricultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17564,
+          "nome": "9.2.1.2 Trabalhadores elementares da pecuária",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17565,
+          "nome": "9.2.1.3 Trabalhadores elementares da agropecuária",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17566,
+          "nome": "9.2.1.4 Trabalhadores elementares da jardinagem e horticultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17567,
+          "nome": "9.2.1.5 Trabalhadores florestais elementares",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17568,
+          "nome": "9.2.1.6 Trabalhadores elementares da caça, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17569,
+          "nome": "9.3 Trabalhadores elementares da mineração, da construção, da indústria de transformação e do transporte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17570,
+          "nome": "9.3.1 Trabalhadores elementares da mineração e da construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17571,
+          "nome": "9.3.1.1 Trabalhadores elementares de minas e pedreiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17572,
+          "nome": "9.3.1.2 Trabalhadores elementares de obras públicas e da manutenção de estradas, represas e similares",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17573,
+          "nome": "9.3.1.3 Trabalhadores elementares da construção de edifícios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17574,
+          "nome": "9.3.2 Trabalhadores elementares da indústria de transformação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17575,
+          "nome": "9.3.2.1 Empacotadores manuais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17576,
+          "nome": "9.3.2.9 Trabalhadores elementares da indústria de transformação não classificados anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17577,
+          "nome": "9.3.3 Trabalhadores elementares do transporte e armazenamento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17578,
+          "nome": "9.3.3.1 Condutores de veículos acionados a pedal ou a braços",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17579,
+          "nome": "9.3.3.2 Condutores de veículos e máquinas de tração animal",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17580,
+          "nome": "9.3.3.3 Carregadores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17581,
+          "nome": "9.3.3.4 Repositores de prateleiras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17582,
+          "nome": "9.4 Ajudantes de preparação de alimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17583,
+          "nome": "9.4.1 Ajudantes de preparação de alimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17584,
+          "nome": "9.4.1.1 Preparadores de comidas rápidas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17585,
+          "nome": "9.4.1.2 Ajudantes de cozinha",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17586,
+          "nome": "9.5 Trabalhadores ambulantes dos serviços e afins",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17587,
+          "nome": "9.5.1 Trabalhadores ambulantes dos serviços e afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17588,
+          "nome": "9.5.1.0 Trabalhadores ambulantes dos serviços e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17589,
+          "nome": "9.5.2 Vendedores ambulantes (exclusive de serviços de alimentação)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17590,
+          "nome": "9.5.2.0 Vendedores ambulantes (exclusive de serviços de alimentação)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17591,
+          "nome": "9.6 Coletores de lixo e outras ocupações elementares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17592,
+          "nome": "9.6.1 Coletores de lixo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17593,
+          "nome": "9.6.1.1 Coletores de lixo e material reciclável",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17594,
+          "nome": "9.6.1.2 Classificadores de resíduos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17595,
+          "nome": "9.6.1.3 Varredores e afins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17596,
+          "nome": "9.6.2 Outras ocupações elementares",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17597,
+          "nome": "9.6.2.1 Mensageiros, carregadores de bagagens e entregadores de encomendas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17598,
+          "nome": "9.6.2.2 Pessoas que realizam várias tarefas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17599,
+          "nome": "9.6.2.3 Coletores de dinheiro em máquinas automáticas de venda e leitores de medidores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17600,
+          "nome": "9.6.2.4 Carregadores de água e coletores de lenha",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17601,
+          "nome": "9.6.2.9 Outras ocupações elementares não classificadas anteriormente",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17602,
+          "nome": "10 Membros das forças armadas, policiais e bombeiros militares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 17603,
+          "nome": "10.1 Oficiais das forças armadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17604,
+          "nome": "10.1.1 Oficiais das forças armadas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17605,
+          "nome": "10.1.1.9 Oficiais das forças armadas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17606,
+          "nome": "10.2 Graduados e praças das forças armadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17607,
+          "nome": "10.2.1 Graduados e praças das forças armadas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17608,
+          "nome": "10.2.1.9 Graduados e praças das forças armadas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17609,
+          "nome": "10.3 Militares das forças armadas não especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17610,
+          "nome": "10.4 Policiais militares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17611,
+          "nome": "10.4.1 Policiais militares",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17612,
+          "nome": "10.4.1.8 Oficiais de polícia militar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17613,
+          "nome": "10.4.1.9 Graduados e praças da polícia militar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17614,
+          "nome": "10.5 Bombeiros militares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17615,
+          "nome": "10.5.1 Bombeiros militares",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 17616,
+          "nome": "10.5.1.8 Oficiais de bombeiro militar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17617,
+          "nome": "10.5.1.9 Graduados e praças do corpo de bombeiros",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 17618,
+          "nome": "10.6 Bombeiros e policiais militares não especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17619,
+          "nome": "10.7 Membros das forças armadas, policiais e bombeiros militares não especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 17620,
+          "nome": "11 Ocupações maldefinidas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": 1735,
+  "nome": "Dados gerais das unidades locais por faixas de pessoal ocupado total, segundo seção da classificação de atividades, em nível Brasil, Grandes Regiões, Unidades da Federação e Municipíos",
+  "URL": "https://sidra.ibge.gov.br/tabela/1735",
+  "pesquisa": "Cadastro Central de Empresas",
+  "assunto": "Unidades locais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1996,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 706,
+      "nome": "Número de unidades locais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000706,
+      "nome": "Número de unidades locais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 707,
+      "nome": "Pessoal ocupado total",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000707,
+      "nome": "Pessoal ocupado total - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 708,
+      "nome": "Pessoal ocupado assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000708,
+      "nome": "Pessoal ocupado assalariado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 709,
+      "nome": "Salários",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000709,
+      "nome": "Salários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 319,
+      "nome": "Faixas de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7823,
+          "nome": "0 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7824,
+          "nome": "5 a 9",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7825,
+          "nome": "10 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101226,
+          "nome": "20 a 29",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96894,
+          "nome": "30 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7827,
+          "nome": "50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7828,
+          "nome": "100 a 249",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99734,
+          "nome": "250 a 499",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7830,
+          "nome": "500 ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11939,
+      "nome": "Classificação Nacional de Atividades Econômicas (CNAE)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 96897,
+          "nome": "A Agricultura, pecuária, silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96909,
+          "nome": "B Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96912,
+          "nome": "C Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96925,
+          "nome": "D Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97052,
+          "nome": "E Produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97059,
+          "nome": "F Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97067,
+          "nome": "G Comércio; reparação de veículos automotores, objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97091,
+          "nome": "H Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97096,
+          "nome": "I Transporte, armazenagem e comunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97125,
+          "nome": "J Intermediação financeira, seguros, previdência complementar e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97140,
+          "nome": "K Atividades imobiliárias, aluguéis e serviços prestados às empresas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97169,
+          "nome": "L Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97174,
+          "nome": "M Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97180,
+          "nome": "N Saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97185,
+          "nome": "O Outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97201,
+          "nome": "P Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97204,
+          "nome": "Q Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

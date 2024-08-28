@@ -1,0 +1,128 @@
+{
+  "id": 6739,
+  "nome": "Domicílios e Moradores, por tipo de combustível utilizado na preparação de alimentos",
+  "URL": "https://sidra.ibge.gov.br/tabela/6739",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10250,
+      "nome": "Percentual de domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10251,
+      "nome": "Coeficiente de variação - Percentual de domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10114,
+      "nome": "Moradores em domicílios",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10116,
+      "nome": "Coeficiente de variação - Moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10252,
+      "nome": "Percentual de moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10253,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 828,
+      "nome": "Combustível utilizado na preparação de alimentos",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47898,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46298,
+          "nome": "Gás de botijão ou encanado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47928,
+          "nome": "Gás de botijão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47929,
+          "nome": "Gás encanado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46299,
+          "nome": "Lenha ou carvão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46300,
+          "nome": "Energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46301,
+          "nome": "Outro combustível",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

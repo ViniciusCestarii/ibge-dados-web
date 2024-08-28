@@ -1,0 +1,106 @@
+{
+  "id": 3382,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por forma de abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/3382",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N17"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10970,
+          "nome": "Rede geral de distribuição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10971,
+          "nome": "Poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121290,
+          "nome": "Poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121373,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121292,
+          "nome": "Água da chuva armazenada em cisterna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121293,
+          "nome": "Água da chuva armazenada de outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121294,
+          "nome": "Rio, açude, lago ou igarapé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121295,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

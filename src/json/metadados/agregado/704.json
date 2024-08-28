@@ -1,0 +1,72 @@
+{
+  "id": 704,
+  "nome": "Nascidos vivos ocorridos no ano por local do nascimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/704",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Nascidos vivos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 218,
+      "nome": "Nascidos vivos ocorridos no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000218,
+      "nome": "Nascidos vivos ocorridos no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 237,
+      "nome": "Local do nascimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5349,
+          "nome": "Hospital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5350,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5351,
+          "nome": "Outro local",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

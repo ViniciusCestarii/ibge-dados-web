@@ -1,0 +1,122 @@
+{
+  "id": 7409,
+  "nome": "Rendimento médio mensal real domiciliar per capita, por situação do domicílio e existência de telefone",
+  "URL": "https://sidra.ibge.gov.br/tabela/7409",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4196,
+      "nome": "Rendimento médio mensal real domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4197,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12062,
+      "nome": "Existência de telefone",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31344,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48522,
+          "nome": "Havia telefone",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48527,
+          "nome": "Havia telefone fixo convencional",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48523,
+          "nome": "Havia somente telefone fixo convencional",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 48594,
+          "nome": "Havia telefone móvel celular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48524,
+          "nome": "Havia somente telefone móvel celular",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 48525,
+          "nome": "Havia telefone fixo convencional e telefone móvel celular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48526,
+          "nome": "Não havia telefone",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

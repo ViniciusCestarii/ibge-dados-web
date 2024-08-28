@@ -1,0 +1,119 @@
+{
+  "id": 6397,
+  "nome": "Taxas de desocupação e de subutilização da força de trabalho, na semana de referência, das pessoas de 14 anos ou mais de idade, por grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/6397",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4099,
+      "nome": "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4103,
+      "nome": "Coeficiente de variação - Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4114,
+      "nome": "Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4115,
+      "nome": "Coeficiente de variação - Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4116,
+      "nome": "Taxa combinada de desocupação e força de trabalho potencial, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4117,
+      "nome": "Coeficiente de variação - Taxa combinada de desocupação e força de trabalho potencial, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4118,
+      "nome": "Taxa composta de subutilização da força de trabalho, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4119,
+      "nome": "Coeficiente de variação - Taxa composta de subutilização da força de trabalho, na semana de referência, das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114535,
+          "nome": "14 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108875,
+          "nome": "25 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

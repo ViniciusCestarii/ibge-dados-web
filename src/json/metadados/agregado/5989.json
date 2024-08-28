@@ -1,0 +1,92 @@
+{
+  "id": 5989,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/5989",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Informações gerais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

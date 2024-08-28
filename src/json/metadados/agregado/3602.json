@@ -1,0 +1,490 @@
+{
+  "id": 3602,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por local de exercício do trabalho principal e sexo, segundo a cor ou raça, o nível de instrução, os grupos de idade e a seção de atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3602",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 469,
+      "nome": "Local de exercício do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12167,
+          "nome": "Município de residência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12168,
+          "nome": "Município de residência - no domicílio de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12169,
+          "nome": "Município de residência - fora do domicílio de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12188,
+          "nome": "Outro município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12189,
+          "nome": "País estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12190,
+          "nome": "Mais de um município ou país",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2781,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11626,
+          "nome": "Não determinado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 110992,
+          "nome": "18 ou 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1148,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1149,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1150,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1151,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3520,
+          "nome": "60 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3244,
+          "nome": "70 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11805,
+      "nome": "Seção de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12640,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12641,
+          "nome": "Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12642,
+          "nome": "Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12643,
+          "nome": "Eletricidade e gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12644,
+          "nome": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95377,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12645,
+          "nome": "Comércio; reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12646,
+          "nome": "Transporte, armazenagem e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95379,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12647,
+          "nome": "Informação e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12648,
+          "nome": "Atividades financeiras, de seguros e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9205,
+          "nome": "Atividades imobiliárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12649,
+          "nome": "Atividades profissionais, científicas e técnicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12650,
+          "nome": "Atividades administrativas e serviços complementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95383,
+          "nome": "Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95384,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12651,
+          "nome": "Saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12652,
+          "nome": "Artes, cultura, esporte e recreação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12653,
+          "nome": "Outras atividades de serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95387,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99809,
+          "nome": "Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99810,
+          "nome": "Atividades mal especificadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

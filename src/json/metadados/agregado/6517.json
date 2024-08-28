@@ -1,0 +1,106 @@
+{
+  "id": 6517,
+  "nome": "Número de leitos, total, simples e duplos, dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas, por tipos de unidades habitacionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/6517",
+  "pesquisa": "Pesquisa de Serviços de Hospedagem",
+  "assunto": "Hospedagem",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9303,
+      "nome": "Número de leitos dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009303,
+      "nome": "Número de leitos dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9301,
+      "nome": "Número de leitos simples dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009301,
+      "nome": "Número de leitos simples dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9302,
+      "nome": "Número de leitos duplos dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009302,
+      "nome": "Número de leitos duplos dos estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 495,
+      "nome": "Tipos de unidades habitacionais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40481,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12861,
+          "nome": "Suítes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12863,
+          "nome": "Apartamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12865,
+          "nome": "Quartos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12867,
+          "nome": "Chalés",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

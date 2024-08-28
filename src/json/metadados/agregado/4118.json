@@ -1,0 +1,194 @@
+{
+  "id": 4118,
+  "nome": "Número de estabelecimentos agropecuários com produção no ano e Valor da produção no ano, por tipo de produção e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4118",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 40,
+      "nome": "Número de estabelecimentos agropecuários com produção",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000040,
+      "nome": "Número de estabelecimentos agropecuários com produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1999,
+      "nome": "Valor da produção dos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001999,
+      "nome": "Valor da produção dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12547,
+      "nome": "Tipo de produção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114017,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111995,
+          "nome": "Animal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111996,
+          "nome": "Animal - de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111997,
+          "nome": "Animal - de médio porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111998,
+          "nome": "Animal - aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116238,
+          "nome": "Animal - pequenos animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111999,
+          "nome": "Vegetal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112000,
+          "nome": "Vegetal - lavouras permanentes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112001,
+          "nome": "Vegetal - lavouras temporárias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112002,
+          "nome": "Vegetal - horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116239,
+          "nome": "Vegetal - floricultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112003,
+          "nome": "Vegetal - silvicultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112004,
+          "nome": "Vegetal - extração vegetal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112005,
+          "nome": "Agroindústria",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

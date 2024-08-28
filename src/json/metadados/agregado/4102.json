@@ -1,0 +1,182 @@
+{
+  "id": 4102,
+  "nome": "Efetivo da pecuária nos estabelecimentos agropecuários em 31/12, por espécie de efetivo e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4102",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2209,
+      "nome": "Número de cabeças",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002209,
+      "nome": "Número de cabeças - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12443,
+      "nome": "Espécie da pecuária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110056,
+          "nome": "Bovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110057,
+          "nome": "Bubalinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110058,
+          "nome": "Equinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110059,
+          "nome": "Asininos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110060,
+          "nome": "Muares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110061,
+          "nome": "Caprinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110062,
+          "nome": "Ovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110063,
+          "nome": "Suínos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111191,
+          "nome": "Aves",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115977,
+          "nome": "Outras aves",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8465,
+          "nome": "Coelhos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 7023,
+  "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio ou de parentes não moradores, por sexo e situação de ocupação",
+  "URL": "https://sidra.ibge.gov.br/tabela/7023",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10196,
+      "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores ou de parentes não moradores",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10197,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores ou de parentes não moradores",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10198,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores ou de parentes não moradores",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10199,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores ou de parentes não moradores",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12085,
+      "nome": "Situação de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100543,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100440,
+          "nome": "Ocupadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100441,
+          "nome": "Não ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

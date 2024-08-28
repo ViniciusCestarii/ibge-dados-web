@@ -1,0 +1,104 @@
+{
+  "id": 9433,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares, por sexo e trabalho por meio de plataforma digital de serviço no trabalho principal - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9433",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Trabalho por meio de plataformas digitais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12900,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12901,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12902,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12903,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1658,
+      "nome": "Trabalho por meio de plataforma digital de serviço no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59652,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59653,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59654,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

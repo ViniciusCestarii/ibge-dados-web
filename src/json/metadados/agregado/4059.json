@@ -1,0 +1,192 @@
+{
+  "id": 4059,
+  "nome": "Pessoas de 15 anos ou mais de idade, por condição de atividade no período de referência de 365 dias, sexo, situação e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/4059",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 950,
+      "nome": "Pessoas de 15 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000950,
+      "nome": "Pessoas de 15 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 90,
+      "nome": "Condição de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95355,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3287,
+          "nome": "Economicamente ativa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3288,
+          "nome": "Não economicamente ativa",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2793,
+          "nome": "18 a 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3300,
+          "nome": "40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3301,
+          "nome": "50 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

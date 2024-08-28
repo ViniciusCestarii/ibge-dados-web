@@ -1,0 +1,140 @@
+{
+  "id": 5177,
+  "nome": "Domicílios particulares permanentes com utilização da Internet e moradores em domicílios particulares permanentes com utilização da Internet, total e distribuição, por utilização de microcomputador ou telefone móvel celular para acessar a Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5177",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5518,
+      "nome": "Domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5688,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5514,
+      "nome": "Distribuição dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5684,
+      "nome": "Coeficiente de variação - Distribuição dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5519,
+      "nome": "Moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5689,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5515,
+      "nome": "Distribuição dos moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5685,
+      "nome": "Coeficiente de variação - Distribuição dos moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 689,
+      "nome": "Utilização de microcomputador ou telefone móvel celular para acessar a Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33301,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33302,
+          "nome": "Microcomputador - utilizavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33303,
+          "nome": "Microcomputador - nâo utilizavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33304,
+          "nome": "Telefone móvel celular - utilizavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33305,
+          "nome": "Telefone móvel celular - não utilizavam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

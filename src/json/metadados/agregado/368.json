@@ -1,0 +1,620 @@
+{
+  "id": 368,
+  "nome": "Número de óbitos ocorridos e registrados no ano por lugar de residência do(a) falecido(a), grupos de idade do(a) falecido(a) e sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/368",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Óbitos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 224,
+      "nome": "Número de óbitos ocorridos e registrados no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000224,
+      "nome": "Número de óbitos ocorridos e registrados no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 258,
+      "nome": "Lugar de residência do(a) falecido(a)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5834,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5835,
+          "nome": "Porto Velho",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5836,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5837,
+          "nome": "Rio Branco",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5838,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5839,
+          "nome": "Manaus",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5840,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5841,
+          "nome": "Boa Vista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5842,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5843,
+          "nome": "Região Metropolitana de Belém",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5844,
+          "nome": "Belém",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5845,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5846,
+          "nome": "Macapá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5847,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5848,
+          "nome": "Palmas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5849,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5850,
+          "nome": "São Luis",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5851,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5852,
+          "nome": "Teresina",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5853,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5854,
+          "nome": "Região Metropolitana de Fortaleza",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5855,
+          "nome": "Fortaleza",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5856,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 91200,
+          "nome": "Região Metropolitana de Natal",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5857,
+          "nome": "Natal",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5858,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5859,
+          "nome": "João Pessoa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5860,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5861,
+          "nome": "Região Metropolitana de Recife",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5862,
+          "nome": "Recife",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5863,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5864,
+          "nome": "Maceió",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5865,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5866,
+          "nome": "Aracajú",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5867,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5868,
+          "nome": "Região Metropolitana de Salvador",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5869,
+          "nome": "Salvador",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5870,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5871,
+          "nome": "Região Metropolitana de Belo Horizonte",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5872,
+          "nome": "Belo Horizonte",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 5873,
+          "nome": "Espírito Santo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 91201,
+          "nome": "Região Metropolitana da Grande Vitória",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5874,
+          "nome": "Vitória",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5875,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5876,
+          "nome": "Região Metropolitana do Rio de Janeiro",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5877,
+          "nome": "Rio de Janeiro (capital)",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5878,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5879,
+          "nome": "Região Metropolitana de São Paulo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5880,
+          "nome": "São Paulo (capital)",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 91202,
+          "nome": "Região Metropolitana da Baixada Santista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5881,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5882,
+          "nome": "Região Metropolitana de Curitiba",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5883,
+          "nome": "Curitiba",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5884,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5885,
+          "nome": "Florianópolis",
+          "unidade": null,
+          "nivel": 7
+        },
+        {
+          "id": 5886,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5887,
+          "nome": "Região Metropolitana de Porto Alegre",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5888,
+          "nome": "Porto Alegre",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5889,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5890,
+          "nome": "Campo Grande",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5891,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5892,
+          "nome": "Cuiabá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5893,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5894,
+          "nome": "Goiânia",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5895,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5896,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5897,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "nome": "Grupos de idade da pessoa falecida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5898,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5899,
+          "nome": "1 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5900,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5901,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5902,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5903,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5904,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5905,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5906,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5907,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5908,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5909,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5910,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5911,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5912,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5913,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5914,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5915,
+          "nome": "80 a 84 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5916,
+          "nome": "85 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5921,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

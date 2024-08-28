@@ -1,0 +1,102 @@
+{
+  "id": 7492,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição final de esgoto ou efluente em rio, por existência e tipo de uso a jusante do rio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7492",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10894,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição final de esgoto sem tratamento em rio",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10895,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição final de efluente tratado em rio",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 350,
+      "nome": "Existência e tipo de uso a jusante do corpo receptor do esgoto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8149,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48789,
+          "nome": "Com uso a jusante dos rios receptores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8150,
+          "nome": "Abastecimento público de água",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48790,
+          "nome": "Recreação de contato primário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48791,
+          "nome": "Recreação de contato secundário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 8152,
+          "nome": "Irrigação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 8153,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 8154,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48792,
+          "nome": "Sem uso a jusante dos rios receptores",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

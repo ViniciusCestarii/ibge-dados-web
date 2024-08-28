@@ -1,0 +1,123 @@
+{
+  "id": 7201,
+  "nome": "Domicílios em que algum morador viajou no período de referência dos últimos três meses, por número de viagens realizadas pelos moradores",
+  "URL": "https://sidra.ibge.gov.br/tabela/7201",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9784,
+      "nome": "Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9785,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 889,
+      "nome": "Número de viagens realizadas pelos moradores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47964,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47953,
+          "nome": "1 viagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47954,
+          "nome": "2 viagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47955,
+          "nome": "3 viagens ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47956,
+          "nome": "3 viagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47957,
+          "nome": "4 viagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47958,
+          "nome": "5 viagens ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47959,
+          "nome": "5 viagens",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 47960,
+          "nome": "6 viagens",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 47961,
+          "nome": "7 viagens",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 47962,
+          "nome": "8 viagens ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

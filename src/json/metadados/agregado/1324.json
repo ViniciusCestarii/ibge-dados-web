@@ -1,0 +1,310 @@
+{
+  "id": 1324,
+  "nome": "Estudantes frequentando o 9º ano do ensino fundamental, por dependência administrativa do estabelecimento, sexo, número de dias, nos últimos 7 dias, em que outras pessoas fumaram na casa do escolar, qual dos pais ou responsáveis pelo escolar fuma, se consegue comprar cigarros na escola e reação da família se soubesse que o escolar fuma cigarros",
+  "URL": "https://sidra.ibge.gov.br/tabela/1324",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de cigarro",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2377,
+      "nome": "Dependência administrativa do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35242,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35243,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35244,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99124,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35241,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 572,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "nome": "Nos últimos 7 dias, em quantos outras pessoas fumaram na casa do escolar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1246,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1247,
+          "nome": "1 ou 2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1248,
+          "nome": "3 ou 4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1249,
+          "nome": "5 ou 6 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1250,
+          "nome": "Todos os dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1251,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "nome": "Qual dos pais ou responsáveis pelo escolar fuma",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1252,
+          "nome": "Nenhum deles",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1253,
+          "nome": "Pai e mãe ou responsáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1254,
+          "nome": "Só o pai ou responsável do sexo masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1255,
+          "nome": "Só o mãe ou responsável do sexo feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1256,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1257,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "nome": "Se quiser, o escolar consegue comprar cigarro na escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1258,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1259,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1260,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1261,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "nome": "Se o escolar fumasse cigarros, qual seria a reação da família dele se ficasse sabendo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1262,
+          "nome": "Iria se importar muito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1263,
+          "nome": "Iria se importar um pouco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1264,
+          "nome": "Não iria se importar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1265,
+          "nome": "Não sabe se ela iria se importar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1266,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

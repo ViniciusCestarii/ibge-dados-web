@@ -1,0 +1,333 @@
+{
+  "id": 2304,
+  "nome": "Receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas, que declararam atuar em algum segmento, por segmentos de atuação, segundo faixas de valor de receita, diversificação de produtos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2304",
+  "pesquisa": "Pesquisa de Serviços de Tecnologia da Informação",
+  "assunto": "Tecnologia da Informação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2677,
+      "nome": "Número de empresas de tecnologia da informação com 20 ou mais pessoas ocupadas, que declararam atuar em algum segmento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002677,
+      "nome": "Número de empresas de tecnologia da informação com 20 ou mais pessoas ocupadas, que declararam atuar em algum segmento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 465,
+      "nome": "Valor da receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas, que declararam atuar em algum segmento",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000465,
+      "nome": "Valor da receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas, que declararam atuar em algum segmento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 365,
+      "nome": "Segmentos de atuação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9710,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9026,
+          "nome": "Agropecuário, silvicultura e pesca",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9027,
+          "nome": "Indústria extrativa, petróleo e mineração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9028,
+          "nome": "Indústria manufatureira - alimentos e bebidas, têxtil, madeira, celulose e papel, química, metalurgia e siderurgia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9029,
+          "nome": "Indústria manufatureira - aeroespacial, automotiva, máquinas e equipamentos e materiais elétricos/eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9060,
+          "nome": "Mídia - jornais, revistas, rádio e televisão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9061,
+          "nome": "Água, gás e energia elétrica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9062,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9063,
+          "nome": "Comércio - varejo e atacado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9064,
+          "nome": "Serviços - contabilidade, arquitetura, engenharia, serviços em TI, jurídicos, imobiliários e transportes de cargas e passageiros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9065,
+          "nome": "Turismo e entretenimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9066,
+          "nome": "Telecomunicações - operadoras e provedores de acesso",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9067,
+          "nome": "Finanças - bancos, corretoras, bolsas e seguros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9068,
+          "nome": "Setor público - administração federal, estadual e municipal, organizações supranacionais e forças armadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9069,
+          "nome": "Educação - escolas primárias e secundárias, universidades, museus e bibliotecas, institutos de pesquisa estatais e cursos de idioma e/ou profissionais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9070,
+          "nome": "Saúde - administração de prestadoras de serviços de saúde (consultórios, clínicas, hospitais, etc.) e sistemas de apoio ao processo clínico (diagnóstico, exame, prescrição, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9071,
+          "nome": "Outros segmentos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "nome": "Faixas de valor de receita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9005,
+          "nome": "Até 1.200 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9006,
+          "nome": "Mais de 1.200 mil a 3.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9007,
+          "nome": "Mais de 3.000 mil a 5.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9008,
+          "nome": "Mais de 5.000 mil a 10.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9009,
+          "nome": "Mais de 10.000 mil a 15.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9010,
+          "nome": "Mais de 15.000 mil a 30.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9011,
+          "nome": "Mais de 30.000 mil a 50.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9012,
+          "nome": "Mais de 50.000 mil a 100.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9013,
+          "nome": "Mais de 100.000 mil Reais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "nome": "Diversificação de produtos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9014,
+          "nome": "Empresas com 1 produto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9015,
+          "nome": "Empresas com 2 a 4 produtos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9016,
+          "nome": "Empresas com 5 a 9 produtos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9017,
+          "nome": "Empresas com 10 ou mais produtos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12225,
+      "nome": "Classes de atividades",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9018,
+          "nome": "Desenvolvimento de programas de computador sob encomenda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9019,
+          "nome": "Desenvolvimento e licenciamento de programas de computador customizáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9020,
+          "nome": "Desenvolvimento e licenciamento de programas de computador não customizáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9021,
+          "nome": "Consultoria em tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9022,
+          "nome": "Suporte técnico, manutenção e outros serviços em tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9023,
+          "nome": "Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9024,
+          "nome": "Portais, provedores de conteúdo e outros serviços de informação na internet",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 8049,
+  "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8049",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Violência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 11441,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11442,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11443,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11444,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11445,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11446,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11447,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11448,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que sofreram violência psicológica nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": 3341,
+  "nome": "Domicílios particulares permanentes, total e com rendimento domiciliar, e valor do rendimento nominal médio e mediano mensal dos domicílios particulares permanentes, total e com rendimento domiciliar, segundo a situação do domicílio, o tipo de domicílio e o destino do lixo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3341",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 847,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 848,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2932,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6815,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121264,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121265,
+          "nome": "Habitação em casa de cômodos, cortiço ou cabeça de porco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121266,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10972,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92863,
+          "nome": "Coletado por serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

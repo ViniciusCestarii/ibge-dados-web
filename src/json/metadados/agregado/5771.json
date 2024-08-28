@@ -1,0 +1,152 @@
+{
+  "id": 5771,
+  "nome": "Pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção, por grupo de idade e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5771",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6498,
+      "nome": "Pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6499,
+      "nome": "Pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6500,
+      "nome": "Pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6501,
+      "nome": "Coeficiente de variação - Pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6502,
+      "nome": "Percentual de pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6503,
+      "nome": "Percentual de pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6504,
+      "nome": "Percentual de pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6505,
+      "nome": "Coeficiente de variação - Percentual de pessoas com deficiência visual que usam algum recurso para auxiliar a locomoção",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6744,
+          "nome": "0 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99125,
+          "nome": "10 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

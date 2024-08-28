@@ -1,0 +1,129 @@
+{
+  "id": 7030,
+  "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio, por sexo e tipo de cuidado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7030",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10200,
+      "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10201,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10220,
+      "nome": "Percentual de pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10221,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "nome": "Tipo de cuidado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          10220,
+          10221
+        ]
+      },
+      "categorias": [
+        {
+          "id": 47596,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47597,
+          "nome": "Auxiliar nos cuidados pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47598,
+          "nome": "Auxiliar nas atividades educacionais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47599,
+          "nome": "Ler, jogar ou brincar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47600,
+          "nome": "Monitorar ou fazer companhia dentro do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47601,
+          "nome": "Transportar ou acompanhar para escola, médico, exames, parque, praça, atividades sociais, culturais, esportivas ou religiosas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 1368,
+  "nome": "Número de municípios, total e os com rede de distribuição de água, por parte do sistema onde estâo sendo feitas as ampliações ou melhorias",
+  "URL": "https://sidra.ibge.gov.br/tabela/1368",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 345,
+      "nome": "Municípios com rede de distribuição de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000345,
+      "nome": "Municípios com rede de distribuição de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11996,
+      "nome": "Parte do sistema onde estâo sendo feitas as ampliações ou melhorias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2129,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98622,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2130,
+          "nome": "Nas ligações prediais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98503,
+          "nome": "Na rede de distribuição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98505,
+          "nome": "Na captação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98507,
+          "nome": "Na adução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98509,
+          "nome": "No tratamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98511,
+          "nome": "Na reservação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98513,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98515,
+          "nome": "Não estão sendo feitas ampliações ou melhorias",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

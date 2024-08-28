@@ -1,0 +1,177 @@
+{
+  "id": 6811,
+  "nome": "Municípios, total, e que tiveram dificuldades ou não distribuíram os recursos da Lei Aldir Blanc, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/6811",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1562,
+      "nome": "Existência de dificuldades para distribuir os recursos da Lei Aldir Blanc ou razões para não distribuição",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59266,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59267,
+          "nome": "Teve dificuldade ou não distribuiu",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59268,
+          "nome": "Não tinha estrutura de pessoal administrativo para implementar a Lei",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59269,
+          "nome": "Não tinha assessoria jurídica/procuradoria para auxiliar na implementação da Lei",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59270,
+          "nome": "Dificuldade de operar as plataformas federais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59271,
+          "nome": "Não tinha estrutura de pessoal de atendimento presencial para distribuir recursos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59272,
+          "nome": "Não tinha estrutura física (guichê, etc.) para implementação da Lei (pagamentos)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59273,
+          "nome": "Não tinha recursos para montar sistema na Internet para receber propostas, contemplar, etc.",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59274,
+          "nome": "Estrutura responsável pela cultura não tinha hábito de fazer editais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59275,
+          "nome": "Não tinha informação sobre instituições e agentes culturais no município",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59276,
+          "nome": "Não pôde divulgar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59277,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59278,
+          "nome": "Não encontrou dificuldades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

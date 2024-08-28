@@ -1,0 +1,77 @@
+{
+  "id": 1665,
+  "nome": "Número de municípios, total e os com dispositivo coletivo de detenção ou amortecimento de vazão de águas pluviais urbanas, por localização do dispositivo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1665",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 391,
+      "nome": "Municípios com dispositivo coletivo de detenção ou amortecimento de vazão de águas pluviais urbanas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000391,
+      "nome": "Municípios com dispositivo coletivo de detenção ou amortecimento de vazão de águas pluviais urbanas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 340,
+      "nome": "Localização do dispositivo coletivo de detenção ou amortecimento de vazão de águas pluviais urbanas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8055,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8056,
+          "nome": "Total de municípios que possuem o dispositivo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8057,
+          "nome": "Nos corpos receptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8058,
+          "nome": "Fora dos corpos receptores",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

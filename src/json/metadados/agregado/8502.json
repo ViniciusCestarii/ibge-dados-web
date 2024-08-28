@@ -1,0 +1,101 @@
+{
+  "id": 8502,
+  "nome": "Pessoas de 15 anos ou mais de idade que foram vítimas de roubo nos últimos 12 meses, por tipo de roubo",
+  "URL": "https://sidra.ibge.gov.br/tabela/8502",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12452,
+      "nome": "Pessoas de 15 anos ou mais de idade que foram vítimas de roubo nos últimos 12 meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12453,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que foram vítimas de roubo nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12454,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade que foram vítimas de roubo nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12455,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade que foram vítimas de roubo nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1351,
+      "nome": "Tipo de roubo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          12454,
+          12455
+        ]
+      },
+      "categorias": [
+        {
+          "id": 57304,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57305,
+          "nome": "Carro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57306,
+          "nome": "Moto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57307,
+          "nome": "Bicicleta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57308,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57309,
+          "nome": "Fora do domicílio",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

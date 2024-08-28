@@ -1,0 +1,101 @@
+{
+  "id": 1752,
+  "nome": "Número de municípios, total e os com serviço de abastecimento de água, por tipo de captação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1752",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11971,
+      "nome": "Tipo de captação de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8469,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98593,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98383,
+          "nome": "Superficial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98384,
+          "nome": "Poço raso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98385,
+          "nome": "Poço profundo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98386,
+          "nome": "Adutora de água bruta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98387,
+          "nome": "Adutora de água tratada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8468,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

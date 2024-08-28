@@ -1,0 +1,127 @@
+{
+  "id": 8172,
+  "nome": "Percentis do peso das pessoas de 15 anos ou mais de idade, por sexo e grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/8172",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Antropometria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11665,
+      "nome": "Percentil 5 do peso das pessoas de 15 anos ou mais de idade",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11667,
+      "nome": "Percentil 50 do peso das pessoas de 15 anos ou mais de idade",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11669,
+      "nome": "Percentil 95 do peso das pessoas de 15 anos ou mais de idade",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11666,
+      "nome": "Coeficiente de variação - Percentil 5 do peso das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11668,
+      "nome": "Coeficiente de variação - Percentil 50 do peso das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11670,
+      "nome": "Coeficiente de variação - Percentil 95 do peso das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108875,
+          "nome": "25 a 39 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

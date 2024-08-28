@@ -1,0 +1,195 @@
+{
+  "id": 3666,
+  "nome": "Escolares frequentando o 9º ano do ensino fundamental, por dependência administrativa da escola, sexo, idade e cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/3666",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Características básicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3215,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 3216,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "nome": "Idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100362,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31053,
+          "nome": "12 anos ou menos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6570,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6571,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6572,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4684,
+          "nome": "16 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 6805,
+  "nome": "Domicílios particulares permanentes ocupados, por tipo de esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/6805",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000381,
+      "nome": "Domicílios particulares permanentes ocupados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11558,
+      "nome": "Tipo de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46292,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46290,
+          "nome": "Rede geral, rede pluvial ou fossa ligada à rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72110,
+          "nome": "Rede geral ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72111,
+          "nome": "Fossa séptica ou fossa filtro ligada à rede",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72112,
+          "nome": "Fossa séptica ou fossa filtro não ligada à rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72113,
+          "nome": "Fossa rudimentar ou buraco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92858,
+          "nome": "Vala",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72114,
+          "nome": "Rio, lago, córrego ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72115,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92861,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

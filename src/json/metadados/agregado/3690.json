@@ -1,0 +1,86 @@
+{
+  "id": 3690,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por tempo acumulado de atividade física nos 7 dias anteriores à pesquisa",
+  "URL": "https://sidra.ibge.gov.br/tabela/3690",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Atividade física",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 562,
+      "nome": "Tempo acumulado de atividade física nos 7 dias anteriores à pesquisa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31131,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31127,
+          "nome": "Inativo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31128,
+          "nome": "1 a 149 minutos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31129,
+          "nome": "150 a 299 minutos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31130,
+          "nome": "300 minutos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

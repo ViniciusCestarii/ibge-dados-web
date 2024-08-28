@@ -1,0 +1,127 @@
+{
+  "id": 6971,
+  "nome": "Número de famílias e Tamanho médio da família por situação do domicílio e classes de rendimento total e variação patrimonial mensal familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/6971",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2018,
+    "fim": 2018
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "nome": "Classes de rendimento total e variação patrimonial mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 7999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47558,
+          "nome": "Até 1.908 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47559,
+          "nome": "Mais de 1.908 a 2.862 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47560,
+          "nome": "Mais de 2.862 a 5.724 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47561,
+          "nome": "Mais de 5.724 a 9.540 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47562,
+          "nome": "Mais de 9.540 a 14.310 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47563,
+          "nome": "Mais de 14.310 a 23.850 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47564,
+          "nome": "Mais de 23.850 Reais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

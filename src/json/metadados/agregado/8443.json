@@ -1,0 +1,172 @@
+{
+  "id": 8443,
+  "nome": "Municípios, total e com serviços regulares de transporte existente nos municípios, por tipo de transporte e por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/8443",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1086,
+      "nome": "Existência de serviços regulares de transporte nos municípios e tipo de transporte",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50237,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50238,
+          "nome": "Com serviços regulares de transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50239,
+          "nome": "Barco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50240,
+          "nome": "Metrô",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50241,
+          "nome": "Mototáxi",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50242,
+          "nome": "Táxi",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50243,
+          "nome": "Trem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50244,
+          "nome": "Van",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50245,
+          "nome": "Avião",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50201,
+          "nome": "Serviços por aplicativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50246,
+          "nome": "Sem os serviços regulares de transporte relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56957,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

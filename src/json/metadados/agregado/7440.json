@@ -1,0 +1,89 @@
+{
+  "id": 7440,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento, por tipo de área geográfica",
+  "URL": "https://sidra.ibge.gov.br/tabela/7440",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10765,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10766,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10767,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10768,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1031,
+      "nome": "Tipo de área geográfica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49223,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49224,
+          "nome": "Residentes na capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49225,
+          "nome": "Residentes na Região Metropolitana, excluindo a capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49226,
+          "nome": "Residentes da RIDE (Região Integrada de Desenvolvimento Econômico), excluindo a capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49227,
+          "nome": "Residentes na Unidade da Federação, excluindo a região metropolitana e a RIDE",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

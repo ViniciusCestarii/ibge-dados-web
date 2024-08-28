@@ -1,0 +1,107 @@
+{
+  "id": 7433,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento, por nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/7433",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10765,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10766,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10767,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10768,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11779,
+          "nome": "Ensino fundamental incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11628,
+          "nome": "Ensino fundamental completo ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11629,
+          "nome": "Ensino médio incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11630,
+          "nome": "Ensino médio completo ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11631,
+          "nome": "Ensino superior incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

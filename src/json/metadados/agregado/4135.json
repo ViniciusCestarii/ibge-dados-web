@@ -1,0 +1,253 @@
+{
+  "id": 4135,
+  "nome": "Número de estabelecimentos agropecuários e Número de máquinas e implementos agrícolas existentes, por tipo de máquina e implemento agrícola, grupos de área de lavoura e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4135",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2044,
+      "nome": "Número de máquinas e implementos agrícolas existentes nos estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002044,
+      "nome": "Número de máquinas e implementos agrícolas existentes nos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12606,
+      "nome": "Tipo de máquina e implemento agrícola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113585,
+          "nome": "Possui",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113524,
+          "nome": "Arados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113525,
+          "nome": "Grades e/ou enxadas rotativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113526,
+          "nome": "Roçadeiras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113527,
+          "nome": "Semeadeiras e/ou plantadeiras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113528,
+          "nome": "Colheitadeiras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113529,
+          "nome": "Pulverizadores e/ou atomizadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113530,
+          "nome": "Adubadeiras e/ou distribuidoras de calcário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113531,
+          "nome": "Ceifadeiras (picadeira de forragens)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113586,
+          "nome": "Não possui",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12603,
+      "nome": "Grupos de área de lavoura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113502,
+          "nome": "Maior de 0 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113503,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113504,
+          "nome": "De 2 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113505,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113506,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113507,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113508,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113509,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113510,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113511,
+          "nome": "De 500 e mais ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113512,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

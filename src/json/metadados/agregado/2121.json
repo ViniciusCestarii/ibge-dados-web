@@ -1,0 +1,224 @@
+{
+  "id": 2121,
+  "nome": "Pessoas de 5 a 17 anos de idade, por grupos de idade, situação e frequência à escola, rede de ensino que frequentaram e tempo de permanência diária na escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/2121",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 951,
+      "nome": "Pessoas de 5 a 17 anos de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000951,
+      "nome": "Pessoas de 5 a 17 anos de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2797,
+          "nome": "5 e 6 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2798,
+          "nome": "7 a 9 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12083,
+      "nome": "Frequência à escola, rede de ensino que frequentavam e tempo de permanência diário na escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          702
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100443,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100444,
+          "nome": "Frequentavam - até 4 horas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100445,
+          "nome": "Frequentavam - mais de 4 horas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100446,
+          "nome": "Frequentavam - sem declaração de tempo de permanência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100447,
+          "nome": "Frequentavam - particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100449,
+          "nome": "Frequentavam - particular - até 4 horas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100450,
+          "nome": "Frequentavam - particular - mais de 4 horas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100451,
+          "nome": "Frequentavam - particular - sem declaração de tempo de permanência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100454,
+          "nome": "Frequentavam - pública",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100455,
+          "nome": "Frequentavam - pública - até 4 horas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100456,
+          "nome": "Frequentavam - pública - mais de 4 horas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100457,
+          "nome": "Frequentavam - pública - sem declaração de tempo de permanência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100458,
+          "nome": "Frequentavam - sem declaração de rede de ensino",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100460,
+          "nome": "Não frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100461,
+          "nome": "Sem declaração de frequência à escola",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

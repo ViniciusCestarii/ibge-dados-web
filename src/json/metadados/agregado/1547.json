@@ -1,0 +1,94 @@
+{
+  "id": 1547,
+  "nome": "População residente, por frequência à escola ou creche e rede de ensino que frequentavam - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/1547",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N18"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 465,
+      "nome": "Frequência à escola ou creche e rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12114,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12115,
+          "nome": "Frequentavam - rede de ensino pública",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12116,
+          "nome": "Frequentavam - rede de ensino particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12117,
+          "nome": "Não frequentavam, mas já frequentaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12118,
+          "nome": "Nunca frequentaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

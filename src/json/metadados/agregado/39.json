@@ -1,0 +1,495 @@
+{
+  "id": 39,
+  "nome": "Receita operacional líquida e subvenções das empresas de informática com 20 ou mais pessoas ocupadas, segundo os produtos/serviços prestados",
+  "URL": "https://sidra.ibge.gov.br/tabela/39",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Informática",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2007
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1655,
+      "nome": "Receita operacional líquida e subvenções",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1656,
+      "nome": "Percentual total de receita operacional líquida e subvenções",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1657,
+      "nome": "Percentual parcial de receita operacional líquida e subvenções",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12121,
+      "nome": "Produtos ou serviços prestados",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109181,
+          "nome": "1.Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109304,
+          "nome": "2.Serviços de consultoria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109305,
+          "nome": "2.1Sistema de informação: especificação de hardware e/ou software a partir das necessidades dos clientes, podendo compreender o assessoramento para compra e instalação de periféricos, inclusive dispositivos de proteção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109306,
+          "nome": "2.2Elaboração de projetos lógicos de redes de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116701,
+          "nome": "2.3Serviços de auditoria em sistemas de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109307,
+          "nome": "2.3Software sob encomenda ou específico para o cliente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120835,
+          "nome": "2.4Elaboração de projetos para integração de sistemas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120836,
+          "nome": "2.5Consultoria para mentoring (alinhamento de ações e processos com a estratégia da organização)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120837,
+          "nome": "2.6Consultoria e solução para governança de tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120838,
+          "nome": "2.7Consultoria e solução para implantação e gestão de escritórios de projetos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120839,
+          "nome": "2.8Serviços de auditoria de ambiente colaborativo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111200,
+          "nome": "2.8Serviços de auditoria em sistemas de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116702,
+          "nome": "3.Desenvolvimento de programas de computadores sob encomenda",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109313,
+          "nome": "3.Desenvolvimento, edição e licenciamento de softwares prontos para uso, inclusive representação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116703,
+          "nome": "3.1Desenvolvimento de software sob encomenda ou específicos para cliente - projeto, programação ou desenvolvimento, testes, implantação, preparo de documentação, etc",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109308,
+          "nome": "3.2Elaboração de projetos específicos de modelagem de bancos de dados (para redes locais ou internet)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109309,
+          "nome": "3.3Outsourcing (alocação de mão-de-obra de informática na empresa do cliente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109316,
+          "nome": "3.4Criação de sites e de portais para internet (web design)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116730,
+          "nome": "4.Suporte técnico e outros serviços em tecnologia da informação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109315,
+          "nome": "4.Serviços de informática ligados à internet",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109310,
+          "nome": "4.1Serviços de segurança da informação (certificação de equipamentos e software, criptografia de dados, detecção de invasões, implantação de sistemas de proteção contra vírus, etc)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109311,
+          "nome": "4.2Serviços de recuperação de dados e arquivos danificados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111201,
+          "nome": "4.3Serviços de instalação de computadores e periféricos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116731,
+          "nome": "4.4Suporte e manutenção de software sob encomenda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116732,
+          "nome": "4.5Suporte e softwares prontos para uso customizáveis ou não-customizáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120840,
+          "nome": "4.6Serviços de help-desk ou service desk",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120841,
+          "nome": "4.7Serviços de gestão de impressão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120842,
+          "nome": "4.8Serviços de gestão de instalações do cliente: desktops, redes, etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120843,
+          "nome": "4.9Gestão de nível de serviços (service level management)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120844,
+          "nome": "4.10Serviços de localização (tradução, teste, aculturação de software)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116733,
+          "nome": "5.Softwares prontos para uso",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116734,
+          "nome": "5.1Desenvolvimento e edição de softwares customizáveis - inclusive desenvolvimento de projeto e modelagem de software de banco de dados prontos para uso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116735,
+          "nome": "5.2Desenvolvimento e licenciamento de softwares não-customizáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116736,
+          "nome": "5.3Representação e licenciamento de softwares customizáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116737,
+          "nome": "5.4Representação e licenciamento de softwares não-customizáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116738,
+          "nome": "6.Tratamento de dados, hospedagem na internet, portais/provedores de conteúdo e outras atividades relacionadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109318,
+          "nome": "6.1Serviços de hospedagem de sites (web hosting)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116739,
+          "nome": "6.1Serviços de hospedagem de sites (web hosting); hospedagens de aplicações ou serviços de transferência contínua de som e imagem através da internet - não inclui provedores de acesso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109319,
+          "nome": "6.2Serviços de processamento de dados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109320,
+          "nome": "6.2.1Serviços de processamento de dados para terceiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120845,
+          "nome": "6.2Processamento de dados para terceiros e de bases georreferenciadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116752,
+          "nome": "6.3Serviços de processamento de dados para terceiros (inclusive georreferenciamento)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109321,
+          "nome": "6.4Entrada de dados (digitação, escaneamento, leitura ótica e interfaceamento) editoração em multimídias e processamento de bases georreferenciadas e digitalização (imagens, sons, manuscritos, microfilmes ou quaisquer outras informações em meio analógico)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116740,
+          "nome": "6.5Entrada de dados (digitação, escaneamento, leitura ótica)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116741,
+          "nome": "6.6Digitalização (imagens, sons, manuscritos, microfilmes)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116742,
+          "nome": "6.7Editoração em multimídias (foto, som, imagem, gravações de CD e DVD)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116743,
+          "nome": "6.8Processamento de bases georreferenciadas (imagens de satélites e dados vetoriais)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109323,
+          "nome": "6.9Aluguel de tempo de CPU para processamento de dados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120846,
+          "nome": "6.10Portais/provedores de conteúdo e outros serviços de informação na internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120847,
+          "nome": "6.11Fornecimento de serviços de aplicações ou serviços de transferência contínua de som e imagem através da internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109317,
+          "nome": "7.Provedores de acesso à internet e/ou de conteúdo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116744,
+          "nome": "7.Serviços de informática ligados à internet (provedores de acesso às redes de comunicação, provedor de voz sobre protocolo IP-VOIP, portais/provedores de conteúdo e outros serviços de informação na internet)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109324,
+          "nome": "8.Serviços de manutenção e reparação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109325,
+          "nome": "8.1De computadores e seus equipamentos periféricos - inclusive upgrades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109326,
+          "nome": "8.2De máquinas e equipamentos de uso comercial ou para escritório (fotocopiadoras, máquinas registradoras, fax, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109327,
+          "nome": "9.Outras atividades relacionadas à informática",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109328,
+          "nome": "9.1Treinamento e cursos de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109329,
+          "nome": "9.2Serviços de elaboração de cartões de visita, mala-direta e logotipos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109330,
+          "nome": "9.3Venda de produtos de informática de fabricação própria (equipamentos de informática, peças, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109331,
+          "nome": "9.4Revenda de softwares de prateleira, computadores, peças e suprimentos de informática não produzidos pela empresa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120848,
+          "nome": "9.4.1Comércio atacadista de computadores, softwares, periféricos e suprimentos de informática (não produzidos pela empresa)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120849,
+          "nome": "9.4.2Comércio varejista especializado de equipamentos e suprimentos de informática (não produzidos pela empresa)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109332,
+          "nome": "9.5Locação de equipamentos de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116745,
+          "nome": "9.6Aluguel de equipamentos - não inclui equipamentos de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116746,
+          "nome": "9.7Aluguel de software",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116747,
+          "nome": "9.8Serviços de instalação de redes de computadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116748,
+          "nome": "9.9Jogos de azar e apostas na internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116749,
+          "nome": "9.10Agenciamento de espaço para publicidade na internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116750,
+          "nome": "9.11Sala de acesso à internet (lan house)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116751,
+          "nome": "9.12Serviços de impressão e fotocópia - inclusive impressão a laser",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120850,
+          "nome": "9.13Serviços de consultoria de gestão de negócios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109333,
+          "nome": "10.Outros serviços ou atividades",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

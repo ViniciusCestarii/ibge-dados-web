@@ -1,0 +1,137 @@
+{
+  "id": 9814,
+  "nome": "Domicílios particulares permanentes ocupados, total e com pelo menos um morador quilombola, por destino do lixo e localização do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9814",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000381,
+      "nome": "Domicílios particulares permanentes ocupados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1007081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10972,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72120,
+          "nome": "Coletado no domicílio por serviço de limpeza",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72121,
+          "nome": "Depositado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72122,
+          "nome": "Queimado na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72123,
+          "nome": "Enterrado na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72124,
+          "nome": "Jogado em terreno baldio, encosta ou área pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60027,
+          "nome": "Em territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60028,
+          "nome": "Fora de territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

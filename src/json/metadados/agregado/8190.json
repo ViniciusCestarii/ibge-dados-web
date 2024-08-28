@@ -1,0 +1,70 @@
+{
+  "id": 8190,
+  "nome": "Índices de volume e de receita nominal de atacado especializado em produtos alimentícios, bebidas e fumo (2022 = 100)",
+  "URL": "https://sidra.ibge.gov.br/tabela/8190",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 202201,
+    "fim": 202406
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7169,
+      "nome": "PMC - Número-índice (2022=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 11709,
+      "nome": "PMC - Variação mês/mesmo mês do ano anterior (M/M-12)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11710,
+      "nome": "PMC - Variação acumulada no ano (em relação ao mesmo período do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11711,
+      "nome": "PMC - Variação acumulada em 12 meses (em relação ao período anterior de 12 meses)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56739,
+          "nome": "Índice de receita nominal de vendas de atacado especializado em produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56740,
+          "nome": "Índice de volume de vendas de atacado especializado em produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

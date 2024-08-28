@@ -1,0 +1,239 @@
+{
+  "id": 8838,
+  "nome": "Número de estabelecimentos agropecuários e Área dos estabelecimentos agropecuários, por pertencimento a Terra Indígena (TI) versus Agricultura Familiar, condição legal das terras, condição do produtor em relação às terras e sexo do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/8838",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1080,
+      "nome": "Pertencimento a Terra de Indígena (TI) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50202,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50203,
+          "nome": "Dentro de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50204,
+          "nome": "Dentro de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50205,
+          "nome": "Dentro de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50206,
+          "nome": "Fora de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56880,
+          "nome": "Fora de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57504,
+          "nome": "Fora de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "nome": "Condição legal das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111195,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111134,
+          "nome": "Próprias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111135,
+          "nome": "Concedidas por órgão fundiário ainda sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111136,
+          "nome": "Arrendadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111137,
+          "nome": "Em parceria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41157,
+          "nome": "Em regime de comodato",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111138,
+          "nome": "Ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41146,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

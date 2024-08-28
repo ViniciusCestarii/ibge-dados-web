@@ -1,0 +1,167 @@
+{
+  "id": 2964,
+  "nome": "Pessoas de 14 anos ou mais de idade por condição de aposentado no mês de referência, sexo, situação do domicílio e condição de atividade e de ocupação na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/2964",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001641,
+      "nome": "Pessoas de 14 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12393,
+      "nome": "Condição de aposentado no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107817,
+          "nome": "Aposentadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107819,
+          "nome": "Não eram aposentadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12049,
+      "nome": "Condição de atividade e de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99497,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99498,
+          "nome": "Economicamente ativas - ocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99502,
+          "nome": "Economicamente ativas - desocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99503,
+          "nome": "Não economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

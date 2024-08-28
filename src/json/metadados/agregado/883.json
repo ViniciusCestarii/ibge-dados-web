@@ -1,0 +1,122 @@
+{
+  "id": 883,
+  "nome": "Domicílios particulares permanentes, por recebimento de dinheiro de programa social do governo, no mês de referência e algumas características existentes nos domicílios",
+  "URL": "https://sidra.ibge.gov.br/tabela/883",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12380,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107474,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114502,
+          "nome": "Houve",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114503,
+          "nome": "Não houve",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12677,
+      "nome": "Características existentes nos domicílios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114519,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114520,
+          "nome": "Rede geral de abastecimento de água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114521,
+          "nome": "Esgotamento sanitário adequado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114522,
+          "nome": "Esgotamento sanitário adequado - rede coletora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114523,
+          "nome": "Esgotamento sanitário adequado - fossa séptica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114524,
+          "nome": "Coleta de lixo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114525,
+          "nome": "Iluminação elétrica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114526,
+          "nome": "Telefone",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

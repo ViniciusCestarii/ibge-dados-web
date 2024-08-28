@@ -1,0 +1,141 @@
+{
+  "id": 5350,
+  "nome": "Pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5350",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Acidentes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5816,
+      "nome": "Pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5817,
+      "nome": "Pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5818,
+      "nome": "Pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5819,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5820,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, em relação as que referiram ter se envolvido em algum acidente de trabalho, exceto acidente de trânsito",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5821,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, em relação as que referiram ter se envolvido em algum acidente de trabalho, exceto acidente de trânsito, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5822,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, em relação as que referiram ter se envolvido em algum acidente de trabalho, exceto acidente de trânsito, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5823,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que se envolveram em acidente de trabalho, exceto acidente de trânsito, nos últimos 12 meses e que tiveram sequela e/ou incapacidade decorrente do acidente de trabalho, em relação as que referiram ter se envolvido em algum acidente de trabalho, exceto acidente de trânsito",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

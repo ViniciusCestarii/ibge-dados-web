@@ -1,0 +1,234 @@
+{
+  "id": 345,
+  "nome": "Pessoas moradoras por nível de instrução, frequência à escola, condição de presença e sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/345",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 164,
+      "nome": "Pessoas moradoras",
+      "unidade": "Habitantes",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000164,
+      "nome": "Pessoas moradoras - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18838,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99697,
+          "nome": "Elementar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99707,
+          "nome": "Elementar completo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99706,
+          "nome": "Elementar incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120697,
+          "nome": "Médio primeiro grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120698,
+          "nome": "Médio primeiro grau completo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120699,
+          "nome": "Médio primeiro grau incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120700,
+          "nome": "Médio segundo grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120701,
+          "nome": "Médio segundo grau completo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120702,
+          "nome": "Médio segundo grau incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99699,
+          "nome": "Superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99712,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120703,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18853,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "nome": "Frequência à escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3523,
+          "nome": "Cursando",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3524,
+          "nome": "Não cursando",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 3704,
+      "nome": "Condição de presença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120695,
+          "nome": "Moradores presentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120696,
+          "nome": "Moradores ausentes",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

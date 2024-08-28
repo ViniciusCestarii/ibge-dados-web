@@ -1,0 +1,192 @@
+{
+  "id": 3455,
+  "nome": "Pessoas indígenas de 10 anos ou mais de idade, por alfabetização e localização do domicílio, segundo o sexo e as classes de rendimento nominal mensal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3455",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Características gerais dos indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 363,
+      "nome": "Pessoas indígenas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000363,
+      "nome": "Pessoas indígenas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 59,
+      "nome": "Alfabetização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1023,
+          "nome": "Alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1024,
+          "nome": "Não alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3318,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12869,
+          "nome": "Em terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12870,
+          "nome": "Fora de terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11570,
+      "nome": "Classes de rendimento nominal mensal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92983,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92984,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92974,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92975,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92989,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92990,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100436,
+          "nome": "Mais de 5 salários minimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92980,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

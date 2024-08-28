@@ -1,0 +1,92 @@
+{
+  "id": 5996,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por nível de instrução da mãe",
+  "URL": "https://sidra.ibge.gov.br/tabela/5996",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Informações gerais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 375,
+      "nome": "Nível de instrução da mãe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31096,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31092,
+          "nome": "Nenhuma instrução ou ensino fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31093,
+          "nome": "Ensino fundamental completo ou médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31094,
+          "nome": "Ensino médio completo ou superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31095,
+          "nome": "Ensino superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9538,
+          "nome": "Não soube informar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

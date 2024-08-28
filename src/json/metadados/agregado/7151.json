@@ -1,0 +1,128 @@
+{
+  "id": 7151,
+  "nome": "Pessoas de 15 anos ou mais de idade que frequentaram escola, por curso mais elevado que frequentou e rede de ensino do curso frequentado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7151",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10293,
+      "nome": "Pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10294,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10295,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10296,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11302,
+      "nome": "Curso mais elevado que frequentou",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47867,
+          "nome": "Ensino Fundamental, EJA do Ensino Fundamental ou curso equivalente",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47868,
+          "nome": "Ensino Fundamental ou curso equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47869,
+          "nome": "Ensino Médio, EJA do Ensino Médio ou curso equivalente",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47870,
+          "nome": "Ensino Médio ou curso equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91020,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47871,
+          "nome": "Especialização, mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 11797,
+      "nome": "Rede de ensino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95299,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47873,
+          "nome": "Somente em rede pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47872,
+          "nome": "Somente em rede privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47874,
+          "nome": "Na rede privada e pública",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

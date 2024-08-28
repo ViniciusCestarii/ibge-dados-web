@@ -1,0 +1,443 @@
+{
+  "id": 2901,
+  "nome": "Mulheres de 10 anos ou mais de idade que tiveram filhos por número de filhos tidos nascidos vivos e religião",
+  "URL": "https://sidra.ibge.gov.br/tabela/2901",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Fecundidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1607,
+      "nome": "Mulheres de 10 anos ou mais de idade que tiveram filhos",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001607,
+      "nome": "Mulheres de 10 anos ou mais de idade que tiveram filhos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12291,
+      "nome": "Número de filhos tidos nascidos vivos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 105103,
+          "nome": "1 filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105104,
+          "nome": "2 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105105,
+          "nome": "3 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105106,
+          "nome": "4 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105107,
+          "nome": "5 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106145,
+          "nome": "6 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105161,
+          "nome": "7 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105162,
+          "nome": "8 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105163,
+          "nome": "9 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105164,
+          "nome": "10 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105165,
+          "nome": "11 a 14 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105166,
+          "nome": "15 ou mais filhos",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "nome": "Religião",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95263,
+          "nome": "Católica Apostólica Romana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100430,
+          "nome": "Católica Apostólica Brasileira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2803,
+          "nome": "Católica Ortodoxa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95277,
+          "nome": "Evangélicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95264,
+          "nome": "Evangélicas de Missão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100403,
+          "nome": "Evangélicas de Missão - Igreja Evangélica Luterana",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100404,
+          "nome": "Evangélicas de Missão - Igreja Evangélica Presbiteriana",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100405,
+          "nome": "Evangélicas de Missão - Igreja Evangélica Metodista",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99741,
+          "nome": "Evangélicas de Missão - Igreja Evangélica Batista",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100406,
+          "nome": "Evangélicas de Missão - Igreja Evangélica Congregacional",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100407,
+          "nome": "Evangélicas de Missão - Igreja Evangélica Adventista",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100408,
+          "nome": "Evangélicas de Missão - outras Evangélicas de Missão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95265,
+          "nome": "Evangélicas de origem pentecostal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100409,
+          "nome": "Evangélicas de origem pentecostal - Igreja Assembléia de Deus",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99746,
+          "nome": "Evangélicas de origem pentecostal - Igreja Congregação Cristã do Brasil",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100410,
+          "nome": "Evangélicas de origem pentecostal - Igreja o Brasil para Cristo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100411,
+          "nome": "Evangélicas de origem pentecostal - Igreja Evangelho Quadrangular",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99745,
+          "nome": "Evangélicas de origem pentecostal - Igreja Universal do Reino de Deus",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100412,
+          "nome": "Evangélicas de origem pentecostal - Igreja Casa da Benção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100413,
+          "nome": "Evangélicas de origem pentecostal - Igreja Deus é Amor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100414,
+          "nome": "Evangélicas de origem pentecostal - Igreja Maranata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100415,
+          "nome": "Evangélicas de origem pentecostal - Igreja Nova Vida",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100416,
+          "nome": "Evangélicas de origem pentecostal - outras Evangélicas de origem pentecostal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100417,
+          "nome": "Evangélicas sem vínculo institucional",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100418,
+          "nome": "Evangélicas sem vínculo institucional - Evangélicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100419,
+          "nome": "Evangélicas sem vínculo institucional - Evangélicos de origem pentecostal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95266,
+          "nome": "Evangélicas - outras religiões evangélicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100420,
+          "nome": "Outras cristãs",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100421,
+          "nome": "Outras cristãs - Cristãs",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100422,
+          "nome": "Outras Cristãs - outras religiosidades cristãs",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100423,
+          "nome": "Igreja de Jesus Cristo dos Santos dos Últimos Dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2824,
+          "nome": "Testemunhas de Jeová",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95267,
+          "nome": "Espiritualista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2826,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2829,
+          "nome": "Umbanda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2828,
+          "nome": "Candomblé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100424,
+          "nome": "Judaísmo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100425,
+          "nome": "Hinduísmo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95269,
+          "nome": "Budismo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100427,
+          "nome": "Novas religiões orientais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100428,
+          "nome": "Novas religiões orientais - Igreja Messiânica Mundial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100429,
+          "nome": "Novas religiões orientais - Outras novas religiões orientais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95270,
+          "nome": "Outras religiões orientais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100426,
+          "nome": "Islamismo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95273,
+          "nome": "Tradições esotéricas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95274,
+          "nome": "Tradições indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95275,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2836,
+          "nome": "Sem religião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95276,
+          "nome": "Não determinadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2837,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

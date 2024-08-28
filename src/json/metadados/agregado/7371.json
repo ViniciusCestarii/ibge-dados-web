@@ -1,0 +1,122 @@
+{
+  "id": 7371,
+  "nome": "Percentual de pessoas que tinham telefone móvel celular para uso pessoal na população de 10 anos ou mais de idade, por sexo e nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/7371",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10663,
+      "nome": "Percentual de pessoas que tinham telefone móvel celular para uso pessoal na população de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10664,
+      "nome": "Coeficiente de variação - Percentual de pessoas que tinham telefone móvel celular para uso pessoal na população de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120712,
+          "nome": "Fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120713,
+          "nome": "Fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120714,
+          "nome": "Médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120715,
+          "nome": "Médio completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99712,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

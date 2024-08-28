@@ -1,0 +1,285 @@
+{
+  "id": 6912,
+  "nome": "Número de estabelecimentos agropecuários que produziram leite de vaca, Vacas ordenhadas nos estabelecimentos agropecuários, Quantidade produzida de leite de vaca, Valor da produção de leite de vaca, Número de estabelecimentos agropecuários que venderam leite de vaca cru, Quantidade vendida de leite de vaca cru e Valor da venda de leite de vaca cru, por tipologia, condição do produtor em relação às terras e grupos de cabeças de bovinos",
+  "URL": "https://sidra.ibge.gov.br/tabela/6912",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2072,
+      "nome": "Número de estabelecimentos agropecuários que produziram leite de vaca",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2073,
+      "nome": "Vacas ordenhadas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2074,
+      "nome": "Quantidade produzida de leite de vaca",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2075,
+      "nome": "Valor da produção de leite de vaca",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2377,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de vaca cru",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2080,
+      "nome": "Quantidade vendida de leite de vaca cru",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2378,
+      "nome": "Valor da venda de leite de vaca cru",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 829,
+      "nome": "Tipologia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46303,
+          "nome": "Agricultura familiar - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46304,
+          "nome": "Agricultura familiar - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46305,
+          "nome": "Agricultura familiar - Pronaf B",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46306,
+          "nome": "Agricultura familiar - Pronaf V",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46307,
+          "nome": "Agricultura familiar - não pronafiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46422,
+          "nome": "Pronamp - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46423,
+          "nome": "Pronamp - não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 3244,
+      "nome": "Grupos de cabeças de bovinos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47078,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114147,
+          "nome": "De 1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47137,
+          "nome": "De 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47138,
+          "nome": "De 6 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47139,
+          "nome": "De 11 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47140,
+          "nome": "De 21 a 50",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47141,
+          "nome": "De 51 a 100",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47142,
+          "nome": "De 101 a 200",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47143,
+          "nome": "De 201 a 500",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47144,
+          "nome": "De 501 a 1000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47145,
+          "nome": "De 1001 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114156,
+          "nome": "Sem cabeças de bovinos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

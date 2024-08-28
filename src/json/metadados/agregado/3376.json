@@ -1,0 +1,236 @@
+{
+  "id": 3376,
+  "nome": "Separações concedidas em 1ª instância ou por escritura, por natureza da ação, requerente, tipo de família, número de filhos e lugar da ação do processo (série suspensa)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3376",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Separações",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2011,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 392,
+      "nome": "Número de separações consensuais concedidas em 1ª instância ou por escritura",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000392,
+      "nome": "Número de separações consensuais concedidas em 1ª instância ou por escritura - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 262,
+      "nome": "Natureza da ação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6002,
+          "nome": "Consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6003,
+          "nome": "Não consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6004,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "nome": "Requerente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6070,
+          "nome": "Requerida pelo marido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6071,
+          "nome": "Requerida pela mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107634,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109455,
+          "nome": "Não se aplica (para os casos em que a natureza da separação é consensual)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "nome": "Tipo da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6094,
+          "nome": "Sem filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6095,
+          "nome": "Somente com filhos maiores de idade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6096,
+          "nome": "Somente com filhos menores de idade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6097,
+          "nome": "Com filhos maiores e menores de idade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6098,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "nome": "Número de filhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6099,
+          "nome": "Sem filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6100,
+          "nome": "1 filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6101,
+          "nome": "2 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6102,
+          "nome": "3 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6103,
+          "nome": "4 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6104,
+          "nome": "5 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6105,
+          "nome": "6 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6106,
+          "nome": "7 ou mais filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6107,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

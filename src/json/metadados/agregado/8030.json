@@ -1,0 +1,140 @@
+{
+  "id": 8030,
+  "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8030",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Violência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11400,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11401,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11402,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11403,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11404,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11405,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11406,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11407,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e que deixaram de realizar suas atividades habituais em decorrência dessa violência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

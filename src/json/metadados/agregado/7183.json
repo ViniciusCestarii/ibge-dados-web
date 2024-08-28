@@ -1,0 +1,110 @@
+{
+  "id": 7183,
+  "nome": "Pessoas de 14 anos ou mais de idade, por nível de instrução e frequência anterior a curso de qualificação profissional",
+  "URL": "https://sidra.ibge.gov.br/tabela/7183",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2018,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4087,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4104,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4105,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47919,
+          "nome": "Sem instrução até o ensino fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47920,
+          "nome": "Ensino médio incompleto até o superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110221,
+          "nome": "Ensino superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "nome": "Frequência a curso de qualificação profissional",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47911,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47914,
+          "nome": "Frequentou curso de qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47915,
+          "nome": "Não frequentou curso de qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

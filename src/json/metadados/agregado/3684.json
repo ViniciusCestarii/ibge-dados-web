@@ -1,0 +1,86 @@
+{
+  "id": 3684,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por classe de números de residentes no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3684",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Informações gerais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 558,
+      "nome": "Classe de números de residentes no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31107,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31103,
+          "nome": "1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31104,
+          "nome": "3 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31105,
+          "nome": "5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31106,
+          "nome": "7 ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": 8678,
+  "nome": "Taxa de cobertura de CNPJ das pessoas ocupadas como empregador ou conta própria, por grupamento de atividade no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/8678",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características adicionais do mercado de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12537,
+      "nome": "Taxa de cobertura de CNPJ das pessoas ocupadas como empregador ou conta própria",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12538,
+      "nome": "Coeficiente de variação - Taxa de cobertura de CNPJ das pessoas ocupadas como empregador ou conta própria",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 888,
+      "nome": "Grupamento de atividade no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47947,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47948,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47949,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47950,
+          "nome": "Comércio, reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47951,
+          "nome": "Serviços",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

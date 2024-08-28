@@ -1,0 +1,136 @@
+{
+  "id": 5435,
+  "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, por grupamento ocupacional no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/5435",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4090,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4091,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4108,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4109,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 694,
+      "nome": "Grupamento ocupacional no trabalho principal - PNADC",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33356,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33370,
+          "nome": "Diretores e gerentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33371,
+          "nome": "Profissionais das ciências e intelectuais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33372,
+          "nome": "Técnicos e profissionais de nível médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33373,
+          "nome": "Trabalhadores de apoio administrativo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33374,
+          "nome": "Trabalhadores dos serviços, vendedores dos comércios e mercados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33375,
+          "nome": "Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33376,
+          "nome": "Trabalhadores qualificados, operários e artesões da construção, das artes mecânicas e outros ofícios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33377,
+          "nome": "Operadores de instalações e máquinas e montadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33378,
+          "nome": "Ocupações elementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33379,
+          "nome": "Membros das forças armadas, policiais e bombeiros militares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33380,
+          "nome": "Ocupações mal definidas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": 191,
+  "nome": "Domicílios particulares permanentes por classes de rendimento real médio mensal domiciliar e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/191",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 154,
+      "nome": "Classes de rendimento real médio mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2969,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2970,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2971,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2972,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2973,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2974,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2975,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2976,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2977,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2978,
+          "nome": "mais de 20 a 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2979,
+          "nome": "Mais de 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2980,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2981,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

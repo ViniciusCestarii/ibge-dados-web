@@ -1,0 +1,187 @@
+{
+  "id": 679,
+  "nome": "Faturamento real do comércio varejista, por tipos de índice e grupo de produtos (série encerrada em dezembro de 2000)",
+  "URL": "https://sidra.ibge.gov.br/tabela/679",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199501,
+    "fim": 200012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 114,
+      "nome": "Faturamento real do comércio varejista",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90033,
+          "nome": "Índice base fixa",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90034,
+          "nome": "Índice mês / mês anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90035,
+          "nome": "Variação mês / mês anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90036,
+          "nome": "Índice trimestre / trimestre anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90037,
+          "nome": "Variação trimestre / trimestre anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90038,
+          "nome": "Índice semestre / semestre anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90039,
+          "nome": "Variação semestre / semestre anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90040,
+          "nome": "Índice acumulado no ano / igual período do ano anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90041,
+          "nome": "Variação acumulada no ano / igual período do ano anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90042,
+          "nome": "Índice mês / igual mês do ano anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90043,
+          "nome": "Variação mês / igual mês do ano anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90044,
+          "nome": "Índice trimestre / igual trimestre do ano anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90045,
+          "nome": "Variação trimestre / igual trimestre do ano anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90046,
+          "nome": "Índice semestre / igual semestre do ano anterior",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90047,
+          "nome": "Variação semestre / igual semestre do ano anterior",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90048,
+          "nome": "Índice doze meses / doze meses anteriores",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90049,
+          "nome": "Variação doze meses / doze meses anteriores",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 11045,
+      "nome": "Grupo de produtos",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90027,
+          "nome": "Alimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90028,
+          "nome": "Consumo pessoal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90029,
+          "nome": "Consumo residencial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90030,
+          "nome": "Automóveis e motos, peças e acessórios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90031,
+          "nome": "Combustíveis e lubrificantes automotivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90032,
+          "nome": "Material de construção",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

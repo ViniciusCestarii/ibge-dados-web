@@ -1,0 +1,132 @@
+{
+  "id": 6217,
+  "nome": "Percentual de escolares com idade de 13 a 17 anos, distribuído pela frequência com que os colegas da escola os trataram bem e/ou foram prestativos com eles nos 30 dias anteriores à pesquisa, por dependência administrativa da escola e grupo de idade do escolar",
+  "URL": "https://sidra.ibge.gov.br/tabela/6217",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Situações em casa e na escola",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7968,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos, distribuído pela frequência com que os colegas da escola os trataram bem e/ou foram prestativos com eles nos 30 dias anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7969,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos, distribuído pela frequência com que os colegas da escola os trataram bem e/ou foram prestativos com eles nos 30 dias anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7970,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos, distribuído pela frequência com que os colegas da escola os trataram bem e/ou foram prestativos com eles nos 30 dias anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40087,
+          "nome": "13 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40088,
+          "nome": "13 a 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "nome": "Frequência com que os colegas da escola os trataram bem e/ou foram prestativos com eles",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31178,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31179,
+          "nome": "Nenhuma vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31180,
+          "nome": "Raramente ou às vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31181,
+          "nome": "Na maior parte do tempo ou sempre",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

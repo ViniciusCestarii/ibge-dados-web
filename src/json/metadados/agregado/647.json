@@ -1,0 +1,307 @@
+{
+  "id": 647,
+  "nome": "Custo de projeto m², por tipo de projeto e padrão de acabamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/647",
+  "pesquisa": "Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil",
+  "assunto": "Construção civil",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199901,
+    "fim": 202407
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 51,
+      "nome": "Custo de projeto m²",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 314,
+      "nome": "Tipo de projeto",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 7087,
+          "nome": "CP.1-2Q.....46 Casa popular, 1 pavimento, varanda, sala, 2 quartos, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7088,
+          "nome": "CP.1-2Q.....40 Casa popular, 1 pavimento, sala, 2 quartos, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7089,
+          "nome": "CR.1-2Q.....62 Casa residencial, 1 pavimento, varanda, sala,2 quartos, circulação, banheiro, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7090,
+          "nome": "CR.1-3Q....104 Casa residencial, 1 pavimento, varanda, sala,3 quartos, circulação, banheiro, lavabo, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7091,
+          "nome": "CR.1-4Q....122 Casa residencial, 1 pavimento, varanda, sala,4 quartos, circulação, 2 banheiros, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7092,
+          "nome": "EA.1-US.....04 Especificação tipo \"A\", 1 pavimento, somente unidade sanitária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7093,
+          "nome": "EB.1-US.....03 Especificação tipo \"B\", 1 pavimento, somente unidade sanitária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7094,
+          "nome": "EA.1-0Q.....22 Especificação tipo \"A\", 1 pavimento, sala, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7095,
+          "nome": "EB.1-0Q.....22 Especificação tipo \"B\", 1 pavimento, sala, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7096,
+          "nome": "EA.1-1Q.....30 Especificação tipo \"A\", 1 pavimento, sala, 1 quarto, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7097,
+          "nome": "EB.1-1Q.....32 Especificação tipo \"B\", 1 pavimento, sala, 1 quarto, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7098,
+          "nome": "EA.2-2Q.....38 Especificação tipo \"A\", 1 pavimento, sala, 2 quartos, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7099,
+          "nome": "EB.1-2Q.....39 Especificação tipo \"B\", 1 pavimento, sala, 2 quartos, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7100,
+          "nome": "EB.2-2Q.....45 Especificação tipo \"B\", 2 pavimentos, sala, 2 quartos, cozinha e banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7101,
+          "nome": "CP.1-1Q.....30 Casa popular, 1 pavimento, sala, 1 quarto, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7102,
+          "nome": "CP.2-3Q.....56 Casa popular, 2 pavimentos, sala, 3 quartos, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7103,
+          "nome": "CR.2-2Q.....81 Casa residencial, geminada, 2 pavimentos, sala, 2 quartos, circulação, banheiro, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7104,
+          "nome": "PR5-2QT...2125 Prédio residencial, térreo, 5 pavimentos tipo, sala, 2 quartos, banheiro, cozinha e área de serviço",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7105,
+          "nome": "PR4-2QT...1433 Prédio residencial, térreo, 4 pavimentos tipo, sala, 2 quartos, circulação, banheiro, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7106,
+          "nome": "PR4-3QT...2264 Prédio residencial, térreo, 4 pavimentos tipo, sala, 3 quartos, circulação, banheiro, lavabo, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7107,
+          "nome": "PR4-2QP...1643 Prédio residencial, pilotis, 4 pavimentos tipo, sala, 2 quartos, circulação, banheiro, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7108,
+          "nome": "PR4-3QP...2520 Prédio residencial, pilotis, 4 pavimentos tipo, sala, 3 quartos, circulação, banheiro, lavabo, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7109,
+          "nome": "PR6-3QP...7181 Prédio residencial, pilotis, 6 pavimentos tipo, sala, 3 quartos, circulação, 2 banheiros, copa-cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7110,
+          "nome": "PR8-2QP...2620 Prédio residencial, pilotis, 8 pavimentos tipo, sala, 2 quartos, circulação, banheiro, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7111,
+          "nome": "PR8-3QP...4266 Prédio residencial, pilotis, 8 pavimentos tipo, sala, 3 quartos, circulação, banheiro, lavabo, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7112,
+          "nome": "PR8-3QP...3176 Prédio residencial, pilotis, 8 pavimentos tipo, 2 salas, 3 quartos, circulação, 2 banheiros, lavabo, copa-cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7113,
+          "nome": "PR12-2QP..3597 Prédio residencial, pilotis, 12 pavimentos tipo, sala, 2 quartos, circulação, banheiro, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7114,
+          "nome": "PR12-3QP..6013 Prédio residencial, pilotis, 12 pavimentos tipo, sala, 3 quartos, circulação, banheiro, lavabo, cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7115,
+          "nome": "PR12-4QP..4050 Prédio residencial, pilotis, 12 pavimentos tipo, sala, 4 quartos, circulação, 2 banheiros, lavabo, copa-cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7116,
+          "nome": "PR18-4QP..5870 Prédio residencial, pilotis, 18 pavimentos tipo, sala, 4 quartos, circulação, 2 banheiros, lavabo, copa-cozinha, área de serviço, quarto e WC de empregada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7117,
+          "nome": "PC.12-LA..8192 Prédio comercial, 12 pavimentos, lojas e salas autônomas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7118,
+          "nome": "PC.18-LA.11072 Prédio comercial, 18 pavimentos, lojas e salas autônomas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7119,
+          "nome": "PC.12-LC..6862 Prédio comercial, 12 pavimentos, lojas e andar corrido",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7120,
+          "nome": "PC.18-LC.10111 Prédio comercial, 18 pavimentos, lojas e andar corrido",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7121,
+          "nome": "CB-M........31 Projeto-tipo cesta básica, materiais, sala, quarto, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7122,
+          "nome": "CB-MMIN.....23 Projeto-tipo cesta básica, materiais mínimos, sala, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7123,
+          "nome": "CB-M........23 Projeto-tipo cesta básica, materiais, sala, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7124,
+          "nome": "CB-MMO......31 Projeto-tipo cesta básica, materiais e mão-de-obra, sala, quarto, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7125,
+          "nome": "CB-MMO......23 Projeto-tipo cesta básica, materiais e mão-de-obra, sala, circulação, banheiro e cozinha",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "nome": "Padrão de acabamento",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 786,
+          "nome": "Alto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 787,
+          "nome": "Normal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 788,
+          "nome": "Baixo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 789,
+          "nome": "Mínimo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

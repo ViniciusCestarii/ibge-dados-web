@@ -1,0 +1,92 @@
+{
+  "id": 6374,
+  "nome": "Média de horas habitualmente trabalhadas por semana e efetivamente trabalhadas na semana de referência, no trabalho principal, das pessoas de 14 anos ou mais de idade, por posição na ocupação",
+  "URL": "https://sidra.ibge.gov.br/tabela/6374",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8186,
+      "nome": "Média de horas habitualmente trabalhadas por semana no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8187,
+      "nome": "Coeficiente de variação - Média de horas habitualmente trabalhadas por semana no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8188,
+      "nome": "Média de horas efetivamente trabalhadas na semana de referência no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8189,
+      "nome": "Coeficiente de variação - Média de horas efetivamente trabalhadas na semana de referência no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2399,
+      "nome": "Posição na ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120443,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35423,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35426,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98272,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40089,
+          "nome": "Trabalhador familiar auxiliar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

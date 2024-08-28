@@ -1,0 +1,539 @@
+{
+  "id": 2647,
+  "nome": "Nascidos vivos, ocorridos no ano, por mês do registro, sexo, local de nascimento, número de nascidos por parto, idade da mãe na ocasião do parto e lugar de residência da mãe",
+  "URL": "https://sidra.ibge.gov.br/tabela/2647",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Nascidos vivos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1100",
+      "N1102",
+      "N1101",
+      "N1103",
+      "N1104"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 218,
+      "nome": "Nascidos vivos ocorridos no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000218,
+      "nome": "Nascidos vivos ocorridos no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 236,
+      "nome": "Mês do registro",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5337,
+          "nome": "Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5338,
+          "nome": "Fevereiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5339,
+          "nome": "Março",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5340,
+          "nome": "Abril",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5341,
+          "nome": "Maio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5342,
+          "nome": "Junho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5343,
+          "nome": "Julho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5344,
+          "nome": "Agosto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5345,
+          "nome": "Setembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5346,
+          "nome": "Outubro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5347,
+          "nome": "Novembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5348,
+          "nome": "Dezembro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104539,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "nome": "Local do nascimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5349,
+          "nome": "Hospital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5350,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5351,
+          "nome": "Outro local",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104317,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "nome": "Número de nascidos por parto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5352,
+          "nome": "Um",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5353,
+          "nome": "Dois",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5354,
+          "nome": "Três ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105861,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "nome": "Idade da mãe na ocasião do parto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5370,
+          "nome": "Menos de 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5414,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5371,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5372,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5373,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5374,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5375,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5376,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5377,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5378,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5379,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5380,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5381,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5382,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5383,
+          "nome": "25 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5384,
+          "nome": "26 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5385,
+          "nome": "27 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5386,
+          "nome": "28 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5387,
+          "nome": "29 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5388,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5389,
+          "nome": "30 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5390,
+          "nome": "31 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5391,
+          "nome": "32 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5392,
+          "nome": "33 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5393,
+          "nome": "34 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5394,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5395,
+          "nome": "35 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5396,
+          "nome": "36 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5397,
+          "nome": "37 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5398,
+          "nome": "38 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5399,
+          "nome": "39 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5400,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5401,
+          "nome": "40 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5402,
+          "nome": "41 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5403,
+          "nome": "42 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5404,
+          "nome": "43 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5405,
+          "nome": "44 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5406,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5407,
+          "nome": "45 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5408,
+          "nome": "46 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5409,
+          "nome": "47 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5410,
+          "nome": "48 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5411,
+          "nome": "49 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5412,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5413,
+          "nome": "Ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

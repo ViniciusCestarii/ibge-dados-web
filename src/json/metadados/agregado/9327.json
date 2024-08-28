@@ -1,0 +1,143 @@
+{
+  "id": 9327,
+  "nome": "Estudantes com 6 anos ou mais de idade, por rede de ensino, grupo de idade e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9327",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12789,
+      "nome": "Estudantes de 6 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12790,
+      "nome": "Coeficiente de variação - Estudantes de 6 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12801,
+      "nome": "Distribuição percentual dos estudantes de 6 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12802,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes de 6 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11797,
+      "nome": "Rede de ensino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95299,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95298,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47820,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31615,
+          "nome": "6 a 14 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

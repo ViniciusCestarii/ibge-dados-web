@@ -1,0 +1,133 @@
+{
+  "id": 1528,
+  "nome": "Gastos com pessoal das atividades de transportes e serviços auxiliares de transportes",
+  "URL": "https://sidra.ibge.gov.br/tabela/1528",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Transportes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 638,
+      "nome": "Gastos com pessoal",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000638,
+      "nome": "Gastos com pessoal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93036,
+          "nome": "Transporte ferroviário e metroviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93041,
+          "nome": "Transporte rodoviário de passageiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93045,
+          "nome": "Transporte rodoviário de cargas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93049,
+          "nome": "Transporte aquaviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93053,
+          "nome": "Transporte aéreo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93056,
+          "nome": "Atividades anexas e auxiliares aos transportes e agências de viagens",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11573,
+      "nome": "Tipo de gasto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93007,
+          "nome": "Salários e outras remunerações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93008,
+          "nome": "Contribuições para a Previdência Social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93009,
+          "nome": "FGTS",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93010,
+          "nome": "Indenizações por dispensa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93011,
+          "nome": "Benefícios concedidos aos empregados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

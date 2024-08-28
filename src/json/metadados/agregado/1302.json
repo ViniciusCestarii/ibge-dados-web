@@ -1,0 +1,99 @@
+{
+  "id": 1302,
+  "nome": "População residente por situação do domicílio e indicativo de residência na sede municipal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1302",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11333,
+      "nome": "Indicativo de residência na sede municipal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91174,
+          "nome": "Reside na sede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91175,
+          "nome": "Não reside na sede",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

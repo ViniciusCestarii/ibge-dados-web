@@ -1,0 +1,129 @@
+{
+  "id": 8491,
+  "nome": "Pessoas de 18 anos ou mais de idade com déficit de peso, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8491",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Antropometria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11643,
+      "nome": "Pessoas de 18 anos ou mais de idade com déficit de peso",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11644,
+      "nome": "Pessoas de 18 anos ou mais de idade com déficit de peso, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11645,
+      "nome": "Pessoas de 18 anos ou mais de idade com déficit de peso, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11646,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade com déficit de peso",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11647,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com déficit de peso",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11648,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com déficit de peso, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11649,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com déficit de peso, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11650,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade com déficit de peso",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

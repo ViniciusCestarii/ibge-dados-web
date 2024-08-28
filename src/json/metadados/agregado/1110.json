@@ -1,0 +1,138 @@
+{
+  "id": 1110,
+  "nome": "Número de estabelecimentos agropecuários com produtor proprietário por forma de obtenção das terras e agricultura familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/1110",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2317,
+      "nome": "Número de estabelecimentos agropecuários com produtor proprietário, concessionário ou assentado sem titulação definitiva",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002317,
+      "nome": "Número de estabelecimentos agropecuários com produtor proprietário, concessionário ou assentado sem titulação definitiva - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12774,
+      "nome": "Forma de obtenção das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118260,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118213,
+          "nome": "Compra de particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118214,
+          "nome": "Compra via crédito fundiário (cédula da terra, Banco da terra, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118215,
+          "nome": "Titulação via reforma agrária, programa de reassentamento ou aguardando titulação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118216,
+          "nome": "Herança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118217,
+          "nome": "Doação particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118218,
+          "nome": "Usucapião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118219,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118220,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119106,
+          "nome": "Não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119107,
+          "nome": "Agricultura familiar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

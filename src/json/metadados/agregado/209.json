@@ -1,0 +1,79 @@
+{
+  "id": 209,
+  "nome": "Produção física industrial, por insumos típicos da construção civil e tipo de índice (série encerrada em janeiro de 2004)",
+  "URL": "https://sidra.ibge.gov.br/tabela/209",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 200401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 28,
+      "nome": "Produção física industrial",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 76,
+      "nome": "Insumos típicos da construção civil",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2630,
+          "nome": "Insumos típicos da construção civil",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Tipo de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2539,
+          "nome": "Índice de base fixa mensal sem ajuste sazonal (Base: média de 1991 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2540,
+          "nome": "Índice mensal (Base: igual mês do ano anterior = 100 )",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2541,
+          "nome": "Índice acumulado (Base: igual período do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2542,
+          "nome": "Índice acumulado de 12 meses (Base: últimos 12 meses anteriores = 100)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

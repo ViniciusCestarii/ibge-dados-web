@@ -1,0 +1,308 @@
+{
+  "id": 3367,
+  "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento e Valor dos financiamentos obtidos por agente financeiro responsável pelo financiamento, sexo e residência do produtor, orientação técnica e origem da orientação técnica",
+  "URL": "https://sidra.ibge.gov.br/tabela/3367",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1990,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001990,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1991,
+      "nome": "Valor dos financiamentos obtidos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001991,
+      "nome": "Valor dos financiamentos obtidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12542,
+      "nome": "Agente financeiro responsável pelo financiamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115947,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111915,
+          "nome": "Bancos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111916,
+          "nome": "Cooperativas de crédito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111917,
+          "nome": "Comerciantes de matéria prima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111918,
+          "nome": "Fornecedores (insumos e/ou equipamentos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111919,
+          "nome": "Empresa integradora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111920,
+          "nome": "Outras instituições financeiras (exceto bancos e cooperativas)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111921,
+          "nome": "Organização Não-Governamental - ONG",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111922,
+          "nome": "Parentes ou amigos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111923,
+          "nome": "Outro agente",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "nome": "Orientação técnica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112010,
+          "nome": "Ocasionalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112011,
+          "nome": "Regularmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113112,
+          "nome": "Não recebeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12567,
+      "nome": "Origem da orientação técnica recebida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113111,
+          "nome": "Recebe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112647,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112648,
+          "nome": "Própria ou do próprio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112649,
+          "nome": "Cooperativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112650,
+          "nome": "Empresas integradoras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112651,
+          "nome": "Empresas privadas de planejamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112652,
+          "nome": "Organização não-governamental (ONG)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112653,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113559,
+          "nome": "Não recebe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

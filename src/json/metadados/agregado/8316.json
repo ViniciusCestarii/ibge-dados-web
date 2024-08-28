@@ -1,0 +1,121 @@
+{
+  "id": 8316,
+  "nome": "Número médio de filhos(as) tidos pelos homens de 15 anos ou mais que já tiveram filhos(as), por grupo de idade e nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/8316",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Paternidade e pré-natal do parceiro",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12076,
+      "nome": "Número médio de filhos(as) tidos pelos homens de 15 anos ou mais que já tiveram filhos(as)",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12077,
+      "nome": "Número médio de filhos(as) tidos pelos homens de 15 anos ou mais que já tiveram filhos(as), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12078,
+      "nome": "Número médio de filhos(as) tidos pelos homens de 15 anos ou mais que já tiveram filhos(as), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12079,
+      "nome": "Coeficiente de variação - Número médio de filhos(as) tidos pelos homens de 15 anos ou mais que já tiveram filhos(as)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6796,
+          "nome": "15 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56997,
+          "nome": "Médio completo ou superior",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

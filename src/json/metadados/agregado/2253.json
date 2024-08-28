@@ -1,0 +1,80 @@
+{
+  "id": 2253,
+  "nome": "Número de municípios, total e os que possuem ruas pavimentadas no perímetro urbano, por tipo de sistema de drenagem urbana",
+  "URL": "https://sidra.ibge.gov.br/tabela/2253",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1179,
+      "nome": "Municípios que possuem ruas pavimentadas no perímetro urbano",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001179,
+      "nome": "Municípios que possuem ruas pavimentadas no perímetro urbano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12141,
+      "nome": "Tipo de sistema de drenagem urbana",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101383,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101384,
+          "nome": "Total de municípios que possuem ruas pavimentadas no perímetro urbano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101385,
+          "nome": "Superficial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101386,
+          "nome": "Subterrâneo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101387,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

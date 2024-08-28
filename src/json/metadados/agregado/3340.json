@@ -1,0 +1,4965 @@
+{
+  "id": 3340,
+  "nome": "Produção e vendas dos produtos e/ou serviços industriais, segundo as classes de atividades e os produtos - CNAE 2823 até 3329 - Prodlist Indústria 2007 (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3340",
+  "pesquisa": "Pesquisa Industrial Anual - Produto",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 362,
+      "nome": "Número de informações",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000362,
+      "nome": "Número de informações - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Vide categorias da classificação 'Classes de atividades industriais e produtos'",
+      "sumarizacao": []
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1982,
+      "nome": "Quantidade vendida",
+      "unidade": "Vide categorias da classificação 'Classes de atividades industriais e produtos'",
+      "sumarizacao": []
+    },
+    {
+      "id": 1983,
+      "nome": "Valor das vendas",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001983,
+      "nome": "Valor das vendas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 463,
+      "nome": "Classes de atividades industriais e produtos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121915,
+          "nome": "0000 Brasil",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 124889,
+          "nome": "2823 Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124890,
+          "nome": "2823.2010 Aparelhos ou dispositivos para liquefação do ar ou outros gases",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124891,
+          "nome": "2823.2020 Congeladores (freezers) para usos industrial e comercial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124892,
+          "nome": "2823.2030 Equipamentos para refrigeração ou para ar condicionado, com capacidade não superior a 30000f/h",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124893,
+          "nome": "2823.2040 Gabinetes ou móveis para receber equipamento para produção de frio",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124894,
+          "nome": "2823.2050 Máquinas para conservação de sorvetes, não-domésticas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124895,
+          "nome": "2823.2060 Máquinas para produção de frio ou bombas de calor, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124896,
+          "nome": "2823.2070 Grupos de compressão , condensador ou trocador de calor, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124897,
+          "nome": "2823.2080 Partes e peças para refrigeradores, congeladores e semelhantes para uso industrial e comercial",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124898,
+          "nome": "2823.2090 Partes e peças para ventiladores e coifas para uso industrial",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124899,
+          "nome": "2823.2100 Recipiente refrigerador, com circulação de fluido refrigerador",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124900,
+          "nome": "2823.2110 Refrigeradores, vitrinas, câmaras frigoríficas e semelhantes para produção de frio para usos industrial e comercial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124901,
+          "nome": "2823.2120 Resfriadores de leite",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124902,
+          "nome": "2823.2130 Unidades fornecedoras de água ou sucos, inclusive bebedouros",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124903,
+          "nome": "2823.2140 Unidades fornecedoras de bebidas carbonatadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124904,
+          "nome": "2823.2150 Ventiladores ou coifas (exaustores) para uso industrial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124905,
+          "nome": "2823.9010 Serviços de instalação e montagem de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial, não especificados, quando",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124906,
+          "nome": "2823.9020 Serviço de produção de máquinas ou equipamentos de refrigeração ou ventilação de uso industrial, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124907,
+          "nome": "2824 Fabricação de aparelhos e equipamentos de ar condicionado",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124908,
+          "nome": "2824.2010 Aparelhos de ar condicionado de paredes, de janelas ou transportáveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124909,
+          "nome": "2824.2020 Aparelhos de ar condicionado para veículos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124910,
+          "nome": "2824.2030 Aparelhos ou equipamentos de ar condicionado para uso central",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124911,
+          "nome": "2824.2040 Partes e peças para aparelhos de ar condicionado",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124912,
+          "nome": "2824.9010 Serviço de produção de aparelhos de ar condicionado, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124913,
+          "nome": "2825 Fabricação de máquinas e equipamentos para saneamento básico e ambiental",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124914,
+          "nome": "2825.2010 Equipamentos para tratamento de águas industriais e domésticas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124915,
+          "nome": "2825.2020 Equipamentos para tratamento de efluentes industriais e esgoto sanitário",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124916,
+          "nome": "2825.2030 Equipamentos para tratamento do ar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124917,
+          "nome": "2825.2040 Máquinas e equipamentos para saneamento básico e ambiental, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124918,
+          "nome": "2825.2050 Peças e acessórios para máquinas e equipamentos para saneamento básico e ambiental",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124919,
+          "nome": "2825.9010 Serviços de instalação e montagem de máquinas e equipamentos para saneamento básico e ambiental, quando executados pelo próprio fabricante",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124920,
+          "nome": "2829 Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124921,
+          "nome": "2829.2010 Aparelhos de fotocópia, por sistema óptico ou por contato, ou aparelhos de termocópia",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124922,
+          "nome": "2829.2020 Aparelhos para destilação ou retificação (de água, álcoois, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124923,
+          "nome": "2829.2030 Aparelhos para filtrar ou depurar líquidos; aparelhos para filtrar óleos minerais nos motores de combustão interna",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124924,
+          "nome": "2829.2040 Aparelhos para preparação de bebidas quentes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124925,
+          "nome": "2829.2050 Aparelhos para projetar, espalhar, pulverizar, exceto para agricultura",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124926,
+          "nome": "2829.2060 Apontadores mecânicos para lápis, perfuradores, grampeadores ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124927,
+          "nome": "2829.2070 Balanças para pesagem, dosagem ou contagem",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124928,
+          "nome": "2829.2080 Balcões, vitrines, estufas e equipamentos semelhantes elétricos, para bares, lanchonetes, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124929,
+          "nome": "2829.2090 Calculadoras eletrônicas de bolso; agendas eletrônicas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124930,
+          "nome": "2829.2100 Carrosséis, balanços, instalações de tiro ao alvo ou outras diversões de parques ou feiras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124931,
+          "nome": "2829.2110 Centrifugador para laboratório de análise, ensaio ou pesquisa científica",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124932,
+          "nome": "2829.2120 Centrifugadores, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124933,
+          "nome": "2829.2130 Esterilizadores, exceto médico-cirúrgicos ou de laboratório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124934,
+          "nome": "2829.2140 Extintores de incêndio",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124935,
+          "nome": "2829.2150 Filtros de ar para motores à explosão ou diesel",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124936,
+          "nome": "2829.2160 Filtros eletrostáticos e outros aparelhos para filtrar ou depurar gases",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124937,
+          "nome": "2829.2170 Fogões, fornos, churrrasqueiras e outros equipamentos semelhantes para restaurantes, lanchonetes, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124938,
+          "nome": "2829.2180 Geradores de gás de ar, gás, água ou acetileno",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124939,
+          "nome": "2829.2190 Juntas metaloplásticas, juntas de vedação mecânicas ou outras, inclusive selos mecânicos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124940,
+          "nome": "2829.2200 Máquinas, aparelhos ou equipamentos de uso geral",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124941,
+          "nome": "2829.2210 Máquinas automáticas para venda de produtos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124942,
+          "nome": "2829.2220 Máquinas de calcular, máquinas de contabilidade, caixas registradoras, eletrônicas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124943,
+          "nome": "2829.2230 Máquinas de escrever, inclusive automáticas; máquinas para tratamento de textos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124944,
+          "nome": "2829.2240 Máquinas de lavar louças, exceto para uso doméstico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124945,
+          "nome": "2829.2250 Máquinas de limpeza ou polimento por jato de água, areia, esferas de vidro, granalha de aço",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124946,
+          "nome": "2829.2260 Máquinas e aparelhos para escritório, exceto computadores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124947,
+          "nome": "2829.2270 Máquinas ou aparelhos para desobstrução de tubulação",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124948,
+          "nome": "2829.2280 Máquinas ou aparelhos para limpeza industrial, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124949,
+          "nome": "2829.2290 Máquinas para encher, fechar ou embalar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124950,
+          "nome": "2829.2300 Máquinas para franquear correspondência, emitir bilhetes ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124951,
+          "nome": "2829.2310 Máquinas para lavar carrocerias de veículos - lava-jato",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124952,
+          "nome": "2829.2320 Máquinas para limpar ou secar garrafas ou outros recipientes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124953,
+          "nome": "2829.2330 Partes e peças para esterilizadores e outros aparelhos para tratamento de alimentos e bebidas, mediante troca de temperatura",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124954,
+          "nome": "2829.2340 Partes ou peças de aparelhos para filtrar ou depurar gases ou líquidos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124955,
+          "nome": "2829.2350 Partes e peças para geradores de gás de ar, gás, água ou acetileno",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124956,
+          "nome": "2829.2360 Partes e peças para máquinas automáticas para venda de produtos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124957,
+          "nome": "2829.2370 Partes e peças para máquinas de lavar louças, exceto para uso doméstico",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124958,
+          "nome": "2829.2380 Partes e peças para máquinas para encher, fechar, embalar",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124959,
+          "nome": "2829.2390 Partes e peças para máquinas para limpar ou secar garrafas e outros recipientes",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124960,
+          "nome": "2829.2400 Partes e peças para outras máquinas ou aparelhos sem conexão elétrica",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124961,
+          "nome": "2829.2410 Partes e peças para fogões, fornos e outros equipamentos semelhantes para restaurantes, lanchonetes, etc.",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124962,
+          "nome": "2829.2420 Partes e peças para trocadores de calor",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124963,
+          "nome": "2829.2430 Peças para aparelhos para fotocópia, por sistema óptico ou por contato, ou aparelhos de termocópia",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124964,
+          "nome": "2829.2440 Partes e peças para máquinas e aparelhos para escritório, exceto para computadores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124965,
+          "nome": "2829.2450 Pesos e partes para balanças ou qualquer aparelho ou instrumento de pesagem",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124966,
+          "nome": "2829.2460 Pistolas aerográficas ou aparelhos semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124967,
+          "nome": "2829.2470 Tambores rotativos com pratos ou discos separadores, peso superior a 300kg",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124968,
+          "nome": "2829.2480 Terminais comerciais de auto-atendimento; máquinas de distribuir ou de trocar dinheiro",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124969,
+          "nome": "2829.2490 Torrefadores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124970,
+          "nome": "2829.2510 Trocadores (permutadores, intercambiadores) de calor",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124971,
+          "nome": "2829.9010 Serviços de instalação e montagem de máquinas e equipamentos de uso geral, não especificados, quando executados pelo próprio fabricante",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124972,
+          "nome": "2829.9020 Serviço de produção de máquinas ou equipamentos de uso geral, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124973,
+          "nome": "2829.9030 Serviço de produção de máquinas para escritório, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124974,
+          "nome": "2831 Fabricação de tratores agrícolas",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124975,
+          "nome": "2831.2010 Carrocerias para tratores agrícolas, inclusive as cabines",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124976,
+          "nome": "2831.2020 Peças ou acessórios para tratores agrícolas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124977,
+          "nome": "2831.2030 Tratores agrícolas, inclusive motocultores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124978,
+          "nome": "2831.9010 Serviço de produção de tratores agrícolas, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124979,
+          "nome": "2832 Fabricação de equipamentos para irrigação agrícola",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124980,
+          "nome": "2832.2010 Máquinas e aparelhos para irrigação para uso agrícola, inclusive sistemas de irrigação",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124981,
+          "nome": "2832.2020 Partes e peças para aparelhos para irrigação para uso agrícola",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124982,
+          "nome": "2832.9010 Serviço de produção de equipamentos para irrigação agrícola, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 124983,
+          "nome": "2833 Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 124984,
+          "nome": "2833.2010 Arados ou charruas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124985,
+          "nome": "2833.2020 Ceifeiras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124986,
+          "nome": "2833.2030 Chocadeiras ou criadeiras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124987,
+          "nome": "2833.2040 Cortadores de grama",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124988,
+          "nome": "2833.2050 Máquinas de ordenhar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124989,
+          "nome": "2833.2060 Máquinas e aparelhos para projetar ou pulverizar para uso agrícola",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124990,
+          "nome": "2833.2070 Máquinas para enfardar, colher e dispor palha ou forragem",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124991,
+          "nome": "2833.2080 Máquinas para limpar e selecionar ovos, frutas ou outros produtos agrícolas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124992,
+          "nome": "2833.2090 Máquinas para limpeza, seleção, etc., de grãos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124993,
+          "nome": "2833.2100 Máquinas para preparação de alimentos ou rações",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124994,
+          "nome": "2833.2110 Máquinas agrícolas para o preparo do solo, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124995,
+          "nome": "2833.2120 Máquinas ou aparelhos para agricultura e pecuária, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124996,
+          "nome": "2833.2130 Máquinas ou aparelhos para avicultura, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124997,
+          "nome": "2833.2140 Máquinas para colheita, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 124998,
+          "nome": "2833.2150 Partes e peças de aparelhos para projetar ou pulverizar para uso agrícola",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 124999,
+          "nome": "2833.2160 Partes e peças para máquinas e aparelhos para agricultura e pecuária, não especificados",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125000,
+          "nome": "2833.2170 Partes e peças para máquinas para colheita, debulha, etc.",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125001,
+          "nome": "2833.2180 Partes e peças para máquinas para limpeza, seleção, etc., de grãos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125002,
+          "nome": "2833.2190 Partes e peças para semeadores, adubadores, arados e outras máquinas agrícolas para preparar o solo",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125003,
+          "nome": "2833.2200 Reboques ou semi-reboques autocarregáveis para uso agrícola",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125004,
+          "nome": "2833.2210 Semeadores, plantadeiras ou adubadores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125005,
+          "nome": "2833.9010 Serviços de instalação e montagem de máquinas e equipamentos para agricultura e pecuária, não especificados, quando executados pelo próprio fabric",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125006,
+          "nome": "2833.9020 Serviço de produção de máquinas e equipamentos para agricultura e pecuária, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125007,
+          "nome": "2840 Fabricação de máquinas-ferramenta",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125008,
+          "nome": "2840.2010 Centros de usinagem para trabalhar metais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125009,
+          "nome": "2840.2020 Dispositivos divisores para máquinas-ferramenta",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125010,
+          "nome": "2840.2030 Ferramentas hidráulicas de motor não-elétrico, de uso manual (serras de corrente, máquinas pneumáticas, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125011,
+          "nome": "2840.2040 Ferros ou pistolas para solda",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125012,
+          "nome": "2840.2050 Mandriladoras-fresadoras de metais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125013,
+          "nome": "2840.2060 Máquina-ferramenta a laser",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125014,
+          "nome": "2840.2070 Máquinas-ferramenta a eletro-erosão",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125015,
+          "nome": "2840.2080 Máquinas-ferramenta a ultra-som",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125016,
+          "nome": "2840.2090 Máquinas-ferramenta operando por processos eletroquímicos, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125017,
+          "nome": "2840.2100 Máquinas-ferramenta para trabalhar metais, com eliminação de material (para abrir roscas, ou trabalhar arames e fio, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125018,
+          "nome": "2840.2110 Máquinas-ferramenta para afiar, rebarbar, brunir, polir ou para outros acabamentos em metais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125019,
+          "nome": "2840.2120 Máquinas-ferramenta (incluídas as prensas) para forjar, estampar ou embutir metais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125020,
+          "nome": "2840.2130 Máquinas-ferramenta para aplainar, cortar ou acabar engrenagens e outras que trabalhem por eliminação de metal",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125021,
+          "nome": "2840.2140 Máquinas-ferramenta para furar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125022,
+          "nome": "2840.2160 Máquinas-ferramenta para moldar baquelite à quente",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125023,
+          "nome": "2840.2170 Máquinas-ferramenta para puncionar ou chanfrar,enrolar, arquear, cisalhar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125024,
+          "nome": "2840.2180 Máquinas-ferramenta para retífica",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125025,
+          "nome": "2840.2190 Máquinas-ferramenta para serrar, polir, esmerilhar ou fresar pedra, cerâmicos, concreto, etc., inclusive para trabalhar à frio em vidro",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125026,
+          "nome": "2840.2200 Máquinas-ferramenta para trabalhar madeira ou cortiça",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125027,
+          "nome": "2840.2210 Máquinas-ferramenta para trabalhar metais, sem eliminação de material (para abrir roscas, trabalhar arames e fio, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125028,
+          "nome": "2840.2220 Máquinas de sistema monostático ou máquinas de estações múltiplas para trabalhar metais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125029,
+          "nome": "2840.2230 Máquinas para solda a ponto",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125030,
+          "nome": "2840.2240 Máquinas para solda elétrica ou por outros processos (reação exotérmica , arco ou plasma), inclusive robôs para soldar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125031,
+          "nome": "2840.2250 Máquinas para soldar a laser",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125032,
+          "nome": "2840.2260 Máquinas para soldar por fricção; máquinas ou aparelhos a gás, para têmpera superficial, inclusive maçarico de uso manual",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125033,
+          "nome": "2840.2270 Máquinas portáteis para furar, serrar, cortar ou aparafusar, inclusive ferramentas elétricas manuais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125034,
+          "nome": "2840.2280 Partes ou peças de ferramentas hidráulicas de motor não-elétrico, de uso manual",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125035,
+          "nome": "2840.2290 Partes e peças para máquinas para soldar",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125036,
+          "nome": "2840.2300 Partes e peças para máquinas portáteis para furar, serrar, cortar e aparafusar",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125037,
+          "nome": "2840.2310 Partes e peças para serras de corrente, de uso manual",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125038,
+          "nome": "2840.2320 Partes, peças ou acessórios para máquinas-ferramenta para trabalhar metais",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125039,
+          "nome": "2840.2330 Partes, peças ou acessórios para máquinas-ferramenta, exceto para trabalhar metais",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125040,
+          "nome": "2840.2340 Porta-ferramentas ou porta-pinças",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125041,
+          "nome": "2840.2350 Prensas hidráulicas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125042,
+          "nome": "2840.2360 Prensas para extrusão ou prensas para moldagem de pó metálico por sinterização",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125043,
+          "nome": "2840.2370 Tornos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125044,
+          "nome": "2840.9010 Serviços de instalação e montagem de máquinas-ferramenta, quando executados pelo próprio fabricante",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125045,
+          "nome": "2840.9020 Serviço de produção de máquinas-ferramenta, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125046,
+          "nome": "2851 Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125047,
+          "nome": "2851.2010 Brocas para perfuração ou sondagem para poços de petróleo e gás",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125048,
+          "nome": "2851.2020 Máquinas para perfuração ou sondagem, usadas na prospecção de petróleo",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125049,
+          "nome": "2851.2030 Peças ou acessórios para máquinas para perfuração ou sondagem, usadas na prospecção de petróleo",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125050,
+          "nome": "2851.9010 Serviços de instalação e montagem de máquinas e equipamentos para a indústria de prospecção e extração de petróleo, quando executados pelo próprio",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125051,
+          "nome": "2851.9020 Serviço de produção de máquinas ou equipamentos para a indústria de prospecção ou extração de petróleo, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125052,
+          "nome": "2852 Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125053,
+          "nome": "2852.2010 Aparelhos elevadores ou transportadores, de ação contínua, especialmente concebidos para uso subterrâneo",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125054,
+          "nome": "2852.2020 Máquinas ou equipamentos para selecionar, peneirar, lavar, etc., substâncias minerais sólidas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125055,
+          "nome": "2852.2030 Máquinas para aglomerar ou moldar combustíveis minerais sólidos, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125056,
+          "nome": "2852.2040 Máquinas para perfuração ou sondagem, usadas na extração de minérios; cortadores de carvão ou rocha, autopropulsores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125057,
+          "nome": "2852.2050 Máquinas ou aparelhos para esmagar, moer ou pulverizar substâncias minerais sólidas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125058,
+          "nome": "2852.2060 Máquinas para misturar ou amassar substâncias minerais sólidas, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125059,
+          "nome": "2852.2070 Partes e peças para aparelhos elevadores ou transportadores, de ação contínua, especialmente concebidos para uso subterrâneo",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125060,
+          "nome": "2852.2080 Partes e peças para máquinas ou aparelhos para selecionar, etc., substâncias minerais sólidas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125061,
+          "nome": "2852.2090 Partes ou peças para máquinas de perfuração ou sondagem",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125062,
+          "nome": "2852.9010 Serviços de instalação e montagem de máquinas e equipamentos para a extração mineral (exceto extração de petróleo), quando executados pelo próprio",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125063,
+          "nome": "2852.9020 Serviço de produção de máquinas e equipamentos para extração mineral (exceto para extração de petróleo), inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125064,
+          "nome": "2853 Fabricação de tratores, exceto agrícolas",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125065,
+          "nome": "2853.2010 Peças e acessórios para tratores, exceto agrícolas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125066,
+          "nome": "2853.2020 Tratores, exceto agrícolas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125067,
+          "nome": "2853.9010 Serviço de produção de tratores, inclusive peças, exceto tratores agrícolas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125068,
+          "nome": "2854 Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125069,
+          "nome": "2854.2010 Bate-estacas ou arranca-estacas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125070,
+          "nome": "2854.2020 Betoneiras ou máquinas para amassar cimento",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125071,
+          "nome": "2854.2030 Bulldozers ou angledozers",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125072,
+          "nome": "2854.2040 Carregadoras-transportadoras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125073,
+          "nome": "2854.2050 Compactadores, rolos ou cilindros compressores, autopropulsores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125074,
+          "nome": "2854.2060 Dumpers para utilização fora das rodovias",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125075,
+          "nome": "2854.2070 Escavadeiras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125076,
+          "nome": "2854.2080 Máquinas e equipamentos de comprimir ou compactar terra, etc., exceto autopropulsoras (escavo-carregadoras, raspo-transportadores)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125077,
+          "nome": "2854.2090 Máquinas ou aparelhos automotrizes para espalhar ou calcar pavimentos betuminosos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125078,
+          "nome": "2854.2100 Máquinas para misturar matérias com betume",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125079,
+          "nome": "2854.2110 Motoniveladores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125080,
+          "nome": "2854.2120 Máquinas de terraplenagem, não especificadas, autopropulsadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125081,
+          "nome": "2854.2130 Máquinas de terraplenagem, não especificadas, exceto autopropulsadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125082,
+          "nome": "2854.2140 Máquinas ou aparelhos para obras públicas, construção civil, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125083,
+          "nome": "2854.2150 Partes e peças para máquinas e aparelhos para obras públicas, construção civil, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125084,
+          "nome": "2854.2160 Partes e peças para máquinas e aparelhos de terraplenagem",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125085,
+          "nome": "2854.2170 Retroescavadeiras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125086,
+          "nome": "2854.9010 Serviços de instalação e montagem de máquinas e equipamentos de terraplenagem, pavimentação ou construção, quando executados pelo próprio fabrican",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125087,
+          "nome": "2854.9020 Serviço de produção de máquinas e equipamentos de terraplenagem, pavimentação e construção, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125088,
+          "nome": "2861 Fabricação de máquinas para a indústria metalúrgica, exceto máquinas-ferramenta",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125089,
+          "nome": "2861.2010 Cilindros de laminadores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125090,
+          "nome": "2861.2020 Laminadores de metais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125091,
+          "nome": "2861.2030 Lingoteiras e cadinhos ou colheres para fundição; conversores para fundição, metalurgia ou aciaria",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125092,
+          "nome": "2861.2040 Máquinas para vazar sob pressão ou centrifugação",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125093,
+          "nome": "2861.2050 Partes e peças para laminadores de metais, exceto cilindros",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125094,
+          "nome": "2861.2060 Partes e peças para máquinas de vazar, para metalurgia, aciaria e fundição",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125095,
+          "nome": "2861.9010 Serviços de instalação e montagem de máquinas e equipamentos para a indústria metalúrgica (exceto máquinas-ferramenta), quando executados pelo pró",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125096,
+          "nome": "2861.9020 Serviço de produção de máquinas para a indústria metalúrgica (exceto máquinas-ferramenta), inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125097,
+          "nome": "2862 Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125098,
+          "nome": "2862.2010 Aparelhos e dispositivos para tratamento de matérias que impliquem mudança de temperatura (torrefação, pasteurização, destilação, esterilização, e",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125099,
+          "nome": "2862.2020 Desnatadeiras centrífugas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125100,
+          "nome": "2862.2030 Fornos industriais não-elétricos para padarias, pastelarias ou indústrias de biscoitos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125101,
+          "nome": "2862.2040 Fornos para defumação",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125102,
+          "nome": "2862.2050 Máquinas para extração ou preparação de óleo ou gordura animal ou vegetal",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125103,
+          "nome": "2862.2060 Máquinas para fabricação de vinho, sidra ou suco de frutas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125104,
+          "nome": "2862.2070 Máquinas para indústria cervejeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125105,
+          "nome": "2862.2080 Máquinas para indústria de açúcar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125106,
+          "nome": "2862.2090 Máquinas para indústria de confeitaria, cacau ou de chocolate",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125107,
+          "nome": "2862.2100 Máquinas para indústria de panificação, pastelaria, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125108,
+          "nome": "2862.2110 Máquinas para o preparo de frutas ou produtos hortícolas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125109,
+          "nome": "2862.2120 Moedores, amaciadores e outras máquinas para preparar carnes, para uso industrial e comercial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125110,
+          "nome": "2862.2130 Máquinas para tratamento do leite",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125111,
+          "nome": "2862.2140 Máquinas para moagem, trituração ou tratamento de cereais ou grãos, não especificados, para uso industrial e comercial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125112,
+          "nome": "2862.2150 Máquinas para preparação ou fabricação industrial de alimentos, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125113,
+          "nome": "2862.2160 Máquinas para preparar ou transformar o fumo",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125114,
+          "nome": "2862.2170 Partes e peças para aparelhos e dispositivos para tratamento de matérias que impliquem mudança de temperatura (torrefação, pasteurização, destilaç",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125115,
+          "nome": "2862.2180 Partes e peças para máquinas para fabricação de vinho, sidra e suco de frutas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125116,
+          "nome": "2862.2190 Partes e peças para máquinas para preparar ou transformar o fumo",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125117,
+          "nome": "2862.2200 Partes e peças para máquinas para tratamento do leite",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125118,
+          "nome": "2862.2210 Partes e peças para outras máquinas para preparação e fabricação industrial de alimentos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125119,
+          "nome": "2862.2220 Secadores para produtos agrícolas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125120,
+          "nome": "2862.9010 Serviços de instalação e montagem de máquinas e equipamentos para as indústrias alimentar, de bebida e fumo, quando executados pelo próprio fabric",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125121,
+          "nome": "2862.9020 Serviço de produção de máquinas, equipamentos ou peças para a indústria alimentar, de bebida ou fumo",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125122,
+          "nome": "2863 Fabricação de máquinas e equipamentos para a indústria têxtil",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125123,
+          "nome": "2863.2010 Máquinas de lavar, tingir ou branquear fios, tecidos ou artefatos da indústria têxtil, exceto vestuário",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125124,
+          "nome": "2863.2020 Máquinas ou aparelhos auxiliares para as máquinas das indústrias têxteis, não especificados (ratieras, mecanismos Jacquard, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125125,
+          "nome": "2863.2030 Máquinas para extrudar, estirar, texturizar ou cortar matérias têxteis sintéticas ou artificiais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125126,
+          "nome": "2863.2040 Máquinas para fabricação ou acabamento de feltro ou de falsos tecidos ou suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125127,
+          "nome": "2863.2050 Máquinas para inspecionar tecidos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125128,
+          "nome": "2863.2060 Máquinas para fiação de matéria têxtil (fiadeiras, filatórios, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125129,
+          "nome": "2863.2070 Máquinas de bobinar ou de dobrar material têxtil (bobinadeira, meadeira, noveleiras, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125130,
+          "nome": "2863.2080 Máquinas para fabricação ou preparação de fios têxteis, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125131,
+          "nome": "2863.2090 Máquinas para preparação de matéria têxtil (abridoras, cardas, descaroçadeiras, deslintadeiras, penteadoras, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125132,
+          "nome": "2863.2100 Partes, peças e acessórios para máquinas têxteis",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125133,
+          "nome": "2863.2110 Partes, peças e acessórios para teares",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125134,
+          "nome": "2863.2120 Secadores para tecidos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125135,
+          "nome": "2863.2130 Teares para malhas; máquinas de costura por entrelaçamento; máquinas automáticas para bordar; máquinas para fabricar rendas, passamanarias e semel",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125136,
+          "nome": "2863.2140 Teares para tecidos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125137,
+          "nome": "2863.9010 Serviços de instalação e montagem de máquinas e equipamentos para a indústria têxtil, quando executados pelo próprio fabricante",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125138,
+          "nome": "2863.9020 Serviço de produção de máquinas, equipamentos ou peças para a indústria têxtil",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125139,
+          "nome": "2864 Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125140,
+          "nome": "2864.2010 Máquinas de costura de uso doméstico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125141,
+          "nome": "2864.2020 Máquinas de costura de uso industrial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125142,
+          "nome": "2864.2030 Máquinas de lavar roupas de uso industrial, inclusive para lavanderias",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125143,
+          "nome": "2864.2040 Máquinas ou prensas para passar, inclusive as prensas fixadoras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125144,
+          "nome": "2864.2050 Máquinas para fabricação ou conserto de calçados ou de obras de couros ou peles",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125145,
+          "nome": "2864.2060 Móveis, bases ou tampas para máquinas de costura ou suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125146,
+          "nome": "2864.2070 Máquinas para preparar, curtir ou trabalhar couros ou peles",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125147,
+          "nome": "2864.2080 Máquinas para lavar, tingir, branquear ou secar artefatos da indústria do vestuário",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125148,
+          "nome": "2864.2090 Partes e peças para máquinas de costura de uso doméstico",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125149,
+          "nome": "2864.2100 Partes e peças para máquinas para lavar roupa de uso industrial, inclusive para lavanderias",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125150,
+          "nome": "2864.2110 Partes e peças para máquinas para preparar, curtir e trabalhar couros e peles",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125151,
+          "nome": "2864.2120 Partes e peças para outras máquinas para trabalhar produtos têxteis",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125152,
+          "nome": "2864.2130 Partes e peças para secadores de roupa, centrífugos, com capacidade não superior a 6kg",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125153,
+          "nome": "2864.2140 Partes e peças, inclusive agulhas, para remalhadeiras, lançadeiras e outras máquinas de costura industriais",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125154,
+          "nome": "2864.2150 Secadores-centrifugadores de roupas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125155,
+          "nome": "2864.9010 Serviços de instalação e montagem de máquinas e equipamentos para as indústrias do vestuário e de couro e calçados, quando executados pelo próprio",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125156,
+          "nome": "2864.9020 Serviço de produção de máquinas, equipamentos ou peças para as indústrias do vestuário, couro ou calçados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125157,
+          "nome": "2865 Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125158,
+          "nome": "2865.2010 Máquinas para fabricação e acabamento de papel ou papel-cartão (para bobinar, impregnar, ondular, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125159,
+          "nome": "2865.2020 Máquinas para trabalhar matéria-prima, para fabricar pasta de celulose (classificadoras, depuradoras, refinadoras, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125160,
+          "nome": "2865.2030 Cortadeiras ou bobinadoras para papel ou papel-cartão, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125161,
+          "nome": "2865.2040 Máquinas para trabalhos da pasta de papel, papel ou papel-cartão",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125162,
+          "nome": "2865.2050 Partes ou peças de máquinas para fabricação de pasta de matéria celulósica",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125163,
+          "nome": "2865.2060 Partes e peças de máquinas para fabricação ou acabamento de papel ou papel-cartão",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125164,
+          "nome": "2865.2070 Partes e peças para máquinas para trabalhos de pasta de papel, papel ou papel-cartão, não especificadas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125165,
+          "nome": "2865.2080 Secadores para madeira, pasta de papel, papel ou papel-cartão",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125166,
+          "nome": "2865.9010 Serviços de instalação e montagem de máquinas e equipamentos para as indústrias de celulose, papel ou artefatos, quando executados pelo próprio fa",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125167,
+          "nome": "2865.9020 Serviço de produção de máquinas, equipamentos ou peças para as indústrias de celulose, papel ou papelão",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125168,
+          "nome": "2866 Fabricação de máquinas e equipamentos para a indústria do plástico",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125169,
+          "nome": "2866.2010 Extrusoras para plástico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125170,
+          "nome": "2866.2020 Máquinas de moldar para trabalhar produtos de material plástico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125171,
+          "nome": "2866.2030 Máquinas e aparelhos para trabalhar ou fabricar produtos de material plástico, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125172,
+          "nome": "2866.2040 Partes e peças para máquinas para trabalhar material plástico",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125173,
+          "nome": "2866.9010 Serviços de instalação e montagem de máquinas e equipamentos para a indústria do plástico, quando executados pelo próprio fabricante",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125174,
+          "nome": "2866.9020 Serviço de produção de máquinas, equipamentos e peças para a indústria do plástico",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125175,
+          "nome": "2869 Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125176,
+          "nome": "2869.2010 Calandras e laminadores para papel ou papel-cartão",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125177,
+          "nome": "2869.2020 Calandras e laminadores para borracha, plástico, têxtil, couro, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125178,
+          "nome": "2869.2030 Calandras para lavanderias",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125179,
+          "nome": "2869.2040 Dispositivos de evaporação para arrefecimento do ar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125180,
+          "nome": "2869.2050 Distribuidores ou dosadores de sólidos ou líquidos, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125181,
+          "nome": "2869.2060 Extrusoras para borracha",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125182,
+          "nome": "2869.2070 Máquinas auxiliares para impressão",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125183,
+          "nome": "2869.2080 Máquinas ou aparelhos para tratamento de metais, inclusive as bobinadoras para enrolamentos elétricos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125184,
+          "nome": "2869.2090 Máquinas para amassar, esmagar, moer, misturar, separar, etc., sem aplicação específica",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125185,
+          "nome": "2869.2100 Máquinas para brochura ou encadernação, inclusive as máquinas de costurar cadernos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125186,
+          "nome": "2869.2110 Máquinas, aparelhos ou equipamentos para usos industriais, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125187,
+          "nome": "2869.2130 Máquinas e aparelhos para trabalhar ou fabricar produtos de borracha (prensas, máquinas para moldar, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125188,
+          "nome": "2869.2140 Máquinas para fabricação de moldes de areia para fundição",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125189,
+          "nome": "2869.2150 Máquinas ou material para preparação ou fabricação de caracteres tipográficos, inclusive clichês",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125190,
+          "nome": "2869.2160 Máquinas para fabricar ou trabalhar a quente vidro e suas obras; máquinas para fabricação de fibras ópticas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125191,
+          "nome": "2869.2170 Máquinas para impressão, não especificadas (ofsete, tipográfica, serigrafia, flexográficos, jato de tinta, heliográficos, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125192,
+          "nome": "2869.2180 Prensas, não especificadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125193,
+          "nome": "2869.2190 Partes e peças de calandras e laminadores",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125194,
+          "nome": "2869.2200 Partes ou peças de máquinas ou aparelhos para compor caracteres tipográficos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125195,
+          "nome": "2869.2210 Partes ou peças de outras máquinas ou aparelhos para usos industriais, não especificados",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125196,
+          "nome": "2869.2220 Partes ou peças de outras máquinas para fabricar ou trabalhar vidro ou suas obras a quente",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125197,
+          "nome": "2869.2230 Partes ou peças de máquinas para impressão, inclusive auxiliares",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125198,
+          "nome": "2869.2240 Partes e peças para máquinas para trabalhar borracha",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125199,
+          "nome": "2869.2250 Partes ou peças de máquinas para brochura ou encadernação",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125200,
+          "nome": "2869.2260 Robôs industriais, exceto robôs para soldar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125201,
+          "nome": "2869.2270 Silos metálicos para cereais, fixos, incluindo as baterias, com mecanismos elevadores ou extratores incorporados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125202,
+          "nome": "2869.9010 Serviços de instalação e montagem de máquinas e equipamentos para usos industriais, não especificados, papel ou artefatos, quando executados pelo",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125203,
+          "nome": "2869.9020 Serviço de produção de outras máquinas, equipamentos ou peças de uso específico",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125204,
+          "nome": "2910 Fabricação de automóveis, camionetas e utilitários",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125205,
+          "nome": "2910.2010 Automóveis, jipes ou camionetas, para passageiros, com motor a gasolina, álcool ou bicombustível, de cilindrada maior que 1.500 cm³ e menor ou igu",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125206,
+          "nome": "2910.2020 Automóveis, jipes ou camionetas, para passageiros, com motor a gasolina, álcool ou bicombustível, de cilindrada maior que 1.000 cm³ e menor ou igu",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125207,
+          "nome": "2910.2030 Automóveis, jipes ou camionetas, para passageiros, com motor a gasolina, álcool ou bicombustível, de cilindrada maior que 3.000 cm³, inclusive CKD",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125208,
+          "nome": "2910.2040 Automóveis, jipes ou camionetas, para passageiros, com motor a gasolina, álcool ou bicombustível, de cilindrada menor ou igual a 1.000cm³, inclusi",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125209,
+          "nome": "2910.2050 Automóveis, jipes ou camionetas, para passageiros com motor diesel, de cilindrada menor ou igual a 1.500 cm³, inclusive CKD (completely knocked do",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125210,
+          "nome": "2910.2060 Automóveis, jipes ou camionetas, para passageiros com motor diesel, de cilindrada maior que 1.500 e menor ou igual a 2.500 cm³, inclusive CKD (com",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125211,
+          "nome": "2910.2070 Automóveis, jipes ou camionetas, para passageiros com motor diesel, de cilindrada superior a 2.500 cm³, inclusive CKD (completely knocked down)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125212,
+          "nome": "2910.2080 Chassis com motor para automóveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125213,
+          "nome": "2910.2090 Motores de explosão e combustão interna para veículos automotores, de qualquer cilindrada - exceto motores diesel",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125214,
+          "nome": "2910.2100 Motores diesel ou semi-diesel para veículos rodoviários - exceto ônibus, caminhões, tratores e máquinas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125215,
+          "nome": "2910.2110 Veículos para campos de golfe",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125216,
+          "nome": "2910.2120 Veículos para transporte especializado (ambulâncias, carros celulares, veículos para transporte de valores, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125217,
+          "nome": "2910.2130 Veículos para o transporte de mercadorias (camionetas, furgões, pick-ups, etc.), com motor a gasolina e/ou álcool, de capacidade máxima de carga (",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125218,
+          "nome": "2910.2140 Veículos para o transporte de mercadorias (camionetas, furgões, pick-ups, etc.), com motor diesel, de capacidade máxima de carga (cmc) não superi",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125219,
+          "nome": "2910.9010 Serviços de montagem de motores de automóveis, camionetas e utilitários, executados para terceiros",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125220,
+          "nome": "2920 Fabricação de caminhões e ônibus",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125221,
+          "nome": "2920.2010 Caminhão-trator, inclusive CKD (completely knocked down), para reboques e semi-reboques",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125222,
+          "nome": "2920.2020 Caminhões, com motor a gasolina ou a álcool, de capacidade máxima de carga (cmc) menor ou igual a 5 t, inclusive CKD (completely knocked down)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125223,
+          "nome": "2920.2030 Caminhões, com motor diesel, de capacidade máxima de carga (cmc) menor ou igual a 5 t, inclusive CKD (completely knocked down)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125224,
+          "nome": "2920.2040 Caminhões, com motor a gasolina ou a álcool, de capacidade máxima de carga (cmc) superior a 5 t, inclusive CKD (completely knocked down)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125225,
+          "nome": "2920.2050 Caminhões, com motor diesel, de capacidade máxima de carga (cmc) superior a 5 t, inclusive CKD (completely knocked down)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125226,
+          "nome": "2920.2060 Caminhões para transporte de material pesado",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125227,
+          "nome": "2920.2070 Chassis com motor para caminhões (cavalo mecânico)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125228,
+          "nome": "2920.2080 Chassis com motor para ônibus",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125229,
+          "nome": "2920.2090 Motores diesel ou semi-diesel para ônibus ou caminhões",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125230,
+          "nome": "2920.2100 Ônibus, inclusive CKD (completely knocked down)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125231,
+          "nome": "2920.2110 Veículos automotores para usos especiais (auto-socorros, betoneiras, para combate à incêndio, veículos radiológicos, etc.), inclusive adaptados ou",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125232,
+          "nome": "2920.2120 Veículos para transporte de dez ou mais pessoas, exceto ônibus",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125233,
+          "nome": "2920.9010 Serviços de montagem de motores para caminhões e ônibus, executados para terceiros",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125234,
+          "nome": "2930 Fabricação de cabines, carrocerias e reboques para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125235,
+          "nome": "2930.2010 Capotas, de qualquer material, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125236,
+          "nome": "2930.2020 Carretas para transporte de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125237,
+          "nome": "2930.2030 Carrocerias para automóveis, inclusive as cabines",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125238,
+          "nome": "2930.2040 Carrocerias para caminhões, inclusive as cabines",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125239,
+          "nome": "2930.2050 Carrocerias para ônibus",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125240,
+          "nome": "2930.2060 Carrocerias para dumpers",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125241,
+          "nome": "2930.2070 Contêineres (contentores) de qualquer material, especialmente concebidos para um ou vários meios de transporte",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125242,
+          "nome": "2930.2080 Partes e peças para reboques (chassis, eixos, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125243,
+          "nome": "2930.2090 Reboques-cisterna, inclusive equipados com bombas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125244,
+          "nome": "2930.2100 Reboques-frigoríficos ou reboques isotérmicos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125245,
+          "nome": "2930.2110 Reboques ou semi-reboques para habitação ou para acampar, tipo trailer",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125246,
+          "nome": "2930.2120 Reboques ou semi-reboques para usos não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125247,
+          "nome": "2930.9010 Serviços de blindagem de veículos",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125248,
+          "nome": "2930.9020 Serviços de produção de cabines, carrocerias e reboques para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125249,
+          "nome": "2941 Fabricação de peças e acessórios para o sistema motor de veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125250,
+          "nome": "2941.2010 Bombas injetoras, de qualquer tipo, para veículos automotores, inclusive partes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125251,
+          "nome": "2941.2020 Embreagens ou suas partes para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125252,
+          "nome": "2941.2030 Filtros de ar, de óleo ou de combustível para motores de veiculos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125253,
+          "nome": "2941.2040 Peças ou acessórios, não especificados, para o sistema de motor de veículos automotores (blocos de cilindro, virabrequins, carburadores, válvulas,",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125254,
+          "nome": "2941.2050 Radiadores ou suas partes para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125255,
+          "nome": "2941.9010 Serviços de produção de peças ou acessórios para o sistema do motor para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125256,
+          "nome": "2942 Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125257,
+          "nome": "2942.2010 Caixas de marcha (velocidade) e suas partes, para veículos automotores e suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125258,
+          "nome": "2942.2020 Eixos de transmissão com diferencial, mesmo com outros órgãos de transmissão, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125259,
+          "nome": "2942.2030 Eixos, semi-eixos, engrenagens, mancais, juntas de articulação ou outras peças para transmissão para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125260,
+          "nome": "2942.2040 Peças ou acessórios para os sistemas de marcha ou transmissão, não especificados, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125261,
+          "nome": "2942.9010 Serviços de produção de peças e acessórios para o sistema de marcha ou transmissão para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125262,
+          "nome": "2943 Fabricação de peças e acessórios para o sistema de freios de veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125263,
+          "nome": "2943.2010 Freios (travões), servo-freios ou suas partes (pratos, tambores. cilindros, etc.) para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125264,
+          "nome": "2943.2020 Peças ou acessórios para o sistema de freios, não especificados, para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125265,
+          "nome": "2943.9010 Serviços de produção de peças ou acessórios para o sistema de freios para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125266,
+          "nome": "2944 Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125267,
+          "nome": "2944.2010 Sistemas de suspensão e suas partes, inclusive os amortecedores de suspensão para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125268,
+          "nome": "2944.2020 Eixos, exceto de transmissão ou suas partes (terceiro eixo, truck) para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125269,
+          "nome": "2944.2030 Molas e folhas de molas de ferro e aço, de qualquer espécie, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125270,
+          "nome": "2944.2040 Peças ou acessórios para o sistema de direção ou suspensão, não especificados, para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125271,
+          "nome": "2944.2050 Volantes, barras ou caixas de direção para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125272,
+          "nome": "2944.9010 Serviços de produção de peças ou acessórios para o sistema de direção ou suspensão para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125273,
+          "nome": "2945 Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125274,
+          "nome": "2945.2010 Aparelhos de sinalização acústica para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125275,
+          "nome": "2945.2020 Comandos elétricos para travamento de portas, movimentação de vidros ou de antenas, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125276,
+          "nome": "2945.2030 Componentes elétricos de ignição para motores a explosão ou diesel ou suas partes (chaves, velas, bobinas, alternadores, etc.)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125277,
+          "nome": "2945.2040 Controladores eletrônicos automáticos para veículos automotores (ignição, suspensão, freios, transmissão)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125278,
+          "nome": "2945.2050 Faróis ou outros aparelhos para iluminação e sinalização visual para veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125279,
+          "nome": "2945.2060 Injeção eletrônica",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125280,
+          "nome": "2945.2070 Isqueiros elétrico para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125281,
+          "nome": "2945.2080 Jogos de fios para velas de ignição e outros chicotes elétricos para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125282,
+          "nome": "2945.2090 Limpadores ou desembaçadores de pára-brisas para veículos automotores, inclusive partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125283,
+          "nome": "2945.2100 Motores de partida (arranque) para motores de explosão de veículos automotores",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125284,
+          "nome": "2945.2110 Painéis ou quadros de instrumentos (completos) para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125285,
+          "nome": "2945.2120 Partes de outros materiais elétricos, não especificados, para motores e para veículos automotores",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125286,
+          "nome": "2945.9010 Serviço de produção de material elétrico para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125287,
+          "nome": "2949 Fabricação de peças e acessórios para veículos automotores não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125288,
+          "nome": "2949.2010 Airbags (bolsas infláveis de segurança com sistema de insuflação)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125289,
+          "nome": "2949.2020 Bancos de metal para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125290,
+          "nome": "2949.2030 Bancos, exceto de metal, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125291,
+          "nome": "2949.2040 Dispositivos para comando de acelerador, marcha, etc., do tipo dos utilizados por pessoas incapacitadas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125292,
+          "nome": "2949.2050 Catalisador de gases de escapamento para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125293,
+          "nome": "2949.2060 Cintos de segurança para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125294,
+          "nome": "2949.2070 Depósitos de combustíveis para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125295,
+          "nome": "2949.2080 Estofamentos modulares para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125296,
+          "nome": "2949.2090 Painéis ou quadros (incompletos) para instrumentos dos veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125297,
+          "nome": "2949.2100 Pára-choques de qualquer material, inclusive partes, para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125298,
+          "nome": "2949.2110 Pára-lamas para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125299,
+          "nome": "2949.2120 Partes ou peças de qualquer material para bancos de veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125300,
+          "nome": "2949.2130 Peças e acessórios para veículos automotores, não especificados",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125301,
+          "nome": "2949.2140 Portas para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125302,
+          "nome": "2949.2150 Rodas, suas partes ou acessórios (discos, raios, calotas, etc.) para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125303,
+          "nome": "2949.2160 Silenciosos ou tubos de escape e sua partes para veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125304,
+          "nome": "2949.2170 Sistema de insuflação e outras partes para airbags de veículos automotores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125305,
+          "nome": "2949.9010 Serviços de produção de peças ou acessórios de metal para veículos automotores não classificados em outra classe",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125306,
+          "nome": "2950 Recondicionamento e recuperação de motores para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125307,
+          "nome": "2950.9010 Recondicionamento ou recuperação de motores para veículos automotores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125308,
+          "nome": "3011 Construção de embarcações e estruturas flutuantes",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125309,
+          "nome": "3011.2010 Barcos-faróis, barcos-bombas, barcos de combate à incêndio, guindastes flutuantes e embarcações semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125310,
+          "nome": "3011.2020 Barcos-frigoríficos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125311,
+          "nome": "3011.2030 Barcos de pesca; barcos-fábricas e outras embarcações para o tratamento ou conservação de produtos da pesca",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125312,
+          "nome": "3011.2040 Chatas, barcas, pontões ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125313,
+          "nome": "3011.2050 Desembarcadouros, diques, balsas infláveis, bóias de amarração ou sinalização ou outras estruturas flutuantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125314,
+          "nome": "3011.2060 Dragas de todos os tipos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125315,
+          "nome": "3011.2070 Embarcações de apoio marítimo à exploração de petróleo",
+          "unidade": "Homens por hora",
+          "nivel": 1
+        },
+        {
+          "id": 125316,
+          "nome": "3011.2080 Embarcações de outros tipos para o transporte de cargas ou pessoas (transatlânticos, ferry-boats, graneleiros e outros cargueiros semelhantes, etc",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125317,
+          "nome": "3011.2090 Estruturas, partes ou módulos para embarcações e estruturas flutuantes",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 125318,
+          "nome": "3011.2100 Navios-hospitais, navios de guerra, embarcações para pesquisa científica e outras embarcações semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125319,
+          "nome": "3011.2110 Navios modernizados ou navios transformados (em unidades estacionárias de produção, em outro tipo de navio, etc.)",
+          "unidade": "Homens por hora",
+          "nivel": 1
+        },
+        {
+          "id": 125320,
+          "nome": "3011.2120 Navios-tanque, inclusive petroleiro",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125321,
+          "nome": "3011.2130 Plataformas de perfuração ou de exploração, flutuantes ou submersíveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125322,
+          "nome": "3011.2140 Rebocadores ou outros barcos para empurrar embarcações",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125323,
+          "nome": "3011.9010 Serviços de construção de embarcações ou partes de embarcações para transporte de passageiros, de mercadorias ou para usos múltiplos",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125324,
+          "nome": "3012 Construção de embarcações para esporte e lazer",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125325,
+          "nome": "3012.2010 Barcos infláveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125326,
+          "nome": "3012.2020 Botes de dois remos, canoas, caiaques ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125327,
+          "nome": "3012.2030 Embarcações para esporte e lazer (iates, lanchas, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125328,
+          "nome": "3012.2040 Jet-esquis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125329,
+          "nome": "3012.2050 Pedalinhos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125330,
+          "nome": "3012.9010 Serviços de construção de embarcações ou partes de embarcações para esporte e lazer",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125331,
+          "nome": "3031 Fabricação de locomotivas, vagões e outros materiais rodantes",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125332,
+          "nome": "3031.2010 Litorinas, mesmo para circulação urbana (bondes)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125333,
+          "nome": "3031.2020 Locomotivas elétricas, diesel-elétricas e outras",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125334,
+          "nome": "3031.2030 Vagões para transporte de mercadorias (tanques, fechados, abertos, de descarga automática, isotérmicos, refrigerados, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125335,
+          "nome": "3031.2040 Vagões de passageiros, vagões-postais, furgões para bagagem e outros vagões especiais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125336,
+          "nome": "3031.2050 Veículos para inspeção ou manutenção de vias férreas ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125337,
+          "nome": "3031.9010 Serviços de construção de locomotivas, vagões ou outros materiais rodantes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125338,
+          "nome": "3032 Fabricação de peças e acessórios para veículos ferroviários",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125339,
+          "nome": "3032.2010 Aparelhos mecânicos ou eletromecânicos de sinalização, controle ou de comando para vias férreas ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125340,
+          "nome": "3032.2020 Freios ou suas partes para veículos ferroviários",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125341,
+          "nome": "3032.2030 Material fixo de vias férreas ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125342,
+          "nome": "3032.2040 Partes e peças para veículos ferroviários e semelhantes, exceto freios e suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125343,
+          "nome": "3032.9010 Serviços de produção de peças ou acessórios para veículos ferroviários",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125344,
+          "nome": "3041 Fabricação de aeronaves",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125345,
+          "nome": "3041.2010 Aparelhos ou dispositivos para lançamento ou aterrissagem de veículos aéreos (em porta-aviões) ou suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125346,
+          "nome": "3041.2020 Aviões ou outros veículos aéreos de peso superior a 15.000 kg",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125347,
+          "nome": "3041.2030 Aviões ou outros veículos aéreos de peso superior a 2.000 kg e menor ou igual a 15.000 kg",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125348,
+          "nome": "3041.2040 Aviões ou outros veículos aéreos de peso menor ou igual a 2.000 kg",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125349,
+          "nome": "3041.2050 Balões e dirigíveis; planadores, asas-delta e outros veículos aéreos semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125350,
+          "nome": "3041.2060 Helicópteros",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125351,
+          "nome": "3041.2070 Simuladores de vôo ou suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125352,
+          "nome": "3041.2080 Veículos espaciais (incluídos os satélites) e seus veículos de lançamento",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125353,
+          "nome": "3041.9010 Serviços de produção de partes de aeronaves",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125354,
+          "nome": "3042 Fabricação de turbinas, motores e outros componentes e peças para aeronaves",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125355,
+          "nome": "3042.2010 Assentos, principalmente com armação metálica, para aeronaves",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125356,
+          "nome": "3042.2020 Hélices, rotores e suas partes para aeronaves",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125357,
+          "nome": "3042.2030 Limpadores de pára-brisas elétricos; acumuladores hidráulicos para aeronaves; peças e acessórios",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125358,
+          "nome": "3042.2040 Motores para aviação",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125359,
+          "nome": "3042.2050 Partes ou peças de motores para aviação",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125360,
+          "nome": "3042.2060 Partes e peças de turborreatores e turbopropulsores para aeronaves",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125361,
+          "nome": "3042.2070 Peças ou acessórios não especificados, para veículos aéreos, inclusive trens de aterrissagem ou suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125362,
+          "nome": "3042.2080 Propulsores à reação, para aeronaves - exceto turborreatores",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125363,
+          "nome": "3042.2090 Turborreatores e turbopropulsores (turbinas) para aeronaves",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125364,
+          "nome": "3050 Fabricação de veículos militares de combate",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125365,
+          "nome": "3050.2010 Veículos e carros blindados de combate, armados ou não, e suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125366,
+          "nome": "3091 Fabricação de motocicletas",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125367,
+          "nome": "3091.2010 Motocicletas (inclusive os motociclos) com motor de pistão alternativo de cilindrada superior a 250 e menor ou igual a 500cm³",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125368,
+          "nome": "3091.2020 Motocicletas (inclusive os motociclos) com motor de pistão alternativo de cilindrada superior a 50 cm³ e menor ou igual a 250 cm³",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125369,
+          "nome": "3091.2030 Motocicletas (inclusive os motociclos) com motor de pistão alternativo de cilindrada superio a 500cm³",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125370,
+          "nome": "3091.2040 Motocicletas (inclusive os motociclos) com motor de pistão alternativo de cilindrada menor ou igual a 50 cm³",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125371,
+          "nome": "3091.2050 Motocicletas, motociclos, triciclos e outros ciclomotores, n. e., inclusive side-cars",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125372,
+          "nome": "3091.2060 Peças e acessórios para motocicletas, triciclos, motociclos e outros ciclomotores, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125373,
+          "nome": "3091.9010 Serviços de produção de motocicletas ou peças para motocicletas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125374,
+          "nome": "3092 Fabricação de bicicletas e triciclos não-motorizados",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125375,
+          "nome": "3092.2010 Aros ou raios para bicicletas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125376,
+          "nome": "3092.2020 Bicicletas ou outros ciclos, sem motor, inclusive os triciclos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125377,
+          "nome": "3092.2030 Cadeiras de rodas ou outros veículos para inválidos, mesmo com motor ou outro mecanismo de propulsão",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125378,
+          "nome": "3092.2040 Carrinhos ou veículos semelhantes para bebê",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125379,
+          "nome": "3092.2050 Freios, cubos de freios ou suas partes, para bicicletas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125380,
+          "nome": "3092.2060 Partes, peças ou acessórios para carrinhos ou veículos semelhantes para bebê",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125381,
+          "nome": "3092.2070 Peças ou acessórios para cadeiras de rodas ou outros veículos para inválidos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125382,
+          "nome": "3092.2080 Peças e acessórios para bicicletas e outros ciclos sem motor (pedais, quadros, selins, etc.) inclusive acessórios de iluminação ou sinalização",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125383,
+          "nome": "3092.9010 Serviços de produção de bicicletas ou triciclos não motorizados, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125384,
+          "nome": "3099 Fabricação de equipamentos de transporte não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125385,
+          "nome": "3099.2010 Carrinhos para usos não especificados (carrinhos de mão; isotérmicos; para recolher lixo, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125386,
+          "nome": "3099.2020 Veículos de tração animal, não especificados (carroças, charretes, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125387,
+          "nome": "3099.2030 Peças para veículos para usos diversos (carrinhos de mão; isotérmicos; para recolher lixo, veículos de tração animal, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125388,
+          "nome": "3099.9010 Serviços de produção de outros equipamentos de transporte, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125389,
+          "nome": "3101 Fabricação de móveis com predominância de madeira",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125390,
+          "nome": "3101.2010 Armários de madeira para cozinhas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125391,
+          "nome": "3101.2020 Armários de madeira para escritórios",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125392,
+          "nome": "3101.2030 Armários modulados de madeira para cozinhas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125393,
+          "nome": "3101.2040 Armários modulados de madeira para quartos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125394,
+          "nome": "3101.2050 Armários de madeira de uso residencial, exceto guarda-roupas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125395,
+          "nome": "3101.2060 Arquivos de madeira para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125396,
+          "nome": "3101.2070 Assentos ou cadeiras de madeira para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125397,
+          "nome": "3101.2080 Assentos ou cadeiras de madeira, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125398,
+          "nome": "3101.2090 Balcões ou vitrines de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125399,
+          "nome": "3101.2100 Bancos de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125400,
+          "nome": "3101.2110 Berços de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125401,
+          "nome": "3101.2120 Camas de madeira, inclusive beliches",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125402,
+          "nome": "3101.2130 Carrinhos de madeira para chá ou bebidas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125403,
+          "nome": "3101.2140 Cômodas de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125404,
+          "nome": "3101.2150 Componentes de madeira para móveis modulados (portas, laterais, prateleiras e semelhantes)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125405,
+          "nome": "3101.2160 Estantes de madeira de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125406,
+          "nome": "3101.2170 Estantes de madeira para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125407,
+          "nome": "3101.2180 Guarda-roupas de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125408,
+          "nome": "3101.2190 Mesas de madeira de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125409,
+          "nome": "3101.2200 Mesas de madeira para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125410,
+          "nome": "3101.2210 Mesinhas de cabeceira de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125423,
+          "nome": "31012.216 Móveis avulsos de metal, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125411,
+          "nome": "3101.2220 Mesinhas de madeira (para centro, canto, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125412,
+          "nome": "3101.2230 Móveis de madeira de uso residencial, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125413,
+          "nome": "3101.2240 Móveis de madeira, não especificados, para cozinhas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125414,
+          "nome": "3101.2250 Móveis diversos de madeira para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125415,
+          "nome": "3101.2260 Móveis modulados de madeira para escritório, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125416,
+          "nome": "3101.2270 Móveis diversos de madeira para instalações comerciais (gôndolas e semelhantes)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125417,
+          "nome": "3101.2280 Móveis modulados de madeira de uso residencial, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125418,
+          "nome": "3101.2290 Partes e peças de madeira para móveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125419,
+          "nome": "3101.2300 Partes e peças para assentos e cadeiras de madeira, exceto para veículos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125420,
+          "nome": "3101.2310 Poltronas ou sofás de madeira, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125421,
+          "nome": "3101.2320 Prateleiras de madeira",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125422,
+          "nome": "3101.9010 Serviço de produção de móveis com predominância de madeira, inclusive partes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125424,
+          "nome": "3102 Fabricação de móveis com predominância de metal",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125425,
+          "nome": "3102.2010 Armários de metal para escritórios",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125426,
+          "nome": "3102.2020 Armários metálicos de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125427,
+          "nome": "3102.2030 Arquivos de metal para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125428,
+          "nome": "3102.2040 Assentos ou cadeiras de metal para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125429,
+          "nome": "3102.2050 Assentos e cadeiras de metal, exceto para escritório, inclusive cadeiras de praia",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125430,
+          "nome": "3102.2060 Balcões ou vitrines de metal",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125431,
+          "nome": "3102.2070 Bancos de metal",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125432,
+          "nome": "3102.2080 Berços de metal",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125433,
+          "nome": "3102.2090 Cadeiras para salões de cabeleireiro",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125434,
+          "nome": "3102.2100 Camas de metal, inclusive beliches",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125435,
+          "nome": "3102.2110 Carrinhos de metal para chá ou bebidas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125436,
+          "nome": "3102.2120 Estantes de metal para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125437,
+          "nome": "3102.2130 Estantes metálicas de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125438,
+          "nome": "3102.2140 Mesas de metal para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125439,
+          "nome": "3102.2150 Mesas metálicas de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125440,
+          "nome": "3102.2160 Móveis avulsos de metal, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125441,
+          "nome": "3102.2170 Móveis diversos de metal para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125442,
+          "nome": "3102.2180 Móveis diversos de metal para escritório, compostos por elementos desmontáveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125443,
+          "nome": "3102.2190 Móveis diversos de metal para instalações comerciais (gôndolas e semelhantes)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125444,
+          "nome": "3102.2200 Partes e peças de cadeiras para salões de cabeleireiro",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125445,
+          "nome": "3102.2210 Partes ou peças de metal para móveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125446,
+          "nome": "3102.2220 Partes e peças de metal para assentos e cadeiras de metal, exceto para veículos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125447,
+          "nome": "3102.2230 Poltronas ou sofás metálicos, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125448,
+          "nome": "3102.2240 Prateleiras de metal",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125449,
+          "nome": "3102.9010 Serviço de produção de móveis com predominância de metal, inclusive partes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125450,
+          "nome": "3103 Fabricação de móveis de outros materiais, exceto madeira e metal",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125451,
+          "nome": "3103.2010 Armários de plástico de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125452,
+          "nome": "3103.2020 Assentos ou cadeiras de materiais não especificados, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125453,
+          "nome": "3103.2030 Assentos ou cadeiras de materiais não especificados, para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125454,
+          "nome": "3103.2040 Assentos ou cadeiras de plástico para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125455,
+          "nome": "3103.2050 Assentos ou cadeiras de plástico, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125456,
+          "nome": "3103.2060 Bancos de plástico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125457,
+          "nome": "3103.2070 Bancos ou cadeiras de vime, bambu e materiais semelhantes, para qualquer uso",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125458,
+          "nome": "3103.2080 Mesas de plástico de uso residencial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125459,
+          "nome": "3103.2090 Mesinhas de vime, bambu ou semelhantes (para centro, canto, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125460,
+          "nome": "3103.2100 Móveis de plástico, não especificados, para qualquer uso",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125461,
+          "nome": "3103.2110 Móveis de bambu, vime e de materiais não especificados, para qualquer uso",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125462,
+          "nome": "3103.2120 Partes e peças de vime, bambu e semelhantes para móveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125463,
+          "nome": "3103.2130 Partes e peças para assentos e cadeiras de materiais não especificados, exceto para veículos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125464,
+          "nome": "3103.2140 Partes de plástico para móveis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125465,
+          "nome": "3103.2150 Poltronas ou sofás de vime, bambu ou semelhantes, exceto para escritório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125466,
+          "nome": "3103.9010 Serviço de produção de móveis com predominância de outros materiais, exceto madeira e metal, inclusive partes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125467,
+          "nome": "3104 Fabricação de colchões",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125468,
+          "nome": "3104.2010 Colchões de borracha, de plásticos alveolares ou de espumas de plástico, inclusive colchões ortopédicos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125469,
+          "nome": "3104.2020 Colchões de algodão, crina, penas ou outras matérias semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125470,
+          "nome": "3104.2030 Colchões de molas metálicas, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125471,
+          "nome": "3104.2040 Suportes elásticos (de madeira, metal, etc.) para artigos do mobiliário",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125472,
+          "nome": "3104.9010 Serviço de produção de colchões de qualquer material",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125473,
+          "nome": "3211 Lapidação de gemas e fabricação de artefatos de ourivesaria e joalheria",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125474,
+          "nome": "3211.2010 Artefatos de joalheria e suas partes, de metais preciosos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125475,
+          "nome": "3211.2020 Artefatos de joalheria e suas partes, de metais folheados ou chapeados de metais preciosos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125476,
+          "nome": "3211.2030 Artefatos de ourivesaria ou suas partes, de metais comuns, folheados ou chapeados de metais preciosos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125477,
+          "nome": "3211.2040 Artefatos de pérolas naturais ou cultivadas, de pedras preciosas ou semipreciosas ou de pedras sintéticas ou reconstituídas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125478,
+          "nome": "3211.2050 Artefatos folheados ou chapeados de metais preciosos para usos técnicos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125479,
+          "nome": "3211.2060 Artefatos de ourivesaria e suas partes, de metais preciosos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125480,
+          "nome": "3211.2070 Diamantes industriais não montados nem engastados",
+          "unidade": "Quilates",
+          "nivel": 1
+        },
+        {
+          "id": 125481,
+          "nome": "3211.2080 Diamantes não industriais, não montados nem engastados",
+          "unidade": "Quilates",
+          "nivel": 1
+        },
+        {
+          "id": 125482,
+          "nome": "3211.2090 Gemas (pedras preciosas (exceto diamantes) ou semipreciosas) mesmo trabalhadas, mas não enfiadas, montadas ou engastadas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125483,
+          "nome": "3211.2100 Moedas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125484,
+          "nome": "3211.2110 Pedras preciosas ou semipreciosas sintéticas, mesmo trabalhadas, mas não enfiadas, montadas ou engastadas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125485,
+          "nome": "3211.2120 Pérolas cultivadas trabalhadas, exceto enfiadas, montadas ou engastadas",
+          "unidade": "Gramas",
+          "nivel": 1
+        },
+        {
+          "id": 125486,
+          "nome": "3211.2130 Pó de diamantes, de gemas (pedras preciosas ou semipreciosas) ou de pedras sintéticas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125487,
+          "nome": "3211.9010 Serviço de lapidação de gemas (pedras preciosas e semipreciosas)",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125488,
+          "nome": "3211.9020 Serviço de produção de artefatos de joalheria ou ourivesaria",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125489,
+          "nome": "3212 Fabricação de bijuterias e artefatos semelhantes",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125490,
+          "nome": "3212.2010 Bijuterias de metais comuns (brincos, braceletes, pulseiras, colares, etc.)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125491,
+          "nome": "3212.2020 Bijuterias, exceto de metais comuns (abotoaduras, brincos, braceletes, pulseiras, colares, etc.)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125492,
+          "nome": "3220 Fabricação de instrumentos musicais",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125493,
+          "nome": "3220.2010 Apitos, chamarizes, caixa de música ou outros instrumentos musicais, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125494,
+          "nome": "3220.2020 Instrumentos musicais de cordas (violinos, violão, guitarras, etc.), exceto eletrônicos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125495,
+          "nome": "3220.2030 Instrumentos musicais de percussão (tambores, pratos, triângulos, maracás, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125496,
+          "nome": "3220.2040 Instrumentos musicais de sopro (vento): clarinetes, saxofones, trompetes, flautas, fagotes, oboés, etc.",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125497,
+          "nome": "3220.2050 Instrumentos musicais elétricos ou eletrônicos (guitarras elétricas, teclados, sintetizadores)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125498,
+          "nome": "3220.2060 Partes, peças e acessórios para instrumentos musicais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125499,
+          "nome": "3220.2070 Pianos e outros instrumentos de corda com teclado, exceto eletrônicos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125500,
+          "nome": "3220.9010 Serviço de produção de instrumentos musicais, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125501,
+          "nome": "3230 Fabricação de artefatos para pesca e esporte",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125502,
+          "nome": "3230.2010 Artigos e equipamentos de proteção para esporte (joelheiras, cotoveleiras, luvas, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125503,
+          "nome": "3230.2020 Artigos e equipamentos para cultura física, ginástica ou atletismo, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125504,
+          "nome": "3230.2030 Artigos e equipamentos para esportes aquáticos (pranchas, esquis, tobogãs, pés de pato, máscaras para mergulho, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125505,
+          "nome": "3230.2040 Artigos e equipamentos para esportes, não especificados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125506,
+          "nome": "3230.2050 Artigos e equipamentos para golfe (tacos, bolas, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125507,
+          "nome": "3230.2060 Artigos e equipamentos para pesca (anzóis, iscas, puçás, molinetes, varas ou caniços, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125508,
+          "nome": "3230.2070 Artigos e equipamentos para tênis de mesa (raquetes, bolas, mesas, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125509,
+          "nome": "3230.2080 Bicicletas ou esteiras ergométricas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125510,
+          "nome": "3230.2090 Bolas de futebol, inclusive as câmaras de ar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125511,
+          "nome": "3230.2100 Bolas para esportes (exceto golfe, tênis de mesa e futebol)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125512,
+          "nome": "3230.2110 Patins para gelo e patins de rodas, inclusive os fixados em calçados",
+          "unidade": "Par",
+          "nivel": 1
+        },
+        {
+          "id": 125513,
+          "nome": "3230.2120 Partes ou acessórios de patins",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125514,
+          "nome": "3230.2130 Piscinas de plástico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125515,
+          "nome": "3230.2140 Raquetes de tênis e raquetes semelhantes, mesmo não encordadas, exceto para tênis de mesa",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125516,
+          "nome": "3230.9010 Serviço de produção de artefatos para caça, pesca ou esportes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125517,
+          "nome": "3240 Fabricação de brinquedos e jogos recreativos",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125518,
+          "nome": "3240.2010 Bonecos e bonecas de qualquer material, mesmo com mecanismos, representando seres humanos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125519,
+          "nome": "3240.2020 Brinquedos não especificados, de qualquer material, motorizados, inclusive acessórios",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125520,
+          "nome": "3240.2030 Brinquedos não especificados, de qualquer material, não motorizados",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125521,
+          "nome": "3240.2040 Brinquedos ou conjuntos de modelos reduzidos para montagem ou construção",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125522,
+          "nome": "3240.2050 Brinquedos representando animais ou criaturas não humanas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125523,
+          "nome": "3240.2060 Carrinhos para bonecos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125524,
+          "nome": "3240.2070 Cartas de jogar (baralhos)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125525,
+          "nome": "3240.2080 Instrumentos ou aparelhos musicais de brinquedo",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125526,
+          "nome": "3240.2090 Jogos acionados por fichas ou moedas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125527,
+          "nome": "3240.2100 Jogos de salão, jogos de competição e outros artigos para jogos não especificados (mesas especiais para jogos e seus acessórios, boliches, autoram",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125528,
+          "nome": "3240.2110 Partes, peças ou acessórios para bonecos, inclusive vestuário ou seus acessórios",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125529,
+          "nome": "3240.2120 Quebra-cabeças",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125530,
+          "nome": "3240.2130 Triciclos, patinetes, carros de pedais ou outros brinquedos infantis de locomoção, motorizados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125531,
+          "nome": "3240.2140 Triciclos, patinetes, carros de pedais ou outros brinquedos infantis de locomoção, não motorizados",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125532,
+          "nome": "3240.9010 Serviço de produção de brinquedos ou jogos recreativos, inclusive peças",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125533,
+          "nome": "3250 Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125534,
+          "nome": "3250.2010 Algodão hidrófilo, gazes, ataduras e artigos semelhantes não impregnado com substância farmacêutica",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125535,
+          "nome": "3250.2020 Aparelhos de mecanoterapia, de massagem ou de psicotécnica",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125536,
+          "nome": "3250.2030 Aparelhos de outros tipos que se implantam no organismo para compensar deficiências ou enfermidades",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125537,
+          "nome": "3250.2040 Aparelhos para diálise denominados rins artificiais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125538,
+          "nome": "3250.2050 Aparelhos para medir a pressão arterial",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125539,
+          "nome": "3250.2060 Aparelhos para oftalmologia",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125540,
+          "nome": "3250.2070 Armações para óculos ou artigos semelhantes e suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125541,
+          "nome": "3250.2080 Artigos e aparelhos para prótese dentaria, inclusive dentes artificiais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125542,
+          "nome": "3250.2090 Artigos e aparelhos para prótese (lentes intra-oculares, válvulas cardíacas e semelhantes)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125543,
+          "nome": "3250.2100 Bisturis de todos os tipos",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125544,
+          "nome": "3250.2110 Cimentos e outros produtos para obturações dentárias; ceras e outras composições para dentistas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125545,
+          "nome": "3250.2120 Cimentos para reconstituição óssea",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125546,
+          "nome": "3250.2130 Equipamentos para uso em ostomia (bolsas para uso em colostomia, etc.)",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125547,
+          "nome": "3250.2140 Esterilizadores médico-cirúrgicos ou de laboratório",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125548,
+          "nome": "3250.2150 Grampos, clipes, aplicador, extrator para aparelhos medicinais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125549,
+          "nome": "3250.2160 Hastes (flexíveis ou não) com extremidades envoltas em algodão, próprio para higiene pessoal",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125550,
+          "nome": "3250.2170 Implantes expansíveis, de aço inoxidável, para dilatar artérias (stents)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125551,
+          "nome": "3250.2180 Instrumentos ou aparelhos para transfusão de sangue, etc.",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125552,
+          "nome": "3250.2190 Instrumentos e aparelhos para medicina, cirurgia, etc., de outros tipos",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125553,
+          "nome": "3250.2200 Instrumentos para odontologia (limas, brocas, etc.)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125554,
+          "nome": "3250.2210 Lentes de contato",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125555,
+          "nome": "3250.2220 Lentes para óculos, de qualquer material",
+          "unidade": "Par",
+          "nivel": 1
+        },
+        {
+          "id": 125556,
+          "nome": "3250.2230 Máscaras contra gases ou aparelhos respiratórios semelhantes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125557,
+          "nome": "3250.2240 Mobiliários para medicina, odontologia ou veterinária (cadeiras de dentistas, mesas cirúrgicas, etc.), inclusive partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125558,
+          "nome": "3250.2250 Óculos de segurança",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125559,
+          "nome": "3250.2260 Óculos para correção, proteção ou outros fins, exceto óculos de segurança",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125560,
+          "nome": "3250.2270 Partes e acessórios para artigos e aparelhos para compensar deficiência, exceto para marca-passos e para aparelhos auditivos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125561,
+          "nome": "3250.2280 Partes, peças e acessórios para outros artigos e aparelhos de prótese",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125562,
+          "nome": "3250.2290 Próteses articulares e outros aparelhos para ortopedia ou para fraturas",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125563,
+          "nome": "3250.2300 Próteses com corpo de silicone",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125564,
+          "nome": "3250.2310 Seringas, agulhas, catéteres, cânulas, lancetas e instrumentos semelhantes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125565,
+          "nome": "3250.2320 Termômetros clínicos, inclusive partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125566,
+          "nome": "3291 Fabricação de escovas, pincéis e vassouras",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125567,
+          "nome": "3291.2010 Apagador para quadros, lousas ou semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125568,
+          "nome": "3291.2020 Escovas de dentes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125569,
+          "nome": "3291.2030 Escovas para cabelos ou outras escovas de toucador",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125570,
+          "nome": "3291.2040 Escovas para usos diversos; pincéis de barba",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125571,
+          "nome": "3291.2050 Escovas que constituam partes de máquinas, aparelhos ou veículos",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125572,
+          "nome": "3291.2060 Vassouras ou escovas para limpeza doméstica, não especificados, exceto de matérias vegetais",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125573,
+          "nome": "3291.2070 Pincéis e escovas para artistas, para aplicação de cosméticos e para usos semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125574,
+          "nome": "3291.2080 Pincéis e escovas para pintar, envernizar e para usos semelhantes; bonecas e rolos para pintar",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125575,
+          "nome": "3291.2090 Rodos de borracha ou de outras matérias flexíveis",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125576,
+          "nome": "3291.2100 Vassouras e escovas de qualquer material",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125577,
+          "nome": "3291.2110 Vassouras mecânicas de uso manual, exceto as motorizadas",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125578,
+          "nome": "3291.9010 Serviço de produção de escovas, pincéis ou vassouras",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125579,
+          "nome": "3292 Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125580,
+          "nome": "3292.2010 Acessórios de borracha para segurança e proteção, exceto capacetes e luvas",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125581,
+          "nome": "3292.2020 Acessórios de plástico para segurança e proteção, exceto capacetes",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125582,
+          "nome": "3292.2030 Acessórios e equipamentos, não especificados, para segurança e proteção",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125583,
+          "nome": "3292.2040 Artefatos de tecido não tecido (falsos tecidos) para segurança e proteção (gorros, máscaras protetoras, etc.)",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125584,
+          "nome": "3292.2050 Capacetes e artefatos de uso semelhante de borracha, para segurança e proteção",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125585,
+          "nome": "3292.2060 Capacetes e artefatos de uso semelhante de plástico, para segurança e proteção",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125586,
+          "nome": "3292.2070 Cintos, bóias, coletes ou equipamentos semelhantes de borracha para salvamento",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125587,
+          "nome": "3292.2080 Cintos, bóias, coletes ou equipamentos semelhantes de plastico para salvamento",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125588,
+          "nome": "3292.2090 Cintos e coletes salva-vidas, de qualquer matéria têxtil",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125589,
+          "nome": "3292.2100 Luvas de borracha para segurança e proteção, inclusive para uso doméstico",
+          "unidade": "Par",
+          "nivel": 1
+        },
+        {
+          "id": 125590,
+          "nome": "3292.2110 Luvas de couro para segurança e proteção",
+          "unidade": "Par",
+          "nivel": 1
+        },
+        {
+          "id": 125591,
+          "nome": "3292.2120 Luvas de tecidos, inclusive impregnadas, revestidas ou recobertas de plástico ou borracha, para segurança e proteção",
+          "unidade": "Par",
+          "nivel": 1
+        },
+        {
+          "id": 125592,
+          "nome": "3292.9010 Serviço de confecção de acessórios do vestuário para segurança e proteção",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125593,
+          "nome": "3299 Fabricação de produtos diversos não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125594,
+          "nome": "3299.2010 Agulhas de costura e alfinetes (exceto agulhas para máquinas); agulhas de tricô ou de crochê, furadores para bordar e semelhantes",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125595,
+          "nome": "3299.2020 Anúncios, cartazes e placas indicadoras, painéis e letreiros luminosos, etc.",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125596,
+          "nome": "3299.2030 Artefatos não especificados",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125597,
+          "nome": "3299.2040 Artigos para festas, carnaval e outros divertimentos; artigos de magia e semelhantes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125598,
+          "nome": "3299.2050 Bengalas, bengalas-assento, chicotes e artefatos semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125599,
+          "nome": "3299.2060 Borrachas de apagar",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125600,
+          "nome": "3299.2070 Botões de qualquer material",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125601,
+          "nome": "3299.2080 Cachimbos, piteiras e suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125602,
+          "nome": "3299.2090 Caixões ou urnas mortuários",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125603,
+          "nome": "3299.2100 Canetas esferográficas, canetas e marcadores, lapiseiras e artefatos semelhantes, inclusive partes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125604,
+          "nome": "3299.2110 Carimbos ou sinetes; datadores ou numeradores manuais",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125605,
+          "nome": "3299.2120 Chaveiros de materiais diversos, exceto plástico",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125606,
+          "nome": "3299.2130 Fechos-ecler (fecho de correr) e suas partes",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125607,
+          "nome": "3299.2140 Ferrocério e outras ligas pirofóricas sob qualquer forma; combustíveis líquidos ou gasosos para carregar isqueiros ou acendedores",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125608,
+          "nome": "3299.2150 Fitas para máquinas de escrever e fitas impressoras semelhantes; almofadas para carimbos",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125609,
+          "nome": "3299.2160 Fivelas, colchetes, ilhoses e artefatos semelhantes de metal comum",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125610,
+          "nome": "3299.2170 Formas e outras partes de botões; esboços de botões",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125611,
+          "nome": "3299.2180 Garrafas térmicas ou outros recipientes isotérmicos ou suas partes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125612,
+          "nome": "3299.2190 Guarda-chuvas, sombrinhas ou guarda-sóis",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125613,
+          "nome": "3299.2200 Instrumentos, modelos ou aparelhos concebidos para demonstração",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125614,
+          "nome": "3299.2210 Isqueiros e outros acendedores, mesmo mecânicos ou elétricos e suas partes, exceto pedras e pavios",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125615,
+          "nome": "3299.2220 Lápis para escrever ou desenhar; minas para lápis ou lapiseira; giz",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125616,
+          "nome": "3299.2230 Linóleos, inclusive passadeiras",
+          "unidade": "Metros quadrados",
+          "nivel": 1
+        },
+        {
+          "id": 125617,
+          "nome": "3299.2240 Manequins ou artigos semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125618,
+          "nome": "3299.2250 Marfim, ossos, chifres e outras matérias animais para entalhar, e suas obras",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125619,
+          "nome": "3299.2260 Matérias vegetais ou minerais de entalhar trabalhadas e obras dessas matérias; cápsulas de gelatina digeríveis para medicamentos",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125620,
+          "nome": "3299.2270 Obras de tripa, de bexiga ou de tendões",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125621,
+          "nome": "3299.2280 Partes, guarnições e acessórios para bengalas, bengalas-assento, chicotes e artefatos semelhantes",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125622,
+          "nome": "3299.2290 Peneiras ou crivos manuais",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125623,
+          "nome": "3299.2300 Pentes, travessas, grampos, rolos e artigos semelhantes para cabelos",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125624,
+          "nome": "3299.2310 Persianas de qualquer material",
+          "unidade": "Metros quadrados",
+          "nivel": 1
+        },
+        {
+          "id": 125625,
+          "nome": "3299.2320 Placas indicadoras, placas sinalizadoras e semelhantes; números, letras e sinais diversos de metal",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125626,
+          "nome": "3299.2330 Quadros ou lousas para escrever ou desenhar",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125627,
+          "nome": "3299.2340 Telas preparadas para pintura",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125628,
+          "nome": "3299.2350 Troféus, copos, taças, medalhas, comemorativos ou semelhantes, e metal",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125629,
+          "nome": "3299.2360 Vaporizadores de toucador, suas armações e cabeças de armações; esponjas para aplicação de produtos de toucador",
+          "unidade": "Unidades",
+          "nivel": 1
+        },
+        {
+          "id": 125630,
+          "nome": "3299.2370 Velas, pavios, círios ou artigos semelhantes",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 125631,
+          "nome": "3299.9010 Serviço de fabricação de produtos não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125632,
+          "nome": "3311 Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125633,
+          "nome": "3311.9010 Serviços de manutenção ou reparação de armas de fogo",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125634,
+          "nome": "3311.9020 Serviços de manutenção e reparação de caldeiras geradoras de vapor, exceto para aquecimento central ou para veículos",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125635,
+          "nome": "3311.9030 Serviços de manutenção ou reparação de equipamento bélico pesado",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125636,
+          "nome": "3311.9040 Serviços de manutenção e reparação de tanques, botijões, reservatórios metálicos ou caldeiras para aquecimento central",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125637,
+          "nome": "3312 Manutenção e reparação de equipamentos eletrônicos e ópticos",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125638,
+          "nome": "3312.9010 Serviços de manutenção ou reparação de aparelhos ou equipamentos para usos médico-hospitalares, odontológicos ou de laboratórios",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125639,
+          "nome": "3312.9020 Serviços de manutenção e reparação de aparelhos e instrumentos de medida, teste e controle, inclusive controle de processo industriais",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125640,
+          "nome": "3312.9030 Serviços de manutenção e reparação de equipamentos transmissores de comunicação",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125641,
+          "nome": "3312.9040 Serviços de manutenção ou reparação de instrumentos profissionais de fotografia, cinema ou de instrumentos ópticos",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125642,
+          "nome": "3312.9050 Serviços de manutenção ou reparação de sistemas de intercomunicação",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125643,
+          "nome": "3313 Manutenção e reparação de máquinas e equipamentos elétricos",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125644,
+          "nome": "3313.9010 Serviço de manutenção e reparação de baterias ou acumuladores elétricos, exceto para veículos",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125645,
+          "nome": "3313.9020 Serviços de manutenção e reparação de geradores, transformadores, motores elétricos, indutores, conversores, sincronizadores e semelhantes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125646,
+          "nome": "3313.9030 Serviços de manutenção e reparação de máquinas, aparelhos ou equipamentos elétricos, não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125647,
+          "nome": "3314 Manutenção e reparação de máquinas e equipamentos da indústria mecânica",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125648,
+          "nome": "3314.9010 Serviços de manutenção ou reparação de motores ou caldeiras para veículos ferroviários",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125649,
+          "nome": "3314.9020 Serviços de manutenção e reparação de motores estacionários de combustão interna, exceto para aviões e veículos rodoviários",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125650,
+          "nome": "3314.9030 Serviços de manutenção e reparação de máquinas motrizes não-elétricas, não especificadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125651,
+          "nome": "3314.9040 Serviços de manutenção e reparação de bombas, válvulas ou outros equipamentos hidráulicos ou pneumáticos semelhantes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125652,
+          "nome": "3314.9050 Serviços de manutenção e reparação de compressores",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125653,
+          "nome": "3314.9060 Serviços de manutenção e reparação de máquinas, aparelhos ou equipamentos para instalações térmicas, não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125654,
+          "nome": "3314.9070 Serviços de manutenção e reparação de empilhadeiras ou outras máquinas ou aparelhos para transporte e elevação de cargas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125655,
+          "nome": "3314.9080 Serviços de manutenção e reparação de máquinas e aparelhos de refrigeração e ventilação de uso industrial e comercial, não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125656,
+          "nome": "3314.9090 Serviços de manutenção ou reparação de máquinas ou equipamentos de uso geral, não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125657,
+          "nome": "3314.9100 Serviços de manutenção e reparação de máquinas e equipamentos para agricultura e pecuária",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125658,
+          "nome": "3314.9110 Serviços de manutenção ou reparação de máquinas-ferramenta",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125659,
+          "nome": "3314.9120 Serviços de manutenção e reparação de máquinas e equipamentos para prospecção e extração mineral",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125660,
+          "nome": "3314.9130 Serviços de manutenção e reparação de máquinas e equipamentos para terraplenagem, pavimentação ou construção",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125661,
+          "nome": "3314.9140 Serviços de manutenção ou reparação de máquinas ou equipamentos para a indústria metalúrgica, exceto máquinas-ferramenta",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125662,
+          "nome": "3314.9150 Serviços de manutenção e reparação de máquinas ou equipamentos para as indústrias alimentar, de bebida ou fumo",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125663,
+          "nome": "3314.9160 Serviços de manutenção ou reparação de máquinas ou equipamentos para a indústria têxtil",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125664,
+          "nome": "3314.9170 Serviços de manutenção e reparação de máquinas e equipamentos para as indústrias de celulose, papel ou artefatos",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125665,
+          "nome": "3314.9180 Serviços de manutenção e reparação de máquinas e equipamentos para a indústria do plástico",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125666,
+          "nome": "3314.9190 Serviços de manutenção e reparação de máquinas e equipamentos para usos industriais, não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125667,
+          "nome": "3315 Manutenção e reparação de veículos ferroviários",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125668,
+          "nome": "3315.9010 Serviço de manutenção e reparação de veículos ferroviários",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125669,
+          "nome": "3316 Manutenção e reparação de aeronaves",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125670,
+          "nome": "3316.9010 Serviço de manutenção e reparação de aeronaves, turbinas e motores de aviação, inclusive o serviço de pintura de aeronaves",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125671,
+          "nome": "3317 Manutenção e reparação de embarcações",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125672,
+          "nome": "3317.9010 Serviço de manutenção e reparação de embarcações para esporte e lazer",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125673,
+          "nome": "3317.9020 Serviço de manutenção e reparação de navios ou outras embarcações para qualquer uso, exceto para esporte e lazer",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125674,
+          "nome": "3317.9030 Serviço de manutenção e reparação de estruturas flutuantes",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125675,
+          "nome": "3319 Manutenção e reparação de equipamentos e produtos não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125676,
+          "nome": "3319.9010 Serviços de reparação de barris, tonéis, paletes e semelhantes de madeira",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125677,
+          "nome": "3319.9020 Serviço de reparação de encerados ou de artefatos de campismo",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125678,
+          "nome": "3319.9030 Serviço de reparação de redes e de outros artefatos de cordoaria",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125679,
+          "nome": "3319.9040 Serviços de recuperação de tambores ou tonéis metálicos, exceto botijões",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125680,
+          "nome": "3319.9050 Serviço de recuperação de artefatos metálicos, não especificados",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125681,
+          "nome": "3321 Instalação de máquinas e equipamentos industriais",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125682,
+          "nome": "3321.9010 Serviços de instalação e montagem de tanques, reservatórios metálicos e caldeiras (exceto para veículos), quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125683,
+          "nome": "3321.9020 Serviços de instalação e montagem de equipamentos transmissores de comunicação, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125684,
+          "nome": "3321.9030 Serviços de instalação e montagem de equipamentos de medida, teste e controle (inclusive controle de processos industriais), quando executados por",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125685,
+          "nome": "3321.9040 Serviços de instalação e montagem de equipamentos eletromédicos e eletroterapêuticos, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125686,
+          "nome": "3321.9050 Serviços de instalação e montagem de equipamentos e aparelhos elétricos, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125687,
+          "nome": "3321.9060 Serviços de instalação e montagem de motores e turbinas, equipamentos hidráulicos e pneumáticos, compressores e semelhantes, quando executados por",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125688,
+          "nome": "3321.9070 Serviços de instalação e montagem de máquinas e equipamentos para instalações térmicas, de refrigeração e ventilação, quando executados por empres",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125689,
+          "nome": "3321.9080 Serviços de instalação e montagem de máquinas e equipamentos de uso geral, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125690,
+          "nome": "3321.9090 Serviços de instalação e montagem de máquinas e equipamentos para agricultura e pecuária, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125691,
+          "nome": "3321.9100 Serviços de instalação e montagem de máquinas-ferramenta, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125692,
+          "nome": "3321.9110 Serviços de instalação e montagem de máquinas e equipamentos para uso na extração mineral, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125693,
+          "nome": "3321.9120 Serviços de instalação e montagem de máquinas e equipamentos para uso em terraplenagem, pavimentação e construção, quando executados por empresas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125694,
+          "nome": "3321.9130 Serviços de instalação e montagem de máquinas para a indústria metalúrgica, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125695,
+          "nome": "3321.9140 Serviços de instalação e montagem de máquinas para as indústrias de alimentos, bebidas e fumo, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125696,
+          "nome": "3321.9150 Serviços de instalação e montagem de máquinas para as indústrias têxtil, vestuário, couro e calçados, quando executados por empresas especializada",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125697,
+          "nome": "3321.9160 Serviços de instalação e montagem de máquinas para as indústrias de celulose, papel e artefatos, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125698,
+          "nome": "3321.9170 Serviços de instalação e montagem de máquinas para uso industrial específico, quando executados por empresas especializadas",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125699,
+          "nome": "3329 Instalação de equipamentos não especificados anteriormente",
+          "unidade": "Nenhuma",
+          "nivel": 0
+        },
+        {
+          "id": 125700,
+          "nome": "3329.9010 Serviços de montagem e acabamento de móveis de qualquer material (envernizamento, laqueação e similares), quando executados por empresa especializada",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        },
+        {
+          "id": 125701,
+          "nome": "3329.9020 Serviços de instalação e montagem de equipamento e produtos não especificados anteriormente, quando executados por empresa especializada",
+          "unidade": "Nenhuma",
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

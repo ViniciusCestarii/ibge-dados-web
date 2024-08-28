@@ -1,0 +1,146 @@
+{
+  "id": 354,
+  "nome": "Número de municípios, total e os com ocorrência de doenças associadas ao saneamento básico, por tipo de doença",
+  "URL": "https://sidra.ibge.gov.br/tabela/354",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2597,
+      "nome": "Municípios com ocorrência de doenças associadas ao saneamento básico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002597,
+      "nome": "Municípios com ocorrência de doenças associadas ao saneamento básico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12963,
+      "nome": "Tipo de doença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120931,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120937,
+          "nome": "Dengue",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120930,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120932,
+          "nome": "Diarréia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120933,
+          "nome": "Leptospirose",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120934,
+          "nome": "Verminoses",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120935,
+          "nome": "Cólera",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120936,
+          "nome": "Difteria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120938,
+          "nome": "Tifo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120939,
+          "nome": "Malária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120940,
+          "nome": "Hepatite",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120941,
+          "nome": "Febre amarela",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120942,
+          "nome": "Dermatite",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120943,
+          "nome": "Doença do aparelho respiratório",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120944,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

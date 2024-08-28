@@ -1,0 +1,176 @@
+{
+  "id": 9473,
+  "nome": "Municípios, total, e com Programa de Agentes Comunitários e Programa de Saúde da Família e com estrutura similar ao Programa de Saúde da Família, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9473",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1589,
+      "nome": "Existência de Programa de Agentes Comunitários de Saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59434,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59435,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59443,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71444,
+          "nome": "Não informado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1591,
+      "nome": "Existência de Programa de Saúde da Família, com ou sem atendimento odontológico básico, ou de estrutura similar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59444,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59445,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59446,
+          "nome": "Com atendimento odontológico básico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59447,
+          "nome": "Sem atendimento odontológico básico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 71441,
+          "nome": "Não, mas possui estrutura similar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71442,
+          "nome": "Não e não possui estrutura similar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71443,
+          "nome": "Não informado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

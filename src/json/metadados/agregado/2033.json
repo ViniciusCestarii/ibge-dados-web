@@ -1,0 +1,85 @@
+{
+  "id": 2033,
+  "nome": "Pessoas de 10 anos ou mais de idade com rendimento, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade com rendimento, por sexo - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/2033",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N18"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 841,
+      "nome": "Pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000841,
+      "nome": "Pessoas de 10 anos ou mais de idade, com rendimento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 842,
+      "nome": "Valor do rendimento nominal médio mensal das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 843,
+      "nome": "Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

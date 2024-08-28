@@ -1,0 +1,84 @@
+{
+  "id": 7512,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com medição ou estimação do volume coletado, por forma de medição ou estimação",
+  "URL": "https://sidra.ibge.gov.br/tabela/7512",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10753,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com medição ou estimação do volume coletado",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 999,
+      "nome": "Forma de medição ou estimação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49179,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49097,
+          "nome": "Micromedidores nas ligações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49098,
+          "nome": "Medidores na rede coletora de esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49099,
+          "nome": "Medidores na entrada das ETEs",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49100,
+          "nome": "Estimação pelo número de economias ou ligações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49101,
+          "nome": "Estimação pelo volume consumido ou faturado de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49102,
+          "nome": "Outra(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

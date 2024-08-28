@@ -1,0 +1,437 @@
+{
+  "id": 8773,
+  "nome": "Número de estabelecimentos agropecuários com área e Área dos estabelecimentos agropecuários, por pertencimento a Terra Indígena (TI) versus Agricultura Familiar, utilização das terras, sexo do produtor e grupos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/8773",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9587,
+      "nome": "Número de estabelecimentos agropecuários com área",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1080,
+      "nome": "Pertencimento a Terra de Indígena (TI) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50202,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50203,
+          "nome": "Dentro de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50204,
+          "nome": "Dentro de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50205,
+          "nome": "Dentro de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50206,
+          "nome": "Fora de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56880,
+          "nome": "Fora de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57504,
+          "nome": "Fora de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "nome": "Utilização das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110087,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113470,
+          "nome": "Lavouras - permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113471,
+          "nome": "Lavouras - temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40677,
+          "nome": "Lavouras - área para cultivo de flores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113472,
+          "nome": "Pastagens - naturais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113469,
+          "nome": "Pastagens - plantadas em boas condições",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40678,
+          "nome": "Pastagens - pastagens plantadas em más condições",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40679,
+          "nome": "Matas ou florestas - matas ou florestas naturais destinadas à preservação permanente ou reserva legal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40680,
+          "nome": "Matas ou florestas - matas e/ou florestas naturais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40681,
+          "nome": "Matas ou florestas - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113476,
+          "nome": "Sistemas agroflorestais - área cultivada com espécies florestais também usada para lavouras e pastoreio por animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40682,
+          "nome": "Lâmina d'água, tanques, lagos, açudes, área de águas públicas para aquicultura, de construções, benfeitorias ou caminhos, de terras degradadas e de terras inaproveitáveis",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41146,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12440,
+      "nome": "Grupos e classes de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110016,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112880,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112873,
+          "nome": "Cultivo de cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112874,
+          "nome": "Cultivo de algodão herbáceo e outras fibras da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112875,
+          "nome": "Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112876,
+          "nome": "Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112877,
+          "nome": "Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112878,
+          "nome": "Cultivo de oleaginosas de lavoura temporária, exceto soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112879,
+          "nome": "Cultivo de outros produtos da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112881,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112882,
+          "nome": "Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112883,
+          "nome": "Cultivo de flores, folhagens e plantas ornamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112884,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112885,
+          "nome": "Cultivo de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112886,
+          "nome": "Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112887,
+          "nome": "Cultivo de frutas da lavoura permanente, exceto laranja e uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112888,
+          "nome": "Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112889,
+          "nome": "Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112890,
+          "nome": "Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114048,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46508,
+          "nome": "Produção de sementes certificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46509,
+          "nome": "Produção de mudas e outras formas de propagação vegetal, certificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112894,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112895,
+          "nome": "Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112896,
+          "nome": "Criação de outros animais de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112897,
+          "nome": "Criação de ovinos e caprinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112898,
+          "nome": "Criação de suínos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112899,
+          "nome": "Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112900,
+          "nome": "Criação de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112901,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112902,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114050,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114055,
+          "nome": "Pesca em água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112903,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112904,
+          "nome": "Aquicultura em água salgada ou salobra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112905,
+          "nome": "Aquicultura em água doce",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

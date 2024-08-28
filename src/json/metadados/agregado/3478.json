@@ -1,0 +1,139 @@
+{
+  "id": 3478,
+  "nome": "Pessoas de 10 anos ou mais de idade. residentes em terras indígenas, total e indígenas, por alfabetização e as classes de rendimento nominal mensal, segundo as Terras Indígenas",
+  "URL": "https://sidra.ibge.gov.br/tabela/3478",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Terras indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 582,
+      "nome": "Pessoas de 10 anos ou mais de idade residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000582,
+      "nome": "Pessoas de 10 anos ou mais de idade residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1435,
+      "nome": "Pessoas indígenas de 10 anos ou mais de idade residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001435,
+      "nome": "Pessoas indígenas de 10 anos ou mais de idade residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 59,
+      "nome": "Alfabetização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1023,
+          "nome": "Alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1024,
+          "nome": "Não alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3318,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11570,
+      "nome": "Classes de rendimento nominal mensal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92973,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92974,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92975,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92976,
+          "nome": "Mais de 2 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100436,
+          "nome": "Mais de 5 salários minimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92980,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

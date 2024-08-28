@@ -1,0 +1,229 @@
+{
+  "id": 2699,
+  "nome": "Número de empresas, Receita líquida de revenda e Percentual de receita líquida em relação ao total de receita das empresas comerciais varejistas por formas de comercialização e divisão de comércio, grupo e classe de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2699",
+  "pesquisa": "Pesquisa Anual de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 310,
+      "nome": "Número de empresas comerciais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000310,
+      "nome": "Número de empresas comerciais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 502,
+      "nome": "Receita líquida de revenda em empresas comerciais",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1479,
+      "nome": "Percentual de receita líquida de revenda em relação ao total de receita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12352,
+      "nome": "Formas de comercialização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 106742,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106755,
+          "nome": "100 % da receita em lojas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106756,
+          "nome": "100 % da receita fora de lojas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106757,
+          "nome": "Receita em lojas e fora de lojas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11070,
+      "nome": "Divisão de comércio, grupo e classe de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90128,
+          "nome": "1.Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106698,
+          "nome": "2.Comércio varejista de combustíveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106678,
+          "nome": "2.1Combustíveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106679,
+          "nome": "3.Comércio varejista",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106680,
+          "nome": "3.1Comércio não especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106681,
+          "nome": "3.1.1Hipermercados e supermercados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106682,
+          "nome": "3.1.2Outros tipos de comércio não especializados com predominância de produtos alimentícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106683,
+          "nome": "3.1.3Comércio não especializado sem predominância de produtos alimentícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 90136,
+          "nome": "3.2Produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106684,
+          "nome": "3.3Tecidos, artigos de armarinho, vestuário e calçados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106685,
+          "nome": "3.3.1Tecidos e artigos de armarinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106686,
+          "nome": "3.3.2Artigos do vestuário e complementos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106687,
+          "nome": "3.3.3Calçados, artigos de couro e viagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106688,
+          "nome": "3.4Comércio de outros produtos em lojas especializadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106689,
+          "nome": "3.4.1Produtos farmacêuticos, médicos, veterinários, ortopédicos, de perfumaria e cosméticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106690,
+          "nome": "3.4.2Máquinas e aparelhos de uso doméstico e pessoal, discos, instrumentos musicais, etc.",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106691,
+          "nome": "3.4.3Móveis, artigos de iluminação e outros artigos de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106692,
+          "nome": "3.4.4Material de construção, ferragens, ferramentas manuais e produtos metalúrgicos; vidros, espelhos e vitrais; tintas e madeiras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106693,
+          "nome": "3.4.5Equipamentos e materiais para escritório, informática e comunicação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106694,
+          "nome": "3.4.6Livros, jornais, revistas e papelaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106695,
+          "nome": "3.4.7Gás liquefeito de petróleo (GLP)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106696,
+          "nome": "3.4.8Outros produtos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106697,
+          "nome": "3.5Comércio de artigos usados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

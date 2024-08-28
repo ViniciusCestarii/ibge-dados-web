@@ -1,0 +1,74 @@
+{
+  "id": 5625,
+  "nome": "Número e área das unidades de conservação e proporção em relação à área da Unidade da Federação, por tipo de uso",
+  "URL": "https://sidra.ibge.gov.br/tabela/5625",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Áreas protegidas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6313,
+      "nome": "Número de unidades de conservação",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 6314,
+      "nome": "Área das unidades de conservação",
+      "unidade": "Quilômetros quadrados",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 6317,
+      "nome": "Proporção da área das unidades de conservação em relação à área da Unidade da Federação",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 713,
+      "nome": "Tipo de uso da unidade de conservação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33558,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33559,
+          "nome": "Proteção integral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33560,
+          "nome": "Uso sustentável",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

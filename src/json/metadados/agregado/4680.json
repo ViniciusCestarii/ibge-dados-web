@@ -1,0 +1,59 @@
+{
+  "id": 4680,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, por situação de informalidade no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4680",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Mercado de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4090,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4091,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1350,
+      "nome": "Situação de informalidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57303,
+          "nome": "Informais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

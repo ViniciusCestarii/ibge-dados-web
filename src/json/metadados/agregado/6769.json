@@ -1,0 +1,389 @@
+{
+  "id": 6769,
+  "nome": "Número de estabelecimentos agropecuários e Área dos estabelecimentos agropecuários, por tipologia, condição do produtor em relação às terras e grupos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/6769",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 829,
+      "nome": "Tipologia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46303,
+          "nome": "Agricultura familiar - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46304,
+          "nome": "Agricultura familiar - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46305,
+          "nome": "Agricultura familiar - Pronaf B",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46306,
+          "nome": "Agricultura familiar - Pronaf V",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46307,
+          "nome": "Agricultura familiar - não pronafiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46422,
+          "nome": "Pronamp - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46423,
+          "nome": "Pronamp - não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12440,
+      "nome": "Grupos e classes de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110016,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112880,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112873,
+          "nome": "Cultivo de cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112874,
+          "nome": "Cultivo de algodão herbáceo e outras fibras da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112875,
+          "nome": "Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112876,
+          "nome": "Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112877,
+          "nome": "Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112878,
+          "nome": "Cultivo de oleaginosas de lavoura temporária, exceto soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112879,
+          "nome": "Cultivo de outros produtos da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112881,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112882,
+          "nome": "Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112883,
+          "nome": "Cultivo de flores, folhagens e plantas ornamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112884,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112885,
+          "nome": "Cultivo de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112886,
+          "nome": "Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112887,
+          "nome": "Cultivo de frutas da lavoura permanente, exceto laranja e uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112888,
+          "nome": "Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112889,
+          "nome": "Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112890,
+          "nome": "Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114048,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46508,
+          "nome": "Produção de sementes certificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46509,
+          "nome": "Produção de mudas e outras formas de propagação vegetal, certificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112894,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112895,
+          "nome": "Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112896,
+          "nome": "Criação de outros animais de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112897,
+          "nome": "Criação de ovinos e caprinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112898,
+          "nome": "Criação de suínos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112899,
+          "nome": "Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112900,
+          "nome": "Criação de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112901,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112902,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114050,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114055,
+          "nome": "Pesca em água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112903,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112904,
+          "nome": "Aquicultura em água salgada ou salobra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112905,
+          "nome": "Aquicultura em água doce",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

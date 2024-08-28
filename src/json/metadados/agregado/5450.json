@@ -1,0 +1,282 @@
+{
+  "id": 5450,
+  "nome": "Efetivo de bovinos nos estabelecimentos agropecuários em 31/12, por grupos de cabeças, classe de idade e nível de instrução da pessoa que dirige o estabelecimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/5450",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2057,
+      "nome": "Número de cabeças de bovinos nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002057,
+      "nome": "Número de cabeças de bovinos nos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2056,
+      "nome": "Número de estabelecimentos agropecuários com efetivo de bovinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002056,
+      "nome": "Número de estabelecimentos agropecuários com efetivo de bovinos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 3244,
+      "nome": "Grupos de cabeças de bovinos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114147,
+          "nome": "De 1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114148,
+          "nome": "De 3 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118272,
+          "nome": "De 5 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118273,
+          "nome": "De 9 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114151,
+          "nome": "De 20 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114152,
+          "nome": "De 50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114153,
+          "nome": "De 100 a 199",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114154,
+          "nome": "De 200 a 499",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114155,
+          "nome": "De 500 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114156,
+          "nome": "Sem cabeças de bovinos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12551,
+      "nome": "Classe de idade da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112044,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112045,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112046,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112047,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112048,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112049,
+          "nome": "De 65 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112050,
+          "nome": "Idade não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12552,
+      "nome": "Nível de instrução da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112052,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112053,
+          "nome": "Ensino fundamental incompleto (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112054,
+          "nome": "Ensino fundamental completo (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112055,
+          "nome": "Ensino médio ou 2º grau completo (técnico agrícola)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112056,
+          "nome": "Ensino médio ou 2º grau completo (outro)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112057,
+          "nome": "Engenheiro agrônomo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112058,
+          "nome": "Veterinário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112059,
+          "nome": "Zootecnista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112060,
+          "nome": "Engenheiro florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112061,
+          "nome": "Outra formação superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112062,
+          "nome": "Nenhum, mas sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112051,
+          "nome": "Não sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

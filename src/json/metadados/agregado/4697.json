@@ -1,0 +1,159 @@
+{
+  "id": 4697,
+  "nome": "Pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas, por grupo de idade e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4697",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4711,
+      "nome": "Pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4712,
+      "nome": "Pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4713,
+      "nome": "Pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4966,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4714,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4715,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4716,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4967,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que fizeram uso de medicamento para dormir nas últimas duas semanas",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33062,
+          "nome": "30 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1152,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33063,
+          "nome": "65 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33064,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

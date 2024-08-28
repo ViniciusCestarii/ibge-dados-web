@@ -1,0 +1,126 @@
+{
+  "id": 1425,
+  "nome": "População residente em domicílios particulares ocupados, nos municípios com presença identificada de aglomerados subnormais, por cor ou raça, segundo o tipo de setor e a situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1425",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6594,
+      "nome": "População residente em domicílios particulares ocupados, nos municípios com presença identificada de aglomerados subnormais",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1006594,
+      "nome": "População residente em domicílios particulares ocupados, nos municípios com presença identificada de aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2781,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12458,
+          "nome": "Aglomerados subnormais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

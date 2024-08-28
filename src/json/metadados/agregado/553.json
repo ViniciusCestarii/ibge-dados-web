@@ -1,0 +1,57 @@
+{
+  "id": 553,
+  "nome": "Média de moradores por domicílio particular permanente por sexo do chefe do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/553",
+  "pesquisa": "Contagem da População ",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1996,
+    "fim": 1996
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 246,
+      "nome": "Média de moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 293,
+      "nome": "Sexo do responsável pelo domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6755,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6756,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

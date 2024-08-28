@@ -1,0 +1,88 @@
+{
+  "id": 9737,
+  "nome": "Pessoas de 5 a 17 anos de idade que se vacinaram pelo menos uma vez contra a COVID-19, por número de doses de vacina tomadas",
+  "URL": "https://sidra.ibge.gov.br/tabela/9737",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9170,
+      "nome": "Pessoas de 5 a 17 anos de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9172,
+      "nome": "Coeficiente de variação - Pessoas de 5 a 17 anos de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9173,
+      "nome": "Distribuição percentual das pessoas de 5 a 17 anos de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9174,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 a 17 anos de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2344,
+      "nome": "Doses de vacinas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71934,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71928,
+          "nome": "1 dose",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71929,
+          "nome": "2 doses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71930,
+          "nome": "3 doses ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71931,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

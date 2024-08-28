@@ -1,0 +1,115 @@
+{
+  "id": 756,
+  "nome": "Rendimento médio mensal familiar total e Número de famílias por classes de rendimento monetário e não-monetário mensal familiar e cor ou raça da pessoa de referência da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/756",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1976,
+      "nome": "Rendimento médio mensal familiar total",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12191,
+      "nome": "Classes de rendimento monetário e não monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103411,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103412,
+          "nome": "Até 400 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111514,
+          "nome": "Mais de 400 a 1000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111515,
+          "nome": "Mais de 1000 a 2000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103418,
+          "nome": "Mais de 2000 a 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103496,
+          "nome": "Mais de 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12513,
+      "nome": "Cor ou raça da pessoa de referência da família",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111483,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111484,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111485,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111513,
+          "nome": "Outras",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

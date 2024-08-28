@@ -1,0 +1,305 @@
+{
+  "id": 1612,
+  "nome": "Área plantada, área colhida, quantidade produzida, rendimento médio e valor da produção das lavouras temporárias",
+  "URL": "https://sidra.ibge.gov.br/tabela/1612",
+  "pesquisa": "Produção Agrícola Municipal",
+  "assunto": "Lavouras temporárias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1974,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 109,
+      "nome": "Área plantada",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000109,
+      "nome": "Área plantada - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 216,
+      "nome": "Área colhida",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000216,
+      "nome": "Área colhida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Toneladas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 112,
+      "nome": "Rendimento médio da produção",
+      "unidade": "Quilogramas por Hectare",
+      "sumarizacao": []
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Cruzeiros [1974 a 1985, 1990 a 1992], Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2022]",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 81,
+      "nome": "Produto das lavouras temporárias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          214,
+          112
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2688,
+          "nome": "Abacaxi*",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40471,
+          "nome": "Alfafa fenada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2689,
+          "nome": "Algodão herbáceo (em caroço)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2690,
+          "nome": "Alho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2691,
+          "nome": "Amendoim (em casca)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2692,
+          "nome": "Arroz (em casca)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2693,
+          "nome": "Aveia (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2694,
+          "nome": "Batata-doce",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2695,
+          "nome": "Batata-inglesa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2696,
+          "nome": "Cana-de-açúcar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40470,
+          "nome": "Cana para forragem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2697,
+          "nome": "Cebola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2698,
+          "nome": "Centeio (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2699,
+          "nome": "Cevada (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2700,
+          "nome": "Ervilha (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2701,
+          "nome": "Fava (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2702,
+          "nome": "Feijão (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2703,
+          "nome": "Fumo (em folha)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109179,
+          "nome": "Girassol (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2704,
+          "nome": "Juta (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2705,
+          "nome": "Linho (semente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2706,
+          "nome": "Malva (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2707,
+          "nome": "Mamona (baga)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2708,
+          "nome": "Mandioca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2709,
+          "nome": "Melancia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2710,
+          "nome": "Melão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2711,
+          "nome": "Milho (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2712,
+          "nome": "Rami (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2713,
+          "nome": "Soja (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2714,
+          "nome": "Sorgo (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2715,
+          "nome": "Tomate",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2716,
+          "nome": "Trigo (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109180,
+          "nome": "Triticale (em grão)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

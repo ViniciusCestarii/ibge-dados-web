@@ -1,0 +1,200 @@
+{
+  "id": 2270,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por grupos de horas habitualmente trabalhadas por semana no trabalho principal, sexo e grupamentos ocupacionais do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2270",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12045,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99401,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99402,
+          "nome": "15 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99403,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99404,
+          "nome": "45 a 48 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99405,
+          "nome": "49 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99406,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12167,
+      "nome": "Grupamentos ocupacionais no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 102861,
+          "nome": "Dirigentes em geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102862,
+          "nome": "Profissionais das ciências e das artes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102863,
+          "nome": "Técnicos de nível médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102864,
+          "nome": "Trabalhadores de serviços administrativos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102865,
+          "nome": "Trabalhadores dos serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102866,
+          "nome": "Vendedores e prestadores de serviço do comércio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102867,
+          "nome": "Trabalhadores agrícolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102868,
+          "nome": "Trabalhadores da produção de bens e serviços e de reparação e manutenção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102869,
+          "nome": "Membros das forças armadas e auxiliares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102870,
+          "nome": "Ocupações mal definidas ou não declaradas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116786,
+          "nome": "Ocupações mal definidas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

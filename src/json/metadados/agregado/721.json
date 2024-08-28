@@ -1,0 +1,83 @@
+{
+  "id": 721,
+  "nome": "Número de divórcios concedidos em primeira instância a casais com filhos menores de idade por responsável pela guarda",
+  "URL": "https://sidra.ibge.gov.br/tabela/721",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 235,
+      "nome": "Número de divórcios concedidos em 1ª instância a casais com filhos menores de idade",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000235,
+      "nome": "Número de divórcios concedidos em 1ª instância a casais com filhos menores de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 273,
+      "nome": "Responsável pela guarda dos filhos menores de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6116,
+          "nome": "Marido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6117,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6118,
+          "nome": "Ambos os cônjuges",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6119,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6120,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

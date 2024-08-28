@@ -1,0 +1,447 @@
+{
+  "id": 2949,
+  "nome": "Separações judiciais concedidas em 1ª instância sem recursos, por grupos de idades do marido e da mulher na data da sentença, tempo transcorrido entre as datas do casamento e da sentença e lugar da ação do processo (série suspensa)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2949",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Separações",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 228,
+      "nome": "Número de separações judiciais concedidas em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000228,
+      "nome": "Número de separações judiciais concedidas em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 274,
+      "nome": "Grupos de idade do marido na data da sentença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6121,
+          "nome": "Menos de 20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6122,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6123,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6124,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6125,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6126,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6127,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6128,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6129,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6130,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6131,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6132,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6133,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6134,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "nome": "Grupos de idade da mulher na data da sentença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6135,
+          "nome": "Menos de 20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6136,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6137,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6138,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6139,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6140,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6141,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6142,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6143,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6144,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6145,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6146,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6147,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6148,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "nome": "Tempo transcorrido entre as datas do casamento e da sentença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6149,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6150,
+          "nome": "1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6151,
+          "nome": "2 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6152,
+          "nome": "3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6153,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6154,
+          "nome": "5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6155,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6156,
+          "nome": "7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6157,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6158,
+          "nome": "9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6159,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98837,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98838,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98839,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98840,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98841,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6160,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98842,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98843,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98844,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98845,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98846,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98847,
+          "nome": "20 a 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98848,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98849,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98850,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98851,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98852,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98853,
+          "nome": "25 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98854,
+          "nome": "26 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6162,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

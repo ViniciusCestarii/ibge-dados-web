@@ -1,0 +1,89 @@
+{
+  "id": 2276,
+  "nome": "Taxa de desocupação na semana de referência, das pessoas de 10 anos ou mais de idade por grupamento de atividade no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2276",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1031,
+      "nome": "Taxa de desocupação, na semana de referência, das pessoas de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1032,
+      "nome": "Coeficiente de variação - Taxa de desocupação na semana de referência, das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12072,
+      "nome": "Grupamento de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100063,
+          "nome": "Indústria extrativa e de transformação e produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100064,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100065,
+          "nome": "Comércio, reparação de veículos automotores e de objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 102882,
+          "nome": "Serviços prestados à empresa, aluguéis, atividades imobiliárias e intermediação financeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100067,
+          "nome": "Administração pública, defesa, seguridade social, educação, saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100068,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100069,
+          "nome": "Outros serviços",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

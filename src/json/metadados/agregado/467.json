@@ -1,0 +1,229 @@
+{
+  "id": 467,
+  "nome": "Domicílios particulares permanentes por utilidades existentes, número de cômodos e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/467",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 160,
+      "nome": "Utilidades existentes",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2982,
+          "nome": "Filtro de água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2986,
+          "nome": "Aspirador de pó",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2984,
+          "nome": "Freezer",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2983,
+          "nome": "Geladeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2985,
+          "nome": "Máquina de lavar roupas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2987,
+          "nome": "Rádio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2989,
+          "nome": "Televisão em cores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2988,
+          "nome": "Televisão preto e branco",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2990,
+          "nome": "Automóvel particular",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2991,
+          "nome": "Automóvel para trabalho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2992,
+          "nome": "Iluminação elétrica com medidor",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2993,
+          "nome": "Iluminação elétrica sem medidor",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2994,
+          "nome": "Telefone",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1066,
+          "nome": "8 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1067,
+          "nome": "9 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3359,
+          "nome": "10 cômodos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 3360,
+          "nome": "11 cômodos ou mais",
+          "unidade": null,
+          "nivel": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

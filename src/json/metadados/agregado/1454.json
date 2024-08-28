@@ -1,0 +1,192 @@
+{
+  "id": 1454,
+  "nome": "Domicílios particulares permanentes por destino do lixo e abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/1454",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92863,
+          "nome": "Coletado por serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92853,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92847,
+          "nome": "Rede geral - canalizada em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92848,
+          "nome": "Rede geral - canalizada só na propriedade ou terreno",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92854,
+          "nome": "Poço ou nascente (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92849,
+          "nome": "Poço ou nascente (na propriedade) - canalizada em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92850,
+          "nome": "Poço ou nascente (na propriedade) - canalizada só na propriedade ou terreno",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92851,
+          "nome": "Poço ou nascente (na propriedade) - não canalizada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92852,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92866,
+          "nome": "Outra forma - canalizada em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92867,
+          "nome": "Outra forma - canalizada só na propriedade ou terreno",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92868,
+          "nome": "Outra forma - não canalizada",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 2359,
+  "nome": "Número de entidades, total e as que participaram de algum projeto de coleta de lixo seletiva no município, por tipo de participação no projeto",
+  "URL": "https://sidra.ibge.gov.br/tabela/2359",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1229,
+      "nome": "Número de entidades que participaram de algum projeto de coleta seletiva no município",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001229,
+      "nome": "Número de entidades que participaram de algum projeto de coleta seletiva no município - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12215,
+      "nome": "Tipo de participação no projeto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103922,
+          "nome": "Total de entidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103923,
+          "nome": "Total de entidades que participaram de algum projeto de coleta de lixo seletiva no município",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103924,
+          "nome": "Implantado pela entidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103925,
+          "nome": "Em cooperação com outra instituição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103926,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103927,
+          "nome": "Não participou diretamente da execução do projeto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103928,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

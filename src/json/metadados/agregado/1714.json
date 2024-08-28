@@ -1,0 +1,83 @@
+{
+  "id": 1714,
+  "nome": "Número de municípios, total e os com serviços de manejo de pilhas e baterias, por tipo de processamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1714",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 399,
+      "nome": "Municípios com serviço de manejo de pilhas e baterias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000399,
+      "nome": "Municípios com serviço de manejo de pilhas e baterias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 355,
+      "nome": "Tipo de processamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8193,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8194,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8195,
+          "nome": "Acondicionamento em recipientes estanques (vedados) para encaminhamento periódico à indústria do ramo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8196,
+          "nome": "Estocagem simples, a granel, para encaminhamento periódico à industria do ram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8197,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

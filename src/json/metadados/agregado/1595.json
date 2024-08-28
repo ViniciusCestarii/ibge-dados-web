@@ -1,0 +1,103 @@
+{
+  "id": 1595,
+  "nome": "Número de famílias e Tamanho médio da família por classes de rendimento total e variação patrimonial mensal familiar (2008)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1595",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 339,
+      "nome": "Classes de rendimento total e variação patrimonial mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 7999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8000,
+          "nome": "Até 830 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8001,
+          "nome": "Mais de 830 a 1.245 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8002,
+          "nome": "Mais de 1.245 a 2.490 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8003,
+          "nome": "Mais de 2.490 a 4.150 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8004,
+          "nome": "Mais de 4.150 a 6.225 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8005,
+          "nome": "Mais de 6.225 a 10.375 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8006,
+          "nome": "Mais de 10.375 Reais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

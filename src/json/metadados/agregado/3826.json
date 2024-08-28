@@ -1,0 +1,59 @@
+{
+  "id": 3826,
+  "nome": "Rendimento médio mensal nominal das pessoas de 10 anos ou mais de idade, com rendimento, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3826",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Rendimento médio mensal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2011
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3785,
+      "nome": "Rendimento médio mensal nominal das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

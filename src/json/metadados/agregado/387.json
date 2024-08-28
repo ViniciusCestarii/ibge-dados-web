@@ -1,0 +1,538 @@
+{
+  "id": 387,
+  "nome": "Percentual da despesa média mensal familiar por tipo de despesa e classes de recebimento mensal familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/387",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 172,
+      "nome": "Percentual da despesa média mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 210,
+      "nome": "Tipo de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3618,
+          "nome": "Desembolso global",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3619,
+          "nome": "Despesas correntes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3620,
+          "nome": "Despesas de consumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3621,
+          "nome": "Alimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3622,
+          "nome": "Habitação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3623,
+          "nome": "Aluguel",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3624,
+          "nome": "Impostos e taxas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3625,
+          "nome": "Manutenção do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3626,
+          "nome": "Artigos de limpeza",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3627,
+          "nome": "Mobiliários e artigos do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3628,
+          "nome": "Eletrodomésticos, equipamentos do lar, som e tv",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3629,
+          "nome": "Consertos e manutenção de artigos do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3630,
+          "nome": "Vestuário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3631,
+          "nome": "Roupa de homem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3632,
+          "nome": "Roupa de mulher",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3633,
+          "nome": "Roupa de criança",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3634,
+          "nome": "Calçados e outros apetrechos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3635,
+          "nome": "Joias e bijuterias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3636,
+          "nome": "Tecidos e armarinhos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3637,
+          "nome": "Transporte",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3638,
+          "nome": "Urbano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3639,
+          "nome": "Veículo próprio (gasolina)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3640,
+          "nome": "Veículo próprio (álcool)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3641,
+          "nome": "Veículo próprio (manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3642,
+          "nome": "Viagens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3643,
+          "nome": "Outros (transportes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3644,
+          "nome": "Higiene e cuidados pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3645,
+          "nome": "Perfume",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3646,
+          "nome": "Creme para pele e bronzeador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3647,
+          "nome": "Papel higiênico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5365,
+          "nome": "Outros (higiene e cuidados pessoais)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3648,
+          "nome": "Assistência a saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3649,
+          "nome": "Remédios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3650,
+          "nome": "Seguro saúde e associação de assistência",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3651,
+          "nome": "Tratamento dentário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3652,
+          "nome": "Consulta médica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3653,
+          "nome": "Hospitalização",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3654,
+          "nome": "Óculos e lentes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3655,
+          "nome": "Outras (assistência a saúde)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3656,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3657,
+          "nome": "Cursos regulares de 1, 2 e 3 graus e pré-escolar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3658,
+          "nome": "Outros cursos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3659,
+          "nome": "Livros e revistas técnicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5367,
+          "nome": "Outras (educação)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3660,
+          "nome": "Recreação e cultura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3661,
+          "nome": "Brinquedos e jogos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3662,
+          "nome": "Discos e fitas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5368,
+          "nome": "Outras (recreação e cultura)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3663,
+          "nome": "Fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3664,
+          "nome": "Serviços pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3665,
+          "nome": "Cabeleireiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3666,
+          "nome": "Manicuro e pedicuro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5366,
+          "nome": "Outros (serviços pessoais)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3667,
+          "nome": "Despesas diversas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3668,
+          "nome": "Cerimônias familiares e práticas religiosas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3669,
+          "nome": "Serviços de cartórios e serviços de profissionais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5369,
+          "nome": "Outras (despesas diversas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3670,
+          "nome": "Outras (despesas correntes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3671,
+          "nome": "Impostos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3672,
+          "nome": "Contribuições trabalhistas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5581,
+          "nome": "Outras (outras despesas correntes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3673,
+          "nome": "Aumento do ativo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3674,
+          "nome": "Veículo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3675,
+          "nome": "Imóvel (aquisição)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3676,
+          "nome": "Imóvel (reforma)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3677,
+          "nome": "Outros investimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3678,
+          "nome": "Diminuição do passivo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3679,
+          "nome": "Empréstimo e carnê",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3680,
+          "nome": "Prestação de imóvel",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "nome": "Classes de recebimento mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6196,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3497,
+          "nome": "Até 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3498,
+          "nome": "Mais de 2 a 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3499,
+          "nome": "Mais de 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3500,
+          "nome": "Mais de 5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3501,
+          "nome": "Mais de 6 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3502,
+          "nome": "Mais de 8 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3503,
+          "nome": "Mais de 10 a 15",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3504,
+          "nome": "Mais de 15 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3505,
+          "nome": "Mais de 20 a 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3506,
+          "nome": "Mais de 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6547,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

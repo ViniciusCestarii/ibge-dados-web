@@ -1,0 +1,93 @@
+{
+  "id": 9570,
+  "nome": "Percentual de pessoas de 14 anos ou mais de idade ocupadas na semana de referência que realizaram teletrabalho no domicílio no período de referência de 30 dias, por posição na ocupação e categoria do emprego no trabalho principal - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9570",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Teletrabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 13010,
+      "nome": "Percentual de pessoas de 14 anos ou mais de idade ocupadas na semana de referência que realizaram teletrabalho no domicílio no período de referência de 30 dias",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 13011,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 14 anos ou mais de idade ocupadas na semana de referência que realizaram teletrabalho no domicílio no período de referência de 30 dias",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11913,
+      "nome": "Posição na ocupação e categoria do emprego no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 96165,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59984,
+          "nome": "Empregado no setor privado com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59985,
+          "nome": "Empregado no setor privado sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31724,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59986,
+          "nome": "Empregado no setor público, inclusive servidor estatutário e militar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96170,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96171,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31731,
+          "nome": "Trabalhador familiar auxiliar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

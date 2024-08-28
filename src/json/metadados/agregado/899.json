@@ -1,0 +1,65 @@
+{
+  "id": 899,
+  "nome": "Coeficientes de mortalidade por homicídios ou por acidentes de transporte terrestre, segundo o sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/899",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Coeficiente de mortalidade por homicídios ou por acidentes de transporte",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1992,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2150,
+      "nome": "Coeficiente de mortalidade por homicídios, por 100.000 habitantes",
+      "unidade": "Óbitos",
+      "sumarizacao": []
+    },
+    {
+      "id": 2151,
+      "nome": "Coeficiente de mortalidade por acidentes de transporte terrestre, por 100.000 habitantes",
+      "unidade": "Óbitos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

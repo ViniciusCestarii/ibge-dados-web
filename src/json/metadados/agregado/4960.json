@@ -1,0 +1,111 @@
+{
+  "id": 4960,
+  "nome": "Domicílios com água canalizada em pelo menos um cômodo, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4960",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do domicílio e serviços domiciliares de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5126,
+      "nome": "Domicílios com água canalizada em pelo menos um cômodo",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5127,
+      "nome": "Domicílios com água canalizada em pelo menos um cômodo, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5128,
+      "nome": "Domicílios com água canalizada em pelo menos um cômodo, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5129,
+      "nome": "Coeficiente de variação - Domicílios com água canalizada em pelo menos um cômodo",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5058,
+      "nome": "Percentual de domicílios com água canalizada em pelo menos um cômodo",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5059,
+      "nome": "Percentual de domicílios com água canalizada em pelo menos um cômodo, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5060,
+      "nome": "Percentual de domicílios com água canalizada em pelo menos um cômodo, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5061,
+      "nome": "Coeficiente de variação - Percentual de domicílios com água canalizada em pelo menos um cômodo",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

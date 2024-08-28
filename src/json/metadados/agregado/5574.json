@@ -1,0 +1,129 @@
+{
+  "id": 5574,
+  "nome": "Pessoas de 60 anos ou mais de idade com diagnóstico de catarata que fizeram cirurgia para retirá-la, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5574",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Idosos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6257,
+      "nome": "Pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6258,
+      "nome": "Pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6259,
+      "nome": "Pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6260,
+      "nome": "Coeficiente de variação - Pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6261,
+      "nome": "Percentual de pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6262,
+      "nome": "Percentual de pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6263,
+      "nome": "Percentual de pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6264,
+      "nome": "Coeficiente de variação - Percentual de pessoas com 60 anos ou mais de idade que tiveram indicação de cirurgia nos olhos para retirar a catarata e fizeram a cirurgia",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": 3565,
+  "nome": "Distribuição do rendimento nominal mensal dos domicílios particulares permanentes, com rendimento domiciliar, Valor do rendimento nominal médio mensal dos domicílios particulares permanentes, com rendimento domiciliar e Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes, com rendimento domiciliar, por situação do domicío, segundo as classes simples de percentual em ordem crescente de rendimento domiciliar dos domicílios particulares permanentes",
+  "URL": "https://sidra.ibge.gov.br/tabela/3565",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 877,
+      "nome": "Distribuição do rendimento nominal mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "nome": "Classes simples de percentual em ordem crescente de rendimento dos domicílios particulares permanentes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9858,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9905,
+          "nome": "Até 10 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9906,
+          "nome": "Mais de 10 a 20 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9907,
+          "nome": "Mais de 20 a 30 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9908,
+          "nome": "Mais de 30 a 40 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9909,
+          "nome": "Mais de 40 a 50 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9910,
+          "nome": "Mais de 50 a 60 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9911,
+          "nome": "Mais de 60 a 70 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9912,
+          "nome": "Mais de 70 a 80 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9913,
+          "nome": "Mais de 80 a 90 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9914,
+          "nome": "Mais de 90 a 100 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9915,
+          "nome": "Mais de 95 a 100 %",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9916,
+          "nome": "Mais de 99 a 100 %",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

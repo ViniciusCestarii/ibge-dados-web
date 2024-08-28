@@ -1,0 +1,98 @@
+{
+  "id": 3697,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por frequência de aulas de educação física na escola, nos 7 dias anteriores à pesquisa",
+  "URL": "https://sidra.ibge.gov.br/tabela/3697",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Atividade física",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 563,
+      "nome": "Frequência de aulas de educação física na escola nos 7 dias anteriores à pesquisa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31132,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31133,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31134,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31135,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31136,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31137,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31138,
+          "nome": "5 a 7 dias",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

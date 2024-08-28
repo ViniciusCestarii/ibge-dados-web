@@ -1,0 +1,201 @@
+{
+  "id": 68,
+  "nome": "Salário contratual nominal por tipo de índice e gêneros da indústria de transformação",
+  "URL": "https://sidra.ibge.gov.br/tabela/68",
+  "pesquisa": "Pesquisa Industrial Mensal - Dados Gerais",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198501,
+    "fim": 200104
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 15,
+      "nome": "Salário contratual nominal",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 24,
+      "nome": "Tipo de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 70,
+          "nome": "Índice base fixa (Base: média de 1985 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71,
+          "nome": "Índice mensal (Base: igual mês do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72,
+          "nome": "Índice acumulado no ano (Base: igual período do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 73,
+          "nome": "Índice acumulado doze meses (Base: últimos 12 meses anteriores = 100)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Gêneros da indústria de transformação",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 26,
+          "nome": "Transformação de produtos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 27,
+          "nome": "Metalúrgica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 28,
+          "nome": "Mecânica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 29,
+          "nome": "Material elétrico e de comunicação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 30,
+          "nome": "Material de transporte",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31,
+          "nome": "Madeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32,
+          "nome": "Mobiliário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33,
+          "nome": "Papel e papelão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 34,
+          "nome": "Borracha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35,
+          "nome": "Couros e peles",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 36,
+          "nome": "Química",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 37,
+          "nome": "Farmacêutica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 38,
+          "nome": "Perfumaria, sabões e velas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39,
+          "nome": "Produtos de matérias plásticas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40,
+          "nome": "Têxtil",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41,
+          "nome": "Vestuários, calçados e artefatos de tecidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 42,
+          "nome": "Produtos alimentares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 43,
+          "nome": "Bebidas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 44,
+          "nome": "Fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 45,
+          "nome": "Editorial e gráfica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46,
+          "nome": "Diversas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

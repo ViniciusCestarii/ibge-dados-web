@@ -1,0 +1,250 @@
+{
+  "id": 3545,
+  "nome": "Pessoas de 10 anos ou mais de idade, que frequentavam escola, por grupos de idade, segundo a situação de ocupação na semana de referência e o curso que frequentavam",
+  "URL": "https://sidra.ibge.gov.br/tabela/3545",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1921,
+      "nome": "Pessoas de 10 anos ou mais de idade, que frequentavam escola",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001921,
+      "nome": "Pessoas de 10 anos ou mais de idade, que frequentavam escola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92982,
+          "nome": "18 e 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1148,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1149,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12085,
+      "nome": "Situação de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100440,
+          "nome": "Ocupadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100441,
+          "nome": "Não ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11322,
+      "nome": "Curso que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91117,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121400,
+          "nome": "Alfabetização de jovens e adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14633,
+          "nome": "Classe de alfabetização e regular do ensino fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14430,
+          "nome": "Educação de jovens e adultos do ensino fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121403,
+          "nome": "Regular do ensino médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14431,
+          "nome": "Educação de jovens e adultos do ensino médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121405,
+          "nome": "Superior de graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14432,
+          "nome": "Especialização de nível superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121407,
+          "nome": "Mestrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121408,
+          "nome": "Doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

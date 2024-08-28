@@ -1,0 +1,110 @@
+{
+  "id": 4865,
+  "nome": "Pessoas de 10 anos ou mais de idade, total e distribuição, por nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/4865",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 889,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5006,
+      "nome": "Percentual de pessoas de 10 anos ou mais de idade, distribuído pelo nível de instrução",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5613,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 10 anos ou mais de idade, distribuído pelo nível de instrução",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120713,
+          "nome": "Fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120714,
+          "nome": "Médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120715,
+          "nome": "Médio completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99712,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11626,
+          "nome": "Não determinado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

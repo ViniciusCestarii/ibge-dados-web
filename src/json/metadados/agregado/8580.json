@@ -1,0 +1,252 @@
+{
+  "id": 8580,
+  "nome": "Número de estabelecimentos agropecuários com efetivo da pecuária e Número de cabeças, por pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar, espécie da pecuária e condição do produtor em relação às terras",
+  "URL": "https://sidra.ibge.gov.br/tabela/8580",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10010,
+      "nome": "Número de estabelecimentos agropecuários com efetivo da pecuária",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2209,
+      "nome": "Número de cabeças",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1363,
+      "nome": "Pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57437,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57438,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57439,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57440,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57483,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57484,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57485,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12443,
+      "nome": "Espécie da pecuária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111197,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110056,
+          "nome": "Bovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110057,
+          "nome": "Bubalinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110058,
+          "nome": "Equinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110059,
+          "nome": "Asininos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110060,
+          "nome": "Muares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110061,
+          "nome": "Caprinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110062,
+          "nome": "Ovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110063,
+          "nome": "Suínos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46657,
+          "nome": "Galinhas, galos, frangas, frangos e pintos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47071,
+          "nome": "Codornas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47072,
+          "nome": "Patos, gansos, marrecos, perdizes e faisões",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47073,
+          "nome": "Perus",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47074,
+          "nome": "Avestruzes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8465,
+          "nome": "Coelhos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

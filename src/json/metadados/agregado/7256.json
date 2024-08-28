@@ -1,0 +1,139 @@
+{
+  "id": 7256,
+  "nome": "Viagens realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por rendimento mensal domiciliar per capita e principal local de hospedagem (2019)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7256",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10390,
+      "nome": "Viagens realizadas pelos moradores dos domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10391,
+      "nome": "Coeficiente de variação - Viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10392,
+      "nome": "Distribuição percentual das viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10393,
+      "nome": "Coeficiente de variação - Distribuição percentual das viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57490,
+          "nome": "Menos de 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57491,
+          "nome": "1/2 a menos de 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57743,
+          "nome": "1 a menos de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57744,
+          "nome": "2 a menos de 4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57745,
+          "nome": "4 ou mais salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "nome": "Principal local de hospedagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48083,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48084,
+          "nome": "Hotel ou flat",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48085,
+          "nome": "Pousada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48086,
+          "nome": "Casa de amigo ou parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48087,
+          "nome": "Imóvel próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48088,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

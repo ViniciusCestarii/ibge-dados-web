@@ -1,0 +1,166 @@
+{
+  "id": 7463,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento, por existência e tipo de instrumento de delegação e órgão regulador",
+  "URL": "https://sidra.ibge.gov.br/tabela/7463",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10656,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1009,
+      "nome": "Existência e tipo de instrumento de delegação do serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49160,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49161,
+          "nome": "Com instrumento de delegação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49162,
+          "nome": "Contrato de programa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49163,
+          "nome": "Contrato de concessão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49164,
+          "nome": "Convênio administrativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49165,
+          "nome": "Lei ou decreto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49166,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49167,
+          "nome": "Sem instrumento de delegação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49168,
+          "nome": "Não soube informar se possuía instrumento de delegação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "nome": "Existência e tipo de órgão regulador do serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49169,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49170,
+          "nome": "Com órgão regulador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49171,
+          "nome": "Órgão municipal (secretaria, departamento, divisão, setor ou similar)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49172,
+          "nome": "Autarquia municipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49173,
+          "nome": "Consórcio público",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49174,
+          "nome": "Entidade reguladora estadual",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49175,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49176,
+          "nome": "Não soube informar o tipo de órgão regulador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49177,
+          "nome": "Sem órgão regulador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49178,
+          "nome": "Não soube informar se possuía órgão regulador",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

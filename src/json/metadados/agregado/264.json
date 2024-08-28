@@ -1,0 +1,89 @@
+{
+  "id": 264,
+  "nome": "Área dos estabelecimentos agropecuários por utilização das terras - série histórica (1970/2006)",
+  "URL": "https://sidra.ibge.gov.br/tabela/264",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1970,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 222,
+      "nome": "Utilização das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110087,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4812,
+          "nome": "Lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4813,
+          "nome": "Lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4815,
+          "nome": "Pastagens naturais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4816,
+          "nome": "Pastagens plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110050,
+          "nome": "Matas naturais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110051,
+          "nome": "Matas plantadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

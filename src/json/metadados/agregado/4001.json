@@ -1,0 +1,107 @@
+{
+  "id": 4001,
+  "nome": "Domicílios particulares permanentes, por número de dormitórios e tipo do setor - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/4001",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 74,
+      "nome": "Número de dormitórios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3361,
+          "nome": "1 dormitório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3362,
+          "nome": "2 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3363,
+          "nome": "3 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12199,
+          "nome": "4 dormitórios ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "nome": "Tipo do setor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110,
+          "nome": "Aglomerados subnormais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

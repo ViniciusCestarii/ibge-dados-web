@@ -1,0 +1,231 @@
+{
+  "id": 3651,
+  "nome": "Produção Física Industrial, por grandes categorias econômicas (série encerrada em janeiro de 2022)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3651",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200201,
+    "fim": 202201
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3135,
+      "nome": "Índice de base fixa sem ajuste sazonal (Base: média de 2012 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3134,
+      "nome": "Índice de base fixa com ajuste sazonal (Base: média de 2012 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3136,
+      "nome": "Índice mensal (Base: igual mês do ano anterior = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3137,
+      "nome": "Índice acumulado no ano (Base: igual período do ano anterior = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3138,
+      "nome": "Índice acumulado nos últimos 12 meses (Base: últimos 12 meses anteriores = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 4139,
+      "nome": "Variação percentual mês/mês imediatamente anterior com ajuste sazonal (Base: mês imediatamente anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3139,
+      "nome": "Variação percentual mensal (Base: igual mês do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3140,
+      "nome": "Variação percentual acumulada no ano (Base: igual período do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3141,
+      "nome": "Variação percentual acumulada nos últimos 12 meses (Base: últimos 12 meses anteriores)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 543,
+      "nome": "Grandes categorias econômicas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 129278,
+          "nome": "1 Bens de capital",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129280,
+          "nome": "110 Bens de capital, exceto equipamentos de transporte industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129282,
+          "nome": "120 Equipamentos de transporte industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129283,
+          "nome": "2 Bens intermediários",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129285,
+          "nome": "210 Alimentos e bebidas básicos, destinados principalmente à indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129287,
+          "nome": "220 Alimentos e bebidas elaborados, destinados principalmente à indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129289,
+          "nome": "230 Insumos industriais básicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129291,
+          "nome": "240 Insumos industriais elaborados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129293,
+          "nome": "250 Combustíveis e lubrificantes básicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129295,
+          "nome": "260 Combustíveis e lubrificantes elaborados - exceto gasolinas para automóvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129297,
+          "nome": "270 Peças e acessórios para bens de capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129299,
+          "nome": "280 Peças e acessórios para equipamentos de transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129300,
+          "nome": "3 Bens de consumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129301,
+          "nome": "31 Bens de consumo duráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129302,
+          "nome": "311 Bens de consumo duráveis - exceto automóveis para passageiros e equipamentos de transporte não industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129303,
+          "nome": "312 Automóveis para passageiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129304,
+          "nome": "313 Equipamentos de transporte não industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129305,
+          "nome": "32 Bens de consumo semiduráveis e não duráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129306,
+          "nome": "321 Bens de consumo semiduráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129307,
+          "nome": "322 Bens de consumo não duráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129308,
+          "nome": "323 Alimentos e bebidas básicos, destinados principalmente ao consumo doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129309,
+          "nome": "324 Alimentos e bebidas elaborados, destinados principalmente ao consumo doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129310,
+          "nome": "325 Gasolinas para automóvel (motor spirit)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129311,
+          "nome": "9 Bens não especificados anteriormente",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

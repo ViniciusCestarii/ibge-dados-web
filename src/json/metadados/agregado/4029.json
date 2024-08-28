@@ -1,0 +1,100 @@
+{
+  "id": 4029,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência, por sexo e grupos de horas habitualmente trabalhadas por semana em todos os trabalhos",
+  "URL": "https://sidra.ibge.gov.br/tabela/4029",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4009,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004009,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11803,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana em todos os trabalhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95356,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99147,
+          "nome": "15 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99150,
+          "nome": "40 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 3154,
+  "nome": "Domicílios particulares permanentes, por existência de banheiro ou sanitário e tipo de esgotamento sanitário - Resultados Preliminares do Universo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3154",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2942,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10930,
+          "nome": "Tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10941,
+          "nome": "Tinham banheiro ou sanitário - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10942,
+          "nome": "Tinham banheiro ou sanitário - fossa séptica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10962,
+          "nome": "Tinham banheiro ou sanitário - outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10963,
+          "nome": "Não tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

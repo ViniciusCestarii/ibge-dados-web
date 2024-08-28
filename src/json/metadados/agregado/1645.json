@@ -1,0 +1,171 @@
+{
+  "id": 1645,
+  "nome": "Número de empresas e pessoal ocupado das atividades imobiliárias e de aluguel de bens móveis e imóveis",
+  "URL": "https://sidra.ibge.gov.br/tabela/1645",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Atividades imobiliárias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 631,
+      "nome": "Pessoal ocupado em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000631,
+      "nome": "Pessoal ocupado em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 671,
+      "nome": "Média mensal do pessoal ocupado assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95239,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95247,
+          "nome": "Incorporação, compra e venda de imóveis por conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95241,
+          "nome": "Administração, corretagem e aluguel de imóveis de terceiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95249,
+          "nome": "Aluguel de veículos, máquinas e objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11574,
+      "nome": "Grupos de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          671
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93012,
+          "nome": "Até 5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93013,
+          "nome": "De 6 a 19 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93014,
+          "nome": "De 20 a 49 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93015,
+          "nome": "De 50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93016,
+          "nome": "100 e mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

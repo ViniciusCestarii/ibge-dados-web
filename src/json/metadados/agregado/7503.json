@@ -1,0 +1,152 @@
+{
+  "id": 7503,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs em operação, por tipo de tratamento, geração de lodo e destino dos resíduos sólidos removidos no tratamento preliminar",
+  "URL": "https://sidra.ibge.gov.br/tabela/7503",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10675,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs em operação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 348,
+      "nome": "Tipo de tratamento de esgoto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8128,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8130,
+          "nome": "Preliminar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8131,
+          "nome": "Primário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8132,
+          "nome": "Secundário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8133,
+          "nome": "Terciário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 954,
+      "nome": "Geração de lodo no processo de tratamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48566,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48567,
+          "nome": "Com geração de lodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48568,
+          "nome": "Sem geração de lodo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 963,
+      "nome": "Destino dos resíduos sólidos removidos no tratamento preliminar de esgoto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48670,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48671,
+          "nome": "Lançamento em corpos d'água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48672,
+          "nome": "Lançamento em terreno baldio, lixão ou aterro controlado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48673,
+          "nome": "Lançamento em aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48674,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48675,
+          "nome": "Reciclagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48676,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

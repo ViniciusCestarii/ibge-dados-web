@@ -1,0 +1,419 @@
+{
+  "id": 8937,
+  "nome": "Número de estabelecimentos agropecuários, por cor ou raça do produtor, tipo de prática agrícola, sexo do produtor, classe de idade do produtor, condição do produtor em relação às terras e escolaridade do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/8937",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 830,
+      "nome": "Cor ou raça do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46427,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46424,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46425,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46426,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46428,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46429,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46430,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12568,
+      "nome": "Tipo de prática agrícola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113197,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112654,
+          "nome": "Plantio em nível",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112677,
+          "nome": "Rotação de culturas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112764,
+          "nome": "Pousio ou descanso de solos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112766,
+          "nome": "Proteção e/ou conservação de encostas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40999,
+          "nome": "Recuperação de mata ciliar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41000,
+          "nome": "Reflorestamento para proteção de nascentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41001,
+          "nome": "Estabilização de voçorocas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41002,
+          "nome": "Manejo florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41003,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112767,
+          "nome": "Nenhuma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41146,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 45951,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46437,
+          "nome": "De 65 a menos de 75 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46501,
+          "nome": "De 75 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47177,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 800,
+      "nome": "Escolaridade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41147,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40708,
+          "nome": "Nunca frequentou escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40709,
+          "nome": "Classe de alfabetização - CA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40710,
+          "nome": "Alfabetização de jovens e adultos - AJA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40711,
+          "nome": "Antigo primário (elementar)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40712,
+          "nome": "Antigo ginasial (médio 1º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40713,
+          "nome": "Regular do ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40714,
+          "nome": "EJA - educação de jovens e adultos e supletivo do ensino fundamental ou do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40715,
+          "nome": "Antigo científico, clássico, etc. (médio 2º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40726,
+          "nome": "Regular de ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40727,
+          "nome": "Técnico de ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40728,
+          "nome": "EJA - Educação de jovens e adultos e supletivo do ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40729,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40730,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41159,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "id": 1518,
+  "nome": "População residente, por situação do domicílio, sexo e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/1518",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1140,
+          "nome": "0 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3242,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2484,
+          "nome": "1 ano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2485,
+          "nome": "2 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2486,
+          "nome": "3 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2487,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1141,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2488,
+          "nome": "5 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2489,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2490,
+          "nome": "7 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2491,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2492,
+          "nome": "9 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2493,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2494,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2495,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2496,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2499,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2500,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2501,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2502,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92958,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92959,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92960,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92961,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92962,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1148,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1149,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1150,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1151,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1152,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1153,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1154,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1155,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6802,
+          "nome": "80 a 84 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6803,
+          "nome": "85 a 89 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92963,
+          "nome": "90 a 94 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92964,
+          "nome": "95 a 99 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92965,
+          "nome": "100 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

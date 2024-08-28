@@ -1,0 +1,122 @@
+{
+  "id": 8723,
+  "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio, por existência de violência ou crime ocorrido nos arredores do domicílio nos últimos 12 meses e tipo de violência ou crime",
+  "URL": "https://sidra.ibge.gov.br/tabela/8723",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12567,
+      "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12568,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12569,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12570,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1392,
+      "nome": "Existência de violência ou crime ocorrido nos arredores do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57897,
+          "nome": "Existiu",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57898,
+          "nome": "Não existiu",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1410,
+      "nome": "Tipo de violência ou crime",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57890,
+          "nome": "Troca de tiros ou brigas com armas de fogo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57891,
+          "nome": "Assassinato",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57892,
+          "nome": "Assalto ou roubo com violência",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57893,
+          "nome": "Venda de drogas ilegais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57894,
+          "nome": "Violência policial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57895,
+          "nome": "Extorsão ou cobrança de taxas ilegais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57896,
+          "nome": "Alguma pessoa, que não era policial ou das forças armadas, andando nas ruas com arma de fogo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

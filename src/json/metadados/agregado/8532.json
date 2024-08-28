@@ -1,0 +1,124 @@
+{
+  "id": 8532,
+  "nome": "Municípios, total, e com rodízio na circulação de automóveis, motocicletas, ônibus ou outro transporte público ou privado no período da pandemia da COVID-19, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/8532",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1259,
+      "nome": "Rodízio na circulação de automóveis, motocicletas, ônibus ou outro transporte público ou privado no período da pandemia da COVID-19",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 51507,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51508,
+          "nome": "Com medida de rodízio na circulação de automóveis, motocicletas, ônibus ou outro transporte público ou privado no período da pandemia da COVID-19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51512,
+          "nome": "Sem medida de rodízio na circulação de automóveis, motocicletas, ônibus ou outro transporte público ou privado no período da pandemia da COVID-19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57295,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 8475,
+  "nome": "Pessoas de 18 anos ou mais de idade, por sexo, grupo de idade e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8475",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Antropometria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2667,
+      "nome": "Pessoas de 18 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4776,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31657,
+          "nome": "35 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31658,
+          "nome": "45 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31659,
+          "nome": "55 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33063,
+          "nome": "65 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33064,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

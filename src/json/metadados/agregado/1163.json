@@ -1,0 +1,59 @@
+{
+  "id": 1163,
+  "nome": "Taxa de fecundidade total por situação do domicílio (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1163",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Taxa de fecundidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1992,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2493,
+      "nome": "Taxa de fecundidade total",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

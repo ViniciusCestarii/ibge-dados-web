@@ -1,0 +1,133 @@
+{
+  "id": 758,
+  "nome": "Rendimento médio mensal familiar total e Número de famílias por classes de rendimento monetário e não-monetário mensal familiar e religião da pessoa de referência da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/758",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1976,
+      "nome": "Rendimento médio mensal familiar total",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12191,
+      "nome": "Classes de rendimento monetário e não monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103411,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103412,
+          "nome": "Até 400 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111514,
+          "nome": "Mais de 400 a 1000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111515,
+          "nome": "Mais de 1000 a 2000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103418,
+          "nome": "Mais de 2000 a 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103496,
+          "nome": "Mais de 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12514,
+      "nome": "Religião da pessoa de referência da família",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111487,
+          "nome": "Católica apostólica romana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111488,
+          "nome": "Evangélica de missão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111489,
+          "nome": "Evangélica de origem pentecostal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111490,
+          "nome": "Outras evangélicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111491,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111492,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111493,
+          "nome": "Sem religião e não-determinada",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

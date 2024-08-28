@@ -1,0 +1,225 @@
+{
+  "id": 2458,
+  "nome": "Pessoas residentes em domicílios particulares por condição na família e grupos de idade da pessoa responsável pela família",
+  "URL": "https://sidra.ibge.gov.br/tabela/2458",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Responsável pelo domicílio/família",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 134,
+      "nome": "Pessoas residentes em domicílios particulares",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000134,
+      "nome": "Pessoas residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 116,
+      "nome": "Condição na família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95420,
+          "nome": "Pessoa responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95421,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95422,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95423,
+          "nome": "Pai, mãe ou sogro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3314,
+          "nome": "Outro parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104801,
+          "nome": "Agregado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3315,
+          "nome": "Pensionista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104800,
+          "nome": "Empregado(a) doméstico(a) e parente do(a) empregado(a) doméstico(a)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12240,
+      "nome": "Grupos de idade da pessoa responsável pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104606,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104607,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104608,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104610,
+          "nome": "18 e 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104611,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104612,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104613,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104614,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104615,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104616,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104617,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104618,
+          "nome": "55 a 59anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104619,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104620,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104621,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104622,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104623,
+          "nome": "80 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": 391,
+  "nome": "Domicilios particulares permanentes, por situação, condição de ocupação e número de moradores",
+  "URL": "https://sidra.ibge.gov.br/tabela/391",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11284,
+      "nome": "Condição de ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 97430,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111000,
+          "nome": "Próprio - já quitado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111001,
+          "nome": "Próprio - em aquisição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 90962,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97417,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111002,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 97418,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "nome": "Número de moradores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1092,
+          "nome": "1 morador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1093,
+          "nome": "2 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1094,
+          "nome": "3 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1095,
+          "nome": "4 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1096,
+          "nome": "5 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1097,
+          "nome": "6 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1098,
+          "nome": "7 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111003,
+          "nome": "8 moradores ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111004,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

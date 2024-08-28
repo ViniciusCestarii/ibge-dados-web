@@ -1,0 +1,129 @@
+{
+  "id": 5644,
+  "nome": "Pessoas com deficiência intelectual, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5644",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6330,
+      "nome": "Pessoas com deficiência intelectual",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6331,
+      "nome": "Pessoas com deficiência intelectual, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6332,
+      "nome": "Pessoas com deficiência intelectual, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6333,
+      "nome": "Coeficiente de variação - Pessoas com deficiência intelectual",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6334,
+      "nome": "Percentual de pessoas com deficiência intelectual",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6335,
+      "nome": "Percentual de pessoas com deficiência intelectual, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6336,
+      "nome": "Percentual de pessoas com deficiência intelectual, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6337,
+      "nome": "Coeficiente de variação - Percentual de pessoas com deficiência intelectual",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 2355,
+  "nome": "Número de municípios com serviços de manejo de resíduos sólidos, por existência de residências nas unidades de destinação final do lixo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2355",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12212,
+      "nome": "Existência de residências nas unidades de destinação final de lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103911,
+          "nome": "Total de municípios com serviços de limpeza urbana e/ou coleta de lixo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103912,
+          "nome": "Existem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103913,
+          "nome": "Não existem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103914,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

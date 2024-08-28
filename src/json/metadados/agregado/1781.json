@@ -1,0 +1,104 @@
+{
+  "id": 1781,
+  "nome": "Número de distritos, total e os cuja água tratada passa por processo de coagulação química, por destino do lodo gerado",
+  "URL": "https://sidra.ibge.gov.br/tabela/1781",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 729,
+      "nome": "Número de distritos cuja água tratada passa por processo de coagulação química",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000729,
+      "nome": "Número de distritos cuja água tratada passa por processo de coagulação química - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11978,
+      "nome": "Destino do lodo gerado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98553,
+          "nome": "Total geral de distritos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98606,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98554,
+          "nome": "Rio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98555,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98556,
+          "nome": "Terreno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98557,
+          "nome": "Aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98558,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98559,
+          "nome": "Reaproveitamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98560,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

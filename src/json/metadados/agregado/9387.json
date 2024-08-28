@@ -1,0 +1,95 @@
+{
+  "id": 9387,
+  "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal, por situação de informalidade no trabalho principal e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9387",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5932,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5940,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1350,
+      "nome": "Situação de informalidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57303,
+          "nome": "Informais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59686,
+          "nome": "Formais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

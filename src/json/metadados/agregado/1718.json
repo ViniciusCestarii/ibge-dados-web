@@ -1,0 +1,106 @@
+{
+  "id": 1718,
+  "nome": "Número de municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes, por forma de disposição no solo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1718",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 401,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000401,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 354,
+      "nome": "Forma de disposição no solo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8208,
+          "nome": "Total de municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8186,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8189,
+          "nome": "Disposição em vazadouro em conjunto com os demais resíduos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8190,
+          "nome": "Disposição sob controle em aterro convencional em conjunto com os demais resíduos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8191,
+          "nome": "Disposição sob controle em pátio ou galpão de estocagem da prefeitura específico para resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8187,
+          "nome": "Disposição sob controle em aterro da prefeitura específico para resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8188,
+          "nome": "Disposição sob controle em aterro de terceiros específico para resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8207,
+          "nome": "Disposição sob controle em barragem de rejeitos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8192,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

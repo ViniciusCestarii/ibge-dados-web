@@ -1,0 +1,78 @@
+{
+  "id": 7425,
+  "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio, por existência no domicílio de morador vítima de furto ou roubo (qualquer tipo de furto ou roubo)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7425",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12567,
+      "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12568,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12569,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12570,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1385,
+      "nome": "Existência no domicílio de morador vítima de furto ou roubo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          12569,
+          12570
+        ]
+      },
+      "categorias": [
+        {
+          "id": 57593,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57594,
+          "nome": "Existe pelo menos um morador vítima de furto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57595,
+          "nome": "Existe pelo menos um morador vítima de roubo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

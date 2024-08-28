@@ -1,0 +1,526 @@
+{
+  "id": 418,
+  "nome": "Aquisição (monetária) alimentar domiciliar per capita anual por grupos e subgrupos de produtos e classes de recebimento mensal familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/418",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 180,
+      "nome": "Aquisição (monetária) alimentar domiciliar per capita anual",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 216,
+      "nome": "Grupos e subgrupos de produtos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3808,
+          "nome": "1. Cereais e leguminosas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3809,
+          "nome": "1.1 Cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3810,
+          "nome": "1.2 Leguminosas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3811,
+          "nome": "2. Hortaliças",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3812,
+          "nome": "2.1 Hortaliças folhosas e florais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3813,
+          "nome": "2.2 Hortaliças frutosas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3814,
+          "nome": "2.3 Hortaliças tuberosas e outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3815,
+          "nome": "3. Frutas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3816,
+          "nome": "3.1 Frutas de clima tropical",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3817,
+          "nome": "3.2 Frutas de clima temperado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3818,
+          "nome": "4. Cocos, castanhas e nozes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3819,
+          "nome": "4.1 Cocos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3820,
+          "nome": "4.2 Castanhas e nozes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3821,
+          "nome": "5. Farinhas, féculas e massas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3822,
+          "nome": "5.1 Farinhas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3823,
+          "nome": "5.2 Féculas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3824,
+          "nome": "5.3 Massas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3825,
+          "nome": "6. Panificados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3826,
+          "nome": "6.1 Pães",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3827,
+          "nome": "6.2 Bolos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3828,
+          "nome": "6.3 Biscoitos, roscas, etc",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3829,
+          "nome": "7. Carnes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3830,
+          "nome": "7.1 Carnes bovinas de primeira",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3831,
+          "nome": "7.2 Carnes bovinas de segunda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3832,
+          "nome": "7.3 Carnes bovinas outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3833,
+          "nome": "7.4 Carnes suínas com osso e sem osso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3834,
+          "nome": "7.5 Carnes suínas outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3835,
+          "nome": "7.6 Carnes de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3836,
+          "nome": "8. Vísceras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3837,
+          "nome": "8.1 Vísceras bovinas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3838,
+          "nome": "8.2 Vísceras suínas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3839,
+          "nome": "8.3 Outras vísceras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3840,
+          "nome": "9. Pescados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3841,
+          "nome": "9.1 Pescados de água salgada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3842,
+          "nome": "9.2 Pescados de água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104326,
+          "nome": "9.3 Pescados não especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3843,
+          "nome": "10. Aves e ovos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3844,
+          "nome": "10.1 Aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3845,
+          "nome": "10.2 Ovos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3846,
+          "nome": "11. Laticínios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3847,
+          "nome": "11.1 Leite e creme de leite",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3848,
+          "nome": "11.2 Queijos e requeijão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3849,
+          "nome": "11.3 Outros laticínios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3850,
+          "nome": "12. Açúcares e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104327,
+          "nome": "12. Açúcares, doces e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3851,
+          "nome": "12.1 Açúcares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3852,
+          "nome": "12.2 Doces e derivados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104328,
+          "nome": "12.2 Doces e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6232,
+          "nome": "12.3 Outros açúcares e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104329,
+          "nome": "12.3 Outros açúcares, doces e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3853,
+          "nome": "13. Sais e condimentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3854,
+          "nome": "13.1 Sais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3855,
+          "nome": "13.2 Condimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3856,
+          "nome": "14. Óleos e gorduras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3857,
+          "nome": "14.1 Óleos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3858,
+          "nome": "14.2 Gorduras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3859,
+          "nome": "15. Bebidas e infusões",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3860,
+          "nome": "15.1 Bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3861,
+          "nome": "15.2 Bebidas não alcoólicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3862,
+          "nome": "15.3 Cafés",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3863,
+          "nome": "15.4 Chás",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104330,
+          "nome": "16. Alimentos preparados e misturas industriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104331,
+          "nome": "16.1 Alimentos preparados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104332,
+          "nome": "16.2 Misturas industriais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3864,
+          "nome": "17. Outros produtos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6233,
+          "nome": "17.1 Outros produtos",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "nome": "Classes de recebimento mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6196,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3497,
+          "nome": "Até 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3498,
+          "nome": "Mais de 2 a 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3499,
+          "nome": "Mais de 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3500,
+          "nome": "Mais de 5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3501,
+          "nome": "Mais de 6 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3502,
+          "nome": "Mais de 8 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3503,
+          "nome": "Mais de 10 a 15",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3504,
+          "nome": "Mais de 15 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3505,
+          "nome": "Mais de 20 a 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3506,
+          "nome": "Mais de 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6547,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

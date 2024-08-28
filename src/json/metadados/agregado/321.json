@@ -1,0 +1,160 @@
+{
+  "id": 321,
+  "nome": "Pessoal ocupado por grupo de atividade econômica, faixa de idade e sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/321",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 185,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000185,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 219,
+      "nome": "Grupo de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4784,
+          "nome": "Lavoura temporária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4785,
+          "nome": "Horticultura e produtos de viveiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4786,
+          "nome": "Lavoura permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4787,
+          "nome": "Pecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4788,
+          "nome": "Produção mista (lavoura e pecuária)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4789,
+          "nome": "Silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4790,
+          "nome": "Pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4791,
+          "nome": "Produção de carvão vegetal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "nome": "Faixas de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4822,
+          "nome": "Menores de 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4821,
+          "nome": "De 14 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

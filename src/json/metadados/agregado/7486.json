@@ -1,0 +1,160 @@
+{
+  "id": 7486,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com geração de lodo no processo de tratamento de esgoto, por existência e etapas do tratamento e por destino do lodo gerado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7486",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10680,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com geração de lodo no processo de tratamento de esgoto",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 966,
+      "nome": "Existência e etapas do tratamento do lodo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48693,
+          "nome": "Com tratamento do lodo gerado (todo ou parte)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48694,
+          "nome": "Adensamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48695,
+          "nome": "Estabilização",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48696,
+          "nome": "Condicionamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48697,
+          "nome": "Desidratação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48698,
+          "nome": "Outra(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48699,
+          "nome": "Sem tratamento do lodo gerado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 967,
+      "nome": "Destino do lodo gerado nas ETEs",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48700,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48701,
+          "nome": "Rio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48702,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48703,
+          "nome": "Lago ou lagoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48704,
+          "nome": "Terreno baldio, lixão ou aterro controlado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48705,
+          "nome": "Aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48706,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48707,
+          "nome": "Uso como insumo para agricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48708,
+          "nome": "Uso na construção civil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48709,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

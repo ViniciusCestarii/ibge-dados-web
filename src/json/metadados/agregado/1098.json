@@ -1,0 +1,244 @@
+{
+  "id": 1098,
+  "nome": "Número de estabelecimentos e Área dos estabelecimentos agropecuários, por condição do produtor em relação às terras, sexo, residência e classe de idade da pessoa que dirige o estabelecimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1098",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12551,
+      "nome": "Classe de idade da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112044,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112045,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112046,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112047,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112048,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112049,
+          "nome": "De 65 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112050,
+          "nome": "Idade não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

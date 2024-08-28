@@ -1,0 +1,145 @@
+{
+  "id": 8133,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde, por grupo de idade e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8133",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do trabalho e apoio social",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11566,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11567,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11568,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11569,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11570,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11571,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11572,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11573,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, que estiveram expostas a algum fator que poderia afetar a sua saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 9516,
+  "nome": "Indicador 8.5.1 - Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, por existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9516",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Trabalho decente e crescimento econômico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8828,
+      "nome": "Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos",
+      "unidade": "Reais por hora",
+      "sumarizacao": []
+    },
+    {
+      "id": 8829,
+      "nome": "Coeficiente de variação - Rendimento médio por hora real das pessoas de 15 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

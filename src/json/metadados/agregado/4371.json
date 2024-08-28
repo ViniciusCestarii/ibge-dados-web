@@ -1,0 +1,163 @@
+{
+  "id": 4371,
+  "nome": "Pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa, por rendimento mensal domiciliar per capita e situação do domicílio (2013)",
+  "URL": "https://sidra.ibge.gov.br/tabela/4371",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de álcool",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 4298,
+      "nome": "Pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4299,
+      "nome": "Pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4300,
+      "nome": "Pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4829,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4301,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4302,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4303,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4830,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade com consumo abusivo de álcool nos últimos 30 dias anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32852,
+          "nome": "Sem rendimento até 1/4 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32853,
+          "nome": "Mais de 1/4 a 1/2 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32854,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32855,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32856,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32857,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32858,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

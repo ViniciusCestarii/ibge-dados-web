@@ -1,0 +1,230 @@
+{
+  "id": 1617,
+  "nome": "Domicílios particulares permanentes, por tipo de material das paredes externas, número de cômodos e número de dormitórios - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/1617",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N18"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 137,
+      "nome": "Tipo de material das paredes externas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12193,
+          "nome": "Alvenaria com revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12194,
+          "nome": "Alvenaria sem revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2872,
+          "nome": "Madeira aparelhada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12195,
+          "nome": "Taipa revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2873,
+          "nome": "Taipa não revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12196,
+          "nome": "Madeira aproveitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2875,
+          "nome": "Palha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2876,
+          "nome": "Outro material",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3475,
+          "nome": "8 cômodos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "nome": "Número de dormitórios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3361,
+          "nome": "1 dormitório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3362,
+          "nome": "2 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3363,
+          "nome": "3 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12199,
+          "nome": "4 dormitórios ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 1792,
+  "nome": "Número de distritos abastecidos, por existência de fluor na água distribuída",
+  "URL": "https://sidra.ibge.gov.br/tabela/1792",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 732,
+      "nome": "Número de distritos abastecidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000732,
+      "nome": "Número de distritos abastecidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11989,
+      "nome": "Existência de flúor na água distribuída",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98615,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98436,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98437,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98438,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

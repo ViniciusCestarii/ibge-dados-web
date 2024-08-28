@@ -1,0 +1,86 @@
+{
+  "id": 396,
+  "nome": "Número de municípios, total e com serviço de abastecimento de água, por forma de execução do serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/396",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12965,
+      "nome": "Forma de execução do serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120945,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120947,
+          "nome": "Prefeitura é a única executora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120948,
+          "nome": "Outras entidades são as executoras do serviço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120949,
+          "nome": "Prefeitura e outras entidades são as executoras do serviço",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": 1300,
+  "nome": "Número de municípios, total e os com tratamento de esgoto sanitário, por tipo de sistema de tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1300",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 337,
+      "nome": "Municípios com tratamento de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000337,
+      "nome": "Municípios com tratamento de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12007,
+      "nome": "Tipo de sistema de tratamento de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2086,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98730,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98731,
+          "nome": "Filtro biológico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98732,
+          "nome": "Lodo ativado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98733,
+          "nome": "Reator anaeróbio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98734,
+          "nome": "Valo de oxidação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98735,
+          "nome": "Lagoa anaeróbia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98736,
+          "nome": "Lagoa aeróbia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98737,
+          "nome": "Lagoa aerada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98738,
+          "nome": "Lagoa facultativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98807,
+          "nome": "Lagoa mista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98739,
+          "nome": "Lagoa de maturação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2085,
+          "nome": "Wetland/aplicação no solo, plantas aquáticas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98740,
+          "nome": "Fossa séptica de sistema condominial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98741,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

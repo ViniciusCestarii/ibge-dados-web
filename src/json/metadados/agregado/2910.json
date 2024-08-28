@@ -1,0 +1,141 @@
+{
+  "id": 2910,
+  "nome": "Distribuição do rendimento nominal mensal, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade, economicamente ativas na semana de referência, com rendimento por situação do domicílio e classes acumuladas de percentual em ordem crescente de rendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/2910",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1619,
+      "nome": "Distribuição do rendimento nominal mensal das pessoas de 10 anos ou mais de idade, economicamente ativas na semana de referência com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1617,
+      "nome": "Valor do rendimento nominal médio mensal das pessoas de 10 anos ou mais de idade, economicamente ativas na semana de referência, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1618,
+      "nome": "Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade, economicamente ativas na semana de referência, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12067,
+      "nome": "Classes acumuladas de percentual em ordem crescente de rendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99843,
+          "nome": "Até 10 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99844,
+          "nome": "Até 20 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99845,
+          "nome": "Até 30 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99846,
+          "nome": "Até 40 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99847,
+          "nome": "Até 50 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99848,
+          "nome": "Até 60 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99849,
+          "nome": "Até 70 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99850,
+          "nome": "Até 80 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99851,
+          "nome": "Até 90 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99852,
+          "nome": "Até 100 %",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

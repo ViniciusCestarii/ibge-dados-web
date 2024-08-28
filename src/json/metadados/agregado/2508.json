@@ -1,0 +1,168 @@
+{
+  "id": 2508,
+  "nome": "Pessoas que procuraram por serviço de saúde nas duas últimas semanas, por motivo principal da procura, situação de atendimento na primeira ou na última procura, sexo e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2508",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1337,
+      "nome": "Pessoas que procuraram por serviço de saúde nas duas últimas semanas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001337,
+      "nome": "Pessoas que procuraram por serviço de saúde nas duas últimas semanas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12272,
+      "nome": "Motivo principal da procura de atendimento de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104968,
+          "nome": "Doença ou problema odontológico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104969,
+          "nome": "Vacinação ou outros atendimentos de prevenção, pré-natal ou somente atestado médico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104970,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104971,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12273,
+      "nome": "Situação de atendimento na primeira ou na última procura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 104972,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104973,
+          "nome": "Atendidas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104974,
+          "nome": "0 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104975,
+          "nome": "20 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6798,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3245,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

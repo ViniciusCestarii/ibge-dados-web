@@ -1,0 +1,101 @@
+{
+  "id": 1364,
+  "nome": "Número de municípios, total e os com serviço de abastecimento de água, por tipo de tratamento da água",
+  "URL": "https://sidra.ibge.gov.br/tabela/1364",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11974,
+      "nome": "Existência e tipo de tratamento da água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2113,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2114,
+          "nome": "Total de municípios abastecidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2115,
+          "nome": "Total de municípios com tratamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98409,
+          "nome": "Convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98410,
+          "nome": "Não-convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98411,
+          "nome": "Simples desinfecção (cloração e outros)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98412,
+          "nome": "Fluoretação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98413,
+          "nome": "Sem tratamento",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

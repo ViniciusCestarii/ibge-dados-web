@@ -1,0 +1,97 @@
+{
+  "id": 3155,
+  "nome": "Domicílios particulares permanentes, por existência e número de banheiros de uso exclusivo do domicílio - Resultados Preliminares do Universo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3155",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 300,
+      "nome": "Existência e número de banheiros de uso exclusivo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10929,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2966,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2967,
+          "nome": "Tinham - 1 banheiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2968,
+          "nome": "Tinham - 2 banheiros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2995,
+          "nome": "Tinham - 3 banheiros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2996,
+          "nome": "Tinham - 4 banheiros ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2997,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

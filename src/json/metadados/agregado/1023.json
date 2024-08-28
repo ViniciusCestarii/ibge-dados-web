@@ -1,0 +1,98 @@
+{
+  "id": 1023,
+  "nome": "Número de municípios, total e os que possuem instrumento legal regulador do serviço de esgotamento sanitário, por tipo de instrumento legal regulador",
+  "URL": "https://sidra.ibge.gov.br/tabela/1023",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2602,
+      "nome": "Municípios que possuem instrumento legal regulador do serviço de esgotamento sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002602,
+      "nome": "Municípios que possuem instrumento legal regulador do serviço de esgotamento sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12966,
+      "nome": "Tipo de instrumento legal regulador",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120950,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120951,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120972,
+          "nome": "Plano diretor de esgotamento sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120953,
+          "nome": "Plano diretor de desenvolvimento urbano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120954,
+          "nome": "Plano diretor de recursos hídricos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120955,
+          "nome": "Plano diretor integrado de saneamento básico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120956,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

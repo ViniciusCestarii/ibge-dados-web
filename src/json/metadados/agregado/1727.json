@@ -1,0 +1,77 @@
+{
+  "id": 1727,
+  "nome": "Número de entidades com coleta domiciliar regular de resíduos sólidos, por existência de coleta domiciliar regular de resíduos sólidos em área de difícil acesso",
+  "URL": "https://sidra.ibge.gov.br/tabela/1727",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 408,
+      "nome": "Número de entidades com coleta domiciliar regular de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000408,
+      "nome": "Número de entidades com coleta domiciliar regular de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 357,
+      "nome": "Existência de coleta domiciliar regular de resíduos sólidos em área de difícil acesso",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8277,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8278,
+          "nome": "Coleta parcial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8279,
+          "nome": "Coleta total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8280,
+          "nome": "Sem coleta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

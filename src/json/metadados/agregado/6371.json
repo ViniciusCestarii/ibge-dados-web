@@ -1,0 +1,104 @@
+{
+  "id": 6371,
+  "nome": "Média de horas habitualmente trabalhadas por semana e efetivamente trabalhadas na semana de referência, no trabalho principal e em todos os trabalhos, das pessoas de 14 anos ou mais de idade, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6371",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8186,
+      "nome": "Média de horas habitualmente trabalhadas por semana no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8187,
+      "nome": "Coeficiente de variação - Média de horas habitualmente trabalhadas por semana no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8188,
+      "nome": "Média de horas efetivamente trabalhadas na semana de referência no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8189,
+      "nome": "Coeficiente de variação - Média de horas efetivamente trabalhadas na semana de referência no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8190,
+      "nome": "Média de horas habitualmente trabalhadas por semana em todos trabalhos das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8191,
+      "nome": "Coeficiente de variação - Média de horas habitualmente trabalhadas por semana em todos trabalhos das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8192,
+      "nome": "Média de horas efetivamente trabalhadas na semana de referência em todos trabalhos das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8193,
+      "nome": "Coeficiente de variação - Média de horas efetivamente trabalhadas na semana de referência em todos trabalhos das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

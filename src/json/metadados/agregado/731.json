@@ -1,0 +1,99 @@
+{
+  "id": 731,
+  "nome": "Número de separações judiciais concedidas em primeira instância por natureza da ação não consensual e fundamento da ação",
+  "URL": "https://sidra.ibge.gov.br/tabela/731",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Separações",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 228,
+      "nome": "Número de separações judiciais concedidas em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000228,
+      "nome": "Número de separações judiciais concedidas em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 264,
+      "nome": "Natureza da ação não consensual",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6067,
+          "nome": "Conduta desonrosa ou grave violação dos deveres do casamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6068,
+          "nome": "Separação de fato",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6069,
+          "nome": "Grave doença mental",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "nome": "Requerente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6070,
+          "nome": "Requerida pelo marido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6071,
+          "nome": "Requerida pela mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 7490,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com entidade executora que envia esgoto ou efluente para outras entidades ou outros municípios, por destino do esgoto ou efluente enviado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7490",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10890,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com entidade executora que envia esgoto sem tratamento para outras entidades ou outros municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10891,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com entidade executora que envia efluente tratado para outras entidades ou outros municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 976,
+      "nome": "Destino do esgoto ou efluente enviado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48784,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48785,
+          "nome": "Outras entidades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48786,
+          "nome": "Outras entidades, próprio município",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48787,
+          "nome": "Outras entidades, outros municípios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48788,
+          "nome": "Própria entidade, outros municípios",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

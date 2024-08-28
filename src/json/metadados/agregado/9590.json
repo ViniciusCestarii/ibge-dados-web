@@ -1,0 +1,412 @@
+{
+  "id": 9590,
+  "nome": "Número de microempreendedores individuais (MEIs) e seus empregados, por grande grupamento e seções da classificação de atividade econômica (CNAE 2.0), ano de filiação, tempo de abertura, com indicativo ou não de empregado e atuação ou não na residência.",
+  "URL": "https://sidra.ibge.gov.br/tabela/9590",
+  "pesquisa": "Estatísticas dos Cadastros de Microempreendedores Individuais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8862,
+      "nome": "Número de microempreendedores individuais (MEIs)",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1008862,
+      "nome": "Número de microempreendedores individuais (MEIs) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8865,
+      "nome": "Empregados dos microempreendedores individuais (MEIs)",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1008865,
+      "nome": "Empregados dos microempreendedores individuais (MEIs) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 956,
+      "nome": "Grande grupamento e seções da classificação de atividade econômica (CNAE 2.0)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59983,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48591,
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48592,
+          "nome": "B – E Indústria geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48593,
+          "nome": "B Indústrias extrativas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59960,
+          "nome": "C Indústrias de transformação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59961,
+          "nome": "D Eletricidade e gás",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59962,
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59963,
+          "nome": "F Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59964,
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59965,
+          "nome": "H – U Serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59966,
+          "nome": "H Transporte, armazenagem e correio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59967,
+          "nome": "I Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59968,
+          "nome": "J – N Informação, comunicação e atividades financeiras, imobiliárias, profissionais e administrativas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59969,
+          "nome": "J Informação e comunicação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59970,
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59971,
+          "nome": "L Atividades imobiliárias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59972,
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59973,
+          "nome": "N Atividades administrativas e serviços complementares",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59974,
+          "nome": "O – Q Administração pública, defesa e seguridade social, educação, saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59975,
+          "nome": "O Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59976,
+          "nome": "P Educação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59977,
+          "nome": "Q Saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59978,
+          "nome": "R – U Outros serviços",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59979,
+          "nome": "R Artes, cultura, esporte e recreação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59980,
+          "nome": "S Outras atividades de serviços",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59981,
+          "nome": "T Serviços domésticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59982,
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 1719,
+      "nome": "Ano de filiação do microempreendedor individual (MEI)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71430,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72515,
+          "nome": "2022",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60083,
+          "nome": "2021",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60084,
+          "nome": "2020",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60085,
+          "nome": "2019",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60086,
+          "nome": "2018",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60087,
+          "nome": "2017",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60088,
+          "nome": "2016",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60089,
+          "nome": "2015",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60090,
+          "nome": "2014",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60091,
+          "nome": "2013",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60092,
+          "nome": "2012",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60093,
+          "nome": "2011",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60094,
+          "nome": "2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60095,
+          "nome": "2009",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1760,
+      "nome": "Abertura do microempreendedor individual (MEI)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60187,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60188,
+          "nome": "Até 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60189,
+          "nome": "Maior que 3 e até 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60190,
+          "nome": "Maior que 5 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1724,
+      "nome": "Indicativo de microempreendedor individual (MEI) com empregado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60096,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60097,
+          "nome": "Com empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60098,
+          "nome": "Sem empregado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1726,
+      "nome": "Indicativo de microempreendedor individual (MEI) com endereço na residência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60099,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60100,
+          "nome": "Atua na residência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60101,
+          "nome": "Não atua na residência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

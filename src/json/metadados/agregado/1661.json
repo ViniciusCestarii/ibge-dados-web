@@ -1,0 +1,107 @@
+{
+  "id": 1661,
+  "nome": "Dados gerais das empresas imobiliárias e de aluguel de bens móveis e imóveis (1998 a 2000)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1661",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Atividades imobiliárias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 672,
+      "nome": "Receita bruta de serviços",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000672,
+      "nome": "Receita bruta de serviços - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 673,
+      "nome": "Salários, retiradas e outras remunerações",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000673,
+      "nome": "Salários, retiradas e outras remunerações - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 631,
+      "nome": "Pessoal ocupado em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000631,
+      "nome": "Pessoal ocupado em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95239,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95242,
+          "nome": "Aluguel de veículos, máquinas, objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95247,
+          "nome": "Incorporação, compra e venda de imóveis por conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95241,
+          "nome": "Administração, corretagem e aluguel de imóveis de terceiros",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

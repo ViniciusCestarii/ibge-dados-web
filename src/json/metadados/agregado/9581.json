@@ -1,0 +1,65 @@
+{
+  "id": 9581,
+  "nome": "Média de horas habitualmente trabalhadas por semana, no trabalho principal, das pessoas de 14 anos ou mais de idade, por realização de teletrabalho no domicílio - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9581",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Teletrabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8186,
+      "nome": "Média de horas habitualmente trabalhadas por semana no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "Horas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8187,
+      "nome": "Coeficiente de variação - Média de horas habitualmente trabalhadas por semana no trabalho principal das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1680,
+      "nome": "Realização de teletrabalho no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59825,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59826,
+          "nome": "Realizou teletrabalho no domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59827,
+          "nome": "Não realizou teletrabalho no domicílio",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

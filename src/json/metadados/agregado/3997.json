@@ -1,0 +1,101 @@
+{
+  "id": 3997,
+  "nome": "Pessoas que frequentavam escola ou creche, por local da escola ou creche que frequentavam e tipo do setor - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/3997",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 690,
+      "nome": "Pessoas que frequentavam escola ou creche",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000690,
+      "nome": "Pessoas que frequentavam escola ou creche - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 468,
+      "nome": "Local da escola ou creche que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12163,
+          "nome": "Município de residência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12164,
+          "nome": "Outro município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12165,
+          "nome": "País estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "nome": "Tipo do setor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110,
+          "nome": "Aglomerados subnormais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

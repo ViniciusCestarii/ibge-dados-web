@@ -1,0 +1,124 @@
+{
+  "id": 7509,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com extravasamento de esgoto na rede, por motivo(s) do extravasamento e destino do esgoto extravasado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7509",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10752,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com extravasamento de esgoto",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 996,
+      "nome": "Motivo(s) do extravasamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49451,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49085,
+          "nome": "Episódios de chuva intensa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49086,
+          "nome": "Volume extra de esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49087,
+          "nome": "Obstrução parcial ou completa da rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49088,
+          "nome": "Ligações prematuras à rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49089,
+          "nome": "Manutenção da rede coletora ou das ETEs",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49090,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 997,
+      "nome": "Destino do esgoto extravasado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50057,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49091,
+          "nome": "Transbordamento em vias públicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49092,
+          "nome": "Disposição com tratamento preliminar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49093,
+          "nome": "Disposição sem tratamento em corpos d'água ou rede pluvial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49094,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

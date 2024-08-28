@@ -1,0 +1,451 @@
+{
+  "id": 2727,
+  "nome": "Número de estabelecimentos e Área dos estabelecimentos agropecuários, com agricultura familiar e não familiar, por condição do produtor em relação às terras, sexo, residência e naturalidade ou nacionalidade da pessoa que dirige o estabelecimento - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2727",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12557,
+      "nome": "Naturalidade ou nacionalidade da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112078,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112079,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112080,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112081,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112082,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112083,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112084,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112085,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112086,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112087,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112088,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112089,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112090,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112091,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112092,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112093,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112094,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112095,
+          "nome": "Espirito Santo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112096,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112097,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112098,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112099,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112100,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112101,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112102,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112103,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112104,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118082,
+          "nome": "Brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112107,
+          "nome": "Naturalizado brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112108,
+          "nome": "Alemanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112109,
+          "nome": "Espanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112110,
+          "nome": "Itália",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112111,
+          "nome": "Japão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112112,
+          "nome": "Polônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112113,
+          "nome": "Portugal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112114,
+          "nome": "Outro país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118083,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": 1961,
+  "nome": "Domicílios particulares permanentes e Moradores em domicílios particulares permanentes, por classes de rendimento mensal domiciliar, situação do domicílio e densidade de moradores por dormitório",
+  "URL": "https://sidra.ibge.gov.br/tabela/1961",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12058,
+      "nome": "Classes de rendimento mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99582,
+          "nome": "Até 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99583,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99584,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99585,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99586,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99587,
+          "nome": "Mais de 10 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99588,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99589,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99590,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "nome": "Densidade de moradores por dormitório",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99681,
+          "nome": "1 morador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99682,
+          "nome": "Mais de 1 a 2 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99683,
+          "nome": "Mais de 2 a 3 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99684,
+          "nome": "Mais de 3 a 4 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99685,
+          "nome": "Mais de 4 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99113,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

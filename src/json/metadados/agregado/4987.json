@@ -1,0 +1,141 @@
+{
+  "id": 4987,
+  "nome": "Pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar), por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4987",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5292,
+      "nome": "Pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5293,
+      "nome": "Pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5294,
+      "nome": "Pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5295,
+      "nome": "Coeficiente de variação - Pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5296,
+      "nome": "Percentual de pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5297,
+      "nome": "Percentual de pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5298,
+      "nome": "Percentual de pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5299,
+      "nome": "Coeficiente de variação - Percentual de pessoas cujo principal (ou único) plano de saúde (médico ou odontológico) era de instituição de assistência de servidor público (municipal, estadual ou militar)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

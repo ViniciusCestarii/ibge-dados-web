@@ -1,0 +1,56 @@
+{
+  "id": 1285,
+  "nome": "Número de unidades territoriais existentes nos Censos Demográficos",
+  "URL": "https://sidra.ibge.gov.br/tabela/1285",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Território",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1950,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 611,
+      "nome": "Número de cidades",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 604,
+      "nome": "Número de distritos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 605,
+      "nome": "Número de vilas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": []
+}

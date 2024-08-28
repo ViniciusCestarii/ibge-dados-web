@@ -1,0 +1,71 @@
+{
+  "id": 6968,
+  "nome": "Indicador 6.4.1 - Alteração da eficiência no uso da água ao longo do tempo, por setor de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/6968",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Água potável e saneamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2018
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10564,
+      "nome": "Eficiência do uso de água, em moeda local",
+      "unidade": "Reais por metro cúbico",
+      "sumarizacao": []
+    },
+    {
+      "id": 12771,
+      "nome": "Eficiência do uso de água, em moeda estrangeira",
+      "unidade": "Dólares por metro cúbico",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 4,
+      "nome": "Setor de atividade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100374,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46522,
+          "nome": "Indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13,
+          "nome": "Serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45985,
+          "nome": "Agropecuária",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

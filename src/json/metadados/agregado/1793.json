@@ -1,0 +1,92 @@
+{
+  "id": 1793,
+  "nome": "Número de distritos abastecidos cujas entidades prestadoras de serviço de abastecimento de água adicionam fluor na água, por tipo de composto utilizado",
+  "URL": "https://sidra.ibge.gov.br/tabela/1793",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 736,
+      "nome": "Número de distritos abastecidos que adicionam fluor na água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000736,
+      "nome": "Número de distritos abastecidos que adicionam fluor na água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11990,
+      "nome": "Tipo de composto utilizado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98616,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98439,
+          "nome": "Ácido fluorsilícico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98440,
+          "nome": "Fluorsilicato de sódio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98441,
+          "nome": "Fluoreto de sódio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98442,
+          "nome": "Fluoreto de cálcio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98443,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98444,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

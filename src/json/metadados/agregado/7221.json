@@ -1,0 +1,140 @@
+{
+  "id": 7221,
+  "nome": "Pessoas de 15 a 29 anos com o ensino médio completo ou superior incompleto que não frequentam escola, curso técnico, normal (magistério), pré-vestibular ou curso de qualificação profissional, por sexo e principal motivo de atualmente não frequentar",
+  "URL": "https://sidra.ibge.gov.br/tabela/7221",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10410,
+      "nome": "Pessoas de 15 a 29 anos com o ensino médio completo ou superior incompleto que não frequentam escola, curso técnico, normal (magistério), pré-vestibular ou curso de qualificação profissional",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10411,
+      "nome": "Coeficiente de variação - Pessoas de 15 a 29 anos com o ensino médio completo ou superior incompleto que não frequentam escola, curso técnico, normal (magistério), pré-vestibular ou curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10412,
+      "nome": "Distribuição percentual das pessoas de 15 a 29 anos com o ensino médio completo ou superior incompleto que não frequentam escola, curso técnico, normal (magistério), pré-vestibular ou curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10413,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 a 29 anos com o ensino médio completo ou superior incompleto que não frequentam escola, curso técnico, normal (magistério), pré-vestibular ou curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "nome": "Principal motivo de atualmente não frequentar escola ou outro curso",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47900,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47997,
+          "nome": "Precisa trabalhar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47998,
+          "nome": "Não tem escola na localidade, vaga, o curso de interesse ou o turno desejado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47903,
+          "nome": "Falta de dinheiro para pagar as despesas (mensalidade, transporte, material escolar etc)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47904,
+          "nome": "Por ter que cuidar dos afazeres domésticos ou de criança, adolescente, idoso ou pessoa com necessidades especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47999,
+          "nome": "Estudando para concurso ou estudando por conta própria para vestibular/ENEM",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47906,
+          "nome": "Por já ter concluído o nível de estudo que desejava",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47908,
+          "nome": "Não tem interesse",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47909,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 9727,
+  "nome": "Domicílios particulares permanentes ocupados e Moradores, total e quilombolas, em domicílios particulares permanentes ocupados, segundo localização do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9727",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 382,
+      "nome": "Moradores em domicílios particulares permanentes ocupados",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7097,
+      "nome": "Moradores quilombolas em domicílios particulares permanentes ocupados",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8685,
+      "nome": "Percentual de moradores quilombolas em domicílios particulares permanentes ocupados no total de moradores em domicílios particulares permanentes ocupados",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5930,
+      "nome": "Média de moradores em domicílios particulares permanentes ocupados",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7085,
+      "nome": "Média de moradores quilombolas em domicílios particulares permanentes ocupados com pelo menos um morador quilombola",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60027,
+          "nome": "Em territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60028,
+          "nome": "Fora de territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": 150,
+  "nome": "Domicílios particulares permanentes por número de componentes das famílias, espécie de família e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/150",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 140,
+      "nome": "Número de pessoas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2890,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2891,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2892,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2893,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2894,
+          "nome": "6 pessoas",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 2895,
+          "nome": "7 a 10 pessoas",
+          "unidade": null,
+          "nivel": 7
+        },
+        {
+          "id": 2896,
+          "nome": "11 a 14 pessoas",
+          "unidade": null,
+          "nivel": 7
+        },
+        {
+          "id": 2897,
+          "nome": "15 pessoas ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "nome": "Espécie de família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2885,
+          "nome": "Nuclear",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2886,
+          "nome": "Estendida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2887,
+          "nome": "Composta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

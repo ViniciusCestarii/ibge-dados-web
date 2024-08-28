@@ -1,0 +1,97 @@
+{
+  "id": 7800,
+  "nome": "Indicador 11.4.1 - Total da despesa pública per capita gasta na preservação, proteção e conservação de todo o património cultural e natural, por tipo de governo e patrimônio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7800",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11122,
+      "nome": "Despesa pública per capita gasta na preservação, proteção e conservação do patrimônio",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 11453,
+      "nome": "Despesa pública gasta na preservação, proteção e conservação do patrimônio",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1124,
+      "nome": "Tipo de patrimônio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50403,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50402,
+          "nome": "Ambiental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50401,
+          "nome": "Histórico, artístico e arqueológico",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 11227,
+      "nome": "Nível de governo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90527,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90528,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90529,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

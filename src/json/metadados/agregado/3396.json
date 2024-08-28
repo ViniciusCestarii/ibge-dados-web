@@ -1,0 +1,109 @@
+{
+  "id": 3396,
+  "nome": "Domicílios particulares permamentes, por número de cômodos",
+  "URL": "https://sidra.ibge.gov.br/tabela/3396",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3475,
+          "nome": "8 cômodos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3391,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

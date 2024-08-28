@@ -1,0 +1,121 @@
+{
+  "id": 1090,
+  "nome": "Número de informantes e Quantidade de couro inteiro curtido de bovino, no mês e no trimestre, por método de curtimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1090",
+  "pesquisa": "Pesquisa Trimestral do Couro",
+  "assunto": "Couro",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 199901,
+    "fim": 202401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 624,
+      "nome": "Quantidade de couro curtido inteiro de bovino",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000624,
+      "nome": "Quantidade de couro curtido inteiro de bovino - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12716,
+      "nome": "Referência temporal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115236,
+          "nome": "Total do trimestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115233,
+          "nome": "No 1º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115234,
+          "nome": "No 2º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115235,
+          "nome": "No 3º mês",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11532,
+      "nome": "Método de curtimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119294,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92568,
+          "nome": "Ao cromo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92569,
+          "nome": "Ao tanino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92570,
+          "nome": "Outros métodos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

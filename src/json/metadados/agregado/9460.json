@@ -1,0 +1,152 @@
+{
+  "id": 9460,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência como empregador ou conta própria no trabalho principal, por grupamento de atividade no trabalho principal e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9460",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10374,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência como empregador ou conta própria no trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10375,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência como empregador ou conta própria no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10376,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência como empregador ou conta própria no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10377,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência como empregador ou conta própria no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 888,
+      "nome": "Grupamento de atividade no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47947,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47948,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47949,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47950,
+          "nome": "Comércio, reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56622,
+          "nome": "Transporte, armazenagem e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56623,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56624,
+          "nome": "Informação, comunicação e atividades financeiras, imobiliárias, profissionais e administrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60032,
+          "nome": "Administração pública, defesa, seguridade social, educação, saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56627,
+          "nome": "Outros serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56628,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

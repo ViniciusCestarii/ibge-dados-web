@@ -1,0 +1,83 @@
+{
+  "id": 8890,
+  "nome": "Crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses, por local do último atendimento médico",
+  "URL": "https://sidra.ibge.gov.br/tabela/8890",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Atenção primária à saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12742,
+      "nome": "Crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12743,
+      "nome": "Coeficiente de variação - Crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12744,
+      "nome": "Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12745,
+      "nome": "Coeficiente de variação - Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 669,
+      "nome": "Local do último atendimento médico",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33065,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58215,
+          "nome": "Unidade básica de saúde (posto ou centro de saúde) ou Unidade de Saúde da Família",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58217,
+          "nome": "UPA (Unidade de Pronto Atendimento), outro tipo de pronto atendimento público (24 horas), pronto-socorro/emergência ou ambulatório de hospital público ou ligado às forças armadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58219,
+          "nome": "Consultório particular, clínica privada, ambulatório, pronto atendimento ou emergência de hospital privado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

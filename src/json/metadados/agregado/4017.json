@@ -1,0 +1,85 @@
+{
+  "id": 4017,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por acessibilidade possível na maior parte das vias internas",
+  "URL": "https://sidra.ibge.gov.br/tabela/4017",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 588,
+      "nome": "Acessibilidade possível na maior parte das vias internas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31380,
+          "nome": "Caminhão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31381,
+          "nome": "Carro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31382,
+          "nome": "Motocicleta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31383,
+          "nome": "A pé/bicicleta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31384,
+          "nome": "Não existem vias internas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

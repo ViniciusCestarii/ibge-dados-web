@@ -1,0 +1,149 @@
+{
+  "id": 7311,
+  "nome": "Domicílios e Moradores em que havia utilização da internet, por situação do domicílio e equipamento utilizado para acessar a Internet",
+  "URL": "https://sidra.ibge.gov.br/tabela/7311",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10628,
+      "nome": "Domicílios em que havia utilização da internet",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10629,
+      "nome": "Coeficiente de variação - Domicílios em que havia utilização da internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10630,
+      "nome": "Distribuição percentual dos domicílios em que havia utilização da internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10631,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios em que havia utilização da internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10632,
+      "nome": "Moradores em domicílios em que havia utilização da internet",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10633,
+      "nome": "Coeficiente de variação - Moradores em domicílios em que havia utilização da internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10634,
+      "nome": "Distribuição percentual dos moradores em domicílios em que havia utilização da internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10635,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios em que havia utilização da internet",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "nome": "Equipamento utilizado para acessar a Internet",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33214,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33215,
+          "nome": "Utilizaram microcomputador ou tablet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33216,
+          "nome": "Utilizaram microcomputador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33224,
+          "nome": "Utilizaram telefone móvel celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33228,
+          "nome": "Utilizaram tablet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33232,
+          "nome": "Utilizaram televisão",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

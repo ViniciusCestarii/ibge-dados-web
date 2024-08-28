@@ -1,0 +1,123 @@
+{
+  "id": 1296,
+  "nome": "Número de vilas e População nas vilas nos Censos Demográficos, por tamanho da população",
+  "URL": "https://sidra.ibge.gov.br/tabela/1296",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Território",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1950,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 605,
+      "nome": "Número de vilas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000605,
+      "nome": "Número de vilas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 613,
+      "nome": "População nas vilas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000613,
+      "nome": "População nas vilas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11275,
+      "nome": "Classes de tamanho da população",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 91176,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90727,
+          "nome": "Até 200 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90728,
+          "nome": "De 201 a 500 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90729,
+          "nome": "De 501 a 1.000 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90730,
+          "nome": "De 1.001 a 2.000 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90731,
+          "nome": "De 2.001 a 5.000 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90732,
+          "nome": "De 5.001 a 10.000 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90733,
+          "nome": "Mais de 10.000 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90734,
+          "nome": "De 10.001 a 20.000 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 90735,
+          "nome": "Mais de 20.000 pessoas",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

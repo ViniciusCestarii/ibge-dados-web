@@ -1,0 +1,159 @@
+{
+  "id": 2000,
+  "nome": "Distribuição do rendimento nominal mensal, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes, com rendimento por situação do domicílio e classes simples de percentual em ordem crescente de rendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/2000",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 877,
+      "nome": "Distribuição do rendimento nominal mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12066,
+      "nome": "Classes simples de percentual em ordem crescente de rendimento",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110327,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99853,
+          "nome": "Até 10 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99854,
+          "nome": "Mais de 10 a 20 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99855,
+          "nome": "Mais de 20 a 30 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99856,
+          "nome": "Mais de 30 a 40 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99857,
+          "nome": "Mais de 40 a 50 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99858,
+          "nome": "Mais de 50 a 60 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99859,
+          "nome": "Mais de 60 a 70 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99860,
+          "nome": "Mais de 70 a 80 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99861,
+          "nome": "Mais de 80 a 90 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99862,
+          "nome": "Mais de 90 a 100 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99863,
+          "nome": "Mais de 95 a 100 %",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 99864,
+          "nome": "Mais de 99 a 100 %",
+          "unidade": null,
+          "nivel": -1
+        }
+      ]
+    }
+  ]
+}

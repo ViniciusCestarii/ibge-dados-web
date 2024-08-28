@@ -1,0 +1,298 @@
+{
+  "id": 2070,
+  "nome": "Número de estabelecimentos agropecuários, com agricultura familiar e não familiar, por uso de agrotóxicos, condição do produtor em relação às terras, tempo de direção do estabelecimento, orientação técnica recebida e origem da orientação técnica recebida - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2070",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12521,
+      "nome": "Uso de agrotóxicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111611,
+          "nome": "Utilizou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114632,
+          "nome": "Utiliza - não precisou utilizar em 2006",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111612,
+          "nome": "Não utilizou",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12609,
+      "nome": "Tempo em que o produtor dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113573,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113574,
+          "nome": "De 1 a menos de 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113575,
+          "nome": "De 5 a menos de 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113576,
+          "nome": "10 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "nome": "Orientação técnica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112010,
+          "nome": "Ocasionalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112011,
+          "nome": "Regularmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113112,
+          "nome": "Não recebeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12567,
+      "nome": "Origem da orientação técnica recebida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113111,
+          "nome": "Recebe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112647,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112648,
+          "nome": "Própria ou do próprio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112649,
+          "nome": "Cooperativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112650,
+          "nome": "Empresas integradoras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112651,
+          "nome": "Empresas privadas de planejamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112652,
+          "nome": "Organização não-governamental (ONG)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112653,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113559,
+          "nome": "Não recebe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

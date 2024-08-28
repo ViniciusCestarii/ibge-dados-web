@@ -1,0 +1,196 @@
+{
+  "id": 4103,
+  "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento, por finalidade do financiamento, agente financeiro responsável pelo financiamento e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4103",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1990,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001990,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12543,
+      "nome": "Finalidade do financiamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115948,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111924,
+          "nome": "Investimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111925,
+          "nome": "Custeio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111926,
+          "nome": "Comercialização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111927,
+          "nome": "Manutenção do estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12542,
+      "nome": "Agente financeiro responsável pelo financiamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115947,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111915,
+          "nome": "Bancos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111916,
+          "nome": "Cooperativas de crédito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111917,
+          "nome": "Comerciantes de matéria prima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111918,
+          "nome": "Fornecedores (insumos e/ou equipamentos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111919,
+          "nome": "Empresa integradora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111920,
+          "nome": "Outras instituições financeiras (exceto bancos e cooperativas)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111921,
+          "nome": "Organização Não-Governamental - ONG",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111922,
+          "nome": "Parentes ou amigos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111923,
+          "nome": "Outro agente",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": 9466,
+  "nome": "Municípios com Plano Municipal de Saúde, ano de elaboração do plano e inclusão de ações previstas na Política Nacional de Saúde Integral da População Negra no plano, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9466",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12851,
+      "nome": "Municípios com Plano Municipal de Saúde",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1582,
+      "nome": "Ano de elaboração do último plano",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59391,
+          "nome": "Acima de 2019",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59392,
+          "nome": "Entre 2016 e 2019",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59393,
+          "nome": "Entre 2010 e 2015",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59394,
+          "nome": "Antes de 2010",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1583,
+      "nome": "Inclusão de ações previstas na Política Nacional de Saúde Integral da População Negra no plano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59395,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59396,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59397,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

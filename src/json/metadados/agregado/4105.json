@@ -1,0 +1,170 @@
+{
+  "id": 4105,
+  "nome": "Produção e Venda de leite de búfala no ano nos estabelecimentos agropecuários, por classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4105",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2203,
+      "nome": "Número de estabelecimentos agropecuários que produziram leite de búfala",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002203,
+      "nome": "Número de estabelecimentos agropecuários que produziram leite de búfala - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2204,
+      "nome": "Búfalas ordenhadas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002204,
+      "nome": "Búfalas ordenhadas nos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2205,
+      "nome": "Quantidade produzida de leite de búfala",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002205,
+      "nome": "Quantidade produzida de leite de búfala - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2206,
+      "nome": "Valor da produção de leite de búfala",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002206,
+      "nome": "Valor da produção de leite de búfala - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2207,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de búfala",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002207,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de búfala - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2208,
+      "nome": "Quantidade vendida de leite de búfala",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002208,
+      "nome": "Quantidade vendida de leite de búfala - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2277,
+      "nome": "Valor da venda de leite de búfala",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002277,
+      "nome": "Valor da venda de leite de búfala - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

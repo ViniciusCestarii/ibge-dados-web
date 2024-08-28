@@ -1,0 +1,188 @@
+{
+  "id": 1904,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência (exclusive trabalhadores na produção para o próprio consumo e trabalhadores na construção para o próprio uso), por posição na ocupação, sexo e local do estabelecimento do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1904",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 782,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - exclusive trabalhadores na produção para o próprio consumo e trabalhadores na construção para o próprio uso",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000782,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - exclusive trabalhadores na produção para o próprio consumo e trabalhadores na construção para o próprio uso - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99163,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99168,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99358,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99357,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99170,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99172,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12041,
+      "nome": "Local de estabelecimento do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99359,
+          "nome": "Loja, oficina, fábrica, escola, escritório, repartição pública, galpão, etc",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99360,
+          "nome": "Fazenda, sítio, chácara, granja, etc",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99361,
+          "nome": "No domicílio em que moravam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99362,
+          "nome": "Em domicílio de empregador, patrão, sócio ou freguês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99363,
+          "nome": "Em local designado pelo cliente, empregador ou freguês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99364,
+          "nome": "Em veículo automotor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99365,
+          "nome": "Em via ou área pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99366,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99367,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

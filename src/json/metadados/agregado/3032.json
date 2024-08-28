@@ -1,0 +1,86 @@
+{
+  "id": 3032,
+  "nome": "População residente, de menos de 18 anos de idade, em domicílios particulares, por frequência à creche ou escola e situação de segurança alimentar existente no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3032",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1654,
+      "nome": "População residente, de menos de 18 anos de idade, em domicílios particulares",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001654,
+      "nome": "População residente, de menos de 18 anos de idade, em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12081,
+      "nome": "Frequência à creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109135,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100431,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100432,
+          "nome": "Não frequentavam",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12404,
+      "nome": "Situação de segurança alimentar existente no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109106,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109107,
+          "nome": "Com insegurança alimentar moderada ou grave",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

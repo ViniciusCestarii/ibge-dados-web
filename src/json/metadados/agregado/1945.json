@@ -1,0 +1,78 @@
+{
+  "id": 1945,
+  "nome": "Famílias residentes em domicílios particulares, por condição de atividade na semana de referência da pessoa de referência da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/1945",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Responsável pelo domicílio/família",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 155,
+      "nome": "Famílias residentes em domicílios particulares",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000155,
+      "nome": "Famílias residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12056,
+      "nome": "Condição de atividade na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99566,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99612,
+          "nome": "Economicamente ativas - ocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99567,
+          "nome": "Não economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99611,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

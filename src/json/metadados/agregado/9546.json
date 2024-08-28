@@ -1,0 +1,65 @@
+{
+  "id": 9546,
+  "nome": "Indicador 8.5.2 - Taxa de desocupação, na semana de referência, das pessoas de 15 anos ou mais de idade, por existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9546",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Trabalho decente e crescimento econômico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10004,
+      "nome": "Taxa de desocupação, na semana de referência, das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10005,
+      "nome": "Coeficiente de variação - Taxa de desocupação, na semana de referência, das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

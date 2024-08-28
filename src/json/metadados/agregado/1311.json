@@ -1,0 +1,102 @@
+{
+  "id": 1311,
+  "nome": "Número de domicílios e Média de moradores em domicílios particulares ocupados, por situação e localização da área - Sinopse Preliminar",
+  "URL": "https://sidra.ibge.gov.br/tabela/1311",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 618,
+      "nome": "Número de domicílios particulares ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 619,
+      "nome": "Média de moradores em domicílios particulares ocupados",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11277,
+      "nome": "Situação e localização da área",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90749,
+          "nome": "Urbana - cidade ou vila - área urbanizada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90750,
+          "nome": "Urbana - cidade ou vila - área não urbanizada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90751,
+          "nome": "Urbana - área urbana isolada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90752,
+          "nome": "Rural - área rural (exceto aglomerado)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90753,
+          "nome": "Rural - aglomerado - de extensão urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90754,
+          "nome": "Rural - aglomerado - povoado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90755,
+          "nome": "Rural - aglomerado - núcleo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90756,
+          "nome": "Rural - aglomerado - outros",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

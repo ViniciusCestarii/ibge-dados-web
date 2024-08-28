@@ -1,0 +1,139 @@
+{
+  "id": 7580,
+  "nome": "Pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom, por condição em relação à força de trabalho na semana de referência e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7580",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 10912,
+      "nome": "Pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10913,
+      "nome": "Pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10914,
+      "nome": "Pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10915,
+      "nome": "Coeficiente de variação - Pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10916,
+      "nome": "Percentual de pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom em relação às que tinham algum plano de saúde médico",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10917,
+      "nome": "Percentual de pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom em relação às que tinham algum plano de saúde médico, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10918,
+      "nome": "Percentual de pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom em relação às que tinham algum plano de saúde médico, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10919,
+      "nome": "Coeficiente de variação - Percentual de pessoas que avaliaram o principal ou único plano de saúde médico como bom ou muito bom em relação às que tinham algum plano de saúde médico, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 653,
+      "nome": "Condição em relação à força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32862,
+          "nome": "Na força de trabalho - Ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32863,
+          "nome": "Na força de trabalho - Desocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32864,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": 457,
+  "nome": "Domicílios particulares permanentes por número de moradores, classes de aluguel nominal mensal domiciliar e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/457",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 68,
+      "nome": "Número de moradores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1092,
+          "nome": "1 morador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1093,
+          "nome": "2 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1094,
+          "nome": "3 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1095,
+          "nome": "4 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1096,
+          "nome": "5 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1097,
+          "nome": "6 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1098,
+          "nome": "7 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1099,
+          "nome": "8 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1100,
+          "nome": "9 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1101,
+          "nome": "10 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3390,
+          "nome": "11 moradores ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "nome": "Classes de aluguel nominal mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3392,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3393,
+          "nome": "Mais de 1/4 a 1/2 salário minimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3394,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3395,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3396,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3397,
+          "nome": "Mais de 3 a 4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3398,
+          "nome": "Mais de 4 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3399,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3400,
+          "nome": "Domicílios não alugados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3401,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

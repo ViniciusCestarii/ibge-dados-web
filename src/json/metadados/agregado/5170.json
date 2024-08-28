@@ -1,0 +1,106 @@
+{
+  "id": 5170,
+  "nome": "Domicílios particulares permanentes e moradores em domicílios particulares permanentes, total e distribuição, por existência de utilização da Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5170",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2225,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2228,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5514,
+      "nome": "Distribuição dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5684,
+      "nome": "Coeficiente de variação - Distribuição dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5515,
+      "nome": "Distribuição dos moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5685,
+      "nome": "Coeficiente de variação - Distribuição dos moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 688,
+      "nome": "Existência de utilização da Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33298,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33299,
+          "nome": "Havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33300,
+          "nome": "Não havia",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

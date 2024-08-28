@@ -1,0 +1,225 @@
+{
+  "id": 9487,
+  "nome": "Municípios, total, e com serviços específicos e tipos de leitos/berços em estabelecimentos públicos ou conveniados com o SUS, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9487",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1619,
+      "nome": "Disponibilidade de serviço de atendimento de emergência (Risco de Vida 24 Horas)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59528,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59529,
+          "nome": "Sim, serviço público municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59530,
+          "nome": "Sim, em outro serviço público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59531,
+          "nome": "Sim, serviço privado conveniado (SUS)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59532,
+          "nome": "Sim, o paciente é transportado e/ou referenciado para serviço público em outro município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59533,
+          "nome": "Sim, paciente é transportado e/ou referenciado para o serviço privado conveniado (SUS) em outro município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59534,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1623,
+      "nome": "Existência de serviço de nefrologia em estabelecimento público ou conveniado com o SUS",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59535,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59536,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59537,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1624,
+      "nome": "Existência de leitos/berços de unidade de terapia intensiva neonatal em estabelecimento público ou conveniado com o SUS",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59538,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59539,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59540,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1625,
+      "nome": "Existência de leitos/berços de cuidados intermediários em estabelecimento público ou conveniado com o SUS",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59541,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59542,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59543,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

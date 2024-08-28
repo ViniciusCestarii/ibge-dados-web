@@ -1,0 +1,566 @@
+{
+  "id": 2312,
+  "nome": "Despesa monetária e não monetária média mensal familiar com alimentação - valor e distribuição - por classes de rendimento monetário e não monetário mensal familiar e tipos de despesa",
+  "URL": "https://sidra.ibge.gov.br/tabela/2312",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1212,
+      "nome": "Despesa monetária e não monetária média mensal familiar com alimentação",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1213,
+      "nome": "Distribuição da despesa monetária e não monetária média mensal familiar com alimentação",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12191,
+      "nome": "Classes de rendimento monetário e não monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103411,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103412,
+          "nome": "Até 400 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103413,
+          "nome": "Mais de 400 a 600 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103414,
+          "nome": "Mais de 600 a 1000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103415,
+          "nome": "Mais de 1000 a 1200 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103416,
+          "nome": "Mais de 1200 a 1600 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103417,
+          "nome": "Mais de 1600 a 2000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103418,
+          "nome": "Mais de 2000 a 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103419,
+          "nome": "Mais de 3000 a 4000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103422,
+          "nome": "Mais de 4000 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12190,
+      "nome": "Tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103625,
+          "nome": "1Despesas com alimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103626,
+          "nome": "2Alimentação no domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103627,
+          "nome": "2.1Cereais, leguminosas e oleaginosas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103628,
+          "nome": "2.1.1Arroz",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103629,
+          "nome": "2.1.2Feijão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103630,
+          "nome": "2.1.3Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103631,
+          "nome": "2.2Farinhas, féculas e massas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103632,
+          "nome": "2.2.1Macarrão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103633,
+          "nome": "2.2.2Farinha de trigo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103634,
+          "nome": "2.2.3Farinha de mandioca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103635,
+          "nome": "2.2.4Outras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103636,
+          "nome": "2.3Tubérculos e raízes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103637,
+          "nome": "2.3.1Batata inglesa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103638,
+          "nome": "2.3.2Cenoura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103639,
+          "nome": "2.3.3Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103640,
+          "nome": "2.4Açúcares e derivados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103641,
+          "nome": "2.4.1Açúcar refinado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103642,
+          "nome": "2.4.2Açúcar cristal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103643,
+          "nome": "2.4.3Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103644,
+          "nome": "2.5Legumes e verduras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103645,
+          "nome": "2.5.1Tomate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103646,
+          "nome": "2.5.2Cebola",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103647,
+          "nome": "2.5.3Alface",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103648,
+          "nome": "2.5.4Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103649,
+          "nome": "2.6Frutas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103650,
+          "nome": "2.6.1Banana",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103651,
+          "nome": "2.6.2Laranja",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103652,
+          "nome": "2.6.3Maçã",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103653,
+          "nome": "2.6.4Outras frutas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103654,
+          "nome": "2.7Carnes, vísceras e pescados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103655,
+          "nome": "2.7.1Carne de boi de primeira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103656,
+          "nome": "2.7.2Carne de boi de segunda",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103657,
+          "nome": "2.7.3Carne de suíno",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103658,
+          "nome": "2.7.4Carnes e peixes industrializados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103659,
+          "nome": "2.7.5Pescados frescos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103660,
+          "nome": "2.7.6Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103661,
+          "nome": "2.8Aves e ovos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103662,
+          "nome": "2.8.1Frango",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103663,
+          "nome": "2.8.2Ovo de galinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103664,
+          "nome": "2.8.3Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103665,
+          "nome": "2.9Leites e derivados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103666,
+          "nome": "2.9.1Leite de vaca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103667,
+          "nome": "2.9.2Leite em pó integral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103668,
+          "nome": "2.9.3Queijos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103669,
+          "nome": "2.9.4Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103670,
+          "nome": "2.10Panificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103671,
+          "nome": "2.10.1Pão francês",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103672,
+          "nome": "2.10.2Biscoito",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103673,
+          "nome": "2.10.3Outros panificados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103674,
+          "nome": "2.11Óleos e gorduras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103675,
+          "nome": "2.11.1Óleo de soja",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103676,
+          "nome": "2.11.2Azeite de oliva",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103677,
+          "nome": "2.11.3Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103678,
+          "nome": "2.12Bebidas e infusões",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103679,
+          "nome": "2.12.1Café moído",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103680,
+          "nome": "2.12.2Refrigerantes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103681,
+          "nome": "2.12.4Cervejas e chopes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103682,
+          "nome": "2.12.5Outras bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103683,
+          "nome": "2.12.6Outras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103684,
+          "nome": "2.13Enlatados e conservas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103685,
+          "nome": "2.14Sal e condimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103686,
+          "nome": "2.14.1Massa de tomate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103687,
+          "nome": "2.14.2Maionese",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103688,
+          "nome": "2.14.3Sal refinado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103689,
+          "nome": "2.14.4Outros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103690,
+          "nome": "2.15Alimentos preparados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103691,
+          "nome": "2.16Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103692,
+          "nome": "3Alimentação fora do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103693,
+          "nome": "3.1Almoço e jantar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103694,
+          "nome": "3.2Café, leite, café/leite e chocolate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103695,
+          "nome": "3.3Sanduíches e salgados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103696,
+          "nome": "3.4Refrigerantes e outras bebidas não alcoólicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103697,
+          "nome": "3.5Lanches",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103698,
+          "nome": "3.6Cervejas, chopes e outras bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103699,
+          "nome": "3.7Outras",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

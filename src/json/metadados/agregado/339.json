@@ -1,0 +1,138 @@
+{
+  "id": 339,
+  "nome": "Valor das cabeças vendidas por grupo de atividade econômica e espécie de efetivo/rebanho",
+  "URL": "https://sidra.ibge.gov.br/tabela/339",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 191,
+      "nome": "Valor das cabeças vendidas",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000191,
+      "nome": "Valor das cabeças vendidas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 219,
+      "nome": "Grupo de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4784,
+          "nome": "Lavoura temporária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4785,
+          "nome": "Horticultura e produtos de viveiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4786,
+          "nome": "Lavoura permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4787,
+          "nome": "Pecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4788,
+          "nome": "Produção mista (lavoura e pecuária)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4789,
+          "nome": "Silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4790,
+          "nome": "Pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4791,
+          "nome": "Produção de carvão vegetal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "nome": "Espécie de rebanho da pecuária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4823,
+          "nome": "Bovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4830,
+          "nome": "Suínos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4831,
+          "nome": "Aves",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": 2344,
+  "nome": "Receita operacional líquida por origem da receita, segundo as atividades",
+  "URL": "https://sidra.ibge.gov.br/tabela/2344",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Receitas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 643,
+      "nome": "Receita operacional líquida",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1221,
+      "nome": "Percentual da receita operacional líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12203,
+      "nome": "Origem da receita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103843,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103844,
+          "nome": "Receita obtida no mercado interno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103845,
+          "nome": "Receita obtida no mercado externo - exportação de mercadorias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103846,
+          "nome": "Receita obtida no mercado externo - exportação de serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "nome": "Atividades",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103847,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103848,
+          "nome": "Transporte rodoviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103849,
+          "nome": "Transporte ferroviário/metroviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103850,
+          "nome": "Transporte aquaviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103851,
+          "nome": "Transporte aéreo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103852,
+          "nome": "Atividades de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103853,
+          "nome": "Telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103854,
+          "nome": "Serviços audiovisuais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

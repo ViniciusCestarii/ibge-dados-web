@@ -1,0 +1,165 @@
+{
+  "id": 4192,
+  "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicílio, por sexo e valor da mensalidade do plano de saúde principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4192",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 8668,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8669,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8670,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8671,
+      "nome": "Coeficiente de variação - Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8672,
+      "nome": "Distribuição percentual das pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8673,
+      "nome": "Distribuição percentual das pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8674,
+      "nome": "Distribuição percentual das pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8675,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas cujo plano de saúde (médico ou odontológico) era pago pelo titular ou outro morador do domicilio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12267,
+      "nome": "Classes de valor da mensalidade do plano de saúde principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33270,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33271,
+          "nome": "Menos de 50 reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33272,
+          "nome": "De 50 a menos de 100 reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33273,
+          "nome": "De 100 a menos de 200 reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33274,
+          "nome": "De 200 a menos de 300 reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33275,
+          "nome": "De 300 a menos de 500 reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33276,
+          "nome": "De 500 a menos de 1000 reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33277,
+          "nome": "1000 reais e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

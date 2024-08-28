@@ -1,0 +1,110 @@
+{
+  "id": 2225,
+  "nome": "Número de municípios, total e os com serviços de manejo de águas pluviais, por vínculo de secretaria ou setor",
+  "URL": "https://sidra.ibge.gov.br/tabela/2225",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1160,
+      "nome": "Municípios com serviços de manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001160,
+      "nome": "Municípios com serviços de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12124,
+      "nome": "Vínculo de secretaria ou setor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101256,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101257,
+          "nome": "Total de municípios com serviço de drenagem urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101258,
+          "nome": "Secretaria de saneamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101259,
+          "nome": "Secretaria de obras e serviços públicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101260,
+          "nome": "Secretaria de saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101261,
+          "nome": "Secretaria do meio ambiente",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101262,
+          "nome": "Gabinete do prefeito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101302,
+          "nome": "Serviço autônomo de água e esgoto e drenagem urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101263,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101264,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

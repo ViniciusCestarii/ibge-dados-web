@@ -1,0 +1,94 @@
+{
+  "id": 2250,
+  "nome": "Domicílios particulares permanentes, por existência de telefone - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/2250",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N18"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12062,
+      "nome": "Existência de telefone",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99678,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12209,
+          "nome": "Tinham - somente telefone fixo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12210,
+          "nome": "Tinham - somente telefone celular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12211,
+          "nome": "Tinham - telefone fixo e celular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99679,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

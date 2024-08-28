@@ -1,0 +1,128 @@
+{
+  "id": 9708,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios que não havia utilização da Internet, por situação do domicílio e motivo de não haver utilização da Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9708",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4685,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios que não havia utilização da Internet",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4686,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios que não havia utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 951,
+      "nome": "Motivo de não haver utilização da Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48544,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48545,
+          "nome": "Serviço de acesso à Internet era caro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48546,
+          "nome": "Equipamento eletrônico necessário para acessar a Internet era caro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48547,
+          "nome": "Serviço de acesso à Internet não estava disponível na área do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59915,
+          "nome": "Falta de necessidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59916,
+          "nome": "Falta de tempo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48549,
+          "nome": "Nenhum morador sabia usar a Internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59917,
+          "nome": "Preocupação com privacidade ou segurança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48550,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

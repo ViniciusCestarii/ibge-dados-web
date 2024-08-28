@@ -1,0 +1,95 @@
+{
+  "id": 1783,
+  "nome": "Despesa monetária e não monetária média mensal familiar - valor e distribuição - por grupos de despesa",
+  "URL": "https://sidra.ibge.gov.br/tabela/1783",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1201,
+      "nome": "Despesa monetária e não monetária média mensal familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1204,
+      "nome": "Distribuição da despesa monetária e não monetária média mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12189,
+      "nome": "Grupos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103391,
+          "nome": "Despesa total - total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103392,
+          "nome": "Despesa total - despesa monetária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103393,
+          "nome": "Despesa total - despesa não monetária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103394,
+          "nome": "Despesas correntes - total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103395,
+          "nome": "Despesas correntes - despesas de consumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103396,
+          "nome": "Despesas correntes - outras despesas correntes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103397,
+          "nome": "Aumento do ativo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103398,
+          "nome": "Diminuição do passivo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

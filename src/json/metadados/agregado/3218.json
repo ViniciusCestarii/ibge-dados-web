@@ -1,0 +1,236 @@
+{
+  "id": 3218,
+  "nome": "Domicílios particulares permanentes, por forma de abastecimento de água, segundo a existência de banheiro ou sanitário e esgotamento sanitário, o destino do lixo e a existência de energia elétrica",
+  "URL": "https://sidra.ibge.gov.br/tabela/3218",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92853,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10971,
+          "nome": "Poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121290,
+          "nome": "Poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121294,
+          "nome": "Rio, açude, lago ou igarapé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121296,
+          "nome": "Poço ou nascente na aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121297,
+          "nome": "Poço ou nascente fora da aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121295,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2944,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9678,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rede geral de esgoto ou pluvial ou fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2950,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2958,
+          "nome": "Tinham sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9679,
+          "nome": "Tinham sanitário - rede geral de esgoto ou pluvial ou fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2964,
+          "nome": "Tinham sanitário - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10006,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92863,
+          "nome": "Coletado por serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

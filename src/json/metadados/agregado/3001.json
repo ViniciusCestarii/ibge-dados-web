@@ -1,0 +1,166 @@
+{
+  "id": 3001,
+  "nome": "Domicílios particulares e Domicílios particulares com pelo menos um morador de menos de 18 anos de idade, por sexo da pessoa de referência do domicílio, situação de segurança alimentar, situação do domicílio e número de moradores do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3001",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 800,
+      "nome": "Domicílios particulares",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000800,
+      "nome": "Domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1649,
+      "nome": "Domicílios particulares com pelo menos um morador de menos de 18 anos de idade",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001649,
+      "nome": "Domicílios particulares com pelo menos um morador de menos de 18 anos de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12404,
+      "nome": "Situação de segurança alimentar existente no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109106,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109098,
+          "nome": "Com segurança alimentar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109107,
+          "nome": "Com insegurança alimentar moderada ou grave",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "nome": "Número de moradores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120499,
+          "nome": "Até 3 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120500,
+          "nome": "4 a 6 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120501,
+          "nome": "7 moradores ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12405,
+      "nome": "Sexo da pessoa de referência do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109104,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109105,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

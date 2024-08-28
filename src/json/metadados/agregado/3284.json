@@ -1,0 +1,303 @@
+{
+  "id": 3284,
+  "nome": "Pessoas de 10 anos ou mais de idade, por sexo e as classes de rendimento nominal mensal, segundo a condição no domicílio e o compartilhamento da responsabilidade pelo domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3284",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11570,
+      "nome": "Classes de rendimento nominal mensal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92973,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92974,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92975,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92976,
+          "nome": "Mais de 2 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92977,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92978,
+          "nome": "Mais de 10 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92979,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92980,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12129,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "nome": "Condição no domicílio e o compartilhamento da responsabilidade pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11941,
+          "nome": "Pessoa responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11940,
+          "nome": "Pessoa responsável - com responsabilidade compartilhada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11980,
+          "nome": "Pessoa responsável - sem responsabilidade compartilhada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11944,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11945,
+          "nome": "Cônjuge ou companheiro(a) - de sexo diferente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11946,
+          "nome": "Cônjuge ou companheiro(a) - de mesmo sexo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11951,
+          "nome": "Filho(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11949,
+          "nome": "Filho(a) - da pessoa responsável e do cônjuge",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11950,
+          "nome": "Filho(a) - somente da pessoa responsável",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11952,
+          "nome": "Enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11954,
+          "nome": "Genro ou nora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11955,
+          "nome": "Pai, mãe, padastro ou madrasta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11956,
+          "nome": "Sogro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11957,
+          "nome": "Neto(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11959,
+          "nome": "Bisneto(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11960,
+          "nome": "Irmão ou irmã",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11961,
+          "nome": "Avô ou avó",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11964,
+          "nome": "Outro parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11966,
+          "nome": "Agregado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12096,
+          "nome": "Convivente ou pensionista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11973,
+          "nome": "Empregado(a) doméstico(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11974,
+          "nome": "Parente do(a) empregado(a) doméstico(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11977,
+          "nome": "Individual em domicílio coletivo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

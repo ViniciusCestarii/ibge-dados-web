@@ -1,0 +1,136 @@
+{
+  "id": 9600,
+  "nome": "Número de microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio, por natureza jurídica e faixas de pessoal ocupado assalariado do empregador prévio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9600",
+  "pesquisa": "Estatísticas dos Cadastros de Microempreendedores Individuais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8887,
+      "nome": "Número de microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1008887,
+      "nome": "Número de microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2703,
+      "nome": "Natureza jurídica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 117933,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107315,
+          "nome": "Administração pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107316,
+          "nome": "Entidades empresariais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107317,
+          "nome": "Entidades sem fins lucrativos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60181,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "nome": "Faixas de pessoal ocupado assalariado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9504,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46277,
+          "nome": "Sem pessoal ocupado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9502,
+          "nome": "1 a 9 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46281,
+          "nome": "10 a 49 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46282,
+          "nome": "50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46283,
+          "nome": "100 a 499 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46284,
+          "nome": "500 ou mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60180,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 3828,
+  "nome": "Rendimento médio mensal nominal das pessoas de 10 anos ou mais de idade, com rendimento, por cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/3828",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Rendimento médio mensal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2011
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3785,
+      "nome": "Rendimento médio mensal nominal das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

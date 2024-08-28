@@ -1,0 +1,414 @@
+{
+  "id": 3544,
+  "nome": "População residente, por grupos de idade, segundo a frequência à escola ou creche e curso e série que frequentavam",
+  "URL": "https://sidra.ibge.gov.br/tabela/3544",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109013,
+          "nome": "Até 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2487,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2488,
+          "nome": "5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2489,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2490,
+          "nome": "7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2491,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2492,
+          "nome": "9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2493,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2494,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2495,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2496,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2499,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2500,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2501,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2502,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92958,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92959,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92960,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92961,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92962,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109012,
+          "nome": "40 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 520,
+      "nome": "Frequência à escola ou creche e curso e série que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14592,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14593,
+          "nome": "Frequentavam - creche",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14594,
+          "nome": "Frequentavam - pré-escolar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14595,
+          "nome": "Frequentavam - classe de alfabetização",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14596,
+          "nome": "Frequentavam - alfabetização de jovens e adultos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14597,
+          "nome": "Frequentavam - regular do ensino fundamental",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14598,
+          "nome": "Frequentavam - regular do ensino fundamental - primeiro ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14599,
+          "nome": "Frequentavam - regular do ensino fundamental - primeira série/segundo ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14600,
+          "nome": "Frequentavam - regular do ensino fundamental - segunda série/terceiro ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14612,
+          "nome": "Frequentavam - regular do ensino fundamental - terceira série/quarto ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14613,
+          "nome": "Frequentavam - regular do ensino fundamental - quarta série/quinto ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14614,
+          "nome": "Frequentavam - regular do ensino fundamental - quinta série/sexto ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14615,
+          "nome": "Frequentavam - regular do ensino fundamental - sexta série/sétimo ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14616,
+          "nome": "Frequentavam - regular do ensino fundamental - sétima série/oitavo ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14617,
+          "nome": "Frequentavam - regular do ensino fundamental - oitava série/nono ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14618,
+          "nome": "Frequentavam - regular do ensino fundamental - não seriado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14619,
+          "nome": "Frequentavam - educação de jovens e adultos do ensino fundamental",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14620,
+          "nome": "Frequentavam - regular do ensino médio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14621,
+          "nome": "Frequentavam - regular do ensino médio - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14622,
+          "nome": "Frequentavam - regular do ensino médio - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14623,
+          "nome": "Frequentavam - regular do ensino médio - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14624,
+          "nome": "Frequentavam - regular do ensino médio - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14625,
+          "nome": "Frequentavam - regular do ensino médio - não seriado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14626,
+          "nome": "Frequentavam - educação de jovens e adultos do ensino médio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14627,
+          "nome": "Frequentavam - superior de graduação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14628,
+          "nome": "Frequentavam - especialização de nível superior",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14629,
+          "nome": "Frequentavam - mestrado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14630,
+          "nome": "Frequentavam - doutorado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14631,
+          "nome": "Não frequentavam, mas já frequentaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14632,
+          "nome": "Nunca frequentaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 9538,
+  "nome": "Indicador 8.3.1 - Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência, por atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/9538",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Trabalho decente e crescimento econômico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8883,
+      "nome": "Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8884,
+      "nome": "Coeficiente de variação - Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12028,
+      "nome": "Atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99444,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99160,
+          "nome": "Agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99161,
+          "nome": "Não-agrícola",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

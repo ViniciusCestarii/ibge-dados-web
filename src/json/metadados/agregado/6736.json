@@ -1,0 +1,144 @@
+{
+  "id": 6736,
+  "nome": "Domicílios e Moradores, por situação do domicílio e destino do lixo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6736",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9784,
+      "nome": "Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9785,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10114,
+      "nome": "Moradores em domicílios",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10116,
+      "nome": "Coeficiente de variação - Moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10117,
+      "nome": "Distribuição percentual dos moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10118,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10972,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4661,
+          "nome": "Coletado diretamente por serviço de limpeza",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

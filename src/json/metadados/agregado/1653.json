@@ -1,0 +1,306 @@
+{
+  "id": 1653,
+  "nome": "Número de estabelecimentos agropecuários, por uso de calcário e/ou outros corretivos do pH do solo, condição do produtor em relação às terras, nível de instrução da pessoa que dirige o estabelecimento e orientação técnica - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1653",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12549,
+      "nome": "Uso de calcário e/ou outros corretivos do pH do solo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112012,
+          "nome": "Não faz aplicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112013,
+          "nome": "Fez aplicação no ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120834,
+          "nome": "Faz aplicação mas não precisou aplicar no ano",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12552,
+      "nome": "Nível de instrução da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112052,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112053,
+          "nome": "Ensino fundamental incompleto (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112054,
+          "nome": "Ensino fundamental completo (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112055,
+          "nome": "Ensino médio ou 2º grau completo (técnico agrícola)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112056,
+          "nome": "Ensino médio ou 2º grau completo (outro)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112057,
+          "nome": "Engenheiro agrônomo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112058,
+          "nome": "Veterinário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112059,
+          "nome": "Zootecnista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112060,
+          "nome": "Engenheiro florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112061,
+          "nome": "Outra formação superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112062,
+          "nome": "Nenhum, mas sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112051,
+          "nome": "Não sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "nome": "Orientação técnica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112010,
+          "nome": "Ocasionalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112011,
+          "nome": "Regularmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113112,
+          "nome": "Não recebeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

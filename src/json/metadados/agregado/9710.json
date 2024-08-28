@@ -1,0 +1,153 @@
+{
+  "id": 9710,
+  "nome": "Municípios, total, e com instalações esportivas municipais, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9710",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1572,
+      "nome": "Existência de instalações esportivas municipais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59321,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59322,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59323,
+          "nome": "De 1 a 10",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59324,
+          "nome": "De 11 a 25",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59325,
+          "nome": "De 26 a 50",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59326,
+          "nome": "De 51 a 100",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59327,
+          "nome": "De 101 a 250",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59328,
+          "nome": "Acima de 250",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59329,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

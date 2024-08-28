@@ -1,0 +1,111 @@
+{
+  "id": 3571,
+  "nome": "Domicílios particulares permanentes, por classes de rendimento nominal mensal domiciliar - Amostra Rendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/3571",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12065,
+      "nome": "Classes de rendimento nominal mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3089,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99831,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99832,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12086,
+          "nome": "Mais de 2 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99835,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99922,
+          "nome": "Mais de 10 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99923,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99839,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

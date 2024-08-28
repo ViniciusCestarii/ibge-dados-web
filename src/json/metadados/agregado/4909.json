@@ -1,0 +1,136 @@
+{
+  "id": 4909,
+  "nome": "Moradores em domicílios particulares permanentes com televisão, total e distribuição, por situação do domicílio, acesso a televisão por assinatura e recepção de sinal de televisão por antena parabólica",
+  "URL": "https://sidra.ibge.gov.br/tabela/4909",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5101,
+      "nome": "Moradores em domicílios particulares permanentes com televisão",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5649,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5103,
+      "nome": "Distribuição dos moradores em domicílios particulares permanentes com televisão",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5651,
+      "nome": "Coeficiente de variação - Distribuição dos moradores em domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "nome": "Acesso à televisão por assinatura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33227,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33231,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33234,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 682,
+      "nome": "Recepção de sinal de televisão por antena parabólica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33237,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33238,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33239,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

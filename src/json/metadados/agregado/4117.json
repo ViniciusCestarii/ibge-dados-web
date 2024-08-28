@@ -1,0 +1,667 @@
+{
+  "id": 4117,
+  "nome": "Produção, Valor da produção, Venda, Valor da venda, Colheita, Área plantada e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários com mais de 50 pés existentes, por produtos da lavoura permanente, destino da produção consumida ou estocada e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4117",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Produção vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2381,
+      "nome": "Número de estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2382,
+      "nome": "Quantidade produzida nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Vide categorias da classificação 'Produtos da lavoura permanente'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2384,
+      "nome": "Valor da produção dos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002384,
+      "nome": "Valor da produção dos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2383,
+      "nome": "Quantidade vendida nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Vide categorias da classificação 'Produtos da lavoura permanente'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2390,
+      "nome": "Valor das vendas dos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002390,
+      "nome": "Valor das vendas dos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2385,
+      "nome": "Número de pés colhidos nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Mil unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002385,
+      "nome": "Número de pés colhidos nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2386,
+      "nome": "Área colhida nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002386,
+      "nome": "Área colhida nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2387,
+      "nome": "Área plantada nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002387,
+      "nome": "Área plantada nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2388,
+      "nome": "Número de pés existentes nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Mil unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002388,
+      "nome": "Número de pés existentes nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2389,
+      "nome": "Número de pés novos plantados no ano nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12",
+      "unidade": "Mil unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002389,
+      "nome": "Número de pés novos plantados no ano nos estabelecimentos agropecuários com mais de 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 227,
+      "nome": "Produtos da lavoura permanente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          2381,
+          2382,
+          2383
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113864,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4921,
+          "nome": "Abacate",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4996,
+          "nome": "Açaí (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4922,
+          "nome": "Acerola",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111644,
+          "nome": "Agave, sisal (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111645,
+          "nome": "Agave, sisal (folha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111646,
+          "nome": "Algodão arbóreo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4926,
+          "nome": "Ameixa",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4927,
+          "nome": "Amora (folha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4928,
+          "nome": "Amora (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4930,
+          "nome": "Banana",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4931,
+          "nome": "Borracha (látex líquido)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4932,
+          "nome": "Borracha (látex coagulado)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4933,
+          "nome": "Cacau (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111647,
+          "nome": "Café arábica em grão (verde)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111648,
+          "nome": "Café canephora (robusta, conilon) em grão (verde)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4936,
+          "nome": "Caju (castanha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4937,
+          "nome": "Caju (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111649,
+          "nome": "Camu-camu",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4939,
+          "nome": "Caqui",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4940,
+          "nome": "Carambola",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4943,
+          "nome": "Chá-da-Índia",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4945,
+          "nome": "Coco-da-baía",
+          "unidade": "Mil frutos",
+          "nivel": 1
+        },
+        {
+          "id": 4946,
+          "nome": "Cravo-da-Índia",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4947,
+          "nome": "Dendê (coco)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4948,
+          "nome": "Erva-mate",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4949,
+          "nome": "Figo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4951,
+          "nome": "Fruta-de-conde",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4952,
+          "nome": "Goiaba",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4953,
+          "nome": "Graviola",
+          "unidade": "Mil frutos",
+          "nivel": 1
+        },
+        {
+          "id": 4954,
+          "nome": "Guaraná",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4955,
+          "nome": "Jabuticaba",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4956,
+          "nome": "Jaca",
+          "unidade": "Mil frutos",
+          "nivel": 1
+        },
+        {
+          "id": 4957,
+          "nome": "Jambo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4960,
+          "nome": "kiwi",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4961,
+          "nome": "Laranja",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111650,
+          "nome": "Lichia",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4962,
+          "nome": "Lima",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4963,
+          "nome": "Limão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4964,
+          "nome": "Louro (folha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4966,
+          "nome": "Maçã",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4968,
+          "nome": "Manga",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4967,
+          "nome": "Mamão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4969,
+          "nome": "Maracujá",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4971,
+          "nome": "Nectarina",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4972,
+          "nome": "Nêspera",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4976,
+          "nome": "Palmito",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4977,
+          "nome": "Pera",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4978,
+          "nome": "Pêssego",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4979,
+          "nome": "Pimenta-do-reino",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111651,
+          "nome": "Pitanga",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111652,
+          "nome": "Romã",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4982,
+          "nome": "Tangerina, bergamota, mexerica",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4984,
+          "nome": "Urucum (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4985,
+          "nome": "Uva (mesa)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4986,
+          "nome": "Uva (vinho ou suco)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111653,
+          "nome": "Pupunha (cacho frutos)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4997,
+          "nome": "Cupuaçu",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4987,
+          "nome": "Mudas de café",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 4988,
+          "nome": "Mudas de cacau",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 4989,
+          "nome": "Mudas de caju",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 111654,
+          "nome": "Mudas de coco-da-baía",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 111655,
+          "nome": "Mudas de frutas cítricas (laranja, limão, tangerina, etc.)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 111656,
+          "nome": "Mudas de mamão",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 4994,
+          "nome": "Mudas de uva",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        },
+        {
+          "id": 111657,
+          "nome": "Mudas de outros produtos da lavoura permanente",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12763,
+      "nome": "Destino da produção consumida ou estocada",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 117916,
+          "nome": "Consumo humano no estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117917,
+          "nome": "Consumo animal no estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117918,
+          "nome": "Transformação ou beneficiamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117919,
+          "nome": "Estoque no próprio estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117920,
+          "nome": "Utilizada como semente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117921,
+          "nome": "Colhida e perdida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118897,
+          "nome": "Vendeu toda a produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120424,
+          "nome": "Sem produção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 216,
+  "nome": "Número de leitos para internação em estabelecimentos de saúde, por esfera administrativa",
+  "URL": "https://sidra.ibge.gov.br/tabela/216",
+  "pesquisa": "Pesquisa de Assistência Médico-Sanitária",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1976,
+    "fim": 2005
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1774,
+      "nome": "Número de leitos para internação em estabelecimentos de saúde",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001774,
+      "nome": "Número de leitos para internação em estabelecimentos de saúde - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2555,
+      "nome": "Esfera administrativa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109559,
+          "nome": "Público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109560,
+          "nome": "Privado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

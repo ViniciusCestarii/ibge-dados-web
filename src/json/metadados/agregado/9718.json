@@ -1,0 +1,121 @@
+{
+  "id": 9718,
+  "nome": "População residente, total e indígena, por localização do domicílio e quesito de declaração indígena nos Censos Demográficos - Primeiros Resultados do Universo",
+  "URL": "https://sidra.ibge.gov.br/tabela/9718",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "População indígena",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 350,
+      "nome": "Pessoas indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000350,
+      "nome": "Pessoas indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4727,
+      "nome": "Percentual de pessoas indígenas no total da população residente",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1714,
+      "nome": "Quesito de declaração indígena",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60024,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60025,
+          "nome": "Cor ou raça indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60026,
+          "nome": "Se considera indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60029,
+          "nome": "Não se declarou indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12869,
+          "nome": "Em terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12870,
+          "nome": "Fora de terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

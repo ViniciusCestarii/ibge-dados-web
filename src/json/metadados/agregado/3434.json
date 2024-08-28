@@ -1,0 +1,290 @@
+{
+  "id": 3434,
+  "nome": "População residente, por tipo de deficiência e frequência à escola ou creche, segundo o sexo e os grupos de idade - Amostra - Características Gerais da População",
+  "URL": "https://sidra.ibge.gov.br/tabela/3434",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 134,
+      "nome": "Tipo de deficiência permanente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7815,
+          "nome": "Pelo menos uma das deficiências investigadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12152,
+          "nome": "Deficiência visual - não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12153,
+          "nome": "Deficiência visual - grande dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12154,
+          "nome": "Deficiência visual - alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12155,
+          "nome": "Deficiência auditiva - não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12156,
+          "nome": "Deficiência auditiva - grande dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12157,
+          "nome": "Deficiência auditiva - alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12158,
+          "nome": "Deficiência motora - não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12159,
+          "nome": "Deficiência motora - grande dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12160,
+          "nome": "Deficiência motora - alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12161,
+          "nome": "Mental/intelectual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95295,
+          "nome": "Nenhuma dessas deficiências",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2791,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12081,
+      "nome": "Frequência à creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100431,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100432,
+          "nome": "Não frequentavam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1140,
+          "nome": "0 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1141,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110993,
+          "nome": "5 ou 6 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2798,
+          "nome": "7 a 9 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92982,
+          "nome": "18 e 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3300,
+          "nome": "40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

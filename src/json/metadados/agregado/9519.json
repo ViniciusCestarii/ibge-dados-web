@@ -1,0 +1,93 @@
+{
+  "id": 9519,
+  "nome": "Indicador 5.4.1 - Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9519",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Igualdade de gênero",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9471,
+      "nome": "Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9472,
+      "nome": "Coeficiente de variação - Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

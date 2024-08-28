@@ -1,0 +1,82 @@
+{
+  "id": 6383,
+  "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como trabalhadores domésticos no trabalho principal, por número de domicílios em que trabalhavam",
+  "URL": "https://sidra.ibge.gov.br/tabela/6383",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8336,
+      "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como trabalhadores domésticos no trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8337,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como trabalhadores domésticos no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8338,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como trabalhadores domésticos no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8339,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como trabalhadores domésticos no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 785,
+      "nome": "Número de domicílios em que trabalhavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40276,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40277,
+          "nome": "Em um único domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40278,
+          "nome": "Em mais de um domicílio",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

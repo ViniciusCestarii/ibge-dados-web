@@ -1,0 +1,80 @@
+{
+  "id": 2226,
+  "nome": "Número de municípios, total e os com serviços de manejo de águas pluviais, por existência de legislação municipal que exige a aprovação e implantação de sistema de drenagem pluvial para loteamentos novos e/ou populares",
+  "URL": "https://sidra.ibge.gov.br/tabela/2226",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1160,
+      "nome": "Municípios com serviços de manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001160,
+      "nome": "Municípios com serviços de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12125,
+      "nome": "Existência de legislação municipal que exige aprovação e implantação de sistema drenagem pluvial para loteamentos novos e/ou populares",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101265,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101266,
+          "nome": "Total de municípios com serviço de drenagem urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101267,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101268,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101269,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

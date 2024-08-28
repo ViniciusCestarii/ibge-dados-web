@@ -1,0 +1,119 @@
+{
+  "id": 3966,
+  "nome": "Pessoas de 10 a 17 anos de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país e Percentual de pessoas de 10 a 17 anos de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país, distribuído pelo tempo habitual de deslocamento do domicílio para o trabalho principal, por grupos de idade e tempo habitual de deslocamento do domicílio para o trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3966",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3938,
+      "nome": "Pessoas de 10 a 17 anos de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3940,
+      "nome": "Percentual de pessoas de 10 a 17 anos de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país, distribuído pelo tempo habitual de deslocamento do domicílio para o trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "nome": "Tempo habitual de deslocamento do domicílio para o trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31609,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31605,
+          "nome": "Até 5 minutos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31606,
+          "nome": "De 6 minutos a meia hora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31607,
+          "nome": "Mais de meia hora a 1 hora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31608,
+          "nome": "Mais de 1 hora",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

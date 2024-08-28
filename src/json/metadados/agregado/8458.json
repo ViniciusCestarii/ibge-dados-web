@@ -1,0 +1,133 @@
+{
+  "id": 8458,
+  "nome": "Viagens por motivo de lazer realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por rendimento mensal domiciliar per capita e tipo de lazer",
+  "URL": "https://sidra.ibge.gov.br/tabela/8458",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10455,
+      "nome": "Viagens por motivo de lazer realizadas pelos moradores dos domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10456,
+      "nome": "Coeficiente de variação - Viagens por motivo de lazer realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10457,
+      "nome": "Distribuição percentual das viagens por motivo de lazer realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10458,
+      "nome": "Coeficiente de variação - Distribuição percentual das viagens por motivo de lazer realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57490,
+          "nome": "Menos de 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57491,
+          "nome": "1/2 a menos de 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57743,
+          "nome": "1 a menos de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57744,
+          "nome": "2 a menos de 4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57745,
+          "nome": "4 ou mais salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 905,
+      "nome": "Tipo de lazer",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48071,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57208,
+          "nome": "Cultura e gastronomia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48074,
+          "nome": "Natureza, ecoturismo ou aventura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48075,
+          "nome": "Sol e praia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48076,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

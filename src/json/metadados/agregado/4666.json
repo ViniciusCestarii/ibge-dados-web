@@ -1,0 +1,107 @@
+{
+  "id": 4666,
+  "nome": "Pessoas de 14 anos ou mais de idade, por tipo de medida de subutilização da força de trabalho na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/4666",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Mercado de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4087,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 604,
+      "nome": "Tipo de medida de subutilização da força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31753,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40287,
+          "nome": "Força de trabalho ampliada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46255,
+          "nome": "Força de trabalho ou desalentado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 40286,
+          "nome": "Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 40285,
+          "nome": "Desocupado ou subocupado por insuficiência de horas trabalhadas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 31750,
+          "nome": "Desocupado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 31751,
+          "nome": "Subocupado por insuficiência de horas trabalhadas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 40284,
+          "nome": "Desocupado ou na força de trabalho potencial",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 31752,
+          "nome": "Força de trabalho potencial",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 46254,
+          "nome": "Desalentado",
+          "unidade": null,
+          "nivel": 5
+        }
+      ]
+    }
+  ]
+}

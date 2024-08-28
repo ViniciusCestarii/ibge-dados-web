@@ -1,0 +1,106 @@
+{
+  "id": 4057,
+  "nome": "Empregados de 15 anos ou mais de idade no trabalho principal da semana de referência e Valor do rendimento médio mensal do trabalho principal, por sexo e categoria do emprego",
+  "URL": "https://sidra.ibge.gov.br/tabela/4057",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4003,
+      "nome": "Empregados de 15 anos ou mais de idade, no trabalho principal da semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004003,
+      "nome": "Empregados de 15 anos ou mais de idade, no trabalho principal da semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4017,
+      "nome": "Valor do rendimento médio mensal do trabalho principal da semana de referência dos empregados de 15 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12046,
+      "nome": "Categoria do emprego",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99456,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99449,
+          "nome": "Com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99450,
+          "nome": "Militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99451,
+          "nome": "Outros sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

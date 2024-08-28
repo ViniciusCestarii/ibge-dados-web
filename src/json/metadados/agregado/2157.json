@@ -1,0 +1,85 @@
+{
+  "id": 2157,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência por tempo de permanência no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2157",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 917,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12043,
+      "nome": "Tempo de permanência no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          917
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100691,
+          "nome": "Menor ou igual a 30 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100692,
+          "nome": "De 31 dias a menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100693,
+          "nome": "De 1 ano a menos de 2 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100694,
+          "nome": "De 2 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

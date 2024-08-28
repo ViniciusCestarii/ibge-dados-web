@@ -1,0 +1,86 @@
+{
+  "id": 1230,
+  "nome": "Número de municípios, total e os com serviço de manejo de resíduos sólidos, por forma de execução do serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/1230",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2608,
+      "nome": "Municípios com serviço de manejo de resíduos sólidos",
+      "unidade": "Unidades por 100 mil habitantes",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002608,
+      "nome": "Municípios com serviço de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12965,
+      "nome": "Forma de execução do serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120945,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120947,
+          "nome": "Prefeitura é a única executora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120948,
+          "nome": "Outras entidades são as executoras do serviço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120949,
+          "nome": "Prefeitura e outras entidades são as executoras do serviço",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": 667,
+  "nome": "Despesa média mensal familiar com assistência à saude - valor e distribuição - por forma de obtençao do produto ou serviço e grupos de despesa",
+  "URL": "https://sidra.ibge.gov.br/tabela/667",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1970,
+      "nome": "Despesa média mensal familiar com assistência à saúde",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1975,
+      "nome": "Distribuição da despesa média mensal familiar com assistência à saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12507,
+      "nome": "Forma de obtenção do produto ou serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111417,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111418,
+          "nome": "Monetária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111419,
+          "nome": "Não-monetária - pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111420,
+          "nome": "Não-monetária - doação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111421,
+          "nome": "Não-monetária - outras",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12189,
+      "nome": "Grupos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111422,
+          "nome": "Assistência à saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111423,
+          "nome": "Remédios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111424,
+          "nome": "Planos de saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111425,
+          "nome": "Consulta e tratamento dentário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111426,
+          "nome": "Consulta médica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111427,
+          "nome": "Tratamento ambulatorial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111428,
+          "nome": "Serviços de cirurgia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111429,
+          "nome": "Hospitalização",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111430,
+          "nome": "Exames diversos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111431,
+          "nome": "Material de tratamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111432,
+          "nome": "Outras",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

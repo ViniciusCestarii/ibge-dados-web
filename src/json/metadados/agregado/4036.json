@@ -1,0 +1,152 @@
+{
+  "id": 4036,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, por número de trabalhos, sexo e anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/4036",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12031,
+      "nome": "Número de trabalhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99209,
+          "nome": "1 trabalho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99210,
+          "nome": "2 ou mais trabalhos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3319,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1123,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1126,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1133,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1137,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 2796,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": 3459,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por religião, segundo o sexo, a posição na ocupação e a categoria do emprego no trabalho principal e as classes de rendimento nominal mensal de todos os trabalhos - Características Gerais da População",
+  "URL": "https://sidra.ibge.gov.br/tabela/3459",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Religião",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 133,
+      "nome": "Religião",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95263,
+          "nome": "Católica Apostólica Romana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95277,
+          "nome": "Evangélicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95264,
+          "nome": "Evangélicas de Missão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95265,
+          "nome": "Evangélicas de origem pentecostal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 121096,
+          "nome": "Evangélica não determinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2826,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2827,
+          "nome": "Umbanda e Candomblé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95275,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2836,
+          "nome": "Sem religião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12890,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2837,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11913,
+      "nome": "Posição na ocupação e categoria do emprego no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 96166,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96167,
+          "nome": "Empregado - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96168,
+          "nome": "Empregado - militar e funcionário público estatutário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12128,
+          "nome": "Empregado - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9885,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96173,
+          "nome": "Trabalhador na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96170,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96171,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11915,
+      "nome": "Classes de rendimento nominal mensal de todos os trabalhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100434,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99824,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96179,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96180,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96181,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96182,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99825,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99828,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99826,
+          "nome": "Mais de 20 a 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99827,
+          "nome": "Mais de 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96185,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

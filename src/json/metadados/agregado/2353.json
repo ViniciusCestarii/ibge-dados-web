@@ -1,0 +1,68 @@
+{
+  "id": 2353,
+  "nome": "Número de catadores de lixo nas unidades de destinação final do lixo, por grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2353",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1225,
+      "nome": "Número de catadores de lixo nas unidades de destinação final do lixo",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001225,
+      "nome": "Número de catadores de lixo nas unidades de destinação final do lixo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103902,
+          "nome": "Até 14 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103903,
+          "nome": "Mais de 14 anos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

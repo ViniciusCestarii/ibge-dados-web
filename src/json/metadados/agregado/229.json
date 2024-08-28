@@ -1,0 +1,238 @@
+{
+  "id": 229,
+  "nome": "Famílias residentes em domicílios particulares por tipo de família, situação do domicílio e número de componentes das famílias",
+  "URL": "https://sidra.ibge.gov.br/tabela/229",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 155,
+      "nome": "Famílias residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000155,
+      "nome": "Famílias residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 174,
+      "nome": "Tipo de família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3164,
+          "nome": "Única",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3165,
+          "nome": "Convivente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104651,
+          "nome": "Convivente - principal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104652,
+          "nome": "Convivente - segunda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104653,
+          "nome": "Convivente - terceira",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104654,
+          "nome": "Convivente - quarta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104655,
+          "nome": "Convivente - quinta ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12088,
+      "nome": "Número de componentes da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 100955,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 100956,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 100957,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 100958,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 100959,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 100960,
+          "nome": "6 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104583,
+          "nome": "7 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104584,
+          "nome": "8 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104585,
+          "nome": "9 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104586,
+          "nome": "10 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104587,
+          "nome": "11 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104588,
+          "nome": "12 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104589,
+          "nome": "13 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104590,
+          "nome": "14 pessoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 104643,
+          "nome": "15 pessoas ou mais",
+          "unidade": null,
+          "nivel": -1
+        }
+      ]
+    }
+  ]
+}

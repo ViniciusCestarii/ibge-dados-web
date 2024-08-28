@@ -1,0 +1,246 @@
+{
+  "id": 984,
+  "nome": "Pessoas que frequentavam creche ou escola, por nível de ensino e rede de ensino que frequentavam, sexo e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/984",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 690,
+      "nome": "Pessoas que frequentavam escola ou creche",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000690,
+      "nome": "Pessoas que frequentavam escola ou creche - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11798,
+      "nome": "Nível de ensino ou curso que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108871,
+          "nome": "Educação infantil - creche",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108872,
+          "nome": "Educação infantil - pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116817,
+          "nome": "Educação infantil - pré-escolar - maternal, jardim de infância etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116818,
+          "nome": "Educação infantil - pré-escolar - classe de alfabetização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95303,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95304,
+          "nome": "Fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95305,
+          "nome": "Médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116819,
+          "nome": "Superior",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12087,
+      "nome": "Rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100468,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100469,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99749,
+          "nome": "0 a 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2487,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110993,
+          "nome": "5 ou 6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2798,
+          "nome": "7 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116820,
+          "nome": "10 ou 11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116821,
+          "nome": "12 ou 13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110992,
+          "nome": "18 ou 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3351,
+          "nome": "30 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 3417,
+  "nome": "Índices de volume e de receita nominal de vendas no comércio varejista ampliado, por tipos de índice (2014 = 100) - série encerrada em janeiro de 2022",
+  "URL": "https://sidra.ibge.gov.br/tabela/3417",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200301,
+    "fim": 202201
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1186,
+      "nome": "Índice de volume de vendas no comércio varejista ampliado",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    },
+    {
+      "id": 1190,
+      "nome": "Índice de receita nominal de vendas no comércio varejista ampliado",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40311,
+          "nome": "Índice base fixa (2014=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 40312,
+          "nome": "Índice base fixa com ajuste sazonal (2014=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 33534,
+          "nome": "Variação mês / mês anterior com ajuste sazonal",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90668,
+          "nome": "Variação mensal (base: igual mês do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90669,
+          "nome": "Variação acumulada no ano (base: igual período do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90670,
+          "nome": "Variação acumulada de 12 meses",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": 1092,
+  "nome": "Número de informantes, Quantidade e Peso total das carcaças dos bovinos abatidos, no mês e no trimestre, por tipo de rebanho e tipo de inspeção",
+  "URL": "https://sidra.ibge.gov.br/tabela/1092",
+  "pesquisa": "Pesquisa Trimestral do Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 199701,
+    "fim": 202401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 284,
+      "nome": "Animais abatidos",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000284,
+      "nome": "Animais abatidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 285,
+      "nome": "Peso total das carcaças",
+      "unidade": "Quilogramas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000285,
+      "nome": "Peso total das carcaças - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12716,
+      "nome": "Referência temporal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115236,
+          "nome": "Total do trimestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115233,
+          "nome": "No 1º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115234,
+          "nome": "No 2º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115235,
+          "nome": "No 3º mês",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Tipo de rebanho bovino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 992,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 55,
+          "nome": "Bois",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56,
+          "nome": "Vacas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111734,
+          "nome": "Novilhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111735,
+          "nome": "Novilhas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57,
+          "nome": "Vitelos e vitelas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12529,
+      "nome": "Tipo de inspeção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118225,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111737,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111738,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111739,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

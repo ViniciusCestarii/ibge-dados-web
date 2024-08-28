@@ -1,0 +1,100 @@
+{
+  "id": 745,
+  "nome": "Número de famílias e Tamanho médio da família por religião da pessoa de referência da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/745",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12514,
+      "nome": "Religião da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111486,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111487,
+          "nome": "Católica apostólica romana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111488,
+          "nome": "Evangélica de missão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111489,
+          "nome": "Evangélica de origem pentecostal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111490,
+          "nome": "Outras evangélicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111491,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111492,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111493,
+          "nome": "Sem religião e não-determinada",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

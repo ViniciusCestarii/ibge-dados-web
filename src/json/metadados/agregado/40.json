@@ -1,0 +1,459 @@
+{
+  "id": 40,
+  "nome": "Receita operacional líquida e subvenções das empresas de telecomunicações com 20 ou mais pessoas ocupadas, segundo os produtos/serviços prestados",
+  "URL": "https://sidra.ibge.gov.br/tabela/40",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Correio e/ou telecomunicações",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2007
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1655,
+      "nome": "Receita operacional líquida e subvenções",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1656,
+      "nome": "Percentual total de receita operacional líquida e subvenções",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1657,
+      "nome": "Percentual parcial de receita operacional líquida e subvenções",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12121,
+      "nome": "Produtos ou serviços prestados",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109181,
+          "nome": "1.Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109334,
+          "nome": "2.Serviços de telecomunicações por fio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109335,
+          "nome": "2.1Serviços de telefonia fixa comutada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109546,
+          "nome": "2.1.1Serviços fixo-fixo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109336,
+          "nome": "2.1.1.1Chamadas locais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109337,
+          "nome": "2.1.1.2Chamadas interurbanas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109338,
+          "nome": "2.1.1.2.1Tráfego intraestadual",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 109339,
+          "nome": "2.1.1.2.2Tráfego interestadual",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 109340,
+          "nome": "2.1.1.3Chamadas internacionais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109341,
+          "nome": "2.1.1.4Chamadas geradas em telefones públicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109342,
+          "nome": "2.1.2Serviços fixo-móvel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109343,
+          "nome": "2.1.3Serviços 0800",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109344,
+          "nome": "2.1.4Serviços de valor adicionado e suplementares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109345,
+          "nome": "2.1.5Serviços complementares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109346,
+          "nome": "2.1.6Fornecimento de conexão para acesso à internet em banda larga (conexão entre usuários e provedores de internet)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109347,
+          "nome": "2.2Serviços de redes de transportes de telecomunicações - SRTT",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109348,
+          "nome": "2.2.1Serviços por linha dedicada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109349,
+          "nome": "2.2.2Serviços de rede comutada por pacote",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109350,
+          "nome": "2.2.3Serviços de rede comutada por circuito",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111202,
+          "nome": "2.3Serviços de comunicação multimídia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109351,
+          "nome": "2.4Outros serviços de telecomunicações por fio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109352,
+          "nome": "2.4.1Serviços de carrier",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109353,
+          "nome": "2.4.2Serviços de telex",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109354,
+          "nome": "2.4.3Serviços de interconexão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 120851,
+          "nome": "2.5Serviços de carrier e de telex",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109355,
+          "nome": "3.Serviços de telecomunicações sem fio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109356,
+          "nome": "3.1Serviços de telefonia movel celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109357,
+          "nome": "3.1.1Serviços de telefonia movel celular pré-pago",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109358,
+          "nome": "3.1.2Serviços de telefonia movel celular pós-pago",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109359,
+          "nome": "3.1.2.1Chamadas locais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109360,
+          "nome": "3.1.2.2Chamadas interurbanas (intraestaduais e interestaduais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109361,
+          "nome": "3.1.2.3Chamadas internacionais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109362,
+          "nome": "3.1.3Serviços de interconexão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109363,
+          "nome": "3.1.4Serviços de valor adicionado e suplementares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109364,
+          "nome": "3.1.5Serviços complementares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109365,
+          "nome": "3.1.6Serviços de roaming visitante",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109366,
+          "nome": "3.1.7Serviços de envio de mensagens (voice-mail, short-message, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109367,
+          "nome": "3.1.8Wireless internet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109368,
+          "nome": "3.1.9Venda de telefones celulares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109369,
+          "nome": "3.2Serviço móvel especializado-SME (trunking)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109370,
+          "nome": "3.3Outros serviços de telefonia móvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109371,
+          "nome": "3.4Serviços de telecomunicações por satélites",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109372,
+          "nome": "3.4.1Serviço móvel global por satélites-SMGS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109373,
+          "nome": "3.4.2Outros serviços de telecomunicações por satélites",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109374,
+          "nome": "4.Serviços limitados especializados-SLE",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116705,
+          "nome": "5.Operações de estação de radar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116706,
+          "nome": "6.Comunicações por telemetria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109376,
+          "nome": "7.Serviços ligados à internet",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109377,
+          "nome": "7.1Serviços de backbone de internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109378,
+          "nome": "7.2Provedores de internet (de acesso e de conteúdo) em banda estretita",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109379,
+          "nome": "7.3Provedores de internet (de acesso e de conteúdo) em banda larga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116707,
+          "nome": "7.4Provedores de conteúdo de internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116708,
+          "nome": "7.5Provedor de voz sobre protocolo IP - VOIP",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109380,
+          "nome": "7.6Agenciamento de espaço para publicidade na internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116709,
+          "nome": "7.7Serviço de hospedagem de páginas (web hosting)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116710,
+          "nome": "7.8Serviço de criação de sites e portais para internet (web design)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116711,
+          "nome": "7.9Sala de acesso a internet (lan house)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109383,
+          "nome": "7.10Outros serviços de telecomunicações por internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109375,
+          "nome": "8.Serviços de clearinghouse",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109384,
+          "nome": "9.Serviços de operação e manutenção (preventiva ou corretiva) das conexões de redes de telecomunicações em edificações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109385,
+          "nome": "10.Serviços de instalação para a implantação ou manutenção da infraestrutura (física) das redes/linhas de telecomunicações de longa e média distâncias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120852,
+          "nome": "11.Serviços de localização e posicionamento, uso de satélite para rastreamento, etc.",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120853,
+          "nome": "12.Serviços de instalação de TV a cabo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120854,
+          "nome": "13.Locação de equipamentos de telecomunicações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120855,
+          "nome": "14.Venda de equipamentos de telecomunicações (exceto telefones celulares e seus acessórios)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109387,
+          "nome": "15.Outros serviços/atividades",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": 255,
+  "nome": "Número de municípios, Número de informantes e Estoque declarado no último dia do semestre por produtos",
+  "URL": "https://sidra.ibge.gov.br/tabela/255",
+  "pesquisa": "Pesquisa de Estoques",
+  "assunto": "Estoques agropecuários",
+  "periodicidade": {
+    "frequencia": "semestral",
+    "inicio": 200702,
+    "fim": 202302
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 2173,
+      "nome": "Estoque no último dia do semestre",
+      "unidade": "Toneladas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 162,
+      "nome": "Produtos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118423,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3034,
+          "nome": "Algodão (em pluma)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3035,
+          "nome": "Algodão (em caroço)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3036,
+          "nome": "Caroço de algodão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3037,
+          "nome": "Semente de algodão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3038,
+          "nome": "Arroz (em casca)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3039,
+          "nome": "Arroz beneficiado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3040,
+          "nome": "Semente de arroz",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3041,
+          "nome": "Café (em coco)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3042,
+          "nome": "Café (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33467,
+          "nome": "Café (em grão) - café arábica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33468,
+          "nome": "Café (em grão) - café canephora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3043,
+          "nome": "Feijão preto (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3044,
+          "nome": "Feijão de cor (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3045,
+          "nome": "Milho (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3046,
+          "nome": "Semente de milho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3047,
+          "nome": "Soja (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3048,
+          "nome": "Semente de soja",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3328,
+          "nome": "Trigo (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3049,
+          "nome": "Semente de trigo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33469,
+          "nome": "Outros grãos e sementes",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 1715,
+  "nome": "Número de municípios, total e os com serviços de manejo de resíduos de construção e demolição, por forma de disposição no solo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1715",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 400,
+      "nome": "Municípios com serviço de manejo de resíduos de construção e demolição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000400,
+      "nome": "Municípios com serviço de manejo de resíduos de construção e demolição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 354,
+      "nome": "Forma de disposição no solo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8185,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8186,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8189,
+          "nome": "Disposição em vazadouro em conjunto com os demais resíduos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8198,
+          "nome": "Disposição/utilização sob controle em aterro convencional em conjunto com os demais resíduos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8191,
+          "nome": "Disposição sob controle em pátio ou galpão de estocagem da prefeitura específico para resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8187,
+          "nome": "Disposição sob controle em aterro da prefeitura específico para resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8188,
+          "nome": "Disposição sob controle em aterro de terceiros específico para resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8201,
+          "nome": "Utilização definitiva e sob controle dos resíduos como material de aterro pela prefeitura após triagem e remoção dos resíduos classes B, C e D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8202,
+          "nome": "Utilização definitiva e sob controle dos resíduos como material de aterro por terceiros após triagem e remoção dos resíduos classes B, C e D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8192,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

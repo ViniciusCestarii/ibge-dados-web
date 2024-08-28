@@ -1,0 +1,59 @@
+{
+  "id": 1187,
+  "nome": "Taxa de alfabetização das pessoas de 15 anos ou mais de idade por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1187",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Taxa de alfabetização",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2513,
+      "nome": "Taxa de alfabetização das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "id": 1021,
+  "nome": "Produtores na direção dos trabalhos dos estabelecimentos agropecuários por sexo do dirigente, grupos de anos de direção, condição do produtor em relação às terras, classe de idade do produtor, nível de instrução do produtor e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/1021",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2319,
+      "nome": "Produtores na direção dos trabalhos nos estabelecimentos agropecuários",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002319,
+      "nome": "Produtores na direção dos trabalhos nos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12775,
+      "nome": "Grupos de anos de direção dos trabalhos nos estabelecimentos agropecuários",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118221,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118222,
+          "nome": "De 1 a menos de 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118223,
+          "nome": "De 5 a menos de 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118224,
+          "nome": "De 10 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118195,
+          "nome": "De 65 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118196,
+          "nome": "Idade não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12772,
+      "nome": "Nível de instrução do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118197,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118198,
+          "nome": "Ensino fundamental incompleto (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118199,
+          "nome": "Ensino fundamental completo (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118200,
+          "nome": "Ensino médio ou 2º grau completo (técnico agrícola)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118201,
+          "nome": "Ensino médio ou 2º grau completo (outro)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118202,
+          "nome": "Engenheiro agrônomo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118203,
+          "nome": "Veterinário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118204,
+          "nome": "Zootecnista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118205,
+          "nome": "Engenheiro florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118206,
+          "nome": "Outra formação superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118207,
+          "nome": "Nenhum (sabe ler ou escrever)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118208,
+          "nome": "Não sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111559,
+          "nome": "De 2.500 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

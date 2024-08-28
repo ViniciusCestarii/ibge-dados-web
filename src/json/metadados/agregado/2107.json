@@ -1,0 +1,280 @@
+{
+  "id": 2107,
+  "nome": "Pessoas de 10 anos ou mais de idade por religião, condição de atividade na semana de referência e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2107",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Religião",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 133,
+      "nome": "Religião",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95263,
+          "nome": "Católica Apostólica Romana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95277,
+          "nome": "Evangélicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95264,
+          "nome": "Evangélicas de Missão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95265,
+          "nome": "Evangélicas de origem pentecostal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95266,
+          "nome": "Evangélicas - outras religiões evangélicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 121096,
+          "nome": "Evangélica não determinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2826,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2827,
+          "nome": "Umbanda e Candomblé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95275,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2836,
+          "nome": "Sem religião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12890,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2837,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12056,
+      "nome": "Condição de atividade na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99566,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99567,
+          "nome": "Não economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92982,
+          "nome": "18 e 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3300,
+          "nome": "40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3301,
+          "nome": "50 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3520,
+          "nome": "60 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3244,
+          "nome": "70 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95252,
+          "nome": "70 a 79 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2503,
+          "nome": "80 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

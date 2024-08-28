@@ -1,0 +1,78 @@
+{
+  "id": 2509,
+  "nome": "Pessoas que procuraram por serviço de saúde nas duas últimas semanas e não foram atendidas, por motivo principal da procura",
+  "URL": "https://sidra.ibge.gov.br/tabela/2509",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1338,
+      "nome": "Pessoas que procuraram por serviço de saúde nas duas últimas semanas e não foram atendidas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001338,
+      "nome": "Pessoas que procuraram por serviço de saúde nas duas últimas semanas e não foram atendidas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12272,
+      "nome": "Motivo principal da procura de atendimento de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104968,
+          "nome": "Doença ou problema odontológico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104969,
+          "nome": "Vacinação ou outros atendimentos de prevenção, pré-natal ou somente atestado médico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104970,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104971,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": 3603,
+  "nome": "Pessoas de 10 anos ou mais de idade, residentes em domicílios particulares, ocupadas na semana de referência, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou seu parente, por local de exercício do trabalho principal, segundo a situação do domicílio e as classes de rendimento nominal mensal domiciliar per capita",
+  "URL": "https://sidra.ibge.gov.br/tabela/3603",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2017,
+      "nome": "Pessoas de 10 anos ou mais de idade, residentes em domicílios particulares, ocupadas na semana de referência, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002017,
+      "nome": "Pessoas de 10 anos ou mais de idade, residentes em domicílios particulares, ocupadas na semana de referência, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 469,
+      "nome": "Local de exercício do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12167,
+          "nome": "Município de residência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12168,
+          "nome": "Município de residência - no domicílio de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12169,
+          "nome": "Município de residência - fora do domicílio de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12188,
+          "nome": "Outro município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12189,
+          "nome": "País estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12190,
+          "nome": "Mais de um município ou país",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "nome": "Classes de rendimento nominal mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9681,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9682,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9683,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9684,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9685,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9686,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11780,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9692,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

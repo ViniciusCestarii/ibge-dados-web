@@ -1,0 +1,140 @@
+{
+  "id": 4905,
+  "nome": "Moradores em domicílios particulares permanentes com televisão, total e distribuição, por recepção de sinal de televisão por antena parabólica e as classes de rendimento mensal domiciliar per capita",
+  "URL": "https://sidra.ibge.gov.br/tabela/4905",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5101,
+      "nome": "Moradores em domicílios particulares permanentes com televisão",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5649,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5105,
+      "nome": "Percentual de moradores em domicílios particulares permanentes com televisão, distribuído pelas classes de rendimento mensal domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5653,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios particulares permanentes com televisão, distribuído pelas classes de rendimento mensal domiciliar per capita",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 682,
+      "nome": "Recepção de sinal de televisão por antena parabólica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33237,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33238,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33246,
+          "nome": "Tinham - somente com antena parabólica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33239,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12381,
+      "nome": "Classes de rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107485,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33210,
+          "nome": "Sem rendimento a 1/4 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107487,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107488,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107489,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109113,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33211,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33244,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

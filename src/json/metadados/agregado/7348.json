@@ -1,0 +1,128 @@
+{
+  "id": 7348,
+  "nome": "Pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses, por sexo e tipo de conexão utilizada para acessar a internet",
+  "URL": "https://sidra.ibge.gov.br/tabela/7348",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2620,
+      "nome": "Pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 2623,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10650,
+      "nome": "Distribuição percentual das pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10651,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 10 anos ou mais de idade que utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 691,
+      "nome": "Tipo de conexão à Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33329,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71447,
+          "nome": "Utilizaram banda larga fixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71448,
+          "nome": "Não utilizaram banda larga fixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71455,
+          "nome": "Não sabiam se utilizaram banda larga fixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71456,
+          "nome": "Utilizaram banda larga móvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71457,
+          "nome": "Não utilizaram banda larga móvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71458,
+          "nome": "Não sabiam se utilizaram banda larga móvel",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

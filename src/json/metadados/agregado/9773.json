@@ -1,0 +1,57 @@
+{
+  "id": 9773,
+  "nome": "Indicador 1.2.2 - Proporção da população com algum grau de pobreza multidimensional por situação de domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9773",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Erradicação da pobreza",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9452,
+      "nome": "Proporção da população com algum grau de pobreza multidimensional",
+      "unidade": "Proporção (%)",
+      "sumarizacao": []
+    },
+    {
+      "id": 9453,
+      "nome": "Índice de pobreza multidimensional não monetário",
+      "unidade": "Índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

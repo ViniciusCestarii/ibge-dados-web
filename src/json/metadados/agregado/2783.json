@@ -1,0 +1,238 @@
+{
+  "id": 2783,
+  "nome": "Pessoal ocupado em estabelecimentos agropecuários, com agricultura familiar e não familiar, em 31/12, total e de 14 anos e mais, com laço de parentesco com o produtor, por principais aspectos em relação ao pessoal ocupado, condição do produtor em relação às terras e grupos de pessoas da família - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2783",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2005,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 com laço de parentesco com o produtor",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002005,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 com laço de parentesco com o produtor - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2004,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 com 14 anos e mais de idade e com laço de parentesco com o produtor",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002004,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 com 14 anos e mais de idade e com laço de parentesco com o produtor - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12576,
+      "nome": "Principais aspectos em relação ao pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 112907,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112909,
+          "nome": "Residiam no estabelecimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112911,
+          "nome": "Sabiam ler e escrever",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112913,
+          "nome": "Recebiam salário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112915,
+          "nome": "Tinham qualificação profissional",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112917,
+          "nome": "Trabalhavam somente em atividades não-agropecuárias",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12577,
+      "nome": "Grupos de pessoas da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112919,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112920,
+          "nome": "De 2 a 3 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112921,
+          "nome": "De 4 a 5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112922,
+          "nome": "De 6 a 9 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112923,
+          "nome": "De 10 pessoas e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4327,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

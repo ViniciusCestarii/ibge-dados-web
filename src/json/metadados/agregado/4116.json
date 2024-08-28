@@ -1,0 +1,136 @@
+{
+  "id": 4116,
+  "nome": "Movimento da apicultura no ano nos estabelecimentos agropecuários, por classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4116",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2242,
+      "nome": "Número de estabelecimentos agropecuários com apicultura",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2243,
+      "nome": "Quantidade no ano",
+      "unidade": "Quilogramas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2244,
+      "nome": "Valor no ano",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12735,
+      "nome": "Movimento da apicultura no ano",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 116031,
+          "nome": "Mel - produção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116032,
+          "nome": "Mel - venda",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116033,
+          "nome": "Cera - produção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116034,
+          "nome": "Cera - venda",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116035,
+          "nome": "Geléia real, própolis, pólen, etc. - produção",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

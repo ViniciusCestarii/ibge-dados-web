@@ -1,0 +1,123 @@
+{
+  "id": 2427,
+  "nome": "Domicílios particulares permanentes com rendimento, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal dos domicílios particulares permamentes com rendimento por situação do domicílio e densidade de moradores por dormitório",
+  "URL": "https://sidra.ibge.gov.br/tabela/2427",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "nome": "Densidade de moradores por dormitório",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95822,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2906,
+          "nome": "Até 1,0 morador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95823,
+          "nome": "Mais de 1,0 a 2,0 moradores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95824,
+          "nome": "Mais de 2,0 a 3,0 moradores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95825,
+          "nome": "Mais de 3,0 moradores",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

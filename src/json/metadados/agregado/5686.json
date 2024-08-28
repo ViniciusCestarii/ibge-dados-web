@@ -1,0 +1,129 @@
+{
+  "id": 5686,
+  "nome": "Pessoas que nasceram com deficiência física, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5686",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6386,
+      "nome": "Pessoas que nasceram com deficiência física",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6387,
+      "nome": "Pessoas que nasceram com deficiência física, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6388,
+      "nome": "Pessoas que nasceram com deficiência física, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6389,
+      "nome": "Coeficiente de variação - Pessoas que nasceram com deficiência física",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6390,
+      "nome": "Percentual de pessoas que nasceram com deficiência física",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6391,
+      "nome": "Percentual de pessoas que nasceram com deficiência física, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6392,
+      "nome": "Percentual de pessoas que nasceram com deficiência física, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6393,
+      "nome": "Coeficiente de variação - Percentual de pessoas que nasceram com deficiência física",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

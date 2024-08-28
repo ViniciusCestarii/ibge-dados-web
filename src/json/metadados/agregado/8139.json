@@ -1,0 +1,157 @@
+{
+  "id": 8139,
+  "nome": "Pessoas de 15 anos ou mais de idade, por grupo de idade e com quem podia contar em momentos bons ou ruins",
+  "URL": "https://sidra.ibge.gov.br/tabela/8139",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do trabalho e apoio social",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 950,
+      "nome": "Pessoas de 15 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11107,
+      "nome": "Pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11108,
+      "nome": "Pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11109,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11110,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11111,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11112,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11113,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1268,
+      "nome": "Com quem podia contar em momentos bons ou ruins",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56642,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56643,
+          "nome": "Nenhum amigo e nenhum parente ou familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56644,
+          "nome": "Nenhum amigo, mas com pelo menos um parente ou familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56645,
+          "nome": "Com pelo menos um amigo, mas nenhum parente ou familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56646,
+          "nome": "Com ambos (com pelo menos um amigo e um parente ou familiar)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

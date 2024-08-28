@@ -1,0 +1,59 @@
+{
+  "id": 3568,
+  "nome": "Índice de Gini da distribuição do rendimento nominal mensal dos domicílios particulares permanentes, com rendimento domiciliar, por situação do domicílio - Amostra Rendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/3568",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 881,
+      "nome": "Índice de Gini da distribuição do rendimento nominal mensal dos domicílios particulares permanentes, com rendimento domiciliar",
+      "unidade": "Índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

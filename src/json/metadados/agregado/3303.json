@@ -1,0 +1,322 @@
+{
+  "id": 3303,
+  "nome": "Número de estabelecimentos agropecuários que investiram e Valor dos investimentos por tipo de investimento, condição produtor em relação às terras e grupos de atividade econômica - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3303",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1992,
+      "nome": "Número de estabelecimentos agropecuários que investiram",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001992,
+      "nome": "Número de estabelecimentos agropecuários que investiram - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1993,
+      "nome": "Valor dos investimentos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001993,
+      "nome": "Valor dos investimentos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1897,
+      "nome": "Tipo de investimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113885,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111932,
+          "nome": "Terras adquiridas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111933,
+          "nome": "Bens imóveis (prédios, instalações e benefeitorias)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111934,
+          "nome": "Novas culturas permanentes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111935,
+          "nome": "Novas matas plantadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116025,
+          "nome": "Novas pastagens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111936,
+          "nome": "Veículos novos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111937,
+          "nome": "Veículos usados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111938,
+          "nome": "Máquinas e implementos novos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111939,
+          "nome": "Máquinas e implementos usados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116026,
+          "nome": "Tratores novos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116027,
+          "nome": "Tratores usados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111940,
+          "nome": "Compra de animais para reprodução e/ou trabalho",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

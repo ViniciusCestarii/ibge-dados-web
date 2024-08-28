@@ -1,0 +1,126 @@
+{
+  "id": 4918,
+  "nome": "Moradores em domicílios particulares permanentes com televisão de tubo, total e percentual, por recepção de sinal de televisão por antena parabólica e o acesso a televisão por assinatura",
+  "URL": "https://sidra.ibge.gov.br/tabela/4918",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5113,
+      "nome": "Moradores em domicílios particulares permanentes com televisão de tubo",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5661,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes com televisão de tubo",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5115,
+      "nome": "Percentual de moradores em domicílios particulares permanentes com televisão de tubo, distribuído pelo acesso a televisão por assinatura",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5663,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios particulares permanentes com televisão de tubo, distribuído pelo acesso a televisão por assinatura",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 682,
+      "nome": "Recepção de sinal de televisão por antena parabólica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33237,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33238,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33239,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "nome": "Acesso à televisão por assinatura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33227,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33231,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33234,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 8787,
+      "nome": "Tipo de televisão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33264,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33260,
+          "nome": "Somente televisão de tubo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

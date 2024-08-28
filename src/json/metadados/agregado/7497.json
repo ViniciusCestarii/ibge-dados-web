@@ -1,0 +1,84 @@
+{
+  "id": 7497,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e volume de água distribuída por dia, por existência e tipo de tratamento da água",
+  "URL": "https://sidra.ibge.gov.br/tabela/7497",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10485,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10735,
+      "nome": "Volume de água distribuída por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11974,
+      "nome": "Existência e tipo de tratamento da água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98463,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49018,
+          "nome": "Com tratamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98409,
+          "nome": "Convencional",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98410,
+          "nome": "Não-convencional",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98411,
+          "nome": "Simples desinfecção (cloração e outros)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98413,
+          "nome": "Sem tratamento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

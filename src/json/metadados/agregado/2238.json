@@ -1,0 +1,62 @@
+{
+  "id": 2238,
+  "nome": "Extensão da rede de drenagem urbana, por tipo de rede",
+  "URL": "https://sidra.ibge.gov.br/tabela/2238",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1165,
+      "nome": "Extensão da rede de drenagem urbana",
+      "unidade": "Quilômetros",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12128,
+      "nome": "Tipo de rede de drenagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101303,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101291,
+          "nome": "Macro / mesodrenagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101292,
+          "nome": "Microdrenagem",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": 412,
+  "nome": "Valor do recebimento médio mensal familiar por origem do recebimento e classes de recebimento mensal familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/412",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 176,
+      "nome": "Valor do recebimento médio mensal familiar",
+      "unidade": "Cruzados [1987], Reais [1995]",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 214,
+      "nome": "Origem do recebimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6177,
+          "nome": "Recebimento total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3581,
+          "nome": "Rendimento total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3582,
+          "nome": "Rendimento do trabalho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3549,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3550,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3551,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3552,
+          "nome": "Transferências",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3583,
+          "nome": "Aposentadoria previdência pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3584,
+          "nome": "Aposentadoria previdência privada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3585,
+          "nome": "Pensão e abono permanência em serviço",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3586,
+          "nome": "Bolsa de estudo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3587,
+          "nome": "Pensão alimentícia, mesada e doação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3588,
+          "nome": "Transferência transitória",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3553,
+          "nome": "Rendimento de aluguel",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6178,
+          "nome": "Aluguel de bens imóveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6179,
+          "nome": "Aluguel de bens móveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3591,
+          "nome": "Vendas esporádicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3592,
+          "nome": "Empréstimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3593,
+          "nome": "Aplicações de capital",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3554,
+          "nome": "Outros recebimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3594,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "nome": "Classes de recebimento mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6196,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3497,
+          "nome": "Até 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3498,
+          "nome": "Mais de 2 a 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3499,
+          "nome": "Mais de 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3500,
+          "nome": "Mais de 5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3501,
+          "nome": "Mais de 6 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3502,
+          "nome": "Mais de 8 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3503,
+          "nome": "Mais de 10 a 15",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3504,
+          "nome": "Mais de 15 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3505,
+          "nome": "Mais de 20 a 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3506,
+          "nome": "Mais de 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6547,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

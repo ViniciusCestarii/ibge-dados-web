@@ -1,0 +1,243 @@
+{
+  "id": 480,
+  "nome": "População residente por relação com o chefe do domicílio, grupos de idade, sexo e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/480",
+  "pesquisa": "Contagem da População ",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1996,
+    "fim": 1996
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 292,
+      "nome": "Relação com o chefe do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6745,
+          "nome": "Chefe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6746,
+          "nome": "Cônjuge",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6747,
+          "nome": "Filho(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6748,
+          "nome": "Outro parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6749,
+          "nome": "Agregado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6750,
+          "nome": "Pensionista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6751,
+          "nome": "Empregado(a) doméstico(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6752,
+          "nome": "Parente do(a) empregado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6753,
+          "nome": "Individual em domicílio coletivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6754,
+          "nome": "Ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6744,
+          "nome": "0 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3519,
+          "nome": "20 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3300,
+          "nome": "40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3301,
+          "nome": "50 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3245,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": 4067,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas no período de referência de 365 dias, por condição de atividade e de ocupação na semana de referência, sexo e ramos de atividade do trabalho principal no período de referência de 365 dias",
+  "URL": "https://sidra.ibge.gov.br/tabela/4067",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4012,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas no período de 365 dias",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004012,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas no período de 365 dias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12049,
+      "nome": "Condição de atividade e de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99497,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99498,
+          "nome": "Economicamente ativas - ocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99499,
+          "nome": "Economicamente ativas - ocupadas - em atividade agrícola",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99500,
+          "nome": "Economicamente ativas - ocupadas - em atividade não agrícola",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99502,
+          "nome": "Economicamente ativas - desocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99503,
+          "nome": "Não economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12053,
+      "nome": "Ramo de atividade do trabalho principal no período de referência de 365 dias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99526,
+          "nome": "Agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102871,
+          "nome": "Indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99527,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 102872,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102873,
+          "nome": "Comércio e reparação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102874,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102875,
+          "nome": "Transporte, armazenagem e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99535,
+          "nome": "Administração pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102876,
+          "nome": "Educação, saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102877,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102878,
+          "nome": "Outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99536,
+          "nome": "Outras atividades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116787,
+          "nome": "Atividades mal definidas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": 300,
+  "nome": "Pessoas moradoras por condição de ocupação, abastecimento de água, tipo de domicílio, instalação sanitária e número de famílias",
+  "URL": "https://sidra.ibge.gov.br/tabela/300",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 164,
+      "nome": "Pessoas moradoras",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000164,
+      "nome": "Pessoas moradoras - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3467,
+          "nome": "Próprio já pago",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3468,
+          "nome": "Próprio ainda pagando",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1056,
+          "nome": "Cedido por empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1057,
+          "nome": "Cedido por particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4779,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2512,
+          "nome": "Com canalização interna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1033,
+          "nome": "Com canalização interna - com rede geral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1032,
+          "nome": "Com canalização interna - com poço ou nascente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1034,
+          "nome": "Com canalização interna - com outra forma",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2513,
+          "nome": "Sem canalização interna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1035,
+          "nome": "Sem canalização interna - com rede geral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1036,
+          "nome": "Sem canalização interna - com poço ou nascente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1037,
+          "nome": "Sem canalização interna - com outra forma",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3469,
+          "nome": "Casa rústica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3246,
+          "nome": "Casa não rústica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3470,
+          "nome": "Quarto ou cômodo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1612,
+      "nome": "Instalação sanitária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 19678,
+          "nome": "Fossa rudimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120469,
+          "nome": "Rede geral ou fossa séptica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120470,
+          "nome": "Não sabe ou outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19680,
+          "nome": "Não tem",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "nome": "Número de famílias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3476,
+          "nome": "1 família",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3477,
+          "nome": "2 famílias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3478,
+          "nome": "3 famílias ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

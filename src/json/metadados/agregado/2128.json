@@ -1,0 +1,158 @@
+{
+  "id": 2128,
+  "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência e com rendimento no trabalho principal, por posição na ocupação no trabalho principal, sexo e classes de rendimento mensal do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2128",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 956,
+      "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência, com remuneração no trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000956,
+      "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência, com remuneração no trabalho principal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99383,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100495,
+          "nome": "Empregado e trabalhador doméstico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100496,
+          "nome": "Empregador e conta própria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99172,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12044,
+      "nome": "Classes de rendimento mensal do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          702
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100499,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100500,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100501,
+          "nome": "Mais de 1 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100502,
+          "nome": "Mais de 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100503,
+          "nome": "Somente em benefícios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99446,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

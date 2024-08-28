@@ -1,0 +1,86 @@
+{
+  "id": 2251,
+  "nome": "Número de municípios, total e os que possuem encostas no perímetro urbano, por tipo de situação das encostas",
+  "URL": "https://sidra.ibge.gov.br/tabela/2251",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1177,
+      "nome": "Municípios que possuem encostas no perímetro urbano",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001177,
+      "nome": "Municípios que possuem encostas no perímetro urbano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12139,
+      "nome": "Tipo de situação das encostas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101369,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101370,
+          "nome": "Total de municípios que possuem encostas no perímetro urbano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101371,
+          "nome": "Sujeita a deslizamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101372,
+          "nome": "Dotada de estrutura de contenção associada a elementos de drenagem superficial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101373,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101374,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

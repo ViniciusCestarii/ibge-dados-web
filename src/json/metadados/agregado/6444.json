@@ -1,0 +1,139 @@
+{
+  "id": 6444,
+  "nome": "Índice e variação da receita nominal e do volume de serviços, por atividades de serviços (2014 = 100) - série encerrada em janeiro de 2022",
+  "URL": "https://sidra.ibge.gov.br/tabela/6444",
+  "pesquisa": "Pesquisa Mensal de Serviços",
+  "assunto": "Serviços",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 201101,
+    "fim": 202201
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8676,
+      "nome": "Índice de receita nominal de serviços",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    },
+    {
+      "id": 8677,
+      "nome": "Índice de volume de serviços",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40311,
+          "nome": "Índice base fixa (2014=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 40312,
+          "nome": "Índice base fixa com ajuste sazonal (2014=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 33534,
+          "nome": "Variação mês / mês anterior com ajuste sazonal",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90668,
+          "nome": "Variação mensal (base: igual mês do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90669,
+          "nome": "Variação acumulada no ano (base: igual período do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90670,
+          "nome": "Variação acumulada de 12 meses",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 40313,
+          "nome": "Variação trimestral móvel",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 40314,
+          "nome": "Variação trimestral móvel com ajuste sazonal",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12355,
+      "nome": "Atividades de serviços",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107071,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106869,
+          "nome": "1. Serviços prestados às famílias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106874,
+          "nome": "2. Serviços de informação e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31399,
+          "nome": "3. Serviços profissionais, administrativos e complementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106876,
+          "nome": "4. Transportes, serviços auxiliares aos transportes e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31426,
+          "nome": "5. Outros serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

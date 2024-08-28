@@ -1,0 +1,76 @@
+{
+  "id": 9749,
+  "nome": "Pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19 mais de uma vez, por manifestação de sintomas na última vez que tiveram a doença",
+  "URL": "https://sidra.ibge.gov.br/tabela/9749",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9250,
+      "nome": "Pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19 mais de uma vez",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9252,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19 mais de uma vez",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9253,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19 mais de uma vez",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9254,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19 mais de uma vez",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1812,
+      "nome": "Manifestação de sintomas na última vez que teve a doença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72061,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72062,
+          "nome": "Teve sintoma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72063,
+          "nome": "Não teve sintoma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

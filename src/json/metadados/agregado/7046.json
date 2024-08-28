@@ -1,0 +1,114 @@
+{
+  "id": 7046,
+  "nome": "Pessoas de 14 anos ou mais de idade que trabalharam na produção para o próprio consumo, por sexo e cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/7046",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10208,
+      "nome": "Pessoas de 14 anos ou mais de idade que trabalharam na produção para o próprio consumo",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10209,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que trabalharam na produção para o próprio consumo",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10210,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade que trabalharam na produção para o próprio consumo",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10211,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade que trabalharam na produção para o próprio consumo",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

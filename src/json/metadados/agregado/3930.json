@@ -1,0 +1,76 @@
+{
+  "id": 3930,
+  "nome": "Número de focos de calor em Terras Indígenas e Unidades de Conservação federais e estaduais, segundo as Grandes Regiões e as Unidades da Federação",
+  "URL": "https://sidra.ibge.gov.br/tabela/3930",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Queimadas e incêndios florestais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1999,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1100"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 6548,
+      "nome": "Número de focos de calor em Terras Indígenas e Unidades de Conservação federais e estaduais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1006548,
+      "nome": "Número de focos de calor em Terras Indígenas e Unidades de Conservação federais e estaduais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12680,
+      "nome": "Local do foco de calor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114618,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39323,
+          "nome": "Terras Indígenas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114580,
+          "nome": "Unidades de Conservação - federais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114581,
+          "nome": "Unidades de Conservação - estaduais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

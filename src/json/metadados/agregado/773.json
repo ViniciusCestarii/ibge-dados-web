@@ -1,0 +1,83 @@
+{
+  "id": 773,
+  "nome": "Comercialização de agrotóxicos e afins, total e por área plantada, segundo a classe de uso",
+  "URL": "https://sidra.ibge.gov.br/tabela/773",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Uso de agrotóxicos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2400,
+      "nome": "Comercialização de agrotóxicos e afins",
+      "unidade": "Toneladas de ingrediente ativo",
+      "sumarizacao": []
+    },
+    {
+      "id": 2401,
+      "nome": "Comercialização de agrotóxicos e afins por área plantada",
+      "unidade": "Quilogramas por Hectare",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 716,
+      "nome": "Classe de uso de agrotóxicos e afins",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33616,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33617,
+          "nome": "Herbicida",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33618,
+          "nome": "Fungicida",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33619,
+          "nome": "Inseticida",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33625,
+          "nome": "Acaricida",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39255,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

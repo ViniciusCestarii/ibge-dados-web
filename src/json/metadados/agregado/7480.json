@@ -1,0 +1,84 @@
+{
+  "id": 7480,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com flúor na água distribuída, por existência de interrupção da fluoretação no ano de referência.",
+  "URL": "https://sidra.ibge.gov.br/tabela/7480",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10704,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com flúor na água distribuída",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 987,
+      "nome": "Ocorrência e duração de interrupção da fluoretação no ano de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48974,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48975,
+          "nome": "Total com interrupção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48976,
+          "nome": "Até 1 mês",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48977,
+          "nome": "Mais de 1 a 3 meses",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48978,
+          "nome": "Mais de 3 a 6 meses",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48979,
+          "nome": "Mais de 6 meses",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48980,
+          "nome": "Total sem interrupção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

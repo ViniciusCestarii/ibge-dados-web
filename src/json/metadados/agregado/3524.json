@@ -1,0 +1,355 @@
+{
+  "id": 3524,
+  "nome": "Domicílios particulares permanentes alugados, por classes de aluguel nominal mensal, segundo a existência de banheiro ou sanitário e esgotamento sanitário, a existência de água canalizada e forma de abastecimento de água, o destino do lixo e a existência de energia elétrica",
+  "URL": "https://sidra.ibge.gov.br/tabela/3524",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1549,
+      "nome": "Domicilios particulares permanentes alugados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001549,
+      "nome": "Domicilios particulares permanentes alugados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 511,
+      "nome": "Classes de aluguel nominal mensal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 13323,
+          "nome": "Até 1/8 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13328,
+          "nome": "Mais de 1/8 a 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13329,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13330,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13331,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13332,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13333,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13334,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2943,
+          "nome": "Tinham banheiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13244,
+          "nome": "Tinham banheiro - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13245,
+          "nome": "Tinham banheiro - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13246,
+          "nome": "Tinham banheiro - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2958,
+          "nome": "Tinham sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2959,
+          "nome": "Tinham sanitário - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2960,
+          "nome": "Tinham sanitário - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2964,
+          "nome": "Tinham sanitário - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10963,
+          "nome": "Não tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "nome": "Existência de água canalizada e forma de abastecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12213,
+          "nome": "Tinham - em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12214,
+          "nome": "Tinham - em pelo menos um cômodo - rede geral de distribuição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13229,
+          "nome": "Tinham - em pelo menos um cômodo - poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13230,
+          "nome": "Tinham - em pelo menos um cômodo - poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12215,
+          "nome": "Tinham - em pelo menos um cômodo - outra forma de abastecimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12216,
+          "nome": "Tinham - no terreno ou na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12217,
+          "nome": "Tinham - no terreno ou na propriedade - rede geral de distribuição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13231,
+          "nome": "Tinham - no terreno ou na propriedade - poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13232,
+          "nome": "Tinham - no terreno ou na propriedade - poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12218,
+          "nome": "Tinham - no terreno ou na propriedade - outra forma de abastecimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12219,
+          "nome": "Não tinham água canalizada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4661,
+          "nome": "Coletado diretamente por serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12150,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3012,
+          "nome": "Tinham - de companhia distribuidora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3013,
+          "nome": "Tinham - de companhia distribuidora - com medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3016,
+          "nome": "Tinham - de companhia distribuidora - sem medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3017,
+          "nome": "Tinham - de outra fonte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

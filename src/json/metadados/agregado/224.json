@@ -1,0 +1,102 @@
+{
+  "id": 224,
+  "nome": "Pessoas residentes em domicílios particulares permanentes por espécie de família e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/224",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 149,
+      "nome": "Pessoas residentes em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000149,
+      "nome": "Pessoas residentes em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 139,
+      "nome": "Espécie de família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2885,
+          "nome": "Nuclear",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2886,
+          "nome": "Estendida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2887,
+          "nome": "Composta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

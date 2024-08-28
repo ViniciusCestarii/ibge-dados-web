@@ -1,0 +1,95 @@
+{
+  "id": 4142,
+  "nome": "Pessoas indígenas, por localização do domicílio e condição de indígena",
+  "URL": "https://sidra.ibge.gov.br/tabela/4142",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Características gerais dos indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 350,
+      "nome": "Pessoas indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000350,
+      "nome": "Pessoas indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12869,
+          "nome": "Em terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12870,
+          "nome": "Fora de terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "nome": "Condição de indígena",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32777,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9658,
+          "nome": "Declararam-se indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9659,
+          "nome": "Não se declararam indígenas, mas se consideravam indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

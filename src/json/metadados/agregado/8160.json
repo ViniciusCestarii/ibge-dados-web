@@ -1,0 +1,471 @@
+{
+  "id": 8160,
+  "nome": "Produção Física Industrial, por indicadores especiais (série encerrada em dezembro de 2022)",
+  "URL": "https://sidra.ibge.gov.br/tabela/8160",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 201201,
+    "fim": 202212
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11599,
+      "nome": "PIMPF - Número-índice (2012=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 11602,
+      "nome": "PIMPF - Variação mês/mesmo mês do ano anterior (M/M-12)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11603,
+      "nome": "PIMPF - Variação acumulada no ano (em relação ao mesmo período do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11604,
+      "nome": "PIMPF - Variação acumulada em 12 meses (em relação ao período anterior de 12 meses)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 25,
+      "nome": "Indicadores especiais",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 150,
+          "nome": "1.1 Bens de Capital para fins industriais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 151,
+          "nome": "1.1.1 Bens de Capital para fins industriais seriados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 152,
+          "nome": "1.1.2 Bens de Capital para fins industriais não seriados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 153,
+          "nome": "1.2 Bens de Capital agrícolas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 209,
+          "nome": "1.3 Bens de Capital peças agrícolas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 210,
+          "nome": "1.4 Bens de Capital para construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 211,
+          "nome": "1.5 Bens de Capital para o setor de energia elétrica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 212,
+          "nome": "1.6 Bens de Capital para equipamentos de transporte",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 213,
+          "nome": "1.7 Bens de Capital de uso misto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 214,
+          "nome": "2 Insumos Típicos da Construção Civil",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 215,
+          "nome": "3 Total de Embalagens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 216,
+          "nome": "3.1 Embalagens de vidro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 217,
+          "nome": "3.2 Embalagens de metal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 218,
+          "nome": "3.3 Embalagens de madeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 219,
+          "nome": "3.4 Embalagens de papel e papelão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 220,
+          "nome": "3.5 Embalagens de material plástico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 221,
+          "nome": "4 Eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8106,
+          "nome": "5.1.1 Bens de capital por atividade - Equipamentos de informática, produtos eletrônicos e ópticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8107,
+          "nome": "5.1.2 Bens de capital por atividade - Máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8108,
+          "nome": "5.1.3 Bens de capital por atividade - Máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8109,
+          "nome": "5.1.4 Bens de capital por atividade - Veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8110,
+          "nome": "5.1.5 Bens de capital por atividade - Outros equipamentos de transporte",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8111,
+          "nome": "5.1.6 Bens de capital por atividade - Demais atividades*",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8112,
+          "nome": "5.2.1 Bens intermediários por atividade - Indústrias extrativas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8113,
+          "nome": "5.2.2 Bens intermediários por atividade - Produtos alimentícios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8114,
+          "nome": "5.2.3 Bens intermediários por atividade - Produtos têxteis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8115,
+          "nome": "5.2.4 Bens intermediários por atividade - Celulose, papel e produtos de papel",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8116,
+          "nome": "5.2.5 Bens intermediários por atividade - Coque, produtos derivados do petróleo e biocombustíveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56690,
+          "nome": "5.2.6 Bens intermediários por atividade - Produtos químicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8118,
+          "nome": "5.2.7 Bens intermediários por atividade - Produtos de borracha e de material plástico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8119,
+          "nome": "5.2.8 Bens intermediários por atividade - Produtos de minerais não metálicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40528,
+          "nome": "5.2.9 Bens intermediários por atividade - Metalurgia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40529,
+          "nome": "5.2.10 Bens intermediários por atividade - Produtos de metal - exceto máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40530,
+          "nome": "5.2.11 Bens intermediários por atividade - Máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40531,
+          "nome": "5.2.12 Bens intermediários por atividade - Veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40532,
+          "nome": "5.2.13 Bens intermediários por atividade - Demais atividades*",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40542,
+          "nome": "5.3.1 Bens de consumo duráveis por atividade - Equipamentos de informática, produtos eletrônicos e ópticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40543,
+          "nome": "5.3.2 Bens de consumo duráveis por atividade - Máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40544,
+          "nome": "5.3.3 Bens de consumo duráveis por atividade - Veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40545,
+          "nome": "5.3.4 Bens de consumo duráveis por atividade - Outros equipamentos de transporte",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40551,
+          "nome": "5.3.5 Bens de consumo duráveis por atividade - Móveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40552,
+          "nome": "5.3.6 Bens de consumo duráveis por atividade - Demais atividades*",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40553,
+          "nome": "5.4.1 Bens de consumo semi e não duráveis por atividade - Produtos alimentícios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40554,
+          "nome": "5.4.2 Bens de consumo semi e não duráveis por atividade - Bebidas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40555,
+          "nome": "5.4.3 Bens de consumo semi e não duráveis por atividade - Produtos têxteis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40556,
+          "nome": "5.4.4 Bens de consumo semi e não duráveis por atividade - Confecção de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40557,
+          "nome": "5.4.5 Bens de consumo semi e não duráveis por atividade - Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40558,
+          "nome": "5.4.6 Bens de consumo semi e não duráveis por atividade - Impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40559,
+          "nome": "5.4.7 Bens de consumo semi e não duráveis por atividade - Coque, produtos derivados do petróleo e biocombustíveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56691,
+          "nome": "5.4.8 Bens de consumo semi e não duráveis por atividade - Produtos químicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40561,
+          "nome": "5.4.9 Bens de consumo semi e não duráveis por atividade - Produtos Farmoquímicos e farmacêuticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40562,
+          "nome": "5.4.10 Bens de consumo semi e não duráveis por atividade - Demais atividades*",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40563,
+          "nome": "6.1 Alta Intensidade do Gasto com Energia Elétrica - Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40564,
+          "nome": "6.1.1 Bens intermediários - Alta intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40565,
+          "nome": "6.1.2 Bens de consumo - Alta intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40566,
+          "nome": "6.1.2.1 Bens de consumo semi e não duráveis - Alta intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40567,
+          "nome": "6.2 Média Intensidade do Gasto com Energia Elétrica - Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40568,
+          "nome": "6.2.1 Bens de capital - Média intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40569,
+          "nome": "6.2.2 Bens intermediários - Média intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40570,
+          "nome": "6.2.3 Bens de consumo - Média intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40571,
+          "nome": "6.2.3.1 Bens de consumo duráveis - Média intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40572,
+          "nome": "6.2.3.2 Bens de consumo semi e não duráveis - Média intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40573,
+          "nome": "6.3 Baixa Intensidade do Gasto com Energia Elétrica - Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40574,
+          "nome": "6.3.1 Bens de capital - Baixa intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40585,
+          "nome": "6.3.2 Bens intermediários - Baixa intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40586,
+          "nome": "6.3.3 Bens de consumo - Baixa intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40587,
+          "nome": "6.3.3.1 Bens de consumo duráveis - Baixa intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40588,
+          "nome": "6.3.3.2 Bens de consumo semi e não duráveis - Baixa intensidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40589,
+          "nome": "6.3.4 Sem categoria econômica - Baixa intensidade",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

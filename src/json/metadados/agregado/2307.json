@@ -1,0 +1,107 @@
+{
+  "id": 2307,
+  "nome": "Número de distritos-sede com sistema de varrição e capina das vias públicas, por forma de execução de varrição e/ou capina",
+  "URL": "https://sidra.ibge.gov.br/tabela/2307",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1200,
+      "nome": "Número de distritos sede com sistema de varrição e capina das vias públicas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001200,
+      "nome": "Número de distritos sede com sistema de varrição e capina das vias públicas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12188,
+      "nome": "Forma de execução de varrição e/ou capina",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103383,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103384,
+          "nome": "Com varrição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 541,
+          "nome": "Varrição - mecânica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103386,
+          "nome": "Varrição - manual",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103385,
+          "nome": "Varrição - manual e mecânica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103387,
+          "nome": "Com capina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103390,
+          "nome": "Capina - mecânica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103389,
+          "nome": "Capina - manual",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103388,
+          "nome": "Capina - química",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

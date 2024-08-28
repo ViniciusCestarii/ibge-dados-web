@@ -1,0 +1,816 @@
+{
+  "id": 384,
+  "nome": "Valor da despesa média mensal familiar por tipo de despesa",
+  "URL": "https://sidra.ibge.gov.br/tabela/384",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 171,
+      "nome": "Valor da despesa média mensal familiar",
+      "unidade": "Cruzados [1987], Reais [1995]",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000171,
+      "nome": "Valor da despesa média mensal familiar - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 210,
+      "nome": "Tipo de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3619,
+          "nome": "Despesas correntes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3620,
+          "nome": "Despesas de consumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3621,
+          "nome": "Alimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5473,
+          "nome": "Alimentação no domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5474,
+          "nome": "Cereais, leguminosas e oleaginosas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5475,
+          "nome": "Farinhas, féculas e massas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5476,
+          "nome": "Tubérculos e raízes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5477,
+          "nome": "Açúcares e derivados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5478,
+          "nome": "Legumes e verduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5479,
+          "nome": "Frutas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5480,
+          "nome": "Carnes frescas e vísceras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5481,
+          "nome": "Pescado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5482,
+          "nome": "Carnes e peixes industrializados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5483,
+          "nome": "Aves e ovos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5484,
+          "nome": "Leites e derivados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5485,
+          "nome": "Panificados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5486,
+          "nome": "Óleos e gorduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5487,
+          "nome": "Bebidas e infusões",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5488,
+          "nome": "Enlatados e conservas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5584,
+          "nome": "Sal e condimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5489,
+          "nome": "Alimentos preparados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5490,
+          "nome": "Outras (alimentação no domicílio)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5491,
+          "nome": "Alimentação fora do domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5492,
+          "nome": "Aluguel, impostos e taxas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5493,
+          "nome": "Aluguel de moradia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5494,
+          "nome": "Imposto predial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5495,
+          "nome": "Condomínio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5496,
+          "nome": "Água e esgoto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5497,
+          "nome": "Energia elétrica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5498,
+          "nome": "Telefone",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5499,
+          "nome": "Outros (aluguel, impostos e taxas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3625,
+          "nome": "Manutenção do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5500,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5501,
+          "nome": "Outras (manutenção do lar)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3626,
+          "nome": "Artigos de limpeza",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5533,
+          "nome": "Sabão em pó",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5534,
+          "nome": "Sabão de coco",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5535,
+          "nome": "Outros (artigos de limpeza)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3627,
+          "nome": "Mobiliários e artigos do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5536,
+          "nome": "Conjunto estofado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5537,
+          "nome": "Móveis para sala",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5538,
+          "nome": "Dormitório completo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5539,
+          "nome": "Estante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5540,
+          "nome": "Armário para o quarto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5541,
+          "nome": "Roupas de cama, mesa e banho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5542,
+          "nome": "Outros (mobiliários e artigos do lar)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5580,
+          "nome": "Eletrodomésticos e equipamentos do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5543,
+          "nome": "Refrigerador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5544,
+          "nome": "Máquina de lavar roupas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5545,
+          "nome": "Fogão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5546,
+          "nome": "Outros (eletrodomésticos e equipamentos do lar)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5547,
+          "nome": "Som e tv",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5548,
+          "nome": "Televisão a cores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5549,
+          "nome": "Conjunto de som acoplado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5550,
+          "nome": "Vídeo-cassete",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5551,
+          "nome": "Outros (som e tv)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3629,
+          "nome": "Consertos e manutenção de artigos do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5552,
+          "nome": "Consertos de aparelhos domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5553,
+          "nome": "Consertos de móveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5554,
+          "nome": "Outros (consertos e manutenção de artigos do lar)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3630,
+          "nome": "Vestuário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3631,
+          "nome": "Roupa de homem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3632,
+          "nome": "Roupa de mulher",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3633,
+          "nome": "Roupa de criança",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3634,
+          "nome": "Calçados e outros apetrechos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3635,
+          "nome": "Joias e bijuterias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3636,
+          "nome": "Tecidos e armarinhos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5555,
+          "nome": "Transporte urbano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5582,
+          "nome": "Ônibus (transporte urbano)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5557,
+          "nome": "Trem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5558,
+          "nome": "Táxi",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5559,
+          "nome": "Metrô",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5560,
+          "nome": "Outros (transporte urbano)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5561,
+          "nome": "Veículo próprio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5562,
+          "nome": "Gasolina",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5563,
+          "nome": "Álcool",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5564,
+          "nome": "Manutenção do veículo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5565,
+          "nome": "Outros (veículo próprio)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3642,
+          "nome": "Viagens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5566,
+          "nome": "Avião",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5583,
+          "nome": "Ônibus (viagens)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5567,
+          "nome": "Combustível",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5568,
+          "nome": "Outras (viagens)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3644,
+          "nome": "Higiene e cuidados pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3645,
+          "nome": "Perfume",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3646,
+          "nome": "Creme para pele e bronzeador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3647,
+          "nome": "Papel higiênico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5569,
+          "nome": "Artigo para maquiagem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5570,
+          "nome": "Sabonete",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5365,
+          "nome": "Outros (higiene e cuidados pessoais)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3648,
+          "nome": "Assistência a saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3649,
+          "nome": "Remédios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3650,
+          "nome": "Seguro saúde e associação de assistência",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3651,
+          "nome": "Tratamento dentário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3652,
+          "nome": "Consulta médica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3653,
+          "nome": "Hospitalização",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3654,
+          "nome": "Óculos e lentes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5571,
+          "nome": "Profissionais de saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3655,
+          "nome": "Outras (assistência a saúde)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3656,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3657,
+          "nome": "Cursos regulares de 1, 2 e 3 graus e pré-escolar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3658,
+          "nome": "Outros cursos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3659,
+          "nome": "Livros e revistas técnicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5367,
+          "nome": "Outras (educação)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3660,
+          "nome": "Recreação e cultura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3661,
+          "nome": "Brinquedos e jogos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3662,
+          "nome": "Discos e fitas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5572,
+          "nome": "Clube (mensalidade e taxa)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5573,
+          "nome": "Cinema",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5368,
+          "nome": "Outras (recreação e cultura)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3663,
+          "nome": "Fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3664,
+          "nome": "Serviços pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3665,
+          "nome": "Cabeleireiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3666,
+          "nome": "Manicuro e pedicuro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5574,
+          "nome": "Barbeiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5366,
+          "nome": "Outros (serviços pessoais)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3667,
+          "nome": "Despesas diversas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3668,
+          "nome": "Cerimônias familiares e práticas religiosas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3669,
+          "nome": "Serviços de cartórios e serviços de profissionais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5369,
+          "nome": "Outras (despesas diversas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3670,
+          "nome": "Outras (despesas correntes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3671,
+          "nome": "Impostos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5575,
+          "nome": "Renda",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5576,
+          "nome": "Sobre serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3672,
+          "nome": "Contribuições trabalhistas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5577,
+          "nome": "Previdência social",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5578,
+          "nome": "Associações de classe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5581,
+          "nome": "Outras (outras despesas correntes)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

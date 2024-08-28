@@ -1,0 +1,353 @@
+{
+  "id": 711,
+  "nome": "Despesa monetária e não monetária média mensal familiar - valor e distribuição - por categoria sócioprofissional principal da pessoa de referência da família, situação do domicílio e tipos de despesa",
+  "URL": "https://sidra.ibge.gov.br/tabela/711",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1201,
+      "nome": "Despesa monetária e não monetária média mensal familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1204,
+      "nome": "Distribuição da despesa monetária e não monetária média mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12510,
+      "nome": "Categoria socioprofissional principal da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111458,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111459,
+          "nome": "Atividades agropecuárias - empregador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111460,
+          "nome": "Atividades agropecuárias - conta própria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111461,
+          "nome": "Atividades agropecuárias - empregado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111462,
+          "nome": "Atividades não-agropecuárias - empregador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111463,
+          "nome": "Atividades não-agropecuárias - conta própria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111464,
+          "nome": "Atividades não-agropecuárias - empregado com cargo de nível superior",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111465,
+          "nome": "Atividades não-agropecuárias - empregado com cargo de nível médio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111466,
+          "nome": "Atividades não-agropecuárias - empregado em outras ocupações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111467,
+          "nome": "Atividades não-agropecuárias - empregado público",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111468,
+          "nome": "Atividades sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12190,
+      "nome": "Tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103536,
+          "nome": "1Despesa total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103537,
+          "nome": "2Despesas correntes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103538,
+          "nome": "2.1Despesas de consumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103539,
+          "nome": "2.1.1Alimentação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103540,
+          "nome": "2.1.2Habitação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103541,
+          "nome": "2.1.2.1Aluguel",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103542,
+          "nome": "2.1.2.2Serviços e taxas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103549,
+          "nome": "2.1.2.3Manutenção do lar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103550,
+          "nome": "2.1.2.4Artigos de limpeza",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111442,
+          "nome": "2.1.2.7Eletrodomésticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111443,
+          "nome": "2.1.2.8Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103554,
+          "nome": "2.1.3Vestuário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103561,
+          "nome": "2.1.4Transporte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103562,
+          "nome": "2.1.4.1Transporte urbano",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111444,
+          "nome": "2.1.4.2Combustível - gasolina e álcool",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111445,
+          "nome": "2.1.4.3Aquisição de veículos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111446,
+          "nome": "2.1.4.4Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103569,
+          "nome": "2.1.5Higiene e cuidados pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103574,
+          "nome": "2.1.6Assistência à saude",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103575,
+          "nome": "2.1.6.1Remédios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103576,
+          "nome": "2.1.6.2Plano/Seguro saúde",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111447,
+          "nome": "2.1.6.3Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103585,
+          "nome": "2.1.7Educação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103592,
+          "nome": "2.1.8Recreação e cultura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103598,
+          "nome": "2.1.9Fumo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103599,
+          "nome": "2.1.10Serviços pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103604,
+          "nome": "2.1.11Despesas diversas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103611,
+          "nome": "2.2Outras despesas correntes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103612,
+          "nome": "2.2.1Impostos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103613,
+          "nome": "2.2.2Contribuições trabalhistas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 111448,
+          "nome": "2.2.3Pensões, mesadas e doações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 111449,
+          "nome": "2.2.5Outras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103618,
+          "nome": "2.3Aumento do ativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103622,
+          "nome": "2.4Diminuição do passivo",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": 3521,
+  "nome": "Pessoas em famílias únicas e conviventes principais residentes em domicílios particulares, por cor ou raça, segundo a situação do domicílio e a condição na família",
+  "URL": "https://sidra.ibge.gov.br/tabela/3521",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1678,
+      "nome": "Pessoas em famílias únicas e conviventes principais residentes em domicílios particulares",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001678,
+      "nome": "Pessoas em famílias únicas e conviventes principais residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2781,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "nome": "Condição na família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95420,
+          "nome": "Pessoa responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95421,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95422,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95423,
+          "nome": "Pai, mãe ou sogro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95424,
+          "nome": "Neto(a) ou bisneto(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104802,
+          "nome": "Irmão ou irmã",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121343,
+          "nome": "Avô ou avó",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3314,
+          "nome": "Outro parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104801,
+          "nome": "Agregado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121344,
+          "nome": "Convivente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3315,
+          "nome": "Pensionista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104800,
+          "nome": "Empregado(a) doméstico(a) e parente do(a) empregado(a) doméstico(a)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

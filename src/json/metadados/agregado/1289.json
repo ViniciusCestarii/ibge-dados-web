@@ -1,0 +1,59 @@
+{
+  "id": 1289,
+  "nome": "Percentual da população nos Censos Demográficos por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1289",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1950,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 608,
+      "nome": "Percentual da população",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

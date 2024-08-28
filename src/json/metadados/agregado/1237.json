@@ -1,0 +1,86 @@
+{
+  "id": 1237,
+  "nome": "Número de municípios, total e os com manejo de resíduos sólidos com participação de catadores nas ações de coleta seletiva, por forma de participação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1237",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2612,
+      "nome": "Municípios com manejo de residuos sólidos com participação de catadores nas ações de coleta seletiva",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002612,
+      "nome": "Municípios com manejo de residuos sólidos com participação de catadores nas ações de coleta seletiva - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12979,
+      "nome": "Forma de participação de catadores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121026,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121027,
+          "nome": "Total de municípios com manejo de residuos sólidos com participação de catadores nas ações de coleta seletiva",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121028,
+          "nome": "Com participação organizada através de cooperativas ou associações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121029,
+          "nome": "Com participação isolada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121030,
+          "nome": "Com outra forma de participação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 8515,
+  "nome": "Último furto nos últimos 12 meses (carro, moto, bicicleta ou domicílio) em que houve procura de polícia ou guarda municipal, por tipo de furto e registro de ocorrência na polícia",
+  "URL": "https://sidra.ibge.gov.br/tabela/8515",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12481,
+      "nome": "Último furto nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12482,
+      "nome": "Coeficiente de variação - Último furto nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7163,
+      "nome": "Distribuição percentual do último furto nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7164,
+      "nome": "Coeficiente de variação - Distribuição percentual do último furto nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1353,
+      "nome": "Tipo de furto",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57311,
+          "nome": "Carro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57312,
+          "nome": "Moto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57313,
+          "nome": "Bicicleta",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57314,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1357,
+      "nome": "Registro de ocorrência na polícia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57399,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57400,
+          "nome": "Houve registro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

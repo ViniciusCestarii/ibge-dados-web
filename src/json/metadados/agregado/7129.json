@@ -1,0 +1,135 @@
+{
+  "id": 7129,
+  "nome": "Pessoas de 14 anos ou mais de idade, por cor ou raça e nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/7129",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4087,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4104,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4105,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11779,
+          "nome": "Ensino fundamental incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11628,
+          "nome": "Ensino fundamental completo ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11629,
+          "nome": "Ensino médio incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11630,
+          "nome": "Ensino médio completo ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11631,
+          "nome": "Ensino superior incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

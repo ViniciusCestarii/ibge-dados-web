@@ -1,0 +1,154 @@
+{
+  "id": 278,
+  "nome": "Número de estabelecimentos e Capacidade útil das unidades armazenadoras por tipo de unidade armazenadora, tipo de propriedade da empresa e tipo de atividade do estabelecimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/278",
+  "pesquisa": "Pesquisa de Estoques",
+  "assunto": "Estoques agropecuários",
+  "periodicidade": {
+    "frequencia": "semestral",
+    "inicio": 200702,
+    "fim": 202302
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 152,
+      "nome": "Número de estabelecimentos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 153,
+      "nome": "Capacidade útil",
+      "unidade": "Vide categorias da classificação 'Tipo de unidade armazenadora'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 166,
+      "nome": "Tipo de unidade armazenadora",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3066,
+          "nome": "Armazéns convencionais, estruturais e infláveis",
+          "unidade": "Metros cúbicos",
+          "nivel": 0
+        },
+        {
+          "id": 3067,
+          "nome": "Armazéns graneleiros e granelizados",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 3327,
+          "nome": "Silos",
+          "unidade": "Toneladas",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "nome": "Tipo de propriedade da empresa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3029,
+          "nome": "Governo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3030,
+          "nome": "Iniciativa privada (exceto cooperativa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3031,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3032,
+          "nome": "Economia mista",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "nome": "Tipo de atividade do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3050,
+          "nome": "Comércio (exceto supermercado)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3051,
+          "nome": "Supermercado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3052,
+          "nome": "Indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114629,
+          "nome": "Serviço de armazenagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3054,
+          "nome": "Produção agropecuária",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

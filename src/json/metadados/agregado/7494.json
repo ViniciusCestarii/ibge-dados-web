@@ -1,0 +1,158 @@
+{
+  "id": 7494,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento, com cobrança ou contribuição pelo serviço e com subsídios aos usuários do serviço, por tipo de subsídios, forma de financiamento dos subsídios e tipo de critério para a concessão dos subsídios",
+  "URL": "https://sidra.ibge.gov.br/tabela/7494",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10706,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento, com subsídios aos usuários do serviço",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 934,
+      "nome": "Tipo de subsídio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48439,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48440,
+          "nome": "Isenção de cobrança da tarifa/taxa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48441,
+          "nome": "Tarifa/Taxa com desconto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48442,
+          "nome": "Isenção de cobrança ou cobrança com desconto para conexão à rede",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 935,
+      "nome": "Forma de financiamento dos subsídios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48443,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48444,
+          "nome": "Estrutura tarifária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48445,
+          "nome": "Recursos fiscais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48446,
+          "nome": "Estrutura tarifária e recursos fiscais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 936,
+      "nome": "Tipo de critério para a concessão dos subsídios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48447,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48448,
+          "nome": "Rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48449,
+          "nome": "Características do imóvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48450,
+          "nome": "Nível de consumo de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48451,
+          "nome": "Nível de consumo de energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48452,
+          "nome": "Localização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48453,
+          "nome": "Inscrição em programas sociais governamentais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48454,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

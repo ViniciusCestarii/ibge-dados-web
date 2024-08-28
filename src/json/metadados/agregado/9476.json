@@ -1,0 +1,185 @@
+{
+  "id": 9476,
+  "nome": "Municípios com posto ou serviço regular de vacinação e aplicação da Caderneta de Saúde da Criança do Ministério da Saúde e próprio, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9476",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12876,
+      "nome": "Municípios com posto ou serviço regular de vacinação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1595,
+      "nome": "Existência de registro das vacinas aplicadas na Caderneta de Saúde da Criança distribuída pelo Ministério da Saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59468,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59469,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59470,
+          "nome": "Com número e a periodicidade do fornecimento de Caderneta de Saúde da Criança adequados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59471,
+          "nome": "Sem número e a periodicidade do fornecimento de Caderneta de Saúde da Criança adequados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59472,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1596,
+      "nome": "Fornecimento da Caderneta de Saúde da Criança para ser distribuída nos estabelecimentos privados de saúde (fora da rede do SUS) que realizam parto e/ou imunização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59473,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59474,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59475,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1608,
+      "nome": "Existência de modelo próprio de caderneta ou cartão de registro de vacina fornecido ao usuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59476,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59477,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59478,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

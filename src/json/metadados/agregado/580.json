@@ -1,0 +1,86 @@
+{
+  "id": 580,
+  "nome": "Domicílios particulares permanentes, População recenseada em domicílios particulares permanentes e Média de moradores em domicílios particulares permanentes por sexo da pessoa responsável pelo domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/580",
+  "pesquisa": "Contagem da População ",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2007
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2049,
+      "nome": "População recenseada em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002049,
+      "nome": "População recenseada em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 246,
+      "nome": "Média de moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 293,
+      "nome": "Sexo do responsável pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100311,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100312,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100313,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

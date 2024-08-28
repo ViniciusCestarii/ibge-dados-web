@@ -1,0 +1,77 @@
+{
+  "id": 4360,
+  "nome": "Pessoas de 14 anos ou mais de idade, por condição em relação à força de trabalho e condição de ocupação",
+  "URL": "https://sidra.ibge.gov.br/tabela/4360",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Mercado de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4087,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 629,
+      "nome": "Condição em relação à força de trabalho e condição de ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32385,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32386,
+          "nome": "Força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32387,
+          "nome": "Força de trabalho - ocupada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32446,
+          "nome": "Força de trabalho - desocupada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32447,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

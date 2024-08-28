@@ -1,0 +1,70 @@
+{
+  "id": 2135,
+  "nome": "Famílias com pelo menos um componente de 5 a 17 anos de idade, por sexo da pessoa de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/2135",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 952,
+      "nome": "Famílias com pelo menos um componente de 5 a 17 anos de idade",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000952,
+      "nome": "Famílias com pelo menos um componente de 5 a 17 anos de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 953,
+      "nome": "Coeficiente de variação - Famílias com pelo menos um componente de 5 a 17 anos de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12086,
+      "nome": "Sexo da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100552,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100466,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100467,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

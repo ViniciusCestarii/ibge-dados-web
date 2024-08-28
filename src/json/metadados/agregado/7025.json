@@ -1,0 +1,193 @@
+{
+  "id": 7025,
+  "nome": "Pessoas de 14 anos ou mais de idade que realizaram afazeres domésticos no próprio domicílio, por sexo, condição no domicílio e tipo de afazer doméstico.",
+  "URL": "https://sidra.ibge.gov.br/tabela/7025",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10174,
+      "nome": "Pessoas de 14 anos ou mais de idade que realizaram afazeres domésticos no próprio domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10175,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que realizaram afazeres domésticos no próprio domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10216,
+      "nome": "Percentual de pessoas de 14 anos ou mais de idade que realizaram afazeres domésticos no próprio domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10217,
+      "nome": "Coeficiente de Variação - Percentual de pessoas de 14 anos ou mais de idade que realizaram afazeres domésticos no próprio domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11603,
+      "nome": "Condição no domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31654,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109500,
+          "nome": "Responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47569,
+          "nome": "Responsável sozinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47570,
+          "nome": "Responsável em coabitação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12871,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10915,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31653,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 847,
+      "nome": "Tipo de afazer doméstico",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          10216,
+          10217
+        ]
+      },
+      "categorias": [
+        {
+          "id": 47579,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47571,
+          "nome": "Preparar ou servir alimentos, arrumar a mesa ou lavar louça",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47572,
+          "nome": "Cuidar da limpeza ou manutenção de roupas e sapatos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47573,
+          "nome": "Fazer pequenos reparos ou manutenção do domicílio, do automóvel, de eletrodomésticos ou outros equipamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47574,
+          "nome": "Limpar ou arrumar o domicílio, a garagem, o quintal ou o jardim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47575,
+          "nome": "Cuidar da organização do domicílio (pagar contas, contratar serviços, orientar empregados, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47576,
+          "nome": "Fazer compras ou pesquisar preços de bens para o domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47577,
+          "nome": "Cuidar dos animais domésticos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

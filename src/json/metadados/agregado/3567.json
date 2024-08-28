@@ -1,0 +1,159 @@
+{
+  "id": 3567,
+  "nome": "Distribuição do rendimento nominal mensal per capita dos domicílios particulares permanentes, com rendimento domiciliar per capita, Valor do rendimento nominal médio mensal per capita dos domicílios particulares permanentes, com rendimento domiciliar per capita e Valor do rendimento nominal mediano mensal per capita dos domicílios particulares permanentes, com rendimento domiciliar per capita, por situação do domicío, segundo as classes simples de percentual em ordem crescente de rendimento domiciliar per capita dos domicílios particulares permanentes",
+  "URL": "https://sidra.ibge.gov.br/tabela/3567",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2022,
+      "nome": "Distribuição do rendimento nominal mensal per capita dos domicílios particulares permanentes com rendimento domicíliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2033,
+      "nome": "Valor do rendimento nominal médio mensal per capita dos domicílios particulares permanentes com rendimento domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 2034,
+      "nome": "Valor do rendimento nominal mediano mensal per capita dos domicílios particulares permanentes com rendimento domicíliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "nome": "Classes simples de percentual em ordem crescente de rendimento per capita dos domicílios particulares permanentes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9927,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9928,
+          "nome": "Até 10 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9929,
+          "nome": "Mais de 10 a 20 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9930,
+          "nome": "Mais de 20 a 30 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9931,
+          "nome": "Mais de 30 a 40 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9932,
+          "nome": "Mais de 40 a 50 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9933,
+          "nome": "Mais de 50 a 60 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9934,
+          "nome": "Mais de 60 a 70 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9935,
+          "nome": "Mais de 70 a 80 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9936,
+          "nome": "Mais de 80 a 90 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9937,
+          "nome": "Mais de 90 a 100 %",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9938,
+          "nome": "Mais de 95 a 100 %",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9939,
+          "nome": "Mais de 99 a 100 %",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

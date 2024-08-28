@@ -1,0 +1,444 @@
+{
+  "id": 3585,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo, o nível de instrução, os grupos de idade e a posição na ocupação, subgrupo e categoria do emprego e contribuição para instituto de previdência oficial no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3585",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11626,
+          "nome": "Não determinado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 110992,
+          "nome": "18 ou 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1148,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1149,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1150,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1151,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1152,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1153,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3244,
+          "nome": "70 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12383,
+      "nome": "Posição na ocupação, subgrupo e categoria do emprego e contribuição para instituto de previdência oficial no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107553,
+          "nome": "Empregados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107554,
+          "nome": "Empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107555,
+          "nome": "Empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107556,
+          "nome": "Empregados - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107557,
+          "nome": "Empregados - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107558,
+          "nome": "Empregados - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107559,
+          "nome": "Empregados - trabalhadores domésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107560,
+          "nome": "Empregados - trabalhadores domésticos - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107561,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107562,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107563,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107564,
+          "nome": "Empregados - demais empregados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107565,
+          "nome": "Empregados - demais empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107566,
+          "nome": "Empregados - demais empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107567,
+          "nome": "Empregados - demais empregados - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107568,
+          "nome": "Empregados - demais empregados - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107569,
+          "nome": "Empregados - demais empregados - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107573,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107574,
+          "nome": "Conta própria - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107575,
+          "nome": "Conta própria - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107570,
+          "nome": "Empregadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107571,
+          "nome": "Empregadores - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107572,
+          "nome": "Empregadores - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 15352,
+          "nome": "Não remunerados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107577,
+          "nome": "Trabalhadores na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

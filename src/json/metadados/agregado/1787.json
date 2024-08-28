@@ -1,0 +1,77 @@
+{
+  "id": 1787,
+  "nome": "Número de distritos abastecidos, por cobrança pelo serviço de abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/1787",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 732,
+      "nome": "Número de distritos abastecidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000732,
+      "nome": "Número de distritos abastecidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11982,
+      "nome": "Cobrança pelo serviço de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98610,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98577,
+          "nome": "Cobra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98578,
+          "nome": "Não cobra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98579,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

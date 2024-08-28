@@ -1,0 +1,153 @@
+{
+  "id": 3480,
+  "nome": "Pessoas indígenas de 5 anos ou mais de idade, residentes em terras indígenas, por condição de falar português no domicílio, condição de falar língua indígena no domicílio e grupos de idade, segundo as Terras Indígenas",
+  "URL": "https://sidra.ibge.gov.br/tabela/3480",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Terras indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1438,
+      "nome": "Pessoas indígenas de 5 anos ou mais de idade, residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001438,
+      "nome": "Pessoas indígenas de 5 anos ou mais de idade, residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 498,
+      "nome": "Condição de falar português no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12901,
+          "nome": "Falavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12902,
+          "nome": "Não falavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12903,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "nome": "Condição de falar língua indígena no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12904,
+          "nome": "Falavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12905,
+          "nome": "Não falavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12906,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1141,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100753,
+          "nome": "15 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100053,
+          "nome": "25 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": 1537,
+  "nome": "Número de empresas com 20 ou mais pessoas ocupadas e pessoal ocupado das atividades de transportes e serviços auxiliares dos transportes",
+  "URL": "https://sidra.ibge.gov.br/tabela/1537",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Transportes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 631,
+      "nome": "Pessoal ocupado em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000631,
+      "nome": "Pessoal ocupado em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 671,
+      "nome": "Média mensal do pessoal ocupado assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93036,
+          "nome": "Transporte ferroviário e metroviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93037,
+          "nome": "Transporte ferroviário - interurbano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93038,
+          "nome": "Transporte ferroviário - urbano de passageiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93039,
+          "nome": "Transporte metroviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93040,
+          "nome": "Transporte rodoviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93041,
+          "nome": "Transporte rodoviário de passageiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93042,
+          "nome": "Transporte rodoviário de passageiros - regular urbano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 93043,
+          "nome": "Transporte rodoviário de passageiros - regular não-urbano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 93044,
+          "nome": "Transporte rodoviário de passageiros - não-regular",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 93045,
+          "nome": "Transporte rodoviário de cargas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93046,
+          "nome": "Transporte rodoviário de cargas - em geral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 93047,
+          "nome": "Transporte rodoviário de cargas - produtos perigosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 93048,
+          "nome": "Transporte rodoviário de cargas - transporte de mudanças",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 93049,
+          "nome": "Transporte aquaviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93050,
+          "nome": "Transporte aquaviário - de cabotagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93051,
+          "nome": "Transporte aquaviário - de longo curso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93052,
+          "nome": "Transporte aquaviário - por vias internas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93053,
+          "nome": "Transporte aéreo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93054,
+          "nome": "Transporte aéreo - regular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93055,
+          "nome": "Transporte aéreo - não-regular (taxi aéreo)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93057,
+          "nome": "Atividades anexas e auxiliares aos transportes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93058,
+          "nome": "Movimentação e armazenagem de carga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93059,
+          "nome": "Atividades auxiliares aos transportes terrestres (operação de terminais rodoviários e ferroviários, exploração de estacionamentos e edifícios-garagem, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93060,
+          "nome": "Atividades auxiliares aos transportes aquaviários (operação de portos, serviços de pilotagem e rebocagem em portos e estuários, serviços de vistoria em embarcações, etc)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93061,
+          "nome": "Atividades auxiliares aos transportes aéreos (operação de aeroportos, controle de tráfego aéreo, serviços de limpeza de aeronaves, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93062,
+          "nome": "Atividades organizadoras do transporte de cargas (despachantes aduaneiros, serviços de comissaria, acondicionamento de cargas, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93063,
+          "nome": "Atividades de agências de viagens e organizadoras de viagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93064,
+          "nome": "Agências de viagens e organizadoras de viagens",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

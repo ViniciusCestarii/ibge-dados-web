@@ -1,0 +1,88 @@
+{
+  "id": 2136,
+  "nome": "Pessoas de 5 a 17 anos de idade que não frequentavam escola, por principal motivo de não frequentarem",
+  "URL": "https://sidra.ibge.gov.br/tabela/2136",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 954,
+      "nome": "Pessoas de 5 a 17 anos de idade que não frequentavam escola",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000954,
+      "nome": "Pessoas de 5 a 17 anos de idade que não frequentavam escola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12090,
+      "nome": "Principal motivo de não frequentarem escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100570,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100480,
+          "nome": "Ajudar nos afazeres domésticos, trabalhar ou procurar trabalho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100481,
+          "nome": "Não existia escola perto de casa ou faltava vaga na escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100482,
+          "nome": "Por vontade própria ou dos pais ou responsáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100483,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100484,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

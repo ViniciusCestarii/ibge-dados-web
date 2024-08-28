@@ -1,0 +1,133 @@
+{
+  "id": 6414,
+  "nome": "Viagens com pernoite realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por finalidade da viagem e quantidade de pernoites",
+  "URL": "https://sidra.ibge.gov.br/tabela/6414",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10445,
+      "nome": "Viagens com pernoite realizadas pelos moradores dos domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10446,
+      "nome": "Coeficiente de variação - Viagens com pernoite realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10447,
+      "nome": "Distribuição percentual das viagens com pernoite realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10448,
+      "nome": "Coeficiente de variação - Distribuição percentual das viagens com pernoite realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 892,
+      "nome": "Finalidade da viagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47975,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47976,
+          "nome": "Pessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47977,
+          "nome": "Profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "nome": "Quantidade de pernoites",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48036,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48037,
+          "nome": "1 pernoite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48038,
+          "nome": "2 ou 3 pernoites",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48039,
+          "nome": "4 ou 5 pernoites",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48040,
+          "nome": "6 ou 7 pernoites",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48041,
+          "nome": "8 a 10 pernoites",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48042,
+          "nome": "11 a 15 pernoites",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48043,
+          "nome": "16 ou mais pernoites",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

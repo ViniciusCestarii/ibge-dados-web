@@ -1,0 +1,139 @@
+{
+  "id": 7666,
+  "nome": "Pessoas de 18 anos ou mais de idade, por sexo e avaliação do estado de saúde",
+  "URL": "https://sidra.ibge.gov.br/tabela/7666",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Percepção do estado de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2667,
+      "nome": "Pessoas de 18 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4771,
+      "nome": "Pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4772,
+      "nome": "Pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4776,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10985,
+      "nome": "Distribuição percentual das pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10986,
+      "nome": "Distribuição percentual das pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10987,
+      "nome": "Distribuição percentual das pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10988,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12258,
+      "nome": "Avaliação do estado de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10011,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104864,
+          "nome": "Muito bom e bom",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104865,
+          "nome": "Regular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104866,
+          "nome": "Ruim e muito ruim",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 7161,
+  "nome": "Estudantes de 15 anos ou mais de idade, por grupo de idade e situação de ocupação",
+  "URL": "https://sidra.ibge.gov.br/tabela/7161",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10309,
+      "nome": "Estudantes de 15 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10310,
+      "nome": "Coeficiente de variação - Estudantes de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10311,
+      "nome": "Distribuição percentual dos estudantes de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10312,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12085,
+      "nome": "Situação de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100543,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10983,
+          "nome": "Ocupados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10984,
+          "nome": "Não ocupados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

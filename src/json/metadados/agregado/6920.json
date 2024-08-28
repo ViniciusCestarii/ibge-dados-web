@@ -1,0 +1,251 @@
+{
+  "id": 6920,
+  "nome": "Número de estabelecimentos agropecuários com equinos, Número de cabeças de equinos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários que venderam equinos, Número de cabeças de equinos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de equinos nos estabelecimentos agropecuários, por tipologia, condição do produtor em relação às terras e grupos de cabeças de equinos",
+  "URL": "https://sidra.ibge.gov.br/tabela/6920",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 42,
+      "nome": "Número de estabelecimentos agropecuários com equinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2196,
+      "nome": "Número de cabeças de equinos nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10019,
+      "nome": "Número de estabelecimentos agropecuários que venderam equinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10020,
+      "nome": "Número de cabeças de equinos vendidas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10021,
+      "nome": "Valor da venda de cabeças de equinos nos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 829,
+      "nome": "Tipologia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46303,
+          "nome": "Agricultura familiar - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46304,
+          "nome": "Agricultura familiar - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46305,
+          "nome": "Agricultura familiar - Pronaf B",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46306,
+          "nome": "Agricultura familiar - Pronaf V",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46307,
+          "nome": "Agricultura familiar - não pronafiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46422,
+          "nome": "Pronamp - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46423,
+          "nome": "Pronamp - não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12722,
+      "nome": "Grupos de cabeças de equinos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8059,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115929,
+          "nome": "De 1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115930,
+          "nome": "De 3 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115931,
+          "nome": "De 5 a 9",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115932,
+          "nome": "De 10 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115933,
+          "nome": "De 20 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115934,
+          "nome": "De 50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115935,
+          "nome": "De 100 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115936,
+          "nome": "Sem cabeças de equinos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

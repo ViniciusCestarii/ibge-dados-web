@@ -1,0 +1,110 @@
+{
+  "id": 6007,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que consumiram bebida alcoólica nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram a bebida",
+  "URL": "https://sidra.ibge.gov.br/tabela/6007",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de álcool",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 6917,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que consumiram bebida alcoólica nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram a bebida",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6918,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que consumiram bebida alcoólica nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram a bebida, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6919,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que consumiram bebida alcoólica nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram a bebida, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 777,
+      "nome": "Modo como o escolar conseguiu bebida alcoólica nos 30 dias anteriores à pesquisa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40018,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40026,
+          "nome": "Comprou no mercado, loja, bar ou supermercado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40027,
+          "nome": "Comprou de um vendedor de rua",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40035,
+          "nome": "Deu dinheiro para alguém comprar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40036,
+          "nome": "Conseguiu com os amigos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40061,
+          "nome": "Pegou em casa sem permissão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40062,
+          "nome": "Conseguiu com alguém da família",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40063,
+          "nome": "Em uma festa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40064,
+          "nome": "Conseguiu de outro modo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

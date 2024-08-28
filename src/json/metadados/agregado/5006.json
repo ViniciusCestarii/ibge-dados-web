@@ -1,0 +1,133 @@
+{
+  "id": 5006,
+  "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5006",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5316,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5317,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5318,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5319,
+      "nome": "Coeficiente de variação - Pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5320,
+      "nome": "Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, em relação as que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5321,
+      "nome": "Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, em relação as que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5322,
+      "nome": "Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, em relação as que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5323,
+      "nome": "Coeficiente de variação - Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago pelo empregador do titular, em relação as que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

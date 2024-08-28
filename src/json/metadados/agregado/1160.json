@@ -1,0 +1,111 @@
+{
+  "id": 1160,
+  "nome": "Distribuição percentual de moradores em domicílios particulares permanentes pelo tipo de esgotamento sanitário, segundo a situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1160",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Acesso a esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2489,
+      "nome": "Distribuição percentual de moradores em domicílios particulares permanentes",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 11558,
+      "nome": "Tipo de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119520,
+          "nome": "Rede coletora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92856,
+          "nome": "Fossa séptica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92857,
+          "nome": "Fossa rudimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92858,
+          "nome": "Vala",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119521,
+          "nome": "Direto para rio, lago ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119522,
+          "nome": "Outro tipo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119523,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

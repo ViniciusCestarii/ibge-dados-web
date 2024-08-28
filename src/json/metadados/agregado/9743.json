@@ -1,0 +1,127 @@
+{
+  "id": 9743,
+  "nome": "Pessoas de 5 anos ou mais de idade que não se vacinaram contra a COVID-19, por grupo de idade e principal motivo de não ter tomado a vacina",
+  "URL": "https://sidra.ibge.gov.br/tabela/9743",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9150,
+      "nome": "Pessoas de 5 anos ou mais de idade que não se vacinaram contra a COVID-19",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9154,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade que não se vacinaram contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9205,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade que não se vacinaram contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9209,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade que não se vacinaram contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100448,
+          "nome": "5 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100452,
+          "nome": "18 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1805,
+      "nome": "Principal motivo de não ter tomado a vacina",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71947,
+          "nome": "Medo de reação adversa ou de injeção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71948,
+          "nome": "Não confia ou não acredita na vacina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72161,
+          "nome": "Não tinha a vacina que queria tomar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72162,
+          "nome": "Por recomendação de profissional de saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71949,
+          "nome": "Não acha necessário, acredita na imunidade e/ou já teve covid",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71950,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "id": 3344,
+  "nome": "Número de estabelecimentos agropecuários com uso de agrotóxicos, por tipo de equipamento utilizado na aplicação do agrotóxico, condição do produtor em relação às terras, nível de instrução da pessoa que dirige o estabelecimento, orinteção técnica, uso de equipamentos de proteção e indicativo de pessoas intoxicadas - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3344",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 482,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram pulverizador costal na aplicação de agrotóxico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000482,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram pulverizador costal na aplicação de agrotóxico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 592,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram pulverizador estacionário na aplicação de agrotóxico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000592,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram pulverizador estacionário na aplicação de agrotóxico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 594,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram equipamento de tração mecânica e/ou animal na aplicação de agrotóxico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000594,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram equipamento de tração mecânica e/ou animal na aplicação de agrotóxico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 595,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram aeronave na aplicação de agrotóxico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000595,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram aeronave na aplicação de agrotóxico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 596,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram outro equipamento na aplicação de agrotóxico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000596,
+      "nome": "Número de estabelecimentos agropecuários que utilizaram outro equipamento na aplicação de agrotóxico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 597,
+      "nome": "Número de estabelecimentos agropecuários que não utilizaram equipamento na aplicação de agrotóxico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000597,
+      "nome": "Número de estabelecimentos agropecuários que não utilizaram equipamento na aplicação de agrotóxico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12552,
+      "nome": "Nível de instrução da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112052,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112053,
+          "nome": "Ensino fundamental incompleto (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112054,
+          "nome": "Ensino fundamental completo (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112055,
+          "nome": "Ensino médio ou 2º grau completo (técnico agrícola)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112056,
+          "nome": "Ensino médio ou 2º grau completo (outro)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112057,
+          "nome": "Engenheiro agrônomo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112058,
+          "nome": "Veterinário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112059,
+          "nome": "Zootecnista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112060,
+          "nome": "Engenheiro florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112061,
+          "nome": "Outra formação superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112062,
+          "nome": "Nenhum, mas sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112051,
+          "nome": "Não sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "nome": "Orientação técnica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112010,
+          "nome": "Ocasionalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112011,
+          "nome": "Regularmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113112,
+          "nome": "Não recebeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12590,
+      "nome": "Uso de equipamento de proteção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118152,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113260,
+          "nome": "Chapéu ou capuz",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113261,
+          "nome": "Óculos ou protetor facial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113262,
+          "nome": "Máscara",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113263,
+          "nome": "Roupa protetora (macacão)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113264,
+          "nome": "Avental ou capa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113265,
+          "nome": "Luvas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113266,
+          "nome": "Botas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113267,
+          "nome": "Trator ou veículo utilizado com cabine protetora",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118153,
+          "nome": "Nenhum",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12591,
+      "nome": "Pessoas intoxicadas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113269,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113270,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113271,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "id": 1706,
+  "nome": "Produção, Venda e Valor da produção na horticultura nos estabelecimentos agropecuários, por produtos da horticultura, condição do produtor em relação às terras, grupos de atividade econômica e uso de irrigação - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1706",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Horticultura",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Vide categorias da classificação 'Produtos da horticultura'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1982,
+      "nome": "Quantidade vendida",
+      "unidade": "Vide categorias da classificação 'Produtos da horticultura'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 228,
+      "nome": "Produtos da horticultura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          183,
+          214,
+          1982
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113862,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111585,
+          "nome": "Abobrinha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5001,
+          "nome": "Acelga",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5002,
+          "nome": "Agrião",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111586,
+          "nome": "Aipo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5004,
+          "nome": "Alcachofra",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111587,
+          "nome": "Alcaparra",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111588,
+          "nome": "Alecrim",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5005,
+          "nome": "Alface",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5006,
+          "nome": "Alho-porró",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5007,
+          "nome": "Almeirão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5008,
+          "nome": "Aspargo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5010,
+          "nome": "Batata-baroa (mandioquinha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111589,
+          "nome": "Batata-doce",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5011,
+          "nome": "Berinjela",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5012,
+          "nome": "Bertalha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5013,
+          "nome": "Beterraba",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111590,
+          "nome": "Boldo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5014,
+          "nome": "Brócolis",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5015,
+          "nome": "Bucha (esponja vegetal)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111591,
+          "nome": "Camomila",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111592,
+          "nome": "Cará",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5016,
+          "nome": "Caruru",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111593,
+          "nome": "Cebolinha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5018,
+          "nome": "Cenoura",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5020,
+          "nome": "Chicória",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5021,
+          "nome": "Chuchu",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5022,
+          "nome": "Coentro",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111594,
+          "nome": "Cogumelos",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5024,
+          "nome": "Couve",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5025,
+          "nome": "Couve-flor",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111595,
+          "nome": "Erva-doce",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5027,
+          "nome": "Ervilha (vagem)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5028,
+          "nome": "Espinafre",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111596,
+          "nome": "Gengibre",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5030,
+          "nome": "Hortelã",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111597,
+          "nome": "Inhame",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5031,
+          "nome": "Jiló",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111598,
+          "nome": "Lentilha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111599,
+          "nome": "Manjericão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5033,
+          "nome": "Maxixe",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111600,
+          "nome": "Milho verde (espiga)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111601,
+          "nome": "Morango",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111602,
+          "nome": "Mostarda (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5036,
+          "nome": "Nabiça",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5037,
+          "nome": "Nabo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111603,
+          "nome": "Orégano",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5039,
+          "nome": "Pepino",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5040,
+          "nome": "Pimenta",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5041,
+          "nome": "Pimentão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5042,
+          "nome": "Quiabo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5043,
+          "nome": "Rabanete",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5044,
+          "nome": "Repolho",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5045,
+          "nome": "Rúcula",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5046,
+          "nome": "Salsa",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5048,
+          "nome": "Taioba",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111604,
+          "nome": "Tomate (estaqueado)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5049,
+          "nome": "Vagem (feijão vagem)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111607,
+          "nome": "Sementes (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111608,
+          "nome": "Mudas e outras formas de propagação (produzidas para plantio)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12520,
+      "nome": "Uso de irrigação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111609,
+          "nome": "Utilizou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111610,
+          "nome": "Não utilizou",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": 7970,
+  "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, por sexo e tipo de câncer",
+  "URL": "https://sidra.ibge.gov.br/tabela/7970",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4687,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4688,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4689,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4958,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4690,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4691,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4692,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4959,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "nome": "Tipo de câncer",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50598,
+          "nome": "Melanoma",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33102,
+          "nome": "Pulmão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50599,
+          "nome": "Cólon e reto (intestino)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33104,
+          "nome": "Estômago",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33105,
+          "nome": "Mama",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33106,
+          "nome": "Colo de útero",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33107,
+          "nome": "Próstata",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50600,
+          "nome": "Boca, Orofaringe ou Laringe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50601,
+          "nome": "Bexiga",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50602,
+          "nome": "Linfoma ou leucemia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50603,
+          "nome": "Cérebro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50604,
+          "nome": "Ovário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50605,
+          "nome": "Tireoide",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33109,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

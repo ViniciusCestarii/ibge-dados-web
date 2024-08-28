@@ -1,0 +1,80 @@
+{
+  "id": 976,
+  "nome": "Número de municípios, total e os com serviço de abastecimento de água, por existência de legislação municipal sobre proteção de mananciais",
+  "URL": "https://sidra.ibge.gov.br/tabela/976",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12967,
+      "nome": "Existência de legislação municipal sobre proteção de mananciais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120957,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120958,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120959,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120960,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

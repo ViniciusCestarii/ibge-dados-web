@@ -1,0 +1,184 @@
+{
+  "id": 2108,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência por religião, sexo e posição na ocupação no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2108",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 133,
+      "nome": "Religião",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95263,
+          "nome": "Católica Apostólica Romana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95264,
+          "nome": "Evangélicas de Missão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95265,
+          "nome": "Evangélicas de origem pentecostal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95266,
+          "nome": "Evangélicas - outras religiões evangélicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2826,
+          "nome": "Espírita",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2827,
+          "nome": "Umbanda e Candomblé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95275,
+          "nome": "Outras religiosidades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2836,
+          "nome": "Sem religião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2837,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99163,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99358,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99357,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100433,
+          "nome": "Não remunerado em ajuda a membro do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99171,
+          "nome": "Trabalhador na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": 8721,
+  "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio, por tipo de serviço e existência e avaliação dos serviços nos arredores do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8721",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12567,
+      "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12568,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12569,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12570,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1407,
+      "nome": "Tipo de serviço",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57876,
+          "nome": "Iluminação pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57877,
+          "nome": "Asfalto, cimento, concreto, paralelepípedo e/ou pedra",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57878,
+          "nome": "Parque, praça ou campinho (quadra de esportes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57879,
+          "nome": "Transporte coletivo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57880,
+          "nome": "Creche ou escola pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57881,
+          "nome": "Posto de saúde ou outro centro de atendimento de saúde público",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57882,
+          "nome": "Policiamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57883,
+          "nome": "Coleta de lixo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1388,
+      "nome": "Existência e avaliação dos serviços nos arredores do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57884,
+          "nome": "Existe e avalia como ótimo ou bom",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57885,
+          "nome": "Existe e avalia como regular, ruim ou péssimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57886,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

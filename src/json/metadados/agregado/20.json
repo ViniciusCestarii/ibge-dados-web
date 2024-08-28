@@ -1,0 +1,69 @@
+{
+  "id": 20,
+  "nome": "Peso das carcaças de outros animais de criação abatidos",
+  "URL": "https://sidra.ibge.gov.br/tabela/20",
+  "pesquisa": "Pesquisa Mensal de Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 34,
+      "nome": "Peso das carcaças",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000034,
+      "nome": "Peso das carcaças - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 23,
+      "nome": "Outros animais de criação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 68,
+          "nome": "Caprinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 69,
+          "nome": "Coelhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 67,
+          "nome": "Ovinos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

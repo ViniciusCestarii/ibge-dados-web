@@ -1,0 +1,65 @@
+{
+  "id": 867,
+  "nome": "Pessoas de 0 a 17 anos de idade, por frequência à creche ou escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/867",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1623,
+      "nome": "Pessoas de 0 a 17 anos de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001623,
+      "nome": "Pessoas de 0 a 17 anos de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12081,
+      "nome": "Frequência à creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100431,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100432,
+          "nome": "Não frequentavam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

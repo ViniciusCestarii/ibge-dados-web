@@ -1,0 +1,120 @@
+{
+  "id": 9298,
+  "nome": "Pessoas de 2 anos ou mais de idade, por condição no domicílio e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9298",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11852,
+      "nome": "Pessoas de 2 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11855,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11856,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11859,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11603,
+      "nome": "Condição no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31654,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109500,
+          "nome": "Responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12871,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10915,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31653,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

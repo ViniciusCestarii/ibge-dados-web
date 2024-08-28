@@ -1,0 +1,304 @@
+{
+  "id": 7319,
+  "nome": "Estoque, por classes de cobertura e uso da terra e evolução do estoque",
+  "URL": "https://sidra.ibge.gov.br/tabela/7319",
+  "pesquisa": "Contas Econômicas Ambientais da Terra: Contabilidade Física",
+  "assunto": "Meio ambiente",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [
+      "N123"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10473,
+      "nome": "Estoque de cobertura e uso da terra",
+      "unidade": "Quilômetros quadrados",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 914,
+      "nome": "Classes de cobertura e uso da terra",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48176,
+          "nome": "Área artificial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48177,
+          "nome": "Área agrícola",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48178,
+          "nome": "Pastagem com manejo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48179,
+          "nome": "Mosaico de ocupações em área florestal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48180,
+          "nome": "Silvicultura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48181,
+          "nome": "Vegetação florestal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48182,
+          "nome": "Área úmida",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48183,
+          "nome": "Vegetação campestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48184,
+          "nome": "Mosaico de ocupações em área campestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48185,
+          "nome": "Corpo d'água continental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48186,
+          "nome": "Corpo d'água costeiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48187,
+          "nome": "Área descoberta",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 915,
+      "nome": "Adição/Redução de estoque",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48188,
+          "nome": "Estoque de abertura (ano inicial)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48189,
+          "nome": "Adições ao estoque - Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48190,
+          "nome": "Adições ao estoque - Área artificial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48191,
+          "nome": "Adições ao estoque - Área agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48192,
+          "nome": "Adições ao estoque - Pastagem com manejo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48193,
+          "nome": "Adições ao estoque - Mosaico de ocupações em área florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48194,
+          "nome": "Adições ao estoque - Silvicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48201,
+          "nome": "Adições ao estoque - Vegetação florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48202,
+          "nome": "Adições ao estoque - Área úmida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48203,
+          "nome": "Adições ao estoque - Vegetação campestre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48204,
+          "nome": "Adições ao estoque - Mosaico de ocupações em área campestre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48205,
+          "nome": "Adições ao estoque - Corpo d'água continental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48206,
+          "nome": "Adições ao estoque - Corpo d'água costeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48207,
+          "nome": "Adições ao estoque - Área descoberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57686,
+          "nome": "Adições ao estoque - Reavaliações para cima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48208,
+          "nome": "Reduções do estoque - Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48209,
+          "nome": "Reduções do estoque - Área artificial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48210,
+          "nome": "Reduções do estoque - Área agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48211,
+          "nome": "Reduções do estoque - Pastagem com manejo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48212,
+          "nome": "Reduções do estoque - Mosaico de ocupações em área florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48213,
+          "nome": "Reduções do estoque - Silvicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48214,
+          "nome": "Reduções do estoque - Vegetação florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48215,
+          "nome": "Reduções do estoque - Área úmida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48216,
+          "nome": "Reduções do estoque - Vegetação campestre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48217,
+          "nome": "Reduções do estoque - Mosaico de ocupações em área campestre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48218,
+          "nome": "Reduções do estoque - Corpo d'água continental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48219,
+          "nome": "Reduções do estoque - Corpo d'água costeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48220,
+          "nome": "Reduções do estoque - Área descoberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57715,
+          "nome": "Reduções do estoque - Reavaliações para baixo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48221,
+          "nome": "Estoque final (ano de referência)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

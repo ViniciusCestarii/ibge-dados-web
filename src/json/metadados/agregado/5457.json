@@ -1,0 +1,533 @@
+{
+  "id": 5457,
+  "nome": "Área plantada ou destinada à colheita, área colhida, quantidade produzida, rendimento médio e valor da produção das lavouras temporárias e permanentes",
+  "URL": "https://sidra.ibge.gov.br/tabela/5457",
+  "pesquisa": "Produção Agrícola Municipal",
+  "assunto": "Lavouras temporárias e permanentes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1974,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8331,
+      "nome": "Área plantada ou destinada à colheita",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1008331,
+      "nome": "Área plantada ou destinada à colheita - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 216,
+      "nome": "Área colhida",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000216,
+      "nome": "Área colhida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Toneladas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 112,
+      "nome": "Rendimento médio da produção",
+      "unidade": "Quilogramas por Hectare",
+      "sumarizacao": []
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Cruzeiros [1974 a 1985, 1990 a 1992], Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2022]",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 782,
+      "nome": "Produto das lavouras temporárias e permanentes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          214,
+          112
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40129,
+          "nome": "Abacate",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40092,
+          "nome": "Abacaxi*",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45982,
+          "nome": "Açaí",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40329,
+          "nome": "Alfafa fenada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40130,
+          "nome": "Algodão arbóreo (em caroço)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40099,
+          "nome": "Algodão herbáceo (em caroço)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40100,
+          "nome": "Alho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40101,
+          "nome": "Amendoim (em casca)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40102,
+          "nome": "Arroz (em casca)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40103,
+          "nome": "Aveia (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40131,
+          "nome": "Azeitona",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40136,
+          "nome": "Banana (cacho)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40104,
+          "nome": "Batata-doce",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40105,
+          "nome": "Batata-inglesa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40137,
+          "nome": "Borracha (látex coagulado)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40468,
+          "nome": "Borracha (látex líquido)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40138,
+          "nome": "Cacau (em amêndoa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40139,
+          "nome": "Café (em grão) Total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40140,
+          "nome": "Café (em grão) Arábica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40141,
+          "nome": "Café (em grão) Canephora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40330,
+          "nome": "Caju",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40106,
+          "nome": "Cana-de-açúcar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40331,
+          "nome": "Cana para forragem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40142,
+          "nome": "Caqui",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40143,
+          "nome": "Castanha de caju",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40107,
+          "nome": "Cebola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40108,
+          "nome": "Centeio (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40109,
+          "nome": "Cevada (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40144,
+          "nome": "Chá-da-índia (folha verde)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40145,
+          "nome": "Coco-da-baía*",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40146,
+          "nome": "Dendê (cacho de coco)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40147,
+          "nome": "Erva-mate (folha verde)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40110,
+          "nome": "Ervilha (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40111,
+          "nome": "Fava (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40112,
+          "nome": "Feijão (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40148,
+          "nome": "Figo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40113,
+          "nome": "Fumo (em folha)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40114,
+          "nome": "Girassol (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40149,
+          "nome": "Goiaba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40150,
+          "nome": "Guaraná (semente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40115,
+          "nome": "Juta (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40151,
+          "nome": "Laranja",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40152,
+          "nome": "Limão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40116,
+          "nome": "Linho (semente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40260,
+          "nome": "Maçã",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40117,
+          "nome": "Malva (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40261,
+          "nome": "Mamão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40118,
+          "nome": "Mamona (baga)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40119,
+          "nome": "Mandioca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40262,
+          "nome": "Manga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40263,
+          "nome": "Maracujá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40264,
+          "nome": "Marmelo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40120,
+          "nome": "Melancia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40121,
+          "nome": "Melão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40122,
+          "nome": "Milho (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40265,
+          "nome": "Noz (fruto seco)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40266,
+          "nome": "Palmito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40267,
+          "nome": "Pera",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40268,
+          "nome": "Pêssego",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40269,
+          "nome": "Pimenta-do-reino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40123,
+          "nome": "Rami (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40270,
+          "nome": "Sisal ou agave (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40124,
+          "nome": "Soja (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40125,
+          "nome": "Sorgo (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40271,
+          "nome": "Tangerina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40126,
+          "nome": "Tomate",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40127,
+          "nome": "Trigo (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40128,
+          "nome": "Triticale (em grão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40272,
+          "nome": "Tungue (fruto seco)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40273,
+          "nome": "Urucum (semente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40274,
+          "nome": "Uva",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

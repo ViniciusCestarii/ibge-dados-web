@@ -1,0 +1,342 @@
+{
+  "id": 2174,
+  "nome": "Número de estabelecimentos agropecuários, com agricultura familiar e não familiar, e Área dos estabelecimentos por condição legal do produtor em relação às terras, residência da pessoa que dirige o estabelecimento, associação à cooperativa e/ou entidade de classe, orientação técnica e origem da orientação técnica - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2174",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12559,
+      "nome": "Condição legal do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112148,
+          "nome": "Produtor individual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112149,
+          "nome": "Condomínio, consórcio ou sociedade de pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112150,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112151,
+          "nome": "Sociedade anônima ou por cotas de responsabilidade limitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112152,
+          "nome": "Insituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112153,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112154,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12598,
+      "nome": "Associação do produtor à cooperativa e/ou à entidade de classe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114543,
+          "nome": "É associado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113455,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113456,
+          "nome": "Entidade de classe (sindicatos, associações/movimentos de produtores e moradores, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114544,
+          "nome": "Cooperativa e entidade de classe (sindicatos, associações/movimentos de produtores e moradores, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113457,
+          "nome": "Não é associado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "nome": "Orientação técnica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112010,
+          "nome": "Ocasionalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112011,
+          "nome": "Regularmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113112,
+          "nome": "Não recebeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12567,
+      "nome": "Origem da orientação técnica recebida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113111,
+          "nome": "Recebe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112647,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112648,
+          "nome": "Própria ou do próprio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112649,
+          "nome": "Cooperativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112650,
+          "nome": "Empresas integradoras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112651,
+          "nome": "Empresas privadas de planejamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112652,
+          "nome": "Organização não-governamental (ONG)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112653,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113559,
+          "nome": "Não recebe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": 668,
+  "nome": "Número de famílias e Tamanho médio da família por grupos de idade da pessoa de referência da família e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/668",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12508,
+      "nome": "Grupos de idade da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111434,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111435,
+          "nome": "De 10 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111436,
+          "nome": "De 20 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111437,
+          "nome": "De 30 a 39 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111438,
+          "nome": "De 40 a 49 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111439,
+          "nome": "De 50 a 59 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111440,
+          "nome": "De 60 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111441,
+          "nome": "70 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 7447,
+  "nome": "Pessoas de 10 anos ou mais de idade cujo domicílio possui algum morador que recebeu rendimento do Programa Bolsa Família, por nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/7447",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10784,
+      "nome": "Pessoas de 10 anos ou mais de idade cujo domicílio possui algum morador que recebeu rendimento do Programa Bolsa Família",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10785,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade cujo domicílio possui algum morador que recebeu rendimento do Programa Bolsa Família",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10782,
+      "nome": "Distribuição percentual das pessoas de 10 anos ou mais de idade cujo domicílio possui algum morador que recebeu rendimento do Programa Bolsa Família",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10783,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 10 anos ou mais de idade cujo domicílio possui algum morador que recebeu rendimento do Programa Bolsa Família",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11779,
+          "nome": "Ensino fundamental incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11628,
+          "nome": "Ensino fundamental completo ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11629,
+          "nome": "Ensino médio incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11630,
+          "nome": "Ensino médio completo ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11631,
+          "nome": "Ensino superior incompleto ou equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

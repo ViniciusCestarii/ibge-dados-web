@@ -1,0 +1,134 @@
+{
+  "id": 7218,
+  "nome": "Pessoas de 14 a 29 anos que nunca frequentaram escola ou que já frequentaram e não concluíram o ensino médio ou curso equivalente, por cor ou raça e principal motivo de ter deixado ou nunca ter frequentado escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/7218",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10402,
+      "nome": "Pessoas de 14 a 29 anos que nunca frequentaram escola ou que já frequentaram e não concluíram o ensino médio ou curso equivalente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10403,
+      "nome": "Coeficiente de variação - Pessoas de 14 a 29 anos que nunca frequentaram escola ou que já frequentaram e não concluíram o ensino médio ou curso equivalente",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10404,
+      "nome": "Distribuição percentual das pessoas de 14 a 29 anos que nunca frequentaram escola ou que já frequentaram e não concluíram o ensino médio ou curso equivalente",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10405,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 a 29 anos que nunca frequentaram escola ou que já frequentaram e não concluíram o ensino médio ou curso equivalente",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "nome": "Principal motivo de ter deixado ou nunca ter frequentado escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48008,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47986,
+          "nome": "Precisava trabalhar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47987,
+          "nome": "Não tinha escola na localidade, vaga ou turno desejado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47988,
+          "nome": "Por gravidez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47989,
+          "nome": "Tinha de realizar afazeres domésticos ou cuidar de crianças, adolescentes, idodos ou pessoas com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47990,
+          "nome": "Problemas de saúde permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47991,
+          "nome": "Não tinha interesse em estudar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47992,
+          "nome": "Outros motivos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

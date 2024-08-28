@@ -1,0 +1,147 @@
+{
+  "id": 2464,
+  "nome": "Pessoas residentes em domicílios particulares por condição na família e sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2464",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 134,
+      "nome": "Pessoas residentes em domicílios particulares",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000134,
+      "nome": "Pessoas residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 116,
+      "nome": "Condição na família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95420,
+          "nome": "Pessoa responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95421,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95422,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95423,
+          "nome": "Pai, mãe ou sogro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95424,
+          "nome": "Neto(a) ou bisneto(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104802,
+          "nome": "Irmão ou irmã",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3314,
+          "nome": "Outro parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104801,
+          "nome": "Agregado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3315,
+          "nome": "Pensionista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104800,
+          "nome": "Empregado(a) doméstico(a) e parente do(a) empregado(a) doméstico(a)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

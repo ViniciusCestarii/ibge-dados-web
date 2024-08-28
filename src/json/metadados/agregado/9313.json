@@ -1,0 +1,80 @@
+{
+  "id": 9313,
+  "nome": "Pessoas de 2 anos ou mais de idade com deficiência, por quantidade de dificuldades funcionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9313",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12785,
+      "nome": "Pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12786,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12791,
+      "nome": "Percentual de pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12792,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1506,
+      "nome": "Quantidade de dificuldades funcionais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58770,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58767,
+          "nome": "1 dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58768,
+          "nome": "2 ou mais dificuldades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

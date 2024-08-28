@@ -1,0 +1,225 @@
+{
+  "id": 1649,
+  "nome": "População residente por situação, sexo e tipo de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/1649",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          702
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          702
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "nome": "Tipo de deficiência permanente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95296,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95747,
+          "nome": "Pelo menos uma das deficiências enumeradas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95279,
+          "nome": "Deficiência mental permanente",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95283,
+          "nome": "Deficiência física",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95280,
+          "nome": "Deficiência física - tetraplegia, paraplegia ou hemiplegia permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95281,
+          "nome": "Deficiência física - falta de membro ou de parte dele (perna, braço, mão, pé ou dedo polegar)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95282,
+          "nome": "Deficiência visual",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95284,
+          "nome": "Deficiência visual - incapaz de enxergar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95285,
+          "nome": "Deficiência visual - grande dificuldade permanente de enxergar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95286,
+          "nome": "Deficiência visual - alguma dificuldade permanente de enxergar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95287,
+          "nome": "Deficiência auditiva",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95288,
+          "nome": "Deficiência auditiva - incapaz de ouvir",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95289,
+          "nome": "Deficiência auditiva - grande dificuldade permanente de ouvir",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95290,
+          "nome": "Deficiência auditiva - alguma dificuldade permanente de ouvir",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95291,
+          "nome": "Deficiência motora",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95292,
+          "nome": "Deficiência motora - incapaz de caminhar ou subir escada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95293,
+          "nome": "Deficiência motora - grande dificuldade permanente de caminhar ou subir escada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95294,
+          "nome": "Deficiência motora - alguma dificuldade permanente de caminhar ou subir escada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95295,
+          "nome": "Nenhuma dessas deficiências",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

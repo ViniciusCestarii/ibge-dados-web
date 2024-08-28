@@ -1,0 +1,80 @@
+{
+  "id": 1036,
+  "nome": "Número de municípios, total e os com manejo de águas pluviais, por existência de legislação municipal que prevê mecanismo de controle das águas pluviais efluentes de novos loteamentos",
+  "URL": "https://sidra.ibge.gov.br/tabela/1036",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2606,
+      "nome": "Municípios com manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002606,
+      "nome": "Municípios com manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12973,
+      "nome": "Existência de legislação municipal que prevê mecanismo de controle das águas pluviais efluentes de novos loteamentos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120981,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120982,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120983,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120984,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

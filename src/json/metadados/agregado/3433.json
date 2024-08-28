@@ -1,0 +1,284 @@
+{
+  "id": 3433,
+  "nome": "Pessoas de 5 anos ou mais de idade, por tipo deficiência e alfabetização, segundo o sexo e os grupos de idade - Amostra - Características Gerais da População",
+  "URL": "https://sidra.ibge.gov.br/tabela/3433",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 138,
+      "nome": "Pessoas de 5 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000138,
+      "nome": "Pessoas de 5 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 134,
+      "nome": "Tipo de deficiência permanente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7815,
+          "nome": "Pelo menos uma das deficiências investigadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12152,
+          "nome": "Deficiência visual - não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12153,
+          "nome": "Deficiência visual - grande dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12154,
+          "nome": "Deficiência visual - alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12155,
+          "nome": "Deficiência auditiva - não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12156,
+          "nome": "Deficiência auditiva - grande dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12157,
+          "nome": "Deficiência auditiva - alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12158,
+          "nome": "Deficiência motora - não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12159,
+          "nome": "Deficiência motora - grande dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12160,
+          "nome": "Deficiência motora - alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12161,
+          "nome": "Mental/intelectual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95295,
+          "nome": "Nenhuma dessas deficiências",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2791,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "nome": "Alfabetização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1023,
+          "nome": "Alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1024,
+          "nome": "Não alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1141,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110993,
+          "nome": "5 ou 6 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2798,
+          "nome": "7 a 9 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1143,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1148,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1149,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

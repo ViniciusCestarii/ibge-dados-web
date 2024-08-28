@@ -1,0 +1,63 @@
+{
+  "id": 46,
+  "nome": "Peso das carcaças de suínos abatidos",
+  "URL": "https://sidra.ibge.gov.br/tabela/46",
+  "pesquisa": "Pesquisa Mensal de Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 34,
+      "nome": "Peso das carcaças",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000034,
+      "nome": "Peso das carcaças - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 19,
+      "nome": "Suínos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 993,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59,
+          "nome": "Leitões",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58,
+          "nome": "Porcos",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

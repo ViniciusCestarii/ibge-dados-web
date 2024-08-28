@@ -1,0 +1,400 @@
+{
+  "id": 9056,
+  "nome": "Número de estabelecimentos agropecuários dirigidos pelo produtor, por existência de dirigentes de cor ou raça preta ou parda (produtor ou cônjuge) versus agricultura familiar, sexo do produtor, escolaridade do produtor, condição do produtor em relação às terras, direção dos trabalhos do estabelecimento agropecuário e origem da orientação técnica recebida",
+  "URL": "https://sidra.ibge.gov.br/tabela/9056",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9998,
+      "nome": "Número de estabelecimentos agropecuários dirigidos pelo produtor",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1502,
+      "nome": "Existência de dirigentes de cor ou raça preta ou parda (produtor ou cônjuge) versus agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58739,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58740,
+          "nome": "Com dirigentes pretos ou pardos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58741,
+          "nome": "Com dirigentes pretos ou pardos - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58742,
+          "nome": "Com dirigentes pretos ou pardos - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58743,
+          "nome": "Sem dirigentes pretos ou pardos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58744,
+          "nome": "Sem dirigentes pretos ou pardos - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58745,
+          "nome": "Sem dirigentes pretos ou pardos - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 800,
+      "nome": "Escolaridade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41147,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46510,
+          "nome": "Sabe ler e escrever - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46511,
+          "nome": "Sabe ler e escrever - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40708,
+          "nome": "Nunca frequentou escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40709,
+          "nome": "Classe de alfabetização - CA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40710,
+          "nome": "Alfabetização de jovens e adultos - AJA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40711,
+          "nome": "Antigo primário (elementar)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40712,
+          "nome": "Antigo ginasial (médio 1º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40713,
+          "nome": "Regular do ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40714,
+          "nome": "EJA - educação de jovens e adultos e supletivo do ensino fundamental ou do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40715,
+          "nome": "Antigo científico, clássico, etc. (médio 2º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40726,
+          "nome": "Regular de ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40727,
+          "nome": "Técnico de ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40728,
+          "nome": "EJA - Educação de jovens e adultos e supletivo do ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40729,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40730,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "nome": "Direção dos trabalhos do estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41149,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40591,
+          "nome": "Produtor(a) titular diretamente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40592,
+          "nome": "Casal (codireção)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40593,
+          "nome": "Produtor(a) titular através de um encarregado ou pessoa com laços de parentesco com o mesmo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40595,
+          "nome": "Produtores (explorações comunitárias)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40596,
+          "nome": "Outra pessoa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12567,
+      "nome": "Origem da orientação técnica recebida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41151,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113111,
+          "nome": "Recebe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112647,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112648,
+          "nome": "Própria ou do próprio produtor",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112649,
+          "nome": "Cooperativas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112650,
+          "nome": "Empresas integradoras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112651,
+          "nome": "Empresas privadas de planejamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112652,
+          "nome": "Organização não-governamental (ONG)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 45932,
+          "nome": "Sistema S",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112653,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113559,
+          "nome": "Não recebe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

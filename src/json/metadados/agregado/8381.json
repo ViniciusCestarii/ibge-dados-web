@@ -1,0 +1,134 @@
+{
+  "id": 8381,
+  "nome": "Pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD), por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8381",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Idosos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12244,
+      "nome": "Pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12245,
+      "nome": "Pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12246,
+      "nome": "Pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12247,
+      "nome": "Coeficiente de variação - Pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12248,
+      "nome": "Percentual de pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12249,
+      "nome": "Percentual de pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12250,
+      "nome": "Percentual de pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12251,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 60 anos ou mais de idade que recebiam ajuda para realizar Atividades de Vida Diária (AVD)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120712,
+          "nome": "Fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33517,
+          "nome": "Fundamental completo e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

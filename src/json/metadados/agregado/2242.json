@@ -1,0 +1,80 @@
+{
+  "id": 2242,
+  "nome": "Número de municípios, total e os com serviço de manejo de águas pluviais, cujas entidades dispõem de informações pluviométricas/metereológicas, por utilização das informações",
+  "URL": "https://sidra.ibge.gov.br/tabela/2242",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1167,
+      "nome": "Municípios com serviço de manejo de águas pluviais, cujas entidades dispõem de informações pluviométricas/metereológicas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001167,
+      "nome": "Municípios com serviço de manejo de águas pluviais, cujas entidades dispõem de informações pluviométricas/metereológicas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12133,
+      "nome": "Utilização das informações",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101325,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101326,
+          "nome": "Total de municípios com serviço de manejo de águas pluviais, cujas entidades dispõem de informações pluviométricas/metereológicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101327,
+          "nome": "Utiliza",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101328,
+          "nome": "Não utiliza",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101329,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

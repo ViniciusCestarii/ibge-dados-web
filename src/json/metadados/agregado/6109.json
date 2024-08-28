@@ -1,0 +1,86 @@
+{
+  "id": 6109,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram algum serviço ou profissional de saúde para atendimento relacionado à própria saúde, nos 12 meses anteriores à pesquisa, por tipo de serviço de saúde procurado com mais frequência",
+  "URL": "https://sidra.ibge.gov.br/tabela/6109",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3466,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram algum serviço ou profissional de saúde para atendimento relacionado à própria saúde, nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3467,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram algum serviço ou profissional de saúde para atendimento relacionado à própria saúde, nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3468,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram algum serviço ou profissional de saúde para atendimento relacionado à própria saúde, nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 761,
+      "nome": "Tipo de serviço de saúde procurado com mais frequência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39909,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39910,
+          "nome": "Unidade Básica de Saúde (Centro ou Posto de saúde ou Unidade de Saúde da Família/PSF)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39911,
+          "nome": "Consultório médico particular ou clínica particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39916,
+          "nome": "Hospital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39920,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

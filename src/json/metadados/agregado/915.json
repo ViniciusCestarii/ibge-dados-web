@@ -1,0 +1,119 @@
+{
+  "id": 915,
+  "nome": "Número de informantes, Número de galinhas poedeiras e Quantidade de ovos produzidos, no mês e no trimestre",
+  "URL": "https://sidra.ibge.gov.br/tabela/915",
+  "pesquisa": "Produção de Ovos de Galinha",
+  "assunto": "Ovos de galinha",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 198701,
+    "fim": 202401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1988,
+      "nome": "Número de cabeças de galinhas poedeiras nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Quantidade de ovos produzidos",
+      "unidade": "Mil dúzias",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000029,
+      "nome": "Quantidade de ovos produzidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9588,
+      "nome": "Quantidade de ovos produzidos para consumo",
+      "unidade": "Mil dúzias",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009588,
+      "nome": "Quantidade de ovos produzidos para consumo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9589,
+      "nome": "Quantidade de ovos produzidos para incubação",
+      "unidade": "Mil dúzias",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009589,
+      "nome": "Quantidade de ovos produzidos para incubação - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12716,
+      "nome": "Referência temporal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115236,
+          "nome": "Total do trimestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115233,
+          "nome": "No 1º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115234,
+          "nome": "No 2º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115235,
+          "nome": "No 3º mês",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

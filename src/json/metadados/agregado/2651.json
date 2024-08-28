@@ -1,0 +1,509 @@
+{
+  "id": 2651,
+  "nome": "Nascidos vivos, ocorridos no ano, por lugar de nascimento do pai, lugar de nascimento da mãe e lugar do registro",
+  "URL": "https://sidra.ibge.gov.br/tabela/2651",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Nascidos vivos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 218,
+      "nome": "Nascidos vivos ocorridos no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000218,
+      "nome": "Nascidos vivos ocorridos no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 241,
+      "nome": "Lugar de nascimento do pai",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 105956,
+          "nome": "Brasil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105957,
+          "nome": "Norte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5415,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5416,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5417,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5418,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5419,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5420,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5421,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105966,
+          "nome": "Nordeste",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5422,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5423,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5424,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5425,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5426,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5427,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5428,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5429,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5430,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105982,
+          "nome": "Sudeste",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5431,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5432,
+          "nome": "Espírito Santo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5433,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5434,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105996,
+          "nome": "Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5435,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5436,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5437,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 106016,
+          "nome": "Centro-Oeste",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5438,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5439,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5440,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5441,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 106022,
+          "nome": "Brasil, sem especificação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5442,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5443,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "nome": "Lugar de nascimento da mãe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 105889,
+          "nome": "Brasil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105890,
+          "nome": "Norte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5444,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5445,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5446,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5447,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5448,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5449,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5450,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105899,
+          "nome": "Nordeste",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5451,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5452,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5453,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5454,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5455,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5456,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5457,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5458,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5459,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105915,
+          "nome": "Sudeste",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5460,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5461,
+          "nome": "Espírito Santo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5462,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5463,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105929,
+          "nome": "Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5464,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5465,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5466,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105949,
+          "nome": "Centro-Oeste",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5467,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5468,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5469,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5470,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 105955,
+          "nome": "Brasil, sem especificação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5471,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5472,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

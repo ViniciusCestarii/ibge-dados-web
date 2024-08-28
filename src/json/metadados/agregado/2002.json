@@ -1,0 +1,300 @@
+{
+  "id": 2002,
+  "nome": "Número de estabelecimentos agropecuários, com agricultura familiar e não familiar, por produtos utilizados na adubação, local onde foi feita a adubação, tempo em que o produtor dirige o estabelecimento e associação à cooperativa e/ou à entidade de classe - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2002",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12586,
+      "nome": "Produtos utilizados na adubação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113227,
+          "nome": "Usam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113228,
+          "nome": "Adubo químico nitrogenado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113229,
+          "nome": "Adubo químico não-nitrogenado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113230,
+          "nome": "Esterco e/ou urina animal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113231,
+          "nome": "Adubação verde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113232,
+          "nome": "Vinhaça",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113233,
+          "nome": "Húmus de minhoca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113234,
+          "nome": "Biofertilizantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113235,
+          "nome": "Inoculantes (fixadores de nitrogênio)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113236,
+          "nome": "Composto orgânico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113237,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114625,
+          "nome": "Usam - não precisaram usar em 2006",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113571,
+          "nome": "Não usam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12588,
+      "nome": "Local onde foi feita a adubação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114539,
+          "nome": "Usam adubação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113238,
+          "nome": "Em lavouras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113239,
+          "nome": "Em pastagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113240,
+          "nome": "Em lavouras e pastagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114540,
+          "nome": "Não usam adubação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12609,
+      "nome": "Tempo em que o produtor dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113573,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113574,
+          "nome": "De 1 a menos de 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113575,
+          "nome": "De 5 a menos de 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113576,
+          "nome": "10 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12598,
+      "nome": "Associação do produtor à cooperativa e/ou à entidade de classe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114543,
+          "nome": "É associado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113455,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113456,
+          "nome": "Entidade de classe (sindicatos, associações/movimentos de produtores e moradores, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114544,
+          "nome": "Cooperativa e entidade de classe (sindicatos, associações/movimentos de produtores e moradores, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113457,
+          "nome": "Não é associado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

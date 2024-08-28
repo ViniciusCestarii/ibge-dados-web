@@ -1,0 +1,97 @@
+{
+  "id": 6829,
+  "nome": "Quantidade e Peso total das carcaças dos animais abatidos, no mês e no trimestre, por tipo de rebanho - Primeiros Resultados",
+  "URL": "https://sidra.ibge.gov.br/tabela/6829",
+  "pesquisa": "Pesquisa Trimestral do Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201804,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 284,
+      "nome": "Animais abatidos",
+      "unidade": "Cabeças",
+      "sumarizacao": []
+    },
+    {
+      "id": 285,
+      "nome": "Peso total das carcaças",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12716,
+      "nome": "Referência temporal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115236,
+          "nome": "Total do trimestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115233,
+          "nome": "No 1º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115234,
+          "nome": "No 2º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115235,
+          "nome": "No 3º mês",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "nome": "Tipo de rebanho",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41107,
+          "nome": "Bovinos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41108,
+          "nome": "Suínos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41109,
+          "nome": "Frangos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

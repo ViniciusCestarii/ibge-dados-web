@@ -1,0 +1,110 @@
+{
+  "id": 2058,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam habitualmente e efetivamente por grupo de horas trabalhadas por semana em todos os trabalhos",
+  "URL": "https://sidra.ibge.gov.br/tabela/2058",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 930,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam habitualmente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000930,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam habitualmente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 931,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam habitualmente",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 965,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam efetivamente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000965,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam efetivamente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 966,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que trabalhavam efetivamente",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12103,
+      "nome": "Grupos de horas trabalhadas por semana em todos os trabalhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          931,
+          966
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100664,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100665,
+          "nome": "15 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100666,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100667,
+          "nome": "45 a 48 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100668,
+          "nome": "49 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 7484,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ocorrência de interrupção de todos os sistemas de distribuição de alguma entidade por seis horas ou mais, por duração do maior período de interrupção",
+  "URL": "https://sidra.ibge.gov.br/tabela/7484",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10676,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ocorrência de interrupção de todos os sistemas de distribuição de alguma entidade por seis horas ou mais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 964,
+      "nome": "Duração do maior período de interrupção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48677,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48678,
+          "nome": "Até 1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48679,
+          "nome": "2 a 3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48680,
+          "nome": "4 a 10 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48681,
+          "nome": "11 dias a 1 mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48682,
+          "nome": "Mais de 1 mês a 3 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48683,
+          "nome": "Mais de 3 meses a 6 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48684,
+          "nome": "Mais de 6 meses",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

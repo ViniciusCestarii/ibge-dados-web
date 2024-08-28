@@ -1,0 +1,338 @@
+{
+  "id": 1819,
+  "nome": "Número de estabelecimentos agropecuários com uso de irrigação e Área irrigada dos estabelecimentos, por método utilizado para irrigação e grupos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/1819",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2372,
+      "nome": "Número de estabelecimentos agropecuários com uso de irrigação",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002372,
+      "nome": "Número de estabelecimentos agropecuários com uso de irrigação - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2373,
+      "nome": "Área irrigada dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002373,
+      "nome": "Área irrigada dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12604,
+      "nome": "Método utilizado para irrigação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118477,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113515,
+          "nome": "Inundação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113516,
+          "nome": "Sulcos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113517,
+          "nome": "Aspersão (pivô central)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113518,
+          "nome": "Aspersão (outros métodos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113519,
+          "nome": "Localizado (gotejamento, microaspersão, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113520,
+          "nome": "Outros métodos de irrigação e/ou molhação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12440,
+      "nome": "Grupos e classes de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112880,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112873,
+          "nome": "Cultivo de cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112874,
+          "nome": "Cultivo de algodão herbáceo e outras fibras da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112875,
+          "nome": "Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112876,
+          "nome": "Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112877,
+          "nome": "Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112878,
+          "nome": "Cultivo de oleaginosas de lavoura temporária, exceto soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112879,
+          "nome": "Cultivo de outros produtos da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112881,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112882,
+          "nome": "Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112883,
+          "nome": "Cultivo de flores, folhagens e plantas ornamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112884,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112885,
+          "nome": "Cultivo de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112886,
+          "nome": "Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112887,
+          "nome": "Cultivo de frutas da lavoura permanente, exceto laranja e uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112888,
+          "nome": "Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112889,
+          "nome": "Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112890,
+          "nome": "Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112891,
+          "nome": "Produção de sementes, mudas e outras formas de propagação vegetal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112892,
+          "nome": "Produção de sementes certificadas, de produtos agrícolas, inclusive forrageiras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112893,
+          "nome": "Produção de mudas certificadas e outras formas de propagação vegetal de produtos agrícolas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112894,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112895,
+          "nome": "Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112896,
+          "nome": "Criação de outros animais de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112897,
+          "nome": "Criação de ovinos e caprinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112898,
+          "nome": "Criação de suínos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112899,
+          "nome": "Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112900,
+          "nome": "Criação de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112901,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112902,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114050,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114055,
+          "nome": "Pesca em água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112903,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112904,
+          "nome": "Aquicultura em água salgada ou salobra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112905,
+          "nome": "Aquicultura em água doce",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

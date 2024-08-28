@@ -1,0 +1,419 @@
+{
+  "id": 3503,
+  "nome": "Domicílios particulares permanentes, por tipo de material das paredes externas, segundo o número de cômodos, a existência de água canalizada e forma de abastecimento de água, o destino do lixo, a existência de energia elétrica e a existência de alguns bens duráveis",
+  "URL": "https://sidra.ibge.gov.br/tabela/3503",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 137,
+      "nome": "Tipo de material das paredes externas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12193,
+          "nome": "Alvenaria com revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12194,
+          "nome": "Alvenaria sem revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2872,
+          "nome": "Madeira aparelhada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12195,
+          "nome": "Taipa revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13243,
+          "nome": "Não durável",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1066,
+          "nome": "8 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1067,
+          "nome": "9 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2511,
+          "nome": "10 cômodos ou mais",
+          "unidade": null,
+          "nivel": 4
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "nome": "Existência de água canalizada e forma de abastecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12213,
+          "nome": "Tinham - em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12214,
+          "nome": "Tinham - em pelo menos um cômodo - rede geral de distribuição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13229,
+          "nome": "Tinham - em pelo menos um cômodo - poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13230,
+          "nome": "Tinham - em pelo menos um cômodo - poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12215,
+          "nome": "Tinham - em pelo menos um cômodo - outra forma de abastecimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12216,
+          "nome": "Tinham - no terreno ou na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12217,
+          "nome": "Tinham - no terreno ou na propriedade - rede geral de distribuição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13231,
+          "nome": "Tinham - no terreno ou na propriedade - poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13232,
+          "nome": "Tinham - no terreno ou na propriedade - poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12218,
+          "nome": "Tinham - no terreno ou na propriedade - outra forma de abastecimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12219,
+          "nome": "Não tinham água canalizada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4661,
+          "nome": "Coletado diretamente por serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12150,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3012,
+          "nome": "Tinham - de companhia distribuidora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3013,
+          "nome": "Tinham - de companhia distribuidora - com medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3016,
+          "nome": "Tinham - de companhia distribuidora - sem medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3017,
+          "nome": "Tinham - de outra fonte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12060,
+      "nome": "Alguns bens duráveis existentes no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114527,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114531,
+          "nome": "Rádio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114532,
+          "nome": "Televisão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114530,
+          "nome": "Máquina de lavar roupa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114528,
+          "nome": "Geladeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13227,
+          "nome": "Telefone celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13228,
+          "nome": "Telefone fixo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114533,
+          "nome": "Microcomputador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12206,
+          "nome": "Microcomputador - com acesso à internet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12207,
+          "nome": "Motocicleta para uso particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12208,
+          "nome": "Automóvel para uso particular",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": 1382,
+  "nome": "Pessoas de 10 anos ou mais de idade, total e com rendimento, Valor do rendimento nominal médio mensal e mediano mensal, das pessoas de 10 anos ou mais de idade, total e com rendimento, segundo a situação do domicílio e a cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/1382",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 841,
+      "nome": "Pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000841,
+      "nome": "Pessoas de 10 anos ou mais de idade, com rendimento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 58,
+      "nome": "Valor do rendimento nominal médio mensal das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 842,
+      "nome": "Valor do rendimento nominal médio mensal das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 71,
+      "nome": "Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 843,
+      "nome": "Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

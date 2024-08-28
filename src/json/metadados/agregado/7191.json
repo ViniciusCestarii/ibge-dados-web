@@ -1,0 +1,104 @@
+{
+  "id": 7191,
+  "nome": "Domicílios próprios e Moradores, por existência de algum documento que comprove a propriedade do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7191",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10366,
+      "nome": "Domicílios próprios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10367,
+      "nome": "Coeficiente de variação - Domicílios próprios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10368,
+      "nome": "Distribuição percentual dos domicílios próprios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10369,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios próprios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10370,
+      "nome": "Moradores em domicílios próprios",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10371,
+      "nome": "Coeficiente de variação - Moradores em domicílios próprios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10372,
+      "nome": "Distribuição percentual dos moradores em domicílios próprios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10373,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios próprios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 886,
+      "nome": "Existência de algum documento que comprove a propriedade do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47934,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47932,
+          "nome": "Tem documento que comprove sua propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47933,
+          "nome": "Não tem documento que comprove sua propriedade",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

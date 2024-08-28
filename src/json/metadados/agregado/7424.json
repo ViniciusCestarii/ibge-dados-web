@@ -1,0 +1,92 @@
+{
+  "id": 7424,
+  "nome": "Rendimento médio mensal real domiciliar per capita, por situação do domicílio e funcionamento de serviço de rede móvel celular para telefonia ou Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7424",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4196,
+      "nome": "Rendimento médio mensal real domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4197,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 955,
+      "nome": "Funcionamento de serviço de rede móvel celular para telefonia ou Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48574,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48575,
+          "nome": "Funcionava",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48576,
+          "nome": "Não funcionava",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

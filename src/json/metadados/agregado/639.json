@@ -1,0 +1,370 @@
+{
+  "id": 639,
+  "nome": "Número de aquisições por grupos e tipos de despesa e locais de compra",
+  "URL": "https://sidra.ibge.gov.br/tabela/639",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 301,
+      "nome": "Número de aquisições",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000301,
+      "nome": "Número de aquisições - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 313,
+      "nome": "Grupos e tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7000,
+          "nome": "Alimentação fora",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7001,
+          "nome": "Almoço e jantar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7002,
+          "nome": "Sanduiche e salgadinho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7003,
+          "nome": "Refrigerante e água mineral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7004,
+          "nome": "Sorvetes, doces, balas e chocolate",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7005,
+          "nome": "Outros (Alimentação fora)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7006,
+          "nome": "Papelaria e leitura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7007,
+          "nome": "Caderno, lápis, borracha e caneta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7008,
+          "nome": "Jornais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7009,
+          "nome": "Outros (Papelaria e leitura)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7010,
+          "nome": "Recreação e diversões",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7011,
+          "nome": "Brinquedos e jogos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7012,
+          "nome": "Disco laser",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7013,
+          "nome": "Fita de videocassete gravada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7014,
+          "nome": "Outros (Recreação e diversões)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7015,
+          "nome": "Produtos farmacêuticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7016,
+          "nome": "Analgésico e antitérmico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7017,
+          "nome": "Anti-inflamatório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7018,
+          "nome": "Antigripal e antitussígeno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7019,
+          "nome": "Outros (Produtos farmacêuticos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7020,
+          "nome": "Produtos de toucador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7021,
+          "nome": "Perfumes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7022,
+          "nome": "Creme de pele e bronzeador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7023,
+          "nome": "Esmalte, base, acetona e lixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7024,
+          "nome": "Outros (Produtos de toucador)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7025,
+          "nome": "Vestuário e armarinho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7026,
+          "nome": "Roupas de homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7027,
+          "nome": "Roupas de mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7028,
+          "nome": "Roupas de criança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7029,
+          "nome": "Armarinho, cama, mesa e banho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7030,
+          "nome": "Bolsas, calçados e cintos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7031,
+          "nome": "Sapato e bota de mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7032,
+          "nome": "Tenis de criança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7033,
+          "nome": "Sandália de mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7034,
+          "nome": "Outros (Bolsas, calçados e cintos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7035,
+          "nome": "Fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7036,
+          "nome": "Cigarro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7037,
+          "nome": "Fósforo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7038,
+          "nome": "Outros (Fumo)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "nome": "Locais de compra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6231,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6987,
+          "nome": "Loja de roupas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6988,
+          "nome": "Papelaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6990,
+          "nome": "Bar e mercearia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6991,
+          "nome": "Loja de departamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3575,
+          "nome": "Estabelecimento especializado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6992,
+          "nome": "Farmácia, drogaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3576,
+          "nome": "Feira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3578,
+          "nome": "Supermercado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3579,
+          "nome": "Vendedor ambulante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3580,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6993,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

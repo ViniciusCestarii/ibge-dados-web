@@ -1,0 +1,84 @@
+{
+  "id": 1225,
+  "nome": "Número de estabelecimentos agropecuários com suínos, Número de cabeças e Valor da venda de suínos por agricultura familiar e não familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/1225",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2586,
+      "nome": "Número de estabelecimentos agropecuários com suínos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2102,
+      "nome": "Número de cabeças de suínos nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2587,
+      "nome": "Valor da venda de suínos",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12947,
+      "nome": "Tipo de agricultura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120422,
+          "nome": "Agricultura familiar - lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120423,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 3975,
+  "nome": "Valor do rendimento nominal médio mensal domiciliar per capita das pessoas de 14 a 17 anos de idade, com rendimento mensal domiciliar per capita, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a) e Valor do rendimento nominal mediano mensal domiciliar per capita das pessoas de 14 a 17 anos de idade, com rendimento mensal domiciliar per capita, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a), por situação de ocupação na semana de referência e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/3975",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3949,
+      "nome": "Valor do rendimento nominal médio mensal domiciliar per capita das pessoas de 14 a 17 anos de idade, com rendimento mensal domiciliar per capita, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a)",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3994,
+      "nome": "Valor do rendimento nominal mediano mensal domiciliar per capita das pessoas de 14 a 17 anos de idade, com rendimento mensal domiciliar per capita, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a)",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12085,
+      "nome": "Situação de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100543,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31305,
+          "nome": "Ocupadas - empregadas com carteira de trabalho assinada no trabalho principal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31306,
+          "nome": "Ocupadas - demais ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

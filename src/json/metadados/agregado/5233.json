@@ -1,0 +1,126 @@
+{
+  "id": 5233,
+  "nome": "Domicílios particulares permanentes com utilização da Internet, total e distribuição, por situação do domicílio e a existência de conexão à Internet por banda larga no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5233",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5518,
+      "nome": "Domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5688,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5605,
+      "nome": "Percentual dos domicílios particulares permanentes com utilização da Internet, distribuído pela existência de conexão à Internet por banda larga no domicílio",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1005605,
+      "nome": "Percentual dos domicílios particulares permanentes com utilização da Internet, distribuído pela existência de conexão à Internet por banda larga no domicílio - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5692,
+      "nome": "Coeficiente de variação - Percentual dos domicílios particulares permanentes com utilização da Internet, distribuído pela existência de conexão à Internet por banda larga no domicílio",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 692,
+      "nome": "Existência de conexão à Internet por banda larga no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33343,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33344,
+          "nome": "Banda larga fixa - tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33345,
+          "nome": "Banda larga fixa - não tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33346,
+          "nome": "Banda larga móvel - tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33347,
+          "nome": "Banda larga móvel - não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

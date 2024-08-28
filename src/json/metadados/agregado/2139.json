@@ -1,0 +1,82 @@
+{
+  "id": 2139,
+  "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência, por classes de rendimento mensal do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2139",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 955,
+      "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000955,
+      "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12044,
+      "nome": "Classes de rendimento mensal do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100600,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100493,
+          "nome": "Até 1 salário mínimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100494,
+          "nome": "Mais de 1 salário mínimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99445,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99446,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

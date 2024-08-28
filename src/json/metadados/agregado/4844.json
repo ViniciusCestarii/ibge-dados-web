@@ -1,0 +1,140 @@
+{
+  "id": 4844,
+  "nome": "Rendimento médio e mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade, por Utilização da Internet, no período de referência dos últimos três meses, e nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/4844",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5014,
+      "nome": "Rendimento médio mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5624,
+      "nome": "Coeficiente de variação - Rendimento médio mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5015,
+      "nome": "Rendimento mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5625,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 422,
+      "nome": "Utilização da internet no período de referência dos últimos três meses",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10979,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10980,
+          "nome": "Utilizaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10981,
+          "nome": "Não utilizaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18837,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120712,
+          "nome": "Fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120713,
+          "nome": "Fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120714,
+          "nome": "Médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120715,
+          "nome": "Médio completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99712,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11626,
+          "nome": "Não determinado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

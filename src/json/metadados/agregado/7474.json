@@ -1,0 +1,84 @@
+{
+  "id": 7474,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento, com cobrança de tarifa mínima mensal para a categoria residencial e valor médio da tarifa mínima mensal da água para categoria residencial, por volume do consumo mensal referente à tarifa mínima",
+  "URL": "https://sidra.ibge.gov.br/tabela/7474",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10505,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento, com cobrança de tarifa mínima mensal para a categoria residencial",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10745,
+      "nome": "Valor médio da tarifa mínima mensal de água para a categoria residencial",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 931,
+      "nome": "Volume do consumo mensal referente à tarifa mínima",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48420,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48421,
+          "nome": "5 m3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48422,
+          "nome": "10 m3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48423,
+          "nome": "15 m3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48424,
+          "nome": "20 m3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48425,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

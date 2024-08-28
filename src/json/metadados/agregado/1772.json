@@ -1,0 +1,134 @@
+{
+  "id": 1772,
+  "nome": "Número de distritos com captação superficial de água por existência e tipo de análise realizada na água",
+  "URL": "https://sidra.ibge.gov.br/tabela/1772",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 713,
+      "nome": "Número de distritos com captação superficial",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000713,
+      "nome": "Número de distritos com captação superficial - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 714,
+      "nome": "Número de distritos com captação de poço raso",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000714,
+      "nome": "Número de distritos com captação de poço raso - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 715,
+      "nome": "Número de distritos com captação de poço profundo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000715,
+      "nome": "Número de distritos com captação de poço profundo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 716,
+      "nome": "Número de distritos abastecidos com água proveniente de adutora de água bruta",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000716,
+      "nome": "Número de distritos abastecidos com água proveniente de adutora de água bruta - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11975,
+      "nome": "Existência e tipo de análise realizada na água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98449,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98450,
+          "nome": "Bacteriológica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98451,
+          "nome": "Físico-química",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98452,
+          "nome": "Substâncias químicas orgânicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98453,
+          "nome": "Substâncias químicas inorgânicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98454,
+          "nome": "Indicadores de poluição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98455,
+          "nome": "Teor de fluor natural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98456,
+          "nome": "Não existe análise",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

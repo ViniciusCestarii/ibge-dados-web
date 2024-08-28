@@ -1,0 +1,71 @@
+{
+  "id": 5628,
+  "nome": "Área das unidades de conservação considerando sobreposições e proporção em relação à área do bioma, por tipo de sobreposição",
+  "URL": "https://sidra.ibge.gov.br/tabela/5628",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Áreas protegidas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [],
+    "Especial": [
+      "N123"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6321,
+      "nome": "Área das unidades de conservação considerando sobreposições",
+      "unidade": "Quilômetros quadrados",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 6322,
+      "nome": "Proporção da área das unidades de conservação considerando sobreposições em relação à área do bioma",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 712,
+      "nome": "Tipo de sobreposição entre unidades de conservação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33554,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33555,
+          "nome": "Entre unidades de conservação de proteção integral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33556,
+          "nome": "Entre unidades de conservação de uso sustentável",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33557,
+          "nome": "Entre unidades de conservação de proteção integral e de uso sustentável",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

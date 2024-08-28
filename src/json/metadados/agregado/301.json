@@ -1,0 +1,184 @@
+{
+  "id": 301,
+  "nome": "Domicílios por classes de recebimento mensal domiciliar e condição de ocupação",
+  "URL": "https://sidra.ibge.gov.br/tabela/301",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000162,
+      "nome": "Domicílios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 198,
+      "nome": "Classes de recebimento mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3479,
+          "nome": "Até 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3480,
+          "nome": "Mais de 2 a 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3481,
+          "nome": "Mais de 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3482,
+          "nome": "Mais de 5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3483,
+          "nome": "Mais de 6 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3484,
+          "nome": "Mais de 8 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3485,
+          "nome": "Mais de 10 a 15",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3486,
+          "nome": "Mais de 15 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3487,
+          "nome": "Mais de 20 a 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3488,
+          "nome": "Mais de 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6546,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3467,
+          "nome": "Próprio já pago",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3468,
+          "nome": "Próprio ainda pagando",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1056,
+          "nome": "Cedido por empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1057,
+          "nome": "Cedido por particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4779,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": 2387,
+  "nome": "Domicílios particulares permanentes e Moradores em domicílios particulares permanentes, por classes de rendimento mensal domiciliar e existência de microcomputador, acesso à Internet e tipo de telefone",
+  "URL": "https://sidra.ibge.gov.br/tabela/2387",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12058,
+      "nome": "Classes de rendimento mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99581,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104294,
+          "nome": "Até 10 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99587,
+          "nome": "Mais de 10 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99588,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12228,
+      "nome": "Existência de microcomputador, acesso à Internet e tipo de telefone",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 104306,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104295,
+          "nome": "Microcomputador - tinham",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104296,
+          "nome": "Microcomputador - tinham - com acesso à Internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104297,
+          "nome": "Microcomputador - não tinham",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104298,
+          "nome": "Microcomputador - sem declaração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104299,
+          "nome": "Telefone - tinham",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104300,
+          "nome": "Telefone - tinham - somente celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104301,
+          "nome": "Telefone - tinham - somente fixo convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104302,
+          "nome": "Telefone - tinham - celular e fixo convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104303,
+          "nome": "Telefone - tinham - sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104304,
+          "nome": "Telefone - não tinham",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104305,
+          "nome": "Telefone - sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

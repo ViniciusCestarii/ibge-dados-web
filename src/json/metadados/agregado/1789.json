@@ -1,0 +1,98 @@
+{
+  "id": 1789,
+  "nome": "Número de distritos cujas entidades prestadoras de serviço de abastecimento de água realizam programa de controle de perdas de água, por tipo de controle",
+  "URL": "https://sidra.ibge.gov.br/tabela/1789",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 733,
+      "nome": "Número de distritos com programa de controle de perdas de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000733,
+      "nome": "Número de distritos com programa de controle de perdas de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11985,
+      "nome": "Tipo de controle de perdas de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98612,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98415,
+          "nome": "Fiscalização de ligações clandestinas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98416,
+          "nome": "Substituição de redes velhas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98417,
+          "nome": "Manutenção de hidrômetro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98418,
+          "nome": "Caça-vazamento na rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98419,
+          "nome": "Pitometria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98420,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98421,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

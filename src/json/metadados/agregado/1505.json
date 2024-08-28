@@ -1,0 +1,88 @@
+{
+  "id": 1505,
+  "nome": "População residente, por naturalidade em relação ao município e à unidade da federação - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/1505",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N18"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12017,
+      "nome": "Naturalidade em relação ao município e à unidade da federação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99007,
+          "nome": "Naturais do município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99009,
+          "nome": "Não naturais do município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110986,
+          "nome": "Naturais da unidade da federação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110987,
+          "nome": "Não naturais da unidade da federação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

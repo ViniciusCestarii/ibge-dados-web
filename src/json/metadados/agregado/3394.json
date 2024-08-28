@@ -1,0 +1,109 @@
+{
+  "id": 3394,
+  "nome": "Pessoas de 10 anos ou mais de idade por idade, ocupadas na semana de referência, por posição na ocupação e categoria do emprego no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3394",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11913,
+      "nome": "Posição na ocupação e categoria do emprego no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 96166,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96167,
+          "nome": "Empregado - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96168,
+          "nome": "Empregado - militar e funcionário público estatutário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12128,
+          "nome": "Empregado - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9885,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96173,
+          "nome": "Trabalhador na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12127,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96170,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96171,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

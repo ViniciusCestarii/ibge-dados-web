@@ -1,0 +1,137 @@
+{
+  "id": 9803,
+  "nome": "Domicílios particulares permanentes ocupados, total e com pelo menos um morador quilombola, por tipo de domicílio e localização do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9803",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000381,
+      "nome": "Domicílios particulares permanentes ocupados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1007081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2932,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6815,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121264,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71975,
+          "nome": "Habitação em casa de cômodos ou cortiço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71976,
+          "nome": "Habitação indígena sem paredes ou maloca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71977,
+          "nome": "Estrutura residencial permanente degradada ou inacabada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60027,
+          "nome": "Em territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60028,
+          "nome": "Fora de territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

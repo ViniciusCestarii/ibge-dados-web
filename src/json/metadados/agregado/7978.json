@@ -1,0 +1,127 @@
+{
+  "id": 7978,
+  "nome": "Pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados, por tipo de exame e realização do exame",
+  "URL": "https://sidra.ibge.gov.br/tabela/7978",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11224,
+      "nome": "Pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11225,
+      "nome": "Pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11226,
+      "nome": "Pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11227,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11228,
+      "nome": "Percentual de pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11229,
+      "nome": "Percentual de pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11230,
+      "nome": "Percentual de pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11231,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais que referem diagnóstico médico de hipertensão arterial e tiveram exames solicitados",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1157,
+      "nome": "Tipo de exame",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50607,
+          "nome": "Exame de sangue (colesterol, glicemia, triglicerídeos)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50608,
+          "nome": "Exame de urina",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50609,
+          "nome": "Eletrocardiograma",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50610,
+          "nome": "Teste de esforço",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1158,
+      "nome": "Realização do exame",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50612,
+          "nome": "Realizou",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50613,
+          "nome": "Não realizou",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

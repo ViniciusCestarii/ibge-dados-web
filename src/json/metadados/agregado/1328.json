@@ -1,0 +1,352 @@
+{
+  "id": 1328,
+  "nome": "Estudantes frequentando o 9º ano do ensino fundamental, por dependência administrativa do estabelecimento, sexo, se o escolar experimentou bebida alcoólica alguma vez na vida, idade quando experimentou bebida alcoólica pela 1ª vez, nos últimos 30 dias, nos dias em que o escolar tomou alguma bebida alcólica, quantos copos ou doses tomou por dia e quantas vezes na vida o escolar bebeu tanto que ficou realmente bêbado",
+  "URL": "https://sidra.ibge.gov.br/tabela/1328",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de álcool",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2377,
+      "nome": "Dependência administrativa do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35242,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35243,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35244,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99124,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35241,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 572,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "nome": "Experimentou bebida alcoólica alguma vez na vida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1267,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1268,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1269,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "nome": "Idade quando experimentou bebida alcoólica pela 1ª vez",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1270,
+          "nome": "Nunca experimentou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1271,
+          "nome": "9 anos ou menos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1272,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1273,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1274,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1275,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1276,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1277,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1278,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1279,
+          "nome": "17 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1280,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "nome": "Nos últimos 30 dias, nos dias em que o escolar tomou alguma bebida alcólica, quantos copos ou doses tomou po dia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1281,
+          "nome": "Não tomou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1290,
+          "nome": "Menos de 1 copo ou 1 dose",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1306,
+          "nome": "1 copo ou 1 dose",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1307,
+          "nome": "2 copos ou 2 doses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1308,
+          "nome": "3 copos ou 3 doses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1309,
+          "nome": "4 copos ou 4 doses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1310,
+          "nome": "5 copos ou mais ou 5 doses ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1311,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "nome": "Na vida do escolar, quantas vezes ele bebeu tanto que ficou realmente bêbado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1312,
+          "nome": "Nenhuma vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1318,
+          "nome": "1 ou 2 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1322,
+          "nome": "3 ou 5 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1326,
+          "nome": "6 ou 9 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1342,
+          "nome": "10 vezes ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1360,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

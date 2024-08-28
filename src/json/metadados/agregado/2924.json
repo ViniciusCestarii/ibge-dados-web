@@ -1,0 +1,173 @@
+{
+  "id": 2924,
+  "nome": "Domicílios particulares, por recebimento de dinheiro de programa social do governo no mês de referência, situação do domicílio e classes de rendimento mensal domiciliar per capita (salários mínimos)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2924",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 800,
+      "nome": "Domicílios particulares",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000800,
+      "nome": "Domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12380,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107475,
+          "nome": "Não receberam dinheiro de programa social do governo no mês de referência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107476,
+          "nome": "Receberam dinheiro de programa social do governo no mês de referência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107477,
+          "nome": "Receberam dinheiro de programa social do governo no mês de referência - somente de um programa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107478,
+          "nome": "Receberam dinheiro de programa social do governo no mês de referência - de mais de um programa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107479,
+          "nome": "Receberam dinheiro de programa social do governo no mês de referência - sem declaração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107480,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12381,
+      "nome": "Classes de rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107486,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107487,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107488,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107489,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107490,
+          "nome": "Mais de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107491,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107492,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

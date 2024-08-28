@@ -1,0 +1,198 @@
+{
+  "id": 1972,
+  "nome": "Pessoas que frequentavam creche ou escola por nível e rede de ensino",
+  "URL": "https://sidra.ibge.gov.br/tabela/1972",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 690,
+      "nome": "Pessoas que frequentavam escola ou creche",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000690,
+      "nome": "Pessoas que frequentavam escola ou creche - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11798,
+      "nome": "Nível de ensino ou curso que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95301,
+          "nome": "Creche",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95302,
+          "nome": "Pré-escolar ou classe de alfabetização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107454,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7904,
+          "nome": "Classe de alfabetização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7905,
+          "nome": "Alfabetização de jovens e adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95303,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7906,
+          "nome": "Regular de ensino fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7907,
+          "nome": "Educação de jovens e adultos do ensino fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95304,
+          "nome": "Fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7908,
+          "nome": "Regular do ensino médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7909,
+          "nome": "Educação de jovens e adultos do ensino médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95305,
+          "nome": "Médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95306,
+          "nome": "Pré-vestibular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95307,
+          "nome": "Superior de graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7910,
+          "nome": "Especialização de nível superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7911,
+          "nome": "Mestrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7912,
+          "nome": "Doutorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95308,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11797,
+      "nome": "Rede de ensino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95298,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95297,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 6701,
+  "nome": "Pessoas com deficiência em pelo menos uma de suas funções, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/6701",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11755,
+      "nome": "Pessoas com deficiência em pelo menos uma de suas funções",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11756,
+      "nome": "Pessoas com deficiência em pelo menos uma de suas funções, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11757,
+      "nome": "Pessoas com deficiência em pelo menos uma de suas funções, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11758,
+      "nome": "Coeficiente de variação - Pessoas com deficiência em pelo menos uma de suas funções",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11764,
+      "nome": "Percentual de pessoas com deficiência em pelo menos uma de suas funções",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11760,
+      "nome": "Percentual de pessoas com deficiência em pelo menos uma de suas funções, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11761,
+      "nome": "Percentual de pessoas com deficiência em pelo menos uma de suas funções, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11762,
+      "nome": "Coeficiente de variação - Percentual de pessoas com deficiência em pelo menos uma de suas funções",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

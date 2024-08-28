@@ -1,0 +1,112 @@
+{
+  "id": 2056,
+  "nome": "Pessoas de 10 anos ou mais de idade, total e em relação ao total de pessoas ocupadas na semana de referência por posição na ocupação no trabalho principal na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/2056",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 889,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 928,
+      "nome": "Pessoas de 10 anos ou mais de idade em relação ao total de pessoas ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 929,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade em relação ao total de pessoas ocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12071,
+      "nome": "Posição na ocupação no trabalho principal na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          889,
+          929
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100058,
+          "nome": "Empregadas - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100059,
+          "nome": "Empregadas - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100060,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100061,
+          "nome": "Empregadoras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111373,
+          "nome": "Trabalhadoras, não remuneradas, de membro da unidade domiciliar que era empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111374,
+          "nome": "Militares ou funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100062,
+          "nome": "Trabalhadoras, não remuneradas, de membro da unidade domiciliar que era conta própria ou empregador",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

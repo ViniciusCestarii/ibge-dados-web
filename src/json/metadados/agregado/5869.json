@@ -1,0 +1,134 @@
+{
+  "id": 5869,
+  "nome": "Mulheres com parto vaginal, por cor ou raça e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5869",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Pré-natal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7024,
+      "nome": "Mulheres com parto vaginal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7025,
+      "nome": "Mulheres com parto vaginal, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7026,
+      "nome": "Mulheres com parto vaginal, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7027,
+      "nome": "Coeficiente de variação - Mulheres com parto vaginal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7028,
+      "nome": "Percentual de mulheres com parto vaginal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7029,
+      "nome": "Percentual de mulheres com parto vaginal, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7030,
+      "nome": "Percentual de mulheres com parto vaginal, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7031,
+      "nome": "Coeficiente de variação - Percentual de mulheres com parto vaginal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

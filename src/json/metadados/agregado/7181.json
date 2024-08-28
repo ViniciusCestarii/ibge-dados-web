@@ -1,0 +1,104 @@
+{
+  "id": 7181,
+  "nome": "Pessoas de 14 anos ou mais de idade com nível de instrução até o ensino fundamental completo que frequentaram curso de qualificação profissional, por sexo e conclusão do curso de qualificação profissional",
+  "URL": "https://sidra.ibge.gov.br/tabela/7181",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10346,
+      "nome": "Pessoas de 14 anos ou mais de idade com nível de instrução até o ensino fundamental completo que frequentaram curso de qualificação profissional",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10347,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade com nível de instrução até o ensino fundamental completo que frequentaram curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10348,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade com nível de instrução até o ensino fundamental completo que frequentaram curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10349,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade com nível de instrução até o ensino fundamental completo que frequentaram curso de qualificação profissional",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "nome": "Conclusão do curso de qualificação profissional",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47916,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47917,
+          "nome": "Concluiu curso de qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47918,
+          "nome": "Não concluiu curso de qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

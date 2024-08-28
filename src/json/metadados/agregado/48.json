@@ -1,0 +1,75 @@
+{
+  "id": 48,
+  "nome": "Peso das carcaças de aves abatidas",
+  "URL": "https://sidra.ibge.gov.br/tabela/48",
+  "pesquisa": "Pesquisa Mensal de Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 34,
+      "nome": "Peso das carcaças",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000034,
+      "nome": "Peso das carcaças - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 22,
+      "nome": "Aves",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 995,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 66,
+          "nome": "Frangos e frangas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 64,
+          "nome": "Galos e galinhas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 65,
+          "nome": "Patos, marrecos e gansos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 63,
+          "nome": "Perus",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

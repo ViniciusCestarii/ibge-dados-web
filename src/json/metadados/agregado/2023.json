@@ -1,0 +1,123 @@
+{
+  "id": 2023,
+  "nome": "Moradores em domicílios particulares permanentes por densidade de moradores por dormitório e existência de banheiro ou sanitário e esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/2023",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 132,
+      "nome": "Densidade de moradores por dormitório",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2906,
+          "nome": "Até 1,0 morador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95823,
+          "nome": "Mais de 1,0 a 2,0 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95824,
+          "nome": "Mais de 2,0 a 3,0 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95825,
+          "nome": "Mais de 3,0 moradores",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11861,
+      "nome": "Existência de banheiro ou sanitário e tipo de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95834,
+          "nome": "Tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95835,
+          "nome": "Tinham banheiro ou sanitário - rede geral de esgoto ou pluvial ou fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95836,
+          "nome": "Tinham banheiro ou sanitário - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95837,
+          "nome": "Não tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

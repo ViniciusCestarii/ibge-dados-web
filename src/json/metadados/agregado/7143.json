@@ -1,0 +1,129 @@
+{
+  "id": 7143,
+  "nome": "Estudantes, por curso frequentado e rede de ensino",
+  "URL": "https://sidra.ibge.gov.br/tabela/7143",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10272,
+      "nome": "Estudantes",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10273,
+      "nome": "Coeficiente de variação - Estudantes",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10274,
+      "nome": "Distribuição percentual dos estudantes",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10275,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 872,
+      "nome": "Curso frequentado",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47821,
+          "nome": "Creche e pré-escola",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47822,
+          "nome": "AJA, Ensino Fundamental e EJA do Ensino Fundamental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47823,
+          "nome": "Ensino Fundamental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47824,
+          "nome": "Ensino Médio e EJA do Ensino Médio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47825,
+          "nome": "Ensino Médio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47826,
+          "nome": "Superior - Graduação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47827,
+          "nome": "Especialização, Mestrado e Doutorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 11797,
+      "nome": "Rede de ensino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95299,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95298,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47820,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

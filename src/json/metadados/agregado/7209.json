@@ -1,0 +1,104 @@
+{
+  "id": 7209,
+  "nome": "Estudantes de 14 anos ou mais de idade no ensino médio (regular ou EJA), por cor ou raça e frequência a curso técnico de nível médio ou normal (magistério)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7209",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10317,
+      "nome": "Estudantes de 14 anos ou mais de idade no ensino médio (regular ou EJA)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10318,
+      "nome": "Coeficiente de variação - Estudantes de 14 anos ou mais de idade no ensino médio (regular ou EJA)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10319,
+      "nome": "Distribuição percentual dos estudantes de 14 anos ou mais de idade no ensino médio (regular ou EJA)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10320,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes de 14 anos ou mais de idade no ensino médio (regular ou EJA)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 895,
+      "nome": "Frequência a curso técnico de nível médio ou normal (magistério)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48003,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48001,
+          "nome": "Frequenta curso técnico de nível médio ou curso normal (magistério)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48002,
+          "nome": "Não frequenta curso técnico de nível médio ou curso normal (magistério)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": 783,
+  "nome": "Movimento pecuário de bovinos no ano nos estabelecimentos agropecuários, por grupos de área de pastagem e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/783",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2057,
+      "nome": "Número de cabeças de bovinos nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2058,
+      "nome": "Valor das cabeças de bovinos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12626,
+      "nome": "Movimento pecuário de bovinos no ano",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114157,
+          "nome": "Nascidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114158,
+          "nome": "Vitimados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114159,
+          "nome": "Abatidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114160,
+          "nome": "Comprados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114161,
+          "nome": "Vendidos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12625,
+      "nome": "Grupos de área de pastagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114136,
+          "nome": "Maior que 0 e menor que 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114137,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114138,
+          "nome": "De 2 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114139,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114140,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114141,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114142,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114143,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114144,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114145,
+          "nome": "De 500 e mais ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114146,
+          "nome": "Produtor sem área de pastagem",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111559,
+          "nome": "De 2.500 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

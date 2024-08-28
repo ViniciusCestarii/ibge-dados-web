@@ -1,0 +1,170 @@
+{
+  "id": 1571,
+  "nome": "Número de estabelecimentos agropecuários com informações sobre bens e Valor dos bens em 31/12 por tipo de bem e classes de idade do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/1571",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 366,
+      "nome": "Número de estabelecimentos agropecuários com informações sobre bens",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000366,
+      "nome": "Número de estabelecimentos agropecuários com informações sobre bens - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1994,
+      "nome": "Valor dos bens dos estabelecimentos em 31/12",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001994,
+      "nome": "Valor dos bens dos estabelecimentos em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12545,
+      "nome": "Tipo de bem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111943,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111945,
+          "nome": "Bens imóveis - prédios, instalações e outras benfeitorias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111946,
+          "nome": "Bens imóveis - terras (inclusive matas naturais)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111947,
+          "nome": "Bens imóveis - lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111949,
+          "nome": "Bens imóveis - matas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111950,
+          "nome": "Outros bens - veículos, tratores, máquinas e implementos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111952,
+          "nome": "Outros bens - animais (reprodução, criação e outros fins)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118195,
+          "nome": "De 65 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118196,
+          "nome": "Idade não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

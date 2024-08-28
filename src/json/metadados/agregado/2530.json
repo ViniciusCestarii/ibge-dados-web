@@ -1,0 +1,170 @@
+{
+  "id": 2530,
+  "nome": "População residente, por situação de internação hospitalar nos últimos doze meses e o número de internações, sexo e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2530",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12281,
+      "nome": "Situação de internação hospitalar nos últimos doze meses e o número de internações",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 105018,
+          "nome": "Não foram internadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105019,
+          "nome": "Foram internadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105020,
+          "nome": "Foram internadas - 1 vez",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105021,
+          "nome": "Foram internadas - 2 ou mais vezes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105022,
+          "nome": "Foram internadas - sem declaração do número de internações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 105023,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1140,
+          "nome": "0 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104987,
+          "nome": "5 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104870,
+          "nome": "20 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104895,
+          "nome": "40 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6798,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3245,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

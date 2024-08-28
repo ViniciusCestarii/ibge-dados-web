@@ -1,0 +1,63 @@
+{
+  "id": 3837,
+  "nome": "Taxa de frequência escolar bruta e Taxa de frequência escolar líquida, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3837",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Frequência escolar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3795,
+      "nome": "Taxa de frequência escolar bruta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3796,
+      "nome": "Taxa de frequência escolar líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

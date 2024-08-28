@@ -1,0 +1,105 @@
+{
+  "id": 2920,
+  "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior), por nível de ensino e tempo de permanência diária na creche ou escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/2920",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1624,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001624,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11798,
+      "nome": "Nível de ensino ou curso que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95300,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95301,
+          "nome": "Creche",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107454,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95304,
+          "nome": "Fundamental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95305,
+          "nome": "Médio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12375,
+      "nome": "Tempo de permanência diária na creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107457,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107455,
+          "nome": "Até 4 horas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107456,
+          "nome": "Mais de 4 horas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

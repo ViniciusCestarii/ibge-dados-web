@@ -1,0 +1,153 @@
+{
+  "id": 2930,
+  "nome": "Distribuição do rendimento nominal mensal, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal das famílias residentes em domicílios particulares, com rendimento familiar por situação do domicílio e classes simples de percentual em ordem crescente de rendimento familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/2930",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1631,
+      "nome": "Distribuição do rendimento nominal mensal das famílias residentes em domicílios particulares com rendimento familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1628,
+      "nome": "Valor do rendimento nominal médio mensal das famílias residentes em domicílios particulares com rendimento familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1630,
+      "nome": "Valor do rendimento nominal mediano mensal das famílias residentes em domicílios particulares com rendimento familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12384,
+      "nome": "Classes simples de percentual em ordem crescente de rendimento familiar",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107588,
+          "nome": "Até 10 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107589,
+          "nome": "Mais de 10 a 20 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107590,
+          "nome": "Mais de 20 a 30 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107591,
+          "nome": "Mais de 30 a 40 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107592,
+          "nome": "Mais de 40 a 50 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107593,
+          "nome": "Mais de 50 a 60 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107594,
+          "nome": "Mais de 60 a 70 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107595,
+          "nome": "Mais de 70 a 80 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107596,
+          "nome": "Mais de 80 a 90 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107597,
+          "nome": "Mais de 90 a 100 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107598,
+          "nome": "Mais de 95 a 100 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107599,
+          "nome": "Mais de 99 a 100 %",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

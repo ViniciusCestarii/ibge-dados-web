@@ -1,0 +1,583 @@
+{
+  "id": 9284,
+  "nome": "Número de estabelecimentos agropecuários com produtos da extração vegetal, Quantidade produzida na extração vegetal, Quantidade vendida de produtos da extração vegetal, Valor da produção na extração vegetal e Valor da venda de produtos da extração vegetal, por existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar, produtos da extração vegetal, condição do produtor em relação às terras e grupos de atividade econômica",
+  "URL": "https://sidra.ibge.gov.br/tabela/9284",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Extração vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10071,
+      "nome": "Número de estabelecimentos agropecuários com produtos da extração vegetal",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 144,
+      "nome": "Quantidade produzida na extração vegetal",
+      "unidade": "Vide categorias da classificação 'Produtos da extração vegetal'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10072,
+      "nome": "Quantidade vendida de produtos da extração vegetal",
+      "unidade": "Vide categorias da classificação 'Produtos da extração vegetal'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 145,
+      "nome": "Valor da produção na extração vegetal",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10073,
+      "nome": "Valor da venda de produtos da extração vegetal",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1503,
+      "nome": "Existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58747,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58748,
+          "nome": "Com dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58749,
+          "nome": "Com dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58750,
+          "nome": "Com dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58751,
+          "nome": "Sem dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58752,
+          "nome": "Sem dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58753,
+          "nome": "Sem dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58754,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "nome": "Produtos da extração vegetal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          144,
+          10072
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5052,
+          "nome": "Açaí (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5053,
+          "nome": "Andiroba (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40628,
+          "nome": "Araticum (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5055,
+          "nome": "Babaçu (coco)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5056,
+          "nome": "Babaçu (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40630,
+          "nome": "Bacaba (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5058,
+          "nome": "Bacuri",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40631,
+          "nome": "Baru (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5061,
+          "nome": "Borracha (látex líquido)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5062,
+          "nome": "Borracha (látex coagulado)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5063,
+          "nome": "Buriti (coco)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5064,
+          "nome": "Buriti (palha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5066,
+          "nome": "Butiá (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40632,
+          "nome": "Cacau (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40633,
+          "nome": "Cagaita (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111568,
+          "nome": "Cajarana",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40634,
+          "nome": "Camu-camu (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5070,
+          "nome": "Carnaúba (cera)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5072,
+          "nome": "Carnaúba (pó de palha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111569,
+          "nome": "Casca de angico",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5077,
+          "nome": "Castanha-do-Brasil (castanha-do-Pará)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5078,
+          "nome": "Caucho (goma elástica)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5079,
+          "nome": "Copaíba (óleo)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5081,
+          "nome": "Cumaru (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5082,
+          "nome": "Cupuaçu",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5083,
+          "nome": "Erva-mate",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111570,
+          "nome": "Ipecacuanha (raiz)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5087,
+          "nome": "Jaborandi (folha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40635,
+          "nome": "Jambu (folha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40636,
+          "nome": "Juçara (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5090,
+          "nome": "Lenha",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 1
+        },
+        {
+          "id": 5091,
+          "nome": "Licuri (coquilho)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5092,
+          "nome": "Licuri (cera)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5094,
+          "nome": "Maçaranduba (goma não elástica)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 40629,
+          "nome": "Macaúba (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5101,
+          "nome": "Mangaba (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5102,
+          "nome": "Maniçoba (goma elástica)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111571,
+          "nome": "Madeira em toras para papel",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 1
+        },
+        {
+          "id": 111572,
+          "nome": "Madeira em toras outra finalidade",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 1
+        },
+        {
+          "id": 5104,
+          "nome": "Murici",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5105,
+          "nome": "Murumuru (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111573,
+          "nome": "Palmito",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5107,
+          "nome": "Oiticica (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111574,
+          "nome": "Pequi",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5116,
+          "nome": "Piaçava (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5117,
+          "nome": "Pinhão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111575,
+          "nome": "Pupunha (coco)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5123,
+          "nome": "Sorva (goma não elástica)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5128,
+          "nome": "Ucuuba (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5129,
+          "nome": "Imbú ou umbú",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5110,
+          "nome": "Outros produtos",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111576,
+          "nome": "Tucumã",
+          "unidade": "Toneladas",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113601,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": 9589,
+  "nome": "Número de microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio no ano anterior ao de referência e salário médio mensal, por sexo, indicativo/causa de desligamento e nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/9589",
+  "pesquisa": "Estatísticas dos Cadastros de Microempreendedores Individuais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8888,
+      "nome": "Número de microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio no ano anterior ao de referência",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1008888,
+      "nome": "Número de microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio no ano anterior ao de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8889,
+      "nome": "Salário médio mensal dos microempreendedores individuais (MEIs) filiados no ano de referência com vínculo prévio no ano anterior ao de referência",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1742,
+      "nome": "Indicativo/causa de desligamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60174,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71431,
+          "nome": "Desligados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60175,
+          "nome": "Empregador ou justa causa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60176,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60177,
+          "nome": "Término do contrato de trabalho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60178,
+          "nome": "Outras causas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 71432,
+          "nome": "Não desligados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60080,
+          "nome": "Sem ensino superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60081,
+          "nome": "Analfabetos e fundamental incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60082,
+          "nome": "Ensino superior ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": 7133,
+  "nome": "Pessoas de 25 anos ou mais de idade, por sexo e grupos de anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/7133",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1643,
+      "nome": "Pessoas de 25 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10269,
+      "nome": "Coeficiente de variação - Pessoas de 25 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10270,
+      "nome": "Distribuição percentual das pessoas de 25 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10271,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 25 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95309,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47808,
+          "nome": "Sem instrução ou menos de 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47809,
+          "nome": "5 a 8 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6663,
+          "nome": "9 a 11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6664,
+          "nome": "12 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

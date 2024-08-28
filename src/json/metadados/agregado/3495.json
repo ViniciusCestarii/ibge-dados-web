@@ -1,0 +1,108 @@
+{
+  "id": 3495,
+  "nome": "Unidades domésticas residentes em domicílios particulares. por tipo de família, segundo a situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3495",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1676,
+      "nome": "Unidades domésticas residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001676,
+      "nome": "Unidades domésticas residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 174,
+      "nome": "Tipo de família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 13384,
+          "nome": "Unipessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13385,
+          "nome": "Duas ou mais pessoas sem parentesco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13386,
+          "nome": "Duas ou mais pessoas com parentesco",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

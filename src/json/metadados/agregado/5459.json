@@ -1,0 +1,126 @@
+{
+  "id": 5459,
+  "nome": "Número de estabelecimentos e Capacidade útil das unidades armazenadoras, por tipo de unidade armazenadora e grupos de capacidade útil",
+  "URL": "https://sidra.ibge.gov.br/tabela/5459",
+  "pesquisa": "Pesquisa de Estoques",
+  "assunto": "Estoques agropecuários",
+  "periodicidade": {
+    "frequencia": "semestral",
+    "inicio": 200702,
+    "fim": 202302
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 152,
+      "nome": "Número de estabelecimentos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 153,
+      "nome": "Capacidade útil",
+      "unidade": "Toneladas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 166,
+      "nome": "Tipo de unidade armazenadora",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114630,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3067,
+          "nome": "Armazéns graneleiros e granelizados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3327,
+          "nome": "Silos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11278,
+      "nome": "Grupos de capacidade útil",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39324,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33460,
+          "nome": "menos de 1.200 toneladas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33461,
+          "nome": "de 1.200 a menos de 5.000 toneladas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33462,
+          "nome": "de 5.000 a menos de 10.000 toneladas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33463,
+          "nome": "de 10.000 a menos de 50.000 toneladas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33464,
+          "nome": "de 50.000 a menos de 100.000 toneladas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33465,
+          "nome": "de 100.000 a menos de 200.000 toneladas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33466,
+          "nome": "200.000 toneladas ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

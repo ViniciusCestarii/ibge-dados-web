@@ -1,0 +1,64 @@
+{
+  "id": 893,
+  "nome": "Concentração média anual, segundo o tipo de poluente",
+  "URL": "https://sidra.ibge.gov.br/tabela/893",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Concentração de poluentes no ar em áreas urbanas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 2011
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2141,
+      "nome": "Concentração média anual de poluentes",
+      "unidade": "Microgramas por metro cúbico",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12679,
+      "nome": "Tipo de poluente",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114575,
+          "nome": "PTS - partículas totais em suspensão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114576,
+          "nome": "PM10 - partículas inaláveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114577,
+          "nome": "SO2 - dióxido de enxofre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114578,
+          "nome": "NO2 - dióxido de nitrogênio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

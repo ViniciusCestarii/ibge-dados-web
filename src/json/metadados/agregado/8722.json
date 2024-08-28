@@ -1,0 +1,116 @@
+{
+  "id": 8722,
+  "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio, por existência de incivilidade nos arredores do domicílio nos últimos 12 meses e tipo de incivilidade",
+  "URL": "https://sidra.ibge.gov.br/tabela/8722",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12567,
+      "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12568,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12569,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12570,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1391,
+      "nome": "Existência de incivilidade nos arredores do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57887,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57888,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1406,
+      "nome": "Tipo de incivilidade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57869,
+          "nome": "Prédio, casa ou galpão abandonado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57870,
+          "nome": "Carro abandonado, arrebentado ou desmontado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57871,
+          "nome": "Terreno baldio ou lote abandonado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57872,
+          "nome": "Morador de rua",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57873,
+          "nome": "Pessoas consumindo drogas ilegais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57874,
+          "nome": "Pessoas se prostituindo na rua",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

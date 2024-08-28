@@ -1,0 +1,319 @@
+{
+  "id": 287,
+  "nome": "Domicílios particulares permanentes por classes de aluguel nominal mensal domiciliar, condição de ocupação, localização, tipo de cobertura, tipo de parede e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/287",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 192,
+      "nome": "Classes de aluguel nominal mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3392,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3393,
+          "nome": "Mais de 1/4 a 1/2 salário minimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3394,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3395,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3396,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3397,
+          "nome": "Mais de 3 a 4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3398,
+          "nome": "Mais de 4 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3399,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3400,
+          "nome": "Domicílios não alugados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3401,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1053,
+          "nome": "Próprio a construção e o terreno",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1054,
+          "nome": "Próprio só a construção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1056,
+          "nome": "Cedido por empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1057,
+          "nome": "Cedido por particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "nome": "Localização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1025,
+          "nome": "Casa isolada ou de condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1026,
+          "nome": "Casa em conjunto residencial popular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1027,
+          "nome": "Casa em aglomerado subnormal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1028,
+          "nome": "Apartamento isolado ou de condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1029,
+          "nome": "Apartamento em conjunto residencial popular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1030,
+          "nome": "Apartamento em aglomerado subnormal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1031,
+          "nome": "Cômodo(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "nome": "Tipo de cobertura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3240,
+          "nome": "Durável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3241,
+          "nome": "Não durável",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "nome": "Tipo de parede",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3238,
+          "nome": "Durável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3239,
+          "nome": "Não durável",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

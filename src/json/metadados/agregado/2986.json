@@ -1,0 +1,131 @@
+{
+  "id": 2986,
+  "nome": "Pessoas de 10 anos ou mais de idade por grupo de anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2986",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3319,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1123,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2507,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6662,
+          "nome": "5 a 7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2508,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109061,
+          "nome": "9 e 10 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2509,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1134,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 1135,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 1136,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 1137,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 2796,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": 7108,
+  "nome": "Domicílios e Moradores com televisão, por situação do domicílio e recepção de sinal analógico ou digital de televisão aberta",
+  "URL": "https://sidra.ibge.gov.br/tabela/7108",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10519,
+      "nome": "Domicílios com televisão",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10520,
+      "nome": "Coeficiente de variação - Domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10521,
+      "nome": "Distribuição percentual dos domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10522,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10523,
+      "nome": "Moradores em domicílios com televisão",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10524,
+      "nome": "Coeficiente de variação - Moradores em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10525,
+      "nome": "Distribuição percentual dos moradores em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10526,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1702,
+      "nome": "Recepção de sinal de televisão aberta",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59905,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59906,
+          "nome": "Recebiam sinal analógico ou digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59907,
+          "nome": "Não recebiam sinal analógico ou digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59908,
+          "nome": "Não sabiam se recebiam sinal de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

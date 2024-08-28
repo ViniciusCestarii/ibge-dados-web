@@ -1,0 +1,127 @@
+{
+  "id": 8034,
+  "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde, por tipo de violência e tipo de consequência para saúde",
+  "URL": "https://sidra.ibge.gov.br/tabela/8034",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Violência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11408,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11409,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11410,
+      "nome": "Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11411,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11412,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11413,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11414,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11415,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que sofreram violência nos últimos 12 meses e tiveram alguma consequência para a saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1226,
+      "nome": "Tipo de violência",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 51098,
+          "nome": "Psicológica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51099,
+          "nome": "Física",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51100,
+          "nome": "Sexual",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1227,
+      "nome": "Tipo de consequência para saúde",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 51101,
+          "nome": "Medo, tristeza, desânimo, dificuldade para dormir, ansiedade, depressão ou outras consequências psicológicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51102,
+          "nome": "Hematomas, cortes, fraturas, queimaduras ou outras lesões físicas ou ferimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51103,
+          "nome": "Doença sexualmente transmissível ou gravidez indesejada",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

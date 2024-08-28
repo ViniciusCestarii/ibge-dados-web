@@ -1,0 +1,104 @@
+{
+  "id": 7188,
+  "nome": "Estudantes na Educação de Jovens e Adultos, por nível do curso e grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/7188",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10354,
+      "nome": "Estudantes na Educação de Jovens e Adultos",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10355,
+      "nome": "Coeficiente de variação - Estudantes na Educação de Jovens e Adultos",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10356,
+      "nome": "Distribuição dos estudantes na Educação de Jovens e Adultos",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10357,
+      "nome": "Coeficiente de variação - Distribuição dos estudantes na Educação de Jovens e Adultos",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 885,
+      "nome": "Nível do curso",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47926,
+          "nome": "EJA do ensino fundamental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47927,
+          "nome": "EJA do ensino médio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14434,
+          "nome": "Até 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108875,
+          "nome": "25 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109012,
+          "nome": "40 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

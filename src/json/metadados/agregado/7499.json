@@ -1,0 +1,102 @@
+{
+  "id": 7499,
+  "nome": "Número de ligações ativas abastecidas, total e micromedidas, número de economias ativas abastecidas e volume de água consumido e faturado por dia, por tipos de ligações ou economias",
+  "URL": "https://sidra.ibge.gov.br/tabela/7499",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10711,
+      "nome": "Número de ligações ativas abastecidas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10738,
+      "nome": "Número de ligações ativas abastecidas micromedidas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 339,
+      "nome": "Número de economias ativas abastecidas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 448,
+      "nome": "Volume de água consumida por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    },
+    {
+      "id": 10739,
+      "nome": "Volume de água faturado por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 988,
+      "nome": "Tipos de ligações ou economias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48981,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48982,
+          "nome": "Residencial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48984,
+          "nome": "Comercial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48985,
+          "nome": "Industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48986,
+          "nome": "Órgãos públicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48987,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

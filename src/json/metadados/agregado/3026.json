@@ -1,0 +1,76 @@
+{
+  "id": 3026,
+  "nome": "População residente em domicílios particulares com insegurança alimentar moderada ou grave, por cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/3026",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1652,
+      "nome": "População residente em domicílios particulares com insegurança alimentar moderada ou grave",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001652,
+      "nome": "População residente em domicílios particulares com insegurança alimentar moderada ou grave - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120641,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2781,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

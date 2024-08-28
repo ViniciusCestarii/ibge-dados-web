@@ -1,0 +1,328 @@
+{
+  "id": 3560,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por classes de rendimento nominal mensal do trabalho principal, segundo o sexo e a posição na ocupação, subgrupo e categoria do emprego e contribuição para instituto de previdência oficial no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3560",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11804,
+      "nome": "Classes de rendimento nominal mensal do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14586,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14587,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14859,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95365,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95366,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95367,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95368,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14860,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14861,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14862,
+          "nome": "Mais de 20 a 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14863,
+          "nome": "Mais de 30 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95950,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12383,
+      "nome": "Posição na ocupação, subgrupo e categoria do emprego e contribuição para instituto de previdência oficial no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107553,
+          "nome": "Empregados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107554,
+          "nome": "Empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107555,
+          "nome": "Empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107556,
+          "nome": "Empregados - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107557,
+          "nome": "Empregados - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107558,
+          "nome": "Empregados - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107559,
+          "nome": "Empregados - trabalhadores domésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107560,
+          "nome": "Empregados - trabalhadores domésticos - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107561,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107562,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107563,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107564,
+          "nome": "Empregados - demais empregados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107565,
+          "nome": "Empregados - demais empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107566,
+          "nome": "Empregados - demais empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107567,
+          "nome": "Empregados - demais empregados - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 107568,
+          "nome": "Empregados - demais empregados - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107569,
+          "nome": "Empregados - demais empregados - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 107573,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107574,
+          "nome": "Conta própria - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107575,
+          "nome": "Conta própria - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107570,
+          "nome": "Empregadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107571,
+          "nome": "Empregadores - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107572,
+          "nome": "Empregadores - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 15352,
+          "nome": "Não remunerados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107577,
+          "nome": "Trabalhadores na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

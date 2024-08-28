@@ -1,0 +1,102 @@
+{
+  "id": 3617,
+  "nome": "Número de famílias e Tamanho médio da família por classes de rendimento monetário mensal familiar - Faixas até 10.375 Reais",
+  "URL": "https://sidra.ibge.gov.br/tabela/3617",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 540,
+      "nome": "Classes de rendimento monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 17777,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17911,
+          "nome": "Até 830 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17912,
+          "nome": "Mais de 830 a 1245 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17913,
+          "nome": "Mais de 1245 a 2490 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17914,
+          "nome": "Mais de 2490 a 4150 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17915,
+          "nome": "Mais de 4150 a 6225 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17916,
+          "nome": "Mais de 6225 a 10735 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17917,
+          "nome": "Mais de 10375 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

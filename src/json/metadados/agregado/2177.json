@@ -1,0 +1,71 @@
+{
+  "id": 2177,
+  "nome": "Taxa de desocupação na semana de referência por grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2177",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1033,
+      "nome": "Taxa de desocupação na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1034,
+      "nome": "Coeficiente de variação - Taxa de desocupação na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100053,
+          "nome": "25 a 49 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

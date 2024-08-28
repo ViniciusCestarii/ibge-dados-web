@@ -1,0 +1,84 @@
+{
+  "id": 7487,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ocorrência de racionamento de água distribuída, por duração do maior período de racionamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7487",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10683,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ocorrência de racionamento da água distribuída",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 970,
+      "nome": "Duração do maior período de racionamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48726,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48727,
+          "nome": "Até 10 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48728,
+          "nome": "11 dias a 1 mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48729,
+          "nome": "Mais de 1 mês a 2 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48730,
+          "nome": "Mais de 2 meses a 3 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48731,
+          "nome": "Mais de 3 meses a 6 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48732,
+          "nome": "Mais de 6 meses",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

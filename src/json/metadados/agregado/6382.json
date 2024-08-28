@@ -1,0 +1,88 @@
+{
+  "id": 6382,
+  "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como militares ou empregados do setor público no trabalho principal, por área do emprego",
+  "URL": "https://sidra.ibge.gov.br/tabela/6382",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8332,
+      "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como militares ou empregados do setor público no trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8333,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como militares ou empregados do setor público no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8334,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como militares ou empregados do setor público no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8335,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como militares ou empregados do setor público no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11381,
+      "nome": "Área do emprego",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40275,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91409,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91410,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91411,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": 767,
+  "nome": "Pessoas que dirigem os estabelecimentos agropecuários por sexo, nível de instrução e classe de idade da pessoa que dirige o estabelecimento, direção dos estabelecimento, orientação técnica e origem da orientação técnica",
+  "URL": "https://sidra.ibge.gov.br/tabela/767",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2039,
+      "nome": "Pessoas que dirigem os estabelecimentos agropecuários",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002039,
+      "nome": "Pessoas que dirigem os estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12552,
+      "nome": "Nível de instrução da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112052,
+          "nome": "Alfabetização de adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112053,
+          "nome": "Ensino fundamental incompleto (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112054,
+          "nome": "Ensino fundamental completo (1º grau)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112055,
+          "nome": "Ensino médio ou 2º grau completo (técnico agrícola)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112056,
+          "nome": "Ensino médio ou 2º grau completo (outro)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112057,
+          "nome": "Engenheiro agrônomo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112058,
+          "nome": "Veterinário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112059,
+          "nome": "Zootecnista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112060,
+          "nome": "Engenheiro florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112061,
+          "nome": "Outra formação superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112062,
+          "nome": "Nenhum, mas sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112051,
+          "nome": "Não sabe ler e escrever",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12551,
+      "nome": "Classe de idade da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112044,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112045,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112046,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112047,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112048,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112049,
+          "nome": "De 65 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112050,
+          "nome": "Idade não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12556,
+      "nome": "Direção do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112073,
+          "nome": "Produtor titular diretamente ou sócio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112074,
+          "nome": "Produtor titular através de um capataz ou pessoa com laços de parentesco com o mesmo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112075,
+          "nome": "Administrador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112076,
+          "nome": "Produtores (explorações comunitárias)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113550,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "nome": "Orientação técnica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112010,
+          "nome": "Ocasionalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112011,
+          "nome": "Regularmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113112,
+          "nome": "Não recebeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12567,
+      "nome": "Origem da orientação técnica recebida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113111,
+          "nome": "Recebe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112647,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112648,
+          "nome": "Própria ou do próprio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112649,
+          "nome": "Cooperativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112650,
+          "nome": "Empresas integradoras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112651,
+          "nome": "Empresas privadas de planejamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112652,
+          "nome": "Organização não-governamental (ONG)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112653,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113559,
+          "nome": "Não recebe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

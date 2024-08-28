@@ -1,0 +1,346 @@
+{
+  "id": 1025,
+  "nome": "Número de estabelecimentos agropecuários com mais de 50 cabeças em 31/12, Número de cabeças de bovinos nos estabelecimentos agropecuários com mais de 50 cabeças em 31/12 e Valor dos bovinos nos estabelecimentos agropecuários com mais de 50 cabeças em 31/12, por Movimento pecuário de bovinos nos estabelecimentos agropecuários com mais de 50 cabeças em 31/12, condição do produtor em relação às terras, finalidade da criaçãos, grupos de cabeças de bovinos e grupos de área de pastagem",
+  "URL": "https://sidra.ibge.gov.br/tabela/1025",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2060,
+      "nome": "Número de estabelecimentos agropecuários com mais de 50 cabeças de bovinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2059,
+      "nome": "Número de cabeças de bovinos nos estabelecimentos agropecuários com mais de 50 cabeças de bovinos",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2065,
+      "nome": "Valor das cabeças de bovinos nos estabelecimentos agropecuários com mais de 50 cabeças em 31/12",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12644,
+      "nome": "Movimento pecuário de bovinos nos estabelecimentos agropecuários com mais de 50 cabeças em 31/12",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114281,
+          "nome": "Abatidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114282,
+          "nome": "Comprados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114283,
+          "nome": "Comprados - matrizes e reprodutores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114284,
+          "nome": "Comprados - cria, recria, engorda ou trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 7940,
+      "nome": "Finalidade da criação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71402,
+          "nome": "Corte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114165,
+          "nome": "Corte - cria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114166,
+          "nome": "Corte - recria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114167,
+          "nome": "Corte - engorda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114168,
+          "nome": "Corte - cria e recria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114169,
+          "nome": "Corte - cria e engorda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114170,
+          "nome": "Corte - recria e engorda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114171,
+          "nome": "Corte - cria, recria e engorda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114172,
+          "nome": "Leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114173,
+          "nome": "Trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 3244,
+      "nome": "Grupos de cabeças de bovinos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114194,
+          "nome": "De 51 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114153,
+          "nome": "De 100 a 199",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114154,
+          "nome": "De 200 a 499",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114155,
+          "nome": "De 500 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114156,
+          "nome": "Sem cabeças de bovinos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12625,
+      "nome": "Grupos de área de pastagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114136,
+          "nome": "Maior que 0 e menor que 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114137,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114138,
+          "nome": "De 2 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114139,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114140,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114141,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114142,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114143,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114144,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114145,
+          "nome": "De 500 e mais ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114146,
+          "nome": "Produtor sem área de pastagem",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

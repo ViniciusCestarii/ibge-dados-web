@@ -1,0 +1,80 @@
+{
+  "id": 259,
+  "nome": "Número de informantes e Capacidade útil dos armazéns e silos para produtos a granel",
+  "URL": "https://sidra.ibge.gov.br/tabela/259",
+  "pesquisa": "Pesquisa de Estoques",
+  "assunto": "Estoques agropecuários",
+  "periodicidade": {
+    "frequencia": "semestral",
+    "inicio": 200702,
+    "fim": 202302
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 153,
+      "nome": "Capacidade útil",
+      "unidade": "Toneladas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000153,
+      "nome": "Capacidade útil - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12687,
+      "nome": "Armazéns e silos para produtos a granel",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114626,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114627,
+          "nome": "Armazéns graneleiros e granelizados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114628,
+          "nome": "Silos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2579 @@
+{
+  "id": 636,
+  "nome": "IPCA - Variação acumulada no ano, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (de janeiro/1991 até julho/1999)",
+  "URL": "https://sidra.ibge.gov.br/tabela/636",
+  "pesquisa": "Índice Nacional de Preços ao Consumidor Amplo",
+  "assunto": "Índices de preços",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 199907
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 69,
+      "nome": "IPCA - Variação acumulada no ano",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 72,
+      "nome": "Geral, grupos, subgrupos, itens e subitens",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2640,
+          "nome": "Índice geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1313,
+          "nome": "1.Alimentação e bebidas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1327,
+          "nome": "11.Alimentação no domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1363,
+          "nome": "1101.Cereais, leguminosas e oleaginosas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1457,
+          "nome": "1101002.Arroz",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1463,
+          "nome": "1101051.Feijão - mulatinho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1465,
+          "nome": "1101052.Feijão - preto",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1467,
+          "nome": "1101053.Feijão - macassar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1471,
+          "nome": "1101064.Feijão - jalo (enxofrão)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1473,
+          "nome": "1101068.Feijão - roxo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1479,
+          "nome": "1101073.Feijão - rajado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1365,
+          "nome": "1102.Farinha, féculas e massas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1485,
+          "nome": "1102006.Macarrão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1487,
+          "nome": "1102008.Fubá de milho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1491,
+          "nome": "1102012.Farinha de trigo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1493,
+          "nome": "1102013.Farinha vitaminada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1495,
+          "nome": "1102016.Flocos de cereais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1497,
+          "nome": "1102022.Fécula de mandioca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2439,
+          "nome": "1102023.Farinha de mandioca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1501,
+          "nome": "1102038.Massa para pizza",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1367,
+          "nome": "1103.Tubérculos, raízes e legumes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1507,
+          "nome": "1103002.Batata-doce",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1509,
+          "nome": "1103003.Batata-inglesa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1511,
+          "nome": "1103004.Inhame",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1513,
+          "nome": "1103005.Mandioca (aipim)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1515,
+          "nome": "1103017.Abóbora",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1517,
+          "nome": "1103020.Abobrinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2457,
+          "nome": "1103021.Chuchu",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1523,
+          "nome": "1103025.Pepino",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1525,
+          "nome": "1103026.Pimentão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1527,
+          "nome": "1103027.Quiabo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1529,
+          "nome": "1103028.Tomate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1531,
+          "nome": "1103029.Vagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1533,
+          "nome": "1103031.Berinjela",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1535,
+          "nome": "1103033.Moranga",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1537,
+          "nome": "1103042.Beterraba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1539,
+          "nome": "1103043.Cebola",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1541,
+          "nome": "1103044.Cenoura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1369,
+          "nome": "1104.Açúcares e derivados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1545,
+          "nome": "1104003.Açúcar refinado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1547,
+          "nome": "1104004.Açúcar cristal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1549,
+          "nome": "1104018.Balas, chicletes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1551,
+          "nome": "1104023.Chocolate em barra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1553,
+          "nome": "1104024.Bombons",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1555,
+          "nome": "1104032.Sorvetes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1559,
+          "nome": "1104060.Doce de frutas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1561,
+          "nome": "1104066.Doce de leite",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1371,
+          "nome": "1105.Hortaliças e verduras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1565,
+          "nome": "1105001.Alface",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1567,
+          "nome": "1105003.Chicória",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1569,
+          "nome": "1105004.Coentro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1571,
+          "nome": "1105005.Couve",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1573,
+          "nome": "1105006.Couve-flor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1575,
+          "nome": "1105007.Espinafre",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1577,
+          "nome": "1105010.Repolho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1579,
+          "nome": "1105012.Cheiro-verde",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1581,
+          "nome": "1105013.Agrião",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1583,
+          "nome": "1105017.Almeirão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1585,
+          "nome": "1105019.Brócolis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1587,
+          "nome": "1105021.Caruru",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1373,
+          "nome": "1106.Frutas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1589,
+          "nome": "1106001.Banana-da-terra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1591,
+          "nome": "1106003.Abacaxi",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1593,
+          "nome": "1106004.Abacate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1595,
+          "nome": "1106005.Banana-d'água",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1597,
+          "nome": "1106006.Banana-maçã",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1599,
+          "nome": "1106008.Banana-prata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1601,
+          "nome": "1106011.Laranja-da-baía",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1603,
+          "nome": "1106012.Laranja lima",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1605,
+          "nome": "1106013.Laranja seleta",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1607,
+          "nome": "1106015.Limão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1609,
+          "nome": "1106017.Maçã",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1611,
+          "nome": "1106018.Mamão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1613,
+          "nome": "1106020.Maracujá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1615,
+          "nome": "1106021.Melancia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1617,
+          "nome": "1106022.Melão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1619,
+          "nome": "1106023.Pera",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1621,
+          "nome": "1106027.Tangerina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1623,
+          "nome": "1106028.Uva",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1625,
+          "nome": "1106039.Laranja pera",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1627,
+          "nome": "1106041.Banana-marmelo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1375,
+          "nome": "1107.Carnes frescas e vísceras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1629,
+          "nome": "1107008.Vísceras de boi",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1631,
+          "nome": "1107009.Fígado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1635,
+          "nome": "1107018.Carne de porco",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1643,
+          "nome": "1107081.Cupim",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1645,
+          "nome": "1107084.Contra filé",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1647,
+          "nome": "1107085.Filé mignon",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1649,
+          "nome": "1107087.Chã-de-dentro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1651,
+          "nome": "1107088.Alcatra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1653,
+          "nome": "1107089.Patinho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1655,
+          "nome": "1107090.Lagarto redondo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1657,
+          "nome": "1107091.Lagarto plano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1661,
+          "nome": "1107093.Músculo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1663,
+          "nome": "1107094.Pá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1665,
+          "nome": "1107095.Acém",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1667,
+          "nome": "1107096.Peito",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1673,
+          "nome": "1107099.Costela",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1377,
+          "nome": "1108.Pescado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1675,
+          "nome": "1108001.Filé de peixe",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1677,
+          "nome": "1108002.Peixe anchova",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1679,
+          "nome": "1108003.Peixe badejo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1681,
+          "nome": "1108004.Peixe corvina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1683,
+          "nome": "1108005.Peixe cavalinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1687,
+          "nome": "1108009.Peixe pescadinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1691,
+          "nome": "1108012.Peixe sardinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1693,
+          "nome": "1108013.Camarão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1697,
+          "nome": "1108015.Peixe vermelho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1701,
+          "nome": "1108019.Peixe cavala",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1717,
+          "nome": "1108032.Peixe serra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1719,
+          "nome": "1108033.Peixe pargo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1721,
+          "nome": "1108038.Peixe pescada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1723,
+          "nome": "1108044.Peixe cioba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1725,
+          "nome": "1108045.Caranguejo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1737,
+          "nome": "1108053.Peixe piramutaba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1739,
+          "nome": "1108057.Peixe surubim",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2522,
+          "nome": "1108059.Peixe xaréu",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1743,
+          "nome": "1108064.Siri",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1749,
+          "nome": "1108076.Peixe acará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1709,
+          "nome": "1108088.Peixe dourada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1761,
+          "nome": "1108099.Mariscos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1379,
+          "nome": "1109.Carnes e peixes industrializados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1763,
+          "nome": "1109002.Presunto",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1769,
+          "nome": "1109007.Salsicha e salsichão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1771,
+          "nome": "1109008.Linguiça",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1773,
+          "nome": "1109010.Mortadela, salame, salaminho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1775,
+          "nome": "1109023.Bacalhau",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1777,
+          "nome": "1109024.Camarão seco salgado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1781,
+          "nome": "1109056.Carne seca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1783,
+          "nome": "1109058.Carne de porco salgada defumada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1381,
+          "nome": "1110.Aves e ovos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1789,
+          "nome": "1110009.Frango",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1791,
+          "nome": "1110044.Ovo de galinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1383,
+          "nome": "1111.Leite e derivados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1795,
+          "nome": "1111004.Leite pasteurizado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1799,
+          "nome": "1111009.Leite em pó",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1803,
+          "nome": "1111019.Iogurte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1807,
+          "nome": "1111023.Queijo-de-minas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1809,
+          "nome": "1111024.Queijo prato e muzzarela",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1813,
+          "nome": "1111031.Manteiga",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1385,
+          "nome": "1112.Panificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1821,
+          "nome": "1112003.Biscoitos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1827,
+          "nome": "1112015.Pão francês",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1829,
+          "nome": "1112017.Pão doce",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1831,
+          "nome": "1112018.Pão de forma",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1833,
+          "nome": "1112019.Bolo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1387,
+          "nome": "1113.Óleos e gorduras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1843,
+          "nome": "1113013.Óleo de soja",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1849,
+          "nome": "1113040.Margarina vegetal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1389,
+          "nome": "1114.Bebidas e infusões",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1851,
+          "nome": "1114001.Sucos artificiais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1853,
+          "nome": "1114022.Café moído",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1857,
+          "nome": "1114029.Mate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2445,
+          "nome": "1114083.Refrigerantes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1859,
+          "nome": "1114084.Cerveja",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1861,
+          "nome": "1114085.Outras bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1865,
+          "nome": "1114087.Vinho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1391,
+          "nome": "1115.Enlatados e conservas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1867,
+          "nome": "1115004.Coco ralado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1869,
+          "nome": "1115006.Ervilha em lata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1875,
+          "nome": "1115016.Palmito em conserva",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2472,
+          "nome": "1115017.Pepino em conserva",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1879,
+          "nome": "1115039.Sardinha em lata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1881,
+          "nome": "1115050.Salsicha em lata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1883,
+          "nome": "1115051.Carne de boi em lata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1885,
+          "nome": "1115056.Sopas desidratadas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1887,
+          "nome": "1115057.Azeitona",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1891,
+          "nome": "1115075.Atum em lata",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1393,
+          "nome": "1116.Sal e condimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1893,
+          "nome": "1116001.Leite de coco",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1895,
+          "nome": "1116005.Massa de tomate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1897,
+          "nome": "1116010.Alho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1899,
+          "nome": "1116013.Sal refinado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1901,
+          "nome": "1116022.Colorau",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1903,
+          "nome": "1116026.Fermento em pó",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1905,
+          "nome": "1116033.Maionese",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1907,
+          "nome": "1116041.Vinagre",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1909,
+          "nome": "1116048.Caldo de galinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1911,
+          "nome": "1116055.Cominho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1913,
+          "nome": "1116062.Pimenta-do-reino",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1919,
+          "nome": "1116071.Tempero misto",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1395,
+          "nome": "12.Alimentação fora do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1329,
+          "nome": "1201.Alimentação fora do domicílio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1921,
+          "nome": "1201001.Refeição",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1923,
+          "nome": "1201003.Lanche",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1925,
+          "nome": "1201005.Café da manhã",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1927,
+          "nome": "1201007.Refrigerantes e água mineral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1929,
+          "nome": "1201009.Cafezinho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1931,
+          "nome": "1201032.Caldos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2455,
+          "nome": "1201048.Cerveja",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1933,
+          "nome": "1201049.Chopp",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2443,
+          "nome": "1201051.Outras bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1397,
+          "nome": "2.Habitação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1331,
+          "nome": "21.Encargos e manutenção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1315,
+          "nome": "2101.Habitação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1935,
+          "nome": "2101001.Aluguel residencial",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1937,
+          "nome": "2101002.Condomínio",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1939,
+          "nome": "2101003.Imposto predial",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1941,
+          "nome": "2101004.Taxa de água e esgoto",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1399,
+          "nome": "2103.Reparos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1945,
+          "nome": "2103005.Ferragens",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1949,
+          "nome": "2103008.Material de eletricidade",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1951,
+          "nome": "2103009.Material de pintura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1953,
+          "nome": "2103012.Material de vidro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1955,
+          "nome": "2103014.Tinta para casa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1401,
+          "nome": "2104.Artigos de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1959,
+          "nome": "2104002.Vassoura, rodo, etc",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1965,
+          "nome": "2104005.Água sanitária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1967,
+          "nome": "2104008.Detergente",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1969,
+          "nome": "2104009.Sabão (pó e barra)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1971,
+          "nome": "2104012.Desinfetante",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1973,
+          "nome": "2104013.Inseticida e raticida",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1975,
+          "nome": "2104014.Cera e lustra-móveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1977,
+          "nome": "2104016.Esponja e bombril",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1979,
+          "nome": "2104032.Amaciante, alvejante, etc",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1981,
+          "nome": "2104045.Filtro de papel para café",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1333,
+          "nome": "22.Combustíveis, energia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1403,
+          "nome": "2201.Combustível de uso doméstico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1985,
+          "nome": "2201003.Carvão vegetal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1987,
+          "nome": "2201004.Gás de bujão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1989,
+          "nome": "2201005.Gás encanado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1991,
+          "nome": "2202.Energia elétrica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1405,
+          "nome": "2202003.Energia elétrica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1317,
+          "nome": "3.Artigos de residência",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1335,
+          "nome": "31.Móveis e utensílios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1407,
+          "nome": "3101.Mobiliário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1993,
+          "nome": "3101002.Móveis para sala",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1995,
+          "nome": "3101003.Móveis para quarto",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1997,
+          "nome": "3101015.Móveis para copa e cozinha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1999,
+          "nome": "3101017.Colchão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2001,
+          "nome": "3101060.Rede",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1409,
+          "nome": "3102.Utensílios e enfeites",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2005,
+          "nome": "3102005.Tapetes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2007,
+          "nome": "3102006.Cortinas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2009,
+          "nome": "3102007.Utensílios de copa e cozinha de metal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2011,
+          "nome": "3102009.Utensílios de copa e cozinha de louça",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2013,
+          "nome": "3102010.Artigos de plástico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2015,
+          "nome": "3102012.Mamadeira, garrafa térmica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2029,
+          "nome": "3102038.Conserto de utensílio e aparelho doméstico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1411,
+          "nome": "3103.Cama, mesa e banho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2031,
+          "nome": "3103001.Roupas de cama",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2033,
+          "nome": "3103002.Roupas de mesa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2035,
+          "nome": "3103003.Roupas de banho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1337,
+          "nome": "32.Aparelhos elétricos e não-elétricos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1413,
+          "nome": "3201.Eletrodomésticos e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2037,
+          "nome": "3201001.Refrigerador",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2039,
+          "nome": "3201002.Condicionador de ar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2041,
+          "nome": "3201003.Máquina de costura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2043,
+          "nome": "3201005.Enceradeira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2045,
+          "nome": "3201006.Máquina de lavar e secar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2047,
+          "nome": "3201007.Ferro elétrico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2049,
+          "nome": "3201012.Liquidificador",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2051,
+          "nome": "3201013.Ventilador e exaustor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2055,
+          "nome": "3201021.Fogão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2059,
+          "nome": "3201027.Lâmpadas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2065,
+          "nome": "3201033.Freezer",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1839,
+          "nome": "3201044.Aspirador de pó",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2526,
+          "nome": "3201052.Secador de cabelo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1415,
+          "nome": "3202.TV e som",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2089,
+          "nome": "3202001.Televisor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2091,
+          "nome": "3202002.Rádio",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2093,
+          "nome": "3202003.Aparelho de som",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2095,
+          "nome": "3202005.Vídeo-cassete",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1319,
+          "nome": "4.Vestuário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1339,
+          "nome": "41.Roupas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1417,
+          "nome": "4101.Roupa de homem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2099,
+          "nome": "4101002.Calça comprida",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2101,
+          "nome": "4101004.Terno",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2103,
+          "nome": "4101005.Agasalhos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2105,
+          "nome": "4101006.Short, calção e bermuda",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2107,
+          "nome": "4101008.Cueca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2109,
+          "nome": "4101009.Camisa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2111,
+          "nome": "4101010.Camiseta",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1419,
+          "nome": "4102.Roupa de mulher",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2117,
+          "nome": "4102002.Calça comprida",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2119,
+          "nome": "4102003.Agasalho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2121,
+          "nome": "4102004.Saia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2451,
+          "nome": "4102005.Vestido",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2127,
+          "nome": "4102008.Camiseta, blusa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2528,
+          "nome": "4102009.Meias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2131,
+          "nome": "4102010.Lingerie",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2133,
+          "nome": "4102011.Roupa de dormir",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2135,
+          "nome": "4102012.Roupa de banho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2137,
+          "nome": "4102013.Bermuda e short",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1421,
+          "nome": "4103.Roupa de criança",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2139,
+          "nome": "4103001.Uniforme",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2141,
+          "nome": "4103002.Calça comprida",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2433,
+          "nome": "4103005.Agasalho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2123,
+          "nome": "4103007.Vestido",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2449,
+          "nome": "4103008.Short",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2143,
+          "nome": "4103011.Camisa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2145,
+          "nome": "4103012.Camiseta",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2151,
+          "nome": "4103017.Fralda",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2153,
+          "nome": "4103018.Roupa de bebê",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1423,
+          "nome": "42.Calçados e acessórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1341,
+          "nome": "4201.Calçados e acessórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2163,
+          "nome": "4201002.Sapato de homem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2165,
+          "nome": "4201003.Sapato de mulher",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2167,
+          "nome": "4201004.Sapato de criança",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2171,
+          "nome": "4201007.Sandália de mulher",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2175,
+          "nome": "4201009.Sandália de borracha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2177,
+          "nome": "4201015.Bolsa de mulher",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2181,
+          "nome": "4201029.Bolsa de homem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2185,
+          "nome": "4201063.Tênis de homem ou mulher",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2187,
+          "nome": "4201064.Tênis de criança",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1425,
+          "nome": "43.Joias, relógio de pulso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1343,
+          "nome": "4301.Joias, relógio de pulso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2191,
+          "nome": "4301002.Joias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2193,
+          "nome": "4301004.Relógio de pulso",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1427,
+          "nome": "44.Tecidos e armarinho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1345,
+          "nome": "4401.Tecidos e armarinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2195,
+          "nome": "4401001.Tecidos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2197,
+          "nome": "4401002.Artigos de armarinho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1321,
+          "nome": "5.Transporte e comunicação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1347,
+          "nome": "51.Transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1429,
+          "nome": "5101.Transporte público",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2199,
+          "nome": "5101001.Ônibus urbano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2201,
+          "nome": "5101002.Táxi",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2207,
+          "nome": "5101006.Ônibus a distância",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2209,
+          "nome": "5101010.Avião",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2211,
+          "nome": "5101011.Metrô",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2215,
+          "nome": "5101026.Transporte escolar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1431,
+          "nome": "5102.Veículo próprio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2217,
+          "nome": "5102001.Automóveis novos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2219,
+          "nome": "5102004.Emplacamento e licença",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2221,
+          "nome": "5102005.Seguro voluntário para veículos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2223,
+          "nome": "5102007.Óleo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2225,
+          "nome": "5102009.Acessórios e peças",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2227,
+          "nome": "5102010.Pneu e câmara-de-ar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2229,
+          "nome": "5102011.Conserto de automóveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2231,
+          "nome": "5102013.Estacionamento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2233,
+          "nome": "5102019.Lubrificação e lavagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2235,
+          "nome": "5102020.Automóveis usados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2241,
+          "nome": "5102030.Toca-fita para veículos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2245,
+          "nome": "5102053.Motocicletas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1433,
+          "nome": "5104.Combustíveis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2247,
+          "nome": "5104001.Gasolina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2435,
+          "nome": "5104002.Álcool",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1435,
+          "nome": "52.Comunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1349,
+          "nome": "5201.Comunicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2253,
+          "nome": "5201002.Telefone",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1323,
+          "nome": "6.Saúde e cuidados pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1351,
+          "nome": "61.Produtos farmacêuticos, óculos e lentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1437,
+          "nome": "6101.Produtos farmacêuticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2257,
+          "nome": "6101001.Anti-infecciosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2259,
+          "nome": "6101002.Analgésicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2263,
+          "nome": "6101004.Antigripais e antitussígenos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2265,
+          "nome": "6101005.Colagogos e hepatoprotetores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2267,
+          "nome": "6101006.Pomadas, parasiticidas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2532,
+          "nome": "6101007.Antialérgicos e corticosteróides",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2273,
+          "nome": "6101009.Antiácidos, etc",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2275,
+          "nome": "6101010.Fortificantes e vitaminas (exceto B12)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2277,
+          "nome": "6101011.Anticoncepcionais, hormônios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2279,
+          "nome": "6101012.Antiespasmódicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2281,
+          "nome": "6101013.Psicotrópicos e anoréxicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2283,
+          "nome": "6101014.Anticoagulante, cardiovascular",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2285,
+          "nome": "6101016.Material para curativo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2287,
+          "nome": "6102.Óculos e Lentes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1439,
+          "nome": "6102001.Óculos e lentes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1353,
+          "nome": "62.Atendimento e serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1441,
+          "nome": "6201.Atendimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2289,
+          "nome": "6201002.Médico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2291,
+          "nome": "6201003.Dentista",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2295,
+          "nome": "6201005.Aparelho dentário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2297,
+          "nome": "6201008.Tratamento psicológico e fisioterapêutico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2299,
+          "nome": "6201013.Radiografia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1443,
+          "nome": "6202.Serviços médicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2301,
+          "nome": "6202003.Exame de laboratório",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2303,
+          "nome": "6202004.Hospitalização e cirurgias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2305,
+          "nome": "6202005.Mensalidade de clínicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2309,
+          "nome": "6202008.Asilo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1355,
+          "nome": "63.Cuidados pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1445,
+          "nome": "6301.Higiene pessoal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2311,
+          "nome": "6301001.Produtos para cabelo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2317,
+          "nome": "6301006.Produtos para pele",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2319,
+          "nome": "6301007.Produtos para boca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2325,
+          "nome": "6301014.Desodorante e perfume",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2327,
+          "nome": "6301015.Absorvente",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2329,
+          "nome": "6301016.Sabonete",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2331,
+          "nome": "6301017.Papel higiênico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2333,
+          "nome": "6301020.Artigo de maquilagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1325,
+          "nome": "7.Despesas pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1357,
+          "nome": "71.Serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1447,
+          "nome": "7101.Serviços pessoais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2335,
+          "nome": "7101001.Alfaiate e costureira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2337,
+          "nome": "7101002.Sapateiro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2341,
+          "nome": "7101004.Tinturaria",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2343,
+          "nome": "7101008.Barbeiro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2345,
+          "nome": "7101009.Cabeleireiro e manicure",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2347,
+          "nome": "7101010.Empregada doméstica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1359,
+          "nome": "72.Recreação e fumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1449,
+          "nome": "7201.Recreação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2355,
+          "nome": "7201001.Cinema",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2357,
+          "nome": "7201003.Jogo de futebol",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2359,
+          "nome": "7201006.Clubes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2361,
+          "nome": "7201008.Disco e fita",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2363,
+          "nome": "7201011.Máquina fotográfica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2365,
+          "nome": "7201013.Acessório para fotografia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2371,
+          "nome": "7201019.Bicicleta",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2373,
+          "nome": "7201020.Alimento para cães",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2379,
+          "nome": "7201023.Brinquedos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2385,
+          "nome": "7201052.Aluguel de fita para vídeo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2387,
+          "nome": "7201053.Fita de vídeo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2395,
+          "nome": "7201068.Motel",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2441,
+          "nome": "7201090.Hotel",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2397,
+          "nome": "7201095.Excursões",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2399,
+          "nome": "7201097.Alimento para animais (exceto cães)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1451,
+          "nome": "7202.Fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2401,
+          "nome": "7202041.Cigarros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2463,
+          "nome": "73.Educação e leitura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1453,
+          "nome": "7301.Educação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2405,
+          "nome": "7301002.Cadernos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2075,
+          "nome": "7301003.Artigo de papelaria",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2409,
+          "nome": "7301004.Livros didáticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2419,
+          "nome": "7301006.Cursos formais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2413,
+          "nome": "7301007.Cursos diversos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2417,
+          "nome": "7301020.Livros e revistas técnicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1801,
+          "nome": "7301021.Creche",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1455,
+          "nome": "7302.Leitura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2423,
+          "nome": "7302001.Jornal diário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2425,
+          "nome": "7302002.Assinatura de jornal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2427,
+          "nome": "7302003.Revista não técnica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2431,
+          "nome": "7302005.Livro (bolso, brochura)",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

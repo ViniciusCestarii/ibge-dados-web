@@ -1,0 +1,105 @@
+{
+  "id": 7112,
+  "nome": "Pessoas de 15 anos ou mais, analfabetas, por cor ou raça e grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/7112",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10265,
+      "nome": "Pessoas de 15 anos ou mais de idade, analfabetas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10266,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade, analfabetas",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2795,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100452,
+          "nome": "18 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109012,
+          "nome": "40 anos ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 4
+        }
+      ]
+    }
+  ]
+}

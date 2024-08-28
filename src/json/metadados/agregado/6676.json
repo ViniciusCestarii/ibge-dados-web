@@ -1,0 +1,103 @@
+{
+  "id": 6676,
+  "nome": "Indicador 4.c.1 - Docentes, total, com formação adequada e proporção, por sexo e etapa de ensino",
+  "URL": "https://sidra.ibge.gov.br/tabela/6676",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Educação de qualidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9608,
+      "nome": "Docentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9609,
+      "nome": "Docentes com formação adequada",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9610,
+      "nome": "Proporção de docentes com formação adequada",
+      "unidade": "Proporção (%)",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 813,
+      "nome": "Etapa de ensino",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41122,
+          "nome": "Educação infantil",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41123,
+          "nome": "Ensino fundamental - anos iniciais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41124,
+          "nome": "Ensino fundamental - anos finais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41125,
+          "nome": "Ensino médio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

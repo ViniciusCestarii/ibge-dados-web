@@ -1,0 +1,282 @@
+{
+  "id": 6809,
+  "nome": "Municípios que distribuíram recursos da Lei Aldir Blanc, por percentual de recursos utilizado, formas de divulgação da lei, forma de cadastro dos proponentes e classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/6809",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12843,
+      "nome": "Municípios que distribuíram recursos da Lei Aldir Blanc",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1552,
+      "nome": "Percentual de utilização de recurso da Lei Aldir Blanc",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59189,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59190,
+          "nome": "Menos de 50%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59191,
+          "nome": "Entre 50% e 90%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59192,
+          "nome": "Entre 90% e 100%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59193,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59194,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1553,
+      "nome": "Divulgação da Lei Aldir Blanc ao público alvo e suas formas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59195,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59196,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59197,
+          "nome": "No seu website",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59198,
+          "nome": "Por e-mail",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59199,
+          "nome": "Nas redes sociais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59200,
+          "nome": "Por aplicativos de mensagens (Whatsapp, Telegram, Signal, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59201,
+          "nome": "Por telefone de contato para informação sobre o auxílio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59202,
+          "nome": "Por rádio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59203,
+          "nome": "Por carro de som ou porta a porta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59204,
+          "nome": "Por outro meio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60036,
+          "nome": "Não divulgou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59205,
+          "nome": "Não divulgou porque não teve permissão da procuradoria municipal ou justiça eleitoral",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1556,
+      "nome": "Cadastro dos proponentes para receber os recursos da Lei Aldir Blanc e suas formas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60039,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59206,
+          "nome": "Pela internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59207,
+          "nome": "Por telefone",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59208,
+          "nome": "Pelo correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59209,
+          "nome": "Presencialmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59210,
+          "nome": "Cadastro pré-existente municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59211,
+          "nome": "Cadastro pré-existente estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59212,
+          "nome": "Cadastro pré-existente federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59230,
+          "nome": "Por outro meio",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

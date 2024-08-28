@@ -1,0 +1,98 @@
+{
+  "id": 2297,
+  "nome": "Número de municípios com serviços de manejo de resíduos sólidos, total e os com cobrança dos serviços, por existência e forma de cobrança dos serviços",
+  "URL": "https://sidra.ibge.gov.br/tabela/2297",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11464,
+      "nome": "Forma de cobrança do serviço de limpeza urbana e coleta de lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103346,
+          "nome": "Total de municípíos com os serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 102964,
+          "nome": "Total de municípios com existência de cobrança dos serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91777,
+          "nome": "Taxa específica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91778,
+          "nome": "Taxa junto com o IPTU",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91779,
+          "nome": "Tarifa por serviços especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91780,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92935,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102966,
+          "nome": "Total de municípios que não cobram pelos serviços",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

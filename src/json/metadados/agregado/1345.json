@@ -1,0 +1,340 @@
+{
+  "id": 1345,
+  "nome": "Estudantes frequentando o 9º ano do ensino fundamental, por dependência administrativa do estabelecimento, sexo e, nos últimos 30 dias, em quantos o escolar deixou de ir à escola por não se sentir seguro no caminho de ida ou de volta, em quantos o escolar deixou de ir à escola por não se sentir seguro na escola, quantas vezes o escolar foi agredido fisicamente por um adulto da família dele e se o escolar esteve envolvido em alguma briga em que alguém foi fisicamente agredido",
+  "URL": "https://sidra.ibge.gov.br/tabela/1345",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Violência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2377,
+      "nome": "Dependência administrativa do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35242,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35243,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35244,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99124,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35241,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 572,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "nome": "Nos últimos 30 dias, em quantos o escolar deixou de ir à escola por não se sentir seguro no caminho de ida ou de volta",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1760,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1762,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1765,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1766,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1767,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1768,
+          "nome": "5 dias ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1776,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "nome": "Nos últimos 30 dias, em quantos o escolar deixou de ir à escola por não se sentir seguro na escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1778,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1779,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1780,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1785,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1786,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1788,
+          "nome": "5 dias ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1793,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "nome": "Nos últimos 30 dias, quantas vezes o escolar foi agredido fisicamente por um adulto da família dele",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1794,
+          "nome": "Nenhuma vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1797,
+          "nome": "1 vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1798,
+          "nome": "2 ou 3 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1802,
+          "nome": "4 ou 5 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1805,
+          "nome": "6 ou 7 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1806,
+          "nome": "8 ou 9 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1811,
+          "nome": "10 ou 11 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1812,
+          "nome": "12 vezes ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1815,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "nome": "Nos últimos 30 dias, o escolar esteve envolvido em alguma briga em que alguém foi fisicamente agredido",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1816,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1817,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1818,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

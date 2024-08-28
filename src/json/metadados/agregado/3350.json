@@ -1,0 +1,284 @@
+{
+  "id": 3350,
+  "nome": "Número de estabelecimentos agropecuários, por podutos utilizados na adubação, sexo do dirigente, residência do produtor e grupo de atividade econômica",
+  "URL": "https://sidra.ibge.gov.br/tabela/3350",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12586,
+      "nome": "Produtos utilizados na adubação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113227,
+          "nome": "Usam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113228,
+          "nome": "Adubo químico nitrogenado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113229,
+          "nome": "Adubo químico não-nitrogenado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113230,
+          "nome": "Esterco e/ou urina animal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113231,
+          "nome": "Adubação verde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113232,
+          "nome": "Vinhaça",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113233,
+          "nome": "Húmus de minhoca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113234,
+          "nome": "Biofertilizantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113235,
+          "nome": "Inoculantes (fixadores de nitrogênio)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113236,
+          "nome": "Composto orgânico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113237,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114625,
+          "nome": "Usam - não precisaram usar em 2006",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113571,
+          "nome": "Não usam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

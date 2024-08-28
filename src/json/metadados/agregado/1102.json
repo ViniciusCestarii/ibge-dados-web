@@ -1,0 +1,81 @@
+{
+  "id": 1102,
+  "nome": "Domicílios, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1102",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do domicílio e serviços domiciliares de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5121,
+      "nome": "Domicílios, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5122,
+      "nome": "Domicílios, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

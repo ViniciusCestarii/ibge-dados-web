@@ -1,0 +1,86 @@
+{
+  "id": 1833,
+  "nome": "Número de distritos com cobrança do serviço de esgotamento sanitário proporcional ao valor da conta de água, por percentual da tarifa cobrada",
+  "URL": "https://sidra.ibge.gov.br/tabela/1833",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 764,
+      "nome": "Número de distritos com cobrança do serviço de esgotamento sanitário proporcional ao valor da conta de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000764,
+      "nome": "Número de distritos com cobrança do serviço de esgotamento sanitário proporcional ao valor da conta de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12013,
+      "nome": "Percentual da tarifa cobrada",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98785,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98786,
+          "nome": "Até 50 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98787,
+          "nome": "Mais de 50 a 70 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98788,
+          "nome": "Mais de 70 a 99 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98789,
+          "nome": "100 % ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98790,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

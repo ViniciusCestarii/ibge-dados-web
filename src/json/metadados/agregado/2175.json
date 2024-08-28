@@ -1,0 +1,85 @@
+{
+  "id": 2175,
+  "nome": "Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência, em relação ao total de pessoas desocupadas na semana de referência por tempo de procura de trabalho",
+  "URL": "https://sidra.ibge.gov.br/tabela/2175",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1029,
+      "nome": "Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência, em relação ao total de pessoas desocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1030,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência, em relação ao total de pessoas desocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1965,
+      "nome": "Tempo de procura de trabalho",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          1030
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100708,
+          "nome": "Até 30 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100709,
+          "nome": "31 dias até 6 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100710,
+          "nome": "7 meses até 11 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100711,
+          "nome": "1 ano até menos de 2 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101227,
+          "nome": "2 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

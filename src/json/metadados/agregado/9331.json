@@ -1,0 +1,116 @@
+{
+  "id": 9331,
+  "nome": "Pessoas de 25 anos ou mais de idade com deficiência, por nível de instrução e quantidade de dificuldades funcionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9331",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 13038,
+      "nome": "Pessoas de 25 anos ou mais de idade com deficiência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 13039,
+      "nome": "Coeficiente de variação - Pessoas de 25 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 13046,
+      "nome": "Distribuição percentual das pessoas de 25 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 13047,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 25 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1506,
+      "nome": "Quantidade de dificuldades funcionais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58770,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58767,
+          "nome": "1 dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58768,
+          "nome": "2 ou mais dificuldades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

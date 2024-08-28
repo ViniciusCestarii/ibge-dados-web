@@ -1,0 +1,119 @@
+{
+  "id": 3964,
+  "nome": "Pessoas de 10 a 17 anos de idade, ocupadas na semana de referência e Percentual de pessoas de 10 a 17 anos de idade, ocupadas na semana de referência, distribuído pelos grandes grupos de ocupação no trabalho principal, por grupos de idade e grandes grupos de ocupação no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3964",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3620,
+      "nome": "Pessoas de 10 a 17 anos de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3936,
+      "nome": "Percentual de pessoas de 10 a 17 anos de idade, ocupadas na semana de referência, distribuído pelos grandes grupos de ocupação no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12064,
+      "nome": "Grandes grupos de ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100971,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12634,
+          "nome": "Trabalhadores dos serviços, vendedores dos comércios e mercados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12635,
+          "nome": "Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12638,
+          "nome": "Ocupações elementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31604,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

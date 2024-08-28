@@ -1,0 +1,1047 @@
+{
+  "id": 1841,
+  "nome": "Emprego e salário das empresas industriais com 5 ou mais pessoas ocupadas, segundo as diivisões e os grupos de atividades (CNAE 2.0)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1841",
+  "pesquisa": "Pesquisa Industrial Anual - Empresa",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 631,
+      "nome": "Pessoal ocupado em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000631,
+      "nome": "Pessoal ocupado em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 812,
+      "nome": "Número médio de pessoal ocupado no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000812,
+      "nome": "Número médio de pessoal ocupado no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 813,
+      "nome": "Pessoal ocupado assalariado ligado à produção em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000813,
+      "nome": "Pessoal ocupado assalariado ligado à produção em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 816,
+      "nome": "Número médio de pessoal ocupado ligado à produção no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000816,
+      "nome": "Número médio de pessoal ocupado ligado à produção no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 815,
+      "nome": "Pessoal ocupado assalariado não ligado à produção em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000815,
+      "nome": "Pessoal ocupado assalariado não ligado à produção em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 814,
+      "nome": "Número médio de pessoal ocupado assalariado não ligado à produção no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000814,
+      "nome": "Número médio de pessoal ocupado assalariado não ligado à produção no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 817,
+      "nome": "Pessoal ocupado não-assalariado - proprietários e sócios - em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000817,
+      "nome": "Pessoal ocupado não-assalariado - proprietários e sócios - em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 818,
+      "nome": "Número médio de pessoal ocupado não assalariado - proprietário, sócio - no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000818,
+      "nome": "Número médio de pessoal ocupado não assalariado - proprietário, sócio - no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 822,
+      "nome": "Total de salários, retiradas e outras remunerações",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000822,
+      "nome": "Total de salários, retiradas e outras remunerações - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 819,
+      "nome": "Salários, retiradas e outras remunerações de pessoal assalariado ligado à produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000819,
+      "nome": "Salários, retiradas e outras remunerações de pessoal assalariado ligado à produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 820,
+      "nome": "Salários, retiradas e outras remunerações de pessoal assalariado não-ligado à produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000820,
+      "nome": "Salários, retiradas e outras remunerações de pessoal assalariado não-ligado à produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 821,
+      "nome": "Salários, retiradas e outras remunerações de pessoal não-assalariado - proprietários, sócios",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000821,
+      "nome": "Salários, retiradas e outras remunerações de pessoal não-assalariado - proprietários, sócios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12762,
+      "nome": "Classificação Nacional de Atividades Econômicas (CNAE 2.0)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 117897,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116880,
+          "nome": "B Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116881,
+          "nome": "05 Extração de carvão mineral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116882,
+          "nome": "05.0 Extração de carvão mineral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116884,
+          "nome": "06 Extração de petróleo e gás natural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116885,
+          "nome": "06.0 Extração de petróleo e gás natural",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116887,
+          "nome": "07 Extração de minerais metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116888,
+          "nome": "07.1 Extração de minério de ferro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116890,
+          "nome": "07.2 Extração de minerais metálicos não-ferrosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116897,
+          "nome": "08 Extração de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116898,
+          "nome": "08.1 Extração de pedra, areia e argila",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116900,
+          "nome": "08.9 Extração de outros minerais não-metálicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116905,
+          "nome": "09 Atividades de apoio à extração de minerais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116906,
+          "nome": "09.1 Atividades de apoio à extração de petróleo e gás natural",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116908,
+          "nome": "09.9 Atividades de apoio à extração de minerais, exceto petróleo e gás natural",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116910,
+          "nome": "C Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116911,
+          "nome": "10 Fabricação de produtos alimentícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116912,
+          "nome": "10.1 Abate e fabricação de produtos de carne",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116916,
+          "nome": "10.2 Preservação do pescado e fabricação de produtos do pescado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116918,
+          "nome": "10.3 Fabricação de conservas de frutas, legumes e outros vegetais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116922,
+          "nome": "10.4 Fabricação de óleos e gorduras vegetais e animais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116926,
+          "nome": "10.5 Laticínios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116930,
+          "nome": "10.6 Moagem, fabricação de produtos amiláceos e de alimentos para animais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116938,
+          "nome": "10.7 Fabricação e refino de açúcar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116941,
+          "nome": "10.8 Torrefação e moagem de café",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116944,
+          "nome": "10.9 Fabricação de outros produtos alimentícios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116952,
+          "nome": "11 Fabricação de bebidas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116953,
+          "nome": "11.1 Fabricação de bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116957,
+          "nome": "11.2 Fabricação de bebidas não-alcoólicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116960,
+          "nome": "12 Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116961,
+          "nome": "12.1 Processamento industrial do fumo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116963,
+          "nome": "12.2 Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116965,
+          "nome": "13 Fabricação de produtos têxteis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116966,
+          "nome": "13.1 Preparação e fiação de fibras têxteis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116971,
+          "nome": "13.2 Tecelagem, exceto malha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116975,
+          "nome": "13.3 Fabricação de tecidos de malha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116977,
+          "nome": "13.4 Acabamentos em fios, tecidos e artefatos têxteis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116979,
+          "nome": "13.5 Fabricação de artefatos têxteis, exceto vestuário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116985,
+          "nome": "14 Confecção de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116986,
+          "nome": "14.1 Confecção de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116991,
+          "nome": "14.2 Fabricação de artigos de malharia e tricotagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116994,
+          "nome": "15 Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116995,
+          "nome": "15.1 Curtimento e outras preparações de couro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116997,
+          "nome": "15.2 Fabricação de artigos para viagem e de artefatos diversos de couro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117000,
+          "nome": "15.3 Fabricação de calçados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117005,
+          "nome": "15.4 Fabricação de partes para calçados, de qualquer material",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117007,
+          "nome": "16 Fabricação de produtos de madeira",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117008,
+          "nome": "16.1 Desdobramento de madeira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117010,
+          "nome": "16.2 Fabricação de produtos de madeira, cortiça e material trançado, exceto móveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117015,
+          "nome": "17 Fabricação de celulose, papel e produtos de papel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117016,
+          "nome": "17.1 Fabricação de celulose e outras pastas para a fabricação de papel",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117018,
+          "nome": "17.2 Fabricação de papel, cartolina e papel-cartão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117021,
+          "nome": "17.3 Fabricação de embalagens de papel, cartolina, papel-cartão e papelão ondulado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117025,
+          "nome": "17.4 Fabricação de produtos diversos de papel, cartolina, papel-cartão e papelão ondulado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117029,
+          "nome": "18 Impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117030,
+          "nome": "18.1 Atividade de impressão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117034,
+          "nome": "18.2 Serviços de pré-impressão e acabamentos gráficos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117037,
+          "nome": "18.3 Reprodução de materiais gravados em qualquer suporte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117039,
+          "nome": "19 Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117040,
+          "nome": "19.1 Coquerias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117042,
+          "nome": "19.2 Fabricação de produtos derivados do petróleo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117045,
+          "nome": "19.3 Fabricação de biocombustíveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117048,
+          "nome": "20 Fabricação de produtos químicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117049,
+          "nome": "20.1 Fabricação de produtos químicos inorgânicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117055,
+          "nome": "20.2 Fabricação de produtos químicos orgânicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117059,
+          "nome": "20.3 Fabricação de resinas e elastômeros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117063,
+          "nome": "20.4 Fabricação de fibras artificiais e sintéticas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117065,
+          "nome": "20.5 Fabricação de defensivos agrícolas e desinfestantes domissanitários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117068,
+          "nome": "20.6 Fabricação de sabões, detergentes, produtos de limpeza, cosméticos, produtos de perfumaria e de higiene pessoal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117072,
+          "nome": "20.7 Fabricação de tintas, vernizes, esmaltes, lacas e produtos afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117076,
+          "nome": "20.9 Fabricação de produtos e preparados químicos diversos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117082,
+          "nome": "21 Fabricação de produtos farmoquímicos e farmacêuticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117083,
+          "nome": "21.1 Fabricação de produtos farmoquímicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117085,
+          "nome": "21.2 Fabricação de produtos farmacêuticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117089,
+          "nome": "22 Fabricação de produtos de borracha e de material plástico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117090,
+          "nome": "22.1 Fabricação de produtos de borracha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117094,
+          "nome": "22.2 Fabricação de produtos de material plástico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117099,
+          "nome": "23 Fabricação de produtos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117100,
+          "nome": "23.1 Fabricação de vidro e de produtos do vidro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117104,
+          "nome": "23.2 Fabricação de cimento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117106,
+          "nome": "23.3 Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117108,
+          "nome": "23.4 Fabricação de produtos cerâmicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117112,
+          "nome": "23.9 Aparelhamento de pedras e fabricação de outros produtos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117116,
+          "nome": "24 Metalurgia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117117,
+          "nome": "24.1 Produção de ferro-gusa e de ferroligas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117120,
+          "nome": "24.2 Siderurgia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117125,
+          "nome": "24.3 Produção de tubos de aço, exceto tubos sem costura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117128,
+          "nome": "24.4 Metalurgia dos metais não-ferrosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117133,
+          "nome": "24.5 Fundição",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117136,
+          "nome": "25 Fabricação de produtos de metal, exceto máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117137,
+          "nome": "25.1 Fabricação de estruturas metálicas e obras de caldeiraria pesada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117141,
+          "nome": "25.2 Fabricação de tanques, reservatórios metálicos e caldeiras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117144,
+          "nome": "25.3 Forjaria, estamparia, metalurgia do pó e serviços de tratamento de metais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117148,
+          "nome": "25.4 Fabricação de artigos de cutelaria, de serralheria e ferramentas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117152,
+          "nome": "25.5 Fabricação de equipamento bélico pesado, armas de fogo e munições",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117154,
+          "nome": "25.9 Fabricação de produtos de metal não especificados anteriormente",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117159,
+          "nome": "26 Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117160,
+          "nome": "26.1 Fabricação de componentes eletrônicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117162,
+          "nome": "26.2 Fabricação de equipamentos de informática e periféricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117165,
+          "nome": "26.3 Fabricação de equipamentos de comunicação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117168,
+          "nome": "26.4 Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117170,
+          "nome": "26.5 Fabricação de aparelhos e instrumentos de medida, teste e controle; cronômetros e relógios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117173,
+          "nome": "26.6 Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117175,
+          "nome": "26.7 Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117177,
+          "nome": "26.8 Fabricação de mídias virgens, magnéticas e ópticas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117179,
+          "nome": "27 Fabricação de máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117180,
+          "nome": "27.1 Fabricação de geradores, transformadores e motores elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117182,
+          "nome": "27.2 Fabricação de pilhas, baterias e acumuladores elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117185,
+          "nome": "27.3 Fabricação de equipamentos para distribuição e controle de energia elétrica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117189,
+          "nome": "27.4 Fabricação de lâmpadas e outros equipamentos de iluminação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117191,
+          "nome": "27.5 Fabricação de eletrodomésticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117194,
+          "nome": "27.9 Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117196,
+          "nome": "28 Fabricação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117197,
+          "nome": "28.1 Fabricação de motores, bombas, compressores e equipamentos de transmissão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117203,
+          "nome": "28.2 Fabricação de máquinas e equipamentos de uso geral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117210,
+          "nome": "28.3 Fabricação de tratores e de máquinas e equipamentos para a agricultura e pecuária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117214,
+          "nome": "28.4 Fabricação de máquinas-ferramenta",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117216,
+          "nome": "28.5 Fabricação de máquinas e equipamentos de uso na extração mineral e na construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117221,
+          "nome": "28.6 Fabricação de máquinas e equipamentos de uso industrial específico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117229,
+          "nome": "29 Fabricação de veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117230,
+          "nome": "29.1 Fabricação de automóveis, camionetas e utilitários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117232,
+          "nome": "29.2 Fabricação de caminhões e ônibus",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117234,
+          "nome": "29.3 Fabricação de cabines, carrocerias e reboques para veículos automotores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117236,
+          "nome": "29.4 Fabricação de peças e acessórios para veículos automotores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117243,
+          "nome": "29.5 Recondicionamento e recuperação de motores para veículos automotores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117245,
+          "nome": "30 Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117246,
+          "nome": "30.1 Construção de embarcações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117249,
+          "nome": "30.3 Fabricação de veículos ferroviários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117252,
+          "nome": "30.4 Fabricação de aeronaves",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117255,
+          "nome": "30.5 Fabricação de veículos militares de combate",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117257,
+          "nome": "30.9 Fabricação de equipamentos de transporte não especificados anteriormente",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117261,
+          "nome": "31 Fabricação de móveis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117262,
+          "nome": "31.0 Fabricação de móveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117267,
+          "nome": "32 Fabricação de produtos diversos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117268,
+          "nome": "32.1 Fabricação de artigos de joalheria, bijuteria e semelhantes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117271,
+          "nome": "32.2 Fabricação de instrumentos musicais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117273,
+          "nome": "32.3 Fabricação de artefatos para pesca e esporte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117275,
+          "nome": "32.4 Fabricação de brinquedos e jogos recreativos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117277,
+          "nome": "32.5 Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117279,
+          "nome": "32.9 Fabricação de produtos diversos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117283,
+          "nome": "33 Manutenção, reparação e instalação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 117284,
+          "nome": "33.1 Manutenção e reparação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 117293,
+          "nome": "33.2 Instalação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

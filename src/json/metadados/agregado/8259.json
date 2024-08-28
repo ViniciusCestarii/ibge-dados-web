@@ -1,0 +1,158 @@
+{
+  "id": 8259,
+  "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento, por rendimento mensal domiciliar per capita e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8259",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Crianças com menos de 2 anos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11881,
+      "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11882,
+      "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11883,
+      "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11884,
+      "nome": "Coeficiente de variação - Crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11885,
+      "nome": "Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11886,
+      "nome": "Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11887,
+      "nome": "Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11888,
+      "nome": "Coeficiente de variação - Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho até o 5º dia após o nascimento",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32852,
+          "nome": "Sem rendimento até 1/4 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32853,
+          "nome": "Mais de 1/4 a 1/2 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32854,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32855,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32856,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32857,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32858,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "id": 4152,
+  "nome": "Número de estabelecimentos e Área dos estabelecimentos agropecuários, por condição legal do produtor em relação às terras, naturalidade ou nacionalidade da pessoa que dirige o estabelecimento, residência da pessoa que dirige o estabelecimento, atividade econômica fora do estabelecimento agropecuário e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4152",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12559,
+      "nome": "Condição legal do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112148,
+          "nome": "Produtor individual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112149,
+          "nome": "Condomínio, consórcio ou sociedade de pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112150,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112151,
+          "nome": "Sociedade anônima ou por cotas de responsabilidade limitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112152,
+          "nome": "Insituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112153,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112154,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12557,
+      "nome": "Naturalidade ou nacionalidade da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112078,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112079,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112080,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112081,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112082,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112083,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112084,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112085,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112086,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112087,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112088,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112089,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112090,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112091,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112092,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112093,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112094,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112095,
+          "nome": "Espirito Santo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112096,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112097,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112098,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112099,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112100,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112101,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112102,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112103,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112104,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118082,
+          "nome": "Brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112107,
+          "nome": "Naturalizado brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112108,
+          "nome": "Alemanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112109,
+          "nome": "Espanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112110,
+          "nome": "Itália",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112111,
+          "nome": "Japão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112112,
+          "nome": "Polônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112113,
+          "nome": "Portugal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112114,
+          "nome": "Outro país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118083,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12773,
+      "nome": "Produtor com atividade econômica fora do estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118667,
+          "nome": "Tinha atividade econômica fora do estabelecimento agropecuário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118209,
+          "nome": "Agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118210,
+          "nome": "Não-agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118211,
+          "nome": "Agropecuária e não-agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118212,
+          "nome": "Não tinha atividade econômica fora do estabelecimento agropecuário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12776,
+      "nome": "Membro da família com atividade econômica fora do estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118668,
+          "nome": "Tinha atividade econômica fora do estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118261,
+          "nome": "Agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118262,
+          "nome": "Não agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118263,
+          "nome": "Agropecuária e não agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118264,
+          "nome": "Não tinha atividade econômica fora do estabelecimento agropecuário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

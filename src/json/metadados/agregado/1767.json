@@ -1,0 +1,101 @@
+{
+  "id": 1767,
+  "nome": "Número de municípios, total e os com serviço de abastecimento de água por esfera administrativa das entidades prestadoras de serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/1767",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11983,
+      "nome": "Esfera administrativa das entidades prestadoras de serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2096,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98592,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98390,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98389,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98388,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98391,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 514,
+          "nome": "Interfederativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 515,
+          "nome": "Intermunicipal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

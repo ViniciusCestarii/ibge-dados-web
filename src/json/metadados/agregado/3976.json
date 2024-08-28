@@ -1,0 +1,125 @@
+{
+  "id": 3976,
+  "nome": "Pessoas de 10 a 17 anos de idade, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a) e Percentual das pessoas de 10 a 17 anos de idade, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a), distribuído pelas classes de rendimento nominal mensal domiciliar per capita, por grupos de idade e classes de rendimento nominal mensal domiciliar per capita",
+  "URL": "https://sidra.ibge.gov.br/tabela/3976",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3950,
+      "nome": "Pessoas de 10 a 17 anos de idade, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a)",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3995,
+      "nome": "Percentual das pessoas de 10 a 17 anos de idade, residentes em domicílios particulares, exclusive as pessoas cuja condição no domicílio era pensionista, empregado(a) doméstico(a) ou parente do(a) empregado(a) doméstico(a), distribuído pelas classes de rendimento nominal mensal domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118282,
+          "nome": "10 a 13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "nome": "Classes de rendimento nominal mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9680,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31614,
+          "nome": "Sem rendimento a 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9682,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9683,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9684,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12151,
+          "nome": "Mais de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

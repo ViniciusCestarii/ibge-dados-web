@@ -1,0 +1,130 @@
+{
+  "id": 2863,
+  "nome": "Mulheres de 15 anos ou mais de idade, por indicativo e número de filhos nascidos vivos e condição de atividade na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/2863",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Fecundidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 798,
+      "nome": "Mulheres de 15 anos ou mais de idade que tiveram filhos nascidos vivos",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000798,
+      "nome": "Mulheres de 15 anos ou mais de idade que tiveram filhos nascidos vivos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12055,
+      "nome": "Indicativo e número de filhos nascidos vivos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99557,
+          "nome": "Total de mulheres de 15 anos ou mais de idade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99558,
+          "nome": "Total de mulheres de 15 anos ou mais de idade que tiveram filhos nascidos vivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99559,
+          "nome": "1 filho nascido vivo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99560,
+          "nome": "2 filhos nascidos vivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99561,
+          "nome": "3 filhos nascidos vivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99562,
+          "nome": "4 filhos nascidos vivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99563,
+          "nome": "5 filhos nascidos vivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99564,
+          "nome": "6 ou mais filhos nascidos vivos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12056,
+      "nome": "Condição de atividade na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99566,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99567,
+          "nome": "Não economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99611,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

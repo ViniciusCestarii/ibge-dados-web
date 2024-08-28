@@ -1,0 +1,194 @@
+{
+  "id": 421,
+  "nome": "Número de processos de divórcio encerrados em primeira instância por grupos de idade dos cônjuges na data da abertura do processo, regime de bens do casamento e tipo de cônjuge",
+  "URL": "https://sidra.ibge.gov.br/tabela/421",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 267,
+      "nome": "Grupos de idade dos cônjuges na data da abertura do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6074,
+          "nome": "Menos de 20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6075,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6076,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6077,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6078,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6079,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6080,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6081,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6082,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6083,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6084,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6085,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6086,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6087,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "nome": "Regime de bens do casamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6090,
+          "nome": "Comunhão universal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6091,
+          "nome": "Comunhão parcial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6092,
+          "nome": "Separação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6093,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "nome": "Tipo de cônjuge",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6072,
+          "nome": "Marido",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6073,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

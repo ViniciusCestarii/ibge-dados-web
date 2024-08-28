@@ -1,0 +1,98 @@
+{
+  "id": 1241,
+  "nome": "Número de municípios, total e os com manejo de resíduos sólidos, por situação da coleta seletiva no município",
+  "URL": "https://sidra.ibge.gov.br/tabela/1241",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2594,
+      "nome": "Municípios com manejo de residuos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002594,
+      "nome": "Municípios com manejo de residuos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11461,
+      "nome": "Situação da coleta seletiva no município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121204,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103915,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91763,
+          "nome": "Em atividade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118112,
+          "nome": "Projeto-piloto em área restrita do município",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91764,
+          "nome": "Interrompida",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91765,
+          "nome": "Não há coleta seletiva",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92950,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

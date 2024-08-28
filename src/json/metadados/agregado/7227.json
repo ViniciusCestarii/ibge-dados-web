@@ -1,0 +1,110 @@
+{
+  "id": 7227,
+  "nome": "Pessoas de 14 anos ou mais que estudam no ensino médio (regular ou EJA) e aquelas que frequentaram o superior sem o completar ou que concluíram o ensino médio ou curso equivalente, por sexo e frequência a curso de educação profissional (a partir de 2019)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7227",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10330,
+      "nome": "Pessoas de 14 anos ou mais de idade que estudam no ensino médio (regular ou EJA) e aquelas que frequentaram o superior sem o completar ou que concluíram o ensino médio ou curso equivalente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10331,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que estudam no ensino médio (regular ou EJA) e aquelas que frequentaram o superior sem o completar ou que concluíram o ensino médio ou curso equivalente",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10332,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade que estudam no ensino médio (regular ou EJA) e aquelas que frequentaram o superior sem o completar ou que concluíram o ensino médio ou curso equivalente",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10333,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade que estudam no ensino médio (regular ou EJA) e aquelas que frequentaram o superior sem o completar ou que concluíram o ensino médio ou curso equivalente",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 881,
+      "nome": "Frequência a curso de educação profissional",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47881,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48005,
+          "nome": "Frequenta curso técnico de nível médio ou curso normal (magistério)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47883,
+          "nome": "Frequenta qualificação profissional",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48006,
+          "nome": "Não frequenta curso técnico de nível médio, nem curso normal (magistério) e nem qualificação profissional",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

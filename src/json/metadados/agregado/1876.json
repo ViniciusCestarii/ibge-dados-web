@@ -1,0 +1,100 @@
+{
+  "id": 1876,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência, por sexo e atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1876",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 779,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000779,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12028,
+      "nome": "Atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99160,
+          "nome": "Agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99161,
+          "nome": "Não-agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99162,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": 2996,
+  "nome": "Divórcios concedidos em 1ª instância sem recursos, a casais com filhos menores de idade, e Número de filhos menores de idade dos casais envolvidos, por número de filhos menores de idade, responsáveis pela guarda dos filhos e lugar da ação do processo (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2996",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6566,
+      "nome": "Número de divórcios concedidos em 1ª instância sem recursos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1006566,
+      "nome": "Número de divórcios concedidos em 1ª instância sem recursos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 233,
+      "nome": "Número de filhos menores de idade de casais envolvidos em divórcios concedidos em 1ª instância sem recursos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000233,
+      "nome": "Número de filhos menores de idade de casais envolvidos em divórcios concedidos em 1ª instância sem recursos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 271,
+      "nome": "Número de filhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6099,
+          "nome": "Sem filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6100,
+          "nome": "1 filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6101,
+          "nome": "2 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6102,
+          "nome": "3 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6103,
+          "nome": "4 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6104,
+          "nome": "5 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6105,
+          "nome": "6 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6106,
+          "nome": "7 ou mais filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6107,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "nome": "Responsável pela guarda dos filhos menores de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6116,
+          "nome": "Marido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6117,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6118,
+          "nome": "Ambos os cônjuges",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6119,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6120,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

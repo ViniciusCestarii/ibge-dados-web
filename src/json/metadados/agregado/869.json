@@ -1,0 +1,122 @@
+{
+  "id": 869,
+  "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola, mas não compareceram pelo menos um dia no período de referência de 60 dias, por principal motivo de não terem comparecido à creche ou escola e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/869",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2121,
+      "nome": "Pessoas que frequentavam creche ou escola, mas não compareceram pelo menos um dia no período de referência de 60 dias",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002121,
+      "nome": "Pessoas que frequentavam creche ou escola, mas não compareceram pelo menos um dia no período de referência de 60 dias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12664,
+      "nome": "Principal motivo de não ter comparecido à creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114404,
+          "nome": "Doença",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114405,
+          "nome": "Por vontade própria ou dos pais ou responsáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114406,
+          "nome": "Falta de transporte escolar ou de dinheiro, a escola ou creche era distante, não tiveram quem as levassem, falta de professor ou greve",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114407,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114408,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99749,
+          "nome": "0 a 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6741,
+          "nome": "4 a 6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6742,
+          "nome": "7 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

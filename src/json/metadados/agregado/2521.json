@@ -1,0 +1,186 @@
+{
+  "id": 2521,
+  "nome": "Pessoas que tiveram atendimento de saúde nas duas últimas semanas - exclusive as pessoas cujo principal atendimento de saúde recebido foi a marcação de consulta, por motivo principal da procura, cobertura de plano de saúde, atendimento através de plano de saúde e avaliação do atendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/2521",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1340,
+      "nome": "Pessoas que tiveram atendimento de saúde nas duas últimas semanas - exclusive as pessoas cujo principal atendimento de saúde recebido foi a marcação de consulta",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001340,
+      "nome": "Pessoas que tiveram atendimento de saúde nas duas últimas semanas - exclusive as pessoas cujo principal atendimento de saúde recebido foi a marcação de consulta - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12272,
+      "nome": "Motivo principal da procura de atendimento de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104968,
+          "nome": "Doença ou problema odontológico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104969,
+          "nome": "Vacinação ou outros atendimentos de prevenção, pré-natal ou somente atestado médico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104970,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104971,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12262,
+      "nome": "Cobertura de plano de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104996,
+          "nome": "Tem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104997,
+          "nome": "Não term",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104900,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12276,
+      "nome": "Atendimento através de plano de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104998,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104999,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105000,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12279,
+      "nome": "Avaliação do atendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 105008,
+          "nome": "Muito bom e bom",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105009,
+          "nome": "Regular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105010,
+          "nome": "Ruim e muito ruim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105011,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

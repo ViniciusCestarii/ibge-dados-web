@@ -1,0 +1,108 @@
+{
+  "id": 6094,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pelo sentimento em relação ao próprio corpo, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6094",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Imagem corporal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 7572,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pelo sentimento em relação ao próprio corpo",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7573,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pelo sentimento em relação ao próprio corpo, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7574,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pelo sentimento em relação ao próprio corpo, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "nome": "Sentimento em relação ao próprio corpo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39901,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39902,
+          "nome": "Muito satisfeito ou satisfeito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39903,
+          "nome": "Indiferente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39904,
+          "nome": "Insatisfeito ou muito insatisfeito",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

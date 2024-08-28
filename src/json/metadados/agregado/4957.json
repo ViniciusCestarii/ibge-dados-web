@@ -1,0 +1,89 @@
+{
+  "id": 4957,
+  "nome": "Densidade de moradores por cômodo do domicílio, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4957",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do domicílio e serviços domiciliares de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5054,
+      "nome": "Densidade de moradores por cômodo do domicílio",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5055,
+      "nome": "Densidade de moradores por cômodo do domicílio, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5056,
+      "nome": "Densidade de moradores por cômodo do domicílio, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5057,
+      "nome": "Coeficiente de variação - Densidade de moradores por cômodo do domicílio",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

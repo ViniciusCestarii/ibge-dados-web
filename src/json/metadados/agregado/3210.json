@@ -1,0 +1,86 @@
+{
+  "id": 3210,
+  "nome": "Pessoas que tinham menos de 10 anos ininterruptos de residência no município, segundo o tempo ininterrupto de residência no município",
+  "URL": "https://sidra.ibge.gov.br/tabela/3210",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1478,
+      "nome": "Pessoas que tinham menos de 10 anos ininterruptos de residência no município",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001478,
+      "nome": "Pessoas que tinham menos de 10 anos ininterruptos de residência no município - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 305,
+      "nome": "Tempo ininterrupto de residência no município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6864,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7901,
+          "nome": "1 a 2 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7902,
+          "nome": "3 a 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6948,
+          "nome": "6 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

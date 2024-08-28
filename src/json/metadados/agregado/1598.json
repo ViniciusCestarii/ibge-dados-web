@@ -1,0 +1,139 @@
+{
+  "id": 1598,
+  "nome": "Gastos com pessoal das outras atividades",
+  "URL": "https://sidra.ibge.gov.br/tabela/1598",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Outras atividades de serviços",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 638,
+      "nome": "Gastos com pessoal",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000638,
+      "nome": "Gastos com pessoal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93130,
+          "nome": "Serviços auxiliares financeiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93131,
+          "nome": "Representantes comerciais e agentes do comércio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93132,
+          "nome": "Manutenção e reparação de veículos e objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95237,
+          "nome": "Serviços audiovisuais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95238,
+          "nome": "Outros serviços recreativos, culturais e desportivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93145,
+          "nome": "Serviços pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93133,
+          "nome": "Outras atividades de serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11573,
+      "nome": "Tipo de gasto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93007,
+          "nome": "Salários e outras remunerações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93008,
+          "nome": "Contribuições para a Previdência Social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93009,
+          "nome": "FGTS",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93010,
+          "nome": "Indenizações por dispensa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93011,
+          "nome": "Benefícios concedidos aos empregados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

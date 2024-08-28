@@ -1,0 +1,89 @@
+{
+  "id": 1429,
+  "nome": "Número de municípios com serviço de coleta de lixo seletiva por tipo de material recuperado",
+  "URL": "https://sidra.ibge.gov.br/tabela/1429",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1230,
+      "nome": "Número de municípios com serviço de coleta seletiva",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001230,
+      "nome": "Número de municípios com serviço de coleta seletiva - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12216,
+      "nome": "Tipo de material recolhido",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103929,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103930,
+          "nome": "Papel e/ou papelão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103931,
+          "nome": "Plástico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103932,
+          "nome": "Vidro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103933,
+          "nome": "Metal (ferrosos e não-ferrosos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103934,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

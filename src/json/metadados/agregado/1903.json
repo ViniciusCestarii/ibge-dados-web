@@ -1,0 +1,182 @@
+{
+  "id": 1903,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por contribuição para instituto de previdência no trabalho principal, sexo e ramos de atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1903",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12040,
+      "nome": "Contribuição para instituto de previdência no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99340,
+          "nome": "Contribuintes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99341,
+          "nome": "Não contribuintes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99342,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12039,
+      "nome": "Ramo de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99328,
+          "nome": "Agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99329,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99330,
+          "nome": "Indústria da construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99331,
+          "nome": "Outras atividades industriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99333,
+          "nome": "Comércio de mercadorias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99334,
+          "nome": "Prestação de serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99335,
+          "nome": "Serviços auxiliares de atividade econômica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99336,
+          "nome": "Transporte e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99337,
+          "nome": "Social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99338,
+          "nome": "Administração pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99339,
+          "nome": "Outras atividades, atividades mal definidas ou não declaradas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 6684,
+  "nome": "Indicador 1.1.1 - Proporção da população abaixo da linha de pobreza internacional, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/6684",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Erradicação da pobreza",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9617,
+      "nome": "Proporção da população abaixo da linha de pobreza internacional",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

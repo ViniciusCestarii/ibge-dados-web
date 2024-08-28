@@ -1,0 +1,346 @@
+{
+  "id": 3593,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por seção de atividade (antiga classificação) do trabalho principal, segundo o sexo e a seção de atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3593",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 535,
+      "nome": "Seção de atividade (antiga classificação) do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 18730,
+          "nome": "Agricultura, pecuária, silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18736,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18737,
+          "nome": "Indústria extrativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18738,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18744,
+          "nome": "Produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18745,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18746,
+          "nome": "Comércio, reparação de veículos automotores, objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18747,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18748,
+          "nome": "Transporte, armazenagem e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18749,
+          "nome": "Intermediação financeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18750,
+          "nome": "Atividades imobiliárias, aluguéis e serviços prestados às empresas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18751,
+          "nome": "Administra-ção pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18752,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18753,
+          "nome": "Saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18754,
+          "nome": "Outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18755,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18756,
+          "nome": "Organismos internacio-nais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 18757,
+          "nome": "Atividades mal especificadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11805,
+      "nome": "Seção de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12640,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12641,
+          "nome": "Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12642,
+          "nome": "Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12643,
+          "nome": "Eletricidade e gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12644,
+          "nome": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95377,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12645,
+          "nome": "Comércio; reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12646,
+          "nome": "Transporte, armazenagem e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95379,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12647,
+          "nome": "Informação e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12648,
+          "nome": "Atividades financeiras, de seguros e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9205,
+          "nome": "Atividades imobiliárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12649,
+          "nome": "Atividades profissionais, científicas e técnicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12650,
+          "nome": "Atividades administrativas e serviços complementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95383,
+          "nome": "Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95384,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12651,
+          "nome": "Saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12652,
+          "nome": "Artes, cultura, esporte e recreação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12653,
+          "nome": "Outras atividades de serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95387,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99809,
+          "nome": "Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99810,
+          "nome": "Atividades mal especificadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

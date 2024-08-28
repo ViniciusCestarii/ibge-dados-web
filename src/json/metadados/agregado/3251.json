@@ -1,0 +1,278 @@
+{
+  "id": 3251,
+  "nome": "Receita bruta de serviços das agências de publicidade com 10 ou mais pessoas ocupadas, que informaram pelo menos um segmento de atuação de seus clientes, por segmento de atuação, idade média da agência, faixa de pessoal ocupado e característica da agência",
+  "URL": "https://sidra.ibge.gov.br/tabela/3251",
+  "pesquisa": "Pesquisa de Serviços de Publicidade e Promoção",
+  "assunto": "Publicidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 118,
+      "nome": "Número de agências de publicidade com 10 ou mais pessoas ocupadas, que informaram pelo menos um segmento de atuação de seus clientes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000118,
+      "nome": "Número de agências de publicidade com 10 ou mais pessoas ocupadas, que informaram pelo menos um segmento de atuação de seus clientes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 126,
+      "nome": "Valor da receita bruta de serviços das agências de publicidade com 10 ou mais pessoas ocupadas, que informaram pelo menos um segmento de atuação de seus clientes",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000126,
+      "nome": "Valor da receita bruta de serviços das agências de publicidade com 10 ou mais pessoas ocupadas, que informaram pelo menos um segmento de atuação de seus clientes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 445,
+      "nome": "Segmento de atuação da agência de publicidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 11697,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11703,
+          "nome": "Indústria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11704,
+          "nome": "Comércio varejista",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11705,
+          "nome": "Serviços financeiros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11706,
+          "nome": "Transportes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11698,
+          "nome": "Telecomunicações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11699,
+          "nome": "Saúde e educação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11700,
+          "nome": "Governo (setor público federal, estadual e municipal), exceto empresas estatais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11701,
+          "nome": "Entidades e organizações associativas (organizações patronais, empresariais, profissionais e sindicais, associações de defesa de direitos sociais e organizações religiosas e políticas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11702,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "nome": "Idade média da agência de publicidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11651,
+          "nome": "Até 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11652,
+          "nome": "De 2 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11653,
+          "nome": "De 5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11654,
+          "nome": "De 10 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11655,
+          "nome": "De 20 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11656,
+          "nome": "Mais de 30 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11657,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "nome": "Faixas de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11395,
+          "nome": "Até 10 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11396,
+          "nome": "De 11 a 19 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11397,
+          "nome": "De 20 a 29 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11398,
+          "nome": "De 30 a 49 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11895,
+          "nome": "De 50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11399,
+          "nome": "De 100 a 199 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11400,
+          "nome": "De 200 ou mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110012,
+          "nome": "Sem declaração de pessoal ocupado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "nome": "Característica da agência de publicidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 11664,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11660,
+          "nome": "Agência sem serviço de planejamento e/ou criação de campanhas publicitárias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11662,
+          "nome": "Agência com serviço de planejamento e/ou criação de campanhas publicitárias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11663,
+          "nome": "Agência com serviços complementares (produção gráfica, promoção de vendas, serviços de fullfilment, assessoria em marketing, organização de eventos, etc.)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

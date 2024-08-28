@@ -1,0 +1,86 @@
+{
+  "id": 2358,
+  "nome": "Número de municípios com serviço de coleta de lixo seletiva interrompida, por motivo da interrupção",
+  "URL": "https://sidra.ibge.gov.br/tabela/2358",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1228,
+      "nome": "Municípios com serviço de coleta de lixo seletiva interrompida",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001228,
+      "nome": "Municípios com serviço de coleta de lixo seletiva interrompida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12213,
+      "nome": "Motivo da interrupção da coleta seletiva",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103916,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103917,
+          "nome": "Má aceitação por parte da comunidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103918,
+          "nome": "Falta de local adequado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103919,
+          "nome": "Falta de campanha de conscientização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103920,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103921,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

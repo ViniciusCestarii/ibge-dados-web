@@ -1,0 +1,380 @@
+{
+  "id": 9491,
+  "nome": "Municípios, total, e com estabelecimento público ou convenidos ao SUS de saúde, seus aspectos e outros tipos de instituições, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9491",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1626,
+      "nome": "Existência de hospitais de ensino e pesquisa credenciados pelos Ministérios da Saúde e da Educação para atendimento à saúde, participando da formação de estudante de graduação e pós-graduação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59544,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59545,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59546,
+          "nome": "De responsabilidade da gestão municipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59547,
+          "nome": "1",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59548,
+          "nome": "2",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59549,
+          "nome": "3",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59550,
+          "nome": "4",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59551,
+          "nome": "5 ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59552,
+          "nome": "De não responsabilidade da gestão muicipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60015,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1628,
+      "nome": "Existência de instituição de responsabilidade da saúde, pública ou conveniada ao SUS, que faça atendimento específico ao usuário de drogas ilícitas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59553,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59554,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59555,
+          "nome": "1 a 5",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59556,
+          "nome": "6 a 10",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59557,
+          "nome": "11 a 20",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59558,
+          "nome": "21 a 30",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59559,
+          "nome": "Acima de 30",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59560,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1630,
+      "nome": "Existência de estabelecimentos de saúde públicos ou conveniados ao SUS que realizaran parto hospitalar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59561,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59562,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59563,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59564,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71437,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1643,
+      "nome": "Existência de Centro de Parto Normal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59611,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59612,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59613,
+          "nome": "1",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59614,
+          "nome": "2",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59615,
+          "nome": "3",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59616,
+          "nome": "4",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59617,
+          "nome": "5 ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59618,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71438,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1645,
+      "nome": "Existência de Casa da Gestante",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59619,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59620,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59621,
+          "nome": "1 a 2",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59622,
+          "nome": "3 a 5",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59623,
+          "nome": "6 a 10",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59625,
+          "nome": "Acima de 10",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59626,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71439,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 7505,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com controle de perdas físicas, por tipos de programas e ações de controle.",
+  "URL": "https://sidra.ibge.gov.br/tabela/7505",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10740,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com controle de perdas físicas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11985,
+      "nome": "Tipo de controle de perdas de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98612,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48992,
+          "nome": "Controle da pressão na rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48993,
+          "nome": "Qualificação de mão-de-obra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48994,
+          "nome": "Reforma de reservatórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98416,
+          "nome": "Substituição de redes velhas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98418,
+          "nome": "Caça-vazamento na rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98420,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

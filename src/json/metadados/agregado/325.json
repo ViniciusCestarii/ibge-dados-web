@@ -1,0 +1,156 @@
+{
+  "id": 325,
+  "nome": "Efetivo dos rebanhos por espécie de efetivo/rebanho e condição do produtor em relação às terras",
+  "URL": "https://sidra.ibge.gov.br/tabela/325",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 105,
+      "nome": "Efetivo dos rebanhos",
+      "unidade": "Cabeças",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000105,
+      "nome": "Efetivo dos rebanhos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 224,
+      "nome": "Espécie de rebanho da pecuária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4823,
+          "nome": "Bovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4824,
+          "nome": "Bubalinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4825,
+          "nome": "Equinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4826,
+          "nome": "Asininos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4827,
+          "nome": "Muares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4828,
+          "nome": "Caprinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4829,
+          "nome": "Ovinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4830,
+          "nome": "Suínos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4831,
+          "nome": "Aves",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4832,
+          "nome": "Coelhos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": 5744,
+  "nome": "Pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais, por rendimento mensal domiciliar per capita e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5744",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 6458,
+      "nome": "Pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6459,
+      "nome": "Pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6460,
+      "nome": "Pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6461,
+      "nome": "Coeficiente de variação - Pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6462,
+      "nome": "Percentual de pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6463,
+      "nome": "Percentual de pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6464,
+      "nome": "Percentual de pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6465,
+      "nome": "Coeficiente de variação - Percentual de pessoas com deficiência auditiva com pouca ou nenhuma limitação das atividades habituais",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32852,
+          "nome": "Sem rendimento até 1/4 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32853,
+          "nome": "Mais de 1/4 a 1/2 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32854,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32855,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32856,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32857,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32858,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

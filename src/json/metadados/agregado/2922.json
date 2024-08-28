@@ -1,0 +1,105 @@
+{
+  "id": 2922,
+  "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior), por nível de ensino e consumo de merenda escolar ou outra refeição gratuita",
+  "URL": "https://sidra.ibge.gov.br/tabela/2922",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1624,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001624,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11798,
+      "nome": "Nível de ensino ou curso que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95300,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95301,
+          "nome": "Creche",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107454,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95304,
+          "nome": "Fundamental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95305,
+          "nome": "Médio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12377,
+      "nome": "Consumo de merenda escolar ou outra refeição gratuita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107461,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107462,
+          "nome": "Consumiam",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107463,
+          "nome": "Não consumiam",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

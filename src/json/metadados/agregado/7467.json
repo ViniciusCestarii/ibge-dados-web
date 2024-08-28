@@ -1,0 +1,164 @@
+{
+  "id": 7467,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento com ETAs ou UTSs em operação, por tipo e etapas de tratamento e geração de lodo no tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7467",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10645,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ETAs ou UTSs em operação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 952,
+      "nome": "Tipo de tratamento da água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48552,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48553,
+          "nome": "Convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48554,
+          "nome": "Não convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48555,
+          "nome": "Simples desinfecção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 953,
+      "nome": "Etapas do tratamento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48556,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48557,
+          "nome": "Processo de dessalinização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48558,
+          "nome": "Correção de pH",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48559,
+          "nome": "Coagulação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48560,
+          "nome": "Floculação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48561,
+          "nome": "Decantação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48562,
+          "nome": "Filtração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48563,
+          "nome": "Fluoretação adicionada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48564,
+          "nome": "Desinfecção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48565,
+          "nome": "Outra(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 954,
+      "nome": "Geração de lodo no processo de tratamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48566,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48567,
+          "nome": "Com geração de lodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48568,
+          "nome": "Sem geração de lodo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": 290,
+  "nome": "Valor da produção na extração vegetal, por tipo de produto extrativo (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/290",
+  "pesquisa": "Produção da Extração Vegetal e da Silvicultura",
+  "assunto": "Extração vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1990,
+    "fim": 2014
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 145,
+      "nome": "Valor da produção na extração vegetal",
+      "unidade": "Mil Cruzeiros [1990 a 1992], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2014]",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000145,
+      "nome": "Valor da produção na extração vegetal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 193,
+      "nome": "Tipo de produto extrativo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3402,
+          "nome": "1 - Alimentícios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3403,
+          "nome": "1.1 - Açaí (fruto)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3404,
+          "nome": "1.2 - Castanha-de-caju",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3405,
+          "nome": "1.3 - Castanha-do-pará",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3406,
+          "nome": "1.4 - Erva-mate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3407,
+          "nome": "1.5 - Mangaba (fruto)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3408,
+          "nome": "1.6 - Palmito",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 39409,
+          "nome": "1.7 - Pequi (fruto)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3409,
+          "nome": "1.8 - Pinhão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3410,
+          "nome": "1.9 - Umbu (fruto)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11296,
+          "nome": "1.10 - Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3411,
+          "nome": "2 - Aromáticos, medicinais, tóxicos e corantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3412,
+          "nome": "2.1 - Ipecacuanha ou poaia (raiz)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3413,
+          "nome": "2.2 - Jaborandi (folha)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3414,
+          "nome": "2.3 - Urucum (semente)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3415,
+          "nome": "2.4 - Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3416,
+          "nome": "3 - Borrachas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3417,
+          "nome": "3.1 - Caucho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3418,
+          "nome": "3.2 - Hevea (látex coagulado)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3419,
+          "nome": "3.3 - Hevea (látex líquido)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3420,
+          "nome": "4 - Ceras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3421,
+          "nome": "4.1 - Carnaúba (cera)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3422,
+          "nome": "4.2 - Carnaúba (pó)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 110011,
+          "nome": "4.3 - Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3423,
+          "nome": "5 - Fibras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3424,
+          "nome": "5.1 - Buriti",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3425,
+          "nome": "5.2 - Carnaúba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3426,
+          "nome": "5.3 - Piaçava",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3427,
+          "nome": "5.4 - Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3428,
+          "nome": "6 - Gomas não elásticas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3429,
+          "nome": "6.1 - Balata",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3430,
+          "nome": "6.2 - Maçaranduba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3431,
+          "nome": "6.3 - Sorva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3433,
+          "nome": "7.1 - Carvão vegetal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3434,
+          "nome": "7.2 - Lenha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3435,
+          "nome": "7.3 - Madeira em tora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3438,
+          "nome": "8 - Oleaginosos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3439,
+          "nome": "8.1 - Babaçu (amêndoa)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3440,
+          "nome": "8.2 - Copaíba (óleo)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3441,
+          "nome": "8.3 - Cumaru (amêndoa)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3442,
+          "nome": "8.4 - Licuri (coquilho)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3443,
+          "nome": "8.5 - Oiticica (semente)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3444,
+          "nome": "8.6 - Pequi (amêndoa)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3445,
+          "nome": "8.7 - Tucum (amêndoa)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3446,
+          "nome": "8.8 - Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3448,
+          "nome": "9.1 - Pinheiro brasileiro (nó de pinho)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3449,
+          "nome": "9.2 - Pinheiro brasileiro (árvores abatidas)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3450,
+          "nome": "9.3 - Pinheiro brasileiro (madeira em tora)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3451,
+          "nome": "10 - Tanantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3452,
+          "nome": "10.1 - Angico (casca)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3453,
+          "nome": "10.2 - Barbatimão (casca)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3454,
+          "nome": "10.3 - Outros",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

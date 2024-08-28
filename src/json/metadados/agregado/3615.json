@@ -1,0 +1,658 @@
+{
+  "id": 3615,
+  "nome": "Despesa monetária média mensal familiar - valor e distribuição - por classes de rendimento monetário mensal familiar e tipos de despesa - Faixas até 6.000 Reais",
+  "URL": "https://sidra.ibge.gov.br/tabela/3615",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2253,
+      "nome": "Despesa monetária média mensal familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 2254,
+      "nome": "Distribuição da despesa monetária média mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 540,
+      "nome": "Classes de rendimento monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 17777,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17778,
+          "nome": "Até 400 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17779,
+          "nome": "Mais de 400 a 600 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17780,
+          "nome": "Mais de 600 a 1000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17781,
+          "nome": "Mais de 1000 a 1200 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17782,
+          "nome": "Mais de 1200 a 1600 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17783,
+          "nome": "Mais de 1600 a 2000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17784,
+          "nome": "Mais de 2000 a 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17785,
+          "nome": "Mais de 3000 a 4000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17786,
+          "nome": "Mais de 4000 a 6000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 17787,
+          "nome": "Mais de 6000 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12190,
+      "nome": "Tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103536,
+          "nome": "1Despesa total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103537,
+          "nome": "2Despesas correntes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103538,
+          "nome": "2.1Despesas de consumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103539,
+          "nome": "2.1.1Alimentação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103540,
+          "nome": "2.1.2Habitação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103541,
+          "nome": "2.1.2.1Aluguel",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103542,
+          "nome": "2.1.2.2Serviços e taxas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103543,
+          "nome": "2.1.2.2.1Energia elétrica",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103544,
+          "nome": "2.1.2.2.2Telefone fixo",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103545,
+          "nome": "2.1.2.2.3Telefone celular",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103546,
+          "nome": "2.1.2.2.4Gás doméstico",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103547,
+          "nome": "2.1.2.2.5Água e esgoto",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103548,
+          "nome": "2.1.2.2.6Outros",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103549,
+          "nome": "2.1.2.3Manutenção do lar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103550,
+          "nome": "2.1.2.4Artigos de limpeza",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103551,
+          "nome": "2.1.2.5Mobiliários e artigos do lar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103552,
+          "nome": "2.1.2.6Eletrodomésticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103553,
+          "nome": "2.1.2.7Consertos de artigos do lar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103554,
+          "nome": "2.1.3Vestuário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103555,
+          "nome": "2.1.3.1Roupa de homem",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103556,
+          "nome": "2.1.3.2Roupa de mulher",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103557,
+          "nome": "2.1.3.3Roupa de criança",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103558,
+          "nome": "2.1.3.4Calçados e apetrechos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103559,
+          "nome": "2.1.3.5Jóias e bijuterias",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103560,
+          "nome": "2.1.3.6Tecidos e armarinhos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103561,
+          "nome": "2.1.4Transporte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103562,
+          "nome": "2.1.4.1Transporte urbano",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103563,
+          "nome": "2.1.4.2Gasolina - veículo próprio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103564,
+          "nome": "2.1.4.3Álcool - veículo próprio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103565,
+          "nome": "2.1.4.4Manutenção - veículo próprio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103566,
+          "nome": "2.1.4.5Aquisição de veículos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103567,
+          "nome": "2.1.4.6Viagens",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103568,
+          "nome": "2.1.4.7Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103569,
+          "nome": "2.1.5Higiene e cuidados pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103570,
+          "nome": "2.1.5.1Perfume",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103571,
+          "nome": "2.1.5.2Produtos para cabelo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103572,
+          "nome": "2.1.5.3Sabonete",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103573,
+          "nome": "2.1.5.4Instrumentos e produtos de uso pessoal",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103574,
+          "nome": "2.1.6Assistência à saude",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103575,
+          "nome": "2.1.6.1Remédios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103576,
+          "nome": "2.1.6.2Plano/Seguro saúde",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103577,
+          "nome": "2.1.6.3Consulta e tratamento dentário",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103578,
+          "nome": "2.1.6.4Consulta médica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103579,
+          "nome": "2.1.6.5Tratamento ambulatorial",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103580,
+          "nome": "2.1.6.6Serviços de cirurgia",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103581,
+          "nome": "2.1.6.7Hospitalização",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103582,
+          "nome": "2.1.6.8Exames diversos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103583,
+          "nome": "2.1.6.9Material de tratamento",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103584,
+          "nome": "2.1.6.10Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103585,
+          "nome": "2.1.7Educação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103586,
+          "nome": "2.1.7.1Cursos regulares",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103587,
+          "nome": "2.1.7.2Cursos superiores",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103588,
+          "nome": "2.1.7.3Outros cursos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103589,
+          "nome": "2.1.7.4Livros didáticos e revistas técnicas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103590,
+          "nome": "2.1.7.5Artigos escolares",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103591,
+          "nome": "2.1.7.6Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103592,
+          "nome": "2.1.8Recreação e cultura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103593,
+          "nome": "2.1.8.1Brinquedos e jogos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103594,
+          "nome": "2.1.8.2Celular e acessórios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103595,
+          "nome": "2.1.8.3Periódicos, livros e revistas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103596,
+          "nome": "2.1.8.4Diversões e esportes",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103597,
+          "nome": "2.1.8.5Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103598,
+          "nome": "2.1.9Fumo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103599,
+          "nome": "2.1.10Serviços pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103600,
+          "nome": "2.1.10.1Cabeleireiro",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103601,
+          "nome": "2.1.10.2Manicuro e pedicuro",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103602,
+          "nome": "2.1.10.3Consertos de artigos pessoais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103603,
+          "nome": "2.1.10.4Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103604,
+          "nome": "2.1.11Despesas diversas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103605,
+          "nome": "2.1.11.1Jogos e apostas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103606,
+          "nome": "2.1.11.2Comunicação",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103607,
+          "nome": "2.1.11.3Cerimônias e festas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103608,
+          "nome": "2.1.11.4Serviços profissionais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103609,
+          "nome": "2.1.11.5Imóveis de uso ocasional",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103610,
+          "nome": "2.1.11.6Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103611,
+          "nome": "2.2Outras despesas correntes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103612,
+          "nome": "2.2.1Impostos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103613,
+          "nome": "2.2.2Contribuições trabalhistas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103614,
+          "nome": "2.2.3Serviços bancários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103615,
+          "nome": "2.2.4Pensões, mesadas e doações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103616,
+          "nome": "2.2.5Previdência privada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103617,
+          "nome": "2.2.6Outras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103618,
+          "nome": "2.3Aumento do ativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103619,
+          "nome": "2.3.1Imóvel (aquisição)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103620,
+          "nome": "2.3.2Imóvel (reforma)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103621,
+          "nome": "2.3.3Outros investimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103622,
+          "nome": "2.4Diminuição do passivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103623,
+          "nome": "2.4.1Empréstimo e carnê",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103624,
+          "nome": "2.4.2Prestação de imóvel",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

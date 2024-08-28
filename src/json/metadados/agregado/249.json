@@ -1,0 +1,272 @@
+{
+  "id": 249,
+  "nome": "Famílias por nível de instrução do chefe da família, número de componentes e origem do recebimento do chefe da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/249",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 168,
+      "nome": "Famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000168,
+      "nome": "Famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 283,
+      "nome": "Nível de instrução do chefe da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6219,
+          "nome": "Sem instrução",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6218,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6207,
+          "nome": "1ª a 4ª séries do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6209,
+          "nome": "1ª, 2ª e/ou 3ª séries completas do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6208,
+          "nome": "4ª série completa do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6211,
+          "nome": "5ª., 6ª, 7ª e 8ª séries do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6213,
+          "nome": "5ª, 6ª. e/ou 7ª séries completas do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6212,
+          "nome": "8ª série completa do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6214,
+          "nome": "1ª, 2ª. e 3ª. séries do 2º. grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6216,
+          "nome": "1ª e/ou 2ª séries completas do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6215,
+          "nome": "3ª série completa do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6220,
+          "nome": "Superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6221,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6222,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6217,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6210,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "nome": "Número de pessoas.",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3541,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3542,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3543,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3544,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3545,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3546,
+          "nome": "6 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3547,
+          "nome": "7 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3548,
+          "nome": "8 pessoas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "nome": "Origem do recebimento do chefe da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6224,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6225,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6223,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6229,
+          "nome": "Transferências",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6227,
+          "nome": "Rendimento de aluguel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6226,
+          "nome": "Outros recebimentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6228,
+          "nome": "Sem recebimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

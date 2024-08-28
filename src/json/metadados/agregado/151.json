@@ -1,0 +1,70 @@
+{
+  "id": 151,
+  "nome": "Leite cru ou resfriado recebido pela indústria por origem do leite recebido",
+  "URL": "https://sidra.ibge.gov.br/tabela/151",
+  "pesquisa": "Pesquisa Mensal do Leite",
+  "assunto": "Leite",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 59,
+      "nome": "Leite cru ou resfriado recebido pela indústria",
+      "unidade": "Mil litros",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000059,
+      "nome": "Leite cru ou resfriado recebido pela indústria - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 17,
+      "nome": "Origem do leite recebido",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 52,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1020,
+          "nome": "Diretamente do produtor",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 53,
+          "nome": "De estabelecimento da própria empresa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 54,
+          "nome": "De outra empresa",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

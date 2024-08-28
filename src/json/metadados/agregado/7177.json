@@ -1,0 +1,104 @@
+{
+  "id": 7177,
+  "nome": "Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar, por sexo e frequência a curso de qualificação profissional",
+  "URL": "https://sidra.ibge.gov.br/tabela/7177",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10338,
+      "nome": "Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10339,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10340,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10341,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "nome": "Frequência a curso de qualificação profissional",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47911,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47912,
+          "nome": "Frequenta curso de qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47913,
+          "nome": "Não frequenta curso de qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

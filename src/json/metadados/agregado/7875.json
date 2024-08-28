@@ -1,0 +1,53 @@
+{
+  "id": 7875,
+  "nome": "Indicador 16.1.1 - Número de vítimas de homicídios intencionais por 100 mil habitantes, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/7875",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Paz, justiça e instituições eficazes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9502,
+      "nome": "Número de vítimas de homicídios intencionais por 100 mil habitantes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

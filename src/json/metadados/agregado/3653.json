@@ -1,0 +1,257 @@
+{
+  "id": 3653,
+  "nome": "Produção Física Industrial, por seções e atividades industriais (série encerrada em janeiro de 2022)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3653",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200201,
+    "fim": 202201
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3135,
+      "nome": "Índice de base fixa sem ajuste sazonal (Base: média de 2012 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3134,
+      "nome": "Índice de base fixa com ajuste sazonal (Base: média de 2012 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3136,
+      "nome": "Índice mensal (Base: igual mês do ano anterior = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3137,
+      "nome": "Índice acumulado no ano (Base: igual período do ano anterior = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3138,
+      "nome": "Índice acumulado nos últimos 12 meses (Base: últimos 12 meses anteriores = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 4139,
+      "nome": "Variação percentual mês/mês imediatamente anterior com ajuste sazonal (Base: mês imediatamente anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3139,
+      "nome": "Variação percentual mensal (Base: igual mês do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3140,
+      "nome": "Variação percentual acumulada no ano (Base: igual período do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3141,
+      "nome": "Variação percentual acumulada nos últimos 12 meses (Base: últimos 12 meses anteriores)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 544,
+      "nome": "Seções e atividades industriais (CNAE 2.0)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 129314,
+          "nome": "1 Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129315,
+          "nome": "2 Indústrias extrativas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129316,
+          "nome": "3 Indústrias de transformação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129317,
+          "nome": "3.10 Fabricação de produtos alimentícios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129318,
+          "nome": "3.11 Fabricação de bebidas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129319,
+          "nome": "3.12 Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129320,
+          "nome": "3.13 Fabricação de produtos têxteis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129321,
+          "nome": "3.14 Confecção de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129322,
+          "nome": "3.15 Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129323,
+          "nome": "3.16 Fabricação de produtos de madeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129324,
+          "nome": "3.17 Fabricação de celulose, papel e produtos de papel",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129325,
+          "nome": "3.18 Impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129326,
+          "nome": "3.19 Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129328,
+          "nome": "3.20B Fabricação de sabões, detergentes, produtos de limpeza, cosméticos, produtos de perfumaria e de higiene pessoal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129329,
+          "nome": "3.20C Fabricação de outros produtos químicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129330,
+          "nome": "3.21 Fabricação de produtos farmoquímicos e farmacêuticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129331,
+          "nome": "3.22 Fabricação de produtos de borracha e de material plástico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129332,
+          "nome": "3.23 Fabricação de produtos de minerais não metálicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129333,
+          "nome": "3.24 Metalurgia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129334,
+          "nome": "3.25 Fabricação de produtos de metal, exceto máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129335,
+          "nome": "3.26 Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129336,
+          "nome": "3.27 Fabricação de máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129337,
+          "nome": "3.28 Fabricação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129338,
+          "nome": "3.29 Fabricação de veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129339,
+          "nome": "3.30 Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129340,
+          "nome": "3.31 Fabricação de móveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129341,
+          "nome": "3.32 Fabricação de produtos diversos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129342,
+          "nome": "3.33 Manutenção, reparação e instalação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

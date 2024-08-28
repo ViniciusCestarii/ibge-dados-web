@@ -1,0 +1,129 @@
+{
+  "id": 2431,
+  "nome": "Domicílios particulares permanentes com rendimento, Valor do rendimento nominal médio mensal e Valor do rendimento nominal mediano mensal dos domicílios particulares permamentes com rendimento por situação do domicílio e número de banheiros",
+  "URL": "https://sidra.ibge.gov.br/tabela/2431",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "nome": "Número de banheiros",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95839,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95840,
+          "nome": "Nenhum banheiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1079,
+          "nome": "1 banheiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1080,
+          "nome": "2 banheiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1081,
+          "nome": "3 banheiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92862,
+          "nome": "4 banheiros ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

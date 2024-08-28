@@ -1,0 +1,74 @@
+{
+  "id": 1235,
+  "nome": "Número de catadores de lixo na zona urbana, por grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/1235",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2611,
+      "nome": "Número de catadores de lixo na zona urbana",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002611,
+      "nome": "Número de catadores de lixo na zona urbana - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103902,
+          "nome": "Até 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103903,
+          "nome": "Mais de 14 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

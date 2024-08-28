@@ -1,0 +1,278 @@
+{
+  "id": 3263,
+  "nome": "Domicílios particulares permanentes, total e com rendimento domiciliar, e valor do rendimento nominal médio e mediano mensal dos domicílios particulares permanentes, total e com rendimento domiciliar, segundo a situação do domicílio, a existência e número de banheiros de uso exclusivo do domicílio e a a principal forma de abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/3263",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000884,
+      "nome": "Domicílios particulares permanentes com rendimento domiciliar - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 847,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 878,
+      "nome": "Valor do rendimento nominal médio mensal dos domicílios particulares permanentes com rendimento domiciliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 848,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 879,
+      "nome": "Valor do rendimento nominal mediano mensal dos domicílios particulares permanentes com rendimento domicíliar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "nome": "Existência e número de banheiros de uso exclusivo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10929,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2966,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2967,
+          "nome": "Tinham - 1 banheiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2968,
+          "nome": "Tinham - 2 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2995,
+          "nome": "Tinham - 3 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2996,
+          "nome": "Tinham - 4 banheiros ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 7991,
+          "nome": "Tinham - 4 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7992,
+          "nome": "Tinham - 5 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7993,
+          "nome": "Tinham - 6 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7994,
+          "nome": "Tinham - 7 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7995,
+          "nome": "Tinham - 8 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7997,
+          "nome": "Tinham - 9 banheiros ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2997,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95827,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92853,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10971,
+          "nome": "Poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121290,
+          "nome": "Poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121373,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121292,
+          "nome": "Água da chuva armazenada em cisterna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121293,
+          "nome": "Água da chuva armazenada de outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121294,
+          "nome": "Rio, açude, lago ou igarapé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121296,
+          "nome": "Poço ou nascente na aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121297,
+          "nome": "Poço ou nascente fora da aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121295,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

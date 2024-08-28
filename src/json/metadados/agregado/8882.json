@@ -1,0 +1,158 @@
+{
+  "id": 8882,
+  "nome": "Índice e variação da receita nominal e do volume de vendas no comércio varejista, por atividades (2022 = 100)",
+  "URL": "https://sidra.ibge.gov.br/tabela/8882",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200001,
+    "fim": 202406
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7169,
+      "nome": "PMC - Número-índice (2022=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 7170,
+      "nome": "PMC - Número-índice com ajuste sazonal (2022=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 11708,
+      "nome": "PMC - Variação mês/mês imediatamente anterior, com ajuste sazonal (M/M-1)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11709,
+      "nome": "PMC - Variação mês/mesmo mês do ano anterior (M/M-12)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11710,
+      "nome": "PMC - Variação acumulada no ano (em relação ao mesmo período do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11711,
+      "nome": "PMC - Variação acumulada em 12 meses (em relação ao período anterior de 12 meses)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56733,
+          "nome": "Índice de receita nominal de vendas no comércio varejista",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56734,
+          "nome": "Índice de volume de vendas no comércio varejista",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "nome": "Atividades",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90671,
+          "nome": "Combustíveis e lubrificantes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90672,
+          "nome": "Hipermercados, supermercados, produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103154,
+          "nome": "Hipermercados e supermercados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90673,
+          "nome": "Tecidos, vestuário e calçados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2759,
+          "nome": "Móveis e eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31555,
+          "nome": "Móveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31556,
+          "nome": "Eletrodomésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103155,
+          "nome": "Artigos farmacêuticos, médicos, ortopédicos, de perfumaria e cosméticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103156,
+          "nome": "Livros, jornais, revistas e papelaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103157,
+          "nome": "Equipamentos e materiais para escritório, informática e comunicação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103158,
+          "nome": "Outros artigos de uso pessoal e doméstico",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

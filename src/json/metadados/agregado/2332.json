@@ -1,0 +1,110 @@
+{
+  "id": 2332,
+  "nome": "Quantidade diária de lixo coletado, por unidade de destinação final do lixo coletado",
+  "URL": "https://sidra.ibge.gov.br/tabela/2332",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1215,
+      "nome": "Quantidade diária de lixo coletado",
+      "unidade": "Toneladas por dia",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001215,
+      "nome": "Quantidade diária de lixo coletado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12199,
+      "nome": "Unidade de destinação final do lixo coletado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103709,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103710,
+          "nome": "Vazadouro a céu aberto (lixão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103711,
+          "nome": "Vazadouro em áreas alagadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103712,
+          "nome": "Aterro controlado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103713,
+          "nome": "Aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103714,
+          "nome": "Estação de compostagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103715,
+          "nome": "Estação de triagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103716,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103717,
+          "nome": "Locais não-fixos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103718,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 705,
+  "nome": "Nascidos vivos ocorridos no ano por número de nascidos por parto",
+  "URL": "https://sidra.ibge.gov.br/tabela/705",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Nascidos vivos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 218,
+      "nome": "Nascidos vivos ocorridos no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000218,
+      "nome": "Nascidos vivos ocorridos no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 238,
+      "nome": "Número de nascidos por parto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5352,
+          "nome": "Um",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5353,
+          "nome": "Dois",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5354,
+          "nome": "Três ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

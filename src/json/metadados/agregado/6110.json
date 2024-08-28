@@ -1,0 +1,102 @@
+{
+  "id": 6110,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, por dependência administrativa da escola e situação da tentativa de atendimento de saúde",
+  "URL": "https://sidra.ibge.gov.br/tabela/6110",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 7590,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7591,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7592,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "nome": "Situação da tentativa de atendimento em Unidade Básica de Saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39921,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39922,
+          "nome": "Foi atendido(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39923,
+          "nome": "Não foi atendido(a)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

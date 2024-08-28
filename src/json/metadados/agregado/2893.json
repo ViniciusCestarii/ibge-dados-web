@@ -1,0 +1,135 @@
+{
+  "id": 2893,
+  "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola, por grau e a série que frequentavam e rede de ensino",
+  "URL": "https://sidra.ibge.gov.br/tabela/2893",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1614,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001614,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12229,
+      "nome": "Grau que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 104307,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104308,
+          "nome": "Educação infantil - creche",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104309,
+          "nome": "Educação infantil - pré-escolar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104310,
+          "nome": "Fundamental - total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104311,
+          "nome": "Fundamental - primeira até a quarta série",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104312,
+          "nome": "Fundamental - quinta até a oitava série",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104313,
+          "nome": "Fundamental - sem declaração de série",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104314,
+          "nome": "Médio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104315,
+          "nome": "Superior",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12087,
+      "nome": "Rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100468,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100469,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100470,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

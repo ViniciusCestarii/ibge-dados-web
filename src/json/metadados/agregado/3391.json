@@ -1,0 +1,109 @@
+{
+  "id": 3391,
+  "nome": "Domicílios particulares permamentes, por existência de água canalizada e forma de abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/3391",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 471,
+      "nome": "Existência de água canalizada e forma de abastecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12212,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12213,
+          "nome": "Tinham - em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12214,
+          "nome": "Tinham - em pelo menos um cômodo - rede geral de distribuição",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 12215,
+          "nome": "Tinham - em pelo menos um cômodo - outra forma de abastecimento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 12216,
+          "nome": "Tinham - no terreno ou na propriedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12217,
+          "nome": "Tinham - no terreno ou na propriedade - rede geral de distribuição",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 12218,
+          "nome": "Tinham - no terreno ou na propriedade - outra forma de abastecimento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 12219,
+          "nome": "Não tinham água canalizada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12220,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": 2125,
+  "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência, por grupos de horas habitualmente trabalhadas por semana em todos os trabalhos, grupos de idade e frequência à escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/2125",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 955,
+      "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000955,
+      "nome": "Pessoas de 5 a 17 anos de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11803,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana em todos os trabalhos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95362,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100485,
+          "nome": "Até 20 horas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100486,
+          "nome": "21 a 39 horas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99150,
+          "nome": "40 horas ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99148,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1141,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "nome": "Frequência à escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          702
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100462,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100463,
+          "nome": "Não frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100464,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

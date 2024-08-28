@@ -1,0 +1,132 @@
+{
+  "id": 1119,
+  "nome": "Número de estabelecimentos agropecuários que não obtiveram financiamento por motivo da não obtenção do financiamento e agricultura familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/1119",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Agricultura Familiar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1989,
+      "nome": "Número de estabelecimentos que não obtiveram financiamento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001989,
+      "nome": "Número de estabelecimentos que não obtiveram financiamento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12541,
+      "nome": "Motivo da não obtenção do financiamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111909,
+          "nome": "Falta de garantia pessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111908,
+          "nome": "Não sabe como conseguir",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111910,
+          "nome": "Burocracia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111911,
+          "nome": "Falta de pagamento do empréstimo anterior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111912,
+          "nome": "Medo de contrair dívidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111913,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111914,
+          "nome": "Não precisou",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119106,
+          "nome": "Não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119107,
+          "nome": "Agricultura familiar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

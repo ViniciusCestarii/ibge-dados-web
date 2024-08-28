@@ -1,0 +1,98 @@
+{
+  "id": 6066,
+  "nome": "Escolares frequentando o 9º ano do ensino fundamental, total e percentual, em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências, por dependência administrativa da escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/6066",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Características da escola",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 8136,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8137,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8138,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8139,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8140,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8141,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental em escolas que informaram possuir alguma política, norma ou regra escrita que proíba brigas nas suas dependências, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

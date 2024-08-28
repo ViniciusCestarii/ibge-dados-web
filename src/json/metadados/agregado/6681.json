@@ -1,0 +1,105 @@
+{
+  "id": 6681,
+  "nome": "Indicador 5.4.1 - Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados, por sexo e grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/6681",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Igualdade de gênero",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9471,
+      "nome": "Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9472,
+      "nome": "Coeficiente de variação - Percentual de tempo gasto em trabalho doméstico não remunerado e cuidados",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41114,
+          "nome": "14 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41113,
+          "nome": "30 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3301,
+          "nome": "50 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

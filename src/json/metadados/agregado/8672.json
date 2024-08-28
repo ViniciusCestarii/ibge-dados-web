@@ -1,0 +1,75 @@
+{
+  "id": 8672,
+  "nome": "Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses em que houve procura de polícia ou guarda municipal, por registro de ocorrência na polícia",
+  "URL": "https://sidra.ibge.gov.br/tabela/8672",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12527,
+      "nome": "Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12528,
+      "nome": "Coeficiente de variação - Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12529,
+      "nome": "Distribuição percentual do último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12530,
+      "nome": "Coeficiente de variação - Distribuição percentual do último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1357,
+      "nome": "Registro de ocorrência na polícia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57399,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57400,
+          "nome": "Houve registro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57401,
+          "nome": "Não houve registro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

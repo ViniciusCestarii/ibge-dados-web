@@ -1,0 +1,66 @@
+{
+  "id": 7475,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com reservatório(s) em operação, por manutenção do(s) reservatório(s)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7475",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10746,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com reservatório(s) em operação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 932,
+      "nome": "Manutenção dos reservatórios em operação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48426,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48428,
+          "nome": "Com manutenção em todos os reservatórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48429,
+          "nome": "Com manutenção em alguns reservatórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48430,
+          "nome": "Sem manutenção nos reservatórios",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

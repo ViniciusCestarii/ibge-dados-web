@@ -1,0 +1,74 @@
+{
+  "id": 3440,
+  "nome": "Número de hotéis, por características dos hotéis",
+  "URL": "https://sidra.ibge.gov.br/tabela/3440",
+  "pesquisa": "Pesquisa de Serviços de Hospedagem",
+  "assunto": "Hospedagem",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2011,
+    "fim": 2011
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N14",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1422,
+      "nome": "Número de hotéis",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001422,
+      "nome": "Número de hotéis - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 496,
+      "nome": "Características dos hotéis",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12862,
+          "nome": "Independentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12864,
+          "nome": "Integram cadeia nacional de hotéis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12866,
+          "nome": "Integram cadeia internacional de hotéis",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

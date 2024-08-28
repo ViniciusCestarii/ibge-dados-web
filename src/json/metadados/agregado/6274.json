@@ -1,0 +1,126 @@
+{
+  "id": 6274,
+  "nome": "Percentual de escolares com idade de 13 a 17 anos que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, por dependência administrativa da escola, situação da tentativa de atendimento de saúde e grupo de idade do escolar",
+  "URL": "https://sidra.ibge.gov.br/tabela/6274",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8103,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8104,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8105,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "nome": "Situação da tentativa de atendimento em Unidade Básica de Saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39921,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39922,
+          "nome": "Foi atendido(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39923,
+          "nome": "Não foi atendido(a)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40087,
+          "nome": "13 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40088,
+          "nome": "13 a 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

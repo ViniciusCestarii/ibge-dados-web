@@ -1,0 +1,78 @@
+{
+  "id": 1107,
+  "nome": "Produção estimada de pescado por modalidade de pesca (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1107",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Produção de pescado marítima e continental",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1994,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2437,
+      "nome": "Produção estimada de pescado",
+      "unidade": "Mil toneladas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002437,
+      "nome": "Produção estimada de pescado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12918,
+      "nome": "Modalidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119300,
+          "nome": "Pesca extrativa - marinha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119301,
+          "nome": "Pesca extrativa - continental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119302,
+          "nome": "Aquicultura - marinha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119303,
+          "nome": "Aquicultura - continental",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

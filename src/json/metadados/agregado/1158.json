@@ -1,0 +1,65 @@
+{
+  "id": 1158,
+  "nome": "Quantidade de lixo coletado por tipo de destinação final do lixo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1158",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Destinação final do lixo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1989,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1219,
+      "nome": "Quantidade de lixo coletado",
+      "unidade": "Toneladas por dia",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001219,
+      "nome": "Quantidade de lixo coletado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12933,
+      "nome": "Tipo de destinação final do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119514,
+          "nome": "Adequada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119515,
+          "nome": "Inadequada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

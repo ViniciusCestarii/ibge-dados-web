@@ -1,0 +1,84 @@
+{
+  "id": 7465,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento com captação de água doce, número de pontos de captação de água doce e volume de água doce captada por dia, por tipo de ponto de captação",
+  "URL": "https://sidra.ibge.gov.br/tabela/7465",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10493,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com captação de água doce",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10501,
+      "nome": "Número de pontos de captação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10494,
+      "nome": "Volume de água captada por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11971,
+      "nome": "Tipo de captação de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98593,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98383,
+          "nome": "Superficial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98384,
+          "nome": "Poço raso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98385,
+          "nome": "Poço profundo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8468,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

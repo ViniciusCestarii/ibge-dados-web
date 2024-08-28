@@ -1,0 +1,306 @@
+{
+  "id": 4268,
+  "nome": "Número de estabelecimentos agropecuários com trabalhadores temporários contratados no ano por tipos de tarefa, condição do produtor em relação às terras, classes de diárias pagas, meses de contratação e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4268",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2009,
+      "nome": "Número de estabelecimentos agropecuários com trabalhadores temporários contratados no ano",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002009,
+      "nome": "Número de estabelecimentos agropecuários com trabalhadores temporários contratados no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 4754,
+      "nome": "Tipos de tarefa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118608,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112973,
+          "nome": "Preparo do solo, capinas, tratos culturais e limpeza de pastos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112974,
+          "nome": "Plantio ou semeadura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112975,
+          "nome": "Colheita",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112976,
+          "nome": "Outras tarefas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12579,
+      "nome": "Classes de diárias pagas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113048,
+          "nome": "Menos de 30 diárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113049,
+          "nome": "De 30 a menos de 60 diárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113050,
+          "nome": "De 60 a menos de 180 diárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113051,
+          "nome": "180 a mais diárias",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12580,
+      "nome": "Meses de contratação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118573,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113052,
+          "nome": "Janeiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113053,
+          "nome": "Fevereiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113054,
+          "nome": "Março",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113055,
+          "nome": "Abril",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113056,
+          "nome": "Maio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113057,
+          "nome": "Junho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113058,
+          "nome": "Julho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113059,
+          "nome": "Agosto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113060,
+          "nome": "Setembro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113061,
+          "nome": "Outubro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113062,
+          "nome": "Novembro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113063,
+          "nome": "Dezembro",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

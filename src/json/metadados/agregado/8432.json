@@ -1,0 +1,136 @@
+{
+  "id": 8432,
+  "nome": "Municípios que realizaram Conferência Municipal nas áreas de habitação e transporte nos últimos 4 anos, por aspectos das conferências e classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/8432",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12349,
+      "nome": "Municípios que realizaram Conferência Municipal de Habitação nos últimos 4 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12350,
+      "nome": "Municípios que realizaram Conferência Municipal de Transporte nos últimos 4 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1325,
+      "nome": "Aspectos da Conferência Municipal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57127,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57128,
+          "nome": "As deliberações das conferências foram consideradas na elaboração do Plano Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57129,
+          "nome": "As deliberações das conferências não foram consideradas na elaboração do Plano Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57130,
+          "nome": "As conferências foram realizadas após a elaboração do Plano Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50200,
+          "nome": "O município não possui Plano Municipal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

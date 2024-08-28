@@ -1,0 +1,102 @@
+{
+  "id": 1812,
+  "nome": "Número de distritos, total e os com coleta de esgoto sanitário, por tipo de rede coletora",
+  "URL": "https://sidra.ibge.gov.br/tabela/1812",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 336,
+      "nome": "Municípios com coleta de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000336,
+      "nome": "Municípios com coleta de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 747,
+      "nome": "Número de distritos com coleta de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000747,
+      "nome": "Número de distritos com coleta de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12005,
+      "nome": "Tipo de rede coletora de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98716,
+          "nome": "Total geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98717,
+          "nome": "Total com coleta de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98718,
+          "nome": "Unitária ou mista",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98719,
+          "nome": "Separadora",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98720,
+          "nome": "Condominial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98721,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

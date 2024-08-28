@@ -1,0 +1,102 @@
+{
+  "id": 8548,
+  "nome": "Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses, por tipo de bem roubado",
+  "URL": "https://sidra.ibge.gov.br/tabela/8548",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12521,
+      "nome": "Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12522,
+      "nome": "Coeficiente de variação - Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12523,
+      "nome": "Percentual de último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12524,
+      "nome": "Coeficiente de variação - Percentual de último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 450,
+      "nome": "Tipo de bem roubado no último roubo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          12523,
+          12524
+        ]
+      },
+      "categorias": [
+        {
+          "id": 11898,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57429,
+          "nome": "Dinheiro em espécie",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57430,
+          "nome": "Cartão de débito/crédito e/ou cheque",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11900,
+          "nome": "Telefone celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57427,
+          "nome": "Joia, bijuteria e/ou relógio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57428,
+          "nome": "Documento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11903,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

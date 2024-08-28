@@ -1,0 +1,104 @@
+{
+  "id": 1828,
+  "nome": "Número de distritos com coleta de esgoto sanitário, total e os que possuem interceptores, por existência e número de interceptores",
+  "URL": "https://sidra.ibge.gov.br/tabela/1828",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 761,
+      "nome": "Número de distritos com coleta de esgoto sanitário e que possuem interceptores",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000761,
+      "nome": "Número de distritos com coleta de esgoto sanitário e que possuem interceptores - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12010,
+      "nome": "Existência e número de interceptores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98759,
+          "nome": "Total de distritos com coleta de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98760,
+          "nome": "Total de distritos com existência de interceptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98762,
+          "nome": "1 a 3 interceptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98763,
+          "nome": "4 a 6 interceptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98764,
+          "nome": "7 a 10 interceptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98765,
+          "nome": "11 a 15 interceptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98766,
+          "nome": "Mais de 15 interceptores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98767,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98768,
+          "nome": "Não existem interceptores",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

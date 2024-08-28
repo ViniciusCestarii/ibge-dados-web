@@ -1,0 +1,119 @@
+{
+  "id": 1765,
+  "nome": "Número de municípios, total e os com serviço de abastecimento de água por rede geral de distribuição, por natureza jurídica das entidades prestadoras de serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/1765",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002598,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11973,
+      "nome": "Natureza jurídica das entidades prestadoras de serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2088,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98591,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98377,
+          "nome": "Administração direta do poder público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98378,
+          "nome": "Autarquia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 508,
+          "nome": "Empresa pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 509,
+          "nome": "Sociedade de economia mista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 510,
+          "nome": "Consórcio público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98380,
+          "nome": "Empresa privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 511,
+          "nome": "Fundação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 512,
+          "nome": "Associação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98381,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": 9655,
+  "nome": "Pessoas de 5 anos ou mais de idade, por situação do domicílio, sexo, grupo de idade e vacinação contra a COVID-19",
+  "URL": "https://sidra.ibge.gov.br/tabela/9655",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 138,
+      "nome": "Pessoas de 5 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 3478,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12811,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12812,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100448,
+          "nome": "5 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71509,
+          "nome": "5 a 11 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 71510,
+          "nome": "12 a 17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100452,
+          "nome": "18 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71511,
+          "nome": "18 a 59 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2503,
+          "nome": "80 anos ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 1777,
+      "nome": "Vacinação contra a COVID-19",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71927,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71506,
+          "nome": "Vacinaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71507,
+          "nome": "Não vacinaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

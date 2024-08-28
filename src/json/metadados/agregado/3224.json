@@ -1,0 +1,208 @@
+{
+  "id": 3224,
+  "nome": "Óbitos de crianças menores de 1 ano de idade que haviam residido com moradores dos domicílios particulares, ocorridos de agosto de 2009 a julho de 2010, por situação do domicílio e sexo da pessoa falecida, e o mês e ano de ocorrência do falecimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/3224",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Mortalidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 360,
+      "nome": "Óbitos de crianças menores de 1 ano de idade que haviam residido com moradores dos domicílios particulares, ocorridos de agosto de 2009 a julho de 2010",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000360,
+      "nome": "Óbitos de crianças menores de 1 ano de idade que haviam residido com moradores dos domicílios particulares, ocorridos de agosto de 2009 a julho de 2010 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 462,
+      "nome": "Situação do domicílio da pessoa falecida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12103,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12104,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "nome": "Sexo da pessoa falecida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3090,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3091,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12102,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "nome": "Mês e ano de ocorrência do falecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3099,
+          "nome": "Agosto de 2009",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3100,
+          "nome": "Setembro de 2009",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3101,
+          "nome": "Outubro de 2009",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3102,
+          "nome": "Novembro de 2009",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3103,
+          "nome": "Dezembro de 2009",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3104,
+          "nome": "Janeiro de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3105,
+          "nome": "Fevereiro de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3106,
+          "nome": "Março de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3107,
+          "nome": "Abril de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3096,
+          "nome": "Maio de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3097,
+          "nome": "Junho de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3098,
+          "nome": "Julho de 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9702,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

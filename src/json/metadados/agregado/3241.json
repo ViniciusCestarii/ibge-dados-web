@@ -1,0 +1,254 @@
+{
+  "id": 3241,
+  "nome": "Pessoal ocupado e receita bruta de serviços das empresas de publicidade e promoção com 10 ou mais pessoas ocupadas, por faixas de pessoal ocupado e tipos de empresas",
+  "URL": "https://sidra.ibge.gov.br/tabela/3241",
+  "pesquisa": "Pesquisa de Serviços de Publicidade e Promoção",
+  "assunto": "Publicidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2354,
+      "nome": "Número de empresas de publicidade e promoção com 10 ou mais pessoas ocupadas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002354,
+      "nome": "Número de empresas de publicidade e promoção com 10 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2669,
+      "nome": "Pessoal ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002669,
+      "nome": "Pessoal ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2670,
+      "nome": "Pessoal assalariado ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002670,
+      "nome": "Pessoal assalariado ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2671,
+      "nome": "Pessoal fixo, sem vínculo empregatício (colaborador permanente terceirizado), ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002671,
+      "nome": "Pessoal fixo, sem vínculo empregatício (colaborador permanente terceirizado), ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2672,
+      "nome": "Pessoal não assalariado (proprietário e sócio com atividades na empresa e membro da família sem remuneração) ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002672,
+      "nome": "Pessoal não assalariado (proprietário e sócio com atividades na empresa e membro da família sem remuneração) ocupado em 31.12 nas empresas de publicidade e promoção com 10 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2668,
+      "nome": "Valor da receita bruta de serviços das empresas de publicidade e promoção com 10 ou mais pessoas ocupadas",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002668,
+      "nome": "Valor da receita bruta de serviços das empresas de publicidade e promoção com 10 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 319,
+      "nome": "Faixas de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11395,
+          "nome": "Até 10 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11396,
+          "nome": "De 11 a 19 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11397,
+          "nome": "De 20 a 29 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11398,
+          "nome": "De 30 a 49 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11895,
+          "nome": "De 50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11399,
+          "nome": "De 100 a 199 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11400,
+          "nome": "De 200 ou mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110012,
+          "nome": "Sem declaração de pessoal ocupado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "nome": "Tipo de empresa de publicidade e promoção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11401,
+          "nome": "Agência de publicidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11402,
+          "nome": "Agência de marketing direto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11403,
+          "nome": "Agência de promoção de vendas e fullfilment",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11404,
+          "nome": "Concepção e montagem de estandes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11414,
+          "nome": "Agência de promoção de eventos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11418,
+          "nome": "Publicidade aérea",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11522,
+          "nome": "Agência de web design / marketing digital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11415,
+          "nome": "Assessoria em marketing",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11416,
+          "nome": "Relações públicas e assessoria de imprensa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11523,
+          "nome": "Agência de compra e revenda de espaço publicitário ou de tempo publicitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11417,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

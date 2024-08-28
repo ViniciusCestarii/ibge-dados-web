@@ -1,0 +1,110 @@
+{
+  "id": 7156,
+  "nome": "Pessoas que frequentaram ensino superior, especialização, mestrado ou doutorado, por curso mais elevado que frequentou e rede do ensino médio frequentado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7156",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10305,
+      "nome": "Pessoas que frequentaram ensino superior, especialização, mestrado ou doutorado",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10306,
+      "nome": "Coeficiente de variação - Pessoas que frequentaram ensino superior, especialização, mestrado ou doutorado",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10307,
+      "nome": "Distribuição percentual das pessoas que frequentaram ensino superior, especialização, mestrado ou doutorado",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10308,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas que frequentaram ensino superior, especialização, mestrado ou doutorado",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11302,
+      "nome": "Curso mais elevado que frequentou",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47875,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91020,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47871,
+          "nome": "Especialização, mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "nome": "Rede do ensino médio frequentado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47847,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47861,
+          "nome": "Somente em rede pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47860,
+          "nome": "Somente em rede privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47862,
+          "nome": "Na rede privada e pública",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

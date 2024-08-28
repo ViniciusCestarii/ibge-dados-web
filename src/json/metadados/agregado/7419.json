@@ -1,0 +1,79 @@
+{
+  "id": 7419,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios que havia utilização da Internet, por equipamento utilizado para acessar a Internet (inclui UF, RM e RD)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7419",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4705,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios que havia utilização da Internet",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4706,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios que havia utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 680,
+      "nome": "Equipamento utilizado para acessar a Internet",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33214,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33216,
+          "nome": "Utilizaram microcomputador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33224,
+          "nome": "Utilizaram telefone móvel celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33228,
+          "nome": "Utilizaram tablet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33232,
+          "nome": "Utilizaram televisão",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

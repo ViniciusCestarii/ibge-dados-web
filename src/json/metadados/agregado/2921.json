@@ -1,0 +1,93 @@
+{
+  "id": 2921,
+  "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior), por rede de ensino que frequentavam e oferta gratuita de merenda escolar ou outra refeição pela creche ou escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/2921",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1624,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001624,
+      "nome": "Pessoas de 0 a 17 anos de idade que frequentavam creche ou escola (exceto de nível superior) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12087,
+      "nome": "Rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100593,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100468,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100469,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12376,
+      "nome": "Oferta gratuita de merenda escolar ou outra refeição pela creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107458,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107459,
+          "nome": "Ofereciam",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107460,
+          "nome": "Não ofereciam",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

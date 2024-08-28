@@ -1,0 +1,375 @@
+{
+  "id": 6942,
+  "nome": "Número de estabelecimentos agropecuários com galinhas, galos, frangos, frangas e pintos, Efetivos, Venda, Produção de ovos e Venda de ovos, por tipologia, grupos de cabeças e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/6942",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2588,
+      "nome": "Número de estabelecimentos agropecuários com galinhas, galos, frangas, frangos e pintos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2589,
+      "nome": "Número de cabeças de galinhas, galos, frangas, frangos e pintos nos estabelecimentos agropecuários",
+      "unidade": "Mil cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9322,
+      "nome": "Número de estabelecimentos agropecuários que venderam galinhas, galos, frangas, frangos e pintos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9509,
+      "nome": "Número de cabeças de galinhas, galos, frangas, frangos e pintos vendidas nos estabelecimentos agropecuários",
+      "unidade": "Mil cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10018,
+      "nome": "Valor da venda de cabeças de galinhas, galos, frangas, frangos e pintos nos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2285,
+      "nome": "Número de estabelecimentos agropecuários que produziram ovos de galinhas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2262,
+      "nome": "Quantidade produzida de ovos de galinhas",
+      "unidade": "Mil dúzias",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2286,
+      "nome": "Quantidade vendida de ovos de galinhas",
+      "unidade": "Mil dúzias",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2261,
+      "nome": "Valor da produção dos ovos de galinhas",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2287,
+      "nome": "Valor da venda dos ovos de galinhas",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 829,
+      "nome": "Tipologia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46303,
+          "nome": "Agricultura familiar - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46304,
+          "nome": "Agricultura familiar - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46305,
+          "nome": "Agricultura familiar - Pronaf B",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46306,
+          "nome": "Agricultura familiar - Pronaf V",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46307,
+          "nome": "Agricultura familiar - não pronafiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46422,
+          "nome": "Pronamp - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46423,
+          "nome": "Pronamp - não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12653,
+      "nome": "Grupos de cabeças de galinhas, galos, frangos, frangas e pintos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47101,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47154,
+          "nome": "De 1 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47155,
+          "nome": "De 11 a 50",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47156,
+          "nome": "De 51 a 100",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47157,
+          "nome": "De 101 a 200",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47158,
+          "nome": "De 201 a 500",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47159,
+          "nome": "De 501 a 1.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47160,
+          "nome": "De 1.001 a 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47161,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47171,
+          "nome": "De 10.001 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47102,
+          "nome": "Sem cabeças de galinhas, galos, frangos, frangas e pintos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110085,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41139,
+          "nome": "De 2.500 a menos de 10.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40645,
+          "nome": "De 10.000 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

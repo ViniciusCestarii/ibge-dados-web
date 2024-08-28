@@ -1,0 +1,84 @@
+{
+  "id": 7491,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição final de esgoto ou efluente, por tipo de corpos receptores",
+  "URL": "https://sidra.ibge.gov.br/tabela/7491",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10892,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição final de esgoto sem tratamento",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10893,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição final de efluente tratado",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12006,
+      "nome": "Tipo de corpos receptores de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98723,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98724,
+          "nome": "Rio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98758,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98725,
+          "nome": "Lago ou lagoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98726,
+          "nome": "Baía",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98727,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

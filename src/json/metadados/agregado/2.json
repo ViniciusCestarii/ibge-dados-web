@@ -1,0 +1,77 @@
+{
+  "id": 2,
+  "nome": "População ocupada de 15 anos e mais por setor de atividade (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 200212
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5,
+      "nome": "População ocupada de 15 anos e mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 4,
+      "nome": "Setor de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11,
+          "nome": "Construção civil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12,
+          "nome": "Comércio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13,
+          "nome": "Serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14,
+          "nome": "Outras atividades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

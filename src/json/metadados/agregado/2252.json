@@ -1,0 +1,101 @@
+{
+  "id": 2252,
+  "nome": "Número de municípios, total e os que possuem áreas de risco no perímetro urbano que demandam drenagem especial, por tipo de área de risco",
+  "URL": "https://sidra.ibge.gov.br/tabela/2252",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1178,
+      "nome": "Municípios que possuem áreas de risco no perímetro urbano que demandam drenagem especial",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001178,
+      "nome": "Municípios que possuem áreas de risco no perímetro urbano que demandam drenagem especial - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12140,
+      "nome": "Tipo de área de risco no perímetro urbano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101375,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101376,
+          "nome": "Total de municípios que possuem áreas de risco no perímetro urbano que demandam drenagem especial",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101377,
+          "nome": "Áreas em taludes e encostas sujeitas a deslizamento",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101378,
+          "nome": "Áreas de baixio sujeitas a inundações e/ou proliferação de vetores",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101379,
+          "nome": "Áreas sem infraestrutura de drenagem",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101380,
+          "nome": "Áreas urbanas com formação de grotões, ravinas e processos erosivos crônicos",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101381,
+          "nome": "Outras",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101382,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": -1
+        }
+      ]
+    }
+  ]
+}

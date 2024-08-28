@@ -1,0 +1,641 @@
+{
+  "id": 1823,
+  "nome": "Produção, Venda, Valor da produção e Área colhida da lavoura temporária por produtos da lavoura temporária e grupos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/1823",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Produção vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Vide categorias da classificação 'Produtos da lavoura temporária'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1982,
+      "nome": "Quantidade vendida",
+      "unidade": "Vide categorias da classificação 'Produtos da lavoura temporária'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 216,
+      "nome": "Área colhida",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000216,
+      "nome": "Área colhida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 226,
+      "nome": "Produtos da lavoura temporária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          214,
+          1982
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113869,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4844,
+          "nome": "Abacaxi",
+          "unidade": "Mil frutos",
+          "nivel": 1
+        },
+        {
+          "id": 111671,
+          "nome": "Abóbora, moranga, jerimum",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111672,
+          "nome": "Algodão herbáceo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4847,
+          "nome": "Alho",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 96608,
+          "nome": "Amendoim em casca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4851,
+          "nome": "Arroz em casca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111673,
+          "nome": "Aveia branca em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 96609,
+          "nome": "Batata-inglesa",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4857,
+          "nome": "Cana-de-açúcar",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4860,
+          "nome": "Cebola",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4861,
+          "nome": "Centeio em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4862,
+          "nome": "Cevada em casca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111674,
+          "nome": "Colza (canola)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4864,
+          "nome": "Ervilha em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111685,
+          "nome": "Fava em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111675,
+          "nome": "Feijão preto em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111676,
+          "nome": "Feijão de cor em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111677,
+          "nome": "Feijão fradinho em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4869,
+          "nome": "Feijão verde",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111678,
+          "nome": "Fumo em folha seca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111679,
+          "nome": "Gergelim (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4872,
+          "nome": "Girassol (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4876,
+          "nome": "Juta (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4879,
+          "nome": "Linho (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4882,
+          "nome": "Malva (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4884,
+          "nome": "Mamona",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4885,
+          "nome": "Mandioca (aipim, macaxeira)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4886,
+          "nome": "Melancia",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4887,
+          "nome": "Melão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4888,
+          "nome": "Milho em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4895,
+          "nome": "Rami (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4896,
+          "nome": "Soja em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4897,
+          "nome": "Sorgo em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4898,
+          "nome": "Sorgo vassoura",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111680,
+          "nome": "Tomate rasteiro (industrial)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4901,
+          "nome": "Trigo em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111681,
+          "nome": "Trigo preto em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111682,
+          "nome": "Triticale em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111683,
+          "nome": "Forrageiras para corte",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4906,
+          "nome": "Cana forrageira",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4907,
+          "nome": "Milho forrageiro",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4910,
+          "nome": "Sorgo forrageiro",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111684,
+          "nome": "Sementes de algodão (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111686,
+          "nome": "Sementes de arroz (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111687,
+          "nome": "Sementes de feijão (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111688,
+          "nome": "Sementes de milho (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111689,
+          "nome": "Sementes de soja (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111690,
+          "nome": "Sementes de trigo (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111691,
+          "nome": "Sementes de forrageiras (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111692,
+          "nome": "Sementes de batata-inglesa (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111693,
+          "nome": "Toletes de cana-de-açúcar (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111694,
+          "nome": "Sementes e outras formas de propagação de outros produtos (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12440,
+      "nome": "Grupos e classes de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112880,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112873,
+          "nome": "Cultivo de cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112874,
+          "nome": "Cultivo de algodão herbáceo e outras fibras da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112875,
+          "nome": "Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112876,
+          "nome": "Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112877,
+          "nome": "Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112878,
+          "nome": "Cultivo de oleaginosas de lavoura temporária, exceto soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112879,
+          "nome": "Cultivo de outros produtos da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112881,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112882,
+          "nome": "Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112883,
+          "nome": "Cultivo de flores, folhagens e plantas ornamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112884,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112885,
+          "nome": "Cultivo de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112886,
+          "nome": "Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112887,
+          "nome": "Cultivo de frutas da lavoura permanente, exceto laranja e uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112888,
+          "nome": "Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112889,
+          "nome": "Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112890,
+          "nome": "Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112891,
+          "nome": "Produção de sementes, mudas e outras formas de propagação vegetal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112892,
+          "nome": "Produção de sementes certificadas, de produtos agrícolas, inclusive forrageiras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112893,
+          "nome": "Produção de mudas certificadas e outras formas de propagação vegetal de produtos agrícolas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112894,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112895,
+          "nome": "Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112896,
+          "nome": "Criação de outros animais de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112897,
+          "nome": "Criação de ovinos e caprinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112898,
+          "nome": "Criação de suínos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112899,
+          "nome": "Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112900,
+          "nome": "Criação de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112901,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112902,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114050,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114055,
+          "nome": "Pesca em água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112903,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112904,
+          "nome": "Aquicultura em água salgada ou salobra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112905,
+          "nome": "Aquicultura em água doce",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

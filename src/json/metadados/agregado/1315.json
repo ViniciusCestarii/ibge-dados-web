@@ -1,0 +1,340 @@
+{
+  "id": 1315,
+  "nome": "Estudantes frequentando o 9º ano do ensino fundamental, por dependência administrativa do estabelecimento, sexo, se costuma fazer as refeições com a mãe ou com o responsável, se costuma comer assistindo TV ou estudando, existência de empregado doméstico 5 dias ou mais por semana e escolaridade da mãe",
+  "URL": "https://sidra.ibge.gov.br/tabela/1315",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Alimentação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2377,
+      "nome": "Dependência administrativa do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35242,
+          "nome": "Federal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35243,
+          "nome": "Estadual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35244,
+          "nome": "Municipal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99124,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35241,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 572,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "nome": "Costuma fazer refeições com a mãe ou com o responsável",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 759,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 760,
+          "nome": "Sim, todos os dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 761,
+          "nome": "Sim, 5 a 6 dias por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 762,
+          "nome": "Sim, 3 a 4 dias por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 763,
+          "nome": "Sim, 1 a 2 dias por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 764,
+          "nome": "Sim, mas apenas raramente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 765,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "nome": "Costuma comer quando está assistindo TV ou estudando",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 766,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 767,
+          "nome": "Sim, todos os dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 768,
+          "nome": "Sim, 5 a 6 dias por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 769,
+          "nome": "Sim, 3 a 4 dias por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 770,
+          "nome": "Sim, 1 a 2 dias por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 771,
+          "nome": "Sim, mas apenas raramente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 772,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "nome": "Existência de empregado doméstico 5 dias ou mais por semana na casa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 614,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 615,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 616,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Escolaridade da mãe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 575,
+          "nome": "Não estudou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 576,
+          "nome": "Não terminou o ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 577,
+          "nome": "Terminou o ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 578,
+          "nome": "Não terminou o ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 579,
+          "nome": "Terminou o ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 580,
+          "nome": "Não terminou a faculdade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 581,
+          "nome": "Terminou a faculdade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 582,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 583,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

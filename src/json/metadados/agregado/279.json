@@ -1,0 +1,110 @@
+{
+  "id": 279,
+  "nome": "Número e Capacidade útil dos estabelecimentos com armazéns convencionais, estruturais e infláveis, por grupos de capacidade útil (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/279",
+  "pesquisa": "Pesquisa de Estoques",
+  "assunto": "Estoques agropecuários",
+  "periodicidade": {
+    "frequencia": "semestral",
+    "inicio": 200702,
+    "fim": 201401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2171,
+      "nome": "Número de estabelecimentos com armazéns convencionais, estruturais e infláveis",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002171,
+      "nome": "Número de estabelecimentos com armazéns convencionais, estruturais e infláveis - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2172,
+      "nome": "Capacidade útil dos armazéns convencionais, estruturais e infláveis",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002172,
+      "nome": "Capacidade útil dos armazéns convencionais, estruturais e infláveis - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11278,
+      "nome": "Grupos de capacidade útil",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90908,
+          "nome": "menos de 1.000 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90909,
+          "nome": "de 1.000 a menos de 5.000 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90910,
+          "nome": "de 5.000 a menso de 10.000 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90911,
+          "nome": "de 10.000 a menos de 50.000 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90912,
+          "nome": "de 50.000 a menos de 100.000 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90913,
+          "nome": "de 100.000 a menos de 200.000 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90914,
+          "nome": "200.000 m³ ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

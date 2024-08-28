@@ -1,0 +1,114 @@
+{
+  "id": 1115,
+  "nome": "Número de estabelecimentos agropecuários em que o produtor declarou ter atividade fora do estabelecimento no ano por tipo de atividade e agricultura familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/1115",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2006,
+      "nome": "Número de estabelecimentos agropecuários em que o produtor declarou ter atividade fora do estabelecimento no ano",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002006,
+      "nome": "Número de estabelecimentos agropecuários em que o produtor declarou ter atividade fora do estabelecimento no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95239,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112925,
+          "nome": "Agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112926,
+          "nome": "Não-agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112927,
+          "nome": "Agropecuária e não-agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112928,
+          "nome": "Não tinha atividade econômica fora do estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119106,
+          "nome": "Não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119107,
+          "nome": "Agricultura familiar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 1172,
+  "nome": "Rendimento médio mensal real das pessoas de 10 anos ou mais de idade, com rendimento, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1172",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Rendimento médio mensal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1992,
+    "fim": 2011
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2502,
+      "nome": "Rendimento médio mensal real das pessoas de 10 anos ou mais de idade, com rendimento",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

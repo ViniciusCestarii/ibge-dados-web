@@ -1,0 +1,133 @@
+{
+  "id": 9615,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, por posição na ocupação e categoria do emprego no trabalho principal e realização de teletrabalho no período de referência de 30 dias - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9615",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Teletrabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4090,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4091,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4108,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4109,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11913,
+      "nome": "Posição na ocupação e categoria do emprego no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 96165,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59984,
+          "nome": "Empregado no setor privado com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59985,
+          "nome": "Empregado no setor privado sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31724,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59986,
+          "nome": "Empregado no setor público, inclusive servidor estatutário e militar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96170,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96171,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31731,
+          "nome": "Trabalhador familiar auxiliar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1676,
+      "nome": "Realização de teletrabalho",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59809,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59810,
+          "nome": "Realizou teletrabalho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59811,
+          "nome": "Não realizou teletrabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 1240,
+  "nome": "Número de municípios, total e sem rede coletora de esgoto, por principal solução alternativa para o esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/1240",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2615,
+      "nome": "Municípios sem rede coletora de esgoto",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002615,
+      "nome": "Municípios sem rede coletora de esgoto - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11970,
+      "nome": "Principal solução alternativa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121197,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121200,
+          "nome": "Total de municípios sem rede coletora de esgoto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98711,
+          "nome": "Fossas sépticas e sumidouros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118099,
+          "nome": "Fossas rudimentares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98712,
+          "nome": "Fossas secas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118100,
+          "nome": "Valas a céu aberto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118101,
+          "nome": "Lançamento em corpos d'água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98375,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

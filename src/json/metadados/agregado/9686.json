@@ -1,0 +1,131 @@
+{
+  "id": 9686,
+  "nome": "Domicílios e Moradores, por situação do domicílio e existência de rádio no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9686",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9784,
+      "nome": "Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9785,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10114,
+      "nome": "Moradores em domicílios",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10116,
+      "nome": "Coeficiente de variação - Moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10117,
+      "nome": "Distribuição percentual dos moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10118,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1710,
+      "nome": "Existência de rádio no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59949,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59950,
+          "nome": "Havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59951,
+          "nome": "Não havia",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

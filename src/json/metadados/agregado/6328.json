@@ -1,0 +1,350 @@
+{
+  "id": 6328,
+  "nome": "Municípios com estrutura na área de habitação, transporte, agropecuária e meio ambiente, por classe de tamanho da população do município, segundo caracterização do órgão gestor, sexo, idade, cor ou raça e nível de instrução do titular do órgão gestor",
+  "URL": "https://sidra.ibge.gov.br/tabela/6328",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12345,
+      "nome": "Municípios com estrutura organizacional na área de habitação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12346,
+      "nome": "Municípios com estrutura organizacional na área de transporte",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12347,
+      "nome": "Municípios com estrutura organizacional na área de agropecuária",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12348,
+      "nome": "Municípios com estrutura organizacional na área de meio ambiente",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1048,
+      "nome": "Caracterização do órgão gestor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49367,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49369,
+          "nome": "Secretaria municipal exclusiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49370,
+          "nome": "Secretaria municipal em conjunto com outras políticas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49371,
+          "nome": "Setor subordinado a outra secretaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49372,
+          "nome": "Setor subordinado diretamente a chefia do executivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49373,
+          "nome": "Órgão da administração indireta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1051,
+      "nome": "Sexo do titular do órgão gestor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49379,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49380,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49381,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56939,
+          "nome": "Não informado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1054,
+      "nome": "Idade do titular do órgão gestor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49382,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49383,
+          "nome": "De 18 a 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49384,
+          "nome": "De 26 a 40 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49385,
+          "nome": "De 41 a 60 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49386,
+          "nome": "Mais de 60 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56940,
+          "nome": "Não informado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1059,
+      "nome": "Cor ou raça do titular do órgão gestor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50058,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50059,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50060,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50061,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50062,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50063,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1060,
+      "nome": "Nível de instrução do titular do órgão gestor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50064,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50065,
+          "nome": "Fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50066,
+          "nome": "Fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50067,
+          "nome": "Médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50068,
+          "nome": "Médio completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50069,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50070,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50079,
+          "nome": "Especialização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50080,
+          "nome": "Mestrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50081,
+          "nome": "Doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

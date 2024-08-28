@@ -1,0 +1,134 @@
+{
+  "id": 4022,
+  "nome": "Pessoas de 15 anos ou mais de idade, aposentadas e/ou pensionistas na semana de referência, por sexo e condição de atividade na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/4022",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4006,
+      "nome": "Pessoas de 15 anos ou mais de idade, aposentadas e/ou pensionistas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004006,
+      "nome": "Pessoas de 15 anos ou mais de idade, aposentadas e/ou pensionistas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12023,
+      "nome": "Aposentadas e/ou pensionistas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99118,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99119,
+          "nome": "Somente aposentadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99120,
+          "nome": "Somente pensionistas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99121,
+          "nome": "Aposentadas e pensionistas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "nome": "Condição de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95355,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3287,
+          "nome": "Economicamente ativa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99115,
+          "nome": "Economicamente ativa - ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3288,
+          "nome": "Não economicamente ativa",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

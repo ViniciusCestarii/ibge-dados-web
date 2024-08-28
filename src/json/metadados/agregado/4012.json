@@ -1,0 +1,73 @@
+{
+  "id": 4012,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por características topográficas predominantes",
+  "URL": "https://sidra.ibge.gov.br/tabela/4012",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 583,
+      "nome": "Características topográficas predominantes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31346,
+          "nome": "Plano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31347,
+          "nome": "Aclive/declive moderado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31348,
+          "nome": "Aclive/declive acentuado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

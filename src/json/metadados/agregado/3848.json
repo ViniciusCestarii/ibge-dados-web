@@ -1,0 +1,79 @@
+{
+  "id": 3848,
+  "nome": "População residente em municípios com Agenda 21 Local, total e percentual distribuído pela etapa de implantação da Agenda 21 Local",
+  "URL": "https://sidra.ibge.gov.br/tabela/3848",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Agenda 21 Local",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3820,
+      "nome": "População residente em municípios com Agenda 21 Local",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8195,
+      "nome": "Percentual da população residente em municípios com Agenda 21 Local, distribuído pela etapa de implantação da Agenda 21 Local",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 482,
+      "nome": "Etapa de implantação da Agenda 21 Local",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31434,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12567,
+          "nome": "Sensibilização/mobilização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12568,
+          "nome": "Definição de diagnóstico e metodologia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12569,
+          "nome": "Elaboração do plano de desenvolvimento sustentável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12570,
+          "nome": "Implementação de ações da Agenda 21 em políticas públicas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

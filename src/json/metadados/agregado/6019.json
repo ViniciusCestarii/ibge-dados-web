@@ -1,0 +1,92 @@
+{
+  "id": 6019,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por predisposição para prática de atividade física durante a semana, caso tenha oportunidade",
+  "URL": "https://sidra.ibge.gov.br/tabela/6019",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Atividade física",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 747,
+      "nome": "Predisposição para prática de atividade física durante a semana, caso tenha oportunidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39803,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39804,
+          "nome": "Não faria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39805,
+          "nome": "Faria em alguns dias da semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39806,
+          "nome": "Faria na maioria dos dias da semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39807,
+          "nome": "Já faz em alguns dias da semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39808,
+          "nome": "Já faz na maioria dos dias da semana",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

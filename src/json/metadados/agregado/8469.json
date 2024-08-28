@@ -1,0 +1,127 @@
+{
+  "id": 8469,
+  "nome": "Gasto médio das viagens nacionais com pernoite, em que ocorreram gastos no item, por motivo pessoal realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por rendimento mensal domiciliar per capita e item de gasto",
+  "URL": "https://sidra.ibge.gov.br/tabela/8469",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12364,
+      "nome": "Gasto médio das viagens nacionais com pernoite, em que ocorreram gastos no item, por motivo pessoal realizadas pelos moradores dos domicílios",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 12365,
+      "nome": "Coeficiente de variação - Gasto médio das viagens nacionais com pernoite, em que ocorreram gastos no item, por motivo pessoal realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57490,
+          "nome": "Menos de 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57491,
+          "nome": "1/2 a menos de 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57743,
+          "nome": "1 a menos de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57744,
+          "nome": "2 a menos de 4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57745,
+          "nome": "4 ou mais salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1341,
+      "nome": "Item de gasto",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57223,
+          "nome": "Hospedagem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57224,
+          "nome": "Alimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57225,
+          "nome": "Transporte",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57226,
+          "nome": "Compras pessoais e presentes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57227,
+          "nome": "Atrativos e passeios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57228,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

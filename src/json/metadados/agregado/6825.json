@@ -1,0 +1,57 @@
+{
+  "id": 6825,
+  "nome": "Indicador 1.2.1 - Proporção da população vivendo abaixo da linha de pobreza nacional, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6825",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Erradicação da pobreza",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9948,
+      "nome": "Proporção da população abaixo da linha de pobreza nacional",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

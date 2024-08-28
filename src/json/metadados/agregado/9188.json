@@ -1,0 +1,272 @@
+{
+  "id": 9188,
+  "nome": "Número de estabelecimentos agropecuários e Área dos estabelecimentos agropecuários, por existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar, condição legal do produtor, existência de CNPJ, produtor possui DAP (Declaração de Aptidão ao PRONAF) e direção dos trabalhos do estabelecimento agropecuário",
+  "URL": "https://sidra.ibge.gov.br/tabela/9188",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1503,
+      "nome": "Existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58747,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58748,
+          "nome": "Com dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58749,
+          "nome": "Com dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58750,
+          "nome": "Com dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58751,
+          "nome": "Sem dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58752,
+          "nome": "Sem dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58753,
+          "nome": "Sem dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58754,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12559,
+      "nome": "Condição legal do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41148,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112148,
+          "nome": "Produtor individual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40676,
+          "nome": "Condomínio, consórcio ou união de pessoas (inclusive casal, quando os dois forem responsáveis pela direção)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112150,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112151,
+          "nome": "Sociedade anônima ou por cotas de responsabilidade limitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112152,
+          "nome": "Insituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112153,
+          "nome": "Governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112154,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12554,
+      "nome": "Existência de CNPJ",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46535,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112068,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112069,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "nome": "Produtor possui DAP (Declaração de Aptidão ao PRONAF)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46531,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46532,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46533,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46534,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "nome": "Direção dos trabalhos do estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41149,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40591,
+          "nome": "Produtor(a) titular diretamente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40592,
+          "nome": "Casal (codireção)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40593,
+          "nome": "Produtor(a) titular através de um encarregado ou pessoa com laços de parentesco com o mesmo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40594,
+          "nome": "Administrador(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40595,
+          "nome": "Produtores (explorações comunitárias)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40596,
+          "nome": "Outra pessoa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

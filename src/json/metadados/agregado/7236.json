@@ -1,0 +1,150 @@
+{
+  "id": 7236,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e trabalhadores domésticos no trabalho principal, por sexo e local do exercício do trabalho",
+  "URL": "https://sidra.ibge.gov.br/tabela/7236",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características adicionais do mercado de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10441,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e trabalhadores domésticos no trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10442,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e trabalhadores domésticos no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10443,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e trabalhadores domésticos no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10444,
+      "nome": "Coeficiente de variação -Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e trabalhadores domésticos no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 903,
+      "nome": "Local do exercício do trabalho",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48053,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48054,
+          "nome": "Em fazenda, sítio, granja, chácara etc",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48055,
+          "nome": "Em estabelecimento do próprio empreendimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48056,
+          "nome": "Em estabelecimento de outro empreendimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48057,
+          "nome": "Em local designado pelo empregador, patrão ou freguês",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48058,
+          "nome": "Em domicílio do empregador, patrão, sócio ou freguês",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48059,
+          "nome": "No domicílio de residência",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48060,
+          "nome": "Em veículo automotor",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48061,
+          "nome": "Em via ou área pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48062,
+          "nome": "Em outro local",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "id": 3064,
+  "nome": "Produção e Venda de leite de vaca no ano nos estabelecimentos agropecuários, por condição do produtor em relação às terras, grupos de área total e grupos de cabeças de bovinos - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3064",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2072,
+      "nome": "Número de estabelecimentos agropecuários que produziram leite de vaca",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002072,
+      "nome": "Número de estabelecimentos agropecuários que produziram leite de vaca - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2073,
+      "nome": "Vacas ordenhadas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002073,
+      "nome": "Vacas ordenhadas nos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2074,
+      "nome": "Quantidade produzida de leite de vaca",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002074,
+      "nome": "Quantidade produzida de leite de vaca - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2075,
+      "nome": "Valor da produção de leite de vaca",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002075,
+      "nome": "Valor da produção de leite de vaca - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2076,
+      "nome": "Quantidade produzida de leite de vaca cru beneficiado no ano nos estabelecimentos agropecuários",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002076,
+      "nome": "Quantidade produzida de leite de vaca cru beneficiado no ano nos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2077,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de vaca pasteurizado",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002077,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de vaca pasteurizado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2078,
+      "nome": "Quantidade vendida de leite de vaca pasteurizado",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002078,
+      "nome": "Quantidade vendida de leite de vaca pasteurizado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2079,
+      "nome": "Valor da venda leite de vaca pasteurizado",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002079,
+      "nome": "Valor da venda leite de vaca pasteurizado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2377,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de vaca cru",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002377,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de vaca cru - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2080,
+      "nome": "Quantidade vendida de leite de vaca cru",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002080,
+      "nome": "Quantidade vendida de leite de vaca cru - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2378,
+      "nome": "Valor da venda de leite de vaca cru",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002378,
+      "nome": "Valor da venda de leite de vaca cru - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111559,
+          "nome": "De 2.500 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 3244,
+      "nome": "Grupos de cabeças de bovinos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114147,
+          "nome": "De 1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114148,
+          "nome": "De 3 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118272,
+          "nome": "De 5 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118273,
+          "nome": "De 9 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114151,
+          "nome": "De 20 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114152,
+          "nome": "De 50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114153,
+          "nome": "De 100 a 199",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114154,
+          "nome": "De 200 a 499",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114155,
+          "nome": "De 500 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114156,
+          "nome": "Sem cabeças de bovinos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

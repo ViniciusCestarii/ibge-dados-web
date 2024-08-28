@@ -1,0 +1,99 @@
+{
+  "id": 27,
+  "nome": "Produção física industrial, por classes de indústrias e tipo de índice (série encerrada em janeiro de 2004)",
+  "URL": "https://sidra.ibge.gov.br/tabela/27",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198501,
+    "fim": 200401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 28,
+      "nome": "Produção física industrial",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 7,
+      "nome": "Classes de indústrias",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 23,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 24,
+          "nome": "Indústria extrativa mineral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 25,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Tipo de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2538,
+          "nome": "Índice de base fixa mensal com ajuste sazonal (Base: média de 1991 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2539,
+          "nome": "Índice de base fixa mensal sem ajuste sazonal (Base: média de 1991 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2540,
+          "nome": "Índice mensal (Base: igual mês do ano anterior = 100 )",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2541,
+          "nome": "Índice acumulado (Base: igual período do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2542,
+          "nome": "Índice acumulado de 12 meses (Base: últimos 12 meses anteriores = 100)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

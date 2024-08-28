@@ -1,0 +1,89 @@
+{
+  "id": 1773,
+  "nome": "Volume de água tratada distribuída por dia, total e com existência de tratamento, por tipo de tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1773",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 718,
+      "nome": "Volume de água tratada distribuída por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000718,
+      "nome": "Volume de água tratada distribuída por dia - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11974,
+      "nome": "Existência e tipo de tratamento da água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98463,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 98464,
+          "nome": "Volume total de água com tratamento",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 98409,
+          "nome": "Convencional",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 98410,
+          "nome": "Não-convencional",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 98411,
+          "nome": "Simples desinfecção (cloração e outros)",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 98413,
+          "nome": "Sem tratamento",
+          "unidade": null,
+          "nivel": -1
+        }
+      ]
+    }
+  ]
+}

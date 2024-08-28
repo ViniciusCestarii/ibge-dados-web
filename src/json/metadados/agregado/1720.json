@@ -1,0 +1,724 @@
+{
+  "id": 1720,
+  "nome": "Produção, Venda, Valor da produção e Área colhida da lavoura temporária nos estabelecimentos agropecuários, por produtos da lavoura temporária, uso de agrotóxicos, uso de adubação e principal mês de plantio e de colheita - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1720",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Produção vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Vide categorias da classificação 'Produtos da lavoura temporária'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1982,
+      "nome": "Quantidade vendida",
+      "unidade": "Vide categorias da classificação 'Produtos da lavoura temporária'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 216,
+      "nome": "Área colhida",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000216,
+      "nome": "Área colhida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 226,
+      "nome": "Produtos da lavoura temporária",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          183,
+          214,
+          1982
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113869,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4844,
+          "nome": "Abacaxi",
+          "unidade": "Mil frutos",
+          "nivel": 1
+        },
+        {
+          "id": 111671,
+          "nome": "Abóbora, moranga, jerimum",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111672,
+          "nome": "Algodão herbáceo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4847,
+          "nome": "Alho",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 96608,
+          "nome": "Amendoim em casca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4851,
+          "nome": "Arroz em casca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111673,
+          "nome": "Aveia branca em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 96609,
+          "nome": "Batata-inglesa",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4857,
+          "nome": "Cana-de-açúcar",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4860,
+          "nome": "Cebola",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4861,
+          "nome": "Centeio em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4862,
+          "nome": "Cevada em casca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111674,
+          "nome": "Colza (canola)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4864,
+          "nome": "Ervilha em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111685,
+          "nome": "Fava em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111675,
+          "nome": "Feijão preto em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111676,
+          "nome": "Feijão de cor em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111677,
+          "nome": "Feijão fradinho em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4869,
+          "nome": "Feijão verde",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111678,
+          "nome": "Fumo em folha seca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111679,
+          "nome": "Gergelim (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4872,
+          "nome": "Girassol (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4876,
+          "nome": "Juta (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4879,
+          "nome": "Linho (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4882,
+          "nome": "Malva (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4884,
+          "nome": "Mamona",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4885,
+          "nome": "Mandioca (aipim, macaxeira)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4886,
+          "nome": "Melancia",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4887,
+          "nome": "Melão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4888,
+          "nome": "Milho em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4895,
+          "nome": "Rami (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4896,
+          "nome": "Soja em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4897,
+          "nome": "Sorgo em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4898,
+          "nome": "Sorgo vassoura",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111680,
+          "nome": "Tomate rasteiro (industrial)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4901,
+          "nome": "Trigo em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111681,
+          "nome": "Trigo preto em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111682,
+          "nome": "Triticale em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111683,
+          "nome": "Forrageiras para corte",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4906,
+          "nome": "Cana forrageira",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4907,
+          "nome": "Milho forrageiro",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 4910,
+          "nome": "Sorgo forrageiro",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111684,
+          "nome": "Sementes de algodão (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111686,
+          "nome": "Sementes de arroz (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111687,
+          "nome": "Sementes de feijão (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111688,
+          "nome": "Sementes de milho (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111689,
+          "nome": "Sementes de soja (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111690,
+          "nome": "Sementes de trigo (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111691,
+          "nome": "Sementes de forrageiras (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111692,
+          "nome": "Sementes de batata-inglesa (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111693,
+          "nome": "Toletes de cana-de-açúcar (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111694,
+          "nome": "Sementes e outras formas de propagação de outros produtos (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12521,
+      "nome": "Uso de agrotóxicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111611,
+          "nome": "Utilizou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111612,
+          "nome": "Não utilizou",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12522,
+      "nome": "Uso de adubação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111613,
+          "nome": "Química",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111614,
+          "nome": "Orgânica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111615,
+          "nome": "Química e orgânica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111616,
+          "nome": "Não utilizou",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12526,
+      "nome": "Principal mês do plantio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111658,
+          "nome": "Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111659,
+          "nome": "Fevereiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111660,
+          "nome": "Março",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111661,
+          "nome": "Abril",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111662,
+          "nome": "Maio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111663,
+          "nome": "Junho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111664,
+          "nome": "Julho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111665,
+          "nome": "Agosto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111666,
+          "nome": "Setembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111667,
+          "nome": "Outubro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111668,
+          "nome": "Novembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111669,
+          "nome": "Dezembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111670,
+          "nome": "Só efetivo ou ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12525,
+      "nome": "Principal mês da colheita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111631,
+          "nome": "Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111632,
+          "nome": "Fevereiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111633,
+          "nome": "Março",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111634,
+          "nome": "Abril",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111635,
+          "nome": "Maio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111636,
+          "nome": "Junho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111637,
+          "nome": "Julho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111638,
+          "nome": "Agosto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111639,
+          "nome": "Setembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111640,
+          "nome": "Outubro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111641,
+          "nome": "Novembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111642,
+          "nome": "Dezembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111643,
+          "nome": "Só efetivo ou ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": 949,
+  "nome": "Número de estabelecimentos agropecuários, Quantidade produzida, Área colhida e Valor da produção por agricultura familiar e não familiar e tipo de produção vegetal",
+  "URL": "https://sidra.ibge.gov.br/tabela/949",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Produção vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Quilogramas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 216,
+      "nome": "Área colhida",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12947,
+      "nome": "Tipo de agricultura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120422,
+          "nome": "Agricultura familiar - lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120423,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12445,
+      "nome": "Tipo de produção vegetal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          183
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110076,
+          "nome": "Arroz em casca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120610,
+          "nome": "Feijão preto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120611,
+          "nome": "Feijão de cor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120612,
+          "nome": "Feijão fradinho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110081,
+          "nome": "Mandioca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110080,
+          "nome": "Milho em grão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110082,
+          "nome": "Soja em grão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110083,
+          "nome": "Trigo em grão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120613,
+          "nome": "Café",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120630,
+          "nome": "Café canephora (robusta, conilon) em grão (verde)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

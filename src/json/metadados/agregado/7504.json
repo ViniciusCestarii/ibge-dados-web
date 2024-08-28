@@ -1,0 +1,148 @@
+{
+  "id": 7504,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição paralisado durante todo o ano de referência, por motivo da paralisação, existência e tipo de solução alternativa",
+  "URL": "https://sidra.ibge.gov.br/tabela/7504",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10756,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição paralisado durante todo o ano de referência",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1007,
+      "nome": "Motivo da paralisação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49112,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49113,
+          "nome": "Seca ou estiagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49114,
+          "nome": "Deficiência nas instalações e nos equipamentos para produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49115,
+          "nome": "Deficiência nas instalações e nos equipamentos para distribuição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49156,
+          "nome": "Água imprópria para consumo humano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49157,
+          "nome": "Construção de barragens ou desvio do curso do(s) manancial(is)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49158,
+          "nome": "Acidente ou desastre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49159,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 968,
+      "nome": "Existência e tipo de solução alternativa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48710,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48711,
+          "nome": "Com solução alternativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48712,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48713,
+          "nome": "Perfuração de poços",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48714,
+          "nome": "Construção ou fornecimento de reservatórios para armazenamento da água da chuva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48715,
+          "nome": "Distribuição de água em locais públicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48716,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48717,
+          "nome": "Sem solução alternativa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "id": 6964,
+  "nome": "Número de estabelecimentos agropecuários com uso de irrigação, por método utilizado para irrigação, escolaridade do produtor, existência de energia elétrica, tipo de intermediador e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/6964",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Confederação da Agricultura e Pecuária do Brasil (CNA)",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2372,
+      "nome": "Número de estabelecimentos agropecuários com uso de irrigação",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12604,
+      "nome": "Método utilizado para irrigação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118477,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 45916,
+          "nome": "Irrigação localizada - gotejamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45917,
+          "nome": "Irrigação localizada - microaspersão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45918,
+          "nome": "Irrigação localizada - outros métodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45919,
+          "nome": "Irrigação por superfície - inundação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45920,
+          "nome": "Irrigação por superfície - sulcos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45921,
+          "nome": "Irrigação por superfície - outros métodos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45922,
+          "nome": "Irrigação por aspersão - autopropelido/carretel enrolador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45923,
+          "nome": "Irrigação por aspersão - pivô central",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45924,
+          "nome": "Irrigação por aspersão - aspersão convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45925,
+          "nome": "Outros métodos de irrigação - subsuperficial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 45926,
+          "nome": "Outros métodos de irrigação - molhação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 800,
+      "nome": "Escolaridade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41147,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46510,
+          "nome": "Sabe ler e escrever - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46511,
+          "nome": "Sabe ler e escrever - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40708,
+          "nome": "Nunca frequentou escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40709,
+          "nome": "Classe de alfabetização - CA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40710,
+          "nome": "Alfabetização de jovens e adultos - AJA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40711,
+          "nome": "Antigo primário (elementar)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40712,
+          "nome": "Antigo ginasial (médio 1º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40713,
+          "nome": "Regular do ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40714,
+          "nome": "EJA - educação de jovens e adultos e supletivo do ensino fundamental ou do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40715,
+          "nome": "Antigo científico, clássico, etc. (médio 2º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40726,
+          "nome": "Regular de ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40727,
+          "nome": "Técnico de ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40728,
+          "nome": "EJA - Educação de jovens e adultos e supletivo do ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40729,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40730,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41159,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10969,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12570,
+      "nome": "Tipo de intermediador",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46570,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112808,
+          "nome": "Contrataram mão-de-obra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112809,
+          "nome": "Empreiteiro (pessoa física)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112810,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112811,
+          "nome": "Empresa (pessoa jurídica) exceto cooperativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47172,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112812,
+          "nome": "Não contrataram mão-de-obra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110085,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41139,
+          "nome": "De 2.500 a menos de 10.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40645,
+          "nome": "De 10.000 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

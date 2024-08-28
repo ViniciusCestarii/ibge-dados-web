@@ -1,0 +1,140 @@
+{
+  "id": 9662,
+  "nome": "Pessoas de 10 anos ou mais de idade que não tinham telefone móvel celular para uso pessoal, por situação do domicílio e motivo de não terem telefone móvel celular para uso pessoal (a partir de 2022)",
+  "URL": "https://sidra.ibge.gov.br/tabela/9662",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5040,
+      "nome": "Pessoas de 10 anos ou mais de idade que não tinham telefone móvel celular para uso pessoal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5636,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade que não tinham telefone móvel celular para uso pessoal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10665,
+      "nome": "Distribuição percentual das pessoas de 10 anos ou mais de idade que não tinham telefone móvel celular para uso pessoal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10666,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 10 anos ou mais de idade que não tinham telefone móvel celular para uso pessoal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 958,
+      "nome": "Motivo de não terem telefone móvel celular para uso pessoal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48621,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48622,
+          "nome": "Aparelho telefônico era caro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48623,
+          "nome": "Serviço era caro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48624,
+          "nome": "Serviço de telefonia móvel celular não estava disponível nos locais que costumavam frequentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48625,
+          "nome": "Costumavam usar o telefone móvel celular de outra pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12056,
+          "nome": "Falta de necessidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48627,
+          "nome": "Não sabiam usar telefone móvel celular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12057,
+          "nome": "Preocupação com privacidade ou segurança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48628,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,841 @@
+{
+  "id": 2983,
+  "nome": "Pessoas com curso de nível superior concluído, por nível concluído, sexo e áreas gerais, específicas e detalhadas de formação",
+  "URL": "https://sidra.ibge.gov.br/tabela/2983",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1644,
+      "nome": "Pessoas com curso de nível superior concluído",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001644,
+      "nome": "Pessoas com curso de nível superior concluído - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12401,
+      "nome": "Nível concluído",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108888,
+          "nome": "Graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108889,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12402,
+      "nome": "Áreas gerais, específicas e detalhadas de formação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 108890,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108891,
+          "nome": "1.Educação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108892,
+          "nome": "1.1Formação de professores e ciências da educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108893,
+          "nome": "1.1.1Formação de professores e ciências da educação (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108894,
+          "nome": "1.1.2Ciências da educação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108895,
+          "nome": "1.1.3Formação de professor da educação básica (infantil)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108896,
+          "nome": "1.1.4Formação de professor da educação básica (fundamental e média)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108897,
+          "nome": "1.1.5Formação de professor de matérias acadêmicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108898,
+          "nome": "1.1.6Formação de professor de disciplinas profissionalizantes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108899,
+          "nome": "2.Artes, humanidades e letras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108900,
+          "nome": "2.1Artes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108901,
+          "nome": "2.1.1Artes (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108902,
+          "nome": "2.1.2Belas artes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108903,
+          "nome": "2.1.3Música a artes cênicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108904,
+          "nome": "2.1.4Artes visuais e produção para mídia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108905,
+          "nome": "2.1.5Design e estilismo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108906,
+          "nome": "2.1.6Artesanato",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108907,
+          "nome": "2.2Humanidades e letras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108908,
+          "nome": "2.2.1Humanidades e letras (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108909,
+          "nome": "2.2.2Religião e teologia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108910,
+          "nome": "2.2.3Línguas e culturas estrangeiras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108911,
+          "nome": "2.2.4Língua portuguêsa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108912,
+          "nome": "2.2.5História e arqueologia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108913,
+          "nome": "2.2.6Filosofia e ética",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108914,
+          "nome": "3.Ciências sociais, administração e direito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108915,
+          "nome": "3.1Ciências sociais e comportamentais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108916,
+          "nome": "3.1.1Ciências sociais e comportamentais (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108917,
+          "nome": "3.1.2Psicologia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108918,
+          "nome": "3.1.3Sociologia e estudos culturais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108919,
+          "nome": "3.1.4Ciência política e educação cívica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108920,
+          "nome": "3.1.5Economia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108921,
+          "nome": "3.2Comunicação, jornalismo e informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108922,
+          "nome": "3.2.1Comunicação, jornalismo e informação (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108923,
+          "nome": "3.2.2Jornalismo e reportagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108924,
+          "nome": "3.2.3Biblioteconomia, informação, arquivos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108925,
+          "nome": "3.3Comércio e administração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108926,
+          "nome": "3.3.1Comércio e administração (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108927,
+          "nome": "3.3.2Vendas em atacado e varejo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108928,
+          "nome": "3.3.3Marketing e publicidade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108929,
+          "nome": "3.3.4Finanças, bancos, seguros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108930,
+          "nome": "3.3.5Contabilidade e tributação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108931,
+          "nome": "3.3.6Administração e gestão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108932,
+          "nome": "3.3.7Secretariado e trabalho de escritório",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108933,
+          "nome": "3.3.8Trabalho e relações industriais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108934,
+          "nome": "3.4Direito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108935,
+          "nome": "3.4.1Direito",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108936,
+          "nome": "4.Ciências, matemática e computação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108937,
+          "nome": "4.1Ciências da vida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108938,
+          "nome": "4.1.1Ciências da vida (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108939,
+          "nome": "4.1.2Biologia e bioquímica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108940,
+          "nome": "4.1.3Ciências ambientais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108941,
+          "nome": "4.2Ciências físicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108942,
+          "nome": "4.2.1Ciências físicas (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108943,
+          "nome": "4.2.2Física",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108944,
+          "nome": "4.2.3Química",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108945,
+          "nome": "4.2.4Ciências da terra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108946,
+          "nome": "4.3Matemática e estatística",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108947,
+          "nome": "4.3.1Matemática",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108948,
+          "nome": "4.3.2Estatística",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108949,
+          "nome": "4.4Computação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108950,
+          "nome": "4.4.1Ciência da computação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108951,
+          "nome": "4.4.2Uso do computador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108952,
+          "nome": "5.Engenharia, produção e construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108953,
+          "nome": "5.1Engenharia e profissões correlatas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108954,
+          "nome": "5.1.1Engenharia e tecnologias correlatas (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108955,
+          "nome": "5.1.2Mecânica e metalurgia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108956,
+          "nome": "5.1.3Eletricidade e energia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108957,
+          "nome": "5.1.4Eletrônica e automação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108958,
+          "nome": "5.1.5Química e engenharia de processos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108959,
+          "nome": "5.1.6Veículos a motor, construção naval e aeronáutica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108960,
+          "nome": "5.2Produção e processamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108961,
+          "nome": "5.2.1Produção e processamento (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108962,
+          "nome": "5.2.2Processamento de alimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108963,
+          "nome": "5.2.3Têxteis, roupas, calçados e couros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108964,
+          "nome": "5.2.4Materiais (madeira, papel, plástico, vidro)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108965,
+          "nome": "5.2.5Mineração e extração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108966,
+          "nome": "5.3Arquitetura e construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108967,
+          "nome": "5.3.1Arquitetura e urbanismo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108968,
+          "nome": "5.3.2Engenharia civil e construção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108969,
+          "nome": "6.Agricultura e veterinária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108970,
+          "nome": "6.1Agricultura, silvicultura e recursos pesqueiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108971,
+          "nome": "6.1.1Agricultura, silvicultura e recursos pesqueiros (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108972,
+          "nome": "6.1.2Produção agrícola e pecuária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108973,
+          "nome": "6.1.3Horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108974,
+          "nome": "6.1.4Engenharia florestal - silvicultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108975,
+          "nome": "6.1.5Recursos pesqueiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108976,
+          "nome": "6.2Veterinária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108977,
+          "nome": "6.2.1Veterinária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108978,
+          "nome": "7.Saúde e bem-estar social",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108979,
+          "nome": "7.1Saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108980,
+          "nome": "7.1.1Saúde (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108981,
+          "nome": "7.1.2Medicina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108982,
+          "nome": "7.1.3Enfermagem e atenção primária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108983,
+          "nome": "7.1.4Odontologia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108984,
+          "nome": "7.1.5Tecnologias de diagnóstico e tratamento médico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108985,
+          "nome": "7.1.6Terapia e reabilitação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108986,
+          "nome": "7.1.7Farmácia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108987,
+          "nome": "7.2Serviço social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108988,
+          "nome": "7.2.1Assistência à criança e à juventude",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108989,
+          "nome": "7.2.2Serviço social e aconselhamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108990,
+          "nome": "8.Serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108991,
+          "nome": "8.1Serviços pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108992,
+          "nome": "8.1.1Serviços pessoais (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108993,
+          "nome": "8.1.2Hotelaria, restaurantes e serviços de alimentação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108994,
+          "nome": "8.1.3Viagens, turismo e lazer",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108995,
+          "nome": "8.1.4Esportes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108996,
+          "nome": "8.1.5Economia doméstica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108997,
+          "nome": "8.1.6Serviços de beleza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108998,
+          "nome": "8.2Serviços de transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108999,
+          "nome": "8.2.1Serviços de transporte (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109000,
+          "nome": "8.2.2Meios específicos de transporte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109001,
+          "nome": "8.3Preservação ambiental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109002,
+          "nome": "8.3.1Preservação ambiental (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109003,
+          "nome": "8.3.2Tecnologia de preservação ambiental",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109004,
+          "nome": "8.3.3Ambientes naturais e animais silvestres",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109005,
+          "nome": "8.3.4Serviços de saneamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109006,
+          "nome": "8.4Serviços de segurança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109007,
+          "nome": "8.4.1Serviços de segurança (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109008,
+          "nome": "8.4.2Proteção de pessoas e propriedades",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109009,
+          "nome": "8.4.3Saúde e segurança no trabalho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109010,
+          "nome": "8.4.4Setor militar e de defesa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109011,
+          "nome": "9.Área de formação mal especificada",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

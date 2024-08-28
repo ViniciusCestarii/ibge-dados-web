@@ -1,0 +1,103 @@
+{
+  "id": 8177,
+  "nome": "Índice de envelhecimento, idade mediana e razão de sexo da população indígena, segundo localização do domicílio e quesito de declaração",
+  "URL": "https://sidra.ibge.gov.br/tabela/8177",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "População indígena",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9265,
+      "nome": "Índice de envelhecimento da população indígena (Idosos: 60 anos ou mais de idade)",
+      "unidade": "Razão",
+      "sumarizacao": []
+    },
+    {
+      "id": 9260,
+      "nome": "Idade mediana da população indígena",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 9261,
+      "nome": "Razão de sexo da população indígena",
+      "unidade": "Razão",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1714,
+      "nome": "Quesito de declaração indígena",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60024,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60025,
+          "nome": "Cor ou raça indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60026,
+          "nome": "Se considera indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12869,
+          "nome": "Em terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12870,
+          "nome": "Fora de terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

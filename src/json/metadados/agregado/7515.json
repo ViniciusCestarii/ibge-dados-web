@@ -1,0 +1,212 @@
+{
+  "id": 7515,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ocorrência de interrupção de todos os sistemas de distribuição, por existência e tipo de solução alternativa, meios de comunicação e motivos da interrupção",
+  "URL": "https://sidra.ibge.gov.br/tabela/7515",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10676,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ocorrência de interrupção de todos os sistemas de distribuição de alguma entidade por seis horas ou mais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 968,
+      "nome": "Existência e tipo de solução alternativa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48710,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48711,
+          "nome": "Com solução alternativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48712,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48713,
+          "nome": "Perfuração de poços",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48714,
+          "nome": "Construção ou fornecimento de reservatórios para armazenamento da água da chuva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48715,
+          "nome": "Distribuição de água em locais públicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48716,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48717,
+          "nome": "Sem solução alternativa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 969,
+      "nome": "Existência e tipo de meio de comunicação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48718,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48733,
+          "nome": "Com comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48720,
+          "nome": "Cartazes e/ou folhetos distribuídos à população",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48721,
+          "nome": "Rádio, tv ou jornal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48722,
+          "nome": "Internet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48723,
+          "nome": "Conta de água",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48724,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48725,
+          "nome": "Sem comunicação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "nome": "Motivos da interrupção / racionamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49242,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49017,
+          "nome": "Insuficiência de água no manancial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49019,
+          "nome": "Seca ou estiagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49020,
+          "nome": "Deficiências na produção de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49021,
+          "nome": "Deficiências na distribuição de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49022,
+          "nome": "População flutuante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49023,
+          "nome": "Acidente ou desastre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49024,
+          "nome": "Construção de barragens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49025,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

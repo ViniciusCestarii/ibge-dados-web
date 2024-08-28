@@ -1,0 +1,97 @@
+{
+  "id": 3529,
+  "nome": "Número de estabelecimentos de hospedagem, por grupos de unidades habitacionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/3529",
+  "pesquisa": "Pesquisa de Serviços de Hospedagem",
+  "assunto": "Hospedagem",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1321,
+      "nome": "Número de estabelecimentos de hospedagem",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001321,
+      "nome": "Número de estabelecimentos de hospedagem - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 494,
+      "nome": "Grupos de unidades habitacionais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40475,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12839,
+          "nome": "Com até 4 unidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12840,
+          "nome": "Com 5 a 9 unidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12841,
+          "nome": "Com 10 a 19 unidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12842,
+          "nome": "Com 20 a 29 unidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12843,
+          "nome": "Com 30 a 49 unidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12844,
+          "nome": "Com 50 a 99 unidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12845,
+          "nome": "Com 100 ou mais unidades",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 4863,
+  "nome": "Pessoas de 10 anos ou mais de idade, total e distribuição, por grupos de anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/4863",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 889,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5003,
+      "nome": "Percentual de pessoas de 10 anos ou mais de idade, distribuído pelos grupos de anos de estudo",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5610,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 10 anos ou mais de idade, distribuído pelos grupos de anos de estudo",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95309,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10978,
+          "nome": "Sem instrução ou menos de 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1126,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1133,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1137,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2796,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

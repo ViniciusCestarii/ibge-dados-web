@@ -1,0 +1,104 @@
+{
+  "id": 797,
+  "nome": "Domicílios recenseados por espécie de domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/797",
+  "pesquisa": "Contagem da População ",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2007
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 617,
+      "nome": "Domicílios recenseados",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 8772,
+      "nome": "Espécie do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113664,
+          "nome": "Particulares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113839,
+          "nome": "Particulares - ocupados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113665,
+          "nome": "Particulares - não ocupados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113666,
+          "nome": "Particulares - não ocupados - fechados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113667,
+          "nome": "Particulares - não ocupados - de uso ocasional",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113668,
+          "nome": "Particulares - não ocupados - vagos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100979,
+          "nome": "Coletivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113669,
+          "nome": "Coletivos - com moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113670,
+          "nome": "Coletivos - sem moradores",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

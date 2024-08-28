@@ -1,0 +1,82 @@
+{
+  "id": 882,
+  "nome": "Valor do rendimento médio mensal domiciliar per capita dos domicílios particulares, por recebimento de dinheiro de programa social do governo, no mês de referência e tipo de programa social do governo",
+  "URL": "https://sidra.ibge.gov.br/tabela/882",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2135,
+      "nome": "Rendimento médio mensal domiciliar per capita dos domicílios particulares",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12676,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência e tipo de programa social do governo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114512,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114513,
+          "nome": "Houve",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114514,
+          "nome": "Houve - Bolsa-Família",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114515,
+          "nome": "Houve - Benefício Assistencial de Prestação Continuada - BPC",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114516,
+          "nome": "Houve - Programa de Erradicação do Trabalho Infantil - PETI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114517,
+          "nome": "Houve - outro programa social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114518,
+          "nome": "Não houve",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

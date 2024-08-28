@@ -1,0 +1,259 @@
+{
+  "id": 1989,
+  "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência por classes de rendimento nominal mensal do trabalho principal, sexo e seção de atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1989",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11804,
+      "nome": "Classes de rendimento nominal mensal do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95364,
+          "nome": "Até 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95365,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95366,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95367,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95368,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95369,
+          "nome": "Mais de 10 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95370,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95950,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11805,
+      "nome": "Seção de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95372,
+          "nome": "Agricultura, pecuária, silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95373,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95374,
+          "nome": "Indústria extrativa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95375,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95376,
+          "nome": "Produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95377,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95378,
+          "nome": "Comércio, reparação de veículos automotores, objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95380,
+          "nome": "Transporte, armazenagem e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95379,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95381,
+          "nome": "Intermediação financeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95382,
+          "nome": "Atividades imobiliárias, aluguéis e serviços prestados às empresas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95383,
+          "nome": "Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95384,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95385,
+          "nome": "Saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95386,
+          "nome": "Outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95387,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99809,
+          "nome": "Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99810,
+          "nome": "Atividades mal especificadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": 1569,
+  "nome": "Número de estabelecimentos agropecuários que obtiveram outras receitas e Valor das outras receitas obtidas no ano por tipo de outras receitas e classes de idade do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/1569",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 39,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram outras receitas no ano",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000039,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram outras receitas no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1998,
+      "nome": "Valor das outras receitas obtidas pelos estabelecimentos no ano",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001998,
+      "nome": "Valor das outras receitas obtidas pelos estabelecimentos no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2511,
+      "nome": "Tipo de outras receitas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114016,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111988,
+          "nome": "Recursos de aposentadorias ou pensões",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111990,
+          "nome": "Doações ou ajudas voluntárias de parentes ou amigos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111991,
+          "nome": "Receitas provenientes de programas especiais dos governos (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111992,
+          "nome": "Desinvestimentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111993,
+          "nome": "Pescado (capturado)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111994,
+          "nome": "Salários recebidos pelo produtor com atividade fora do estabelecimento e outras receitas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118195,
+          "nome": "De 65 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118196,
+          "nome": "Idade não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": 3381,
+  "nome": "População residente em domicílios particulares ocupados em aglomerados subnormais, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3381",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N17"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 743,
+      "nome": "População residente em domicílios particulares ocupados em aglomerados subnormais",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000743,
+      "nome": "População residente em domicílios particulares ocupados em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

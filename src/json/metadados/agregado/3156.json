@@ -1,0 +1,86 @@
+{
+  "id": 3156,
+  "nome": "Domicílios particulares permanentes que tinham energia elétrica de companhia distribuidora, por existência de medidor do consumo de energia elétrica - Resultados Preliminares do Universo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3156",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2619,
+      "nome": "Domicílios particulares permanentes que tinham energia elétrica de companhia distribuidora",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002619,
+      "nome": "Domicílios particulares permanentes que tinham energia elétrica de companhia distribuidora - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 421,
+      "nome": "Existência de medidor do consumo de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10964,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10965,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10966,
+          "nome": "Tinham - de uso exclusivo do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10967,
+          "nome": "Tinham - comum a mais de um domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10968,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

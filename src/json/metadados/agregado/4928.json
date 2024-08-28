@@ -1,0 +1,104 @@
+{
+  "id": 4928,
+  "nome": "Televisões existentes nos domicílios particulares permanentes, total, por situação do domicílio e o tipo de televisão",
+  "URL": "https://sidra.ibge.gov.br/tabela/4928",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5118,
+      "nome": "Televisões existentes nos domicílios particulares permanentes",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5666,
+      "nome": "Coeficiente de variação - Televisões existentes nos domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5523,
+      "nome": "Percentual de televisões existentes nos domicílios particulares permanentes, distribuído pelo tipo de televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5670,
+      "nome": "Coeficiente de variação - Percentual de televisões existentes nos domicílios particulares permanentes, distribuído pelo tipo de televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 8787,
+      "nome": "Tipo de televisão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33264,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33261,
+          "nome": "Tela fina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33259,
+          "nome": "Televisão de tubo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

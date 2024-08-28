@@ -1,0 +1,138 @@
+{
+  "id": 7136,
+  "nome": "Estudantes, por sexo e grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/7136",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10272,
+      "nome": "Estudantes",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10273,
+      "nome": "Coeficiente de variação - Estudantes",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10274,
+      "nome": "Distribuição percentual dos estudantes",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10275,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41126,
+          "nome": "0 a 5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99749,
+          "nome": "0 a 3 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47813,
+          "nome": "4 a 5 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 31615,
+          "nome": "6 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2792,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

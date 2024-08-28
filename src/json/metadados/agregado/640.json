@@ -1,0 +1,358 @@
+{
+  "id": 640,
+  "nome": "Frequência de aquisições por grupos e tipos de despesa e locais de compra",
+  "URL": "https://sidra.ibge.gov.br/tabela/640",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 302,
+      "nome": "Frequência de aquisições",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000302,
+      "nome": "Frequência de aquisições - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 313,
+      "nome": "Grupos e tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7039,
+          "nome": "Aparelhos eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7040,
+          "nome": "Televisão em cores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7041,
+          "nome": "Ventilador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7042,
+          "nome": "Conjunto de som acoplado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7043,
+          "nome": "Fogão a gas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7044,
+          "nome": "Geladeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7045,
+          "nome": "Outros (Aparelhos eletrodomésticos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7046,
+          "nome": "Equipamentos do lar e de lazer",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7047,
+          "nome": "Aparelho telefônico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7048,
+          "nome": "Máquina fotográfica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7049,
+          "nome": "Ferramentas em geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7050,
+          "nome": "Outros (Equipamentos do lar e de lazer)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7051,
+          "nome": "Mobiliários",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7052,
+          "nome": "Colchão (adulto)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7053,
+          "nome": "Conjunto estofado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7054,
+          "nome": "Cama (adulto)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7055,
+          "nome": "Outros (Mobiliários)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7056,
+          "nome": "Decoração e forração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7057,
+          "nome": "Tapetes de sala ou quarto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7058,
+          "nome": "Cortina pronta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7059,
+          "nome": "Enfeites de árvore de natal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7060,
+          "nome": "Outros (Decoração e forração)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7061,
+          "nome": "Joias, bijuterias e óticas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7062,
+          "nome": "Relógio de pulso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7063,
+          "nome": "Joias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7064,
+          "nome": "Bijuterias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7065,
+          "nome": "Óculos sem grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7066,
+          "nome": "Outros (Joias, bijuterias e óticas)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7067,
+          "nome": "Veículos, acessórios e manutenção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7068,
+          "nome": "Automóvel de passeio (novo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7069,
+          "nome": "Automóvel de passeio (usado)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7070,
+          "nome": "Conserto de veículos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7071,
+          "nome": "Bicicleta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7072,
+          "nome": "Outros (Veículos, acessórios e manutenção)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7073,
+          "nome": "Materiais de construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7074,
+          "nome": "Cimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7075,
+          "nome": "Areia, terra, barro, etc",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7076,
+          "nome": "Tintas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7077,
+          "nome": "Outros (Materiais de construção)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "nome": "Locais de compra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6231,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6991,
+          "nome": "Loja de departamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3575,
+          "nome": "Estabelecimento especializado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6994,
+          "nome": "Joalheria, ótica e relojoaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6996,
+          "nome": "Loja de eletrodomésticos e utilidades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6997,
+          "nome": "Loja de materiais de construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6998,
+          "nome": "Supermercado e hipermercado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3579,
+          "nome": "Vendedor ambulante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3580,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6993,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

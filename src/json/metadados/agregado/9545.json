@@ -1,0 +1,105 @@
+{
+  "id": 9545,
+  "nome": "Pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19, por situação do domicílio e ter ou não tomado todas as doses de vacina recomendadas",
+  "URL": "https://sidra.ibge.gov.br/tabela/9545",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8992,
+      "nome": "Pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 8993,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9197,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9198,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1801,
+      "nome": "Tomou todas as doses de vacina contra a COVID-19 recomendadas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71937,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71935,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71936,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

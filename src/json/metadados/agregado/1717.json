@@ -1,0 +1,101 @@
+{
+  "id": 1717,
+  "nome": "Número de municípios, total e os com serviços de manejo de resíduos de construção e demolição, por tipo de processamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1717",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 400,
+      "nome": "Municípios com serviço de manejo de resíduos de construção e demolição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000400,
+      "nome": "Municípios com serviço de manejo de resíduos de construção e demolição - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 355,
+      "nome": "Tipo de processamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8193,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8194,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8863,
+          "nome": "Total com processamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8203,
+          "nome": "Triagem simples dos RCD reaproveitáveis (classes A e B)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8204,
+          "nome": "Triagem e trituração simples (bica corrida) dos resíduos classe A",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8206,
+          "nome": "Triagem e trituração dos resíduos classe A com classificação granulométrica dos agregados reciclados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8205,
+          "nome": "Reaproveitamento dos agregados produzidos na fabricação de componentes construtivos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8197,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

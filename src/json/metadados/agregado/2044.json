@@ -1,0 +1,91 @@
+{
+  "id": 2044,
+  "nome": "Pessoas de 10 anos ou mais de idade, não economicamente ativas na semana de referência por anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2044",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 900,
+      "nome": "Pessoas de 10 anos ou mais de idade, não economicamente ativas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000900,
+      "nome": "Pessoas de 10 anos ou mais de idade, não economicamente ativas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 901,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, não economicamente ativas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          901
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3319,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1123,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1126,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100054,
+          "nome": "11 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

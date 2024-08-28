@@ -1,0 +1,86 @@
+{
+  "id": 1837,
+  "nome": "Número de distritos com coleta de esgoto sanitário, total e os com serviço de atendimento ao público, por existência e tipo de serviço de atendimento ao público",
+  "URL": "https://sidra.ibge.gov.br/tabela/1837",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 747,
+      "nome": "Número de distritos com coleta de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000747,
+      "nome": "Número de distritos com coleta de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12015,
+      "nome": "Existência e tipo de serviço de atendimento ao público",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98799,
+          "nome": "Total de distritos com coleta de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98800,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98801,
+          "nome": "Solicitação para ligação na rede de esgotamento sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98802,
+          "nome": "Reclamação sobre problemas na manutenção do serviço",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98803,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98804,
+          "nome": "Não existe serviço de atendimento ao público",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

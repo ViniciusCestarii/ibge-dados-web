@@ -1,0 +1,104 @@
+{
+  "id": 1791,
+  "nome": "Número de distritos abastecidos, total os com macromedidores, por existência e localização dos macromedidores",
+  "URL": "https://sidra.ibge.gov.br/tabela/1791",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 732,
+      "nome": "Número de distritos abastecidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000732,
+      "nome": "Número de distritos abastecidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11988,
+      "nome": "Existência e localização de macromedidores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98614,
+          "nome": "Total de distritos abastecidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98427,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98428,
+          "nome": "Localização - captação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98430,
+          "nome": "Localização - ETA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98431,
+          "nome": "Localização - entrada dos reservatórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98432,
+          "nome": "Localização - saída dos reservatórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98433,
+          "nome": "Localização - outra localização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98434,
+          "nome": "Localização - sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98435,
+          "nome": "Total de distritos sem existência de macromedidores",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

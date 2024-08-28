@@ -1,0 +1,285 @@
+{
+  "id": 2285,
+  "nome": "Receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas, segundo os produtos e/ou serviços prestados",
+  "URL": "https://sidra.ibge.gov.br/tabela/2285",
+  "pesquisa": "Pesquisa de Serviços de Tecnologia da Informação",
+  "assunto": "Tecnologia da Informação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 460,
+      "nome": "Número de empresas de tecnologia da informação com 20 ou mais pessoas ocupadas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000460,
+      "nome": "Número de empresas de tecnologia da informação com 20 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 455,
+      "nome": "Valor da receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000455,
+      "nome": "Valor da receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 457,
+      "nome": "Percentual parcial da receita bruta de serviços e subvenções das empresas de tecnologia da informação com 20 ou mais pessoas ocupadas",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 362,
+      "nome": "Produtos e/ou serviços prestados em tecnologia da informação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          457
+        ]
+      },
+      "categorias": [
+        {
+          "id": 9711,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9030,
+          "nome": "1.Software customizável (personalizável) - desenvolvimento, representação e licenciamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9031,
+          "nome": "1.1Desenvolvimento e licenciamento de uso de software próprio, desenvolvido no país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9032,
+          "nome": "1.2Representação e/ou licenciamento de uso de software desenvolvido por terceiros, no país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9033,
+          "nome": "1.3Representação e/ou licenciamento de uso de software desenvolvido por terceiros, no exterior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9034,
+          "nome": "2.Software não customizável (não personalizável) - desenvolvimento, representação e licenciamento (exclusive software embarcado)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9035,
+          "nome": "2.1Desenvolvimento e licenciamento de uso de software próprio, desenvolvido no país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9036,
+          "nome": "2.2Representação e/ou licenciamento de uso de software desenvolvido por terceiros, no país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9037,
+          "nome": "2.3Representação e/ou licenciamento de uso de software desenvolvido por terceiros, no exterior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9038,
+          "nome": "3.Software sob encomenda - projeto e desenvolvimento integral ou parcial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9039,
+          "nome": "4.Software embarcado - desenvolvimento e representação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9040,
+          "nome": "4.1Desenvolvimento próprio de software embarcado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9041,
+          "nome": "4.2Representação de software embarcado desenvolvido por terceiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9042,
+          "nome": "5.Redes e integração em tecnologia da informação - projeto e/ou desenvolvimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9043,
+          "nome": "6.Consultoria técnica e auditoria em tecnologia da informação (exclusive projetos)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9044,
+          "nome": "6.1Consultoria em sistemas e processos em tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9045,
+          "nome": "6.2Consultoria em segurança de sistemas de informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9046,
+          "nome": "6.3Auditoria, certificação e homologação em tecnologia da informação (incluindo testes)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9047,
+          "nome": "6.4Outros serviços de consultoria em tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9048,
+          "nome": "7.Suporte técnico em tecnologia da informação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9049,
+          "nome": "7.1Suporte e manutenção de software",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9050,
+          "nome": "7.2Outros serviços de suporte técnico em tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9051,
+          "nome": "8.Gestão de serviços de tecnologia da informação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9052,
+          "nome": "9.Tratamento de dados, infraestrutura para hospedagem em tecnologia da informação e outros serviços de informação na internet",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9053,
+          "nome": "9.1Tratamento de dados (a partir de dados fornecidos pelo cliente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9054,
+          "nome": "9.1.1Processamento de dados (inclusive entrada de dados e gestão de banco de dados de terceiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9055,
+          "nome": "9.1.2Outros serviços de tratamento de dados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9056,
+          "nome": "9.2Serviços de infraestrutura para hospedagem em tecnologia da informação e outros serviços de informação na internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9057,
+          "nome": "9.2.1Hospedagem de sites (web hosting); hospedagem de aplicações ou serviços de transferência contínua de som e imagem através da internet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9058,
+          "nome": "9.2.2Portais/provedores de conteúdo e outros serviços de informação na internet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9059,
+          "nome": "10.Outros serviços em tecnologia da informação não especificados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9000,
+          "nome": "11.Outros serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9001,
+          "nome": "11.1Serviços de manutenção e reparação de computadores, periféricos e equipamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9002,
+          "nome": "11,2Provedores de acesso à rede de comunicação (internet), provedores de voz sobre protocolo IP - VOIP",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9003,
+          "nome": "11.3Cursos de treinamento e capacitação em tecnologia da informação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9004,
+          "nome": "11.4Outros serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

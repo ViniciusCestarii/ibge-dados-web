@@ -1,0 +1,150 @@
+{
+  "id": 318,
+  "nome": "Área dos estabelecimentos por utilização das terras e condição do produtor em relação às terras",
+  "URL": "https://sidra.ibge.gov.br/tabela/318",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 222,
+      "nome": "Utilização das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4812,
+          "nome": "Lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4813,
+          "nome": "Lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4814,
+          "nome": "Lavouras temporárias em descanso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4815,
+          "nome": "Pastagens naturais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4816,
+          "nome": "Pastagens plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4817,
+          "nome": "Matas e florestas naturais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4818,
+          "nome": "Matas e florestas artificiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4819,
+          "nome": "Terras produtivas não utilizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4820,
+          "nome": "Terras inaproveitáveis",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

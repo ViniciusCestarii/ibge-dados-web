@@ -1,0 +1,426 @@
+{
+  "id": 5880,
+  "nome": "Municípios por cor ou raça, nível de instrução e partido político do prefeito, de acordo com as classes de tamanho da população, Grandes Regiões e Unidades da Federação",
+  "URL": "https://sidra.ibge.gov.br/tabela/5880",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1419,
+      "nome": "Cor ou raça do prefeito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57029,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57030,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57031,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57032,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57679,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57680,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12451,
+      "nome": "Nível de instrução do prefeito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110144,
+          "nome": "Fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110145,
+          "nome": "Fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110146,
+          "nome": "Médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110147,
+          "nome": "Médio completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110148,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110149,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57681,
+          "nome": "Especialização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58221,
+          "nome": "Mestrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58222,
+          "nome": "Doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12447,
+      "nome": "Partido político do prefeito",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58223,
+          "nome": "REPUBLICANOS",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110106,
+          "nome": "PP",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110107,
+          "nome": "PDT",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110108,
+          "nome": "PT",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110109,
+          "nome": "PTB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58232,
+          "nome": "MDB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58233,
+          "nome": "REDE",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58234,
+          "nome": "PODE",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110111,
+          "nome": "PSTU",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58235,
+          "nome": "CIDADANIA",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110112,
+          "nome": "PSL",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58236,
+          "nome": "DEM",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58237,
+          "nome": "DC",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58238,
+          "nome": "NOVO",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110114,
+          "nome": "PSC",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58239,
+          "nome": "PMB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58240,
+          "nome": "SOLIDARIEDADE",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110115,
+          "nome": "PCB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58241,
+          "nome": "PSOL",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58242,
+          "nome": "PATRIOTA",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58243,
+          "nome": "PSD",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58263,
+          "nome": "AVANTE",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110116,
+          "nome": "PL",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58264,
+          "nome": "UP",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58265,
+          "nome": "PROS",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110121,
+          "nome": "PRTB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110122,
+          "nome": "PCO",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110124,
+          "nome": "PMN",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110125,
+          "nome": "PTC",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110126,
+          "nome": "PSB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110127,
+          "nome": "PV",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110129,
+          "nome": "PSDB",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110131,
+          "nome": "PC do B",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110133,
+          "nome": "Sem partido",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59777,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

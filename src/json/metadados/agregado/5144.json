@@ -1,0 +1,104 @@
+{
+  "id": 5144,
+  "nome": "Domicílios particulares permanentes, total e percentual, por existência de utilização da Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5144",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 2225,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5949,
+      "nome": "Percentual de domicílios particulares permanentes, distribuído pela existência de utilização da Internet no domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5951,
+      "nome": "Coeficiente de variação - Percentual de domicílios particulares permanentes, distribuído pela existência de utilização da Internet no domicílio",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 688,
+      "nome": "Existência de utilização da Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33298,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33299,
+          "nome": "Havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33300,
+          "nome": "Não havia",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

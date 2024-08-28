@@ -1,0 +1,359 @@
+{
+  "id": 2685,
+  "nome": "Óbitos, ocorridos no ano, por estado civil, natureza do óbito, sexo, idade, local de ocorrência e lugar do registro",
+  "URL": "https://sidra.ibge.gov.br/tabela/2685",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Óbitos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 343,
+      "nome": "Número de óbitos ocorridos no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000343,
+      "nome": "Número de óbitos ocorridos no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 9832,
+      "nome": "Estado civil",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99197,
+          "nome": "Casado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99217,
+          "nome": "Separado judicialmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78092,
+          "nome": "Desquitado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78093,
+          "nome": "Divorciado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78094,
+          "nome": "Viúvo(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 78090,
+          "nome": "Solteiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99195,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1836,
+      "nome": "Natureza do óbito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 26877,
+          "nome": "Natural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99818,
+          "nome": "Não natural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 26881,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 26882,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104539,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "nome": "Idade do(a) falecido(a)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106180,
+          "nome": "Menos de 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5966,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5967,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5968,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5969,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5970,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5971,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5972,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5973,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5974,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5975,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5976,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5977,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5978,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5979,
+          "nome": "80 a 84 anos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 106181,
+          "nome": "85 a 89 anos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 106182,
+          "nome": "90 a 94 anos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 106183,
+          "nome": "95 a 99 anos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5996,
+          "nome": "100 anos ou mais",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5997,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "nome": "Local de ocorrência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5832,
+          "nome": "Hospital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5833,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107166,
+          "nome": "Via pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100296,
+          "nome": "Outro local",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100297,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

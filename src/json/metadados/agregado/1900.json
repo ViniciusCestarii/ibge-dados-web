@@ -1,0 +1,172 @@
+{
+  "id": 1900,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com mais de um trabalho, por posição na ocupação nos trabalhos principal e secundário",
+  "URL": "https://sidra.ibge.gov.br/tabela/1900",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 781,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com mais de um trabalho",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000781,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com mais de um trabalho - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99164,
+          "nome": "Empregado - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99165,
+          "nome": "Empregado - militar e funcionário público estatutário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99166,
+          "nome": "Empregado - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99167,
+          "nome": "Empregado - sem declaração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99168,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99169,
+          "nome": "Conta própria e empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99170,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99172,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12037,
+      "nome": "Posição na ocupação no trabalho secundário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99321,
+          "nome": "Empregados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99313,
+          "nome": "Empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99314,
+          "nome": "Empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99315,
+          "nome": "Empregados - outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99316,
+          "nome": "Empregados - sem declaração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99317,
+          "nome": "Trabalhadores domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99318,
+          "nome": "Conta própria e empregadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99319,
+          "nome": "Não remunerados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99320,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

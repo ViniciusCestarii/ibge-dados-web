@@ -1,0 +1,506 @@
+{
+  "id": 9591,
+  "nome": "Número de microempreendedores individuais (MEIs) e média de idade, por sexo, faixas de idade, nacionalidade/país de origem, cor ou raça, nível de instrução e presença no CADÚnico",
+  "URL": "https://sidra.ibge.gov.br/tabela/9591",
+  "pesquisa": "Estatísticas dos Cadastros de Microempreendedores Individuais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8862,
+      "nome": "Número de microempreendedores individuais (MEIs)",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1008862,
+      "nome": "Número de microempreendedores individuais (MEIs) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8867,
+      "nome": "Média de idade dos microempreendedores individuais (MEIs)",
+      "unidade": "Anos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "nome": "Faixas de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46571,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60077,
+          "nome": "Até 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102778,
+          "nome": "De 30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102779,
+          "nome": "De 40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102780,
+          "nome": "De 50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1727,
+      "nome": "Nacionalidade/país de origem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60103,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60104,
+          "nome": "Brasileira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60105,
+          "nome": "Estrangeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60106,
+          "nome": "Argentina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60107,
+          "nome": "Bolívia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60108,
+          "nome": "Chile",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60109,
+          "nome": "Paraguai",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60110,
+          "nome": "Uruguai",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60111,
+          "nome": "Venezuela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60112,
+          "nome": "Colômbia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60113,
+          "nome": "Peru",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60114,
+          "nome": "Equador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60115,
+          "nome": "Alemanha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60116,
+          "nome": "Bélgica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60117,
+          "nome": "Inglaterra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60118,
+          "nome": "Canadá",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60119,
+          "nome": "Espanha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60120,
+          "nome": "Estados Unidos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60121,
+          "nome": "França",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60122,
+          "nome": "Suíça",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60123,
+          "nome": "Itália",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60124,
+          "nome": "Haiti",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60125,
+          "nome": "Japão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60126,
+          "nome": "China",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60127,
+          "nome": "Coréia do Norte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 71445,
+          "nome": "Coréia do Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60128,
+          "nome": "Rússia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60129,
+          "nome": "Portugal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60130,
+          "nome": "Paquistão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60131,
+          "nome": "Índia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60132,
+          "nome": "Outros América Latina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60133,
+          "nome": "Outros Ásia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60134,
+          "nome": "Bangladesh",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60135,
+          "nome": "Outros Europa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60136,
+          "nome": "Angola",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60137,
+          "nome": "Congo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60138,
+          "nome": "África do Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60139,
+          "nome": "República de Gana",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60140,
+          "nome": "Senegal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60141,
+          "nome": "Outros África",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60142,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120633,
+          "nome": "Não informada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60143,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60080,
+          "nome": "Sem ensino superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60081,
+          "nome": "Analfabetos e fundamental incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60082,
+          "nome": "Ensino superior ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60144,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1879,
+      "nome": "Presença no CADÚnico",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72516,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72517,
+          "nome": "Presente no CadÚnico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72526,
+          "nome": "No Programa Bolsa Família",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

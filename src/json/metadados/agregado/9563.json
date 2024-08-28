@@ -1,0 +1,65 @@
+{
+  "id": 9563,
+  "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal, por realização de teletrabalho - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9563",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Teletrabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5932,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5940,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1676,
+      "nome": "Realização de teletrabalho",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59809,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59810,
+          "nome": "Realizou teletrabalho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59811,
+          "nome": "Não realizou teletrabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

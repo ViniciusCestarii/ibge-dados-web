@@ -1,0 +1,135 @@
+{
+  "id": 5002,
+  "nome": "Pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, por cor ou raça e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5002",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5308,
+      "nome": "Pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5309,
+      "nome": "Pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5310,
+      "nome": "Pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5311,
+      "nome": "Coeficiente de variação - Pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5312,
+      "nome": "Percentual de pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, em relação as que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5313,
+      "nome": "Percentual de pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, em relação as que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5314,
+      "nome": "Percentual de pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, em relação as que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5315,
+      "nome": "Coeficiente de variação - Percentual de pessoas que avaliaram o principal plano de saúde (médico ou odontológico) como bom ou muito bom, em relação as que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

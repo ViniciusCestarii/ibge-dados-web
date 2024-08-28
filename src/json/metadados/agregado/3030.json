@@ -1,0 +1,94 @@
+{
+  "id": 3030,
+  "nome": "População residente em domicílios particulares com insegurança alimentar moderada ou grave, por anos de estudo da pessoa de referência do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3030",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1652,
+      "nome": "População residente em domicílios particulares com insegurança alimentar moderada ou grave",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001652,
+      "nome": "População residente em domicílios particulares com insegurança alimentar moderada ou grave - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12408,
+      "nome": "Anos de estudo da pessoa de referência do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109128,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109129,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109130,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109131,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109132,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109133,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109134,
+          "nome": "Não determinados ou sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

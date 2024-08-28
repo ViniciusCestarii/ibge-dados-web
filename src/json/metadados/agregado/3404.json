@@ -1,0 +1,343 @@
+{
+  "id": 3404,
+  "nome": "Número de aquisições e Distribuição do número de aquisições, por locais de compra e grupos e tipos de despesa - agregação 3",
+  "URL": "https://sidra.ibge.gov.br/tabela/3404",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 301,
+      "nome": "Número de aquisições",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000301,
+      "nome": "Número de aquisições - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 313,
+      "nome": "Grupos e tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7035,
+          "nome": "Fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12761,
+          "nome": "Educação, leitura e papelaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12762,
+          "nome": "Educação, leitura e papelaria - cursos e atividades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12763,
+          "nome": "Educação, leitura e papelaria - livros, periódicos e revistas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12764,
+          "nome": "Educação, leitura e papelaria - artigos escolares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12765,
+          "nome": "Educação, leitura e papelaria - outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12766,
+          "nome": "Recreação e cultura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12767,
+          "nome": "Recreação e cultura - brinquedos e jogos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12768,
+          "nome": "Recreação e cultura - cartão de celular",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12769,
+          "nome": "Recreação e cultura - aparelho celular e acessórios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12770,
+          "nome": "Recreação e cultura - recreação e esportes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12771,
+          "nome": "Recreação e cultura - outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12772,
+          "nome": "Assistência à saúde",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12773,
+          "nome": "Assistência à saúde - remédios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12774,
+          "nome": "Assistência à saúde - material de tratamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12775,
+          "nome": "Assistência à saúde - outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12776,
+          "nome": "Higiene e cuidados pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12777,
+          "nome": "Higiene e cuidados pessoais - perfume",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12778,
+          "nome": "Higiene e cuidados pessoais - produtos para cabelo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12779,
+          "nome": "Higiene e cuidados pessoais - sabonete",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12780,
+          "nome": "Higiene e cuidados pessoais - outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12781,
+          "nome": "Vestuários, armarinho e outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12782,
+          "nome": "Vestuários, armarinho e outros - roupa de homem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12783,
+          "nome": "Vestuários, armarinho e outros - roupa de mulher",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12784,
+          "nome": "Vestuários, armarinho e outros - roupa de criança",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12785,
+          "nome": "Vestuários, armarinho e outros - calçados e apetrechos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12786,
+          "nome": "Vestuários, armarinho e outros - jóias e bijuterias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12791,
+          "nome": "Vestuários, armarinho e outros - tecidos, armarinho e outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12792,
+          "nome": "Veículo: aquisição, manutenção e acessórios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12793,
+          "nome": "Veículo: aquisição, manutenção e acessórios - automóvel de passeio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12794,
+          "nome": "Veículo: aquisição, manutenção e acessórios - bicicleta",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12795,
+          "nome": "Veículo: aquisição, manutenção e acessórios - outros veículos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12796,
+          "nome": "Veículo: aquisição, manutenção e acessórios - manutenção e acessórios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12797,
+          "nome": "Despesas diversas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12798,
+          "nome": "Despesas diversas - animais domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12799,
+          "nome": "Despesas diversas - artigos de limpeza",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12800,
+          "nome": "Despesas diversas - outros",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "nome": "Locais de compra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6231,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6987,
+          "nome": "Loja de roupas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6992,
+          "nome": "Farmácia, drogaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6995,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6998,
+          "nome": "Supermercado e hipermercado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6989,
+          "nome": "Sapataria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12698,
+          "nome": "Ambulante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12702,
+          "nome": "Papelaria, livraria e banca de jornais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3580,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6993,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

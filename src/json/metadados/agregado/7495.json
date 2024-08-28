@@ -1,0 +1,60 @@
+{
+  "id": 7495,
+  "nome": "Número de economias ativas esgotadas residenciais com subsídios, por tipo de subsídios",
+  "URL": "https://sidra.ibge.gov.br/tabela/7495",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10707,
+      "nome": "Número de economias ativas esgotadas residenciais com subsídios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 934,
+      "nome": "Tipo de subsídio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48440,
+          "nome": "Isenção de cobrança da tarifa/taxa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48441,
+          "nome": "Tarifa/Taxa com desconto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48442,
+          "nome": "Isenção de cobrança ou cobrança com desconto para conexão à rede",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

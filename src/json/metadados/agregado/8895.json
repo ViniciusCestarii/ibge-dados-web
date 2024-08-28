@@ -1,0 +1,83 @@
+{
+  "id": 8895,
+  "nome": "Crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses, por principal motivo da nota atribuída ao serviço de saúde pela pessoa responsável pelos cuidados de saúde da criança",
+  "URL": "https://sidra.ibge.gov.br/tabela/8895",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Atenção primária à saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12615,
+      "nome": "Crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12616,
+      "nome": "Coeficiente de variação - Crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12617,
+      "nome": "Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12618,
+      "nome": "Coeficiente de variação - Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1472,
+      "nome": "Principal motivo da nota atribuída ao serviço de saúde pela pessoa responsável pelos cuidados de saúde da criança",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58183,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58186,
+          "nome": "A forma como a pessoa responsável ou a criança foram recebidas na Unidade de Saúde (acolhimento)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58187,
+          "nome": "A rapidez ou a demora no atendimento da criança (velocidade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58188,
+          "nome": "A atuação dos profissionais da unidade de saúde na resolução do problema (equipe)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

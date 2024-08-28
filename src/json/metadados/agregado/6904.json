@@ -1,0 +1,93 @@
+{
+  "id": 6904,
+  "nome": "Índice de Preços ao Produtor, por tipo de índice e grandes categorias econômicas (dezembro de 2018 = 100)",
+  "URL": "https://sidra.ibge.gov.br/tabela/6904",
+  "pesquisa": "Índice de Preços ao Produtor",
+  "assunto": "Índice de Preços ao Produtor",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 201312,
+    "fim": 202406
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1396,
+      "nome": "IPP - Variação mês/mês imediatamente anterior (M/M-1)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1395,
+      "nome": "IPP - Variação acumulada no ano (em relação a dezembro do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1394,
+      "nome": "IPP - Variação mês/mesmo mês do ano anterior (M/M-12)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10008,
+      "nome": "IPP - Número-índice (dezembro de 2018 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 543,
+      "nome": "Grandes categorias econômicas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33586,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33583,
+          "nome": "Bens de capital (BK)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33585,
+          "nome": "Bens intermediários (BI)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33584,
+          "nome": "Bens de consumo (BC)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33580,
+          "nome": "Bens de consumo duráveis (BCD)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33579,
+          "nome": "Bens de consumo semiduráveis e não duráveis (BCND)",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": 4033,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência, por sexo e posição na ocupação no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4033",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4009,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004009,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência e que procuraram trabalho na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99163,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99164,
+          "nome": "Empregado - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99165,
+          "nome": "Empregado - militar e funcionário público estatutário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99166,
+          "nome": "Empregado - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99168,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99169,
+          "nome": "Conta própria e empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99171,
+          "nome": "Trabalhador na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99170,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

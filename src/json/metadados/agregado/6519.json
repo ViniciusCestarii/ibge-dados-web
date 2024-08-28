@@ -1,0 +1,78 @@
+{
+  "id": 6519,
+  "nome": "Número de estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas, por localização",
+  "URL": "https://sidra.ibge.gov.br/tabela/6519",
+  "pesquisa": "Pesquisa de Serviços de Hospedagem",
+  "assunto": "Hospedagem",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9297,
+      "nome": "Número de estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009297,
+      "nome": "Número de estabelecimentos de hospedagem com 5 ou mais pessoas ocupadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 795,
+      "nome": "Localização do estabelecimento de hospedagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40483,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40484,
+          "nome": "Zona urbana/centro da cidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40485,
+          "nome": "Zona urbana/fora do centro da cidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40486,
+          "nome": "Orla marítima/praia/ilha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40487,
+          "nome": "Zona rural/reserva ambiental/parque ecológico",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

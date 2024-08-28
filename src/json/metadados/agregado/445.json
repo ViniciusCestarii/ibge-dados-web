@@ -1,0 +1,148 @@
+{
+  "id": 445,
+  "nome": "Pessoas moradoras com 15 anos ou mais por classes de recebimento mensal familiar e número de cartões de crédito",
+  "URL": "https://sidra.ibge.gov.br/tabela/445",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 165,
+      "nome": "Pessoas moradoras com 15 anos ou mais de idade",
+      "unidade": "Habitantes",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 201,
+      "nome": "Classes de recebimento mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3497,
+          "nome": "Até 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3498,
+          "nome": "Mais de 2 a 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3499,
+          "nome": "Mais de 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3500,
+          "nome": "Mais de 5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3501,
+          "nome": "Mais de 6 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3502,
+          "nome": "Mais de 8 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3503,
+          "nome": "Mais de 10 a 15",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3504,
+          "nome": "Mais de 15 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3505,
+          "nome": "Mais de 20 a 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3506,
+          "nome": "Mais de 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6547,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "nome": "Número de cartões de crédito",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3489,
+          "nome": "1 cartão de crédito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3490,
+          "nome": "2 cartões de crédito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3491,
+          "nome": "3 ou mais cartões de crédito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3492,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

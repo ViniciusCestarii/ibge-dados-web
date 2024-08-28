@@ -1,0 +1,85 @@
+{
+  "id": 4015,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por classes de predominância dos lotes de tamanho e forma regular",
+  "URL": "https://sidra.ibge.gov.br/tabela/4015",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 586,
+      "nome": "Classes de predominância dos lotes de tamanho e forma regular",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31368,
+          "nome": "Em todo o setor (95% ou mais)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31369,
+          "nome": "Na maior parte do setor (entre 60% e 94,99%)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31370,
+          "nome": "Em metade do setor (entre 40% e 59,99%)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31371,
+          "nome": "Na menor parte do setor (entre 5% e 39,99%)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31372,
+          "nome": "Em nenhuma parte do setor (menos de 5%)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

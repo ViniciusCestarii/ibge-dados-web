@@ -1,0 +1,92 @@
+{
+  "id": 1795,
+  "nome": "Número de distritos abastecidos cujas entidades prestadoras de serviço de abastecimento de água adicionam fluor na água, total e os que sofreram interrupção da fluoretação, por existência e tempo de interrupção da fluoretação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1795",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 736,
+      "nome": "Número de distritos abastecidos que adicionam fluor na água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000736,
+      "nome": "Número de distritos abastecidos que adicionam fluor na água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11993,
+      "nome": "Existência e tempo de interrupção da fluoretação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98618,
+          "nome": "Total de distritos abastecidos que adicionam fluor na água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98457,
+          "nome": "Total de distritos com existência de interrupção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98458,
+          "nome": "Menos de 30 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98459,
+          "nome": "De 30 a 90 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98460,
+          "nome": "Mais de 90 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98461,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98462,
+          "nome": "Não houve interrupção",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

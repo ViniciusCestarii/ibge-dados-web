@@ -1,0 +1,170 @@
+{
+  "id": 4058,
+  "nome": "Empregados de 15 anos ou mais de idade, em atividade não agrícola, no setor privado, no trabalho principal da semana de referência, por número de pessoas ocupadas no trabalho principal, sexo e local de estabelecimento do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4058",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4002,
+      "nome": "Empregados de 15 anos ou mais de idade, em atividade não agrícola, no setor privado, no trabalho principal da semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004002,
+      "nome": "Empregados de 15 anos ou mais de idade, em atividade não agrícola, no setor privado, no trabalho principal da semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12048,
+      "nome": "Número de pessoas ocupadas no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99492,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99493,
+          "nome": "3 a 5 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99494,
+          "nome": "06 a 10 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99495,
+          "nome": "11 pessoas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12041,
+      "nome": "Local de estabelecimento do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99359,
+          "nome": "Loja, oficina, fábrica, escola, escritório, repartição pública, galpão, etc",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99360,
+          "nome": "Fazenda, sítio, chácara, granja, etc",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99361,
+          "nome": "No domicílio em que moravam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99362,
+          "nome": "Em domicílio de empregador, patrão, sócio ou freguês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99363,
+          "nome": "Em local designado pelo cliente, empregador ou freguês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99364,
+          "nome": "Em veículo automotor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99365,
+          "nome": "Em via ou área pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99366,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

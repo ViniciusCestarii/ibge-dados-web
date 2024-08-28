@@ -1,0 +1,104 @@
+{
+  "id": 6006,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que fumaram nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram cigarro",
+  "URL": "https://sidra.ibge.gov.br/tabela/6006",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de cigarro",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 6914,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que fumaram nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram cigarro",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6915,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que fumaram nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram cigarro, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6916,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que fumaram nos 30 dias anteriores à pesquisa, distribuído pelo modo como conseguiram cigarro, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 776,
+      "nome": "Modo como o escolar conseguiu cigarro nos 30 dias anteriores à pesquisa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39982,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39990,
+          "nome": "Comprou em uma loja ou botequim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39991,
+          "nome": "Comprou de um vendedor de rua",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39999,
+          "nome": "Deu dinheiro para alguém comprar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40000,
+          "nome": "Pediu a alguém",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40008,
+          "nome": "Pegou escondido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40009,
+          "nome": "Conseguiu com uma pessoa mais velha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40017,
+          "nome": "Conseguiu de outro modo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

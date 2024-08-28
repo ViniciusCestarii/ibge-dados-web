@@ -1,0 +1,82 @@
+{
+  "id": 5239,
+  "nome": "Moradores em domicílios particulares permanentes com utilização da Internet, total e distribuição, por tipo banda larga",
+  "URL": "https://sidra.ibge.gov.br/tabela/5239",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5519,
+      "nome": "Moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5689,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5515,
+      "nome": "Distribuição dos moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5685,
+      "nome": "Coeficiente de variação - Distribuição dos moradores em domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 691,
+      "nome": "Tipo de conexão à Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33329,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33327,
+          "nome": "Banda larga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33342,
+          "nome": "Somente banda larga",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

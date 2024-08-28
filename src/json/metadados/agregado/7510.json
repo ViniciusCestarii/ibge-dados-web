@@ -1,0 +1,72 @@
+{
+  "id": 7510,
+  "nome": "Número de ligações esgotadas ativas, número de economias esgotadas ativas e volume de esgoto coletado e faturado por dia, por tipos de ligações ou economias",
+  "URL": "https://sidra.ibge.gov.br/tabela/7510",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10748,
+      "nome": "Número de ligações ativas esgotadas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 446,
+      "nome": "Número de economias ativas esgotadas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 768,
+      "nome": "Volume de esgoto coletado por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    },
+    {
+      "id": 10751,
+      "nome": "Volume de esgoto faturado por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 988,
+      "nome": "Tipos de ligações ou economias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48981,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48982,
+          "nome": "Residencial",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

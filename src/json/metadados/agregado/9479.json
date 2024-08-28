@@ -1,0 +1,267 @@
+{
+  "id": 9479,
+  "nome": "Municípios, total, e com programas e ações na área de saúde para grupos populacionais específicos e com referenciamento de pacientes da Atenção Básica, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9479",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1613,
+      "nome": "Existência de programas ou ações na área de saúde voltados para grupos populacionais específicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59504,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59505,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59506,
+          "nome": "Para população negra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59507,
+          "nome": "População em situação de rua",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59508,
+          "nome": "Povos indígenas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59509,
+          "nome": "Comunidades quilombolas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59510,
+          "nome": "Outras comunidades e povos tradicionais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59511,
+          "nome": "Nenhum programa ou ação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1614,
+      "nome": "Referenciamento para outro município para realização de exames de pacientes da Atenção Básica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59512,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59513,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59514,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59515,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1615,
+      "nome": "Referenciamento para outro município internações de pacientes da Atenção Básica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59516,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59517,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59518,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59519,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1616,
+      "nome": "Encaminhamento de pacientes referenciados pela Atenção Básica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59520,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59521,
+          "nome": "Atenção Básica não possui fluxo de referência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59522,
+          "nome": "Na equipe de Saúde da Família responsável pelo paciente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59523,
+          "nome": "Em setor específico na Unidade Básica de Saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59524,
+          "nome": "Setor específico do órgão gestor municipal da saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59525,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59526,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

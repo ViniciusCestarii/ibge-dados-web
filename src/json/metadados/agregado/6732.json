@@ -1,0 +1,138 @@
+{
+  "id": 6732,
+  "nome": "Domicílios e Moradores com rede geral de distribuição de água como principal forma de abastecimento, por situação do domicílio e disponibilidade da rede geral",
+  "URL": "https://sidra.ibge.gov.br/tabela/6732",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9974,
+      "nome": "Domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 9975,
+      "nome": "Coeficiente de variação - Domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9976,
+      "nome": "Distribuição percentual dos domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9977,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10119,
+      "nome": "Moradores em domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10120,
+      "nome": "Coeficiente de variação - Moradores em domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10121,
+      "nome": "Distribuição percentual dos moradores em domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10122,
+      "nome": "Coeficiente de variação - Distribuição percentual de moradores em domicílios com rede geral de distribuição de água como principal forma de abastecimento de água",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 826,
+      "nome": "Disponibilidade da rede geral de distribuição de água",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47935,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46293,
+          "nome": "Diária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46294,
+          "nome": "De 4 a 6 dias na semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46295,
+          "nome": "De 1 a 3 dias na semana",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

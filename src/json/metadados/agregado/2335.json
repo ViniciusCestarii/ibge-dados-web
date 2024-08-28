@@ -1,0 +1,107 @@
+{
+  "id": 2335,
+  "nome": "Número de municípios que coletam e/ou recebem resíduos sólidos de serviços de saúde sépticos, por existência e tipo de processamento dos resíduos sólidos de serviços de saúde sépticos",
+  "URL": "https://sidra.ibge.gov.br/tabela/2335",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1218,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos de serviços de saúde sépticos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001218,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos de serviços de saúde sépticos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12201,
+      "nome": "Existência e tipo de processamento dos resíduos sólidos de serviços de saúde sépticos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103725,
+          "nome": "Total de municípios que coletam e/ou recebem resíduos sólidos de serviços de saúde sépticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8217,
+          "nome": "Total de municípios com processamento dos resíduos sólidos dos serviços de saúde sépticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103726,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103729,
+          "nome": "Queima em forno simples",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103727,
+          "nome": "Queima a céu aberto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103730,
+          "nome": "Tratamento em autoclave",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103728,
+          "nome": "Tratamento por microondas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103731,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103732,
+          "nome": "Não existe processamento dos resíduos sólidos de serviços de saúde sépticos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

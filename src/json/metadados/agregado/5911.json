@@ -1,0 +1,97 @@
+{
+  "id": 5911,
+  "nome": "Estimativas das emissões de Gases Efeito Estufa (GEE) de origem antrópica, por setores de emissão e tipo de gás",
+  "URL": "https://sidra.ibge.gov.br/tabela/5911",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Emissões de origem antrópica dos gases associados ao efeito estufa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1990,
+    "fim": 2014
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2394,
+      "nome": "Emissões de gases de efeito estufa de origem antrópica",
+      "unidade": "Gigagramas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12898,
+      "nome": "Setores de emissão de gases",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119121,
+          "nome": "Produção de energia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119122,
+          "nome": "Processos industriais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119124,
+          "nome": "Agropecuária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119125,
+          "nome": "Uso da terra, mudança do uso da terra e florestas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119126,
+          "nome": "Tratamento de resíduos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12897,
+      "nome": "Tipo de gás",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119110,
+          "nome": "CO2 - dióxido de carbono",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119111,
+          "nome": "CH4 - metano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119112,
+          "nome": "N2O - óxido nitroso",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": 8533,
+  "nome": "Municípios com necessidade de internação de pessoas que contraíram COVID-19, total e com existência de internações acima da capacidade de leitos e de UTI públicos ou privados conveniados ao SUS e com necessidade de ampliação do número de leitos para atender à demanda por internação no município em virtude da COVID-19, por classe de tamanho da população do município,",
+  "URL": "https://sidra.ibge.gov.br/tabela/8533",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12447,
+      "nome": "Municípios com necessidade de internação de pessoas que contraíram COVID-19",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1349,
+      "nome": "Ocorrência de internações acima da capacidade de leitos e de UTI públicos ou privados conveniados ao SUS",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57296,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57297,
+          "nome": "Com internações acima da capacidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57298,
+          "nome": "Sem internações acima da capacidade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57299,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1256,
+      "nome": "Necessidade de ampliação do número de leitos para atender à demanda por internação no município em virtude da COVID-19",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 51484,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 51485,
+          "nome": "Com número de leitos ampliado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 51486,
+          "nome": "Por meio de ampliação de estrutura própria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51487,
+          "nome": "Por meio de pactuação com outro município",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51488,
+          "nome": "Por meio de pactuação com o estado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51489,
+          "nome": "Pactuação com o governo federal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51490,
+          "nome": "Contratação de leitos privados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51491,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 51492,
+          "nome": "Sem número de leitos ampliado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57300,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1668,
+      "nome": "Necessidade de referenciar o(s) paciente(s) para outro município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59687,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59688,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59689,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

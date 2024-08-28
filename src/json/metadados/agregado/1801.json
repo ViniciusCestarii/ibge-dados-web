@@ -1,0 +1,74 @@
+{
+  "id": 1801,
+  "nome": "Número de distritos com serviço de abastecimento de água, por existência de serviço de atendimento ao público",
+  "URL": "https://sidra.ibge.gov.br/tabela/1801",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 712,
+      "nome": "Número de distritos com serviço de abastecimento de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000712,
+      "nome": "Número de distritos com serviço de abastecimento de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11998,
+      "nome": "Existência de serviço de atendimento ao público",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98624,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98523,
+          "nome": "Com atendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98524,
+          "nome": "Sem atendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98525,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 7,
+  "nome": "Rendimento médio nominal, do trabalho principal, das pessoas ocupadas de 15 anos e mais por posição na ocupação (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 200211
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 11,
+      "nome": "Rendimento médio nominal, do trabalho principal, das pessoas ocupadas de 15 anos e mais",
+      "unidade": "Cruzeiros [janeiro 1991 a julho 1993], Cruzeiros Reais [agosto 1993 a junho 1994], Reais [julho 1994 a novembro 2002]",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2399,
+      "nome": "Posição na ocupação",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120448,
+          "nome": "Empregados com carteira assinada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120449,
+          "nome": "Empregados sem carteira assinada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 35426,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120450,
+          "nome": "Conta-própria",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

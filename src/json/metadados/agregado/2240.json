@@ -1,0 +1,98 @@
+{
+  "id": 2240,
+  "nome": "Número de municípios, total e os que possuem bacias de detenção ou amortecimento, por número de bacias",
+  "URL": "https://sidra.ibge.gov.br/tabela/2240",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1166,
+      "nome": "Municípios que possuem bacias de detenção ou amortecimento",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001166,
+      "nome": "Municípios que possuem bacias de detenção ou amortecimento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12131,
+      "nome": "Número de bacias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101312,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101313,
+          "nome": "Total de municípios que possuem bacias de detenção ou amortecimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101314,
+          "nome": "1 bacia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101315,
+          "nome": "2 bacias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101316,
+          "nome": "3 bacias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101317,
+          "nome": "4 bacias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101318,
+          "nome": "5 ou mais bacias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101319,
+          "nome": "Sem declaração ou não sabe",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

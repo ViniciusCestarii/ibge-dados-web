@@ -1,0 +1,118 @@
+{
+  "id": 1908,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência e com rendimento no trabalho principal e Valor do rendimento médio mensal do trabalho principal, por sexo e posição na ocupação principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1908",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 784,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com rendimento do trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000784,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com rendimento do trabalho principal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 785,
+      "nome": "Valor do rendimento médio mensal do trabalho principal das pessoas de 10 anos ou mais de idade ocupadas na semana de referência e com rendimento no trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99383,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99163,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99168,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99358,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99357,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99172,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

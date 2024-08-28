@@ -1,0 +1,98 @@
+{
+  "id": 6044,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por frequência de consumo de salgados fritos, nos 7 dias anteriores à pesquisa",
+  "URL": "https://sidra.ibge.gov.br/tabela/6044",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Alimentação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 769,
+      "nome": "Frequência de consumo de salgados fritos, nos 7 dias anteriores à pesquisa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40001,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40002,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40003,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40004,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40005,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40006,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40007,
+          "nome": "5 dias ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

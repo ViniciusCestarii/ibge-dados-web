@@ -1,0 +1,138 @@
+{
+  "id": 172,
+  "nome": "Pessoas moradoras em domicílios particulares permanentes por situação e destino do lixo",
+  "URL": "https://sidra.ibge.gov.br/tabela/172",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 237,
+      "nome": "Pessoas moradoras em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000237,
+      "nome": "Pessoas moradoras em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1085,
+          "nome": "Coletado diretamente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1086,
+          "nome": "Coletado indiretamente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2521,
+          "nome": "Jogado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": 5936,
+  "nome": "Divórcios concedidos em 1ª instância a casais com filhos menores de idade, e Número de filhos menores de idade dos casais envolvidos, por número de filhos menores de idade, responsáveis pela guarda dos filhos e lugar da ação do processo",
+  "URL": "https://sidra.ibge.gov.br/tabela/5936",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2014,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 235,
+      "nome": "Número de divórcios concedidos em 1ª instância a casais com filhos menores de idade",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000235,
+      "nome": "Número de divórcios concedidos em 1ª instância a casais com filhos menores de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6565,
+      "nome": "Número de filhos menores de idade de casais envolvidos em divórcios concedidos em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1006565,
+      "nome": "Número de filhos menores de idade de casais envolvidos em divórcios concedidos em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 737,
+      "nome": "Número de filhos menores de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39412,
+          "nome": "1 filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39413,
+          "nome": "2 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39414,
+          "nome": "3 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39415,
+          "nome": "4 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39416,
+          "nome": "5 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39417,
+          "nome": "6 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39418,
+          "nome": "7 ou mais filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39419,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "nome": "Responsável pela guarda dos filhos menores de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6116,
+          "nome": "Marido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6117,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6118,
+          "nome": "Ambos os cônjuges",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6119,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6120,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

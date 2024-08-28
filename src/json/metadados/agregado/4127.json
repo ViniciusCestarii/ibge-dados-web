@@ -1,0 +1,150 @@
+{
+  "id": 4127,
+  "nome": "Número de estabelecimentos agropecuários, por tipo de prática agrícola utilizada e classificações de médio produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/4127",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12568,
+      "nome": "Tipo de prática agrícola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113197,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112654,
+          "nome": "Plantio em nível",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112676,
+          "nome": "Uso de terraços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112677,
+          "nome": "Rotação de culturas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112694,
+          "nome": "Uso de lavouras para reforma e/ou renovação e/ou recuperação de pastagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112764,
+          "nome": "Pousio ou descanso de solos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112765,
+          "nome": "Queimadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112766,
+          "nome": "Proteção e/ou conservação de encostas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112767,
+          "nome": "Nenhuma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "nome": "Classificação de médio produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32563,
+          "nome": "Familiar, pronafiano, não classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32564,
+          "nome": "Familiar, não pronafiano, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32565,
+          "nome": "Não familiar, módulo fiscal, classificado como médio produtor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32566,
+          "nome": "Outros não classificados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

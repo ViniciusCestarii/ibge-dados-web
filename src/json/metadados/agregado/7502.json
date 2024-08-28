@@ -1,0 +1,212 @@
+{
+  "id": 7502,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs em operação, por tipos e processos de tratamento de esgoto",
+  "URL": "https://sidra.ibge.gov.br/tabela/7502",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10675,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs em operação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 348,
+      "nome": "Tipo de tratamento de esgoto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8128,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8130,
+          "nome": "Preliminar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8131,
+          "nome": "Primário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8132,
+          "nome": "Secundário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8133,
+          "nome": "Terciário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 960,
+      "nome": "Processos de tratamento biológico do esgoto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48640,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48641,
+          "nome": "Com tratamento biológico do esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48642,
+          "nome": "Filtro biológico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48643,
+          "nome": "Reator anaeróbio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48644,
+          "nome": "Valo de oxidação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48645,
+          "nome": "Lodo ativado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48646,
+          "nome": "Lagoa anaeróbia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48647,
+          "nome": "Lagoa aeróbia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48648,
+          "nome": "Lagoa facultativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48649,
+          "nome": "Lagoa de maturação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48650,
+          "nome": "Wetland (aplicação no solo, plantas aquáticas)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48651,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48652,
+          "nome": "Sem tratamento biológico de esgoto",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 961,
+      "nome": "Existência e tipo de tratamento complementar por desinfecção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48653,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48654,
+          "nome": "Com tratamento complementar por desinfecção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48655,
+          "nome": "Cloração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48656,
+          "nome": "Aplicação de raios ultravioleta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48657,
+          "nome": "Ozônio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48658,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48659,
+          "nome": "Sem tratamento complementar por desinfecção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

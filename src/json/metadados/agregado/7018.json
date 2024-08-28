@@ -1,0 +1,114 @@
+{
+  "id": 7018,
+  "nome": "Pessoas de 14 anos ou mais de idade, por sexo e realização de tarefas de cuidados de moradores do domicílio ou de parentes não moradores",
+  "URL": "https://sidra.ibge.gov.br/tabela/7018",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4087,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10218,
+      "nome": "Percentual de pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10219,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 849,
+      "nome": "Realização de tarefas de cuidados de pessoas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47587,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47588,
+          "nome": "Realizaram tarefas de cuidados de moradores do domicílio ou de parentes não moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47589,
+          "nome": "Realizaram cuidados de moradores do domicílio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47590,
+          "nome": "Não realizaram tarefas de cuidados de moradores do domicílio ou de parentes não moradores",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

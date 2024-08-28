@@ -1,0 +1,127 @@
+{
+  "id": 3969,
+  "nome": "Valor do rendimento nominal médio mensal do trabalho principal das pessoas de 14 a 17 anos de idade, ocupadas na semana de referência, com rendimento do trabalho principal e Valor do rendimento nominal mediano mensal do trabalho principal das pessoas de 14 a 17 anos de idade, ocupadas na semana de referência, com rendimento do trabalho principal, por sexo, grupos de idade e situação de ocupação na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/3969",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3942,
+      "nome": "Valor do rendimento nominal médio mensal do trabalho principal das pessoas de 14 a 17 anos de idade, ocupadas na semana de referência, com rendimento do trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 3943,
+      "nome": "Valor do rendimento nominal mediano mensal do trabalho principal das pessoas de 14 a 17 anos de idade, ocupadas na semana de referência, com rendimento do trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12085,
+      "nome": "Situação de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100543,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31305,
+          "nome": "Ocupadas - empregadas com carteira de trabalho assinada no trabalho principal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31306,
+          "nome": "Ocupadas - demais ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

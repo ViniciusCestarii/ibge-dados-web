@@ -1,0 +1,117 @@
+{
+  "id": 7206,
+  "nome": "Pessoas de 15 a 29 anos de idade, por sexo e situação de ocupação e condição de estudo (a partir de 2019)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7206",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10313,
+      "nome": "Pessoas de 15 a 29 anos de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10314,
+      "nome": "Coeficiente de variação - Pessoas de 15 a 29 anos de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10315,
+      "nome": "Distribuição percentual das pessoas de 15 a 29 anos de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10316,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 a 29 anos de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 876,
+      "nome": "Situação de ocupação e condição de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47887,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47978,
+          "nome": "Ocupadas e frequentando escola, cursos pré-vestibular, técnico de nível médio, normal (magistério) ou qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47979,
+          "nome": "Ocupadas e não frequentando escola, nem cursos pré-vestibular, técnico de nível médio, normal (magistério) ou qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47980,
+          "nome": "Não ocupadas e frequentando escola, cursos pré-vestibular, técnico de nível médio, normal (magistério) ou qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47981,
+          "nome": "Não ocupadas e não frequentando escola, nem cursos pré-vestibular, técnico de nível médio, normal (magistério) ou qualificação profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

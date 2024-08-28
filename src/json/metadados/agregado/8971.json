@@ -1,0 +1,279 @@
+{
+  "id": 8971,
+  "nome": "Número de estabelecimentos agropecuários com pessoal ocupado sem laço de parentesco com o produtor e Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor, total, permanentes, temporários e parceiros, por cor ou raça do produtor, sexo, faixas de idade, condição do produtor em relação às terras e grupos de pessoal ocupado",
+  "URL": "https://sidra.ibge.gov.br/tabela/8971",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2053,
+      "nome": "Número de estabelecimentos agropecuários com pessoal ocupado sem laço de parentesco com o produtor",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2003,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9543,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor - Permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9544,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor - Temporários",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9545,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários sem laço de parentesco com o produtor - Parceiros",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 830,
+      "nome": "Cor ou raça do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46427,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46424,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46425,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46426,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46428,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46429,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46430,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "nome": "Faixas de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46571,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4821,
+          "nome": "De 14 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11574,
+      "nome": "Grupos de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46572,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46573,
+          "nome": "De 1 a 4 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46574,
+          "nome": "De 5 a 9 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46575,
+          "nome": "De 10 a 19 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93014,
+          "nome": "De 20 a 49 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93015,
+          "nome": "De 50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93016,
+          "nome": "100 e mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

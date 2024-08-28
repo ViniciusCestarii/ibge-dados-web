@@ -1,0 +1,103 @@
+{
+  "id": 208,
+  "nome": "Domicílios por situação e espécie",
+  "URL": "https://sidra.ibge.gov.br/tabela/208",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000162,
+      "nome": "Domicílios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Espécie",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90767,
+          "nome": "Unidade de habitação em domicílio coletivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2504,
+          "nome": "Particular permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2505,
+          "nome": "Particular improvisado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

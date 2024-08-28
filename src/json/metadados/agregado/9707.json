@@ -1,0 +1,158 @@
+{
+  "id": 9707,
+  "nome": "Municípios com Fundo Municipal de Cultura, gestão do fundo e recursos destinados aos programas culturais, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/9707",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12835,
+      "nome": "Municípios com Fundo Municipal de Cultura",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1538,
+      "nome": "Gestão do Fundo Municipal de Cultura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58918,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58919,
+          "nome": "O Conselho Municipal de Cultura é o responsável pela gestão do fundo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58920,
+          "nome": "O Conselho Municipal de Cultura não é o responsável pela gestão do fundo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58921,
+          "nome": "O fundo possui um conselho gestor próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58922,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1539,
+      "nome": "Recursos orçamentários e de outras fontes destinados aos programas culturais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58923,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58924,
+          "nome": "Estão todos reunidos pelo Fundo Municipal da Cultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58925,
+          "nome": "Não estão todos reunindos pelo Fundo Municipal de Cultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

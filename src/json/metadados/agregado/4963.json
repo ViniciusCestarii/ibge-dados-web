@@ -1,0 +1,157 @@
+{
+  "id": 4963,
+  "nome": "Pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4963",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5268,
+      "nome": "Pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5269,
+      "nome": "Pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5270,
+      "nome": "Pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5271,
+      "nome": "Coeficiente de variação - Pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5272,
+      "nome": "Percentual de pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, em relação as que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5273,
+      "nome": "Percentual de pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, em relação as que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5274,
+      "nome": "Percentual de pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, em relação as que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5275,
+      "nome": "Coeficiente de variação - Percentual de pessoas que tinham algum plano de saúde (médico ou odontológico) na situação de titular do plano, em relação as que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

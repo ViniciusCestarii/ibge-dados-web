@@ -1,0 +1,71 @@
+{
+  "id": 3,
+  "nome": "População ocupada de 15 anos e mais por posição na ocupação (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 200212
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5,
+      "nome": "População ocupada de 15 anos e mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2399,
+      "nome": "Posição na ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120448,
+          "nome": "Empregados com carteira assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120449,
+          "nome": "Empregados sem carteira assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 35426,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120450,
+          "nome": "Conta-própria",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

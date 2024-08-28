@@ -1,0 +1,92 @@
+{
+  "id": 1232,
+  "nome": "Número de municípios, total e os com serviço de manejo de resíduos sólidos, por existência e forma de cobrança de serviços especiais ou eventuais",
+  "URL": "https://sidra.ibge.gov.br/tabela/1232",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2608,
+      "nome": "Municípios com serviço de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002608,
+      "nome": "Municípios com serviço de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12975,
+      "nome": "Existência e forma de cobrança dos serviços especiais ou eventuais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120998,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120999,
+          "nome": "Total de municípios com serviços de manejo de resíduos sólidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121003,
+          "nome": "Com cobrança",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121004,
+          "nome": "Cobrança por tarifa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121005,
+          "nome": "Cobrança de outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121006,
+          "nome": "Sem cobrança",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

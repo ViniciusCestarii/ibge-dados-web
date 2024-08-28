@@ -1,0 +1,92 @@
+{
+  "id": 5988,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/5988",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Informações gerais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 287,
+      "nome": "Idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100362,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31053,
+          "nome": "12 anos ou menos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6570,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6571,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6572,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4684,
+          "nome": "16 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

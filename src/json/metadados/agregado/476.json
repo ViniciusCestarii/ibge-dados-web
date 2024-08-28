@@ -1,0 +1,431 @@
+{
+  "id": 476,
+  "nome": "Pessoas de 4 anos ou mais de idade por frequência à escola, grau e série, grupos de idade e sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/476",
+  "pesquisa": "Contagem da População ",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1996,
+    "fim": 1996
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 241,
+      "nome": "Pessoas de 4 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000241,
+      "nome": "Pessoas de 4 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 290,
+      "nome": "Frequência à escola, grau e série",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6702,
+          "nome": "Frequentam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6699,
+          "nome": "Frequentam - pré-escolar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6700,
+          "nome": "Frequentam - alfabetização de adultos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6703,
+          "nome": "Frequentam - primeiro grau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6701,
+          "nome": "Frequentam - primeiro grau - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6704,
+          "nome": "Frequentam - primeiro grau - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6705,
+          "nome": "Frequentam - primeiro grau - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6706,
+          "nome": "Frequentam - primeiro grau - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6707,
+          "nome": "Frequentam - primeiro grau - quinta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6708,
+          "nome": "Frequentam - primeiro grau - sexta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6709,
+          "nome": "Frequentam - primeiro grau - sétima série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6710,
+          "nome": "Frequentam - primeiro grau - oitava série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6711,
+          "nome": "Frequentam - primeiro grau - sem declaração de série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6712,
+          "nome": "Frequentam - segundo grau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6713,
+          "nome": "Frequentam - segundo grau - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6714,
+          "nome": "Frequentam - segundo grau - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6715,
+          "nome": "Frequentam - segundo grau - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6716,
+          "nome": "Frequentam - segundo grau - sem declaração de série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6717,
+          "nome": "Frequentam - pré-vestibular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6718,
+          "nome": "Frequentam - superior",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6719,
+          "nome": "Frequentam - superior - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6720,
+          "nome": "Frequentam - superior - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6721,
+          "nome": "Frequentam - superior - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6722,
+          "nome": "Frequentam - superior - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6723,
+          "nome": "Frequentam - superior - quinta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6724,
+          "nome": "Frequentam - superior - sexta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6725,
+          "nome": "Frequentam - superior - sem declaração de série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6726,
+          "nome": "Frequentam - mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6727,
+          "nome": "Frequentam - sem declaração de grau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6732,
+          "nome": "Não frequentam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6728,
+          "nome": "Não frequentam - já frequentaram",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6729,
+          "nome": "Não frequentam - nunca frequentaram",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6730,
+          "nome": "Não frequentam - sem declaração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6731,
+          "nome": "Sem declaração de frequência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2487,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2488,
+          "nome": "5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2489,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2490,
+          "nome": "7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2491,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2492,
+          "nome": "9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2493,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2494,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2495,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2496,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2499,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2500,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2501,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2502,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2838,
+          "nome": "35 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3245,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

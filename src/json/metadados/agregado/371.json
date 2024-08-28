@@ -1,0 +1,501 @@
+{
+  "id": 371,
+  "nome": "Número de óbitos fetais ocorridos e registrados no ano por lugar de residência da mãe e duração da gestação",
+  "URL": "https://sidra.ibge.gov.br/tabela/371",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Óbitos fetais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 225,
+      "nome": "Número de óbitos fetais ocorridos e registrados no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000225,
+      "nome": "Número de óbitos fetais ocorridos e registrados no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 234,
+      "nome": "Lugar de residência da mãe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5261,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5262,
+          "nome": "Porto Velho",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5263,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5264,
+          "nome": "Rio Branco",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5265,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5266,
+          "nome": "Manaus",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5267,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5268,
+          "nome": "Boa Vista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5269,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5270,
+          "nome": "Região Metropolitana de Belém",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5271,
+          "nome": "Belém",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5272,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5273,
+          "nome": "Macapá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5274,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5275,
+          "nome": "Palmas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5276,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5277,
+          "nome": "São Luis",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5278,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5279,
+          "nome": "Teresina",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5280,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5281,
+          "nome": "Região Metropolitana de Fortaleza",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5282,
+          "nome": "Fortaleza",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5283,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 90889,
+          "nome": "Região Metropolitana de Natal",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5284,
+          "nome": "Natal",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5285,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5286,
+          "nome": "João Pessoa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5287,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5288,
+          "nome": "Região Metropolitana de Recife",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5289,
+          "nome": "Recife",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5290,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5291,
+          "nome": "Maceió",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5292,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5293,
+          "nome": "Aracaju",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5294,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5295,
+          "nome": "Região Metropolitana de Salvador",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5296,
+          "nome": "Salvador",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5297,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5298,
+          "nome": "Região Metropolitana de Belo Horizonte",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5299,
+          "nome": "Belo Horizonte",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 5300,
+          "nome": "Espírito Santo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 90888,
+          "nome": "Região Metropolitana da Grande Vitória",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5301,
+          "nome": "Vitória",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5302,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5303,
+          "nome": "Região Metropolitana do Rio de Janeiro",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5304,
+          "nome": "Rio de Janeiro (capital)",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5305,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5306,
+          "nome": "Região Metropolitana de São Paulo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5307,
+          "nome": "São Paulo (capital)",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 90890,
+          "nome": "Região Metropolitana da Baixada Santista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5308,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5309,
+          "nome": "Região Metropolitana de Curitiba",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5310,
+          "nome": "Curitiba",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5311,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5312,
+          "nome": "Florianópolis",
+          "unidade": null,
+          "nivel": 7
+        },
+        {
+          "id": 5313,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5314,
+          "nome": "Região Metropolitana de Porto Alegre",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5315,
+          "nome": "Porto Alegre",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5316,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5317,
+          "nome": "Campo Grande",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5318,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5319,
+          "nome": "Cuiabá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5320,
+          "nome": "Goiás",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5321,
+          "nome": "Goiânia",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5322,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100733,
+          "nome": "Brasília",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 5323,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5324,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "nome": "Duração da gestação em semanas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5998,
+          "nome": "Menos de 20 semanas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5999,
+          "nome": "20 a 27 semanas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6000,
+          "nome": "28 semanas ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6001,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

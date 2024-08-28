@@ -1,0 +1,64 @@
+{
+  "id": 152,
+  "nome": "Leite pasteurizado por destino do leite pasteurizado",
+  "URL": "https://sidra.ibge.gov.br/tabela/152",
+  "pesquisa": "Pesquisa Mensal do Leite",
+  "assunto": "Leite",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 31,
+      "nome": "Leite pasteurizado",
+      "unidade": "Mil litros",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000031,
+      "nome": "Leite pasteurizado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 51,
+      "nome": "Destino do leite pasteurizado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 978,
+          "nome": "Total - leite pasteurizado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 979,
+          "nome": "Vendido ao público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 980,
+          "nome": "Industrializado na empresa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

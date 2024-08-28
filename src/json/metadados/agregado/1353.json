@@ -1,0 +1,77 @@
+{
+  "id": 1353,
+  "nome": "Número de municípios, total e os com serviços de manejo de resíduos sólidos, por existência de coleta seletiva",
+  "URL": "https://sidra.ibge.gov.br/tabela/1353",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 256,
+      "nome": "Existência de coleta seletiva",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2034,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2040,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2044,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2046,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

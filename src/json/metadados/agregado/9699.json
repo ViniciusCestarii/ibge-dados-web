@@ -1,0 +1,104 @@
+{
+  "id": 9699,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão, por acesso a serviço pago de streaming de vídeo e acesso a canais abertos ou fechados de televisão",
+  "URL": "https://sidra.ibge.gov.br/tabela/9699",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4198,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4199,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1706,
+      "nome": "Acesso a serviço pago de streaming de vídeo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59921,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59922,
+          "nome": "Havia acesso a serviço pago de streaming de vídeo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59923,
+          "nome": "Não havia acesso a serviço pago de streaming de vídeo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1708,
+      "nome": "Acesso a canais de televisão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59924,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59925,
+          "nome": "Havia acesso a canais abertos ou fechados de televisão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59926,
+          "nome": "Havia acesso a canais abertos de televisão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59927,
+          "nome": "Havia acesso a canais fechados de televisão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59928,
+          "nome": "Não havia acesso a canais abertos ou fechados de televisão",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

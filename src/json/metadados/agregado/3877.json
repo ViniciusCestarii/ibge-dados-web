@@ -1,0 +1,127 @@
+{
+  "id": 3877,
+  "nome": "Número de espécies da flora ameaçadas de extinção, por grupos taxonômicos e categorias de risco",
+  "URL": "https://sidra.ibge.gov.br/tabela/3877",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Espécies extintas e ameaçadas de extinção",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2014
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2451,
+      "nome": "Número de espécies da flora ameaçadas de extinção",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12919,
+      "nome": "Grupos taxonômicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119371,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119352,
+          "nome": "Pteridófitas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119367,
+          "nome": "Briófitas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119368,
+          "nome": "Hepáticas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119353,
+          "nome": "Gymnospermas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119370,
+          "nome": "Angiospermas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119354,
+          "nome": "Angiospermas - dicotiledôneas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119355,
+          "nome": "Angiospermas - monocotiledôneas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12920,
+      "nome": "Categorias de risco",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119363,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119625,
+          "nome": "Presumivelmente extinta na natureza",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119626,
+          "nome": "Presumivelmente extinta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119627,
+          "nome": "Ameaçada de extinção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119628,
+          "nome": "Deficiência de dados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

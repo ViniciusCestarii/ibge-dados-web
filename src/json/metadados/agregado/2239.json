@@ -1,0 +1,113 @@
+{
+  "id": 2239,
+  "nome": "Número de municípios, total e os com serviço de manejo de águas pluviais, por pontos de lançamento do efluente",
+  "URL": "https://sidra.ibge.gov.br/tabela/2239",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1160,
+      "nome": "Municípios com serviços de manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001160,
+      "nome": "Municípios com serviços de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12130,
+      "nome": "Pontos de lançamento do efluente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101304,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101305,
+          "nome": "Total de municípios com serviço de manejo de águas pluviais",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101306,
+          "nome": "Cursos d'água permanentes",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101307,
+          "nome": "Cursos d'água intermitentes",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 526,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 527,
+          "nome": "Lagoas",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101308,
+          "nome": "Áreas livres públicas ou particulares",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101309,
+          "nome": "Reservatórios de acumulação ou detenção",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101310,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": -1
+        },
+        {
+          "id": 101311,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": -1
+        }
+      ]
+    }
+  ]
+}

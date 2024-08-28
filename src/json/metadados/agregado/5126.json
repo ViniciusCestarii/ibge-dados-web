@@ -1,0 +1,139 @@
+{
+  "id": 5126,
+  "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, por avaliação do estado de saúde e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5126",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5390,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5391,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5392,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5393,
+      "nome": "Coeficiente de variação - Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5394,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5395,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5396,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5397,
+      "nome": "Coeficiente de variação - Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12258,
+      "nome": "Avaliação do estado de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10011,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104864,
+          "nome": "Muito bom e bom",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104865,
+          "nome": "Regular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104866,
+          "nome": "Ruim e muito ruim",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "id": 1679,
+  "nome": "Valor da produção e Efetivos das plantações da lavoura permanente nos estabelecimentos agropecuários com até 50 pés existentes, por produtos da lavoura permanente, condição do produtor em relação às terras, destino da produção e grupos de atividade econômica - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1679",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Produção vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2391,
+      "nome": "Número de estabelecimentos agropecuários com até 50 pés existentes em 31/12",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2392,
+      "nome": "Número de pés existentes nos estabelecimentos agropecuários com até 50 pés existentes em 31/12",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002392,
+      "nome": "Número de pés existentes nos estabelecimentos agropecuários com até 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2393,
+      "nome": "Valor da produção dos estabelecimentos agropecuários com até 50 pés existentes em 31/12",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002393,
+      "nome": "Valor da produção dos estabelecimentos agropecuários com até 50 pés existentes em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 227,
+      "nome": "Produtos da lavoura permanente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          2391
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113864,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4921,
+          "nome": "Abacate",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4996,
+          "nome": "Açaí (fruto)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4922,
+          "nome": "Acerola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111644,
+          "nome": "Agave, sisal (fibra)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111645,
+          "nome": "Agave, sisal (folha)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111646,
+          "nome": "Algodão arbóreo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4926,
+          "nome": "Ameixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4927,
+          "nome": "Amora (folha)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4928,
+          "nome": "Amora (fruto)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4930,
+          "nome": "Banana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4931,
+          "nome": "Borracha (látex líquido)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4932,
+          "nome": "Borracha (látex coagulado)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4933,
+          "nome": "Cacau (amêndoa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111647,
+          "nome": "Café arábica em grão (verde)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111648,
+          "nome": "Café canephora (robusta, conilon) em grão (verde)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4936,
+          "nome": "Caju (castanha)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4937,
+          "nome": "Caju (fruto)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111649,
+          "nome": "Camu-camu",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4939,
+          "nome": "Caqui",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4940,
+          "nome": "Carambola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4943,
+          "nome": "Chá-da-Índia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4945,
+          "nome": "Coco-da-baía",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4946,
+          "nome": "Cravo-da-Índia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4947,
+          "nome": "Dendê (coco)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4948,
+          "nome": "Erva-mate",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4949,
+          "nome": "Figo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4951,
+          "nome": "Fruta-de-conde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4952,
+          "nome": "Goiaba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4953,
+          "nome": "Graviola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4954,
+          "nome": "Guaraná",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4955,
+          "nome": "Jabuticaba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4956,
+          "nome": "Jaca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4957,
+          "nome": "Jambo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4960,
+          "nome": "kiwi",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4961,
+          "nome": "Laranja",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111650,
+          "nome": "Lichia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4962,
+          "nome": "Lima",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4963,
+          "nome": "Limão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4964,
+          "nome": "Louro (folha)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4966,
+          "nome": "Maçã",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4968,
+          "nome": "Manga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4967,
+          "nome": "Mamão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4969,
+          "nome": "Maracujá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4971,
+          "nome": "Nectarina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4972,
+          "nome": "Nêspera",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4976,
+          "nome": "Palmito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4977,
+          "nome": "Pera",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4978,
+          "nome": "Pêssego",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4979,
+          "nome": "Pimenta-do-reino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111651,
+          "nome": "Pitanga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111652,
+          "nome": "Romã",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4982,
+          "nome": "Tangerina, bergamota, mexerica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4984,
+          "nome": "Urucum (semente)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4985,
+          "nome": "Uva (mesa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4986,
+          "nome": "Uva (vinho ou suco)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111653,
+          "nome": "Pupunha (cacho frutos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4997,
+          "nome": "Cupuaçu",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4987,
+          "nome": "Mudas de café",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4988,
+          "nome": "Mudas de cacau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4989,
+          "nome": "Mudas de caju",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111654,
+          "nome": "Mudas de coco-da-baía",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111655,
+          "nome": "Mudas de frutas cítricas (laranja, limão, tangerina, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111656,
+          "nome": "Mudas de mamão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4994,
+          "nome": "Mudas de uva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111657,
+          "nome": "Mudas de outros produtos da lavoura permanente",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12763,
+      "nome": "Destino da produção consumida ou estocada",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 117916,
+          "nome": "Consumo humano no estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117917,
+          "nome": "Consumo animal no estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117918,
+          "nome": "Transformação ou beneficiamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117919,
+          "nome": "Estoque no próprio estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117920,
+          "nome": "Utilizada como semente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117921,
+          "nome": "Colhida e perdida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118897,
+          "nome": "Vendeu toda a produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120424,
+          "nome": "Sem produção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12764,
+      "nome": "Destino da produção vendida ou entregue a terceiros",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 117907,
+          "nome": "Vendida ou entregue a cooperativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117908,
+          "nome": "Vendida diretamente para indústrias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117909,
+          "nome": "Entregue à empresa integradora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117910,
+          "nome": "Vendida diretamente a intermediários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117911,
+          "nome": "Vendida, entregue ou doada ao governo (federal, estadual ou municipal)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117912,
+          "nome": "Vendida diretamente ao consumidor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117913,
+          "nome": "Vendida como semente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117914,
+          "nome": "Exportada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118898,
+          "nome": "Não vendeu",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

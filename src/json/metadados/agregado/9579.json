@@ -1,0 +1,115 @@
+{
+  "id": 9579,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, por existência de computador e acesso à Internet no domicílio e realização de teletrabalho no domicílio - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9579",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Teletrabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4090,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4091,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4108,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4109,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1679,
+      "nome": "Existência de computador e acesso à Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59820,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59821,
+          "nome": "Havia computador e não havia acesso à Internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59822,
+          "nome": "Não havia computador e havia acesso à Internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59823,
+          "nome": "Havia computador e acesso à Internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59824,
+          "nome": "Não havia computador e nem acesso à Internet",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1680,
+      "nome": "Realização de teletrabalho no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59825,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59826,
+          "nome": "Realizou teletrabalho no domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59827,
+          "nome": "Não realizou teletrabalho no domicílio",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

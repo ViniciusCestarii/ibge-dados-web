@@ -1,0 +1,471 @@
+{
+  "id": 9174,
+  "nome": "Produção, Venda e Valor da produção e Valor da venda na agroindústria rural nos estabelecimentos agropecuários, por existência de dirigentes de cor ou raça preta ou parda (produtor ou cônjuge) versus agricultura familiar, produtos da agroindústria rural e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/9174",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Agroindústria rural",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10098,
+      "nome": "Número de estabelecimentos agropecuários com agroindústria rural",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10094,
+      "nome": "Quantidade produzida na agroindústria rural",
+      "unidade": "Vide categorias da classificação 'Produtos da agroindústria rural'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10095,
+      "nome": "Quantidade vendida de produtos da agroindústria rural",
+      "unidade": "Vide categorias da classificação 'Produtos da agroindústria rural'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10096,
+      "nome": "Valor da produção da agroindústria rural",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10097,
+      "nome": "Valor da venda de produtos da agroindústria rural",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1502,
+      "nome": "Existência de dirigentes de cor ou raça preta ou parda (produtor ou cônjuge) versus agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58739,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58740,
+          "nome": "Com dirigentes pretos ou pardos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58741,
+          "nome": "Com dirigentes pretos ou pardos - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58742,
+          "nome": "Com dirigentes pretos ou pardos - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58743,
+          "nome": "Sem dirigentes pretos ou pardos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58744,
+          "nome": "Sem dirigentes pretos ou pardos - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58745,
+          "nome": "Sem dirigentes pretos ou pardos - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58746,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12528,
+      "nome": "Produtos da agroindústria rural",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          10094,
+          10095
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113870,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111701,
+          "nome": "Aguardente de cana",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111702,
+          "nome": "Algodão em pluma",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111703,
+          "nome": "Caroço de algodão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111704,
+          "nome": "Arroz em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111705,
+          "nome": "Café torrado em grão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111706,
+          "nome": "Café torrado e moído",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111707,
+          "nome": "Cajuína",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111708,
+          "nome": "Creme de leite",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111709,
+          "nome": "Doces e geléias",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111710,
+          "nome": "Farinha de mandioca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111711,
+          "nome": "Fubá de milho",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111712,
+          "nome": "Fumo em rolo ou corda",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111713,
+          "nome": "Legumes e verduras (processadas)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111714,
+          "nome": "Licores",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111715,
+          "nome": "Manteiga",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111716,
+          "nome": "Melado",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111717,
+          "nome": "Óleos vegetais",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111718,
+          "nome": "Pães, bolos e biscoitos",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111719,
+          "nome": "Polpa de frutas",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111720,
+          "nome": "Queijo e requeijão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111721,
+          "nome": "Rapadura",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111722,
+          "nome": "Sucos de frutas",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111723,
+          "nome": "Vinho de uva",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 111724,
+          "nome": "Carne de bovinos(verde)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111725,
+          "nome": "Carne de suínos(verde)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111726,
+          "nome": "Carne de outros animais(verde)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111727,
+          "nome": "Carne tratada(de sol, salgada)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111728,
+          "nome": "Embutidos(linguiças, salsichas, etc.)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111729,
+          "nome": "Couros e peles",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111730,
+          "nome": "Carvão vegetal",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111731,
+          "nome": "Produtos de madeira",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 1
+        },
+        {
+          "id": 111732,
+          "nome": "Outros produtos",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111733,
+          "nome": "Goma ou tapioca",
+          "unidade": "Toneladas",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110085,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41139,
+          "nome": "De 2.500 a menos de 10.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40645,
+          "nome": "De 10.000 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

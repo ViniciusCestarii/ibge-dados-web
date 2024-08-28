@@ -1,0 +1,80 @@
+{
+  "id": 2280,
+  "nome": "Número de entidades prestadoras de serviços de manejo de resíduos sólidos, por função da entidade prestadora dos serviços",
+  "URL": "https://sidra.ibge.gov.br/tabela/2280",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1182,
+      "nome": "Número de entidades prestadoras de serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001182,
+      "nome": "Número de entidades prestadoras de serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11460,
+      "nome": "Função da entidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 102957,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91759,
+          "nome": "Normativa, Fiscalizadora e Executora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91760,
+          "nome": "Normativa e Fiscalizadora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91761,
+          "nome": "Fiscalizadora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91762,
+          "nome": "Executora",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

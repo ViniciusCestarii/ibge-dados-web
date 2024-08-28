@@ -1,0 +1,145 @@
+{
+  "id": 8305,
+  "nome": "Homens de 15 anos ou mais que já tiveram filhos(as), por grupo de idade e nível de instrução",
+  "URL": "https://sidra.ibge.gov.br/tabela/8305",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Paternidade e pré-natal do parceiro",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12046,
+      "nome": "Homens de 15 anos ou mais que já tiveram filho(s)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12047,
+      "nome": "Homens de 15 anos ou mais que já tiveram filho(s), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12048,
+      "nome": "Homens de 15 anos ou mais que já tiveram filho(s), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12049,
+      "nome": "Coeficiente de variação - Homens de 15 anos ou mais que já tiveram filho(s)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12050,
+      "nome": "Percentual de homens de 15 anos ou mais que já tiveram filho(s)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12051,
+      "nome": "Percentual de homens de 15 anos ou mais que já tiveram filho(s), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12052,
+      "nome": "Percentual de homens de 15 anos ou mais que já tiveram filho(s), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12053,
+      "nome": "Coeficiente de variação - Percentual de homens de 15 anos ou mais que já tiveram filho(s)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6796,
+          "nome": "15 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56997,
+          "nome": "Médio completo ou superior",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

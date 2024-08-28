@@ -1,0 +1,995 @@
+{
+  "id": 2682,
+  "nome": "Óbitos, por ano de ocorrência, natureza do óbito, sexo, idade, local de ocorrência e lugar de residência do falecido",
+  "URL": "https://sidra.ibge.gov.br/tabela/2682",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Óbitos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1100",
+      "N1102",
+      "N1101",
+      "N1103",
+      "N1104"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 223,
+      "nome": "Número de óbitos registrados no ano",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000223,
+      "nome": "Número de óbitos registrados no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 255,
+      "nome": "Ano de ocorrência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71501,
+          "nome": "2022",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58298,
+          "nome": "2021",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56679,
+          "nome": "2020",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48973,
+          "nome": "2019",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47551,
+          "nome": "2018",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46257,
+          "nome": "2017",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40522,
+          "nome": "2016",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40290,
+          "nome": "2015",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39332,
+          "nome": "2014",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33045,
+          "nome": "2013",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31661,
+          "nome": "2012",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 15774,
+          "nome": "2011",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12030,
+          "nome": "2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7998,
+          "nome": "2009",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119203,
+          "nome": "2008",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118096,
+          "nome": "2007",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111752,
+          "nome": "2006",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109556,
+          "nome": "2005",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109453,
+          "nome": "2004",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104322,
+          "nome": "2003",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102952,
+          "nome": "2002",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98831,
+          "nome": "2001",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98830,
+          "nome": "2000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98829,
+          "nome": "1999",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94124,
+          "nome": "1998",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90892,
+          "nome": "1997",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90828,
+          "nome": "1996",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90827,
+          "nome": "1995",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5827,
+          "nome": "1994",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5828,
+          "nome": "1993",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90830,
+          "nome": "1992",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90833,
+          "nome": "1991",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90835,
+          "nome": "1990",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90837,
+          "nome": "1989",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90839,
+          "nome": "1988",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90841,
+          "nome": "1987",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90843,
+          "nome": "1986",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90845,
+          "nome": "1985",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90847,
+          "nome": "1984",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90849,
+          "nome": "1983",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90851,
+          "nome": "1982",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90853,
+          "nome": "1981",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90855,
+          "nome": "1980",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90857,
+          "nome": "1979",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90859,
+          "nome": "1978",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90861,
+          "nome": "1977",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90863,
+          "nome": "1976",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90865,
+          "nome": "1975",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90867,
+          "nome": "1974",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90869,
+          "nome": "1973",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90870,
+          "nome": "Antes de 1973",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104538,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1836,
+      "nome": "Natureza do óbito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 26877,
+          "nome": "Natural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99818,
+          "nome": "Não natural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 26881,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 26882,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104539,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "nome": "Idade do(a) falecido(a)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5922,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5923,
+          "nome": "Menos de 7 dias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5924,
+          "nome": "Menos de 1 dia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5925,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5926,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5927,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5928,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5929,
+          "nome": "5 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5930,
+          "nome": "6 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5931,
+          "nome": "7 a 27 dias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5932,
+          "nome": "7 a 13 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5933,
+          "nome": "14 a 20 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5934,
+          "nome": "21 a 27 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5935,
+          "nome": "28 a 364 dias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5936,
+          "nome": "28 a 59 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109550,
+          "nome": "60 a 364 dias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5937,
+          "nome": "2 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5938,
+          "nome": "3 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5939,
+          "nome": "4 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5940,
+          "nome": "5 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5941,
+          "nome": "6 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5942,
+          "nome": "7 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5943,
+          "nome": "8 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5944,
+          "nome": "9 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5945,
+          "nome": "10 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5946,
+          "nome": "11 meses",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 5947,
+          "nome": "1 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5948,
+          "nome": "1 a 4 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5949,
+          "nome": "1 ano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5950,
+          "nome": "2 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5951,
+          "nome": "3 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5952,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5953,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5954,
+          "nome": "5 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5955,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5956,
+          "nome": "7 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5957,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5958,
+          "nome": "9 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5959,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5960,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5961,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5962,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5963,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5964,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5965,
+          "nome": "15 a 84 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5966,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5967,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5968,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5969,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5970,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5971,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5972,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5973,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5974,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5975,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5976,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5977,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5978,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5979,
+          "nome": "80 a 84 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5980,
+          "nome": "85 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106181,
+          "nome": "85 a 89 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5981,
+          "nome": "85 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5982,
+          "nome": "86 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5983,
+          "nome": "87 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5984,
+          "nome": "88 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5985,
+          "nome": "89 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 106182,
+          "nome": "90 a 94 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5986,
+          "nome": "90 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5987,
+          "nome": "91 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5988,
+          "nome": "92 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5989,
+          "nome": "93 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5990,
+          "nome": "94 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 106183,
+          "nome": "95 a 99 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5991,
+          "nome": "95 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5992,
+          "nome": "96 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5993,
+          "nome": "97 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5994,
+          "nome": "98 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5995,
+          "nome": "99 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 5996,
+          "nome": "100 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5997,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "nome": "Local de ocorrência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5832,
+          "nome": "Hospital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5833,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107166,
+          "nome": "Via pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100296,
+          "nome": "Outro local",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100297,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

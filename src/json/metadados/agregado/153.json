@@ -1,0 +1,64 @@
+{
+  "id": 153,
+  "nome": "Leite resfriado ou não destinado à indústria por destino do leite resfriado ou não",
+  "URL": "https://sidra.ibge.gov.br/tabela/153",
+  "pesquisa": "Pesquisa Mensal do Leite",
+  "assunto": "Leite",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 30,
+      "nome": "Leite resfriado ou não destinado à indústria",
+      "unidade": "Mil litros",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000030,
+      "nome": "Leite resfriado ou não destinado à indústria - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 50,
+      "nome": "Destino do leite resfriado ou não",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 981,
+          "nome": "Total - destino do leite resfriado ou não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 982,
+          "nome": "Vendido à outra empresa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 983,
+          "nome": "Vendido ao público",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

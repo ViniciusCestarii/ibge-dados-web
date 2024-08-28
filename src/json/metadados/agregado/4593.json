@@ -1,0 +1,159 @@
+{
+  "id": 4593,
+  "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de asma e tiveram crise nos últimos 12 meses e usam medicamento por causa da asma, por grupo de idade e situação do domicílio (2013)",
+  "URL": "https://sidra.ibge.gov.br/tabela/4593",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4597,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de asma e tiveram crise nos últimos 12 meses e usam medicamento por causa da asma",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4598,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de asma e tiveram crise nos últimos 12 meses e usam medicamento por causa da asma, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4599,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de asma e tiveram crise nos últimos 12 meses e usam medicamento por causa da asma, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4928,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de asma e tiveram crise nos últimos 12 meses e usam medicamento por causa da asma",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4600,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico de asma e que usam medicamento por causa da asma entre os que referiram crise de asma nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4601,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico de asma e que usam medicamento por causa da asma entre os que referiram crise de asma nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4602,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico de asma e que usam medicamento por causa da asma entre os que referiram crise de asma nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4929,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico de asma e que usam medicamento por causa da asma entre os que referiram crise de asma nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33062,
+          "nome": "30 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1152,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33063,
+          "nome": "65 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33064,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

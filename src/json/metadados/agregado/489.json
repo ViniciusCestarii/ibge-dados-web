@@ -1,0 +1,186 @@
+{
+  "id": 489,
+  "nome": "Quantidade produzida de leite por finalidade do rebanho bovino e grupo de atividade econômica",
+  "URL": "https://sidra.ibge.gov.br/tabela/489",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 193,
+      "nome": "Quantidade produzida de leite",
+      "unidade": "Litros",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000193,
+      "nome": "Quantidade produzida de leite - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 225,
+      "nome": "Finalidade do rebanho bovino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4833,
+          "nome": "Cria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4834,
+          "nome": "Recria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4835,
+          "nome": "Engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4836,
+          "nome": "Cria e recria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4837,
+          "nome": "Cria e engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4838,
+          "nome": "Recria e engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4839,
+          "nome": "Cria, recria e engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4840,
+          "nome": "Leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4841,
+          "nome": "Corte e leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4843,
+          "nome": "Ignorada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4842,
+          "nome": "Trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "nome": "Grupo de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4784,
+          "nome": "Lavoura temporária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4785,
+          "nome": "Horticultura e produtos de viveiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4786,
+          "nome": "Lavoura permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4787,
+          "nome": "Pecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4788,
+          "nome": "Produção mista (lavoura e pecuária)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4789,
+          "nome": "Silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4790,
+          "nome": "Pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4791,
+          "nome": "Produção de carvão vegetal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

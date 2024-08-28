@@ -1,0 +1,69 @@
+{
+  "id": 47,
+  "nome": "Peso das carcaças de equídeos abatidos",
+  "URL": "https://sidra.ibge.gov.br/tabela/47",
+  "pesquisa": "Pesquisa Mensal de Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 34,
+      "nome": "Peso das carcaças",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000034,
+      "nome": "Peso das carcaças - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 20,
+      "nome": "Equídeos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 994,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 62,
+          "nome": "Muares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60,
+          "nome": "Asininos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 61,
+          "nome": "Equinos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": 2374,
+  "nome": "Valor das obras e/ou serviços da construção das empresas de construção, segundo tipos de obras e/ou serviços da construção",
+  "URL": "https://sidra.ibge.gov.br/tabela/2374",
+  "pesquisa": "Pesquisa Anual da Indústria da Construção",
+  "assunto": "Construção civil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2007
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1246,
+      "nome": "Valor total das obras e/ou serviços da construção",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001246,
+      "nome": "Valor total das obras e/ou serviços da construção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1247,
+      "nome": "Número de informantes - como contratante único ou principal",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001247,
+      "nome": "Número de informantes - como contratante único ou principal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1248,
+      "nome": "Valor - como contratante única ou principal",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001248,
+      "nome": "Valor - como contratante única ou principal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1249,
+      "nome": "Número de informantes - como subcontratada",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001249,
+      "nome": "Número de informantes - como subcontratada - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1250,
+      "nome": "Valor - como subcontratada",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001250,
+      "nome": "Valor - como subcontratada - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12224,
+      "nome": "Tipos de obras e/ou serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 104038,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104039,
+          "nome": "Trabalhos prévios da construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104040,
+          "nome": "Demolição",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104041,
+          "nome": "Canteiro de obras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104042,
+          "nome": "Sondagens e perfurações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104043,
+          "nome": "Fundações (estaqueamento)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104044,
+          "nome": "Movimentação de terra (terraplanagem)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104045,
+          "nome": "Drenagem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104046,
+          "nome": "Rebaixamento de lençol freático",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104047,
+          "nome": "Derrocamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104048,
+          "nome": "Edificações (obras novas, reforma e manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104049,
+          "nome": "Edificações residenciais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104050,
+          "nome": "Edificações industriais (galpões, edifícios, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104051,
+          "nome": "Edificações comerciais (shoppings, supermercados, lojas, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104052,
+          "nome": "Outras edificações não-residenciais (escolas, hospitais, hóteis, garagens)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104053,
+          "nome": "Partes de edificações (telhados, caixas d'água, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104054,
+          "nome": "Instalações desportivas (piscinas, quadras, pistas, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104055,
+          "nome": "Montagem de edificações pré-fabricadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104056,
+          "nome": "Obras viárias (obras novas e manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104057,
+          "nome": "Rodovias (inclusive pavimentação)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104058,
+          "nome": "Ruas, praças, calçadas ou estacionamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104059,
+          "nome": "Aeroportos (inclusive pistas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104060,
+          "nome": "Vias férreas e metropolitanas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104061,
+          "nome": "Pontes, elevados, túneis e outras obras de arte especiais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104062,
+          "nome": "Obras marítimas e fluviais (portos, marinas, barragens, diques, terminais e semelhantes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104063,
+          "nome": "Sinalização não-elétrica em ruas, estacionamentos, rodovias ou aeroportos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104064,
+          "nome": "Obras de infraestrutura para energia elétrica e telecomunicações (obras novas e manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104065,
+          "nome": "Barragens e represas para geração de energia elétrica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104066,
+          "nome": "Usinas, estações e subestações hidroelétricas, termelétricas e nucleares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104067,
+          "nome": "Redes de transmissão e distribuição de energia elérica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104068,
+          "nome": "Redes de instalações de torres de telecomunicações de longa ou média distância",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104069,
+          "nome": "Outras obras de engenharia civil (obras novas e manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104070,
+          "nome": "Redes de distribuição de água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104071,
+          "nome": "Redes de esgotos, interceptores ou galerias pluviais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104072,
+          "nome": "Dutos (óleodutos, ghasodutos, minerodutos, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104073,
+          "nome": "Plantas industriais para refinarias, siderúrgicas, indústria química e outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104074,
+          "nome": "Plantas para mineração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104075,
+          "nome": "Instalação de cabos submarinos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104076,
+          "nome": "Montagem de estruturas metálicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104077,
+          "nome": "Montagens industriais (tubulações, redes de facilidades, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104078,
+          "nome": "Montagem e desmontagem de escoramentos, andaimes, arquibancadas, paralelas e outras esculturas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104079,
+          "nome": "Irrigação (inclusive barragens, canais, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104080,
+          "nome": "Poços de águas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104081,
+          "nome": "Dragagem e aterro hidráulico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104082,
+          "nome": "Obras e/ou serviços de instalações (inclusive reparação e manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104083,
+          "nome": "Instalações elétricas e de telecomunicações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104084,
+          "nome": "Instalações de sistemas de ar condicionado, de ventilação, refrigeração e aquecimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104085,
+          "nome": "Instalações hidráulicas, sanitárias e de gás",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104086,
+          "nome": "Instalação de elevadores, escadas ou esteiras rolantes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104087,
+          "nome": "Instalação de sistemas de iluminação ou sinalização elétrica em vias públicas, rodovias, portos ou aeroportos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104088,
+          "nome": "Isolamentos térmicos ou acústicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104089,
+          "nome": "Obras de acabamento (inclusive reparação e manutenção)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104090,
+          "nome": "Alvenaria, gesso ou estuque",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104091,
+          "nome": "Impermeabilização (paredes, caixas d'água, etc.)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104092,
+          "nome": "Pintura (interna ou externa)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104096,
+          "nome": "Instalação de esquadrias de metal, madeira ou outros materiais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104099,
+          "nome": "Revestimentos em pisos e paredes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104097,
+          "nome": "Trabalhos de madeiras em interiores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104093,
+          "nome": "Instalação de cozinhas e outros mobiliários incorporados à construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104098,
+          "nome": "Aluguel de equipamentos de construção e demolição com operador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104094,
+          "nome": "Administração de obras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104095,
+          "nome": "Outras obras e/ou serviços",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

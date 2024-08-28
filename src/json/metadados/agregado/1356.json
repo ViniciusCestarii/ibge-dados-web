@@ -1,0 +1,92 @@
+{
+  "id": 1356,
+  "nome": "Número de municípios com coleta de esgoto sanitário, total e os com tratamento, por tipos de corpos receptores",
+  "URL": "https://sidra.ibge.gov.br/tabela/1356",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 336,
+      "nome": "Municípios com coleta de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000336,
+      "nome": "Municípios com coleta de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12006,
+      "nome": "Tipo de corpos receptores de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2078,
+          "nome": "Total de municípios com coleta de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2081,
+          "nome": "Total de municípios com coleta de esgoto sanitário e com tratamento do esgoto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98724,
+          "nome": "Rio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98758,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98725,
+          "nome": "Lago ou lagoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98726,
+          "nome": "Baía",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98727,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

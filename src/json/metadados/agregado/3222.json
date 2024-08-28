@@ -1,0 +1,305 @@
+{
+  "id": 3222,
+  "nome": "Domicílios particulares permanentes, por existência de compartilhamento da responsabilidade pelo domicílios e a situação do domicílio, segundo o sexo da pessoa responsável pelo domicílio e as classes de rendimento nominal mensal domiciliar per capita",
+  "URL": "https://sidra.ibge.gov.br/tabela/3222",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 317,
+      "nome": "Existência de compartilhamento da responsabilidade pelo domicílio com a pessoa responsável",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3086,
+          "nome": "Havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3087,
+          "nome": "Não havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12101,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11561,
+      "nome": "Sexo da pessoa responsável pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100680,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100681,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "nome": "Classes de rendimento nominal mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12009,
+          "nome": "Até 1/8 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12010,
+          "nome": "Mais de 1/8 a 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9682,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9683,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9684,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9685,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9686,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9687,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9691,
+          "nome": "Mais de 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9692,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12130,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "nome": "Número de moradores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1092,
+          "nome": "1 morador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1093,
+          "nome": "2 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1094,
+          "nome": "3 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1095,
+          "nome": "4 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1096,
+          "nome": "5 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1097,
+          "nome": "6 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1098,
+          "nome": "7 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1099,
+          "nome": "8 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1100,
+          "nome": "9 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1101,
+          "nome": "10 moradores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3390,
+          "nome": "11 moradores ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

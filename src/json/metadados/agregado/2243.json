@@ -1,0 +1,98 @@
+{
+  "id": 2243,
+  "nome": "Número de municípios, total e os com serviço de manejo de águas pluviais, cujas entidades realizam manutenção no sistema, por tipo de atividade desenvolvida na manutenção",
+  "URL": "https://sidra.ibge.gov.br/tabela/2243",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1168,
+      "nome": "Municípios com serviço de manejo de águas pluviais, cujas entidades realizam manutenção no sistema",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001168,
+      "nome": "Municípios com serviço de manejo de águas pluviais, cujas entidades realizam manutenção no sistema - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12134,
+      "nome": "Tipo de atividade desenvolvida na manutenção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101330,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101331,
+          "nome": "Total de municípios com serviço de manejo de águas pluviais, cujas entidades realizam manutenção no sistema",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101332,
+          "nome": "Limpeza e desobstrução de dispositivos de captação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101333,
+          "nome": "Limpeza e desobstrução de galerias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101334,
+          "nome": "Dragagem e limpeza de canais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101335,
+          "nome": "Varrição e limpeza de vias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101336,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101337,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

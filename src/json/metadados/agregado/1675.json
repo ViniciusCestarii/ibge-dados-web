@@ -1,0 +1,157 @@
+{
+  "id": 1675,
+  "nome": "Domicílios particulares permanentes e Moradores em Domicílios particulares permanentes por densidade de moradores por cômodo e abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/1675",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 704,
+      "nome": "Coeficiente de variação - Moradores",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 143,
+      "nome": "Densidade de moradores por cômodo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95820,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2913,
+          "nome": "Até 0,5 morador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2914,
+          "nome": "Mais de 0,5 a 1,0 morador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95821,
+          "nome": "Mais de 1,0 a 2,0 moradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2917,
+          "nome": "Mais de 2,0 moradores",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95827,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92853,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92847,
+          "nome": "Rede geral - canalizada em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92848,
+          "nome": "Rede geral - canalizada só na propriedade ou terreno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92852,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92866,
+          "nome": "Outra forma - canalizada em pelo menos um cômodo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92867,
+          "nome": "Outra forma - canalizada só na propriedade ou terreno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92868,
+          "nome": "Outra forma - não canalizada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

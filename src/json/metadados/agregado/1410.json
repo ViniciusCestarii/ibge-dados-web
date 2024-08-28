@@ -1,0 +1,405 @@
+{
+  "id": 1410,
+  "nome": "Demonstrativo de receita das empresas comerciais com 20 ou mais pessoas ocupadas por divisão de comércio, grupo e classe de atividade (CNAE 2.0)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1410",
+  "pesquisa": "Pesquisa Anual de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 863,
+      "nome": "Receita total",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000863,
+      "nome": "Receita total - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 866,
+      "nome": "Receita bruta de revenda de mercadorias",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000866,
+      "nome": "Receita bruta de revenda de mercadorias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1398,
+      "nome": "Receita bruta de outras atividades (indústria, serviços, transportes, etc.)",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001398,
+      "nome": "Receita bruta de outras atividades (indústria, serviços, transportes, etc.) - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 642,
+      "nome": "Deduções",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000642,
+      "nome": "Deduções - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 643,
+      "nome": "Receita operacional líquida",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000643,
+      "nome": "Receita operacional líquida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1492,
+      "nome": "Outras receitas - total",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001492,
+      "nome": "Outras receitas - total - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11070,
+      "nome": "Divisão de comércio, grupo e classe de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90128,
+          "nome": "1.Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106699,
+          "nome": "2.Comércio de veículos, peças e motocicletas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90130,
+          "nome": "2.1Veículos automotores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90131,
+          "nome": "2.2Peças para veículos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90132,
+          "nome": "2.3Motocicletas, peças e acessórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90134,
+          "nome": "3.Comércio por atacado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4765,
+          "nome": "3.1Representantes e agentes do comércio (exceto de veículos e motocicletas)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4766,
+          "nome": "3.2Comércio de matérias-primas agrícolas e animais vivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4767,
+          "nome": "3.3Comércio especializado em produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4768,
+          "nome": "3.4Comércio de equipamentos e artigos de uso pessoal e doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4769,
+          "nome": "3.4.1Tecidos, artefatos de tecidos e de armarinho, vestuário, calçados e artigos de viagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4770,
+          "nome": "3.4.1.1Tecidos, artefatos de tecidos e de armarinho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 4772,
+          "nome": "3.4.1.2Artigos de vestuário e acessórios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 4773,
+          "nome": "3.4.1.3Calçados e artigos de viagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 4775,
+          "nome": "3.4.2Produtos farmacêuticos, médicos, ortopédicos, odontológicos e veterinários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4776,
+          "nome": "3.4.3Artigos de escritório e de papelaria; papel. papelão e seus artefatos; livros, jornais e outras publicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4777,
+          "nome": "3.4.4Outros equipamentos e artigos de uso pessoal e doméstico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4778,
+          "nome": "3.5Comércio de produtos intermediários, resíduos e sucatas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5188,
+          "nome": "3.5.1Combustíveis e lubrificantes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5189,
+          "nome": "3.5.2Madeira, ferragens, ferramentas, material elétrico e material de construção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5556,
+          "nome": "3.5.3Produtos químicos, adubos e fertilizantes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5579,
+          "nome": "3.5.4Produtos siderúrgicos e metalúrgicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5830,
+          "nome": "3.5.5Papel e papelão em bruto e de embalagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5831,
+          "nome": "3.5.6Resíduos, sucatas e outros produtos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6436,
+          "nome": "3.5.6.1Resíduos e sucatas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6553,
+          "nome": "3.5.6.2Outros produtos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6554,
+          "nome": "3.6Comércio de equipamentos e produtos de tecnologia de informação e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6654,
+          "nome": "3.7Comércio de máquinas, aparelhos e equipamentos (exceto de tecnologia de informação e comunicação)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6799,
+          "nome": "3.8Comércio não especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90151,
+          "nome": "4.Comércio varejista",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90152,
+          "nome": "4.1Comércio não especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90153,
+          "nome": "4.1.1Hipermercados e supermercados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 90154,
+          "nome": "4.1.2Outros tipos de comércio não especializados com predominância de produtos alimentícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 90155,
+          "nome": "4.1.3Comércio não especializado sem predominância de produtos alimentícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 90156,
+          "nome": "4.2Produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90157,
+          "nome": "4.3Tecidos, artigos de armarinho, vestuário e calçados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94005,
+          "nome": "4.3.1Tecidos e artigos de armarinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 94006,
+          "nome": "4.3.2Artigos do vestuário e complementos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 94007,
+          "nome": "4.3.3Calçados, artigos de couro e viagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6800,
+          "nome": "4.4Combustíveis e lubrificantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106765,
+          "nome": "4.5Comércio de outros produtos em lojas especializadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6801,
+          "nome": "4..5.1Produtos farmacêuticos, perfumaria e cosméticos e artigos médicos, ópticos e ortopédicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6823,
+          "nome": "4.5.2Eletrodomésticos, equipamentos de áudio e vídeo, instrumentos musicais e acessórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6945,
+          "nome": "4.5.3Móveis, artigos de iluminação, peças e acessórios e outros artigos de uso doméstico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 7081,
+          "nome": "4.5.4Material de construção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 7082,
+          "nome": "4.5.5Equipamentos de informática e comunicação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 7083,
+          "nome": "4.5.6Artigos culturais, recreativos e esportivos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106772,
+          "nome": "4.5.7Gás liquefeito de petróleo (GLP)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106773,
+          "nome": "4.5.8Outros produtos novos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 106774,
+          "nome": "4.6Comércio de artigos usados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

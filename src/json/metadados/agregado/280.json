@@ -1,0 +1,89 @@
+{
+  "id": 280,
+  "nome": "Número de estabelecimentos e Área dos estabelecimentos agropecuários por condição dos produtores - série histórica (1920/2006)",
+  "URL": "https://sidra.ibge.gov.br/tabela/280",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1920,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12441,
+      "nome": "Condição dos produtores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110086,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110052,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110053,
+          "nome": "Arrendatário, parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110054,
+          "nome": "Administrador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110055,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

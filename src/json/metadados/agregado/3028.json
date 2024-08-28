@@ -1,0 +1,82 @@
+{
+  "id": 3028,
+  "nome": "População residente de 10 anos ou mais de idade, em domicílios particulares com insegurança alimentar moderada ou grave, por situação de ocupação no período de referência de 365 dias",
+  "URL": "https://sidra.ibge.gov.br/tabela/3028",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1653,
+      "nome": "População residente de 10 anos ou mais de idade, em domicílios particulares com insegurança alimentar moderada ou grave",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001653,
+      "nome": "População residente de 10 anos ou mais de idade, em domicílios particulares com insegurança alimentar moderada ou grave - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12407,
+      "nome": "Situação de ocupação no período de referência de 365 dias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109120,
+          "nome": "Ocupado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109121,
+          "nome": "Ocupado em atividade agrícola do trabalho principal no período de referência de 365 dias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109122,
+          "nome": "Ocupado em atividade não agrícola do trabalho principal no período de referência de 365 dias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109123,
+          "nome": "Não ocupado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109124,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

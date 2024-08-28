@@ -1,0 +1,53 @@
+{
+  "id": 4,
+  "nome": "Taxa de desemprego aberto - semana por sexo (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/4",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 200212
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 8,
+      "nome": "Taxa de desemprego aberto - semana",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

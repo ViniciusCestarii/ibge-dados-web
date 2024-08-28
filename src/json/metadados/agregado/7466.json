@@ -1,0 +1,72 @@
+{
+  "id": 7466,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento com ETAs ou UTSs em operação e volume de água tratada por dia, por tipo de tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7466",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10645,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ETAs ou UTSs em operação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10646,
+      "nome": "Volume de água tratada por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 952,
+      "nome": "Tipo de tratamento da água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48552,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48553,
+          "nome": "Convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48554,
+          "nome": "Não convencional",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48555,
+          "nome": "Simples desinfecção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

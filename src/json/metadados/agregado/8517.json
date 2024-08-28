@@ -1,0 +1,97 @@
+{
+  "id": 8517,
+  "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência - Total, coeficiente de variação, variações percentuais e absolutas em relação ao trimestre anterior e ao mesmo trimestre do ano anterior - por situação de informalidade no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/8517",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4090,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4091,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9112,
+      "nome": "Variação percentual em relação ao trimestre anterior - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9113,
+      "nome": "Variação absoluta em relação ao trimestre anterior - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9116,
+      "nome": "Situação da Variação em relação ao trimestre anterior - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Nenhuma",
+      "sumarizacao": []
+    },
+    {
+      "id": 9117,
+      "nome": "Variação percentual em relação ao mesmo trimestre do ano anterior - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9118,
+      "nome": "Variação absoluta em relação ao mesmo trimestre do ano anterior - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9121,
+      "nome": "Situação da Variação em relação ao mesmo trimestre do ano anterior - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Nenhuma",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1350,
+      "nome": "Situação de informalidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57303,
+          "nome": "Informais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

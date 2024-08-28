@@ -1,0 +1,105 @@
+{
+  "id": 4932,
+  "nome": "Domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4932",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do domicílio e serviços domiciliares de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5196,
+      "nome": "Domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5197,
+      "nome": "Domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5198,
+      "nome": "Domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5199,
+      "nome": "Coeficiente de variação - Domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5200,
+      "nome": "Percentual de domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, em relação aos domicílios com algum cachorro ou gato",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5201,
+      "nome": "Percentual de domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, em relação aos domicílios com algum cachorro ou gato, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5202,
+      "nome": "Percentual de domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, em relação aos domicílios com algum cachorro ou gato, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5203,
+      "nome": "Coeficiente de variação - Percentual de domicílios com algum cachorro ou gato e em que todos os cachorros e gatos foram vacinados contra raiva nos últimos 12 meses, em relação aos domicílios com algum cachorro ou gato",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

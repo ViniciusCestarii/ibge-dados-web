@@ -1,0 +1,102 @@
+{
+  "id": 1758,
+  "nome": "Número de municípios e de distritos, total e os com algum serviço de saneamento básico, por tipo de serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/1758",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2613,
+      "nome": "Municípios com algum serviço de saneamento básico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002613,
+      "nome": "Municípios com algum serviço de saneamento básico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 710,
+      "nome": "Número de distritos com algum serviço de saneamento básico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000710,
+      "nome": "Número de distritos com algum serviço de saneamento básico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11969,
+      "nome": "Tipo de serviço de saneamento básico",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98365,
+          "nome": "Total geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98589,
+          "nome": "Total com algum serviço de saneamento básico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98366,
+          "nome": "Rede geral de distribuição de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98367,
+          "nome": "Rede coletora de esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98368,
+          "nome": "Limpeza urbana e coleta de lixo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98369,
+          "nome": "Drenagem urbana",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

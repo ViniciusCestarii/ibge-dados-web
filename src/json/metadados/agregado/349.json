@@ -1,0 +1,92 @@
+{
+  "id": 349,
+  "nome": "Número de municípios, total e os que participam de consórcio intemunicipal/interfederativo, por área do setor de saneamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/349",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2596,
+      "nome": "Municípios que participam de consórcio intermunicipal/interfederativo",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002596,
+      "nome": "Municípios que participam de consórcio intermunicipal/interfederativo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12962,
+      "nome": "Área do setor de saneamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120924,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120925,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120926,
+          "nome": "Abastecimento de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120927,
+          "nome": "Esgotamento sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120928,
+          "nome": "Manejo de águas pluviais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120929,
+          "nome": "Manejo de resíduos sólidos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": 1120,
+  "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento por finalidade do financiamento e agriculltura familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/1120",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Agricultura Familiar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1990,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001990,
+      "nome": "Número de estabelecimentos agropecuários que obtiveram financiamento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12543,
+      "nome": "Finalidade do financiamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115948,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111924,
+          "nome": "Investimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111925,
+          "nome": "Custeio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111926,
+          "nome": "Comercialização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111927,
+          "nome": "Manutenção do estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119106,
+          "nome": "Não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119107,
+          "nome": "Agricultura familiar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

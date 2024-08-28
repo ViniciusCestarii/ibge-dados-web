@@ -1,0 +1,241 @@
+{
+  "id": 8996,
+  "nome": "Número de estabelecimentos agropecuários com muares, Número de cabeças de muares nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários que venderam muares, Número de cabeças de muares vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de muares nos estabelecimentos agropecuários, por cor ou raça do produtor, condição do produtor em relação às terras e grupos de cabeças de muares",
+  "URL": "https://sidra.ibge.gov.br/tabela/8996",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 46,
+      "nome": "Número de estabelecimentos agropecuários com muares",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2198,
+      "nome": "Número de cabeças de muares nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10025,
+      "nome": "Número de estabelecimentos agropecuários que venderam muares",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10026,
+      "nome": "Número de cabeças de muares vendidas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10027,
+      "nome": "Valor da venda de cabeças de muares nos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 830,
+      "nome": "Cor ou raça do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46427,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46424,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46425,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46426,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46428,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46429,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46430,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12724,
+      "nome": "Grupos de cabeças de muares",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8062,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115950,
+          "nome": "De 1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115951,
+          "nome": "De 3 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115952,
+          "nome": "De 5 a 9",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115953,
+          "nome": "De 10 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115954,
+          "nome": "De 20 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115955,
+          "nome": "De 50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115956,
+          "nome": "De 100 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115957,
+          "nome": "Sem cabeças de muares na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

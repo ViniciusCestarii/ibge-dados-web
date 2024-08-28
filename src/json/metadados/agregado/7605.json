@@ -1,0 +1,139 @@
+{
+  "id": 7605,
+  "nome": "Pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, por cor ou raça e situação do domicílio (2019)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7605",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5414,
+      "nome": "Pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5415,
+      "nome": "Pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5416,
+      "nome": "Pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5417,
+      "nome": "Coeficiente de variação - Pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5418,
+      "nome": "Percentual de pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, em relação as que tiveram medicamento receitado",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5419,
+      "nome": "Percentual de pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, em relação as que tiveram medicamento receitado, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5420,
+      "nome": "Percentual de pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, em relação as que tiveram medicamento receitado, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5421,
+      "nome": "Coeficiente de variação - Percentual de pessoas que conseguiram obter todos os medicamentos receitados no último atendimento de saúde, em relação as que tiveram medicamento receitado",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

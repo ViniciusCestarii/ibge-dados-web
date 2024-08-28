@@ -1,0 +1,86 @@
+{
+  "id": 1790,
+  "nome": "Número de distritos cujas entidades prestadoras de serviço de abastecimento de água realizam programa de controle de perdas de faturamento, por percentual de perdas faturadas",
+  "URL": "https://sidra.ibge.gov.br/tabela/1790",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 735,
+      "nome": "Número de distritos com programa de controle de perdas de faturamento",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000735,
+      "nome": "Número de distritos com programa de controle de perdas de faturamento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11987,
+      "nome": "Percentual de perdas faturadas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98613,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98422,
+          "nome": "Até 20%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98423,
+          "nome": "Mais de 20 a 40%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98424,
+          "nome": "Mais de 40 a 50%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98425,
+          "nome": "Mais de 50%",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98426,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

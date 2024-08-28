@@ -1,0 +1,249 @@
+{
+  "id": 2446,
+  "nome": "Famílias residentes em domicílios particulares por tipo de família e condição de atividade e seção de atividade da pessoa responsável pela família",
+  "URL": "https://sidra.ibge.gov.br/tabela/2446",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 155,
+      "nome": "Famílias residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000155,
+      "nome": "Famílias residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 174,
+      "nome": "Tipo de família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3164,
+          "nome": "Única",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3165,
+          "nome": "Convivente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104651,
+          "nome": "Convivente - principal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104652,
+          "nome": "Convivente - segunda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104653,
+          "nome": "Convivente - terceira",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104654,
+          "nome": "Convivente - quarta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104655,
+          "nome": "Convivente - quinta ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12243,
+      "nome": "Condição de atividade e seção de atividade da pessoa responsável pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104676,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104677,
+          "nome": "Economicamente ativas - ocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104678,
+          "nome": "Economicamente ativas - ocupadas - agricultura, pecuária, silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104679,
+          "nome": "Economicamente ativas - ocupadas - pesca",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104680,
+          "nome": "Economicamente ativas - ocupadas - indústria extrativa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104681,
+          "nome": "Economicamente ativas - ocupadas - indústria de transformação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104682,
+          "nome": "Economicamente ativas - ocupadas - produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104683,
+          "nome": "Economicamente ativas - ocupadas - construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104684,
+          "nome": "Economicamente ativas - ocupadas - comércio, reparação de veículos automotores, objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104685,
+          "nome": "Economicamente ativas - ocupadas - alojamento e alimentação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104686,
+          "nome": "Economicamente ativas - ocupadas - transporte, armazenagem e comunicação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104687,
+          "nome": "Economicamente ativas - ocupadas - intermediação financeira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104688,
+          "nome": "Economicamente ativas - ocupadas - atividades imobiliárias, alugueis e serviços prestados às empresas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104689,
+          "nome": "Economicamente ativas - ocupadas - administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104690,
+          "nome": "Economicamente ativas - ocupadas - educação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104691,
+          "nome": "Economicamente ativas - ocupadas - saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104692,
+          "nome": "Economicamente ativas - ocupadas - outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104693,
+          "nome": "Economicamente ativas - ocupadas - serviços domésticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104694,
+          "nome": "Economicamente ativas - ocupadas - organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104695,
+          "nome": "Economicamente ativas - ocupadas - atividades mal definidas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104696,
+          "nome": "Economicamente ativas - desocupadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104697,
+          "nome": "Não economicamente ativas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

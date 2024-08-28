@@ -1,0 +1,72 @@
+{
+  "id": 7478,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs e número de ETEs, por condição de funcionamento da unidade de tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7478",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10673,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10674,
+      "nome": "Número de ETEs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 946,
+      "nome": "Condição de funcionamento da unidade de tratamento",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48514,
+          "nome": "Em operação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48517,
+          "nome": "Inacabada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48516,
+          "nome": "Concluída ainda sem utilização",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48515,
+          "nome": "Com operação interrompida",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

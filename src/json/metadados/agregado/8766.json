@@ -1,0 +1,239 @@
+{
+  "id": 8766,
+  "nome": "Número de estabelecimentos agropecuários com veículos e Número de veículos existentes nos estabelecimentos agropecuários, por pertencimento a Terra Indígena (TI) versus Agricultura Familiar, veículos existentes no estabelecimento agropecuário, sexo do produtor e classe de idade do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/8766",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10002,
+      "nome": "Número de estabelecimentos agropecuários com veículos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9573,
+      "nome": "Número de veículos existentes nos estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1080,
+      "nome": "Pertencimento a Terra de Indígena (TI) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50202,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50203,
+          "nome": "Dentro de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50204,
+          "nome": "Dentro de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50205,
+          "nome": "Dentro de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50206,
+          "nome": "Fora de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56880,
+          "nome": "Fora de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57504,
+          "nome": "Fora de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 797,
+      "nome": "Veículos existentes no estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46568,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40621,
+          "nome": "Caminhões",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40622,
+          "nome": "Utilitários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40623,
+          "nome": "Automóveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40624,
+          "nome": "Motos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40625,
+          "nome": "Aviões",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41146,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 45951,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46437,
+          "nome": "De 65 a menos de 75 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46501,
+          "nome": "De 75 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47177,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

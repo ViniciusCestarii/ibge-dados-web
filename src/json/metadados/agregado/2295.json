@@ -1,0 +1,267 @@
+{
+  "id": 2295,
+  "nome": "Produção física industrial, por tipo de índice e seções e atividades industriais (série encerrada em fevereiro de 2014)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2295",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199101,
+    "fim": 201402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 28,
+      "nome": "Produção física industrial",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 24,
+      "nome": "Tipo de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103340,
+          "nome": "Índice de base fixa mensal sem ajuste sazonal (Base: média de 2002 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103341,
+          "nome": "Índice de base fixa mensal com ajuste sazonal (Base: média de 2002 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2540,
+          "nome": "Índice mensal (Base: igual mês do ano anterior = 100 )",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2541,
+          "nome": "Índice acumulado (Base: igual período do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2542,
+          "nome": "Índice acumulado de 12 meses (Base: últimos 12 meses anteriores = 100)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12176,
+      "nome": "Seções e atividades industriais",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103342,
+          "nome": "1.Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103239,
+          "nome": "2.Indústria extrativa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103343,
+          "nome": "3.Indústria de transformação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103240,
+          "nome": "3.1Alimentos e bebidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103241,
+          "nome": "3.2Alimentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103242,
+          "nome": "3.3Bebidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103243,
+          "nome": "3.4Fumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103244,
+          "nome": "3.5Têxtil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103245,
+          "nome": "3.6Vestuário e acessórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103246,
+          "nome": "3.7Calçados e artigos de couro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103247,
+          "nome": "3.8Madeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103248,
+          "nome": "3.9Celulose, papel e produtos de papel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103249,
+          "nome": "3.10Edição, impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103250,
+          "nome": "3.11Refino de petróleo e álcool",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103253,
+          "nome": "3.12Produtos químicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103251,
+          "nome": "3.13Farmacêutica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103252,
+          "nome": "3.14Perfumaria, sabões, detergentes e produtos de limpeza",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103254,
+          "nome": "3.15Outros produtos químicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103255,
+          "nome": "3.16Borracha e plástico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103256,
+          "nome": "3.17Minerais não metálicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103257,
+          "nome": "3.18Metalurgia básica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103258,
+          "nome": "3.19Produtos de metal - exclusive máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103259,
+          "nome": "3.20Máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103260,
+          "nome": "3.21Máquinas para escritório e equipamentos de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103261,
+          "nome": "3.22Máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103262,
+          "nome": "3.23Material eletrônico, aparelhos e equipamentos de comunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103263,
+          "nome": "3.24Equipamentos de instrumentação médico-hospitalar, ópticos e outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103264,
+          "nome": "3.25Veículos automotores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103265,
+          "nome": "3.26Outros equipamentos de transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103266,
+          "nome": "3.27Mobiliário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103268,
+          "nome": "3.28Diversos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

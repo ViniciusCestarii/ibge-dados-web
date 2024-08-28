@@ -1,0 +1,207 @@
+{
+  "id": 2211,
+  "nome": "Receita operacional líquida das empresas de transporte aquaviário com 20 ou mais pessoas ocupadas, segundo os produtos/serviços prestados",
+  "URL": "https://sidra.ibge.gov.br/tabela/2211",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Transportes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1146,
+      "nome": "Valor da receita operacional líquida",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1147,
+      "nome": "Percentual total da receita operacional líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1148,
+      "nome": "Percentual parcial da receita operacional líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12121,
+      "nome": "Produtos ou serviços prestados",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101025,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101081,
+          "nome": "Transporte de passageiros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101082,
+          "nome": "Transporte de passageiros - em linhas regulares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101083,
+          "nome": "Transporte de passageiros - transporte turístico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101084,
+          "nome": "Transporte de passageiros - fretamento de embarcações com tripulação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101068,
+          "nome": "Transporte de cargas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101069,
+          "nome": "Transporte de cargas - combustíveis/petróleo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101070,
+          "nome": "Transporte de cargas - cargas secas (produtos manufaturados, ensacados ou embalados)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101071,
+          "nome": "Transporte de cargas - cargas sólidas a granel (cereais, areia, brita, minério, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101072,
+          "nome": "Transporte de cargas - cargas frigorificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101073,
+          "nome": "Transporte de cargas - cargas acondicionadas em containers",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101074,
+          "nome": "Transporte de cargas - cargas perigosas (produtos químicos em geral, explosivos, etc.) - exclusive produtos petrolíferos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101075,
+          "nome": "Transporte de cargas - animais vivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101076,
+          "nome": "Transporte de cargas - veículos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101077,
+          "nome": "Transporte de cargas - cargas pesadas ou de grande porte (turbinas, tratores, guindastes, vigas, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101078,
+          "nome": "Transporte de cargas - cargas leves (malotes e cargas postais)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101079,
+          "nome": "Transporte de cargas - outros tipos de mercadorias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101080,
+          "nome": "Transporte de cargas - fretamento de embarcações com tripulação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101085,
+          "nome": "Outros serviços/atividades",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101086,
+          "nome": "Outros serviços/atividades - serviços de pilotagem, rebocagem e praticagem em portos e estuários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101087,
+          "nome": "Outros serviços/atividades - agenciamento de cargas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101088,
+          "nome": "Outros serviços/atividades - serviços de agrupamento e acondicionamento de cargas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101089,
+          "nome": "Outros serviços/atividades - fretamento de embarcações sem tripulação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101090,
+          "nome": "Outros serviços/atividades - outros serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

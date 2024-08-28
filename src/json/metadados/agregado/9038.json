@@ -1,0 +1,65 @@
+{
+  "id": 9038,
+  "nome": "Indicador 4.5.1 - Índice de paridade de frequência à escola das pessoas de 5 anos de idade, por sexo e situação do domicílio com indicação do coeficiente de variação, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9038",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Educação de qualidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9310,
+      "nome": "Proporção das pessoas de 5 anos de idade que frequentam escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9311,
+      "nome": "Coeficiente de variação - Proporção das pessoas de 5 anos de idade que frequentam escola",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

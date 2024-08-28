@@ -1,0 +1,162 @@
+{
+  "id": 488,
+  "nome": "Quantidade produzida de leite por finalidade do rebanho bovino e condição do produtor em relação às terras",
+  "URL": "https://sidra.ibge.gov.br/tabela/488",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 193,
+      "nome": "Quantidade produzida de leite",
+      "unidade": "Litros",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000193,
+      "nome": "Quantidade produzida de leite - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 225,
+      "nome": "Finalidade do rebanho bovino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4833,
+          "nome": "Cria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4834,
+          "nome": "Recria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4835,
+          "nome": "Engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4836,
+          "nome": "Cria e recria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4837,
+          "nome": "Cria e engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4838,
+          "nome": "Recria e engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4839,
+          "nome": "Cria, recria e engorda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4840,
+          "nome": "Leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4841,
+          "nome": "Corte e leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4843,
+          "nome": "Ignorada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4842,
+          "nome": "Trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

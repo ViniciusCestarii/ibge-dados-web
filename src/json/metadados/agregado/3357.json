@@ -1,0 +1,199 @@
+{
+  "id": 3357,
+  "nome": "Domicílios particulares permanentes e Moradores em domicílios particulares permanentes, em áreas urbanas com ordenamento regular, por forma de abastecimento de água e existência e características do entorno",
+  "URL": "https://sidra.ibge.gov.br/tabela/3357",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 701,
+      "nome": "Domicílios particulares permanentes em áreas urbanas com ordenamento regular",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000701,
+      "nome": "Domicílios particulares permanentes em áreas urbanas com ordenamento regular - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 599,
+      "nome": "Moradores em domicílios particulares permanentes em áreas urbanas com ordenamento regular",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000599,
+      "nome": "Moradores em domicílios particulares permanentes em áreas urbanas com ordenamento regular - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10970,
+          "nome": "Rede geral de distribuição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10971,
+          "nome": "Poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121295,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Características do entorno",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 12137,
+          "nome": "Identificação do logradouro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12138,
+          "nome": "Iluminação pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12139,
+          "nome": "Pavimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12140,
+          "nome": "Calçada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12141,
+          "nome": "Meio-fio/guia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12142,
+          "nome": "Bueiro/boca de lobo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12143,
+          "nome": "Rampa para cadeirante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12144,
+          "nome": "Arborização",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12145,
+          "nome": "Esgoto a céu aberto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12146,
+          "nome": "Lixo acumulado nos logradouros",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "nome": "Existência de características do entorno",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12147,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12148,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12149,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

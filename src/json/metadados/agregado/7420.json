@@ -1,0 +1,82 @@
+{
+  "id": 7420,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios que havia utilização da Internet por banda larga, por tipo de conexão à Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7420",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4707,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios que havia utilização da Internet por banda larga",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4708,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 691,
+      "nome": "Tipo de conexão à Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33329,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33336,
+          "nome": "Banda larga fixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33337,
+          "nome": "Somente banda larga fixa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33338,
+          "nome": "Banda larga móvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33339,
+          "nome": "Somente banda larga móvel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33340,
+          "nome": "Banda larga fixa e móvel",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

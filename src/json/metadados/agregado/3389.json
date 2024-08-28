@@ -1,0 +1,97 @@
+{
+  "id": 3389,
+  "nome": "Pessoas ocupadas na semana de referência, por local de exercício do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3389",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 918,
+      "nome": "Pessoas ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000918,
+      "nome": "Pessoas ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 469,
+      "nome": "Local de exercício do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12167,
+          "nome": "Município de residência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12168,
+          "nome": "Município de residência - no domicílio de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12169,
+          "nome": "Município de residência - fora do domicílio de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12188,
+          "nome": "Outro município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12189,
+          "nome": "País estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12190,
+          "nome": "Mais de um município ou país",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12191,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

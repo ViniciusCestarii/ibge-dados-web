@@ -1,0 +1,277 @@
+{
+  "id": 2465,
+  "nome": "Pessoas responsáveis pelas famílias, residentes em domicílios particulares por existência de cônjuge e da pessoa responsável e cônjuge com e sem rendimento, número de filhos não economicamente ativos e classes de rendimento nominal mensal das pessoas responsáveis pelas famílias sem cônjuge ou dos casais",
+  "URL": "https://sidra.ibge.gov.br/tabela/2465",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Responsável pelo domicílio/família",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1328,
+      "nome": "Pessoas responsáveis pelas famílias, residentes em domicílios particulares",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001328,
+      "nome": "Pessoas responsáveis pelas famílias, residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12256,
+      "nome": "Existência de cônjuge e da pessoa responsável e cônjuge com e sem rendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 104843,
+          "nome": "Pessoas responsáveis pelas famílias - total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104844,
+          "nome": "Pessoas responsáveis pelas famílias - total - homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104845,
+          "nome": "Pessoas responsáveis pelas famílias - total - mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104846,
+          "nome": "Pessoas responsáveis pelas famílias - sem cônjuge - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104847,
+          "nome": "Pessoas responsáveis pelas famílias - sem cônjuge - homens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104848,
+          "nome": "Pessoas responsáveis pelas famílias - sem cônjuge - mulheres",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104849,
+          "nome": "Pessoas responsáveis pelas famílias - com cônjuge - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104850,
+          "nome": "Pessoas responsáveis pelas famílias - com cônjuge - ambos com rendimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104851,
+          "nome": "Pessoas responsáveis pelas famílias - com cônjuge - pessoas responsáveis com rendimento e cônjuge sem rendimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104852,
+          "nome": "Pessoas responsáveis pelas famílias - com cônjuge - pessoas responsáveis sem rendimento e cônjuge com rendimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104853,
+          "nome": "Pessoas responsáveis pelas famílias - com cônjuge - ambos sem rendimento",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12254,
+      "nome": "Número de filhos não economicamente ativos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104822,
+          "nome": "Nenhum filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104823,
+          "nome": "1 filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104824,
+          "nome": "2 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104825,
+          "nome": "3 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104826,
+          "nome": "4 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104827,
+          "nome": "5 filhos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104828,
+          "nome": "6 filhos ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12255,
+      "nome": "Classes de rendimento nominal mensal das pessoas responsáveis pelas famílias sem cônjuge ou dos casais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104829,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104830,
+          "nome": "Mais de 1/4 a 1/2 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104831,
+          "nome": "Mais de 1/2 a 3/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104832,
+          "nome": "Mais de 3/4 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104833,
+          "nome": "Mais de 1 a 1 1/4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104834,
+          "nome": "Mais de 1 1/4 a 1 1/2 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104835,
+          "nome": "Mais de 1 1/2 a 2 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104836,
+          "nome": "Mais de 2 a 3 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104837,
+          "nome": "Mais de 3 a 5 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104838,
+          "nome": "Mais de 5 a 10 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104839,
+          "nome": "Mais de 10 a 15 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104840,
+          "nome": "Mais de 15 a 20 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104841,
+          "nome": "Mais de 20 salário mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104842,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

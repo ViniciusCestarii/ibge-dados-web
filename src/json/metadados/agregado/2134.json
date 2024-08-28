@@ -1,0 +1,98 @@
+{
+  "id": 2134,
+  "nome": "Pessoas de 5 a 17 anos de idade que frequentavam escola, por rede de ensino que frequentavam e tempo de permanência na escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/2134",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 958,
+      "nome": "Pessoas de 5 a 17 anos de idade que frequentavam escola",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000958,
+      "nome": "Pessoas de 5 a 17 anos de idade que frequentavam escola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 702,
+      "nome": "Coeficiente de variação",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12087,
+      "nome": "Rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100593,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100468,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100469,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12089,
+      "nome": "Tempo de permanência na escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100598,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100477,
+          "nome": "Até 4 horas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100478,
+          "nome": "Mais de 4 horas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

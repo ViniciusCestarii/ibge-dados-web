@@ -1,0 +1,138 @@
+{
+  "id": 1477,
+  "nome": "Domicílios particulares permanentes próprios por grupos de anos de estudo da pessoa responsável pelo domicílio e condição de ocupação do terreno",
+  "URL": "https://sidra.ibge.gov.br/tabela/1477",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 627,
+      "nome": "Domicílios particulares permanentes próprios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000627,
+      "nome": "Domicílios particulares permanentes próprios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11567,
+      "nome": "Grupos de anos de estudo da pessoa responsável pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92940,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92941,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92942,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92943,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92944,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92945,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92946,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11285,
+      "nome": "Condição de ocupação do terreno",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90966,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90967,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90968,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

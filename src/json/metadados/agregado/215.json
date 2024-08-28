@@ -1,0 +1,91 @@
+{
+  "id": 215,
+  "nome": "Estabelecimentos de saúde, por tipo de atendimento e esfera administrativa",
+  "URL": "https://sidra.ibge.gov.br/tabela/215",
+  "pesquisa": "Pesquisa de Assistência Médico-Sanitária",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1976,
+    "fim": 2005
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1665,
+      "nome": "Estabelecimentos de saúde",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001665,
+      "nome": "Estabelecimentos de saúde - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1162,
+      "nome": "Tipo de atendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109557,
+          "nome": "Com internação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109558,
+          "nome": "Sem internação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2555,
+      "nome": "Esfera administrativa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109559,
+          "nome": "Público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109560,
+          "nome": "Privado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

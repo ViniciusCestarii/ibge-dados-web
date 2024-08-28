@@ -1,0 +1,116 @@
+{
+  "id": 9301,
+  "nome": "Pessoas responsáveis pelo domicílio, por espécie da unidade doméstica e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9301",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12793,
+      "nome": "Pessoas responsáveis pelo domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12794,
+      "nome": "Coeficiente de variação - Pessoas responsáveis pelo domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12795,
+      "nome": "Distribuição percentual das pessoas responsáveis pelo domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12796,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas responsáveis pelo domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 460,
+      "nome": "Espécie de unidade doméstica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 45902,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12076,
+          "nome": "Unipessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12077,
+          "nome": "Nuclear",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12078,
+          "nome": "Estendida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12079,
+          "nome": "Composta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

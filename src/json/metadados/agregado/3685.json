@@ -1,0 +1,79 @@
+{
+  "id": 3685,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, que possuem, ou não, algum trabalho ou emprego ou negócio e receberam dinheiro, ou não, por desempenhar esta atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/3685",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Contexto socioeconômico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 559,
+      "nome": "Condição de possuir algum trabalho ou emprego ou negócio e receber dinheiro por desempenhar esta atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31108,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31109,
+          "nome": "Não trabalha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31110,
+          "nome": "Trabalha e recebe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31111,
+          "nome": "Trabalha e não recebe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": 3721,
+  "nome": "Dados percentuais de escolares frequentando o 9º ano do ensino fundamental, relativos à atitude em relação ao peso corporal, por sexo e dependência administrativa da escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/3721",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Imagem corporal, atitude em relação ao peso corporal e estado nutricional",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3445,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que vomitaram e/ou ingeriram laxantes para perder peso ou evitar ganhar peso",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3446,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que vomitaram e/ou ingeriram laxantes para perder peso ou evitar ganhar peso, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3447,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que vomitaram e/ou ingeriram laxantes para perder peso ou evitar ganhar peso, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3448,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que ingeriram medicamentos, fórmulas ou outro produto para perder ou manter o peso, sem acompanhamento médico",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3449,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que ingeriram medicamentos, fórmulas ou outro produto para perder ou manter o peso, sem acompanhamento médico, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3450,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que ingeriram medicamentos, fórmulas ou outro produto para perder ou manter o peso, sem acompanhamento médico, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3451,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que ingeriram medicamentos, fórmulas ou outro produto para ganhar peso ou massa muscular, sem acompanhamento médico",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3452,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que ingeriram medicamentos, fórmulas ou outro produto para ganhar peso ou massa muscular, sem acompanhamento médico, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3453,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que ingeriram medicamentos, fórmulas ou outro produto para ganhar peso ou massa muscular, sem acompanhamento médico, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

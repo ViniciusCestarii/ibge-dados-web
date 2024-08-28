@@ -1,0 +1,69 @@
+{
+  "id": 41,
+  "nome": "Quantidade de bovinos abatidos",
+  "URL": "https://sidra.ibge.gov.br/tabela/41",
+  "pesquisa": "Pesquisa Mensal de Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 33,
+      "nome": "Quantidade de animais abatidos",
+      "unidade": "Cabeças",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000033,
+      "nome": "Quantidade de animais abatidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 18,
+      "nome": "Tipo de rebanho bovino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 992,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 55,
+          "nome": "Bois",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56,
+          "nome": "Vacas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57,
+          "nome": "Vitelos e vitelas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

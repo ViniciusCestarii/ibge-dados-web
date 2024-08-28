@@ -1,0 +1,122 @@
+{
+  "id": 881,
+  "nome": "Domicílios particulares, por recebimento de dinheiro de programa social do governo, no mês de referência e classes de rendimento mensal domiciliar per capita",
+  "URL": "https://sidra.ibge.gov.br/tabela/881",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 800,
+      "nome": "Domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000800,
+      "nome": "Domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12380,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107474,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114502,
+          "nome": "Houve",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114503,
+          "nome": "Não houve",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12381,
+      "nome": "Classes de rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114538,
+          "nome": "Menos de 1/4 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114504,
+          "nome": "De 1/4 a menos de 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114505,
+          "nome": "De 1/2 a menos de 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114506,
+          "nome": "De 1 a menos de 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114507,
+          "nome": "2 ou mais salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107491,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107492,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

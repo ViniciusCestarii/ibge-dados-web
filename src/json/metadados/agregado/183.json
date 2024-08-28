@@ -1,0 +1,138 @@
+{
+  "id": 183,
+  "nome": "Domicílios particulares permanentes por situação e número de cômodos servindo de dormitório",
+  "URL": "https://sidra.ibge.gov.br/tabela/183",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "nome": "Número de cômodos servindo de dormitório",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1070,
+          "nome": "1 dormitório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1071,
+          "nome": "2 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1072,
+          "nome": "3 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1073,
+          "nome": "4 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1074,
+          "nome": "5 dormitórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1075,
+          "nome": "6 dormitórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1076,
+          "nome": "7 dormitórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1077,
+          "nome": "8 dormitórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1078,
+          "nome": "9 dormitórios ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

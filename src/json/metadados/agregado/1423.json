@@ -1,0 +1,85 @@
+{
+  "id": 1423,
+  "nome": "População residente, por nacionalidade",
+  "URL": "https://sidra.ibge.gov.br/tabela/1423",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 302,
+      "nome": "Nacionalidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7814,
+          "nome": "Brasileira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7857,
+          "nome": "Brasileira - nata",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12105,
+          "nome": "Brasileira - por naturalização",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12106,
+          "nome": "Estrangeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7813,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

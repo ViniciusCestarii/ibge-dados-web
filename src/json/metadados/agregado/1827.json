@@ -1,0 +1,104 @@
+{
+  "id": 1827,
+  "nome": "Número de distritos, total, com coleta de esgoto sanitário e que utilizam emissário para lançamento, por tipo de corpos receptores",
+  "URL": "https://sidra.ibge.gov.br/tabela/1827",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 760,
+      "nome": "Número de distritos com coleta de esgoto sanitário que utilizam emissário para lançamento de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000760,
+      "nome": "Número de distritos com coleta de esgoto sanitário que utilizam emissário para lançamento de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12006,
+      "nome": "Tipo de corpos receptores de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98756,
+          "nome": "Total geral de distritos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98722,
+          "nome": "Total de distritos com coleta de esgoto sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98757,
+          "nome": "Total de distritos que utilizam emissário para lançamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98724,
+          "nome": "Rio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98758,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98725,
+          "nome": "Lago ou lagoa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98726,
+          "nome": "Baía",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98727,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98728,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

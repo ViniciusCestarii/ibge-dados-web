@@ -1,0 +1,403 @@
+{
+  "id": 1397,
+  "nome": "Domicílios particulares permanentes e Moradores em domicílios particulares permanentes, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente, por classes de rendimento nominal mensal domiciliar, a situação do domicílio, o tipo de domicílio, a condição de ocupação e a existência de banheiro ou sanitário e esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/1397",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 888,
+      "nome": "Moradores em domicílios particulares permanentes, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000888,
+      "nome": "Moradores em domicílios particulares permanentes, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12065,
+      "nome": "Classes de rendimento nominal mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99829,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99830,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99831,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99832,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99833,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99834,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99835,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99836,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99837,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99838,
+          "nome": "Mais de 20 a 30 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99952,
+          "nome": "Mais de 30 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99839,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12131,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6815,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121264,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121265,
+          "nome": "Habitação em casa de cômodos, cortiço ou cabeça de porco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121266,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92873,
+          "nome": "Próprio já quitado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9893,
+          "nome": "Próprio em aquisição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1056,
+          "nome": "Cedido por empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92872,
+          "nome": "Cedido de outra forma",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2944,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2945,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2946,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2947,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2948,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2949,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2950,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2958,
+          "nome": "Tinham sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2959,
+          "nome": "Tinham sanitário - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2960,
+          "nome": "Tinham sanitário - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2961,
+          "nome": "Tinham sanitário - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2962,
+          "nome": "Tinham sanitário - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2963,
+          "nome": "Tinham sanitário - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2964,
+          "nome": "Tinham sanitário - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10006,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

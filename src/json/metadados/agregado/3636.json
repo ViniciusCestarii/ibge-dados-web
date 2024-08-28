@@ -1,0 +1,328 @@
+{
+  "id": 3636,
+  "nome": "Número de estabelecimentos agropecuários, por uso de calcário, segundo indicadores da agricultura familiar e não familiar - FAO",
+  "URL": "https://sidra.ibge.gov.br/tabela/3636",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12549,
+      "nome": "Uso de calcário e/ou outros corretivos do pH do solo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112012,
+          "nome": "Não faz aplicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112013,
+          "nome": "Fez aplicação no ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120834,
+          "nome": "Faz aplicação mas não precisou aplicar no ano",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Tipo de agricultor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 144,
+          "nome": "Familiar - tipo A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 145,
+          "nome": "Familiar - tipo B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 146,
+          "nome": "Familiar - tipo C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 147,
+          "nome": "Familiar - tipo D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 504,
+          "nome": "Agriculltor não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 154,
+          "nome": "Não classificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Tipo de agricultor não familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121449,
+          "nome": "Patronal 1",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121450,
+          "nome": "Patronal 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121451,
+          "nome": "Patronal 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121452,
+          "nome": "Instituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 505,
+          "nome": "Governo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 507,
+          "nome": "Agricultor familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 506,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Grau de especialização do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 155,
+          "nome": "Muito especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 156,
+          "nome": "Especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 158,
+          "nome": "Muito diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 157,
+          "nome": "Diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 159,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Grau de integração com o mercado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 160,
+          "nome": "Muito integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 161,
+          "nome": "Integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 162,
+          "nome": "Pouco integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 163,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Tipo de mão-de-obra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 498,
+          "nome": "Só mão-de-obra familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 499,
+          "nome": "Mão-de-obra familiar e empregado temporário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 500,
+          "nome": "Mão-de-obra familiar, empregado temporário e empregado permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 501,
+          "nome": "Mão-de-obra familiar e serviço de empreitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 502,
+          "nome": "Mão-de-obra familiar e demais combinações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 503,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

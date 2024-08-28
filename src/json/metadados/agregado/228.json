@@ -1,0 +1,255 @@
+{
+  "id": 228,
+  "nome": "Famílias residentes em domicílios particulares por situação do domicílio e número de componentes das famílias",
+  "URL": "https://sidra.ibge.gov.br/tabela/228",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 155,
+      "nome": "Famílias residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000155,
+      "nome": "Famílias residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12088,
+      "nome": "Número de componentes da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100955,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100956,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100957,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100958,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100959,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100960,
+          "nome": "6 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100962,
+          "nome": "7 a 10 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104583,
+          "nome": "7 pessoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104584,
+          "nome": "8 pessoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104585,
+          "nome": "9 pessoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104586,
+          "nome": "10 pessoas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 100963,
+          "nome": "11 pessoas ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104587,
+          "nome": "11 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104588,
+          "nome": "12 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104589,
+          "nome": "13 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104590,
+          "nome": "14 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104591,
+          "nome": "15 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104592,
+          "nome": "16 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104593,
+          "nome": "17 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104594,
+          "nome": "18 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104595,
+          "nome": "19 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104596,
+          "nome": "20 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104597,
+          "nome": "21 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104598,
+          "nome": "22 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104599,
+          "nome": "23 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104600,
+          "nome": "24 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104601,
+          "nome": "25 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 104602,
+          "nome": "26 pessoas ou mais",
+          "unidade": null,
+          "nivel": 4
+        }
+      ]
+    }
+  ]
+}

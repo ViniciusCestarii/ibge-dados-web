@@ -1,0 +1,141 @@
+{
+  "id": 5206,
+  "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5206",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5478,
+      "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5479,
+      "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5480,
+      "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5481,
+      "nome": "Coeficiente de variação - Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5482,
+      "nome": "Percentual de Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, em relação as que tiveram atendimento de urgência no domicílio, através do Sistema Único de Saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5483,
+      "nome": "Percentual de Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, em relação as que tiveram atendimento de urgência no domicílio, através do Sistema Único de Saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5484,
+      "nome": "Percentual de Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, em relação as que tiveram atendimento de urgência no domicílio, através do Sistema Único de Saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5485,
+      "nome": "Coeficiente de variação - Percentual de Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, através do Sistema Único de Saúde, e a avaliação do atendimento foi boa ou muito boa, em relação as que tiveram atendimento de urgência no domicílio, através do Sistema Único de Saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

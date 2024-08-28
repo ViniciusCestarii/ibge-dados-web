@@ -1,0 +1,139 @@
+{
+  "id": 7968,
+  "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico, por condição em relação à força de trabalho na semana de referência e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7968",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 11208,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11209,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11210,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11211,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11212,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11213,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11214,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11215,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de câncer, exceto câncer de pele não melanônico",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 653,
+      "nome": "Condição em relação à força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32862,
+          "nome": "Na força de trabalho - Ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32863,
+          "nome": "Na força de trabalho - Desocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32864,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

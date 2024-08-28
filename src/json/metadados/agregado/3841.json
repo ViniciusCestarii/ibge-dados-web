@@ -1,0 +1,129 @@
+{
+  "id": 3841,
+  "nome": "Índice e variação da receita nominal e do volume de serviços, por atividades de serviços (2011 = 100 - série encerrada em dezembro de 2016)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3841",
+  "pesquisa": "Pesquisa Mensal de Serviços",
+  "assunto": "Serviços",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 201201,
+    "fim": 201612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3797,
+      "nome": "Índice de receita nominal de serviços (Base: Média de 2011 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3798,
+      "nome": "Variação mês/igual mês do ano anterior da receita nominal de serviços (Base: Igual mês do ano anterior = 100)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3799,
+      "nome": "Variação acumulada no ano da receita nominal de serviços (Base: Igual período do ano anterior = 100)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3800,
+      "nome": "Variação acumulada em 12 meses da receita nominal de serviços (Base: 12 meses imediatamente anteriores aos 12 últimos meses = 100)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6969,
+      "nome": "Variação trimestral móvel da receita nominal de serviços",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3801,
+      "nome": "Índice de volume de serviços (Base: média de 2011 = 100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 3802,
+      "nome": "Variação mês/igual mês do ano anterior do volume de serviços (Base: Igual mês do ano anterior = 100)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3803,
+      "nome": "Variação acumulada no ano do volume de serviços (Base: Igual período do ano anterior = 100)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3804,
+      "nome": "Variação acumulada em 12 meses do volume de serviços (Base: 12 meses imediatamente anteriores aos 12 últimos meses = 100)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6972,
+      "nome": "Variação trimestral móvel do volume de serviços",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12355,
+      "nome": "Atividades de serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107071,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 106869,
+          "nome": "1. Serviços prestados às famílias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106874,
+          "nome": "2. Serviços de informação e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31399,
+          "nome": "3. Serviços profissionais, administrativos e complementares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 106876,
+          "nome": "4. Transportes, serviços auxiliares aos transportes e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31426,
+          "nome": "5. Outros serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

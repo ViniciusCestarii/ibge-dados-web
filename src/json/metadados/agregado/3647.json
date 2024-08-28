@@ -1,0 +1,324 @@
+{
+  "id": 3647,
+  "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12, total e de 14 anos e mais, sem laço de parentesco com o produtor, por condição dos empregados e sexo, segundo o grau de especialização do estabelecimento e outros indicadores da agricultura familiar e não familiar - FAO",
+  "URL": "https://sidra.ibge.gov.br/tabela/3647",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2008,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 sem laço de parentesco com o produtor",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002008,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 sem laço de parentesco com o produtor - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2054,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 com 14 anos e mais de idade e sem laço de parentesco com o produtor",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002054,
+      "nome": "Pessoal ocupado em estabelecimentos agropecuários em 31/12 com 14 anos e mais de idade e sem laço de parentesco com o produtor - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12614,
+      "nome": "Condição dos empregados",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113731,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113732,
+          "nome": "Empregados permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113733,
+          "nome": "Empregados temporários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113734,
+          "nome": "Empregados parceiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113735,
+          "nome": "Empregados em outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Tipo de agricultor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 144,
+          "nome": "Familiar - tipo A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 145,
+          "nome": "Familiar - tipo B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 146,
+          "nome": "Familiar - tipo C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 147,
+          "nome": "Familiar - tipo D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 504,
+          "nome": "Agriculltor não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 154,
+          "nome": "Não classificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Tipo de agricultor não familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121449,
+          "nome": "Patronal 1",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121450,
+          "nome": "Patronal 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121451,
+          "nome": "Patronal 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121452,
+          "nome": "Instituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 505,
+          "nome": "Governo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 507,
+          "nome": "Agricultor familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 506,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Grau de especialização do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 155,
+          "nome": "Muito especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 156,
+          "nome": "Especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 158,
+          "nome": "Muito diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 157,
+          "nome": "Diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 159,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Grau de integração com o mercado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 160,
+          "nome": "Muito integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 161,
+          "nome": "Integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 162,
+          "nome": "Pouco integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 163,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

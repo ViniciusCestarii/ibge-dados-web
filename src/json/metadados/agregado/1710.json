@@ -1,0 +1,83 @@
+{
+  "id": 1710,
+  "nome": "Número de municípios com serviços de coleta seletiva, por aplicação dos recursos provenientes da coleta seletiva",
+  "URL": "https://sidra.ibge.gov.br/tabela/1710",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1230,
+      "nome": "Número de municípios com serviço de coleta seletiva",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001230,
+      "nome": "Número de municípios com serviço de coleta seletiva - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 353,
+      "nome": "Aplicação dos recursos provenientes da coleta seletiva",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8180,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8181,
+          "nome": "Manutenção da coleta seletiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8182,
+          "nome": "Atividades socioculturais e assistenciais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8183,
+          "nome": "Atividades de produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8184,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

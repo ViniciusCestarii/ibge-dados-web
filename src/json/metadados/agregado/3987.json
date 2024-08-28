@@ -1,0 +1,113 @@
+{
+  "id": 3987,
+  "nome": "População residente, por frequência à escola ou creche e rede de ensino que frequentavam e tipo do setor - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/3987",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 465,
+      "nome": "Frequência à escola ou creche e rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12114,
+          "nome": "Frequentavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12115,
+          "nome": "Frequentavam - rede de ensino pública",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12116,
+          "nome": "Frequentavam - rede de ensino particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12117,
+          "nome": "Não frequentavam, mas já frequentaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12118,
+          "nome": "Nunca frequentaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "nome": "Tipo do setor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110,
+          "nome": "Aglomerados subnormais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": 2498,
+  "nome": "Pessoas que normalmente procuravam o mesmo serviço de saúde quando precisavam de atendimento de saúde, por tipo de serviço normalmente procurado, sexo, grupos de idade e classes de rendimento mensal familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/2498",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1334,
+      "nome": "Pessoas que normalmente procuravam o mesmo serviço de saúde quando precisavam de atendimento de saúde",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001334,
+      "nome": "Pessoas que normalmente procuravam o mesmo serviço de saúde quando precisavam de atendimento de saúde - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12265,
+      "nome": "Tipo de serviço normalmente procurado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104925,
+          "nome": "Posto ou centro de saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104926,
+          "nome": "Consultório particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104927,
+          "nome": "Ambulatório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104928,
+          "nome": "Pronto-socorro ou emergência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104929,
+          "nome": "Farmácia, agente comunitário de saúde ou outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104930,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104893,
+          "nome": "0 a 18 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104894,
+          "nome": "19 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104895,
+          "nome": "40 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6798,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3245,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12057,
+      "nome": "Classes de rendimento mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99569,
+          "nome": "Até 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99570,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99571,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99572,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99573,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99574,
+          "nome": "Mais de 10 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99575,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99576,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99577,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

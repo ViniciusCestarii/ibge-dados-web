@@ -1,0 +1,89 @@
+{
+  "id": 1441,
+  "nome": "Número de municípios com serviço de coleta seletiva por área de abrangência",
+  "URL": "https://sidra.ibge.gov.br/tabela/1441",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1230,
+      "nome": "Número de municípios com serviço de coleta seletiva",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001230,
+      "nome": "Número de municípios com serviço de coleta seletiva - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11468,
+      "nome": "Área de abrangência da coleta seletiva",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8867,
+          "nome": "Total com serviço de coleta seletiva",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91795,
+          "nome": "Todo o munícipio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118113,
+          "nome": "Toda a área urbana da sede municipal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118114,
+          "nome": "Exclusivamente alguns bairros da área urbana da sede municipal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91797,
+          "nome": "Bairros selecionados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91798,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

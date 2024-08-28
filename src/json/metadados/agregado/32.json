@@ -1,0 +1,59 @@
+{
+  "id": 32,
+  "nome": "Custo médio m² em variação percentual, por tipo de índice (série encerrada em abril de 2004)",
+  "URL": "https://sidra.ibge.gov.br/tabela/32",
+  "pesquisa": "Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil",
+  "assunto": "Construção civil",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 199001,
+    "fim": 200404
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 50,
+      "nome": "Custo médio m² em variação percentual",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 39,
+      "nome": "Tipo de índice(SINAPI)",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 783,
+          "nome": "Mensal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 784,
+          "nome": "No ano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 785,
+          "nome": "Nos últimos 12 meses",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

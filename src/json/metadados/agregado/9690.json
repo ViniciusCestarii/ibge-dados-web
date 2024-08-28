@@ -1,0 +1,88 @@
+{
+  "id": 9690,
+  "nome": "Consumo intermediário de água de distribuição e de serviços de esgoto, por atividades econômicas",
+  "URL": "https://sidra.ibge.gov.br/tabela/9690",
+  "pesquisa": "Contas Econômicas Ambientais da Água",
+  "assunto": "Meio ambiente",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2018,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10702,
+      "nome": "Consumo intermediário de água de distribuição",
+      "unidade": "Milhões de Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 10703,
+      "nome": "Consumo intermediário de serviços de esgoto",
+      "unidade": "Milhões de Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12826,
+      "nome": "Atividades econômicas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118442,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48475,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48477,
+          "nome": "Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48478,
+          "nome": "Indústrias de transformação e construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48479,
+          "nome": "Eletricidade e gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48480,
+          "nome": "Água e esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48481,
+          "nome": "Demais atividades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

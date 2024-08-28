@@ -1,0 +1,157 @@
+{
+  "id": 7667,
+  "nome": "Pessoas de 18 anos ou mais de idade, por grupo de idade e avaliação do estado de saúde",
+  "URL": "https://sidra.ibge.gov.br/tabela/7667",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Percepção do estado de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2667,
+      "nome": "Pessoas de 18 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4771,
+      "nome": "Pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4772,
+      "nome": "Pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4776,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10985,
+      "nome": "Distribuição percentual das pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10986,
+      "nome": "Distribuição percentual das pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10987,
+      "nome": "Distribuição percentual das pessoas de 18 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10988,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 18 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33061,
+          "nome": "18 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33062,
+          "nome": "30 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1152,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33063,
+          "nome": "65 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33064,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12258,
+      "nome": "Avaliação do estado de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10011,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104864,
+          "nome": "Muito bom e bom",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104865,
+          "nome": "Regular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104866,
+          "nome": "Ruim e muito ruim",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

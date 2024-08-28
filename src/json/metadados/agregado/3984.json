@@ -1,0 +1,107 @@
+{
+  "id": 3984,
+  "nome": "Pessoas de 10 anos ou mais de idade, que viviam em união conjugal, por natureza da união conjugal e tipo do setor - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/3984",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Nupcialidade e fecundidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 693,
+      "nome": "Pessoas de 10 anos ou mais de idade que viviam em união conjugal",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000693,
+      "nome": "Pessoas de 10 anos ou mais de idade que viviam em união conjugal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1598,
+      "nome": "Natureza da união conjugal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99812,
+          "nome": "Casamento civil e religioso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99813,
+          "nome": "Somente casamento civil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99814,
+          "nome": "Somente casamento religioso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99815,
+          "nome": "União consensual",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "nome": "Tipo do setor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110,
+          "nome": "Aglomerados subnormais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

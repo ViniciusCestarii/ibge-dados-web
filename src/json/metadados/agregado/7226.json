@@ -1,0 +1,104 @@
+{
+  "id": 7226,
+  "nome": "Pessoas que não frequentam escola e que concluíram ao menos o ensino superior, por cor ou raça e conclusão de curso técnico de nível médio ou normal (magistério)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7226",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10326,
+      "nome": "Pessoas que não frequentam escola e que concluíram ao menos o ensino superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10327,
+      "nome": "Coeficiente de variação - Pessoas que não frequentam escola e que concluíram ao menos o ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10328,
+      "nome": "Distribuição das pessoas que não frequentam escola e que concluíram ao menos o ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10329,
+      "nome": "Coeficiente de variação - Distribuição das pessoas que não frequentam escola e que concluíram ao menos o ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "nome": "Conclusão do curso técnico de nível médio ou normal (magistério)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47983,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47982,
+          "nome": "Concluiu curso técnico de nível médio ou curso normal (magistério)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48004,
+          "nome": "Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

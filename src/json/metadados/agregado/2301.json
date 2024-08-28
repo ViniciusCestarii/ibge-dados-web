@@ -1,0 +1,98 @@
+{
+  "id": 2301,
+  "nome": "Número de municípios, total e os com serviços de manejo de resíduos sólidos, por natureza dos serviços",
+  "URL": "https://sidra.ibge.gov.br/tabela/2301",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2646,
+      "nome": "Natureza dos serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103366,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103367,
+          "nome": "Total de municípios com os serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103368,
+          "nome": "Limpeza urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103369,
+          "nome": "Coleta de lixo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103370,
+          "nome": "Coleta seletiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103371,
+          "nome": "Reciclagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103372,
+          "nome": "Remoção de entulhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103373,
+          "nome": "Coleta de lixo especial",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

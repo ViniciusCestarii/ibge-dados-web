@@ -1,0 +1,340 @@
+{
+  "id": 8536,
+  "nome": "Municípios, total e atingidos por enchentes ou inundações graduais, enchurradas ou inundações bruscas ou escorregamentos ou deslizamenrtos de encostas nos últimos 4 anos, por algumas características dos desastres naturais e por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/8536",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12443,
+      "nome": "Municípios atingidos por enchentes ou inundações graduais nos últimos 4 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12444,
+      "nome": "Municípios atingidos por enchurradas ou inundações bruscas nos últimos 4 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12445,
+      "nome": "Municípios atingidos por escorregamentos ou deslizamentos de encostas nos últimos 4 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1210,
+      "nome": "Ano do desastre natural de maior impacto para o município",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50868,
+          "nome": "2017",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50869,
+          "nome": "2018",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50870,
+          "nome": "2019",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50871,
+          "nome": "2020",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57733,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57734,
+          "nome": "Não possui informação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "nome": "Existência de edificações atingidas no ano do desastre natural de maior impacto para o município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50872,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50873,
+          "nome": "Com edificações atingidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50874,
+          "nome": "Área atingida - Urbana",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50875,
+          "nome": "Área atingida - Rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50876,
+          "nome": "Área atingida - Urbana e rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50877,
+          "nome": "Área atingida - Não sabe",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50878,
+          "nome": "Sem edificações atingidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50879,
+          "nome": "Não sabe informar se edificações foram atingidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57735,
+          "nome": "Não possui informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1212,
+      "nome": "Existência de pessoas desalojadas ou desabrigadas no ano do desastre natural de maior impacto para o município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50880,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50881,
+          "nome": "Com pessoas desalojadas ou desabrigadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50882,
+          "nome": "Área atingida - Urbana",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50883,
+          "nome": "Área atingida - Rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50884,
+          "nome": "Área atingida - Urbana e rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50885,
+          "nome": "Área atingida - Não sabe",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50886,
+          "nome": "Sem pessoas desalojadas ou desabrigadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50887,
+          "nome": "Não sabe informar se houve pessoas desalojadas ou desabrigadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57736,
+          "nome": "Não possui informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1213,
+      "nome": "Ocorrência de óbitos no ano do desastre natural de maior impacto para o município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50888,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50889,
+          "nome": "Com ocorrência de óbitos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50890,
+          "nome": "Área atingida - Urbana",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50891,
+          "nome": "Área atingida - Rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50892,
+          "nome": "Área atingida - Urbana e rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50893,
+          "nome": "Área atingida - Não sabe",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50894,
+          "nome": "Sem ocorrência de óbitos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50895,
+          "nome": "Não sabe informar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57737,
+          "nome": "Não possui informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

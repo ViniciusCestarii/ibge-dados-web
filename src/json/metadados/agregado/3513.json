@@ -1,0 +1,314 @@
+{
+  "id": 3513,
+  "nome": "Domicílios particulares permanentes e Moradores em Domicílios particulares permanentes por adequação da moradia, segundo o tipo de domicílio, a condição de ocupação do domicílio, o tipo de material das paredes externas e a existência de energia elétrica",
+  "URL": "https://sidra.ibge.gov.br/tabela/3513",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12236,
+      "nome": "Adequação da moradia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104567,
+          "nome": "Adequada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104568,
+          "nome": "Semi-adequada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104569,
+          "nome": "Inadequada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6815,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121264,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121265,
+          "nome": "Habitação em casa de cômodos, cortiço ou cabeça de porco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121266,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92873,
+          "nome": "Próprio já quitado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9893,
+          "nome": "Próprio em aquisição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "nome": "Tipo de material das paredes externas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12193,
+          "nome": "Alvenaria com revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12194,
+          "nome": "Alvenaria sem revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2872,
+          "nome": "Madeira aparelhada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12195,
+          "nome": "Taipa revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2873,
+          "nome": "Taipa não revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12196,
+          "nome": "Madeira aproveitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2875,
+          "nome": "Palha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2876,
+          "nome": "Outro material",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13226,
+          "nome": "Sem parede",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3012,
+          "nome": "Tinham - de companhia distribuidora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3013,
+          "nome": "Tinham - de companhia distribuidora - com medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3016,
+          "nome": "Tinham - de companhia distribuidora - sem medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3017,
+          "nome": "Tinham - de outra fonte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

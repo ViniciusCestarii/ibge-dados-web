@@ -1,0 +1,92 @@
+{
+  "id": 2257,
+  "nome": "Número de municípios, total e os que possuem sistema de drenagem superficial nas ruas pavimentadas, por percentual de ruas pavimentadas com drenagem superficial",
+  "URL": "https://sidra.ibge.gov.br/tabela/2257",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1181,
+      "nome": "Municípios que possuem sistema de drenagem superficial nas ruas pavimentadas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001181,
+      "nome": "Municípios que possuem sistema de drenagem superficial nas ruas pavimentadas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12145,
+      "nome": "Percentual de ruas pavimentadas com drenagem superficial",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101410,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101411,
+          "nome": "Total de municípios que possuem sistema de drenagem superficial nas ruas pavimentadas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101412,
+          "nome": "Até 25%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101413,
+          "nome": "Mais de 25 a 50%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101414,
+          "nome": "Mais de 50 a 75%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101415,
+          "nome": "Mais de 75 a 100%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101416,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

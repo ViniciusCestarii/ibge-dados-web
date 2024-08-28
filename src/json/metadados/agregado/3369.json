@@ -1,0 +1,276 @@
+{
+  "id": 3369,
+  "nome": "Número de estabelecimentos agropecuários que realizaram despesas no ano e Valor das despesas realizadas no ano, por tipo de despesa, sexo do dirigente e residência da pessoa que dirige o estabelecimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/3369",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2,
+      "nome": "Número de estabelecimentos agropecuários que realizaram despesas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000002,
+      "nome": "Número de estabelecimentos agropecuários que realizaram despesas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1996,
+      "nome": "Valor das despesas realizadas pelos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001996,
+      "nome": "Valor das despesas realizadas pelos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 210,
+      "nome": "Tipo de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111957,
+          "nome": "Arrendamento de terras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111958,
+          "nome": "Serviços de empreitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111959,
+          "nome": "Salários pagos em dinheiro ou produtos para família",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116229,
+          "nome": "Salários pagos em dinheiro ou produtos para empregados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111960,
+          "nome": "Adubos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111961,
+          "nome": "Corretivos do solo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111962,
+          "nome": "Sementes e mudas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111963,
+          "nome": "Sacarias e embalagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116712,
+          "nome": "Compra de animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111966,
+          "nome": "Agrotóxicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111967,
+          "nome": "Medicamentos para animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111968,
+          "nome": "Sal e rações (industrializados ou não-industrializados)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111969,
+          "nome": "Compra de matéria-prima para agroindústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111971,
+          "nome": "Armazenamento da produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111972,
+          "nome": "Transporte da produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111973,
+          "nome": "Impostos, taxas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111974,
+          "nome": "Juros e despesas bancárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111975,
+          "nome": "Aluguel de máquina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5497,
+          "nome": "Energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118125,
+          "nome": "Combustíveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111976,
+          "nome": "Outras despesas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "nome": "Sexo da pessoa que dirige o estabelecimento (produtor ou administrador)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112643,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112644,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12553,
+      "nome": "Residência da pessoa que dirige o estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112063,
+          "nome": "No estabelecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112064,
+          "nome": "No município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112065,
+          "nome": "No município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112066,
+          "nome": "Em outro município - zona urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112067,
+          "nome": "Em outro município - zona rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

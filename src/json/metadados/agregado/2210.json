@@ -1,0 +1,111 @@
+{
+  "id": 2210,
+  "nome": "Receita operacional líquida das empresas de transporte ferroviário/metroviário com 20 ou mais pessoas ocupadas, segundo os produtos/serviços prestados",
+  "URL": "https://sidra.ibge.gov.br/tabela/2210",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Transportes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1146,
+      "nome": "Valor da receita operacional líquida",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1147,
+      "nome": "Percentual total da receita operacional líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12121,
+      "nome": "Produtos ou serviços prestados",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101025,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101060,
+          "nome": "Transporte ferroviário intramunicipal e intermunicipal de passageiros (urbano e suburbano)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101061,
+          "nome": "Transporte metroviário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101062,
+          "nome": "Transporte ferroviário de cargas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101063,
+          "nome": "Transporte ferroviário de cargas - cargas líquidas ou gasosas em vagões tanques",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101064,
+          "nome": "Transporte ferroviário de cargas - cargas sólidas a granel (cereais, areia, brita, minérios, cimento, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101065,
+          "nome": "Transporte ferroviário de cargas - cargas secas (produtos manufaturados, ensacados ou embalados)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101066,
+          "nome": "Transporte ferroviário de cargas - cargas acondicionadas em containers",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101067,
+          "nome": "Outros serviços (arrendamento e locação de instalações, etc.)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

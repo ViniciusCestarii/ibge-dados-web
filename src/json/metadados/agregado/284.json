@@ -1,0 +1,446 @@
+{
+  "id": 284,
+  "nome": "Municípios por classe de tamanho da população, sexo, idade, nível de instrução e partido político do prefeito, e indicativo se o prefeito exercia mandato no último ano da legislatura anterior",
+  "URL": "https://sidra.ibge.gov.br/tabela/284",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Informações básicas municipais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2005
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000603,
+      "nome": "Número de municípios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12449,
+      "nome": "Sexo do prefeito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110137,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110138,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12450,
+      "nome": "Grupos de idade do prefeito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110139,
+          "nome": "De 18 a 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110140,
+          "nome": "De 26 a 40 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110141,
+          "nome": "De 41 a 60 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110142,
+          "nome": "Mais de 60 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110143,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12451,
+      "nome": "Nível de instrução do prefeito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110144,
+          "nome": "Fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110145,
+          "nome": "Fundamental completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110146,
+          "nome": "Médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110147,
+          "nome": "Médio completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110148,
+          "nome": "Superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110149,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110150,
+          "nome": "Pós-graduação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12447,
+      "nome": "Partido político do prefeito",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110106,
+          "nome": "PP",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110107,
+          "nome": "PDT",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110108,
+          "nome": "PT",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110109,
+          "nome": "PTB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110110,
+          "nome": "PMDB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110111,
+          "nome": "PSTU",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110112,
+          "nome": "PSL",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110113,
+          "nome": "PTN",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110114,
+          "nome": "PSC",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110115,
+          "nome": "PCB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110116,
+          "nome": "PL",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110117,
+          "nome": "PPS",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110118,
+          "nome": "PFL",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110119,
+          "nome": "PAN",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110120,
+          "nome": "PSDC",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110121,
+          "nome": "PRTB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110122,
+          "nome": "PCO",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110123,
+          "nome": "PHS",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110124,
+          "nome": "PMN",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110125,
+          "nome": "PTC",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110126,
+          "nome": "PSB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110127,
+          "nome": "PV",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110128,
+          "nome": "PRP",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110129,
+          "nome": "PSDB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110130,
+          "nome": "PRONA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110131,
+          "nome": "PC do B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110132,
+          "nome": "PT do B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110133,
+          "nome": "Sem partido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110134,
+          "nome": "Outra situação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12448,
+      "nome": "Indicativo se o prefeito exercia mandato no último ano da legislatura anterior",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110135,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110136,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

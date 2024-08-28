@@ -1,0 +1,179 @@
+{
+  "id": 3700,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de consumo alimentar, nos últimos 7 dias, dos alimentos pesquisados, por condição do alimento quanto à saúde e alimento consumido, e frequência de consumo alimentar, nos últimos sete dias",
+  "URL": "https://sidra.ibge.gov.br/tabela/3700",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Alimentação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3343,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de consumo alimentar dos alimentos pesquisados, nos últimos 7 dias",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3344,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de consumo alimentar dos alimentos pesquisados, nos últimos 7 dias, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3345,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de consumo alimentar dos alimentos pesquisados, nos últimos 7 dias, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 564,
+      "nome": "Condição do alimento quanto à saúde e alimento consumido",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31139,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31141,
+          "nome": "Saudável - Feijão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31142,
+          "nome": "Saudável - Hortaliças",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31143,
+          "nome": "Saudável - Frutas frescas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31144,
+          "nome": "Saudável - Leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31146,
+          "nome": "Não saudável - Guloseimas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31147,
+          "nome": "Não saudável - Salgados fritos (inclui batata frita)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31148,
+          "nome": "Não saudável - Embutidos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31149,
+          "nome": "Não saudável - Biscoitos salgados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31150,
+          "nome": "Não saudável - Biscoitos doces",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31151,
+          "nome": "Não saudável - Salgadinhos de pacotes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31152,
+          "nome": "Não saudável - Refrigerantes",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "nome": "Frequência de consumo alimentar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31159,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31153,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31154,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31155,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31156,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31157,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31158,
+          "nome": "5 dias ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

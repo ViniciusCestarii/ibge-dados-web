@@ -1,0 +1,83 @@
+{
+  "id": 8896,
+  "nome": "Crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses, por principal motivo da última consulta médica",
+  "URL": "https://sidra.ibge.gov.br/tabela/8896",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Atenção primária à saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12742,
+      "nome": "Crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12743,
+      "nome": "Coeficiente de variação - Crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12744,
+      "nome": "Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12745,
+      "nome": "Coeficiente de variação - Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum tipo de atendimento médico nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1476,
+      "nome": "Principal motivo da útima consulta médica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58198,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58199,
+          "nome": "Consulta de rotina (revisão, check-up, acompanhamento do crescimento e desenvolvimento)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58200,
+          "nome": "Problemas respiratórios ou de garganta (gripe, sinusite, amigdalite,faringite, asma, bronquite, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58205,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

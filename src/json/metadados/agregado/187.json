@@ -1,0 +1,80 @@
+{
+  "id": 187,
+  "nome": "Número de municípios, total e os com manejo de resíduos sólidos, por existência de catadores nas unidades de disposição de resíduos no solo",
+  "URL": "https://sidra.ibge.gov.br/tabela/187",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2594,
+      "nome": "Municípios com manejo de residuos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002594,
+      "nome": "Municípios com manejo de residuos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12961,
+      "nome": "Existência de catadores nas unidades de disposição de resíduos no solo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120911,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120912,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120913,
+          "nome": "Existem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120914,
+          "nome": "Não existem",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

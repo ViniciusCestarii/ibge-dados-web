@@ -1,0 +1,92 @@
+{
+  "id": 9698,
+  "nome": "Rendimento médio mensal real domiciliar per capita, por situação do domicílio e existência de dispositivo inteligente no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9698",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4196,
+      "nome": "Rendimento médio mensal real domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4197,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1704,
+      "nome": "Existência de dispositivo inteligente no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59918,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59919,
+          "nome": "Havia dispositivo inteligente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59920,
+          "nome": "Não havia dispositivo inteligente",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

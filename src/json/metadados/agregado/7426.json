@@ -1,0 +1,107 @@
+{
+  "id": 7426,
+  "nome": "População residente com rendimento, por tipo de rendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7426",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10486,
+      "nome": "População residente com rendimento",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10488,
+      "nome": "Coeficiente de variação - População residente com rendimento",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10925,
+      "nome": "Percentual de pessoas com rendimento na população residente",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10926,
+      "nome": "Coeficiente de variação - Percentual de pessoas com rendimento na população residente",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11308,
+      "nome": "Tipo de rendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49204,
+          "nome": "Todas as fontes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49205,
+          "nome": "Habitualmente recebido em todos os trabalhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49206,
+          "nome": "Efetivamente recebido em todos os trabalhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49207,
+          "nome": "Outras fontes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49208,
+          "nome": "Aposentadoria e pensão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49209,
+          "nome": "Aluguel e arrendamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49210,
+          "nome": "Pensão alimentícia, doação e mesada de não morador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49211,
+          "nome": "Outros rendimentos",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

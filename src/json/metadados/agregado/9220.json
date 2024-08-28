@@ -1,0 +1,226 @@
+{
+  "id": 9220,
+  "nome": "Número de estabelecimentos agropecuários com tratores e Número de tratores existentes nos estabelecimentos agropecuários, por existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar, potência dos tratores, sexo do produtor e classe de idade do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/9220",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1918,
+      "nome": "Número de estabelecimentos agropecuários com tratores",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1862,
+      "nome": "Número de tratores existentes nos estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1503,
+      "nome": "Existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58747,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58748,
+          "nome": "Com dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58749,
+          "nome": "Com dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58750,
+          "nome": "Com dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58751,
+          "nome": "Sem dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58752,
+          "nome": "Sem dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58753,
+          "nome": "Sem dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58754,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12605,
+      "nome": "Potência dos tratores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113521,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113522,
+          "nome": "Menos de 100 cv",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113523,
+          "nome": "De 100 cv e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41146,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 45951,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46437,
+          "nome": "De 65 a menos de 75 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46501,
+          "nome": "De 75 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47177,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

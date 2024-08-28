@@ -1,0 +1,92 @@
+{
+  "id": 6863,
+  "nome": "Indicador 5.b.1 - Percentual de pessoas de 10 anos ou mais de idade tinham telefone móvel celular para uso pessoal, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/6863",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Igualdade de gênero",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5039,
+      "nome": "Percentual de pessoas de 10 anos ou mais de idade que tinham telefone móvel celular para uso pessoal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5635,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 10 anos ou mais de idade que tinham telefone móvel celular para uso pessoal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

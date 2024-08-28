@@ -1,0 +1,98 @@
+{
+  "id": 6446,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão, por situação do domicílio e recepção de sinal analógico ou digital de televisão aberta",
+  "URL": "https://sidra.ibge.gov.br/tabela/6446",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4198,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4199,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1702,
+      "nome": "Recepção de sinal de televisão aberta",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59905,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59906,
+          "nome": "Recebiam sinal analógico ou digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59907,
+          "nome": "Não recebiam sinal analógico ou digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59908,
+          "nome": "Não sabiam se recebiam sinal de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

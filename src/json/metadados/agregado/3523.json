@@ -1,0 +1,212 @@
+{
+  "id": 3523,
+  "nome": "Famílias únicas e conviventes principais, com responsável e cônjuge ou companheiro(a), residentes em domicílios particulares, por sexo da pessoa responsável e existência de rendimento, segundo o número de filhos menores de 10 anos ou não economicamente ativos e as classes de rendimento nominal mensal familiar per capita das famílias com responsável e cônjuge ou companheiro(a)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3523",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1684,
+      "nome": "Famílias únicas e conviventes principais, com responsável e cônjuge ou companheiro(a), residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001684,
+      "nome": "Famílias únicas e conviventes principais, com responsável e cônjuge ou companheiro(a), residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11807,
+      "nome": "Sexo da pessoa responsável pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95418,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95419,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "nome": "Existência de rendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 13453,
+          "nome": "Ambos com rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13454,
+          "nome": "Responsável com rendimento e cônjuge ou companheiro(a) sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13455,
+          "nome": "Responsável sem rendimento e cônjuge ou companheiro(a) com rendimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13456,
+          "nome": "Ambos sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "nome": "Número de filhos menores de 10 anos ou não economicamente ativos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 13697,
+          "nome": "Nenhum filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13698,
+          "nome": "1 filho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13699,
+          "nome": "2 filhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13700,
+          "nome": "3 filhos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "nome": "Classes de rendimento nominal mensal familiar per capita das famílias com responsável e cônjuge ou companheiro(a)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 13458,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13459,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13460,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13461,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13462,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13463,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13464,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 880,
+  "nome": "Domicílios particulares e Moradores em domicílios particulares, por tipo de programa social do governo e recebimento de dinheiro de programa social do governo, no mês de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/880",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 800,
+      "nome": "Domicílios particulares",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000800,
+      "nome": "Domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 134,
+      "nome": "Pessoas residentes em domicílios particulares",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000134,
+      "nome": "Pessoas residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12674,
+      "nome": "Tipo de programa social do governo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114493,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114494,
+          "nome": "Bolsa-Família",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114495,
+          "nome": "Benefício Assistencial de Prestação Continuada - BPC",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114496,
+          "nome": "Programa de Erradicação do Trabalho Infantil - PETI",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114497,
+          "nome": "Outro programa social",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12380,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114502,
+          "nome": "Houve",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114503,
+          "nome": "Não houve",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107480,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

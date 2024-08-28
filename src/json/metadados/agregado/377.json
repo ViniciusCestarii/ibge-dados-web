@@ -1,0 +1,253 @@
+{
+  "id": 377,
+  "nome": "Famílias residentes em domicílios particulares por grupos de idade do chefe da família, número de componentes das famílias e sexo do chefe da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/377",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 155,
+      "nome": "Famílias residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000155,
+      "nome": "Famílias residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 282,
+      "nome": "Grupos de idade do chefe da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6758,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6759,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6760,
+          "nome": "15 a 17 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6761,
+          "nome": "18 a 19 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 6762,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6763,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6764,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6765,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6766,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6767,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6768,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6769,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6770,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6771,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6772,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6773,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6774,
+          "nome": "80 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "nome": "Número de pessoas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2889,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2890,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2891,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2892,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2893,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2894,
+          "nome": "6 pessoas",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 2895,
+          "nome": "7 a 10 pessoas",
+          "unidade": null,
+          "nivel": 7
+        },
+        {
+          "id": 2896,
+          "nome": "11 a 14 pessoas",
+          "unidade": null,
+          "nivel": 7
+        },
+        {
+          "id": 2897,
+          "nome": "15 pessoas ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "nome": "Sexo do responsável pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6197,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6198,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

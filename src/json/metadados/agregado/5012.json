@@ -1,0 +1,133 @@
+{
+  "id": 5012,
+  "nome": "Pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5012",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5494,
+      "nome": "Pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5495,
+      "nome": "Pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5496,
+      "nome": "Pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5497,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5498,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5499,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5500,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5501,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que já se sentiram discriminadas no serviço de saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

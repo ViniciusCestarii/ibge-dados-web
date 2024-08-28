@@ -1,0 +1,172 @@
+{
+  "id": 3604,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país, por tempo habitual de deslocamento do domicílio para o trabalho principal, segundo a situação do domicílio e os grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3604",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2019,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002019,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, que, no trabalho principal, trabalhavam fora do domicílio e retornavam diariamente do trabalho para o domicílio, exclusive as pessoas que, no trabalho principal, trabalhavam em mais de um município ou país - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 537,
+      "nome": "Tempo habitual de deslocamento do domicílio para o trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 19429,
+          "nome": "Até cinco minutos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19430,
+          "nome": "De seis minutos até meia hora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19431,
+          "nome": "Mais de meia hora até uma hora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19432,
+          "nome": "Mais de uma hora até duas horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 19433,
+          "nome": "Mais de duas horas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12045,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99401,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99958,
+          "nome": "15 a 29 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99959,
+          "nome": "30 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99403,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99404,
+          "nome": "45 a 48 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99405,
+          "nome": "49 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

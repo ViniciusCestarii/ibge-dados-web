@@ -1,0 +1,168 @@
+{
+  "id": 355,
+  "nome": "Pessoas de 10 anos ou mais de idade, por situação, sexo e naturalidade em relação ao município e à Unidade da Federação e condição de economicamente ativa e de ocupada na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/355",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000140,
+      "nome": "Pessoas de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12017,
+      "nome": "Naturalidade em relação ao município e à unidade da federação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99007,
+          "nome": "Naturais do município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99009,
+          "nome": "Não naturais do município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110986,
+          "nome": "Naturais da unidade da federação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110987,
+          "nome": "Não naturais da unidade da federação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110988,
+          "nome": "Sem declaração de naturalidade em relação ao município ou à unidade da federação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12494,
+      "nome": "Condição de economicamente ativa e de ocupada na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110991,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110989,
+          "nome": "Economicamente ativas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110990,
+          "nome": "Ocupadas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

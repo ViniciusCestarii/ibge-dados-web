@@ -1,0 +1,45 @@
+{
+  "id": 3856,
+  "nome": "Volume de esgoto coletado e tratado por ano, e percentual de esgoto tratado",
+  "URL": "https://sidra.ibge.gov.br/tabela/3856",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Tratamento de esgoto",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3831,
+      "nome": "Volume de esgoto coletado por ano",
+      "unidade": "Mil metros cúbicos",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3832,
+      "nome": "Volume de esgoto tratado por ano",
+      "unidade": "Mil metros cúbicos",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3833,
+      "nome": "Percentual de esgoto tratado por ano",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": []
+}

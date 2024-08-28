@@ -1,0 +1,104 @@
+{
+  "id": 2391,
+  "nome": "Domicílios particulares permanentes ocupados somente por uma família por indicador de situação habitacional (CALVIV-M), segundo o sexo da pessoa responsável pela família",
+  "URL": "https://sidra.ibge.gov.br/tabela/2391",
+  "pesquisa": "Censo Comum do Mercosul, Bolívia e Chile",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [],
+    "Especial": [
+      "N101",
+      "N111"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 932,
+      "nome": "Domicílios particulares permanentes ocupados somente por uma família",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000932,
+      "nome": "Domicílios particulares permanentes ocupados somente por uma família - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12075,
+      "nome": "Indicador de situação habitacional",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100081,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100078,
+          "nome": "Satisfatório",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100083,
+          "nome": "Suficiente I",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100084,
+          "nome": "Suficiente II",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100080,
+          "nome": "Insuficiente",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "nome": "Sexo do responsável pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100082,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100605,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100606,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

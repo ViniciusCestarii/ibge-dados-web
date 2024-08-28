@@ -1,0 +1,146 @@
+{
+  "id": 9318,
+  "nome": "Pessoas de 2 anos ou mais de idade com deficiência, por condição no domicílio e tipos de dificuldades funcionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9318",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12785,
+      "nome": "Pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12786,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12791,
+      "nome": "Percentual de pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12792,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11603,
+      "nome": "Condição no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31654,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109500,
+          "nome": "Responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12871,
+          "nome": "Cônjuge ou companheiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10915,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31653,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1509,
+      "nome": "Tipos de dificuldades funcionais",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58772,
+          "nome": "Dificuldade para enxergar, mesmo usando óculos ou lentes de contato",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58773,
+          "nome": "Dificuldade para ouvir, mesmo usando aparelhos auditivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58774,
+          "nome": "Dificuldade para andar ou subir degraus",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58775,
+          "nome": "Dificuldade para levantar uma garrafa com dois litros de água da cintura até a altura dos olhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58776,
+          "nome": "Dificuldade para pegar objetos pequenos ou abrir e fechar recipientes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58777,
+          "nome": "Dificuldade para aprender, lembrar-se das coisas ou se concentrar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58778,
+          "nome": "Dificuldade para realizar cuidados pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58779,
+          "nome": "Dificuldade de se comunicar, para compreender e ser compreendido",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

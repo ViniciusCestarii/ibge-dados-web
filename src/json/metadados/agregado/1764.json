@@ -1,0 +1,89 @@
+{
+  "id": 1764,
+  "nome": "Número de municípios, total e os que sofreram inundações e/ou alagamentos na área urbana, nos últimos cinco anos, por área em que ocorreram inundalçoese/ou alagamentos",
+  "URL": "https://sidra.ibge.gov.br/tabela/1764",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 444,
+      "nome": "Municípios que sofreram inundações e/ou alagamentos na área urbana nos últimos cinco anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000444,
+      "nome": "Municípios que sofreram inundações e/ou alagamentos na área urbana nos últimos cinco anos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 360,
+      "nome": "Áreas em que ocorreram inundações e/ou alagamentos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8485,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8486,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8487,
+          "nome": "Áreas urbanas ocupadas, inundáveis naturalmente pelos cursos d'água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8488,
+          "nome": "Áreas de baixios naturalmente inundáveis, ocupadas irregularmente e/ou inadequadamente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8489,
+          "nome": "Áreas não usualmente inundáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8490,
+          "nome": "Outras",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

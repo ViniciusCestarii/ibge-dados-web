@@ -1,0 +1,137 @@
+{
+  "id": 5442,
+  "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente e efetivamente recebidos no trabalho principal, por grupamento de atividade no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/5442",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5932,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5940,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5934,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, efetivamente recebido no trabalho principal",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5942,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, efetivamente recebido no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 888,
+      "nome": "Grupamento de atividade no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47947,
+          "nome": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47948,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60031,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47949,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47950,
+          "nome": "Comércio, reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56622,
+          "nome": "Transporte, armazenagem e correio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56623,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56624,
+          "nome": "Informação, comunicação e atividades financeiras, imobiliárias, profissionais e administrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60032,
+          "nome": "Administração pública, defesa, seguridade social, educação, saúde humana e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56627,
+          "nome": "Outros serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56628,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60033,
+          "nome": "Atividades mal definidas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

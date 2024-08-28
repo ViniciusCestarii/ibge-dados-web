@@ -1,0 +1,303 @@
+{
+  "id": 8805,
+  "nome": "Número de estabelecimentos agropecuários com caprinos, Efetivos, Venda e Produção de leite, por pertencimento a Terra Indígena (TI) versus Agricultura Familiar, condição do produtor em relação às terras e grupo de cabeças de caprinos",
+  "URL": "https://sidra.ibge.gov.br/tabela/8805",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [
+      "N125"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 54,
+      "nome": "Número de estabelecimentos agropecuários com caprinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2210,
+      "nome": "Número de cabeças de caprinos nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10029,
+      "nome": "Número de estabelecimentos agropecuários que venderam caprinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9533,
+      "nome": "Número de cabeças de caprinos vendidas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9754,
+      "nome": "Valor da venda de cabeças de caprinos nos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2214,
+      "nome": "Número de estabelecimentos agropecuários que produziram leite de cabra",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2215,
+      "nome": "Cabras ordenhadas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2216,
+      "nome": "Quantidade produzida de leite de cabra",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2217,
+      "nome": "Valor da produção de leite de cabra",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2218,
+      "nome": "Número de estabelecimentos agropecuários que venderam leite de cabra",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2219,
+      "nome": "Quantidade vendida de leite de cabra",
+      "unidade": "Mil litros",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2279,
+      "nome": "Valor da venda de leite de cabra",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1080,
+      "nome": "Pertencimento a Terra de Indígena (TI) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50202,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50203,
+          "nome": "Dentro de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50204,
+          "nome": "Dentro de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50205,
+          "nome": "Dentro de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50206,
+          "nome": "Fora de TI",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56880,
+          "nome": "Fora de TI - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57504,
+          "nome": "Fora de TI - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12728,
+      "nome": "Grupos de cabeças de caprinos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47097,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115979,
+          "nome": "De 1 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115980,
+          "nome": "De 5 a 9",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115981,
+          "nome": "De 10 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115982,
+          "nome": "De 20 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115983,
+          "nome": "De 50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115984,
+          "nome": "De 100 a 199",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115985,
+          "nome": "De 200 a 499",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115986,
+          "nome": "De 500 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47098,
+          "nome": "Sem cabeças de caprinos da data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

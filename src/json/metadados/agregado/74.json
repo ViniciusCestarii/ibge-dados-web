@@ -1,0 +1,100 @@
+{
+  "id": 74,
+  "nome": "Produção de origem animal, por tipo de produto",
+  "URL": "https://sidra.ibge.gov.br/tabela/74",
+  "pesquisa": "Pesquisa da Pecuária Municipal",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1974,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 106,
+      "nome": "Produção de origem animal",
+      "unidade": "Vide categorias da classificação 'Tipo de produto de origem animal'",
+      "sumarizacao": []
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Cruzeiros [1974 a 1985, 1990 a 1992], Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2022]",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 80,
+      "nome": "Tipo de produto de origem animal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          106
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2682,
+          "nome": "Leite",
+          "unidade": "Mil litros",
+          "nivel": 1
+        },
+        {
+          "id": 2685,
+          "nome": "Ovos de galinha",
+          "unidade": "Mil dúzias",
+          "nivel": 1
+        },
+        {
+          "id": 2686,
+          "nome": "Ovos de codorna",
+          "unidade": "Mil dúzias",
+          "nivel": 1
+        },
+        {
+          "id": 2687,
+          "nome": "Mel de abelha",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 2683,
+          "nome": "Casulos do bicho-da-seda",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        },
+        {
+          "id": 2684,
+          "nome": "Lã",
+          "unidade": "Quilogramas",
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

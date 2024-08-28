@@ -1,0 +1,213 @@
+{
+  "id": 8887,
+  "nome": "Produção Física Industrial, por grandes categorias econômicas",
+  "URL": "https://sidra.ibge.gov.br/tabela/8887",
+  "pesquisa": "Pesquisa Industrial Mensal - Produção Física",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200201,
+    "fim": 202406
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12606,
+      "nome": "PIMPF - Número-índice (2022=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 12607,
+      "nome": "PIMPF - Número-índice com ajuste sazonal (2022=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 11601,
+      "nome": "PIMPF - Variação mês/mês imediatamente anterior, com ajuste sazonal (M/M-1)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11602,
+      "nome": "PIMPF - Variação mês/mesmo mês do ano anterior (M/M-12)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11603,
+      "nome": "PIMPF - Variação acumulada no ano (em relação ao mesmo período do ano anterior)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11604,
+      "nome": "PIMPF - Variação acumulada em 12 meses (em relação ao período anterior de 12 meses)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 543,
+      "nome": "Grandes categorias econômicas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 129278,
+          "nome": "1 Bens de capital",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129280,
+          "nome": "110 Bens de capital, exceto equipamentos de transporte industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129282,
+          "nome": "120 Equipamentos de transporte industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129283,
+          "nome": "2 Bens intermediários",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129285,
+          "nome": "210 Alimentos e bebidas básicos, destinados principalmente à indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129287,
+          "nome": "220 Alimentos e bebidas elaborados, destinados principalmente à indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129289,
+          "nome": "230 Insumos industriais básicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129291,
+          "nome": "240 Insumos industriais elaborados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129293,
+          "nome": "250 Combustíveis e lubrificantes básicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129295,
+          "nome": "260 Combustíveis e lubrificantes elaborados - exceto gasolinas para automóvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129297,
+          "nome": "270 Peças e acessórios para bens de capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129299,
+          "nome": "280 Peças e acessórios para equipamentos de transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129300,
+          "nome": "3 Bens de consumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129301,
+          "nome": "31 Bens de consumo duráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129302,
+          "nome": "311 Bens de consumo duráveis - exceto automóveis para passageiros e equipamentos de transporte não industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129303,
+          "nome": "312 Automóveis para passageiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129304,
+          "nome": "313 Equipamentos de transporte não industrial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129305,
+          "nome": "32 Bens de consumo semiduráveis e não duráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129306,
+          "nome": "321 Bens de consumo semiduráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129307,
+          "nome": "322 Bens de consumo não duráveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129308,
+          "nome": "323 Alimentos e bebidas básicos, destinados principalmente ao consumo doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129309,
+          "nome": "324 Alimentos e bebidas elaborados, destinados principalmente ao consumo doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129310,
+          "nome": "325 Gasolinas para automóvel (motor spirit)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129311,
+          "nome": "9 Bens não especificados anteriormente",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

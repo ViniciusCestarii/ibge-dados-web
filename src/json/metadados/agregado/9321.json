@@ -1,0 +1,107 @@
+{
+  "id": 9321,
+  "nome": "Taxa de analfabetismo das pessoas de 15 anos ou mais de idade, por grupo de idade e existência de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/9321",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12803,
+      "nome": "Taxa de analfabetismo das pessoas de 15 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12804,
+      "nome": "Coeficiente de variação - Taxa de analfabetismo das pessoas de 15 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2795,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100452,
+          "nome": "18 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109012,
+          "nome": "40 anos ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 4
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "nome": "Existência de deficiência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46583,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58765,
+          "nome": "Pessoa com deficiência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58766,
+          "nome": "Pessoa sem deficiência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

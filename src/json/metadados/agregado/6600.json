@@ -1,0 +1,73 @@
+{
+  "id": 6600,
+  "nome": "Indicador 16.3.2 - Presos* sem sentença em relação à população prisional em geral, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6600",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Paz, justiça e instituições eficazes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9344,
+      "nome": "Quantidade de presos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9345,
+      "nome": "Quantidade de presos sem sentença",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9346,
+      "nome": "Proporção de presos sem sentença em relação à população prisional em geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

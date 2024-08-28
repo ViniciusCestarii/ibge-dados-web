@@ -1,0 +1,147 @@
+{
+  "id": 3963,
+  "nome": "Pessoas de 14 a 17 anos de idade, ocupadas na semana de referência e Percentual de pessoas de 14 a 17 anos de idade, ocupadas na semana de referência, distribuído pelos grupos de horas habitualmente trabalhadas por semana no trabalho principal, por grupos de idade, situação de ocupação na semana de referência e grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/3963",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Trabalho infantil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3706,
+      "nome": "Pessoas de 14 a 17 anos de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3935,
+      "nome": "Percentual de pessoas de 14 a 17 anos de idade, ocupadas na semana de referência, distribuído pelos grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12085,
+      "nome": "Situação de ocupação na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100543,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31305,
+          "nome": "Ocupadas - empregadas com carteira de trabalho assinada no trabalho principal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31306,
+          "nome": "Ocupadas - demais ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12045,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 14864,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99401,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99402,
+          "nome": "15 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99958,
+          "nome": "15 a 29 horas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99403,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31580,
+          "nome": "45 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

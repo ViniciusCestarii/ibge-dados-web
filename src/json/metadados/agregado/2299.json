@@ -1,0 +1,92 @@
+{
+  "id": 2299,
+  "nome": "Número de municípios com serviços de manejo de resíduos sólidos, por percentual do orçamento gasto com pessoal ocupado nos serviços",
+  "URL": "https://sidra.ibge.gov.br/tabela/2299",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12183,
+      "nome": "Percentual do orçamento gasto com pessoal ocupado nos serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103355,
+          "nome": "Total de municípios com os serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103356,
+          "nome": "Até 5%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103357,
+          "nome": "Mais de 5 a 10%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103358,
+          "nome": "Mais de 10 a 15%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103359,
+          "nome": "Mais de 15 a 20%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103360,
+          "nome": "Mais de 20%",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103361,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

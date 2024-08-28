@@ -1,0 +1,125 @@
+{
+  "id": 7032,
+  "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio, por pessoa que recebeu o cuidado e tipo de cuidado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7032",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10200,
+      "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10201,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10220,
+      "nome": "Percentual de pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10221,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 850,
+      "nome": "Pessoa que recebeu o cuidado",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47592,
+          "nome": "Morador de 0 a 5 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47593,
+          "nome": "Morador de 6 a 14 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47594,
+          "nome": "Morador de 15 a 59 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47595,
+          "nome": "Morador de 60 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "nome": "Tipo de cuidado",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47597,
+          "nome": "Auxiliar nos cuidados pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47598,
+          "nome": "Auxiliar nas atividades educacionais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47599,
+          "nome": "Ler, jogar ou brincar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47600,
+          "nome": "Monitorar ou fazer companhia dentro do domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47601,
+          "nome": "Transportar ou acompanhar para escola, médico, exames, parque, praça, atividades sociais, culturais, esportivas ou religiosas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 2331,
+  "nome": "Número de distritos com serviços de manejo de resíduos sólidos, por unidades de destinação final do lixo coletado",
+  "URL": "https://sidra.ibge.gov.br/tabela/2331",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1214,
+      "nome": "Número de distritos com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001214,
+      "nome": "Número de distritos com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12198,
+      "nome": "Unidades de destinação final dos resíduos sólidos domiciliares e/ou públicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103700,
+          "nome": "Total de distritos com serviços de manejo de resíduos sólidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103701,
+          "nome": "Vazadouro a céu aberto (lixão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103702,
+          "nome": "Vazadouro em áreas alagadas ou alagáveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103703,
+          "nome": "Aterro controlado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103704,
+          "nome": "Aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103705,
+          "nome": "Aterro de resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103706,
+          "nome": "Usina de compostagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103707,
+          "nome": "Usina de reciclagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103708,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

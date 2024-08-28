@@ -1,0 +1,97 @@
+{
+  "id": 4016,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por tipo de via de circulação interna predominante",
+  "URL": "https://sidra.ibge.gov.br/tabela/4016",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 587,
+      "nome": "Tipo de via de circulação interna predominante",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31373,
+          "nome": "Rua",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31374,
+          "nome": "Beco/travessa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31375,
+          "nome": "Escadaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31376,
+          "nome": "Rampa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31377,
+          "nome": "Passarela/pinguela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31378,
+          "nome": "Caminho/trilha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31379,
+          "nome": "Não existe via de circulação interna",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

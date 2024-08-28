@@ -1,0 +1,592 @@
+{
+  "id": 3407,
+  "nome": "Produção, Quantidade vendida e Valores da produção e da venda na extração vegetal por produtos da extração vegetal, segundo indicadores da agricultura familiar e não familiar - FAO",
+  "URL": "https://sidra.ibge.gov.br/tabela/3407",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Extração vegetal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1981,
+      "nome": "Quantidade colhida",
+      "unidade": "Vide categorias da classificação 'Produtos da extração vegetal'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1982,
+      "nome": "Quantidade vendida",
+      "unidade": "Vide categorias da classificação 'Produtos da extração vegetal'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 215,
+      "nome": "Valor da produção",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000215,
+      "nome": "Valor da produção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1983,
+      "nome": "Valor das vendas",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001983,
+      "nome": "Valor das vendas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 229,
+      "nome": "Produtos da extração vegetal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          183,
+          1981,
+          1982
+        ]
+      },
+      "categorias": [
+        {
+          "id": 113860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5052,
+          "nome": "Açaí (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5053,
+          "nome": "Andiroba (semente)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5055,
+          "nome": "Babaçu (coco)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5056,
+          "nome": "Babaçu (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5058,
+          "nome": "Bacuri",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5061,
+          "nome": "Borracha (látex líquido)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5062,
+          "nome": "Borracha (látex coagulado)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5063,
+          "nome": "Buriti (coco)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5064,
+          "nome": "Buriti (palha)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5066,
+          "nome": "Butiá (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111568,
+          "nome": "Cajarana",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5070,
+          "nome": "Carnaúba (cera)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111569,
+          "nome": "Casca de angico",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5077,
+          "nome": "Castanha-do-Brasil (castanha-do-Pará)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5078,
+          "nome": "Caucho (goma elástica)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5079,
+          "nome": "Copaíba (óleo)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5081,
+          "nome": "Cumaru (semente)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5082,
+          "nome": "Cupuaçu",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5083,
+          "nome": "Erva-mate",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111570,
+          "nome": "Ipecacuanha (raiz)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5087,
+          "nome": "Jaborandi (folha)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5090,
+          "nome": "Lenha",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 0
+        },
+        {
+          "id": 5091,
+          "nome": "Licuri (coquilho)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5092,
+          "nome": "Licuri (cera)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5094,
+          "nome": "Maçaranduba (goma não elástica)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5101,
+          "nome": "Mangaba (fruto)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5102,
+          "nome": "Maniçoba (goma elástica)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111571,
+          "nome": "Madeira em toras para papel",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 0
+        },
+        {
+          "id": 111572,
+          "nome": "Madeira em toras outra finalidade",
+          "unidade": "Mil metros cúbicos",
+          "nivel": 0
+        },
+        {
+          "id": 5105,
+          "nome": "Murumuru (semente)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111573,
+          "nome": "Palmito",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5107,
+          "nome": "Oiticica (semente)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111574,
+          "nome": "Pequi",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5116,
+          "nome": "Piaçava (fibra)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5117,
+          "nome": "Pinhão",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111575,
+          "nome": "Pupunha (coco)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5123,
+          "nome": "Sorva (goma não elástica)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 5128,
+          "nome": "Ucuuba (amêndoa)",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111576,
+          "nome": "Tucumã",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 111577,
+          "nome": "Carnaúba (pó de palha) - Kg",
+          "unidade": "Toneladas",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Tipo de agricultor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 144,
+          "nome": "Familiar - tipo A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 145,
+          "nome": "Familiar - tipo B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 146,
+          "nome": "Familiar - tipo C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 147,
+          "nome": "Familiar - tipo D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 504,
+          "nome": "Agriculltor não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 154,
+          "nome": "Não classificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Tipo de agricultor não familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121449,
+          "nome": "Patronal 1",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121450,
+          "nome": "Patronal 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121451,
+          "nome": "Patronal 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121452,
+          "nome": "Instituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 505,
+          "nome": "Governo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 507,
+          "nome": "Agricultor familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 506,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Grau de especialização do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 155,
+          "nome": "Muito especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 156,
+          "nome": "Especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 158,
+          "nome": "Muito diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 157,
+          "nome": "Diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 159,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Grau de integração com o mercado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 160,
+          "nome": "Muito integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 161,
+          "nome": "Integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 162,
+          "nome": "Pouco integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 163,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Tipo de mão-de-obra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 498,
+          "nome": "Só mão-de-obra familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 499,
+          "nome": "Mão-de-obra familiar e empregado temporário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 500,
+          "nome": "Mão-de-obra familiar, empregado temporário e empregado permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 501,
+          "nome": "Mão-de-obra familiar e serviço de empreitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 502,
+          "nome": "Mão-de-obra familiar e demais combinações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 503,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

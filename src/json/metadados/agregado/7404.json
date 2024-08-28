@@ -1,0 +1,122 @@
+{
+  "id": 7404,
+  "nome": "Rendimento médio mensal real domiciliar per capita, por situação do domicílio e existência de microcomputador ou tablet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7404",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4196,
+      "nome": "Rendimento médio mensal real domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4197,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "nome": "Existência de microcomputador ou tablet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33295,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48521,
+          "nome": "Havia microcomputador ou tablet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48518,
+          "nome": "Havia microcomputador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48587,
+          "nome": "Havia somente microcomputador",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 48519,
+          "nome": "Havia tablet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48588,
+          "nome": "Havia somente tablet",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 48520,
+          "nome": "Havia microcomputador e tablet",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48536,
+          "nome": "Não havia microcomputador nem tablet",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

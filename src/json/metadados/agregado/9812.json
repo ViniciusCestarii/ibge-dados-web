@@ -1,0 +1,219 @@
+{
+  "id": 9812,
+  "nome": "Domicílios particulares permanentes ocupados, total e com pelo menos um morador quilombola, por existência de banheiro ou sanitário e número de banheiros de uso exclusivo do domicílio, por tipo de esgotamento sanitário e localização do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9812",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000381,
+      "nome": "Domicílios particulares permanentes ocupados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1007081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 458,
+      "nome": "Existência de banheiro ou sanitário e número de banheiros de uso exclusivo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72117,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12032,
+          "nome": "Tinham banheiro de uso exclusivo do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12033,
+          "nome": "Tinham banheiro de uso exclusivo do domicílio - 1 banheiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12034,
+          "nome": "Tinham banheiro de uso exclusivo do domicílio - 2 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12035,
+          "nome": "Tinham banheiro de uso exclusivo do domicílio - 3 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12036,
+          "nome": "Tinham banheiro de uso exclusivo do domicílio - 4 banheiros ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72118,
+          "nome": "Apenas banheiro de uso comum a mais de um domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72119,
+          "nome": "Apenas sanitário ou buraco para dejeções, inclusive os localizados no terreno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12046,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11558,
+      "nome": "Tipo de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46292,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46290,
+          "nome": "Rede geral, rede pluvial ou fossa ligada à rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72110,
+          "nome": "Rede geral ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72111,
+          "nome": "Fossa séptica ou fossa filtro ligada à rede",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72112,
+          "nome": "Fossa séptica ou fossa filtro não ligada à rede",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72113,
+          "nome": "Fossa rudimentar ou buraco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92858,
+          "nome": "Vala",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72114,
+          "nome": "Rio, lago, córrego ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72115,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92861,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60027,
+          "nome": "Em territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60028,
+          "nome": "Fora de territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

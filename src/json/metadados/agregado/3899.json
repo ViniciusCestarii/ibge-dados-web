@@ -1,0 +1,74 @@
+{
+  "id": 3899,
+  "nome": "Pessoas de 25 a 64 anos de idade, total e com 11 anos de estudo, e respectiva proporção, por cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/3899",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Escolaridade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3814,
+      "nome": "Pessoas de 25 a 64 anos de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3839,
+      "nome": "Pessoas de 25 a 64 anos de idade com 11 anos de estudo",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3840,
+      "nome": "Proporção das pessoas de 25 a 64 anos de idade com 11 anos de estudo",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

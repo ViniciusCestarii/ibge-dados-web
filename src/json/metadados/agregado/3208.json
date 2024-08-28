@@ -1,0 +1,79 @@
+{
+  "id": 3208,
+  "nome": "Pessoas residentes em terras indígenas, por condição de indígena, segundo as Terras Indígenas",
+  "URL": "https://sidra.ibge.gov.br/tabela/3208",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Terras indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 576,
+      "nome": "Pessoas residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000576,
+      "nome": "Pessoas residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 385,
+      "nome": "Condição de indígena",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9658,
+          "nome": "Declararam-se indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9659,
+          "nome": "Não se declararam indígenas, mas se consideravam indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9660,
+          "nome": "Não se declararam indígenas, nem se consideravam indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9661,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

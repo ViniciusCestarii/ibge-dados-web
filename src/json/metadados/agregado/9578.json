@@ -1,0 +1,81 @@
+{
+  "id": 9578,
+  "nome": "População residente, total e quilombola, por localização do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9578",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "População quilombola",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4709,
+      "nome": "Pessoas quilombolas",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1004709,
+      "nome": "Pessoas quilombolas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4728,
+      "nome": "Percentual de pessoas quilombolas no total de população residente",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60027,
+          "nome": "Em territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60028,
+          "nome": "Fora de territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

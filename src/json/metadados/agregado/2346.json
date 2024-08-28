@@ -1,0 +1,74 @@
+{
+  "id": 2346,
+  "nome": "Número de municípios com serviço de coleta de lixo, por existência de área no município para a disposição final dos resíduos",
+  "URL": "https://sidra.ibge.gov.br/tabela/2346",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1222,
+      "nome": "Municípios com serviço de coleta de lixo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001222,
+      "nome": "Municípios com serviço de coleta de lixo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12206,
+      "nome": "Existência de área no município para a disposição final dos resíduos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103874,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103875,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103876,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103877,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

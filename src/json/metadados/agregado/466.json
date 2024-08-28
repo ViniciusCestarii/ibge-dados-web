@@ -1,0 +1,217 @@
+{
+  "id": 466,
+  "nome": "Domicílios particulares permanentes por número de cômodos, destino do lixo e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/466",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1066,
+          "nome": "8 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1067,
+          "nome": "9 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3359,
+          "nome": "10 cômodos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 3360,
+          "nome": "11 cômodos ou mais",
+          "unidade": null,
+          "nivel": 5
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1085,
+          "nome": "Coletado diretamente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1086,
+          "nome": "Coletado indiretamente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2521,
+          "nome": "Jogado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 2057,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, total e em relação ao total de pessoas ocupadas na semana de referência por setor de atividade no trabalho principal na semana de referência",
+  "URL": "https://sidra.ibge.gov.br/tabela/2057",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 917,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 928,
+      "nome": "Pessoas de 10 anos ou mais de idade em relação ao total de pessoas ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 929,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade em relação ao total de pessoas ocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12072,
+      "nome": "Grupamento de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          917,
+          929
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100063,
+          "nome": "Indústria extrativa e de transformação e produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100064,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100065,
+          "nome": "Comércio, reparação de veículos automotores e de objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100066,
+          "nome": "Intermediação financeira e atividades imobiliárias, aluguéis e serviços prestados à empresa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100067,
+          "nome": "Administração pública, defesa, seguridade social, educação, saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100068,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100069,
+          "nome": "Outros serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100070,
+          "nome": "Outras atividades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

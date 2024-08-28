@@ -1,0 +1,76 @@
+{
+  "id": 999,
+  "nome": "Índices de volume e de receita nominal de vendas de materiais de construção, por tipos de índice (2003 = 100 - série encerrada em dezembro de 2011)",
+  "URL": "https://sidra.ibge.gov.br/tabela/999",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200301,
+    "fim": 201112
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1195,
+      "nome": "Índice de volume de vendas de materiais de construção",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    },
+    {
+      "id": 1194,
+      "nome": "Índice de receita nominal de vendas de materiais de construção",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103339,
+          "nome": "Índice base fixa (2003=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 105004,
+          "nome": "Índice base fixa com ajuste sazonal (2003=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90668,
+          "nome": "Variação mensal (base: igual mês do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90669,
+          "nome": "Variação acumulada no ano (base: igual período do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90670,
+          "nome": "Variação acumulada de 12 meses",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

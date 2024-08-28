@@ -1,0 +1,327 @@
+{
+  "id": 3481,
+  "nome": "Domicílios particulares permanentes localizados em terras indígenas, por existência de energia elétrica, condição de ocupação do domicílio, existência de banheiro ou sanitário e tipo de esgotamento sanitário, forma de abastecimento de água e destino do lixo, segundo as Terras Indígenas",
+  "URL": "https://sidra.ibge.gov.br/tabela/3481",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Terras indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1439,
+      "nome": "Domicílios particulares permanentes localizados em terras indígenas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001439,
+      "nome": "Domicílios particulares permanentes localizados em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11557,
+      "nome": "Tipo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92844,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12910,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12911,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11861,
+      "nome": "Existência de banheiro ou sanitário e tipo de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12914,
+          "nome": "Tinham banheiro de uso exclusivo ou samitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12915,
+          "nome": "Tinham banheiro de uso exclusivo ou samitário - rede geral de esgoto ou pluvial ou fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12916,
+          "nome": "Tinham banheiro de uso exclusivo ou samitário - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12917,
+          "nome": "Tinham banheiro de uso exclusivo ou samitário - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12918,
+          "nome": "Tinham banheiro de uso exclusivo ou samitário - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12919,
+          "nome": "Tinham banheiro de uso exclusivo ou samitário - outro tipo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12920,
+          "nome": "Não tinham banheiro de uso exclusivo ou sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92853,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10971,
+          "nome": "Poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121290,
+          "nome": "Poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121373,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121292,
+          "nome": "Água da chuva armazenada em cisterna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121293,
+          "nome": "Água da chuva armazenada de outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121294,
+          "nome": "Rio, açude, lago ou igarapé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121296,
+          "nome": "Poço ou nascente na aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121297,
+          "nome": "Poço ou nascente fora da aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121295,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

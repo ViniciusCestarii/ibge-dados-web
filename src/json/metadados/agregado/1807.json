@@ -1,0 +1,109 @@
+{
+  "id": 1807,
+  "nome": "Distribuição das famílias por avaliação do grau de dificuldade para chegar ao fim do mês com o rendimento monetário familiar e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1807",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1208,
+      "nome": "Distribuição das famílias",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12192,
+      "nome": "Avaliação do grau de dificuldade para chegar ao fim do mês com rendimento monetário familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103482,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103483,
+          "nome": "Muita dificuldade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103484,
+          "nome": "Dificuldade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103485,
+          "nome": "Alguma dificuldade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103486,
+          "nome": "Alguma facilidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103487,
+          "nome": "Facilidade",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103488,
+          "nome": "Muita facilidade",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 4958,
+  "nome": "Densidade de moradores por domicílio, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4958",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do domicílio e serviços domiciliares de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5050,
+      "nome": "Densidade de moradores por domicílio",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5051,
+      "nome": "Densidade de moradores por domicílio, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5052,
+      "nome": "Densidade de moradores por domicílio, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5053,
+      "nome": "Coeficiente de variação - Densidade de moradores por domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

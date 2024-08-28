@@ -1,0 +1,94 @@
+{
+  "id": 7264,
+  "nome": "Viagens nacionais realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por principal Grande Região de destino e Grande Região de origem",
+  "URL": "https://sidra.ibge.gov.br/tabela/7264",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10463,
+      "nome": "Viagens nacionais realizadas pelos moradores dos domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10464,
+      "nome": "Coeficiente de variação - Viagens nacionais realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10465,
+      "nome": "Distribuição percentual das viagens nacionais realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10466,
+      "nome": "Coeficiente de variação - Distribuição percentual das viagens nacionais realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 909,
+      "nome": "Principal Grande Região de destino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48099,
+          "nome": "Brasil",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48100,
+          "nome": "Norte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48101,
+          "nome": "Nordeste",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48102,
+          "nome": "Sudeste",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48103,
+          "nome": "Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48104,
+          "nome": "Centro-Oeste",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

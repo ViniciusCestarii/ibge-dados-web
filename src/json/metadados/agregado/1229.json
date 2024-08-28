@@ -1,0 +1,104 @@
+{
+  "id": 1229,
+  "nome": "Número de municípios, total e os que possuem órgão municipal gestor do serviço de manejo de águas pluviais, por característica do órgão municipal gestor",
+  "URL": "https://sidra.ibge.gov.br/tabela/1229",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2607,
+      "nome": "Municípios que possuem órgão municipal gestor do serviço de manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002607,
+      "nome": "Municípios que possuem órgão municipal gestor do serviço de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12969,
+      "nome": "Característica do órgão municipal gestor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120965,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120966,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7896,
+          "nome": "Secretaria municipal exclusiva de saneamento básico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7897,
+          "nome": "Secretaria municipal em conjunto com outra política",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7898,
+          "nome": "Setor subordinado a outra secretaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7899,
+          "nome": "Setor subordinado diretamente à chefia do executivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7900,
+          "nome": "Fundação pública/autarquia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120971,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 3566,
+  "nome": "Distribuição do rendimento nominal mensal per capita dos domicílios particulares permanentes, com rendimento domiciliar per capita, Valor do rendimento nominal médio mensal per capita dos domicílios particulares permanentes, com rendimento domiciliar per capita e Valor do rendimento nominal mediano mensal per capita dos domicílios particulares permanentes, com rendimento domiciliar per capita, por situação do domicío, segundo as classes acumuladas de percentual em ordem crescente de rendimento domiciliar per capita dos domicílios particulares permanentes",
+  "URL": "https://sidra.ibge.gov.br/tabela/3566",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2022,
+      "nome": "Distribuição do rendimento nominal mensal per capita dos domicílios particulares permanentes com rendimento domicíliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2033,
+      "nome": "Valor do rendimento nominal médio mensal per capita dos domicílios particulares permanentes com rendimento domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 2034,
+      "nome": "Valor do rendimento nominal mediano mensal per capita dos domicílios particulares permanentes com rendimento domicíliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "nome": "Classes acumuladas de percentual em ordem crescente de rendimento per capita dos domicílios particulares permanentes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9940,
+          "nome": "Até 10 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9941,
+          "nome": "Até 20 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9942,
+          "nome": "Até 30 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9943,
+          "nome": "Até 40 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9944,
+          "nome": "Até 50 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9945,
+          "nome": "Até 60 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9946,
+          "nome": "Até 70 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9947,
+          "nome": "Até 80 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9948,
+          "nome": "Até 90 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9949,
+          "nome": "Até 100 %",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

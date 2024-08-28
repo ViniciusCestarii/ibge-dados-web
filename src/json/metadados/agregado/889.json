@@ -1,0 +1,116 @@
+{
+  "id": 889,
+  "nome": "Pessoas de referência dos domicílios, de 10 anos ou mais de idade, total, analfabetas e ocupadas na semana de referência, por recebimento de dinheiro de programa social do governo, por algum morador do domicílio, no mês de referência e sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/889",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2136,
+      "nome": "Pessoas de referência dos domicílios particulares, de 10 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002136,
+      "nome": "Pessoas de referência dos domicílios particulares, de 10 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2137,
+      "nome": "Pessoas de referência dos domicílios particulares, de 10 anos ou mais de idade, analfabetas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002137,
+      "nome": "Pessoas de referência dos domicílios particulares, de 10 anos ou mais de idade, analfabetas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2138,
+      "nome": "Pessoas de referência dos domicílios particulares, de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002138,
+      "nome": "Pessoas de referência dos domicílios particulares, de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12380,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107474,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114502,
+          "nome": "Houve",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114503,
+          "nome": "Não houve",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

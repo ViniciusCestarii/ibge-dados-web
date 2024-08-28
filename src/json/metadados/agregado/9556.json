@@ -1,0 +1,151 @@
+{
+  "id": 9556,
+  "nome": "Domicílios, por situação de segurança alimentar existente no domicílio e posição na ocupação e categoria do emprego no trabalho principal do responsável",
+  "URL": "https://sidra.ibge.gov.br/tabela/9556",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9784,
+      "nome": "Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9785,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12404,
+      "nome": "Situação de segurança alimentar existente no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109106,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109098,
+          "nome": "Com segurança alimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109099,
+          "nome": "Com insegurança alimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109100,
+          "nome": "Com insegurança alimentar leve",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109101,
+          "nome": "Com insegurança alimentar moderada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109102,
+          "nome": "Com insegurança alimentar grave",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1830,
+      "nome": "Posição na ocupação e categoria do emprego no trabalho principal do responsável pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72190,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72191,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72192,
+          "nome": "Empregado no setor privado com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72193,
+          "nome": "Empregado no setor privado sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72194,
+          "nome": "Empregado no setor público, inclusive servidor estatutário e militar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72195,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72196,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72197,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "id": 2935,
+  "nome": "Processos de separação judicial encerrados e Separações judiciais concedidas, em 1ª instância, por natureza, fundamento da ação não-consensual e requerentes, grupos de idade e tipo dos cônjuges e lugar da ação do processo (série suspensa)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2935",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Separações",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 227,
+      "nome": "Número de processos de separação judicial encerrados em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000227,
+      "nome": "Número de processos de separação judicial encerrados em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 228,
+      "nome": "Número de separações judiciais concedidas em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000228,
+      "nome": "Número de separações judiciais concedidas em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 262,
+      "nome": "Natureza da ação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6002,
+          "nome": "Consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6003,
+          "nome": "Não consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6004,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1832,
+      "nome": "Fundamento da separação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 26840,
+          "nome": "Separação de fato",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100306,
+          "nome": "Conduta desonrosa ou grave violação dos deveres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100307,
+          "nome": "Grave doença mental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107631,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109456,
+          "nome": "Não se aplica (para os casos em que a natureza da separação é consensual)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "nome": "Requerente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6070,
+          "nome": "Requerida pelo marido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6071,
+          "nome": "Requerida pela mulher",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107634,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109455,
+          "nome": "Não se aplica (para os casos em que a natureza da separação é consensual)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "nome": "Grupos de idade dos cônjuges na data da abertura do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6074,
+          "nome": "Menos de 20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6075,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6076,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6077,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6078,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6079,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6080,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6081,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6082,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6083,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6084,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6085,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6086,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6087,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "nome": "Tipo de cônjuge",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6072,
+          "nome": "Marido",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6073,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

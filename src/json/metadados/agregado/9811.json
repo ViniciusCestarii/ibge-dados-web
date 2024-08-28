@@ -1,0 +1,155 @@
+{
+  "id": 9811,
+  "nome": "Domicílios particulares permanentes ocupados localizados em Territórios Quilombolas, total e com pelo menos um morador quilombola, por existência de canalização de água e principal forma de abastecimento, segundo os Territórios Quilombolas",
+  "URL": "https://sidra.ibge.gov.br/tabela/9811",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7086,
+      "nome": "Domicílios particulares permanentes ocupados localizados em territórios quilombolas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1007086,
+      "nome": "Domicílios particulares permanentes ocupados localizados em territórios quilombolas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9473,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola localizados em territórios quilombolas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009473,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola localizados em territórios quilombolas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 301,
+      "nome": "Principal forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72053,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31471,
+          "nome": "Rede geral de distribuição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72054,
+          "nome": "Poço profundo ou artesiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72055,
+          "nome": "Poço raso, freático ou cacimba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72088,
+          "nome": "Fonte, nascente ou mina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31472,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72089,
+          "nome": "Água da chuva armazenada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72090,
+          "nome": "Rios, açudes, córregos, lagos e igarapés",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72091,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "nome": "Existência de canalização de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72125,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72126,
+          "nome": "Canalizada até dentro da casa, apartamento ou habitação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72127,
+          "nome": "Canalizada, mas apenas no terreno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72128,
+          "nome": "Sem água canalizada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

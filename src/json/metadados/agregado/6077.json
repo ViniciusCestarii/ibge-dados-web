@@ -1,0 +1,102 @@
+{
+  "id": 6077,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que se envolveram em alguma briga e/ou luta física nos 12 meses anteriores à pesquisa, por sexo e dependência administrativa da escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/6077",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 7551,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que se envolveram em alguma briga e/ou luta física nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7552,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que se envolveram em alguma briga e/ou luta física nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7553,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que se envolveram em alguma briga e/ou luta física nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

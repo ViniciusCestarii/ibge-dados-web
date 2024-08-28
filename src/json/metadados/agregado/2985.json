@@ -1,0 +1,513 @@
+{
+  "id": 2985,
+  "nome": "População residente por grupos de idade e frequência à creche ou escola, nível de ensino e série que frequentavam",
+  "URL": "https://sidra.ibge.gov.br/tabela/2985",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109013,
+          "nome": "Até 3 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2487,
+          "nome": "4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2488,
+          "nome": "5 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2489,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2490,
+          "nome": "7 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2491,
+          "nome": "8 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2492,
+          "nome": "9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2493,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2494,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2495,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2496,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2497,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2498,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2499,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2500,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2501,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2502,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92958,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92959,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92960,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92961,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92962,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1146,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1147,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109012,
+          "nome": "40 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12403,
+      "nome": "Frequência à creche ou escola, nível de ensino e série que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109057,
+          "nome": "Frequentavam creche ou escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109014,
+          "nome": "Frequentavam creche ou escola - creche",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109015,
+          "nome": "Frequentavam creche ou escola - pré-escolar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109016,
+          "nome": "Frequentavam creche ou escola - classe de alfabetização",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109017,
+          "nome": "Frequentavam creche ou escola - alfabetização de adultos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109018,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109019,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109020,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109021,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109022,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109023,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - quinta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109024,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - sexta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109025,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - sétima série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109026,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - oitava série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109027,
+          "nome": "Frequentavam creche ou escola - ensino fundamental regular - não seriado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109058,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109028,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109029,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109030,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109031,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109032,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - quinta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109033,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - sexta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109034,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - sétima série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109035,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - oitava série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109036,
+          "nome": "Frequentavam creche ou escola - ensino fundamental supletivo - não seriado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109059,
+          "nome": "Frequentavam creche ou escola - ensino médio regular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109037,
+          "nome": "Frequentavam creche ou escola - ensino médio regular - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109038,
+          "nome": "Frequentavam creche ou escola - ensino médio regular - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109039,
+          "nome": "Frequentavam creche ou escola - ensino médio regular - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109040,
+          "nome": "Frequentavam creche ou escola - ensino médio regular - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109041,
+          "nome": "Frequentavam creche ou escola - ensino médio regular - não seriado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109060,
+          "nome": "Frequentavam creche ou escola - ensino médio supletivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109042,
+          "nome": "Frequentavam creche ou escola - ensino médio supletivo - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109043,
+          "nome": "Frequentavam creche ou escola - ensino médio supletivo - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109044,
+          "nome": "Frequentavam creche ou escola - ensino médio supletivo - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109045,
+          "nome": "Frequentavam creche ou escola - ensino médio supletivo - não seriado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109046,
+          "nome": "Frequentavam creche ou escola - pré-vestibular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109047,
+          "nome": "Frequentavam creche ou escola - superior - graduação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109048,
+          "nome": "Frequentavam creche ou escola - superior - graduação - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109049,
+          "nome": "Frequentavam creche ou escola - superior - graduação - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109050,
+          "nome": "Frequentavam creche ou escola - superior - graduação - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109051,
+          "nome": "Frequentavam creche ou escola - superior - graduação - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109052,
+          "nome": "Frequentavam creche ou escola - superior - graduação - quinta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109053,
+          "nome": "Frequentavam creche ou escola - superior - graduação - sexta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 109054,
+          "nome": "Frequentavam creche ou escola - mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109055,
+          "nome": "Não frequentavam, mas já frequentaram",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109056,
+          "nome": "Nunca frequentaram",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

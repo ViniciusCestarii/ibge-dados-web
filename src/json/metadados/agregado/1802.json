@@ -1,0 +1,122 @@
+{
+  "id": 1802,
+  "nome": "Rendimento total e variação patrimonial médio mensal familiar - valor e distribuição - por origem do rendimento e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1802",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 388,
+      "nome": "Rendimento total e variação patrimonial médio mensal familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 443,
+      "nome": "Distribuição do rendimento total e variação patrimonial médio mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 4908,
+      "nome": "Origem dos rendimentos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8049,
+          "nome": "Rendimento total e variação patrimonial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103423,
+          "nome": "Rendimento total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103424,
+          "nome": "Rendimento do trabalho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103428,
+          "nome": "Transferência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103434,
+          "nome": "Rendimento de aluguel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103437,
+          "nome": "Outros rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103442,
+          "nome": "Rendimento não monetário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 8799,
+          "nome": "Variação patrimonial",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

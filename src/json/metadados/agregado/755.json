@@ -1,0 +1,127 @@
+{
+  "id": 755,
+  "nome": "Rendimento médio mensal familiar total e Número de famílias por classes de rendimento monetário e não-monetário mensal familiar e anos de estudo da pessoa de referência da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/755",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1976,
+      "nome": "Rendimento médio mensal familiar total",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12191,
+      "nome": "Classes de rendimento monetário e não monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103411,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103412,
+          "nome": "Até 400 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111514,
+          "nome": "Mais de 400 a 1000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111515,
+          "nome": "Mais de 1000 a 2000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103418,
+          "nome": "Mais de 2000 a 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103496,
+          "nome": "Mais de 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12511,
+      "nome": "Anos de estudo da pessoa de referência da família",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111470,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111471,
+          "nome": "De 1 a 3 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111472,
+          "nome": "De 4 a 7 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111473,
+          "nome": "De 8 a 10 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111474,
+          "nome": "11 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111475,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

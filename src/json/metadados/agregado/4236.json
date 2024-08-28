@@ -1,0 +1,145 @@
+{
+  "id": 4236,
+  "nome": "Pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco, por condição em relação à força de trabalho na semana de referência e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4236",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Tabagismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 4202,
+      "nome": "Pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4203,
+      "nome": "Pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4204,
+      "nome": "Pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 4797,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4205,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4206,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4207,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4798,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade expostas à mídia pró-tabaco",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 653,
+      "nome": "Condição em relação à força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32862,
+          "nome": "Na força de trabalho - Ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32863,
+          "nome": "Na força de trabalho - Desocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32864,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

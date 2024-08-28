@@ -1,0 +1,479 @@
+{
+  "id": 1398,
+  "nome": "Domicílios particulares permanentes e Moradores em domicílios particulares permanentes, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente, por classes de rendimento nominal mensal domiciliar, a situação do domicílio, a existência e número de banheiros de uso exclusivo do domicílio, a principal forma de abastecimento de água, o destino do lixo e a existência de energia elétrica",
+  "URL": "https://sidra.ibge.gov.br/tabela/1398",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 888,
+      "nome": "Moradores em domicílios particulares permanentes, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000888,
+      "nome": "Moradores em domicílios particulares permanentes, cuja condição no domicílio não era pensionista, nem empregado(a) doméstico(a) ou seu parente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12065,
+      "nome": "Classes de rendimento nominal mensal domiciliar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99829,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99830,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99831,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99832,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99833,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99834,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99835,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99836,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99837,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99838,
+          "nome": "Mais de 20 a 30 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99952,
+          "nome": "Mais de 30 salários mínimos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99839,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12131,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "nome": "Existência e número de banheiros de uso exclusivo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2966,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2967,
+          "nome": "Tinham - 1 banheiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2968,
+          "nome": "Tinham - 2 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2995,
+          "nome": "Tinham - 3 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2996,
+          "nome": "Tinham - 4 banheiros ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 7991,
+          "nome": "Tinham - 4 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7992,
+          "nome": "Tinham - 5 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7993,
+          "nome": "Tinham - 6 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7994,
+          "nome": "Tinham - 7 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7995,
+          "nome": "Tinham - 8 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7997,
+          "nome": "Tinham - 9 banheiros ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2997,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92853,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10971,
+          "nome": "Poço ou nascente na propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121290,
+          "nome": "Poço ou nascente fora da propriedade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121373,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121292,
+          "nome": "Água da chuva armazenada em cisterna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121293,
+          "nome": "Água da chuva armazenada de outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121294,
+          "nome": "Rio, açude, lago ou igarapé",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121296,
+          "nome": "Poço ou nascente na aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121297,
+          "nome": "Poço ou nascente fora da aldeia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121295,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92863,
+          "nome": "Coletado por serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92864,
+          "nome": "Coletado em caçamba de serviço de limpeza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3012,
+          "nome": "Tinham - de companhia distribuidora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3013,
+          "nome": "Tinham - de companhia distribuidora - com medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3014,
+          "nome": "Tinham - de companhia distribuidora - com medidor - de uso exclusivo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3015,
+          "nome": "Tinham - de companhia distribuidora - com medidor - comum a mais de um domicílio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3016,
+          "nome": "Tinham - de companhia distribuidora - sem medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3017,
+          "nome": "Tinham - de outra fonte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 3929,
+  "nome": "Quantidade, Área e Participação relativa no bioma, das unidades de conservação federais, por tipo de uso",
+  "URL": "https://sidra.ibge.gov.br/tabela/3929",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Áreas protegidas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [],
+    "Especial": [
+      "N123"
+    ],
+    "IBGE": [
+      "N1103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2168,
+      "nome": "Número de Unidades de Conservação federais",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 2169,
+      "nome": "Área das Unidades de Conservação federais",
+      "unidade": "Quilômetros quadrados",
+      "sumarizacao": []
+    },
+    {
+      "id": 2170,
+      "nome": "Participação relativa da área das Unidades de Conservação federais na área do bioma",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12686,
+      "nome": "Tipo de uso",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114622,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114623,
+          "nome": "Proteção integral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114624,
+          "nome": "Uso sustentável",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

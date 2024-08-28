@@ -1,0 +1,78 @@
+{
+  "id": 7479,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs em operação e volume de esgoto tratado por dia, por tipo de tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7479",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10675,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com ETEs em operação",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 756,
+      "nome": "Volume de esgoto tratado por dia",
+      "unidade": "Metros cúbicos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 348,
+      "nome": "Tipo de tratamento de esgoto",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8128,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8130,
+          "nome": "Preliminar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8131,
+          "nome": "Primário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8132,
+          "nome": "Secundário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8133,
+          "nome": "Terciário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

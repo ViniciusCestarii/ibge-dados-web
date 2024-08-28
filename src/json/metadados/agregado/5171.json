@@ -1,0 +1,82 @@
+{
+  "id": 5171,
+  "nome": "Rendimento, médio e mediano, mensal per capita dos domicílios particulares permanentes, por existência de utilização da Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5171",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5502,
+      "nome": "Rendimento médio mensal per capita dos domicílios particulares permanentes",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5672,
+      "nome": "Coeficiente de variação - Rendimento médio mensal per capita dos domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5503,
+      "nome": "Rendimento mediano mensal per capita dos domicílios particulares permanentes",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5673,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal per capita dos domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 688,
+      "nome": "Existência de utilização da Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33298,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33299,
+          "nome": "Havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33300,
+          "nome": "Não havia",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

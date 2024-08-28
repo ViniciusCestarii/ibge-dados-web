@@ -1,0 +1,82 @@
+{
+  "id": 7401,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão sem acesso a serviço de televisão por assinatura, por motivo de não haver serviço de televisão por assinatura",
+  "URL": "https://sidra.ibge.gov.br/tabela/7401",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4288,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão sem acesso a serviço de televisão por assinatura",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4289,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios com televisão sem acesso a serviço de televisão por assinatura",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 941,
+      "nome": "Motivo de não haver serviço de televisão por assinatura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48494,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48490,
+          "nome": "Serviço era caro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48491,
+          "nome": "Serviço não estava disponível na área do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48586,
+          "nome": "Vídeos (inclusive de programas, filmes ou séries) acessados pela Internet substituíam o serviço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48492,
+          "nome": "Não havia interesse pelo serviço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48493,
+          "nome": "Outro motivo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

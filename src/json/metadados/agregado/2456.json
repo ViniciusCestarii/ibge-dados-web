@@ -1,0 +1,493 @@
+{
+  "id": 2456,
+  "nome": "Famílias residentes em domicílios particulares por classes de rendimento nominal mensal familiar, situação do domicílio e número de componentes das famílias e número dos que têm rendimentos",
+  "URL": "https://sidra.ibge.gov.br/tabela/2456",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 155,
+      "nome": "Famílias residentes em domicílios particulares",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000155,
+      "nome": "Famílias residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12249,
+      "nome": "Classes de rendimento nominal mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104734,
+          "nome": "Até 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104735,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104736,
+          "nome": "Mais de 1/2 a 3/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104737,
+          "nome": "Mais de 3/4 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104738,
+          "nome": "Mais de 1 a 1 1/4 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104739,
+          "nome": "Mais de 1 1/4 a 1 1/2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104740,
+          "nome": "Mais de 1 1/2 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104741,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104742,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104743,
+          "nome": "Mais de 5 a 10 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104744,
+          "nome": "Mais de 10 a 15 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104745,
+          "nome": "Mais de 15 a 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104746,
+          "nome": "Mais de 20 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104747,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12250,
+      "nome": "Número de componentes da família e número dos que têm rendimentos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104749,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104750,
+          "nome": "1 pessoa - sem rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104751,
+          "nome": "1 pessoa - com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104766,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104752,
+          "nome": "2 pessoas - sem rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104753,
+          "nome": "2 pessoas - 1 pessoa com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104754,
+          "nome": "2 pessoas - 1 pessoa com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104755,
+          "nome": "2 pessoas - 1 pessoa com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104756,
+          "nome": "2 pessoas - 2 pessoas com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104757,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104758,
+          "nome": "3 pessoas - sem rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104759,
+          "nome": "3 pessoas - 1 pessoa com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104760,
+          "nome": "3 pessoas - 1 pessoa com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104761,
+          "nome": "3 pessoas - 1 pessoa com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104762,
+          "nome": "3 pessoas - 2 pessoas com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104763,
+          "nome": "3 pessoas - 2 pessoas com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104764,
+          "nome": "3 pessoas - 2 pessoas com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104765,
+          "nome": "3 pessoas - 3 pessoas com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104767,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104768,
+          "nome": "4 pessoas - sem rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104769,
+          "nome": "4 pessoas - 1 pessoa com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104770,
+          "nome": "4 pessoas - 1 pessoa com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104771,
+          "nome": "4 pessoas - 1 pessoa com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104772,
+          "nome": "4 pessoas - 2 pessoas com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104773,
+          "nome": "4 pessoas - 2 pessoas com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104774,
+          "nome": "4 pessoas - 2 pessoas com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104775,
+          "nome": "4 pessoas - 3 pessoas ou mais com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104776,
+          "nome": "4 pessoas - 3 pessoas ou mais com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104777,
+          "nome": "4 pessoas - 3 pessoas ou mais com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104778,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104779,
+          "nome": "5 pessoas - sem rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104780,
+          "nome": "5 pessoas - 1 pessoa com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104781,
+          "nome": "5 pessoas - 1 pessoa com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104782,
+          "nome": "5 pessoas - 1 pessoa com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104783,
+          "nome": "5 pessoas - 2 pessoas com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104784,
+          "nome": "5 pessoas - 2 pessoas com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104785,
+          "nome": "5 pessoas - 2 pessoas com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104786,
+          "nome": "5 pessoas - 3 pessoas ou mais com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104787,
+          "nome": "5 pessoas - 3 pessoas ou mais com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104788,
+          "nome": "5 pessoas - 3 pessoas ou mais com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104789,
+          "nome": "6 pessoas ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104790,
+          "nome": "6 pessoas ou mais - sem rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104791,
+          "nome": "6 pessoas ou mais - 1 pessoa com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104792,
+          "nome": "6 pessoas ou mais - 1 pessoa com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104793,
+          "nome": "6 pessoas ou mais - 1 pessoa com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104794,
+          "nome": "6 pessoas ou mais - 2 pessoas com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104795,
+          "nome": "6 pessoas ou mais - 2 pessoas com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104796,
+          "nome": "6 pessoas ou mais - 2 pessoas com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104797,
+          "nome": "6 pessoas ou mais - 3 pessoas ou mais com rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104798,
+          "nome": "6 pessoas ou mais - 3 pessoas ou mais com rendimentos - pessoa responsável com rendimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104799,
+          "nome": "6 pessoas ou mais - 3 pessoas ou mais com rendimentos - pessoa responsável sem rendimentos",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

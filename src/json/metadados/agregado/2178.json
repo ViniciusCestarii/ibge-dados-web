@@ -1,0 +1,65 @@
+{
+  "id": 2178,
+  "nome": "Taxa de desocupação na semana de referência, das pessoas de 10 anos ou mais de idade por anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2178",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1031,
+      "nome": "Taxa de desocupação, na semana de referência, das pessoas de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1032,
+      "nome": "Coeficiente de variação - Taxa de desocupação na semana de referência, das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100712,
+          "nome": "Sem instrução e menos de 8 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100054,
+          "nome": "11 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

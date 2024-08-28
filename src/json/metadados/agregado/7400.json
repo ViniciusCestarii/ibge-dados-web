@@ -1,0 +1,92 @@
+{
+  "id": 7400,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão, por situação do domicílio e acesso a televisão por assinatura",
+  "URL": "https://sidra.ibge.gov.br/tabela/7400",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4198,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4199,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "nome": "Acesso à televisão por assinatura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33227,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48467,
+          "nome": "Havia acesso a serviço de televisão por assinatura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48468,
+          "nome": "Não havia acesso a serviço de televisão por assinatura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

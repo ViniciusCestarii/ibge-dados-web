@@ -1,0 +1,110 @@
+{
+  "id": 3146,
+  "nome": "Pessoas residentes em domicílios particulares, por condição no domicílio - Resultados Preliminares do Universo",
+  "URL": "https://sidra.ibge.gov.br/tabela/3146",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Pessoas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 134,
+      "nome": "Pessoas residentes em domicílios particulares",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000134,
+      "nome": "Pessoas residentes em domicílios particulares - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11603,
+      "nome": "Condição no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9666,
+          "nome": "Pessoa responsável",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93327,
+          "nome": "Cônjuge",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10913,
+          "nome": "Cônjuge de sexo diferente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10914,
+          "nome": "Cônjuge do mesmo sexo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10915,
+          "nome": "Filho(a) ou enteado(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93337,
+          "nome": "Neto(a) ou bisneto(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9674,
+          "nome": "Outro parente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10912,
+          "nome": "Sem parentesco",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

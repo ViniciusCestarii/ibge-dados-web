@@ -1,0 +1,110 @@
+{
+  "id": 9522,
+  "nome": "Pessoas de 10 anos ou mais de idade que não utilizaram Internet no período de referência dos últimos três meses, por sexo e cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/9522",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2621,
+      "nome": "Pessoas de 10 anos ou mais de idade que não utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 2622,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade que não utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10652,
+      "nome": "Distribuição percentual das pessoas de 10 anos ou mais de idade que não utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10653,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 10 anos ou mais de idade que não utilizaram Internet no período de referência dos últimos três meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

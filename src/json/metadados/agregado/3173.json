@@ -1,0 +1,352 @@
+{
+  "id": 3173,
+  "nome": "Emigrantes internacionais, por sexo, segundo os continentes e países estrangeiros de destino",
+  "URL": "https://sidra.ibge.gov.br/tabela/3173",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Emigração",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 70,
+      "nome": "Emigrantes internacionais",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000070,
+      "nome": "Emigrantes internacionais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "nome": "Continentes e países estrangeiros de destino",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11965,
+          "nome": "África",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12281,
+          "nome": "África do Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12226,
+          "nome": "Angola",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12225,
+          "nome": "Outros países da África",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12227,
+          "nome": "América Central",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12228,
+          "nome": "América do Norte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12229,
+          "nome": "Canadá",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12230,
+          "nome": "Estados Unidos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12263,
+          "nome": "México",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12231,
+          "nome": "América do Sul",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12240,
+          "nome": "Argentina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12244,
+          "nome": "Bolívia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12245,
+          "nome": "Chile",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12260,
+          "nome": "Guiana Francesa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12279,
+          "nome": "Paraguai",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11943,
+          "nome": "Suriname",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12291,
+          "nome": "Uruguai",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12292,
+          "nome": "Venezuela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12232,
+          "nome": "Outros países da América do Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12233,
+          "nome": "Ásia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12246,
+          "nome": "China",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12262,
+          "nome": "Japão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12234,
+          "nome": "Outros países da Ásia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12235,
+          "nome": "Europa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12239,
+          "nome": "Alemanha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12242,
+          "nome": "Áustria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12243,
+          "nome": "Bélgica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12258,
+          "nome": "Espanha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12259,
+          "nome": "França",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12273,
+          "nome": "Holanda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 11947,
+          "nome": "Irlanda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12261,
+          "nome": "Itália",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12278,
+          "nome": "Noruega",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12280,
+          "nome": "Portugal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12284,
+          "nome": "Reino Unido",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12282,
+          "nome": "Suécia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12283,
+          "nome": "Suíça",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12236,
+          "nome": "Outros países da Europa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12237,
+          "nome": "Oceania",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12241,
+          "nome": "Austrália",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12274,
+          "nome": "Nova Zelândia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12238,
+          "nome": "Outros países da Oceania",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12293,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

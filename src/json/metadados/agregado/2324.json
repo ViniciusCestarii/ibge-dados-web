@@ -1,0 +1,177 @@
+{
+  "id": 2324,
+  "nome": "Percentual das famílias por existência de problemas no domicílio e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/2324",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1210,
+      "nome": "Percentual das famílias",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12197,
+      "nome": "Existência de problemas no domicílio",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103520,
+          "nome": "Pouco espaço - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103521,
+          "nome": "Pouco espaço - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103522,
+          "nome": "Rua ou vizinhos barulhentos - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103523,
+          "nome": "Rua ou vizinhos barulhentos - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103524,
+          "nome": "Casa escura - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103525,
+          "nome": "Casa escura - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103526,
+          "nome": "Telhado com goteira - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103527,
+          "nome": "Telhado com goteira - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103528,
+          "nome": "Fundação, paredes ou chão úmidos - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103529,
+          "nome": "Fundação, paredes ou chão úmidos - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103530,
+          "nome": "Madeiras das janelas, portas ou assoalhos deteriorados - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103531,
+          "nome": "Madeiras das janelas, portas ou assoalhos deteriorados - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103532,
+          "nome": "Poluição ou problemas ambientais causados pelo trânsito ou indústria - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103533,
+          "nome": "Poluição ou problemas ambientais causados pelo trânsito ou indústria - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103534,
+          "nome": "Violência ou vandalismo na área de residência - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103535,
+          "nome": "Violência ou vandalismo na área de residência - não",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31090,
+          "nome": "Sujeito à inundação - sim",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31091,
+          "nome": "Sujeito à inundação - não",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

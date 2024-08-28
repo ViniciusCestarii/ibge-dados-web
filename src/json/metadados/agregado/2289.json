@@ -1,0 +1,146 @@
+{
+  "id": 2289,
+  "nome": "Índices de volume e de receita nominal de vendas no comércio varejista ampliado, por tipos de índice e atividades (2003 = 100 - série encerrada em dezembro de 2011)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2289",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200401,
+    "fim": 201112
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1186,
+      "nome": "Índice de volume de vendas no comércio varejista ampliado",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    },
+    {
+      "id": 1190,
+      "nome": "Índice de receita nominal de vendas no comércio varejista ampliado",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103339,
+          "nome": "Índice base fixa (2003=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 90668,
+          "nome": "Variação mensal (base: igual mês do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90669,
+          "nome": "Variação acumulada no ano (base: igual período do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90670,
+          "nome": "Variação acumulada de 12 meses",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "nome": "Atividades",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 90671,
+          "nome": "Combustíveis e lubrificantes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90672,
+          "nome": "Hipermercados, supermercados, produtos alimentícios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103154,
+          "nome": "Hipermercados e supermercados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90673,
+          "nome": "Tecidos, vestuário e calçados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2759,
+          "nome": "Móveis e eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103155,
+          "nome": "Artigos farmacêuticos, médicos, ortopédicos, de perfumaria e cosméticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103156,
+          "nome": "Livros, jornais, revistas e papelaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103157,
+          "nome": "Equipamentos e materiais para escritório, informática e comunicação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103158,
+          "nome": "Outros artigos de uso pessoal e doméstico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103159,
+          "nome": "Veículos, motocicletas, partes e peças",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2762,
+          "nome": "Material de construção",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

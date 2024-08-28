@@ -1,0 +1,129 @@
+{
+  "id": 5662,
+  "nome": "Pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5662",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6354,
+      "nome": "Pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6355,
+      "nome": "Pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6356,
+      "nome": "Pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 6357,
+      "nome": "Coeficiente de variação - Pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6358,
+      "nome": "Percentual de pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6359,
+      "nome": "Percentual de pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6360,
+      "nome": "Percentual de pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6361,
+      "nome": "Coeficiente de variação - Percentual de pessoas com deficiência intelectual com grau intenso/muito intenso de limitações ou que não conseguem realizar as atividades habituais",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

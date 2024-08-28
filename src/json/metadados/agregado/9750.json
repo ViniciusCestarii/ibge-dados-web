@@ -1,0 +1,121 @@
+{
+  "id": 9750,
+  "nome": "Pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19, por manifestação de sintomas e ocorrência de internação na primeira ou única vez que tiveram a doença e número de doses de vacina tomadas",
+  "URL": "https://sidra.ibge.gov.br/tabela/9750",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9446,
+      "nome": "Pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9447,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9450,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9451,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade que tiveram ou consideram que tiveram COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1822,
+      "nome": "Manifestação de sintomas e ocorrência de internação na primeira vez que teve a doença",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3008,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3003,
+          "nome": "Teve sintoma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3002,
+          "nome": "Teve sintoma e foi internado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3005,
+          "nome": "Teve sintoma e não foi internado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3006,
+          "nome": "Não teve sintoma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1811,
+      "nome": "Número de doses de vacina já tomadas quando teve a doença pela primeira vez",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72056,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72057,
+          "nome": "Nenhuma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72058,
+          "nome": "1 dose",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72059,
+          "nome": "2 doses ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 884,
+  "nome": "Domicílios particulares permanentes, por recebimento de dinheiro de programa social do governo, no mês de referência e bens duráveis existentes nos domicílios",
+  "URL": "https://sidra.ibge.gov.br/tabela/884",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Programas Sociais do Governo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12380,
+      "nome": "Recebimento de dinheiro de programa social do governo no mês de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107474,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114502,
+          "nome": "Houve",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114503,
+          "nome": "Não houve",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12060,
+      "nome": "Alguns bens duráveis existentes no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114527,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114531,
+          "nome": "Rádio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114532,
+          "nome": "Televisão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114530,
+          "nome": "Máquina de lavar roupa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114528,
+          "nome": "Geladeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114529,
+          "nome": "Freezer",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114533,
+          "nome": "Microcomputador",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

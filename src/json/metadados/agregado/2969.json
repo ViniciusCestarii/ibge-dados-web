@@ -1,0 +1,1868 @@
+{
+  "id": 2969,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência por situação do domicílio e seção, divisão e classe de atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/2969",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12390,
+      "nome": "Seção, divisão e classe de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 107706,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107707,
+          "nome": "1Agricultura, pecuária, silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107708,
+          "nome": "1.1Agricultura, pecuária e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107709,
+          "nome": "1.1.1Cultivo de arroz",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107710,
+          "nome": "1.1.2Cultivo de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107711,
+          "nome": "1.1.3Cultivo de outros cereiais para grãos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107712,
+          "nome": "1.1.4Cultivo de algodão herbáceo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107713,
+          "nome": "1.1.5Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107714,
+          "nome": "1.1.6Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107715,
+          "nome": "1.1.7Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107716,
+          "nome": "1.1.8Cultivo de mandioca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107717,
+          "nome": "1.1.9Cultivo de outros produtos de lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107718,
+          "nome": "1.1.11Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107719,
+          "nome": "1.1.12Cultivo de flores, plantas ornamentais e produtos de viveiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107720,
+          "nome": "1.1.13Cultivo de frutas cítricas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107721,
+          "nome": "1.1.14Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107722,
+          "nome": "1.1.15Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107723,
+          "nome": "1.1.16Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107724,
+          "nome": "1.1.17Cultivo de banana",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107725,
+          "nome": "1.1.18Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107726,
+          "nome": "1.1.19Cultivos agrícolas mal especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107727,
+          "nome": "1.1.20Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107728,
+          "nome": "1.1.21Criação de outros animais de grande porte não especificados anteriormente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107729,
+          "nome": "1.1.22Criação de ovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107730,
+          "nome": "1.1.23Criação de suinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107731,
+          "nome": "1.1.24Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107732,
+          "nome": "1.1.25Apicultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107733,
+          "nome": "1.1.26Sericicultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107734,
+          "nome": "1.1.27Criação de outros animais não especificados anteriormente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107735,
+          "nome": "1.1.28Criação de animais mal especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107736,
+          "nome": "1.1.29Produção mista: lavoura e pecuária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107737,
+          "nome": "1.1.30Atividades de serviços relacionados com a agricultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107738,
+          "nome": "1.1.31Atividades de serviços relacionados com a pecuária - exceto atividades veterinárias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107739,
+          "nome": "1.1.32Caça, repovoamento ciegético e serviços relacionados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107740,
+          "nome": "1.2Silvicultura, exploração florestal e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107741,
+          "nome": "1.2.1Silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107742,
+          "nome": "1.2.2Atividades de serviços relacionados com a silvicultura e a exploração florestal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107743,
+          "nome": "2Pesca",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107744,
+          "nome": "2.1Pesca, aquicultura e atividades dos serviços relacionados com estas atividades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107745,
+          "nome": "2.1.1Pesca e serviços relacionados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107746,
+          "nome": "2.1.2Aquicultura e serviços relacionados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107747,
+          "nome": "3Indústrias extrativas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107748,
+          "nome": "3.1Extração de carvão mineral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107808,
+          "nome": "3.1.1Extração de carvão mineral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107749,
+          "nome": "3.2Extração de petróleo e gás natural e serviços relacionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107809,
+          "nome": "3.2.1Extração de petróleo e gás natural e serviços relacionados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107750,
+          "nome": "3.3Extração de minerais metálicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107751,
+          "nome": "3.3.1Extração de minerais radioativos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107752,
+          "nome": "3.3.2Extração de minérios de metais preciosos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107753,
+          "nome": "3.3.3Extração de minerais metálicos - exceto metais preciosos e radioativos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107754,
+          "nome": "3.4Extração de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107755,
+          "nome": "3.4.1Extração de pedras e outros materiais para construção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107756,
+          "nome": "3.4.2Extração de pedras preciosas e semipreciosas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107757,
+          "nome": "3.4.3Extração de outros minerais não-metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107758,
+          "nome": "3.4.4Extração de minerais mal especificados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107759,
+          "nome": "4.Indústrias de transformação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107760,
+          "nome": "4.1Fabricação de produtos alimenticios e bebidas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107761,
+          "nome": "4.1.1Abate e preparação de carne e pescado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107762,
+          "nome": "4.1.2Produção de conservas de frutas, legumes e outros vegetais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107763,
+          "nome": "4.1.3Produção de gorduras e óleos vegetais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107764,
+          "nome": "4.1.4Fabricação de produtos do laticínio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107765,
+          "nome": "4.1.5Fabricação e refino do açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107766,
+          "nome": "4.1.6Torrefação e moagem de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107767,
+          "nome": "4.1.7Fabricação de outros produtos alimenticíos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107768,
+          "nome": "4.1.8Fabricação de bebidas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107769,
+          "nome": "4.2Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107810,
+          "nome": "4.2.1Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107770,
+          "nome": "4.3Fabricação de produtos têxteis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107771,
+          "nome": "4.3.1Beneficiamento de fibras, fiação e tecelagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107802,
+          "nome": "4.3.2Fabricação de artefatos têxteis a partir de tecidos - exceto vestuário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107803,
+          "nome": "4.4Confecção de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107804,
+          "nome": "4.4.1Confecção de artigos do vestuário e acessórios - exceto sob medida",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107805,
+          "nome": "4.4.2Confecção sob medida de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107806,
+          "nome": "4.4.3Confecção de artigos do vestuário e acessórios sob medida ou não",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107807,
+          "nome": "4.5Preparação de couros e fabricação de artefatos de couro, artigos de viagem e calçados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107811,
+          "nome": "4.5.1Curtimento e outras preparações de couro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107812,
+          "nome": "4.5.2Fabricação de artefatos de couro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107813,
+          "nome": "4.5.3Fabricação de calçados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107814,
+          "nome": "4.6Fabricação de produtos de madeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107815,
+          "nome": "4.6.1.Fabricação de produtos de madeira",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107816,
+          "nome": "4.7Fabricação de celulose, papel e produtos de papel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107818,
+          "nome": "4.7.1Fabricação de celulose, papel e papelão liso, cartolina e cartão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107820,
+          "nome": "4.7.2Fabricação de papelão corrugado e de embalagens e artefatos de papel e papelão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107821,
+          "nome": "4.8Edição, impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107822,
+          "nome": "4.8.1Edição, impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107823,
+          "nome": "4.9Fabricação de coque, refino de petróleo, elaboração de combustíveis nucleares e produção de álcool",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107824,
+          "nome": "4.9.1Coquerias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107825,
+          "nome": "4.9.2Fabricação de produtos do refino do petróleo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107826,
+          "nome": "4.9.3Elaboração de combustíveis nucleares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107827,
+          "nome": "4.9.4Produção de álcool",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107828,
+          "nome": "4.10Fabricação de produtos químicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107829,
+          "nome": "4.10.1Fabricação de tintas, vernizes, esmaltes e lacas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107830,
+          "nome": "4.10.2Fabricação de produtos farmacêuticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107831,
+          "nome": "4.10.3Fabricação de sabões, detergentes, produtos de limpeza e perfumaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107832,
+          "nome": "4.10.4Fabricação de produtos químicos diversos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107833,
+          "nome": "4.11Fabricação de artigos de borracha e plástico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107834,
+          "nome": "4.11.1Fabricação de produtos de borracha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107835,
+          "nome": "4.11.2Fabricação de produtos de plástico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107836,
+          "nome": "4.12Fabricação de produtos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107837,
+          "nome": "4.12.1Fabricação de vidros e produtos de vidro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107838,
+          "nome": "4.12.2Fabricação de produtos cerâmicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107839,
+          "nome": "4.12.3Fabricação de produtos diversos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107840,
+          "nome": "4.13Metalurgica básica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107841,
+          "nome": "4.13.1Fabricação de produtos siderúrgicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107842,
+          "nome": "4.13.2Metalurgia dos metais não-ferrosos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107843,
+          "nome": "4.13.3Fundição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107844,
+          "nome": "4.14Fabricação de produtos de metal - exceto máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107845,
+          "nome": "4.14.1Fabricação de produtos de metal - exceto máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107846,
+          "nome": "4.14.2Forjaria, estamparia, metalurgia do pó e serviços de tratamento de metais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107847,
+          "nome": "4.15Fabricação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107848,
+          "nome": "4.15.1Fabricação de máquinas e equipamentos - exceto eletrodomésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107849,
+          "nome": "4.15.2Fabricação de eletrodomésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107850,
+          "nome": "4.16Fabricação de máquinas para escritório e equipamentos de informática",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107851,
+          "nome": "4.16.1Fabricação de máquinas para escritório e equipamentos de informática",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107852,
+          "nome": "4.17Fabricação de máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107853,
+          "nome": "4.17.1Fabricação de máquinas, aparelhos e materiais elétricos diversos - exceto para veículos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107854,
+          "nome": "4.17.2Fabricação de material elétrico para veículos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107856,
+          "nome": "4.18Fabricação de material eletrônico e de aparelhos e equipamentos de comunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107858,
+          "nome": "4.18.1Fabricação de material eletrônico e de aparelhos e equipamentos de comunicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107859,
+          "nome": "4.19Fabricação de equipamentos de instrumentação médico-hospitalares, instrumentos de precisão e ópticos, equipamentos para automação industrial, cronômetros e relógios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107860,
+          "nome": "4.19.1Fabricação de aparelhos e equipamentos médico-hospitalares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107861,
+          "nome": "4.19.2Fabricação de aparelhos e instrumentos de medida, teste e controle - exceto para controle de processos industriais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107862,
+          "nome": "4.19.3Fabricação de máquinas, aparelhos e equipamentos de sistema eletrônicos dedicados a automação industrial e controle do processo produtivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107863,
+          "nome": "4.19.4Fabricação de aparelhos, instrumentos e materiais ópticos, fotográficos e cinematográficos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107864,
+          "nome": "4.19.5Fabricação de cronômetros e relógios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107865,
+          "nome": "4.20Fabricação e montagem de veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107866,
+          "nome": "4.20.1Fabricação e montagem de veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107867,
+          "nome": "4.20.2Fabricação de cabines, carrocerias, reboques e peças e peças para veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107868,
+          "nome": "4.20.3Recondicionamento ou recuperação de motores de veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107869,
+          "nome": "4.21Fabricação de outros equipamentos de transporte",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107870,
+          "nome": "4.21.1Construção e reparação de embarcações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107871,
+          "nome": "4.21.2Construção e montagem de locomotivas, vagões e outros materiais rodantes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107872,
+          "nome": "4.21.3Construção, montagem e reparação de aeronaves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107873,
+          "nome": "4.21.4Fabricação de equipamentos de transporte diversos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107874,
+          "nome": "4.22Fabricação de móveis e indústrias diversas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107875,
+          "nome": "4.22.1Fabricação de artigos do mobiliário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107876,
+          "nome": "4.22.2Fabricação de produtos diversos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107877,
+          "nome": "4.23Reciclagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107878,
+          "nome": "4.23.1Reciclagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107879,
+          "nome": "5.Produção e distribuição de eletricidade, gás e água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107880,
+          "nome": "5.1Eletricidade, gás e água quente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107881,
+          "nome": "5.1.1Produção e distribuição de energia elétrica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107882,
+          "nome": "5.1.2Produção e distribuição de gás através de tubulações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107883,
+          "nome": "5.2Captação, tratamento e distribuição de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107884,
+          "nome": "5.2.1Captação, tratamento e distribuição de água",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107885,
+          "nome": "6.Construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107886,
+          "nome": "6.1Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107887,
+          "nome": "6.1.1Preparação do terreno",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107888,
+          "nome": "6.1.2Construção de edifícios e obras de engenharia civil",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107889,
+          "nome": "6.1.3Obras de instalações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107890,
+          "nome": "6.1.4Obras de acabamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107892,
+          "nome": "6.1.5Aluguel de equipamentos de construção e demolição com operários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107894,
+          "nome": "6.1.6Atividades de construção - especialidade não definida",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107898,
+          "nome": "7.Comércio e reparação de veículos automotores, objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107901,
+          "nome": "7.1Comércio e reparação de veículos automotores e motocicletas; e comércio a varejo de combustíveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107903,
+          "nome": "7.1.1Comércio de veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107904,
+          "nome": "7.1.2Serviços de reparação e manutenção de veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107905,
+          "nome": "7.1.3Comércio de peças e acessórios para veículos automotores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107906,
+          "nome": "7.1.4Comércio, manutenção e reparação de motocicletas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107907,
+          "nome": "7.1.5Posto de combustíveis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107908,
+          "nome": "7.2Comércio a varejo e por atacado e reparação de objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107909,
+          "nome": "7.2.1Representantes comerciais e agentes do comércio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107910,
+          "nome": "7.2.2Comércio de produtos agropecuários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107911,
+          "nome": "7.2.3Comércio de produtos alimenticios, bebidas e fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107912,
+          "nome": "7.2.4Comércio de fios têxteis, tecidos, artefatos de tecidos e armarinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107913,
+          "nome": "7.2.5Comércio de artigos do vestuário, complementos e calçados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107914,
+          "nome": "7.2.6Comércio de madeira, material de construção, ferragens e ferramentas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107915,
+          "nome": "7.2.7Comércio de eletrodomésticos, moveis e outros artigos de residência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107916,
+          "nome": "7.2.8Comércio de livros, jornais, revistas e papelaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107917,
+          "nome": "7.2.9Comércio de produtos farmacêuticos, médicos, ortopédicos, odontológicos, cosméticos e de perfumaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107918,
+          "nome": "7.2.10Comércio de máquinas, aparelhos e equipamentos - exceto eletrodomésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107919,
+          "nome": "7.2.11Comércio de combustíveis - exceto posto de combustíveis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107920,
+          "nome": "7.2.12Comércio de resíduos e sucatas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107921,
+          "nome": "7.2.13Comércio de produtos extrativos de origem mineral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107924,
+          "nome": "7.2.14Comércio de mercadorias em geral - inclusive mercadorias usadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107926,
+          "nome": "7.2.15Supermercado e hipermercado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107932,
+          "nome": "7.2.16Lojas de departamento e outros comércios não especializados, sem predominância de produtos alimentícios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107936,
+          "nome": "7.2.17Comércio varejista de artigos em geral por catálogo, televisão, internet e outros meios de comunicação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107937,
+          "nome": "7.2.18Comércio varejista realizado em postos móveis, instalados em vias públicas ou em mercados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107938,
+          "nome": "7.2.19Outros tipos de comércio varejista, não realizado em lojas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107939,
+          "nome": "7.2.20Reparação e manutenção de eletrodomésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107940,
+          "nome": "7.2.21Reparação de calçados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107941,
+          "nome": "7.2.22Reparação de objetos pessoais e domésticos - exceto de eletrodomésticos e calçados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107942,
+          "nome": "7.2.23Atividades de comércio não especificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107943,
+          "nome": "8.Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107944,
+          "nome": "8.1Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107945,
+          "nome": "8.1.1Alojamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107946,
+          "nome": "8.1.2Ambulante de alimentação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107947,
+          "nome": "8.1.3Outros serviços de alimentação - exceto ambulantes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107948,
+          "nome": "8.1.4Atividades de alojamento e/ou alimentação não especificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107949,
+          "nome": "9.Transporte, armazenagem e comunicações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107950,
+          "nome": "9.1Transporte terrestre",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107951,
+          "nome": "9.1.1Transporte ferroviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107952,
+          "nome": "9.1.2Transporte metroviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107953,
+          "nome": "9.1.3Transporte rodoviário de carga - exceto de mudanças",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107954,
+          "nome": "9.1.4Transporte rodoviário de mudanças",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107955,
+          "nome": "9.1.5Transporte rodoviário de passageiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107956,
+          "nome": "9.1.6Transporte em bondes, funiculares, teleféricos ou trens próprios para exploração de pontos turísticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107957,
+          "nome": "9.1.7Transporte dutoviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107958,
+          "nome": "9.1.8Transporte terrestre - modalidade não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107959,
+          "nome": "9.2Transporte aquaviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107960,
+          "nome": "9.2.1Transporte aquaviário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107961,
+          "nome": "9.3Transporte aéreo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107962,
+          "nome": "9.3.1Transporte aéreo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107963,
+          "nome": "9.4Atividades anexas e auxiliares do transporte e agências de viagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107964,
+          "nome": "9.4.1Carga e descarga, armazenamento e depósitos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107965,
+          "nome": "9.4.2Atividades auxiliares aos transportes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107966,
+          "nome": "9.4.3Organização do transporte de cargas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107967,
+          "nome": "9.4.4Agências de viagens e organizadores de viagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107968,
+          "nome": "9.5Correio e telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107969,
+          "nome": "9.5.1Atividades de correio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107970,
+          "nome": "9.5.2Telecomunicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107971,
+          "nome": "10.Intermediação financeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107972,
+          "nome": "10.1Intermediação financeira, exclusive seguros e previdência privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107973,
+          "nome": "10.1.1Intermediação financeira.",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107974,
+          "nome": "10.2Seguros e previdência privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107975,
+          "nome": "10.2.1Seguros e previdência privada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107976,
+          "nome": "10.3Atividades auxiliares da intermediação financeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107977,
+          "nome": "10.3.1Atividades auxiliares da intermediação financeira.",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107978,
+          "nome": "10.3.2Atividades auxiliares dos seguros e da previdência privada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107979,
+          "nome": "11.Atividades imobiliárias, aluguéis e serviços prestados às empresas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 107980,
+          "nome": "11.1Atividades imobiliárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107981,
+          "nome": "11.1.1Atividades imobiliárias - exceto condomínios prediais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107982,
+          "nome": "11.1.2Condomínios prediais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107983,
+          "nome": "11.2Aluguel de veículos, máquinas e equipamentos sem condutores ou operadores e de objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107984,
+          "nome": "11.2.1Aluguel de veículos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107985,
+          "nome": "11.2.2Aluguel de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107986,
+          "nome": "11.2.3Aluguel de objetos pessoais e domésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107987,
+          "nome": "11.3Atividades de informática e conexas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107988,
+          "nome": "11.3.1Atividades de informática",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107989,
+          "nome": "11.3.2Manutenção e reparação de máquinas de escritório e de informática",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107990,
+          "nome": "11.4Pesquisa e desenvolvimento das ciências sociais e humanas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107991,
+          "nome": "11.4.1Pesquisa e desenvolvimento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107992,
+          "nome": "11.5Serviços prestados principalmente às empresas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107993,
+          "nome": "11.5.1Atividades jurídicas, de contabilidade e de pesquisas de mercado e opinião pública",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107994,
+          "nome": "11.5.2Atividades de assessoria em gestão empresarial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107995,
+          "nome": "11.5.3Serviços de arquitetura e engenharia e de assessoramento técnico especializado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107996,
+          "nome": "11.5.4Ensaios de materiais e de produtos; análise de qualidade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107997,
+          "nome": "11.5.5Publicidade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107998,
+          "nome": "11.5.6Seleção, agenciamento e locação de mão-de-obra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107999,
+          "nome": "11.5.7Investigação, vigilância e segurança",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108000,
+          "nome": "11.5.8Atividades de imunização, higienização e de limpeza em prédios e em domicílios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108001,
+          "nome": "11.5.9Outros serviços prestados às empresas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108002,
+          "nome": "12.Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108003,
+          "nome": "12.1Administração pública, defesa e seguridade social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108004,
+          "nome": "12.1.1Administração do estado e da política e econômica e social - Federal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108006,
+          "nome": "12.1.2Administração do estado e da política econômica e social - Estadual",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108013,
+          "nome": "12.1.3Administração do estado e da política econômica e social - Municipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108014,
+          "nome": "12.1.4Forças armadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108015,
+          "nome": "12.1.5Outros serviços coletivos prestados pela administração pública - Federal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108016,
+          "nome": "12.1.6Outros serviços coletivos prestados pela administração pública - Estadual",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108017,
+          "nome": "12.1.7Outros serviços coletivos prestados pela administração pública - Municipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108018,
+          "nome": "12.1.8Seguridade social",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108019,
+          "nome": "12.1.9Administração pública, esfera de governo não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108020,
+          "nome": "13.Educação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108021,
+          "nome": "13.1Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108022,
+          "nome": "13.1.1Educação regular, supletiva e especial pública",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108023,
+          "nome": "13.1.2Educação regular, supletiva e especial particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108024,
+          "nome": "13.1.3Outras atividades de ensino",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108025,
+          "nome": "13.1.4Atividades de ensino não especificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108026,
+          "nome": "14.Saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108027,
+          "nome": "14.1Saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108028,
+          "nome": "14.1.1Saúde pública",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108029,
+          "nome": "14.1.2Saúde particular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108030,
+          "nome": "14.1.3Outras atividades de saúde",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108031,
+          "nome": "14.1.4Serviços veterinários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108032,
+          "nome": "14.1.5Serviços sociais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108033,
+          "nome": "14.1.6Atividades de saúde não especificadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108034,
+          "nome": "15.Outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108035,
+          "nome": "15.1Limpeza urbana e esgoto; e atividades conexas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108036,
+          "nome": "15.1.1Limpeza urbana e esgoto; e atividades conexas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108037,
+          "nome": "15.2Atividades associativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108038,
+          "nome": "15.2.1Atividades de organizações sindicais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108039,
+          "nome": "15.2.2Atividades de organizações empresariais, patronais e profissionais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108040,
+          "nome": "15.2.3Atividades de organizações religiosas e filosóficas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108041,
+          "nome": "15.2.4Outras atividades associativas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108042,
+          "nome": "15.3Atividades recreativas, culturais e desportivas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108043,
+          "nome": "15.3.1Produção de filmes cinematográficos e fitas de vídeo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108044,
+          "nome": "15.3.2Distribuição e projeção de filmes e de vídeos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108045,
+          "nome": "15.3.3Atividades de rádio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108046,
+          "nome": "15.3.4Atividades de televisão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108047,
+          "nome": "15.3.5Outras atividades artísticas e de espetáculos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108048,
+          "nome": "15.3.6Atividades de agências de notícias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108049,
+          "nome": "15.3.7Bibliotecas, arquivos, museus e outras atividades culturais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108050,
+          "nome": "15.3.8Atividades desportivas e outras relacionadas ao lazer",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108051,
+          "nome": "15.4Serviços pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108052,
+          "nome": "15.4.1Lavanderias e tinturarias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108053,
+          "nome": "15.4.2Caleleireiros e outros tratamentos de beleza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108054,
+          "nome": "15.4.3Atividades funerárias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108055,
+          "nome": "15.4.4Atividades de manutenção do fisico corporal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108056,
+          "nome": "15.4.5Outras atividades de serviços pessoais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108057,
+          "nome": "16.Serviços domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108058,
+          "nome": "16.1Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108059,
+          "nome": "16.1.1Serviços domésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108060,
+          "nome": "17.Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 108061,
+          "nome": "17.1Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108062,
+          "nome": "17.1.1Organismos internacionais e outras instituições extraterritoriais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 108063,
+          "nome": "18.Atividades mal especificadas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

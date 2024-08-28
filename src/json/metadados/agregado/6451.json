@@ -1,0 +1,82 @@
+{
+  "id": 6451,
+  "nome": "Índices de volume e de receita nominal de vendas de materiais de construção, por tipos de índice (2011 = 100 - série encerrada em dezembro de 2016)",
+  "URL": "https://sidra.ibge.gov.br/tabela/6451",
+  "pesquisa": "Pesquisa Mensal de Comércio",
+  "assunto": "Comércio",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200301,
+    "fim": 201612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1195,
+      "nome": "Índice de volume de vendas de materiais de construção",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    },
+    {
+      "id": 1194,
+      "nome": "Índice de receita nominal de vendas de materiais de construção",
+      "unidade": "Vide categorias da classificação 'Tipos de índice'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11046,
+      "nome": "Tipos de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 12824,
+          "nome": "Índice base fixa (2011=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 12825,
+          "nome": "Índice base fixa com ajuste sazonal (2011=100)",
+          "unidade": "Número-índice",
+          "nivel": 0
+        },
+        {
+          "id": 33534,
+          "nome": "Variação mês / mês anterior com ajuste sazonal",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90668,
+          "nome": "Variação mensal (base: igual mês do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90669,
+          "nome": "Variação acumulada no ano (base: igual período do ano anterior)",
+          "unidade": "%",
+          "nivel": 0
+        },
+        {
+          "id": 90670,
+          "nome": "Variação acumulada de 12 meses",
+          "unidade": "%",
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

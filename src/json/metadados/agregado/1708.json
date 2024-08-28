@@ -1,0 +1,104 @@
+{
+  "id": 1708,
+  "nome": "Número de municípios com rede coletora de esgoto, por existência e forma de cobrança do serviço de esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/1708",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 394,
+      "nome": "Municípios com rede coletora de esgoto",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000394,
+      "nome": "Municípios com rede coletora de esgoto - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11456,
+      "nome": "Existência e forma de cobrança do serviço de esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8156,
+          "nome": "Total de municípios com rede coletora de esgotamento sanitário",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8157,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8158,
+          "nome": "Proporcional ao valor da conta de água - até 50 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8159,
+          "nome": "Proporcional ao valor da conta de água - de 50 % até 75 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8160,
+          "nome": "Proporcional ao valor da conta de água - de 75 % até 100 %",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8161,
+          "nome": "Taxa de esgoto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91750,
+          "nome": "Outra forma",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8162,
+          "nome": "Não há cobrança",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

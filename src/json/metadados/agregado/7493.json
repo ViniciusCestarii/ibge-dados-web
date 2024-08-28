@@ -1,0 +1,78 @@
+{
+  "id": 7493,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição de esgoto ou efluente por emissário oceânico, número de emissários, com medição e com licença ambiental, e extensão dos emissários, por tipo de emissário",
+  "URL": "https://sidra.ibge.gov.br/tabela/7493",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10697,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com disposição de esgoto ou efluente por emissário subaquático",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10698,
+      "nome": "Número de emissários",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10699,
+      "nome": "Número de emissários com medição",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10700,
+      "nome": "Número de emissários com licença ambiental",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10701,
+      "nome": "Extensão dos emissários",
+      "unidade": "Quilômetros",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 977,
+      "nome": "Tipo de emissário subaquático",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48793,
+          "nome": "Oceânico com tratamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48794,
+          "nome": "Oceânico sem tratamento",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

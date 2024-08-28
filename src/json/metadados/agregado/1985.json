@@ -1,0 +1,199 @@
+{
+  "id": 1985,
+  "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência, por sexo, grupos de horas habitualmente trabalhadas por semana no trabalho principal e grandes grupos de ocupação no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1985",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12045,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99401,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99958,
+          "nome": "15 a 29 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99959,
+          "nome": "30 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99403,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99404,
+          "nome": "45 a 48 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99405,
+          "nome": "49 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12064,
+      "nome": "Grandes grupos de ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99765,
+          "nome": "Membros superiores do poder público, dirigentes de organizações de interesse público e de empresas e gerentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99766,
+          "nome": "Profissionais das ciências e artes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99767,
+          "nome": "Técnicos de nível médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99768,
+          "nome": "Trabalhadores de serviços administrativos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99769,
+          "nome": "Trabalhadores dos serviços, vendedores do comércio em lojas e mercados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99770,
+          "nome": "Trabalhadores agropecuários, florestais, de caça e pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99771,
+          "nome": "Trabalhadores da produção de bens e serviços industriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99772,
+          "nome": "Trabalhadores de reparação e manutenção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99773,
+          "nome": "Membros das forças armadas, policiais e bombeiros militares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99774,
+          "nome": "Ocupações mal especificadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

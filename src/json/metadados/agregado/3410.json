@@ -1,0 +1,666 @@
+{
+  "id": 3410,
+  "nome": "Produção, Venda e Valor da produção na horticultura por produtos da horticultura, segundo indicadores da agricultura familiar e não familiar - FAO",
+  "URL": "https://sidra.ibge.gov.br/tabela/3410",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Horticultura",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Vide categorias da classificação 'Produtos da horticultura'",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 228,
+      "nome": "Produtos da horticultura",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113862,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111585,
+          "nome": "Abobrinha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5001,
+          "nome": "Acelga",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5002,
+          "nome": "Agrião",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111586,
+          "nome": "Aipo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5004,
+          "nome": "Alcachofra",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111587,
+          "nome": "Alcaparra",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111588,
+          "nome": "Alecrim",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5005,
+          "nome": "Alface",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5006,
+          "nome": "Alho-porró",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5007,
+          "nome": "Almeirão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5008,
+          "nome": "Aspargo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5010,
+          "nome": "Batata-baroa (mandioquinha)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111589,
+          "nome": "Batata-doce",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5011,
+          "nome": "Berinjela",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5012,
+          "nome": "Bertalha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5013,
+          "nome": "Beterraba",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111590,
+          "nome": "Boldo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5014,
+          "nome": "Brócolis",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5015,
+          "nome": "Bucha (esponja vegetal)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111591,
+          "nome": "Camomila",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111592,
+          "nome": "Cará",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5016,
+          "nome": "Caruru",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111593,
+          "nome": "Cebolinha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5018,
+          "nome": "Cenoura",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5020,
+          "nome": "Chicória",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5021,
+          "nome": "Chuchu",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5022,
+          "nome": "Coentro",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111594,
+          "nome": "Cogumelos",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5024,
+          "nome": "Couve",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5025,
+          "nome": "Couve-flor",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111595,
+          "nome": "Erva-doce",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5027,
+          "nome": "Ervilha (vagem)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5028,
+          "nome": "Espinafre",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111596,
+          "nome": "Gengibre",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5030,
+          "nome": "Hortelã",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111597,
+          "nome": "Inhame",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5031,
+          "nome": "Jiló",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111598,
+          "nome": "Lentilha",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111599,
+          "nome": "Manjericão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5033,
+          "nome": "Maxixe",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111600,
+          "nome": "Milho verde (espiga)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111601,
+          "nome": "Morango",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111602,
+          "nome": "Mostarda (semente)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5036,
+          "nome": "Nabiça",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5037,
+          "nome": "Nabo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111603,
+          "nome": "Orégano",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5039,
+          "nome": "Pepino",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5040,
+          "nome": "Pimenta",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5041,
+          "nome": "Pimentão",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5042,
+          "nome": "Quiabo",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5043,
+          "nome": "Rabanete",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5044,
+          "nome": "Repolho",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5045,
+          "nome": "Rúcula",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5046,
+          "nome": "Salsa",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5048,
+          "nome": "Taioba",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111604,
+          "nome": "Tomate (estaqueado)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 5049,
+          "nome": "Vagem (feijão vagem)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111607,
+          "nome": "Sementes (produzidas para plantio)",
+          "unidade": "Toneladas",
+          "nivel": 1
+        },
+        {
+          "id": 111608,
+          "nome": "Mudas e outras formas de propagação (produzidas para plantio)",
+          "unidade": "Mil unidades",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Tipo de agricultor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 144,
+          "nome": "Familiar - tipo A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 145,
+          "nome": "Familiar - tipo B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 146,
+          "nome": "Familiar - tipo C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 147,
+          "nome": "Familiar - tipo D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 504,
+          "nome": "Agriculltor não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 154,
+          "nome": "Não classificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Tipo de agricultor não familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121449,
+          "nome": "Patronal 1",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121450,
+          "nome": "Patronal 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121451,
+          "nome": "Patronal 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121452,
+          "nome": "Instituição de utilidade pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 505,
+          "nome": "Governo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 507,
+          "nome": "Agricultor familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 506,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Grau de especialização do estabelecimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 155,
+          "nome": "Muito especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 156,
+          "nome": "Especializado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 158,
+          "nome": "Muito diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 157,
+          "nome": "Diversificado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 159,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Grau de integração com o mercado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 160,
+          "nome": "Muito integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 161,
+          "nome": "Integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 162,
+          "nome": "Pouco integrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 163,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Tipo de mão-de-obra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 498,
+          "nome": "Só mão-de-obra familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 499,
+          "nome": "Mão-de-obra familiar e empregado temporário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 500,
+          "nome": "Mão-de-obra familiar, empregado temporário e empregado permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 501,
+          "nome": "Mão-de-obra familiar e serviço de empreitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 502,
+          "nome": "Mão-de-obra familiar e demais combinações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 503,
+          "nome": "Não identificado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

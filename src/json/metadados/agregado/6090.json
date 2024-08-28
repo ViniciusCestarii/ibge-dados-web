@@ -1,0 +1,114 @@
+{
+  "id": 6090,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de ida ao dentista, nos 12 meses anteriores à pesquisa, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6090",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Higiene e saúde bucal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3421,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de ida ao dentista, nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3422,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de ida ao dentista, nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3423,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, distribuído pela frequência de ida ao dentista, nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "nome": "Frequência de ida ao dentista",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31207,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31203,
+          "nome": "Nenhuma vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31204,
+          "nome": "1 vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31205,
+          "nome": "2 vezes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31206,
+          "nome": "3 vezes ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

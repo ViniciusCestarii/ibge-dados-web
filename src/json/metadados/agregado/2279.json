@@ -1,0 +1,80 @@
+{
+  "id": 2279,
+  "nome": "Número de entidades prestadoras de serviços de manejo de resíduos sólidos, por forma de atuação da entidade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2279",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1182,
+      "nome": "Número de entidades prestadoras de serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001182,
+      "nome": "Número de entidades prestadoras de serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11478,
+      "nome": "Forma de atuação da entidade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 102956,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91816,
+          "nome": "Somente neste município",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91817,
+          "nome": "Consórcio intermunicipal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91818,
+          "nome": "Em vários municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92937,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

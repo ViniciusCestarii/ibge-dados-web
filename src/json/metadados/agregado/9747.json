@@ -1,0 +1,104 @@
+{
+  "id": 9747,
+  "nome": "Pessoas de 5 anos ou mais de idade que consideram que tiveram COVID-19, por situação do domicílio e número de vezes",
+  "URL": "https://sidra.ibge.gov.br/tabela/9747",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9225,
+      "nome": "Pessoas de 5 anos ou mais de idade que consideram que tiveram COVID-19",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9229,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade que consideram que tiveram COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9235,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade que consideram que tiveram COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9239,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade que consideram que tiveram COVID-19",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1807,
+      "nome": "Número de vezes que considera que teve COVID-19",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71961,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71963,
+          "nome": "1 vez",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71964,
+          "nome": "2 vezes ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

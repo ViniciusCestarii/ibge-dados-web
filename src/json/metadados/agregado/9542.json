@@ -1,0 +1,512 @@
+{
+  "id": 9542,
+  "nome": "Pessoas de 15 anos ou mais de idade, total e as alfabetizadas, por sexo, cor ou raça e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/9542",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 950,
+      "nome": "Pessoas de 15 anos ou mais de idade",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000950,
+      "nome": "Pessoas de 15 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 59,
+      "nome": "Alfabetização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 93024,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1023,
+          "nome": "Alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1024,
+          "nome": "Não alfabetizadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "nome": "Idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100362,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93086,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6572,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6573,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6574,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6575,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6576,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93087,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6577,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6578,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6579,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6580,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6581,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2999,
+          "nome": "25 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6582,
+          "nome": "25 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6656,
+          "nome": "26 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6657,
+          "nome": "27 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6658,
+          "nome": "28 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6659,
+          "nome": "29 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6583,
+          "nome": "30 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6584,
+          "nome": "31 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6585,
+          "nome": "32 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6586,
+          "nome": "33 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6587,
+          "nome": "34 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9482,
+          "nome": "35 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6588,
+          "nome": "35 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6589,
+          "nome": "36 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6590,
+          "nome": "37 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6591,
+          "nome": "38 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6592,
+          "nome": "39 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6593,
+          "nome": "40 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6594,
+          "nome": "41 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6595,
+          "nome": "42 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6596,
+          "nome": "43 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6597,
+          "nome": "44 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9483,
+          "nome": "45 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6598,
+          "nome": "45 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6599,
+          "nome": "46 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6600,
+          "nome": "47 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6601,
+          "nome": "48 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6602,
+          "nome": "49 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6603,
+          "nome": "50 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6604,
+          "nome": "51 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6605,
+          "nome": "52 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6606,
+          "nome": "53 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6607,
+          "nome": "54 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9484,
+          "nome": "55 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6608,
+          "nome": "55 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6609,
+          "nome": "56 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6610,
+          "nome": "57 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6611,
+          "nome": "58 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6612,
+          "nome": "59 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6613,
+          "nome": "60 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6614,
+          "nome": "61 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6615,
+          "nome": "62 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6616,
+          "nome": "63 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6617,
+          "nome": "64 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3000,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9486,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113623,
+          "nome": "80 anos ou mais",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

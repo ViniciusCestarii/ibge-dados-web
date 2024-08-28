@@ -1,0 +1,133 @@
+{
+  "id": 5196,
+  "nome": "Pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5196",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5470,
+      "nome": "Pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5471,
+      "nome": "Pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5472,
+      "nome": "Pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5473,
+      "nome": "Coeficiente de variação - Pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5474,
+      "nome": "Percentual de pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5475,
+      "nome": "Percentual de pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5476,
+      "nome": "Percentual de pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5477,
+      "nome": "Coeficiente de variação - Percentual de pessoas que ficaram internadas em hospitais por 24 horas ou mais nos doze meses anteriores à data da entrevista e a última internação foi através do Sistema Único de Saúde",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": 3293,
+  "nome": "Número de aquisições e Distribuição do número de aquisições, por locais de compra e grupos e tipos de despesa - agregação 1",
+  "URL": "https://sidra.ibge.gov.br/tabela/3293",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 301,
+      "nome": "Número de aquisições",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000301,
+      "nome": "Número de aquisições - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 313,
+      "nome": "Grupos e tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12703,
+          "nome": "Alimentação no domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12704,
+          "nome": "Alimentação no domicílio - cereais, leguminosas e oleaginosas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12705,
+          "nome": "Alimentação no domicílio - farinhas, féculas e massas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12706,
+          "nome": "Alimentação no domicílio - tubérculos e raízes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12707,
+          "nome": "Alimentação no domicílio - acúcares e derivados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12708,
+          "nome": "Alimentação no domicílio - legumes e verduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12709,
+          "nome": "Alimentação no domicílio - frutas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12710,
+          "nome": "Alimentação no domicílio - carnes e vísceras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12711,
+          "nome": "Alimentação no domicílio - pescados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12712,
+          "nome": "Alimentação no domicílio - aves e ovos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12713,
+          "nome": "Alimentação no domicílio - leites e derivados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12714,
+          "nome": "Alimentação no domicílio - panificados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12715,
+          "nome": "Alimentação no domicílio - óleos e gorduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12716,
+          "nome": "Alimentação no domicílio - bebidas e infusões",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12717,
+          "nome": "Alimentação no domicílio - enlatados e conservas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12718,
+          "nome": "Alimentação no domicílio - sal e condimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12719,
+          "nome": "Alimentação no domicílio - alimentos preparados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12720,
+          "nome": "Alimentação no domicílio - outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12721,
+          "nome": "Alimentação fora do domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12722,
+          "nome": "Alimentação fora do domicílio - almoço e jantar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12723,
+          "nome": "Alimentação fora do domicílio - café. leite, café/leite e chocolate",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12724,
+          "nome": "Alimentação fora do domicílio - sanduíches e salgados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12725,
+          "nome": "Alimentação fora do domicílio - refrigerantes e outras bebidas não alcoólicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12726,
+          "nome": "Alimentação fora do domicílio - lanches",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12727,
+          "nome": "Alimentação fora do domicílio - cervejas, chopes e outras bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12728,
+          "nome": "Alimentação fora do domicílio - alimentação light e diet",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12729,
+          "nome": "Alimentação fora do domicílio - outras",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "nome": "Locais de compra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6231,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6998,
+          "nome": "Supermercado e hipermercado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12694,
+          "nome": "Padaria e confeitaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12695,
+          "nome": "Mercearia e armazém",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12696,
+          "nome": "Bar, lanchonete e restaurante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12697,
+          "nome": "Feira livre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12698,
+          "nome": "Ambulante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3580,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6993,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 3021,
+  "nome": "Domicílios particulares com insegurança alimentar e com pelo menos um morador de menos de 18 anos de idade, por tipo de insegurança alimentar e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3021",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1651,
+      "nome": "Domicílios particulares com insegurança alimentar e com pelo menos um morador de menos de 18 anos de idade",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001651,
+      "nome": "Domicílios particulares com insegurança alimentar e com pelo menos um morador de menos de 18 anos de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12406,
+      "nome": "Tipo de insegurança alimentar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109125,
+          "nome": "Leve",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109126,
+          "nome": "Moderada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109127,
+          "nome": "Grave",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 6384,
+  "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como empregados (exclusive trabalhadores domésticos) no trabalho principal, por tipo de contratação",
+  "URL": "https://sidra.ibge.gov.br/tabela/6384",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8340,
+      "nome": "Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como empregados (exclusive trabalhadores domésticos) no trabalho principal",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 8341,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como empregados (exclusive trabalhadores domésticos) no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8342,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como empregados (exclusive trabalhadores domésticos) no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8343,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade, ocupadas na semana de referência como empregados (exclusive trabalhadores domésticos) no trabalho principal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 786,
+      "nome": "Tipo de contratação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40279,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40280,
+          "nome": "Contrato temporário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40281,
+          "nome": "Contrato por tempo indeterminado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

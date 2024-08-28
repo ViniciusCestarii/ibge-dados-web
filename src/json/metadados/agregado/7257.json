@@ -1,0 +1,133 @@
+{
+  "id": 7257,
+  "nome": "Viagens realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por finalidade da viagem e principal meio de transporte utilizado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7257",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10390,
+      "nome": "Viagens realizadas pelos moradores dos domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10391,
+      "nome": "Coeficiente de variação - Viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10392,
+      "nome": "Distribuição percentual das viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10393,
+      "nome": "Coeficiente de variação - Distribuição percentual das viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 892,
+      "nome": "Finalidade da viagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47975,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47976,
+          "nome": "Pessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47977,
+          "nome": "Profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 908,
+      "nome": "Principal meio de transporte utilizado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48089,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48090,
+          "nome": "Avião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48092,
+          "nome": "Carro particular ou de empresa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48093,
+          "nome": "Motocicleta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48095,
+          "nome": "Ônibus de excursão, fretado ou turismo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48096,
+          "nome": "Ônibus de linha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48097,
+          "nome": "Van ou perueiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48098,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

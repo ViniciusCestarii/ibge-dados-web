@@ -1,0 +1,110 @@
+{
+  "id": 7148,
+  "nome": "Estudantes do ensino superior, por grupo de idade e rede do ensino médio frequentado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7148",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10285,
+      "nome": "Estudantes do ensino superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10286,
+      "nome": "Coeficiente de variação - Estudantes do ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10287,
+      "nome": "Distribuição percentual dos estudantes do ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10288,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes do ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14434,
+          "nome": "Até 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "nome": "Rede do ensino médio frequentado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47847,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47861,
+          "nome": "Somente em rede pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47860,
+          "nome": "Somente em rede privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47862,
+          "nome": "Na rede privada e pública",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

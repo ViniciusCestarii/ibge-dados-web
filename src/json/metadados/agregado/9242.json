@@ -1,0 +1,382 @@
+{
+  "id": 9242,
+  "nome": "Número de estabelecimentos agropecuários com produção e Valor da produção dos estabelecimentos agropecuários, por existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar, tipo de produção, classes de valor da produção e grupos de área total",
+  "URL": "https://sidra.ibge.gov.br/tabela/9242",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Movimentação financeira",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 40,
+      "nome": "Número de estabelecimentos agropecuários com produção",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1999,
+      "nome": "Valor da produção dos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1503,
+      "nome": "Existência de dirigentes de cor ou raça indígena (produtor ou cônjuge) versus agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58747,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58748,
+          "nome": "Com dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58749,
+          "nome": "Com dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58750,
+          "nome": "Com dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58751,
+          "nome": "Sem dirigentes indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58752,
+          "nome": "Sem dirigentes indígenas - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58753,
+          "nome": "Sem dirigentes indígenas - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58754,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12547,
+      "nome": "Tipo de produção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114017,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111995,
+          "nome": "Animal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111996,
+          "nome": "Animal - de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111997,
+          "nome": "Animal - de médio porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111998,
+          "nome": "Animal - aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116238,
+          "nome": "Animal - pequenos animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 111999,
+          "nome": "Vegetal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112000,
+          "nome": "Vegetal - lavouras permanentes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112001,
+          "nome": "Vegetal - lavouras temporárias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112002,
+          "nome": "Vegetal - horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116239,
+          "nome": "Vegetal - floricultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112003,
+          "nome": "Vegetal - silvicultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112004,
+          "nome": "Vegetal - extração vegetal",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12894,
+      "nome": "Classes de valor da produção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46569,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47135,
+          "nome": "Maior que 0 e menor que 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47136,
+          "nome": "De 5.000 a menos de 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119011,
+          "nome": "De 10.000 a menos de 25.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119012,
+          "nome": "De 25.000 a menos de 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119013,
+          "nome": "De 50.000 a menos de 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119014,
+          "nome": "De 100.000 a menos de 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119015,
+          "nome": "De 500.000 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119016,
+          "nome": "Sem valor da produção",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110085,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111543,
+          "nome": "Mais de 0 a menos de 0,1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111544,
+          "nome": "De 0,1 a menos de 0,2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111545,
+          "nome": "De 0,2 a menos de 0,5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111546,
+          "nome": "De 0,5 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111547,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111548,
+          "nome": "De 2 a menos de 3 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111549,
+          "nome": "De 3 a menos de 4 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111550,
+          "nome": "De 4 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111551,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111552,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111553,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111554,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111555,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111556,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111557,
+          "nome": "De 500 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111558,
+          "nome": "De 1.000 a menos de 2.500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41139,
+          "nome": "De 2.500 a menos de 10.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40645,
+          "nome": "De 10.000 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111560,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

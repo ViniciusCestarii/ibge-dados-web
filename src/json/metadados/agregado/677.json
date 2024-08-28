@@ -1,0 +1,320 @@
+{
+  "id": 677,
+  "nome": "Despesa monetária e não monetária média mensal familiar - valor e distribuição - por grupos de idade da pessoa de referência da família e tipos de despesa",
+  "URL": "https://sidra.ibge.gov.br/tabela/677",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1201,
+      "nome": "Despesa monetária e não monetária média mensal familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1204,
+      "nome": "Distribuição da despesa monetária e não monetária média mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12508,
+      "nome": "Grupos de idade da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111434,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111435,
+          "nome": "De 10 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111436,
+          "nome": "De 20 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111437,
+          "nome": "De 30 a 39 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111438,
+          "nome": "De 40 a 49 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111439,
+          "nome": "De 50 a 59 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111440,
+          "nome": "De 60 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111441,
+          "nome": "70 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12190,
+      "nome": "Tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103536,
+          "nome": "1Despesa total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103537,
+          "nome": "2Despesas correntes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103538,
+          "nome": "2.1Despesas de consumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103539,
+          "nome": "2.1.1Alimentação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103540,
+          "nome": "2.1.2Habitação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103541,
+          "nome": "2.1.2.1Aluguel",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 8007,
+          "nome": "2.1.2.1.1Aluguel monetário",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 8008,
+          "nome": "2.1.2.1.2Aluguel não-monetário",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 103542,
+          "nome": "2.1.2.2Serviços e taxas",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103549,
+          "nome": "2.1.2.3Manutenção do lar",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103550,
+          "nome": "2.1.2.4Artigos de limpeza",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111442,
+          "nome": "2.1.2.7Eletrodomésticos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111443,
+          "nome": "2.1.2.8Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103554,
+          "nome": "2.1.3Vestuário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103561,
+          "nome": "2.1.4Transporte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103562,
+          "nome": "2.1.4.1Transporte urbano",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111444,
+          "nome": "2.1.4.2Combustível - gasolina e álcool",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111445,
+          "nome": "2.1.4.3Aquisição de veículos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111446,
+          "nome": "2.1.4.4Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103569,
+          "nome": "2.1.5Higiene e cuidados pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103574,
+          "nome": "2.1.6Assistência à saude",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103575,
+          "nome": "2.1.6.1Remédios",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103576,
+          "nome": "2.1.6.2Plano/Seguro saúde",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 111447,
+          "nome": "2.1.6.3Outras",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 103585,
+          "nome": "2.1.7Educação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103592,
+          "nome": "2.1.8Recreação e cultura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103598,
+          "nome": "2.1.9Fumo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103599,
+          "nome": "2.1.10Serviços pessoais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103604,
+          "nome": "2.1.11Despesas diversas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103611,
+          "nome": "2.2Outras despesas correntes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103612,
+          "nome": "2.2.1Impostos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103613,
+          "nome": "2.2.2Contribuições trabalhistas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 111448,
+          "nome": "2.2.3Pensões, mesadas e doações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 111449,
+          "nome": "2.2.5Outras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 103618,
+          "nome": "2.3Aumento do ativo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103622,
+          "nome": "2.4Diminuição do passivo",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": 8749,
+  "nome": "Pessoas de 15 anos ou mais de idade, por nível de instrução, evitação de atividade ou situação por motivo de segurança nos últimos 12 meses e atividade ou situação que pode ser evitada por motivo de segurança",
+  "URL": "https://sidra.ibge.gov.br/tabela/8749",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 950,
+      "nome": "Pessoas de 15 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11109,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11110,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11113,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1403,
+      "nome": "Evitação de atividade ou situação por motivo de segurança",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57666,
+          "nome": "Evitou",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57667,
+          "nome": "Não evitou",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1417,
+      "nome": "Atividade ou situação que pode ser evitada por motivo de segurança",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57669,
+          "nome": "Ir a caixas eletrônicos de rua à noite",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57670,
+          "nome": "Usar relógio de pulso, joias ou outro(s) objeto(s) de valor",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57671,
+          "nome": "Usar o celular em locais públicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57672,
+          "nome": "Atividades de lazer que fazia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57673,
+          "nome": "Lugares com poucas pessoas circulando",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57675,
+          "nome": "Chegar ou sair muito tarde de casa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57676,
+          "nome": "Usar algum transporte coletivo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57677,
+          "nome": "Conversar com pessoas desconhecidas em locais públicos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57678,
+          "nome": "Usar redes sociais ou internet",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

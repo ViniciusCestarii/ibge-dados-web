@@ -1,0 +1,129 @@
+{
+  "id": 8492,
+  "nome": "Pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8492",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Antropometria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12372,
+      "nome": "Pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12373,
+      "nome": "Pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12374,
+      "nome": "Pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12375,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12376,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12377,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12378,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12379,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade com a circunferência da cintura aumentada",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

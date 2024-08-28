@@ -1,0 +1,100 @@
+{
+  "id": 9742,
+  "nome": "Pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19, mas não tomaram todas as doses recomendadas, por principal motivo de não ter tomado",
+  "URL": "https://sidra.ibge.gov.br/tabela/9742",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Covid-19",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2023,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9199,
+      "nome": "Pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19, mas não tomaram todas as doses recomendadas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9200,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19, mas não tomaram todas as doses recomendadas",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9201,
+      "nome": "Distribuição percentual das pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19, mas não tomaram todas as doses recomendadas",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9204,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 5 anos ou mais de idade que se vacinaram pelo menos uma vez contra a COVID-19, mas não tomaram todas as doses recomendadas",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1804,
+      "nome": "Principal motivo de não ter tomado todas as doses de vacina recomendadas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71939,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71940,
+          "nome": "Está aguardando ou não completou o intervalo para tomar a próxima dose",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71941,
+          "nome": "Medo de reação adversa ou teve reação forte em dose anterior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71942,
+          "nome": "A vacina que queria não estava disponível",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71943,
+          "nome": "Por esquecimento ou falta de tempo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71944,
+          "nome": "Não acha necessário, tomou as doses que gostaria e/ou não confia na vacina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 71945,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 4070,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, por grupos de horas habitualmente trabalhadas por semana no trabalho principal e atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/4070",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12045,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99401,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99402,
+          "nome": "15 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99403,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99404,
+          "nome": "45 a 48 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99405,
+          "nome": "49 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12028,
+      "nome": "Atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99160,
+          "nome": "Agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99161,
+          "nome": "Não-agrícola",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

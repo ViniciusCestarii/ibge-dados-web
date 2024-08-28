@@ -1,0 +1,214 @@
+{
+  "id": 1461,
+  "nome": "Domicílios particulares permanentes próprios por número de moradores, situação do domicílio e condição de ocupação do terreno",
+  "URL": "https://sidra.ibge.gov.br/tabela/1461",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 627,
+      "nome": "Domicílios particulares permanentes próprios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000627,
+      "nome": "Domicílios particulares permanentes próprios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 68,
+      "nome": "Número de moradores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1092,
+          "nome": "1 morador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1093,
+          "nome": "2 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1094,
+          "nome": "3 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1095,
+          "nome": "4 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1096,
+          "nome": "5 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1097,
+          "nome": "6 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1098,
+          "nome": "7 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1099,
+          "nome": "8 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1100,
+          "nome": "9 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1101,
+          "nome": "10 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1102,
+          "nome": "11 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1103,
+          "nome": "12 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1104,
+          "nome": "13 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1105,
+          "nome": "14 moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1106,
+          "nome": "15 moradores ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11285,
+      "nome": "Condição de ocupação do terreno",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 90966,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90967,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 90968,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

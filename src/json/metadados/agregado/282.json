@@ -1,0 +1,65 @@
+{
+  "id": 282,
+  "nome": "Produção animal em estabelecimentos agropecuários por tipo de produção animal - série histórica (1920/2006)",
+  "URL": "https://sidra.ibge.gov.br/tabela/282",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1920,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1864,
+      "nome": "Produção animal",
+      "unidade": "Vide categorias da classificação 'Tipo de produção animal'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12444,
+      "nome": "Tipo de produção animal",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110067,
+          "nome": "Leite de vaca",
+          "unidade": "Mil litros",
+          "nivel": 0
+        },
+        {
+          "id": 110070,
+          "nome": "Leite de cabra",
+          "unidade": "Mil litros",
+          "nivel": 0
+        },
+        {
+          "id": 110069,
+          "nome": "Lã",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 110068,
+          "nome": "Ovos de galinha",
+          "unidade": "Mil dúzias",
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

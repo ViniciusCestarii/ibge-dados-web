@@ -1,0 +1,355 @@
+{
+  "id": 3511,
+  "nome": "Domicílios particulares permanentes alugados, por classes de aluguel nominal mensal, segundo o tipo de domicílio, o tipo de material das paredes externas, o número de cômodos e o número de dormitórios",
+  "URL": "https://sidra.ibge.gov.br/tabela/3511",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1549,
+      "nome": "Domicilios particulares permanentes alugados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001549,
+      "nome": "Domicilios particulares permanentes alugados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 511,
+      "nome": "Classes de aluguel nominal mensal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 13323,
+          "nome": "Até 1/8 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13328,
+          "nome": "Mais de 1/8 a 1/4 de salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13329,
+          "nome": "Mais de 1/4 a 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13330,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13331,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13332,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13333,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13334,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6815,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121264,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121265,
+          "nome": "Habitação em casa de cômodos, cortiço ou cabeça de porco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121266,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "nome": "Tipo de material das paredes externas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12193,
+          "nome": "Alvenaria com revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12194,
+          "nome": "Alvenaria sem revestimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2872,
+          "nome": "Madeira aparelhada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12195,
+          "nome": "Taipa revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2873,
+          "nome": "Taipa não revestida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12196,
+          "nome": "Madeira aproveitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2875,
+          "nome": "Palha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2876,
+          "nome": "Outro material",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13226,
+          "nome": "Sem parede",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1066,
+          "nome": "8 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1067,
+          "nome": "9 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2511,
+          "nome": "10 cômodos ou mais",
+          "unidade": null,
+          "nivel": 4
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "nome": "Número de dormitórios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3361,
+          "nome": "1 dormitório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3362,
+          "nome": "2 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3363,
+          "nome": "3 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3364,
+          "nome": "4 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3365,
+          "nome": "5 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95775,
+          "nome": "6 dormitórios ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

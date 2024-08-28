@@ -1,0 +1,93 @@
+{
+  "id": 4710,
+  "nome": "Indicador 16.7.1 - Proporção de juízes em relação às distribuições nacionais por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/4710",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Paz, justiça e instituições eficazes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8980,
+      "nome": "Proporção de juízes em relação às distribuições nacionais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8991,
+      "nome": "Número de juízes",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1776,
+      "nome": "Nível na instituição pública",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 71503,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71504,
+          "nome": "Supremo Tribunal Federal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71505,
+          "nome": "Outros níveis",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          8980
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

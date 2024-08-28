@@ -1,0 +1,133 @@
+{
+  "id": 2320,
+  "nome": "Distribuição das famílias por avaliação da quantidade de alimento consumido pela família, classes de rendimento monetário e não monetário mensal familiar e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/2320",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1208,
+      "nome": "Distribuição das famílias",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12193,
+      "nome": "Avaliação da quantidade de alimento consumido pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103490,
+          "nome": "Normalmente insuficiente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103491,
+          "nome": "Às vezes insuficiente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103492,
+          "nome": "Sempre suficiente",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12191,
+      "nome": "Classes de rendimento monetário e não monetário mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103411,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103493,
+          "nome": "Até 600 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103494,
+          "nome": "Mais de 600 a 1200 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103495,
+          "nome": "Mais de 1200 a 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103496,
+          "nome": "Mais de 3000 Reais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

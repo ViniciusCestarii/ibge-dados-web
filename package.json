@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "get-data": "bun run scripts/get-agregados.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

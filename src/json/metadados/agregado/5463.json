@@ -1,0 +1,559 @@
+{
+  "id": 5463,
+  "nome": "Empresas que implementaram inovações, por atividades inovativas desenvolvidas, grau de importância e atividades da indústria, do setor de eletricidade e gás e dos serviços selecionados",
+  "URL": "https://sidra.ibge.gov.br/tabela/5463",
+  "pesquisa": "Pesquisa de Inovação",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5977,
+      "nome": "Número de empresas que implementaram inovações de produto e/ou processo, no triênio de referência",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 700,
+      "nome": "Atividades inovativas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33429,
+          "nome": "Atividades internas de pesquisa e densenvolvimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33430,
+          "nome": "Aquisição externa de pesquisa e desenvolvimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33431,
+          "nome": "Aquisição de outros conhecimentos externos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33432,
+          "nome": "Aquisição de software",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33433,
+          "nome": "Aquisição de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33434,
+          "nome": "Treinamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33435,
+          "nome": "Introdução das inovações tecnológicas no mercado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33436,
+          "nome": "Projeto industrial e outras preparações técnicas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 701,
+      "nome": "Grau de importância",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33438,
+          "nome": "Alta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33439,
+          "nome": "Média",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33544,
+          "nome": "Baixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33545,
+          "nome": "Não realizou",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 696,
+      "nome": "Atividades da indústria, do setor de eletricidade e gás e dos serviços selecionados",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33413,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 129343,
+          "nome": "B Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129344,
+          "nome": "C Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129345,
+          "nome": "10 FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129346,
+          "nome": "11 FABRICAÇÃO DE BEBIDAS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129347,
+          "nome": "12 FABRICAÇÃO DE PRODUTOS DO FUMO",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129348,
+          "nome": "13 FABRICAÇÃO DE PRODUTOS TÊXTEIS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129349,
+          "nome": "14 CONFECÇÃO DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129350,
+          "nome": "15 PREPARAÇÃO DE COUROS E FABRICAÇÃO DE ARTEFATOS DE COURO, ARTIGOS PARA VIAGEM E CALÇADOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129351,
+          "nome": "16 FABRICAÇÃO DE PRODUTOS DE MADEIRA",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129352,
+          "nome": "17 FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129353,
+          "nome": "17.1 Fabricação de celulose e outras pastas para a fabricação de papel",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129354,
+          "nome": "17.D  Fabricação de papel, embalagens e artefatos de papel (17.2 e 17.3 e 17.4)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129355,
+          "nome": "18 IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129356,
+          "nome": "19 FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129357,
+          "nome": "19.D Fabricação de coque e biocombustíveis (álcool e outros) (19.1 e 19.3)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129358,
+          "nome": "19.2  Fabricação de produtos derivados do petróleo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129359,
+          "nome": "20 FABRICAÇÃO DE PRODUTOS QUÍMICOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129360,
+          "nome": "20.1 Fabricação de produtos químicos inorgânicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129361,
+          "nome": "20.2 Fabricação de produtos químicos orgânicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129362,
+          "nome": "20.A Fabricação de resinas e elastômeros, fibras artificiais e sintéticas, defensivos agrícolas e desinfestantes domissanitários (20.3 e 20.4 e 20.5)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129363,
+          "nome": "20.6 Fabricação de sabões, detergentes, produtos de limpeza, cosméticos, produtos de perfumaria e de higiene pessoal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129364,
+          "nome": "20.D Fabricação de tintas, vernizes, esmaltes, lacas e produtos afins e de produtos diversos (20.7 e 20.9)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129365,
+          "nome": "21 FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129366,
+          "nome": "21.1 Fabricação de produtos farmoquímicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129367,
+          "nome": "21.2 Fabricação de produtos farmacêuticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129368,
+          "nome": "22 FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129369,
+          "nome": "23 FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO-METÁLICOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129370,
+          "nome": "24 METALURGIA",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129371,
+          "nome": "24.A Produtos siderúrgicos (24.1 e 24.2 e 24.3)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129372,
+          "nome": "24.D Metalurgia de metais não-ferrosos e fundição (24.4 e 24.5)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129373,
+          "nome": "25 FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129374,
+          "nome": "26 FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA, PRODUTOS ELETRÔNICOS E ÓPTICOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129375,
+          "nome": "26.1 Fabricação de componentes eletrônicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129376,
+          "nome": "26.2 Fabricação de equipamentos de informática e periféricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129377,
+          "nome": "26.A Fabricação de equipamentos de comunicação (26.3 e 26.4)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129378,
+          "nome": "26.6 Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129379,
+          "nome": "26.D Fabricação de outros produtos eletrônicos e ópticos (26.5 e 26.7 e 26.8)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129380,
+          "nome": "27 FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129381,
+          "nome": "27.A Fabricação de geradores, transformadores e equipamentos para distribuição de energia elétrica (27.1 e 27.3)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129382,
+          "nome": "27.5 Fabricação de eletrodomésticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129383,
+          "nome": "27.D Fabricação de pilhas, lâmpadas e outros aparelhos elétricos (27.2 e 27.4 e 27.9)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129384,
+          "nome": "28 FABRICAÇÃO DE MÁQUINAS E EQUIPAMENTOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129385,
+          "nome": "28.1 Fabricação de motores, bombas, compressores e equipamentos de transmissão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129386,
+          "nome": "28.3 Fabricação de tratores e de máquinas e equipamentos para a agricultura e pecuária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129387,
+          "nome": "28.5 Fabricação de máquinas e equipamentos de uso na extração mineral e na construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129388,
+          "nome": "28.D Outras máquinas e equipamentos (28.2 e 28.4 e 28.6)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129389,
+          "nome": "29 FABRICAÇÃO DE VEÍCULOS AUTOMOTORES, REBOQUES E CARROCERIAS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129390,
+          "nome": "29.A Fabricação de automóveis, caminhonetas e utilitários, caminhões e ônibus (29.1 e 29.2)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129392,
+          "nome": "29.D Fabricação de cabines, carrocerias, reboques e recondicionamento de motores (29.3 e 29.5)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129391,
+          "nome": "29..4 Fabricação de peças e acessórios para veículos automotores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129393,
+          "nome": "30 FABRICAÇÃO DE OUTROS EQUIPAMENTOS DE TRANSPORTE, EXCETO VEÍCULOS AUTOMOTORES",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129394,
+          "nome": "31 FABRICAÇÃO DE MÓVEIS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129395,
+          "nome": "32 FABRICAÇÃO DE PRODUTOS DIVERSOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129396,
+          "nome": "32.5 Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129397,
+          "nome": "32.D Outros produtos diversos (32.1 e 32.2 e 32.3 e 32.4 e 32.9)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129398,
+          "nome": "33 MANUTENÇÃO, REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129399,
+          "nome": "35 ELETRICIDADE, GÁS E OUTRAS UTILIDADES",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129400,
+          "nome": "Serviços selecionados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 129401,
+          "nome": "58A Atividades de edição e edição integrada à impressão, e de gravação de som e edição de música (58+59.2)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129402,
+          "nome": "61 TELECOMUNICAÇÕES",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129403,
+          "nome": "62 ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 39420,
+          "nome": "Desenvolvimento e licenciamento de programas de computador",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129404,
+          "nome": "62.01 Desenvolvimento de programas de computador sob encomenda",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129405,
+          "nome": "62.02 Desenvolvimento e licenciamento de programas de computador customizáveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129406,
+          "nome": "62.03 Desenvolvimento e licenciamento de programas de computador não-customizáveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129407,
+          "nome": "62.D Outros serviços de tecnologia da informação (62.04 e 62.09)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 129408,
+          "nome": "63.1 Tratamento de dados, hospedagem na internet e outras atividades relacionadas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129409,
+          "nome": "71 SERVIÇOS DE ARQUITETURA E ENGENHARIA; TESTES E ANÁLISES TÉCNICAS",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 129410,
+          "nome": "72 PESQUISA E DESENVOLVIMENTO CIENTÍFICO",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

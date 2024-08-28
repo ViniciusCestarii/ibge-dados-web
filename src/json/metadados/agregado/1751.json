@@ -1,0 +1,83 @@
+{
+  "id": 1751,
+  "nome": "Número de distritos, total e os com rede de distribuição de água, por condição de atendimento no município",
+  "URL": "https://sidra.ibge.gov.br/tabela/1751",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 739,
+      "nome": "Número de distritos com rede de distribuição de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000739,
+      "nome": "Número de distritos com rede de distribuição de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 344,
+      "nome": "Condição de atendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8466,
+          "nome": "Total geral de distritos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8467,
+          "nome": "Total de distritos abastecidos por rede de distribuição",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8071,
+          "nome": "Parcialmente com água tratada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8072,
+          "nome": "Totalmente com água tratada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8073,
+          "nome": "Água sem tratamento",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

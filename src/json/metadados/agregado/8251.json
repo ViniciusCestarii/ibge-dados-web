@@ -1,0 +1,157 @@
+{
+  "id": 8251,
+  "nome": "Pessoas de 2 anos ou mais de idade, por grau de dificuldade e tipo de deficiência",
+  "URL": "https://sidra.ibge.gov.br/tabela/8251",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 11852,
+      "nome": "Pessoas de 2 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11853,
+      "nome": "Pessoas de 2 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11854,
+      "nome": "Pessoas de 2 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11855,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11856,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11857,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11858,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11859,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 2 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 623,
+      "nome": "Grau de dificuldade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56918,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56922,
+          "nome": "Não consegue de modo algum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56921,
+          "nome": "Tem muita dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56920,
+          "nome": "Tem alguma dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32318,
+          "nome": "Não tem dificuldade",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1283,
+      "nome": "Tipo de deficiência",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56912,
+          "nome": "Dificuldade de enxergar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56913,
+          "nome": "Dificuldade de ouvir",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56914,
+          "nome": "Dificuldade de caminhar ou subir degraus",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56915,
+          "nome": "Dificuldade para levantar uma garrafa com dois litros de água da cintura até a altura dos olhos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56916,
+          "nome": "Dificuldade para pegar objetos pequenos, ou abrir e fechar recipientes ou garrafas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56917,
+          "nome": "Dificuldade para realizar atividades habituais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

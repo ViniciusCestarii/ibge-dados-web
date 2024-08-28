@@ -1,0 +1,171 @@
+{
+  "id": 6479,
+  "nome": "Municípios, total, e com Pontos de Cultura, quantidade e se apresenta ações em parceria com os pontos, por classe de tamanho da população do município",
+  "URL": "https://sidra.ibge.gov.br/tabela/6479",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1548,
+      "nome": "Existência de pontos de cultura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59159,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59160,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59161,
+          "nome": "1 a 10",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59162,
+          "nome": "11 a 25",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59163,
+          "nome": "26 a 50",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59164,
+          "nome": "51 a 100",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 60037,
+          "nome": "101 a 200",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59165,
+          "nome": "201 a 500",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59166,
+          "nome": "acima de 500",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59167,
+          "nome": "A gestão municipal tem ações em parceria com algum Ponto de Cultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59168,
+          "nome": "A gestão municipal NÃO tem ações em parceria com algum Ponto de Cultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59169,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

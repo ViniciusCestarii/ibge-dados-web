@@ -1,0 +1,63 @@
+{
+  "id": 6832,
+  "nome": "Quantidade de ovos produzidos, no mês e no trimestre - Primeiros Resultados",
+  "URL": "https://sidra.ibge.gov.br/tabela/6832",
+  "pesquisa": "Produção de Ovos de Galinha",
+  "assunto": "Ovos de galinha",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201804,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 29,
+      "nome": "Quantidade de ovos produzidos",
+      "unidade": "Mil dúzias",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12716,
+      "nome": "Referência temporal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115236,
+          "nome": "Total do trimestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115233,
+          "nome": "No 1º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115234,
+          "nome": "No 2º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115235,
+          "nome": "No 3º mês",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

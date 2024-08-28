@@ -1,0 +1,188 @@
+{
+  "id": 4061,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, por contribuição para instituto de previdência no trabalho principal, sexo e grupamentos de atividade do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4061",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12040,
+      "nome": "Contribuição para instituto de previdência no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99340,
+          "nome": "Contribuintes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99341,
+          "nome": "Não contribuintes",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12166,
+      "nome": "Grupamentos de atividade do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 102847,
+          "nome": "Agrícola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102848,
+          "nome": "Indústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102849,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102850,
+          "nome": "Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102851,
+          "nome": "Comércio e reparação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102852,
+          "nome": "Alojamento e alimentação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102853,
+          "nome": "Transporte, armazenagem e comunicação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102854,
+          "nome": "Administração pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102855,
+          "nome": "Educação, saúde e serviços sociais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102856,
+          "nome": "Serviços domésticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102857,
+          "nome": "Outros serviços coletivos, sociais e pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102858,
+          "nome": "Outras atividades",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116785,
+          "nome": "Atividades mal definidas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

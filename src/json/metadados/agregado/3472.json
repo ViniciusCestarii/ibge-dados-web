@@ -1,0 +1,286 @@
+{
+  "id": 3472,
+  "nome": "Domicílios particulares permanentes com pelo menos um morador indígena e Moradores em domicílios particulares permanentes com pelo menos um morador indígena, total e moradores indígenas, por localização do domicílio, segundo o tipo de domicílio, a condição de ocupação do domicílio, a existência de banheiro ou sanitário e tipo de esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/3472",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Características gerais dos indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1429,
+      "nome": "Domicílios particulares permanentes com pelo menos um morador indígena",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001429,
+      "nome": "Domicílios particulares permanentes com pelo menos um morador indígena - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1430,
+      "nome": "Moradores em domicílios particulares permanentes com pelo menos um morador indígena",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001430,
+      "nome": "Moradores em domicílios particulares permanentes com pelo menos um morador indígena - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1431,
+      "nome": "Moradores indígenas em domicílios particulares permanentes com pelo menos um morador indígena",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001431,
+      "nome": "Moradores indígenas em domicílios particulares permanentes com pelo menos um morador indígena - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12869,
+          "nome": "Em terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12870,
+          "nome": "Fora de terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11557,
+      "nome": "Tipo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92844,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12908,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92845,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12909,
+          "nome": "Habitação em casa de cômodos, cortiço ou cabeça de porco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12910,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2944,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2945,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2946,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2947,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2948,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2949,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2950,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2958,
+          "nome": "Tinham sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2959,
+          "nome": "Tinham sanitário - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2960,
+          "nome": "Tinham sanitário - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2961,
+          "nome": "Tinham sanitário - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2962,
+          "nome": "Tinham sanitário - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2963,
+          "nome": "Tinham sanitário - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2964,
+          "nome": "Tinham sanitário - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10006,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

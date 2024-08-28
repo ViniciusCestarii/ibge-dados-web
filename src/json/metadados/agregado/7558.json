@@ -1,0 +1,134 @@
+{
+  "id": 7558,
+  "nome": "Domicílios cadastrados em unidade de saúde da família há um ano ou mais, por frequência com que receberam a visita de Agente Comunitário em Saúde (ACS) ou membro da Equipe de Saúde da Família (ESF) e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7558",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do domicílio e serviços domiciliares de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10876,
+      "nome": "Domicílios cadastrados em unidade de saúde da família há um ano ou mais",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 10877,
+      "nome": "Domicílios cadastrados em unidade de saúde da família há um ano ou mais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 10878,
+      "nome": "Domicílios cadastrados em unidade de saúde da família há um ano ou mais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 10879,
+      "nome": "Coeficiente de variação - Domicílios cadastrados em unidade de saúde da família há um ano ou mais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10880,
+      "nome": "Percentual de domicílios cadastrados em unidade de saúde da família há um ano ou mais",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10881,
+      "nome": "Percentual de domicílios cadastrados em unidade de saúde da família há um ano ou mais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10882,
+      "nome": "Percentual de domicílios cadastrados em unidade de saúde da família há um ano ou mais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10883,
+      "nome": "Coeficiente de variação - Percentual de domicílios cadastrados em unidade de saúde da família há um ano ou mais",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1049,
+      "nome": "Frequência com que receberam a visita de Agente Comunitário em Saúde (ACS) ou membro da Equipe de Saúde da Família (ESF)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49375,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49376,
+          "nome": "Mensalmente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49377,
+          "nome": "Outra frequência",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49378,
+          "nome": "Nunca receberam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

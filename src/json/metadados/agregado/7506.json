@@ -1,0 +1,84 @@
+{
+  "id": 7506,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com macromedidor(es), por localização do(s) macromedidor(es)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7506",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10741,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com macromedidores",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1000,
+      "nome": "Localização do(s) macromedidor(es)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49433,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49103,
+          "nome": "Captação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49104,
+          "nome": "Adutora(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49105,
+          "nome": "Saída da(s) ETA(s) e UTS(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49106,
+          "nome": "Reservatório(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49107,
+          "nome": "Rede de distribuição",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

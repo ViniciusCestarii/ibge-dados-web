@@ -1,0 +1,415 @@
+{
+  "id": 5934,
+  "nome": "Processos de divórcios encerrados e concedidos, em 1ª instância, por natureza do processo, grupos de idade dos cônjuges na data de abertura do processo, sentença proferida, regime de bens do casamento e lugar da ação do processo",
+  "URL": "https://sidra.ibge.gov.br/tabela/5934",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2014,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 231,
+      "nome": "Número de divórcios concedidos em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000231,
+      "nome": "Número de divórcios concedidos em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 279,
+      "nome": "Natureza do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6183,
+          "nome": "Consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6184,
+          "nome": "Não consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6185,
+          "nome": "Não consensual requerido pelo marido",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6186,
+          "nome": "Não consensual requerido pela mulher",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6187,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "nome": "Grupos de idade do marido na data da abertura do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39286,
+          "nome": "Menos de 20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39336,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39337,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39338,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39339,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39340,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39341,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39342,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39343,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39344,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39345,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39346,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39347,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39348,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "nome": "Grupos de idade da mulher na data da abertura do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39349,
+          "nome": "Menos de 20 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39350,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39351,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39397,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39398,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39399,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39400,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39401,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39402,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39403,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39404,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39405,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39406,
+          "nome": "75 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39407,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "nome": "Sentença proferida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6088,
+          "nome": "Concessão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6188,
+          "nome": "Concessão com recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6189,
+          "nome": "Concessão sem recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107635,
+          "nome": "Concessão sem declaração de recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6089,
+          "nome": "Denegação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6190,
+          "nome": "Denegação com recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6191,
+          "nome": "Denegação sem recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 107636,
+          "nome": "Denegação sem declaração de recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100301,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "nome": "Regime de bens do casamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6090,
+          "nome": "Comunhão universal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6091,
+          "nome": "Comunhão parcial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6092,
+          "nome": "Separação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6093,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

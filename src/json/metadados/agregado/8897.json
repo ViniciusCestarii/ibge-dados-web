@@ -1,0 +1,89 @@
+{
+  "id": 8897,
+  "nome": "Crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses e Net Promoter Score (NPS), por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/8897",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Atenção primária à saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12615,
+      "nome": "Crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12616,
+      "nome": "Coeficiente de variação - Crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12617,
+      "nome": "Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12618,
+      "nome": "Coeficiente de variação - Distribuição percentual das crianças com menos de 13 anos de idade que utilizaram algum serviço de Atenção Primária à Saúde nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12643,
+      "nome": "Net Promoter Score (NPS)",
+      "unidade": "Índice",
+      "sumarizacao": []
+    },
+    {
+      "id": 12658,
+      "nome": "Coeficiente de variação - Net Promoter Score (NPS)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "id": 3311,
+  "nome": "Número de estabelecimentos agropecuários com trabalhadores temporários contratados no ano, por tipos de tarefa, condição do produtor em relação às terras, classes de diárias pagas, meses de contratação e grupos de atividade econômica - (MDA - PRONAF)",
+  "URL": "https://sidra.ibge.gov.br/tabela/3311",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pessoal ocupado",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2009,
+      "nome": "Número de estabelecimentos agropecuários com trabalhadores temporários contratados no ano",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002009,
+      "nome": "Número de estabelecimentos agropecuários com trabalhadores temporários contratados no ano - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 4754,
+      "nome": "Tipos de tarefa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118608,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112973,
+          "nome": "Preparo do solo, capinas, tratos culturais e limpeza de pastos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112974,
+          "nome": "Plantio ou semeadura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112975,
+          "nome": "Colheita",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112976,
+          "nome": "Outras tarefas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4780,
+          "nome": "Proprietário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111517,
+          "nome": "Assentado sem titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4781,
+          "nome": "Arrendatário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4782,
+          "nome": "Parceiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12579,
+      "nome": "Classes de diárias pagas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113048,
+          "nome": "Menos de 30 diárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113049,
+          "nome": "De 30 a menos de 60 diárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113050,
+          "nome": "De 60 a menos de 180 diárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113051,
+          "nome": "180 a mais diárias",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12580,
+      "nome": "Meses de contratação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118573,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113052,
+          "nome": "Janeiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113053,
+          "nome": "Fevereiro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113054,
+          "nome": "Março",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113055,
+          "nome": "Abril",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113056,
+          "nome": "Maio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113057,
+          "nome": "Junho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113058,
+          "nome": "Julho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113059,
+          "nome": "Agosto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113060,
+          "nome": "Setembro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113061,
+          "nome": "Outubro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113062,
+          "nome": "Novembro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113063,
+          "nome": "Dezembro",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12517,
+      "nome": "Grupos de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113601,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111519,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111520,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111521,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111522,
+          "nome": "Produção de sementes e mudas certificadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111523,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111524,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111525,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114349,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111526,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12617,
+      "nome": "Pronafiano",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12098,
+          "nome": "Não pronafiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113888,
+          "nome": "Pronaf A",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113889,
+          "nome": "Pronaf B",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113890,
+          "nome": "Pronaf C",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113891,
+          "nome": "Pronaf D",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113892,
+          "nome": "Pronaf E",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

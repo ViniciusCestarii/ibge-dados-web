@@ -1,0 +1,240 @@
+{
+  "id": 8590,
+  "nome": "Número de estabelecimentos agropecuários com asininos, Número de cabeças de asininos nos estabelecimentos agropecuários, Número de estabelecimentos agropecuários que venderam asininos, Número de cabeças de asininos vendidas nos estabelecimentos agropecuários e Valor da venda de cabeças de asininos nos estabelecimentos agropecuários, por pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar, condição do produtor em relação às terras e grupos de cabeças de asininos",
+  "URL": "https://sidra.ibge.gov.br/tabela/8590",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Pecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 43,
+      "nome": "Número de estabelecimentos agropecuários com asininos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2197,
+      "nome": "Número de cabeças de asininos nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10022,
+      "nome": "Número de estabelecimentos agropecuários que venderam asininos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10023,
+      "nome": "Número de cabeças de asininos vendidas nos estabelecimentos agropecuários",
+      "unidade": "Cabeças",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 10024,
+      "nome": "Valor da venda de cabeças de asininos nos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1363,
+      "nome": "Pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57437,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57438,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57439,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57440,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57483,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57484,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57485,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "nome": "Condição do produtor em relação às terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46502,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46503,
+          "nome": "Proprietário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46504,
+          "nome": "Concessionário(a) ou assentado(a) aguardando titulação definitiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46505,
+          "nome": "Arrendatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46506,
+          "nome": "Parceiro(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46507,
+          "nome": "Comodatário(a)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4783,
+          "nome": "Ocupante",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111518,
+          "nome": "Produtor sem área",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12723,
+      "nome": "Grupos de cabeças de asininos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8060,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115938,
+          "nome": "De 1 a 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115939,
+          "nome": "De 3 a 4",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115940,
+          "nome": "De 5 a 9",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115941,
+          "nome": "De 10 a 19",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115942,
+          "nome": "De 20 a 49",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115943,
+          "nome": "De 50 a 99",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115944,
+          "nome": "De 100 e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115945,
+          "nome": "Sem cabeças de asininos na data de referência",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

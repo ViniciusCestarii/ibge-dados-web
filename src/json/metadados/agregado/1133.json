@@ -1,0 +1,97 @@
+{
+  "id": 1133,
+  "nome": "Número de espécies arbóreas nativas ameaçadas de extinção por categorias de risco e grupos taxonômicos (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1133",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Espécies extintas e ameaçadas de extinção",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2460,
+      "nome": "Número de espécies arbóreas nativas ameaçadas de extinção",
+      "unidade": "Espécies",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12920,
+      "nome": "Categorias de risco",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119345,
+          "nome": "Criticamente em perigo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119346,
+          "nome": "Em perigo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119347,
+          "nome": "Vulnerável",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12919,
+      "nome": "Grupos taxonômicos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119353,
+          "nome": "Gymnospermas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119354,
+          "nome": "Angiospermas - dicotiledôneas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119355,
+          "nome": "Angiospermas - monocotiledôneas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

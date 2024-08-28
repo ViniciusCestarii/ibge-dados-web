@@ -1,0 +1,428 @@
+{
+  "id": 5445,
+  "nome": "Número de estabelecimentos agropecuários que realizaram despesas no ano e Valor das despesas realizadas no ano por tipo de despesa e grupos e classes de atividade",
+  "URL": "https://sidra.ibge.gov.br/tabela/5445",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Valores monetários na agropecuária",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2,
+      "nome": "Número de estabelecimentos agropecuários que realizaram despesas",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000002,
+      "nome": "Número de estabelecimentos agropecuários que realizaram despesas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1996,
+      "nome": "Valor das despesas realizadas pelos estabelecimentos agropecuários",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001996,
+      "nome": "Valor das despesas realizadas pelos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 210,
+      "nome": "Tipo de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 113946,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111957,
+          "nome": "Arrendamento de terras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111958,
+          "nome": "Serviços de empreitada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111959,
+          "nome": "Salários pagos em dinheiro ou produtos para família",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116229,
+          "nome": "Salários pagos em dinheiro ou produtos para empregados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111960,
+          "nome": "Adubos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111961,
+          "nome": "Corretivos do solo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111962,
+          "nome": "Sementes e mudas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111963,
+          "nome": "Sacarias e embalagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116712,
+          "nome": "Compra de animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111966,
+          "nome": "Agrotóxicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111967,
+          "nome": "Medicamentos para animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111968,
+          "nome": "Sal e rações (industrializados ou não-industrializados)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111969,
+          "nome": "Compra de matéria-prima para agroindústria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111971,
+          "nome": "Armazenamento da produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111972,
+          "nome": "Transporte da produção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111973,
+          "nome": "Impostos, taxas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111974,
+          "nome": "Juros e despesas bancárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111975,
+          "nome": "Aluguel de máquina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5497,
+          "nome": "Energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118125,
+          "nome": "Combustíveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111976,
+          "nome": "Outras despesas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12440,
+      "nome": "Grupos e classes de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112880,
+          "nome": "Produção de lavouras temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112873,
+          "nome": "Cultivo de cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112874,
+          "nome": "Cultivo de algodão herbáceo e outras fibras da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112875,
+          "nome": "Cultivo de cana-de-açúcar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112876,
+          "nome": "Cultivo de fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112877,
+          "nome": "Cultivo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112878,
+          "nome": "Cultivo de oleaginosas de lavoura temporária, exceto soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112879,
+          "nome": "Cultivo de outros produtos da lavoura temporária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112881,
+          "nome": "Horticultura e floricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112882,
+          "nome": "Cultivo de hortaliças, legumes e outros produtos da horticultura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112883,
+          "nome": "Cultivo de flores, folhagens e plantas ornamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112884,
+          "nome": "Produção de lavouras permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112885,
+          "nome": "Cultivo de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112886,
+          "nome": "Cultivo de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112887,
+          "nome": "Cultivo de frutas da lavoura permanente, exceto laranja e uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112888,
+          "nome": "Cultivo de café",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112889,
+          "nome": "Cultivo de cacau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112890,
+          "nome": "Cultivo de outros produtos de lavoura permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112891,
+          "nome": "Produção de sementes, mudas e outras formas de propagação vegetal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112892,
+          "nome": "Produção de sementes certificadas, de produtos agrícolas, inclusive forrageiras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112893,
+          "nome": "Produção de mudas certificadas e outras formas de propagação vegetal de produtos agrícolas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112894,
+          "nome": "Pecuária e criação de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112895,
+          "nome": "Criação de bovinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112896,
+          "nome": "Criação de outros animais de grande porte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112897,
+          "nome": "Criação de ovinos e caprinos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112898,
+          "nome": "Criação de suínos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112899,
+          "nome": "Criação de aves",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112900,
+          "nome": "Criação de outros animais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112901,
+          "nome": "Produção florestal - florestas plantadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112902,
+          "nome": "Produção florestal - florestas nativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114050,
+          "nome": "Pesca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114055,
+          "nome": "Pesca em água doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112903,
+          "nome": "Aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112904,
+          "nome": "Aquicultura em água salgada ou salobra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112905,
+          "nome": "Aquicultura em água doce",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

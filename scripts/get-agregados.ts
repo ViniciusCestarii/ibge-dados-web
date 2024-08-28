@@ -2,11 +2,16 @@ import path from 'path'
 import fs from 'fs'
 import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/fetch-data'
 import { Categoria } from '@/types/agregado'
+import {
+  fetchAllMissingAgregadoMetadados,
+  fetchAllMissingNivelGeografico,
+} from './get-missing'
 
 const generateAgregados = async () => {
   await fetchAgregados()
-  fetchAllAgregadoPeriodo()
-  fetchAllAgregadoMetadados()
+  await fetchAllAgregadoPeriodo()
+  await fetchAllMissingAgregadoMetadados()
+  await fetchAllMissingNivelGeografico()
 }
 
 generateAgregados()
@@ -30,24 +35,6 @@ async function fetchAllAgregadoPeriodo() {
         urlName: `agregados?acervo=/S/${categoria.id}/P/Q`,
         pathname: `periodos/categoria/${categoria.id}`,
       }),
-    ),
-  )
-}
-
-async function fetchAllAgregadoMetadados() {
-  const pathToAgregados = path.join(basePathToJson, 'agregados.json')
-  const agregados = JSON.parse(
-    fs.readFileSync(pathToAgregados, 'utf-8'),
-  ) as Categoria[]
-
-  await Promise.all(
-    agregados.flatMap((categoria) =>
-      categoria.agregados.map((agregado) =>
-        fetchDataAndSaveAsJson({
-          urlName: `agregados/${agregado.id}/metadados`,
-          pathname: `metadados/agregado/${agregado.id}`,
-        }),
-      ),
     ),
   )
 }

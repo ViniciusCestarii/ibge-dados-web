@@ -1,0 +1,117 @@
+{
+  "id": 716,
+  "nome": "Número de processos de divórcio encerrados em primeira instância por natureza e tipo do processo",
+  "URL": "https://sidra.ibge.gov.br/tabela/716",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 279,
+      "nome": "Natureza do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6183,
+          "nome": "Consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6184,
+          "nome": "Não consensual",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6185,
+          "nome": "Não consensual requerido pelo marido",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6186,
+          "nome": "Não consensual requerido pela mulher",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6187,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "nome": "Tipo do processo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6180,
+          "nome": "Direto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6181,
+          "nome": "Indireto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6182,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

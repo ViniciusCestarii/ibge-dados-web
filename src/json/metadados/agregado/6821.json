@@ -1,0 +1,122 @@
+{
+  "id": 6821,
+  "nome": "Domicílios e Moradores, por condição de ocupação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/6821",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9784,
+      "nome": "Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9785,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10114,
+      "nome": "Moradores em domicílios",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10116,
+      "nome": "Coeficiente de variação - Moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10117,
+      "nome": "Distribuição percentual dos moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10118,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95826,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4342,
+          "nome": "Próprio de algum morador - já pago",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4343,
+          "nome": "Próprio de algum morador - ainda pagando",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

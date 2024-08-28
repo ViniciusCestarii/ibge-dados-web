@@ -1,0 +1,116 @@
+{
+  "id": 7394,
+  "nome": "Rendimento médio mensal real domiciliar per capita, por situação do domicílio e existência de televisão e tipo de televisão",
+  "URL": "https://sidra.ibge.gov.br/tabela/7394",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4196,
+      "nome": "Rendimento médio mensal real domiciliar per capita",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4197,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 974,
+      "nome": "Existência de televisão e tipo de televisão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48774,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48775,
+          "nome": "Havia televisão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48776,
+          "nome": "Havia televisão de tela fina (LED, LCD ou plasma)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48777,
+          "nome": "Havia somente televisão de tela fina (LED, LCD ou plasma)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 48778,
+          "nome": "Havia televisão de tubo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48779,
+          "nome": "Havia somente televisão de tubo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 48780,
+          "nome": "Não havia televisão",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

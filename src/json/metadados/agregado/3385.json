@@ -1,0 +1,100 @@
+{
+  "id": 3385,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por existência de energia elétrica",
+  "URL": "https://sidra.ibge.gov.br/tabela/3385",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N17"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 309,
+      "nome": "Existência de energia elétrica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3011,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3012,
+          "nome": "Tinham - de companhia distribuidora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3014,
+          "nome": "Tinham - de companhia distribuidora - com medidor - de uso exclusivo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3015,
+          "nome": "Tinham - de companhia distribuidora - com medidor - comum a mais de um domicílio",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3016,
+          "nome": "Tinham - de companhia distribuidora - sem medidor",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3017,
+          "nome": "Tinham - de outra fonte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3018,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

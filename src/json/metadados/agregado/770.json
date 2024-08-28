@@ -1,0 +1,71 @@
+{
+  "id": 770,
+  "nome": "Quantidade de fertilizantes entregue ao consumidor final e Utilização de fertilizantes por unidade de área por tipo de nutriente",
+  "URL": "https://sidra.ibge.gov.br/tabela/770",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Uso de fertilizantes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2014
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2397,
+      "nome": "Quantidade de fertilizantes entregue ao consumidor final",
+      "unidade": "Toneladas",
+      "sumarizacao": []
+    },
+    {
+      "id": 2398,
+      "nome": "Utilização de fertilizantes por unidade de área",
+      "unidade": "Quilogramas por Hectare",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12899,
+      "nome": "Tipo de nutriente",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119127,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119128,
+          "nome": "N - nitrogênio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119129,
+          "nome": "P2O5 - fósforo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119130,
+          "nome": "K2O - potássio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

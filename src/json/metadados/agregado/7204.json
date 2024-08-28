@@ -1,0 +1,77 @@
+{
+  "id": 7204,
+  "nome": "Viagens realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por finalidade da viagem",
+  "URL": "https://sidra.ibge.gov.br/tabela/7204",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Turismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10390,
+      "nome": "Viagens realizadas pelos moradores dos domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10391,
+      "nome": "Coeficiente de variação - Viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10392,
+      "nome": "Distribuição percentual das viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10393,
+      "nome": "Coeficiente de variação - Distribuição percentual das viagens realizadas pelos moradores dos domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 892,
+      "nome": "Finalidade da viagem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47975,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47976,
+          "nome": "Pessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47977,
+          "nome": "Profissional",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 717,
+  "nome": "Número de processos de divórcio encerrados em primeira instância por sentença proferida",
+  "URL": "https://sidra.ibge.gov.br/tabela/717",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Divórcios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000230,
+      "nome": "Número de processos de divórcio encerrados em 1ª instância - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 268,
+      "nome": "Sentença proferida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6188,
+          "nome": "Concessão com recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6189,
+          "nome": "Concessão sem recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6190,
+          "nome": "Denegação com recurso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 6191,
+          "nome": "Denegação sem recurso",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

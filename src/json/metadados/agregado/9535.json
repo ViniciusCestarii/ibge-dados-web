@@ -1,0 +1,65 @@
+{
+  "id": 9535,
+  "nome": "Indicador 8.3.1 - Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/9535",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Trabalho decente e crescimento econômico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8883,
+      "nome": "Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8884,
+      "nome": "Coeficiente de variação - Taxa de informalidade das pessoas de 15 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

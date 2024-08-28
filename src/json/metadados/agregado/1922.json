@@ -1,0 +1,194 @@
+{
+  "id": 1922,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por grupos de horas habitualmente trabalhadas por semana no trabalho principal, sexo e grupos de ocupação do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1922",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12045,
+      "nome": "Grupos de horas habitualmente trabalhadas por semana no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99401,
+          "nome": "Até 14 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99402,
+          "nome": "15 a 39 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99403,
+          "nome": "40 a 44 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99404,
+          "nome": "45 a 48 horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99405,
+          "nome": "49 horas ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99406,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12047,
+      "nome": "Grupos de ocupação do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99477,
+          "nome": "Ocupações não específicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99478,
+          "nome": "Ocupações não específicas - técnica, científica, artística e assemelhada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99479,
+          "nome": "Ocupações não específicas - administrativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99480,
+          "nome": "Ocupações específicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99481,
+          "nome": "Ocupações específicas - agropecuária e produção extrativa vegetal e animal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99482,
+          "nome": "Ocupações específicas - indústria de transformação e construção civil",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99483,
+          "nome": "Ocupações específicas - comércio e atividades auxiliares",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99484,
+          "nome": "Ocupações específicas - transporte e comunicação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99485,
+          "nome": "Ocupações específicas - prestação de serviços",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99486,
+          "nome": "Outras ocupações, ocupação mal definida ou não declarada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": 1840,
+  "nome": "População residente, por situação, sexo e lugar de nascimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1840",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "nome": "Lugar de nascimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3256,
+          "nome": "Rondônia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3257,
+          "nome": "Acre",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3258,
+          "nome": "Amazonas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3259,
+          "nome": "Roraima",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3260,
+          "nome": "Pará",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3261,
+          "nome": "Amapá",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3262,
+          "nome": "Tocantins",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3263,
+          "nome": "Maranhão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3264,
+          "nome": "Piauí",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3265,
+          "nome": "Ceará",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3266,
+          "nome": "Rio Grande do Norte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3267,
+          "nome": "Paraíba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3268,
+          "nome": "Pernambuco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3269,
+          "nome": "Alagoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3270,
+          "nome": "Sergipe",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3271,
+          "nome": "Bahia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3272,
+          "nome": "Minas Gerais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3273,
+          "nome": "Espirito Santo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3284,
+          "nome": "Rio de Janeiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3274,
+          "nome": "São Paulo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3275,
+          "nome": "Paraná",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3276,
+          "nome": "Santa Catarina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3277,
+          "nome": "Rio Grande do Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3278,
+          "nome": "Mato Grosso do Sul",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3279,
+          "nome": "Mato Grosso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3280,
+          "nome": "Goias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3281,
+          "nome": "Distrito Federal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3282,
+          "nome": "País estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3283,
+          "nome": "Sem Declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

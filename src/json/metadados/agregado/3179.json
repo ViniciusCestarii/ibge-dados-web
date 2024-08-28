@@ -1,0 +1,3279 @@
+{
+  "id": 3179,
+  "nome": "Pessoas indígenas de 5 anos ou mais de idade, residentes em terras indígenas, por sexo e grupos de idade, segundo a condição de falar língua indígena no domicílio e o tronco, a família linguística, a língua indígena de classificação e a língua indígena de identificação",
+  "URL": "https://sidra.ibge.gov.br/tabela/3179",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Terras indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1438,
+      "nome": "Pessoas indígenas de 5 anos ou mais de idade, residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001438,
+      "nome": "Pessoas indígenas de 5 anos ou mais de idade, residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1141,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1142,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100753,
+          "nome": "15 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100053,
+          "nome": "25 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "nome": "Condição de falar língua indígena no domicílio e tronco, família linguística, língua indígena de classificação e língua indígena de identificação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 127638,
+          "nome": "Falavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 127639,
+          "nome": "Macro-Jê",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 127640,
+          "nome": "Boróro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127641,
+          "nome": "Boróro - Umutína",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127642,
+          "nome": "Boróro",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127643,
+          "nome": "Umutína",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127644,
+          "nome": "Guató",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127645,
+          "nome": "Guató",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127646,
+          "nome": "Guató",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127647,
+          "nome": "Jê",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127648,
+          "nome": "Apinayé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127649,
+          "nome": "Apinayé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127650,
+          "nome": "Timbira",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127651,
+          "nome": "Kanela",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127652,
+          "nome": "Kanela Apaniekra",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127653,
+          "nome": "Kanela Rankocamekra",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127654,
+          "nome": "Gavião Krikatêjê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127655,
+          "nome": "Gavião Parkatêjê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127656,
+          "nome": "Gavião Pukobiê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127657,
+          "nome": "Krahô",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127658,
+          "nome": "Krahô-Kanela",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127659,
+          "nome": "Krenyê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127660,
+          "nome": "Krikatí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127661,
+          "nome": "Kokuiregatêjê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127662,
+          "nome": "Timbira",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127663,
+          "nome": "Kaingáng",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127664,
+          "nome": "Kaingáng",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127665,
+          "nome": "Mebêngôkre",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127666,
+          "nome": "Kayapó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127667,
+          "nome": "Panará",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127668,
+          "nome": "Krenakarore",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127669,
+          "nome": "Kisêdjê-Tapayúna",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127670,
+          "nome": "Kisêdjê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127671,
+          "nome": "Tapayúna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127672,
+          "nome": "Xacriabá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127673,
+          "nome": "Xacriabá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127674,
+          "nome": "Xavánte",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127675,
+          "nome": "Xavánte",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127676,
+          "nome": "Xerénte",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127677,
+          "nome": "Xerénte",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127678,
+          "nome": "Xokléng",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127679,
+          "nome": "Xokléng",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127680,
+          "nome": "Jê não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127681,
+          "nome": "Karajá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127682,
+          "nome": "Karajá - Javaé - Xambioá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127683,
+          "nome": "Karajá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127684,
+          "nome": "Javaé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127685,
+          "nome": "Xambioá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127686,
+          "nome": "Krenák",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127687,
+          "nome": "Krenák",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127688,
+          "nome": "Krenák",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127689,
+          "nome": "Maxakali",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127690,
+          "nome": "Maxakali",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127691,
+          "nome": "Maxakali",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127692,
+          "nome": "Pataxó",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127693,
+          "nome": "Pataxó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127694,
+          "nome": "Pataxo Há-Há-Há",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127695,
+          "nome": "Ofayé",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127696,
+          "nome": "Ofayé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127697,
+          "nome": "Ofayé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127698,
+          "nome": "Rikbaktsa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127699,
+          "nome": "Rikbaktsa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127700,
+          "nome": "Canoeiros",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127701,
+          "nome": "Yatê",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127702,
+          "nome": "Yatê",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127703,
+          "nome": "Fulni-ô",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127704,
+          "nome": "Macro-Jê não especificado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127705,
+          "nome": "Tupi",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 127706,
+          "nome": "Arikém",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127707,
+          "nome": "Karitiána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127708,
+          "nome": "Karitiána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127709,
+          "nome": "Awetí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127710,
+          "nome": "Awetí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127711,
+          "nome": "Awetí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127712,
+          "nome": "Jurúna",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127713,
+          "nome": "Yudja",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127714,
+          "nome": "Jurúna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127715,
+          "nome": "Xipáya",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127716,
+          "nome": "Xipáya",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127717,
+          "nome": "Mawé",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127718,
+          "nome": "Mawé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127719,
+          "nome": "Mawé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127720,
+          "nome": "Mondé",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127721,
+          "nome": "Cinta Larga-Zoró-Gavião-Aruá-Arara do Aripuanã",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127722,
+          "nome": "Arara do Aripuanã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127723,
+          "nome": "Aruá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127724,
+          "nome": "Cinta Larga",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127725,
+          "nome": "Gavião de Rondônia",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127726,
+          "nome": "Zoró",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127727,
+          "nome": "Salamãy",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127728,
+          "nome": "Salamãy",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127729,
+          "nome": "Paiter",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127730,
+          "nome": "Suruí de Rondônia",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127731,
+          "nome": "Mondé, Tupí-Mondé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127732,
+          "nome": "Mundurukú",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127733,
+          "nome": "Mundurukú",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127734,
+          "nome": "Mundurukú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127735,
+          "nome": "Kuruáya",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127736,
+          "nome": "Kuruáya",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127737,
+          "nome": "Puruborá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127738,
+          "nome": "Puruborá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127739,
+          "nome": "Puruborá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127740,
+          "nome": "Ramaráma",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127741,
+          "nome": "Káro",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127742,
+          "nome": "Arara de Rondônia",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127743,
+          "nome": "Ramarama",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127744,
+          "nome": "Urucú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127745,
+          "nome": "Tuparí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127746,
+          "nome": "Ajuru",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127747,
+          "nome": "Ajuru",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127748,
+          "nome": "Akuntsú",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127749,
+          "nome": "Akuntsú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127750,
+          "nome": "Makuráp",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127751,
+          "nome": "Makuráp",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127752,
+          "nome": "Sakurabiat",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127753,
+          "nome": "Sakurabiat",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127754,
+          "nome": "Tuparí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127755,
+          "nome": "Tuparí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127756,
+          "nome": "Tupi-Guarani",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127757,
+          "nome": "Amanayé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127758,
+          "nome": "Amanayé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127759,
+          "nome": "Anambé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127760,
+          "nome": "Anambé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127761,
+          "nome": "Apiaká",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127762,
+          "nome": "Apiaká",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127763,
+          "nome": "Araweté",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127764,
+          "nome": "Araweté",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127765,
+          "nome": "Asurini do Tocantins",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127766,
+          "nome": "Asurini do Tocantins",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127767,
+          "nome": "Parakanã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127768,
+          "nome": "Suruí do Pará",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127769,
+          "nome": "Asurini do Xingu",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127770,
+          "nome": "Asurini do Xingu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127771,
+          "nome": "Ava-Canoeiro",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127772,
+          "nome": "Ava-Canoeiro",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127773,
+          "nome": "Guajá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127774,
+          "nome": "Guajá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127775,
+          "nome": "Guaraní",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127776,
+          "nome": "Guaraní",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127777,
+          "nome": "Guarani Kaiowá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127778,
+          "nome": "Guarani Mbya",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127779,
+          "nome": "Guarani Nhandeva",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127780,
+          "nome": "Ka'apor",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127781,
+          "nome": "Ka'apor",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127782,
+          "nome": "Lingua de Sinais Ka'apor",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127783,
+          "nome": "Kamayrurá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127784,
+          "nome": "Kamayrurá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127785,
+          "nome": "Kawahíb",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127786,
+          "nome": "Amondáwa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127787,
+          "nome": "Diahói",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127788,
+          "nome": "Juma",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127789,
+          "nome": "Karipuna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127790,
+          "nome": "Kawahíb",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127791,
+          "nome": "Parintintim",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127792,
+          "nome": "Tenharim",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127793,
+          "nome": "Uru-Eu-Wau-Wau",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127794,
+          "nome": "Kaiabi",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127795,
+          "nome": "Kaiabi",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127796,
+          "nome": "Kokama - kambéba",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127797,
+          "nome": "Kokama",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127798,
+          "nome": "Kambéba",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127799,
+          "nome": "Lingua Geral Amazônica",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127800,
+          "nome": "Lingua Geral Amazônica",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127801,
+          "nome": "Tapirapé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127802,
+          "nome": "Tapirapé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127803,
+          "nome": "Tenetehara",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127804,
+          "nome": "Guajajára",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127805,
+          "nome": "Tembé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127806,
+          "nome": "Turiwára",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127807,
+          "nome": "Turiwára",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127808,
+          "nome": "Waiãpy",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127809,
+          "nome": "Waiãpy",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127810,
+          "nome": "Xetá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127811,
+          "nome": "Xetá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127812,
+          "nome": "Zo'é",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127813,
+          "nome": "Zo'é",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127814,
+          "nome": "Tupi-Gurani não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127815,
+          "nome": "Tupi não especificado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127816,
+          "nome": "Outras famílias não classificadas em troncos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 127817,
+          "nome": "Aruak",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127818,
+          "nome": "Apurinã",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127819,
+          "nome": "Apurinã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127820,
+          "nome": "Ashaninka",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127821,
+          "nome": "Ashaninka",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127822,
+          "nome": "Baníwa - Kuripáko",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127823,
+          "nome": "Baníwa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127824,
+          "nome": "Kuripáko",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127825,
+          "nome": "Baré",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127826,
+          "nome": "Baré",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127827,
+          "nome": "Enawenê-Nawê",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127828,
+          "nome": "Enawenê-Nawê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127829,
+          "nome": "Kaixána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127830,
+          "nome": "Kaixána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127831,
+          "nome": "Kinikinau",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127832,
+          "nome": "Kinikinau",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127833,
+          "nome": "Machinéri",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127834,
+          "nome": "Machinéri",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127835,
+          "nome": "Mawayána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127836,
+          "nome": "Mawayána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127837,
+          "nome": "Mehináku",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127838,
+          "nome": "Mehináku",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127839,
+          "nome": "Palikúr",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127840,
+          "nome": "Palikúr",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127841,
+          "nome": "Paresí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127842,
+          "nome": "Paresí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127843,
+          "nome": "Tariána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127844,
+          "nome": "Tariána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127845,
+          "nome": "Teréna",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127846,
+          "nome": "Teréna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127847,
+          "nome": "Wapixána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127848,
+          "nome": "Wapixána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127849,
+          "nome": "Warekána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127850,
+          "nome": "Warekána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127851,
+          "nome": "Wauja",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127852,
+          "nome": "Wauja",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127853,
+          "nome": "Yawalapití",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127854,
+          "nome": "Yawalapití",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127855,
+          "nome": "Aruak não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127856,
+          "nome": "Karib",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127857,
+          "nome": "Apalaí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127858,
+          "nome": "Apalaí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127859,
+          "nome": "Arara do Pará",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127860,
+          "nome": "Arara do Pará",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127861,
+          "nome": "Bakairí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127862,
+          "nome": "Bakairí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127863,
+          "nome": "Galibí do Oiapoque",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127864,
+          "nome": "Galibí do Oiapoque",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127865,
+          "nome": "Hixkaryána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127866,
+          "nome": "Hixkaryána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127867,
+          "nome": "Ikpeng",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127868,
+          "nome": "Ikpeng",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127869,
+          "nome": "Ingarikó",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127870,
+          "nome": "Ingarikó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127871,
+          "nome": "Kalapálo - Kuikúro - Matipú - Nahukwá - Naravute",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127872,
+          "nome": "Kalapálo",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127873,
+          "nome": "Kuikúro",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127874,
+          "nome": "Matipú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127875,
+          "nome": "Nahukwá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127876,
+          "nome": "Naravute",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127877,
+          "nome": "Kaxuyána - Xikuyána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127878,
+          "nome": "Kaxuyána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127879,
+          "nome": "Makuxí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127880,
+          "nome": "Makuxí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127881,
+          "nome": "Patamóna",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127882,
+          "nome": "Kapon Patamóna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127883,
+          "nome": "Taulipáng",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127884,
+          "nome": "Taulipáng",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127885,
+          "nome": "Tiriyó",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127886,
+          "nome": "Tiriyó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127887,
+          "nome": "Wái Wái",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127888,
+          "nome": "Wái Wái",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127889,
+          "nome": "Waimirí-Atroarí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127890,
+          "nome": "Waimirí-Atroarí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127891,
+          "nome": "Wayána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127892,
+          "nome": "Wayána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127893,
+          "nome": "Yekuána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127894,
+          "nome": "Yekuána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127895,
+          "nome": "Karib não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127896,
+          "nome": "Pano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127897,
+          "nome": "Arara do Acre",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127898,
+          "nome": "Arara do Acre",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127899,
+          "nome": "Katukina do Acre",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127900,
+          "nome": "Katukina do Acre",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127901,
+          "nome": "Kaxararí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127902,
+          "nome": "Kaxararí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127903,
+          "nome": "Kaxinawá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127904,
+          "nome": "Kaxinawá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127905,
+          "nome": "Korúbo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127906,
+          "nome": "Korúbo",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127907,
+          "nome": "Kulina Páno",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127908,
+          "nome": "Kulina Páno",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127909,
+          "nome": "Marúbo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127910,
+          "nome": "Marúbo",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127911,
+          "nome": "Matís",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127912,
+          "nome": "Matís",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127913,
+          "nome": "Matsés",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127914,
+          "nome": "Matsés",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127915,
+          "nome": "Maya",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127916,
+          "nome": "Maya",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127917,
+          "nome": "Nukiní",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127918,
+          "nome": "Nukiní",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127919,
+          "nome": "Poyanáwa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127920,
+          "nome": "Poyanáwa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127921,
+          "nome": "Shanenáwa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127922,
+          "nome": "Shanenáwa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127923,
+          "nome": "Yamináwa",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127924,
+          "nome": "Yamináwa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127925,
+          "nome": "Yawanawá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127926,
+          "nome": "Yawanawá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127927,
+          "nome": "Pano não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127928,
+          "nome": "Tukano",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127929,
+          "nome": "Arapáso",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127930,
+          "nome": "Arapáso",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127931,
+          "nome": "Bará",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127932,
+          "nome": "Bará",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127933,
+          "nome": "Barasána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127934,
+          "nome": "Barasána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127935,
+          "nome": "Desána",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127936,
+          "nome": "Desána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127937,
+          "nome": "Karapanã",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127938,
+          "nome": "Karapanã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127939,
+          "nome": "Kotiria",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127940,
+          "nome": "Wanana",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127941,
+          "nome": "Kubeo",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127942,
+          "nome": "Kubeo",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127943,
+          "nome": "Makúna",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127944,
+          "nome": "Makúna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127945,
+          "nome": "Siriáno",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127946,
+          "nome": "Siriáno",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127947,
+          "nome": "Tukáno",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127948,
+          "nome": "Tukáno",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127949,
+          "nome": "Tuyúca",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127950,
+          "nome": "Tuyúca",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127951,
+          "nome": "Yurutí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127952,
+          "nome": "Yurutí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127953,
+          "nome": "Waikana",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127954,
+          "nome": "Piratapúya",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127955,
+          "nome": "Arawá",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127956,
+          "nome": "Arawá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127957,
+          "nome": "Arawá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127958,
+          "nome": "Banawá - Yafí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127959,
+          "nome": "Banawá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127960,
+          "nome": "Dení",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127961,
+          "nome": "Dení",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127962,
+          "nome": "Himarimã",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127963,
+          "nome": "Himarimã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127964,
+          "nome": "Jamamadí-Kanamanti",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127965,
+          "nome": "Jamamadí-Kanamanti",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127966,
+          "nome": "Jarawára",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127967,
+          "nome": "Jarawára",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127968,
+          "nome": "Kulina Madijá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127969,
+          "nome": "Kulina Madijá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127970,
+          "nome": "Paumarí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127971,
+          "nome": "Paumarí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127972,
+          "nome": "Zuruwahá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127973,
+          "nome": "Zuruwahá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127974,
+          "nome": "Katukina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127975,
+          "nome": "Katukína - Kanamarí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127976,
+          "nome": "Kanamarí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127977,
+          "nome": "Katukína",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127978,
+          "nome": "Tsohom Djapa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127979,
+          "nome": "Katawixí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127980,
+          "nome": "Katawixí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127981,
+          "nome": "Makú (Nadahup)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127982,
+          "nome": "Dâw",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127983,
+          "nome": "Dâw",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127984,
+          "nome": "Hup",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127985,
+          "nome": "Hupda",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127986,
+          "nome": "Nadëb",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127987,
+          "nome": "Nadëb",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127988,
+          "nome": "Yuhúp",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127989,
+          "nome": "Yuhúp",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127990,
+          "nome": "Makú não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127991,
+          "nome": "Nambikwára",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 127992,
+          "nome": "Nambikwára do Sul",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 127993,
+          "nome": "Manduka",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127994,
+          "nome": "Halotesu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127995,
+          "nome": "Kithaulu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127996,
+          "nome": "Wakalitesu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127997,
+          "nome": "Sawentesu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127998,
+          "nome": "Alaketesu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 127999,
+          "nome": "Alantesu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128000,
+          "nome": "Hahaintesu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128001,
+          "nome": "Sarare",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128002,
+          "nome": "Waikisu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128003,
+          "nome": "Wasusu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128004,
+          "nome": "Nambikwára do Norte",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128005,
+          "nome": "Lakondê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128006,
+          "nome": "Latundê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128007,
+          "nome": "Negarotê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128008,
+          "nome": "Mamaindê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128009,
+          "nome": "Tawandê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128010,
+          "nome": "Sabanê",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128011,
+          "nome": "Sabanê",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128012,
+          "nome": "Nambikwára não especificado",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128013,
+          "nome": "Txapakúra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128014,
+          "nome": "Kujubím",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128015,
+          "nome": "Kujubím",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128016,
+          "nome": "Migueléno",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128017,
+          "nome": "Migueléno",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128018,
+          "nome": "Oro Win",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128019,
+          "nome": "Oro Win",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128020,
+          "nome": "Torá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128021,
+          "nome": "Torá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128022,
+          "nome": "Wari'",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128023,
+          "nome": "Pakaa Nova",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128024,
+          "nome": "Yanomamí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128025,
+          "nome": "Ninám",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128026,
+          "nome": "Ninám",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128027,
+          "nome": "Sanumá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128028,
+          "nome": "Sanumá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128029,
+          "nome": "Yanomán",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128030,
+          "nome": "Yanomán",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128031,
+          "nome": "Yanomámi",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128032,
+          "nome": "Yanomámi",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128033,
+          "nome": "Bóra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128034,
+          "nome": "Bóra",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128035,
+          "nome": "Bóra",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128036,
+          "nome": "Miránha",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128037,
+          "nome": "Miránha",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128038,
+          "nome": "Guaikurú",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128039,
+          "nome": "Kadiwéu",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128040,
+          "nome": "Kadiwéu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128041,
+          "nome": "Guaikurú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128042,
+          "nome": "Múra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128043,
+          "nome": "Múra",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128044,
+          "nome": "Múra",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128045,
+          "nome": "Pirahã",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128046,
+          "nome": "Pirahã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128047,
+          "nome": "Samúko",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128048,
+          "nome": "Chamakóko",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128049,
+          "nome": "Chamakóko",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128050,
+          "nome": "Chiquito",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128051,
+          "nome": "Chiquitáno",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128052,
+          "nome": "Chiquitáno",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128053,
+          "nome": "Jabotí",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128054,
+          "nome": "Arikapú",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128055,
+          "nome": "Arikapú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128056,
+          "nome": "Djeoromitxí",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128057,
+          "nome": "Djeoromitxí - Jabotí",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128058,
+          "nome": "Witóto",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 128059,
+          "nome": "Witóto",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128060,
+          "nome": "Witóto",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128061,
+          "nome": "Outras línguas isoladas não classificadas nem em troncos e nem em famílias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128063,
+          "nome": "Aikaná",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128064,
+          "nome": "Aikaná",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128065,
+          "nome": "Irántxe - Mynky",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128066,
+          "nome": "Irántxe",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128067,
+          "nome": "Mynky",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128068,
+          "nome": "Kwazá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128069,
+          "nome": "Kwazá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128070,
+          "nome": "Kanoé",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128071,
+          "nome": "Kanoé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128072,
+          "nome": "Tikúna",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128073,
+          "nome": "Tikúna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128074,
+          "nome": "Trumái",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128075,
+          "nome": "Trumái",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128076,
+          "nome": "Outras línguas criolas não classificadas nem em troncos e nem em famílias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128077,
+          "nome": "Galibí Marwórno",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128078,
+          "nome": "Galibí Marwórno",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128079,
+          "nome": "Karipúna do Amapá",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 128080,
+          "nome": "Karipúna do Amapá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128081,
+          "nome": "Línguas sem classificação determinada não classificadas nem em troncos e nem em famílias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128082,
+          "nome": "Aconã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128083,
+          "nome": "Aimore",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128084,
+          "nome": "Anacé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128085,
+          "nome": "Apolima - Arara",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128086,
+          "nome": "Aranã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128087,
+          "nome": "Arapiun",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128088,
+          "nome": "Arikén",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128089,
+          "nome": "Arikosé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128090,
+          "nome": "Atikum",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128091,
+          "nome": "Baenã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128092,
+          "nome": "Borari",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128093,
+          "nome": "Botocudo",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128094,
+          "nome": "Catokin",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128095,
+          "nome": "Charruá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128096,
+          "nome": "Koiupanká",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128097,
+          "nome": "Issé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128098,
+          "nome": "Jaricuna",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128099,
+          "nome": "Jeripancó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128100,
+          "nome": "Kaeté",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128101,
+          "nome": "Kahyana",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128102,
+          "nome": "Kaimbé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128103,
+          "nome": "Kalabaça",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128104,
+          "nome": "Kalankó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128105,
+          "nome": "Kamba",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128106,
+          "nome": "Kambiwá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128107,
+          "nome": "Kambiwá-Pipipã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128108,
+          "nome": "Kanindé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128109,
+          "nome": "Kantaruré",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128110,
+          "nome": "Kapinawá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128111,
+          "nome": "Karapotó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128112,
+          "nome": "Karijó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128113,
+          "nome": "Kariri",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128114,
+          "nome": "Kariri - Xocó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128115,
+          "nome": "Kaxixó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128116,
+          "nome": "Kayuisiana - Kaixána",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128117,
+          "nome": "Kiriri",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128118,
+          "nome": "Kontanawá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128119,
+          "nome": "Laiana",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128120,
+          "nome": "Manao",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128121,
+          "nome": "Maragua",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128122,
+          "nome": "Marimã",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128123,
+          "nome": "Maytapu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128124,
+          "nome": "Mucurim",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128125,
+          "nome": "Nawa",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128126,
+          "nome": "Paiaku",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128127,
+          "nome": "Pankará",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128128,
+          "nome": "Pankararé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128129,
+          "nome": "Pankararú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128130,
+          "nome": "Pankararú - Kalankó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128131,
+          "nome": "Pankararú - Karuazu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128132,
+          "nome": "Pankaru",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128133,
+          "nome": "Paumelenho",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128134,
+          "nome": "Piri-Piri",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128135,
+          "nome": "Pitaguari",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128136,
+          "nome": "Potiguara",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128137,
+          "nome": "Puri",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128138,
+          "nome": "Sapará",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128139,
+          "nome": "Tabajara",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128140,
+          "nome": "Tapajós",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128141,
+          "nome": "Tapeba",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128142,
+          "nome": "Tapiuns",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128143,
+          "nome": "Tapuia",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128144,
+          "nome": "Tingui-Botó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128145,
+          "nome": "Tremembé",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128146,
+          "nome": "Truká",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128147,
+          "nome": "Tumbalalá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128148,
+          "nome": "Tupaiu",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128149,
+          "nome": "Tupinambá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128150,
+          "nome": "Tupinambaraná",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128151,
+          "nome": "Tupiniquim",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128152,
+          "nome": "Tuxá",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128153,
+          "nome": "Wassú",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128154,
+          "nome": "Xocó",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128155,
+          "nome": "Xucuru",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128156,
+          "nome": "Xucuru - Kariri",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 128157,
+          "nome": "Línguas indígenas de outros países",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128158,
+          "nome": "Não determinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128159,
+          "nome": "Mal definida",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128161,
+          "nome": "Não sabiam",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3332,
+          "nome": "Falavam, mas não declararam a língua",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128160,
+          "nome": "Não falavam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128162,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 1369,
+  "nome": "Número de municípios, total e os com racionamento de água, por periodicidade do racionamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1369",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 346,
+      "nome": "Municípios com racionamento de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000346,
+      "nome": "Municípios com racionamento de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11980,
+      "nome": "Periodicidade do racionamento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2134,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98608,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98569,
+          "nome": "Constante, independente da época do ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98570,
+          "nome": "Todos os anos na época da seca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98571,
+          "nome": "Esporadicamente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98572,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2138,
+          "nome": "Não existe racionamento",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

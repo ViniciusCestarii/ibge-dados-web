@@ -1,0 +1,111 @@
+{
+  "id": 9330,
+  "nome": "Pessoas de 2 anos ou mais de idade com deficiência, por cor ou raça e quantidade de dificuldades funcionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9330",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12785,
+      "nome": "Pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12786,
+      "nome": "Coeficiente de variação - Pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12787,
+      "nome": "Distribuição percentual das pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12788,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 2 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1506,
+      "nome": "Quantidade de dificuldades funcionais",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58770,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58767,
+          "nome": "1 dificuldade",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58768,
+          "nome": "2 ou mais dificuldades",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": 7314,
+  "nome": "Domicílios e Moradores em que havia utilização da internet por banda larga, por situação do domicílio e tipo de conexão à Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7314",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10636,
+      "nome": "Domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10637,
+      "nome": "Coeficiente de variação - Domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10638,
+      "nome": "Distribuição percentual dos domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10639,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10640,
+      "nome": "Moradores em domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10641,
+      "nome": "Coeficiente de variação - Moradores em domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10642,
+      "nome": "Distribuição percentual dos moradores em domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10643,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios em que havia utilização da Internet por banda larga",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 691,
+      "nome": "Tipo de conexão à Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33329,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33336,
+          "nome": "Banda larga fixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33337,
+          "nome": "Somente banda larga fixa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33338,
+          "nome": "Banda larga móvel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33339,
+          "nome": "Somente banda larga móvel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33340,
+          "nome": "Banda larga fixa e móvel",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 7399,
+  "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão, por situação do domicílio e existência de televisão com conversor para receber sinal digital de televisão aberta",
+  "URL": "https://sidra.ibge.gov.br/tabela/7399",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4198,
+      "nome": "Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 4199,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita em domicílios com televisão",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "nome": "Existência de televisão com conversor para receber sinal digital de televisão aberta",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48463,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48464,
+          "nome": "Havia televisão com conversor para receber sinal digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48465,
+          "nome": "Não havia televisão com conversor para receber sinal digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

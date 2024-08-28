@@ -1,0 +1,106 @@
+{
+  "id": 1719,
+  "nome": "Número de municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes, por tipo de processamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1719",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 401,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000401,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 355,
+      "nome": "Tipo de processamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8209,
+          "nome": "Total de municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8194,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8210,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8211,
+          "nome": "Queima em forno simples",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8212,
+          "nome": "Queima a céu aberto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8213,
+          "nome": "Tratamento em autoclave (landfarming)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8214,
+          "nome": "Tratamento por microondas (encapsulamento)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8197,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8215,
+          "nome": "Não existe processamento",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

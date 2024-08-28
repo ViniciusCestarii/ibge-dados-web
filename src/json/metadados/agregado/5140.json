@@ -1,0 +1,135 @@
+{
+  "id": 5140,
+  "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, por avaliação do estado de saúde e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5140",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5462,
+      "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5463,
+      "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5464,
+      "nome": "Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5465,
+      "nome": "Coeficiente de variação - Pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5466,
+      "nome": "Percentual de pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5467,
+      "nome": "Percentual de pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5468,
+      "nome": "Percentual de pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5469,
+      "nome": "Coeficiente de variação - Percentual de pessoas que tiveram atendimento de urgência no domicílio nos últimos doze meses anteriores à data da entrevista",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12258,
+      "nome": "Avaliação do estado de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10011,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104864,
+          "nome": "Muito bom e bom",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104865,
+          "nome": "Regular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104866,
+          "nome": "Ruim e muito ruim",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

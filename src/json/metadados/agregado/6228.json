@@ -1,0 +1,122 @@
+{
+  "id": 6228,
+  "nome": "Percentual de escolares com idade de 13 a 17 anos, dentre aqueles que já tiveram relação sexual, que utilizaram outro método para evitar gravidez (exceto preservativo) na última relação sexual, distribuído pelo método contraceptivo utilizado, por grupo de idade do escolar",
+  "URL": "https://sidra.ibge.gov.br/tabela/6228",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Saúde sexual e reprodutiva",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7995,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos, dentre aqueles que já tiveram relação sexual, que utilizaram outro método para evitar gravidez (exceto preservativo) na última relação sexual, distribuído pelo método contraceptivo utilizado",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7996,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos, dentre aqueles que já tiveram relação sexual, que utilizaram outro método para evitar gravidez (exceto preservativo) na última relação sexual, distribuído pelo método contraceptivo utilizado, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7997,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos, dentre aqueles que já tiveram relação sexual, que utilizaram outro método para evitar gravidez (exceto preservativo) na última relação sexual, distribuído pelo método contraceptivo utilizado, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40087,
+          "nome": "13 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40088,
+          "nome": "13 a 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 706,
+      "nome": "Método contraceptivo utilizado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33497,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33498,
+          "nome": "Pílula",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39845,
+          "nome": "Injetável mensal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39846,
+          "nome": "Injetável trimestral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33502,
+          "nome": "Diafragma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33503,
+          "nome": "DIU",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33508,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 6079,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que tiveram algum ferimento ou lesão mais séria nos 12 meses anteriores à pesquisa, por tipo de ferimento ou lesão",
+  "URL": "https://sidra.ibge.gov.br/tabela/6079",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 7557,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que tiveram algum ferimento ou lesão mais séria nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7558,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que tiveram algum ferimento ou lesão mais séria nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7559,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que tiveram algum ferimento ou lesão mais séria nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 755,
+      "nome": "Tipo de ferimento ou lesão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39850,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39851,
+          "nome": "Osso quebrado ou junta deslocada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39857,
+          "nome": "Corte ou perfuração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39858,
+          "nome": "Desmaio ou dificuldade de respiração decorrente de traumatismo ou lesão na cabeça/pescoço",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39859,
+          "nome": "Ferimento à bala (arma de fogo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39860,
+          "nome": "Queimadura grave",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39861,
+          "nome": "Envenenamento ou overdose",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39862,
+          "nome": "Outra lesão ou machucado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

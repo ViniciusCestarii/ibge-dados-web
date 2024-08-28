@@ -1,0 +1,232 @@
+{
+  "id": 8555,
+  "nome": "Número de estabelecimentos agropecuários e Número de tratores, implementos e máquinas existentes nos estabelecimentos agropecuários, por pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar, tratores, implementos e máquinas existentes no estabelecimento agropecuário, sexo do produtor e classe de idade do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/8555",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9572,
+      "nome": "Número de tratores, implementos e máquinas existentes nos estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1363,
+      "nome": "Pertencimento a Unidade de Conservação (UC) versus Agricultura Familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57437,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57438,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57439,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57440,
+          "nome": "Dentro de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57483,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57484,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 57485,
+          "nome": "Fora de UC (RDS, RESEX e Florestas de Uso Sustentável) - não pertence à agricultura familiar",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 796,
+      "nome": "Tratores, implementos e máquinas existentes no estabelecimento agropecuário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46567,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40597,
+          "nome": "Tratores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40598,
+          "nome": "Semeadeiras/plantadeiras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40599,
+          "nome": "Colheitadeiras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40600,
+          "nome": "Adubadeiras e/ou distribuidoras de calcário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12564,
+      "nome": "Sexo do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41145,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 112634,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112635,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41146,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12771,
+      "nome": "Classe de idade do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 45951,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118190,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118191,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118192,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118193,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 118194,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46437,
+          "nome": "De 65 a menos de 75 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46501,
+          "nome": "De 75 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47177,
+          "nome": "Não se aplica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

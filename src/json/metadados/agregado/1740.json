@@ -1,0 +1,735 @@
+{
+  "id": 1740,
+  "nome": "Valor das incorporações, obras e/ou serviços da construção das empresas de construção com 30 ou mais pessoas ocupadas, segundo as classes de atividades e descrição de produtos da construção (CNAE 2.0)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1740",
+  "pesquisa": "Pesquisa Anual da Indústria da Construção",
+  "assunto": "Construção civil",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1246,
+      "nome": "Valor total das obras e/ou serviços da construção",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001246,
+      "nome": "Valor total das obras e/ou serviços da construção - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1247,
+      "nome": "Número de informantes - como contratante único ou principal",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001247,
+      "nome": "Número de informantes - como contratante único ou principal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1248,
+      "nome": "Valor - como contratante única ou principal",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001248,
+      "nome": "Valor - como contratante única ou principal - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1249,
+      "nome": "Número de informantes - como subcontratada",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001249,
+      "nome": "Número de informantes - como subcontratada - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1250,
+      "nome": "Valor - como subcontratada",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001250,
+      "nome": "Valor - como subcontratada - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 358,
+      "nome": "Classes de atividades e descrição de produtos da construção",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8308,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8309,
+          "nome": "4110 Incorporação de empreendimentos imobiliários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8310,
+          "nome": "4110.2010 Incorporação de imóveis construídos por outras empresa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8311,
+          "nome": "4120 Construção de edifícios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8312,
+          "nome": "4120.2010 Edifícios comerciais (shoppings, supermercados, lojas, etc)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8313,
+          "nome": "4120.2020 Edifícios industriais (fábricas, oficinas, galpões industriais, etc)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8314,
+          "nome": "4120.2030 Edifícios não-residenciais não especificados anteriormente (hospitais, escolas, hotéis, garagens, estádios, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8315,
+          "nome": "4120.2040 Edifícios residenciais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8316,
+          "nome": "4120.2050 Estações de embarque e desembarque (rodoviárias,aeroportos, portos, estações de metrô e trens, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8317,
+          "nome": "4120.9010 Serviços de montagem de edifícios não-residenciais pré-fabricados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8318,
+          "nome": "4120.9020 Serviços de montagem de edifícios residenciais pré-fabricados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8319,
+          "nome": "4120.9030 Serviços de reforma ou manutenção de edifícios não-residenciais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8320,
+          "nome": "4120.9040 Serviços de reforma ou manutenção de edifícios residenciais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8321,
+          "nome": "4211 Construção de rodovias e ferrovias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8322,
+          "nome": "4211.2010 Instalação de sinalização não-elétrica em rodovias, ferrovias e pistas de aeroportos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8323,
+          "nome": "4211.2020 Pavimentação de rodovias, auto-estradas e outras vias não-urbanas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8324,
+          "nome": "4211.2030 Pistas de aeroportos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8325,
+          "nome": "4211.2040 Rodovias, auto-estradas e outras vias não-urbanas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8326,
+          "nome": "4211.2050 Vias férreas e metropolitanos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8327,
+          "nome": "4211.9010 Serviços de recuperação ou reforma de ferrovias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8328,
+          "nome": "4211.9020 Serviços de recuperação ou reforma de pistas de aeroportos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8329,
+          "nome": "4211.9030 Serviços de recuperação ou reforma de rodovias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8330,
+          "nome": "4212 Construção de obras de arte especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8331,
+          "nome": "4212.2010 Pontes, elevados, túneis e outras obras-de-arte especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8332,
+          "nome": "4212.9010 Seviços de recuperação ou reforma de pontes, elevados, túneis e outras obras de arte especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8333,
+          "nome": "4213 Obras de urbanização - ruas, praças e calçadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8334,
+          "nome": "4213.2010 Instalação de sinalização não-elétrica em vias urbanas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8335,
+          "nome": "4213.2020 Ruas, praças, calçadas e outras obras de urbanização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8336,
+          "nome": "4213.9010 Serviços de recuperação de ruas, praças, calçadas e outras obras de urbanização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8337,
+          "nome": "4221 Obras para geração e distribuição de energia elétrica e para telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8338,
+          "nome": "4221.2010 Barragens ou represas para geração de energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8339,
+          "nome": "4221.2020 Redes de transmissão e distribuição de energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8340,
+          "nome": "4221.2030 Redes e instalação de torres de telecomunicações, de longa ou média distâncias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8341,
+          "nome": "4221.2040 Usinas, estações e subestações hidrelétricas, termelétricas, nucleares e eólicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8342,
+          "nome": "4221.9010 Serviços de manutenção de barragens, represas, usinas e outras obras para geração de energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8343,
+          "nome": "4221.9020 Serviços de manutenção de redes e torres de telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8344,
+          "nome": "4221.9030 Serviços de manutenção de redes de transmissão e distribuição de energia elétrica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8345,
+          "nome": "4222 Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8346,
+          "nome": "4222.2010 Obras de irrigação (barragens, canais, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8347,
+          "nome": "4222.2020 Redes de distribuição de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8348,
+          "nome": "4222.2030 Redes de esgotos, interceptores, estações de tratamento ou galerias pluviais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8349,
+          "nome": "4222.9010 Serviços de manutenção de redes de distribuição de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8350,
+          "nome": "4222.9020 Serviços de manutenção de redes de esgotos,interceptores, estações de tratamento ou galerias pluviais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8351,
+          "nome": "4223 Construção de redes de transportes por duto, exceto para água e esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8352,
+          "nome": "4223.2010 Dutos (oleodutos, gasodutos, minerodutos, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8353,
+          "nome": "4223.9010 Serviços de manutenção de dutos (oleodutos, gasodutos, minerodutos, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8354,
+          "nome": "4291 Obras portuárias, marítimas e fluviais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8355,
+          "nome": "4291.2010 Dragagem e aterro hidráulico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8356,
+          "nome": "4291.2020 Instalação de cabos submarinos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8357,
+          "nome": "4291.2030 Obras marítimas e fluviais (portos, marinas, diques, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12900,
+          "nome": "4291.9010 Serviço de manutenção de obras marítimas e fluviais (portos, marinas, diques, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8358,
+          "nome": "4292 Montagem de instalações industriais e de estruturas metálicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8359,
+          "nome": "4292.2010 Montagem de estruturas metálicas permanentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8360,
+          "nome": "4292.2020 Obras de instalações industriais para fins de mineração; exceto a perfuração ou escavação de minas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8361,
+          "nome": "4292.2030 Plantas e instalações industriais (tubulações, redes de facilidades, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8362,
+          "nome": "4299 Obras de engenharia civil não especificadas anteriormente - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8363,
+          "nome": "4299.2010 Quadras, piscinas, pistas de competição e outras instalações esportivas e recreativas semelhantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8364,
+          "nome": "4299.2020 Obras de engenharia civil, não especificadas, inclusive loteamento (subdivisão de terras) com execução de benfeitorias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8365,
+          "nome": "4299.9010 Serviços de recuperação de obras de engenharia civil não especificadas anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8366,
+          "nome": "4311 Demolição e preparação de canteiros de obras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8367,
+          "nome": "4311.2010 Demolição de edifícios e outras estruturas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8368,
+          "nome": "4311.2020 Preparação de canteiros de obras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8369,
+          "nome": "4311.9010 Serviços de aluguel e operação de equipamentos de demolição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8370,
+          "nome": "4312 Perfurações e sondagens - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8371,
+          "nome": "4312.2010 Perfurações e sondagens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8372,
+          "nome": "4313 Obras de terraplanegem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8373,
+          "nome": "4313.2010 Derrocamentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8374,
+          "nome": "4313.2020 Escavação e movimentação de terras - terraplenagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8375,
+          "nome": "4313.9010 Serviços de aluguel e operação de equipamentos de terraplanagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8376,
+          "nome": "4319 Serviços de preparação do terreno não especificados anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8377,
+          "nome": "4319.2010 Drenagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8378,
+          "nome": "4319.2020 Rebaixamento de lençol freático",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8379,
+          "nome": "4319.2030 Outros tipos de preparações de terreno não especificadas anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8380,
+          "nome": "4321 Instalações elétricas - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8381,
+          "nome": "4321.2010 Instalações elétricas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8382,
+          "nome": "4321.2020 Instalações de telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8383,
+          "nome": "4321.9010 Serviços de manutenção e reparação de instalações elétricas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8384,
+          "nome": "4321.9020 Serviços de manutenção e reparação de instalações de telecomunicações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8385,
+          "nome": "4322 Instalações hidráulicas, de sistemas de ventilação e refrigeração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8386,
+          "nome": "4322.2010 Instalações de sistemas de ar condicionado, ventilação, refrigeração ou aquecimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8387,
+          "nome": "4322.2020 Instalações hidráulicas, sanitárias ou de gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8388,
+          "nome": "4322.9010 Serviços de manutenção e reparação de sistemas de ventilação,refrigeração, aquecimento; de instalações hidráulicas e de gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8389,
+          "nome": "4329 Obras de instalações em construções não especificadas anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8390,
+          "nome": "4329.2010 Instalação de elevadores, escadas ou de esteiras rolantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8391,
+          "nome": "4329.2020 Instalação de isolamentos térmicos e acústicos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8392,
+          "nome": "4329.2030 Instalação de sistema de iluminação ou de sinalização elétrica em vias públicas, rodovias, portos ou aeroportos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8393,
+          "nome": "4329.2040 Instalações em construções, não especificadas anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8394,
+          "nome": "4330 Obras de acabamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8395,
+          "nome": "4330.2010 Acabamento em gesso ou estuque",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8396,
+          "nome": "4330.2020 Impermeabilização em paredes, caixas d'água, etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8397,
+          "nome": "4330.2030 Instalação de cozinhas e outros mobiliários incorporados à construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8398,
+          "nome": "4330.2040 Instalação de esquadrias de metal, madeira ou outros materiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8399,
+          "nome": "4330.2050 Pintura (interna ou externa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8400,
+          "nome": "4330.2060 Revestimento de pisos e paredes, exceto pintura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8401,
+          "nome": "4330.2070 Trabalhos de madeira em interiores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8402,
+          "nome": "4330.2080 Outros serviços de acabamento não especificados anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8403,
+          "nome": "4391 Obras de fundações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8404,
+          "nome": "4391.2010 Fundações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8405,
+          "nome": "4391.9010 Serviços de aluguel e operação de equipamentos para execução de fundações",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8406,
+          "nome": "4399 Serviços especializados para construção não especificados anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8407,
+          "nome": "4399.2010 Administração de obras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8408,
+          "nome": "4399.2020 Alvenaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8409,
+          "nome": "4399.2030 Poços de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8410,
+          "nome": "4399.2040 Montagem e desmontagem de escoramentos, andaimes, arquibancadas e outras estruturas temporárias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8411,
+          "nome": "4399.2050 Telhados, coberturas, caixas d'água, churrasqueiras e outras partes de edifícios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8412,
+          "nome": "4399.2060 Outros serviços especializados de construção não especificados anteriormente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8413,
+          "nome": "4399.9010 Serviços de aluguel e operação de equipamento para transporte e elevação de cargas e pessoas para uso em obras",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

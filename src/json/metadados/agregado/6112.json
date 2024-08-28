@@ -1,0 +1,86 @@
+{
+  "id": 6112,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, por principal motivo da procura a uma Unidade Básica de Saúde",
+  "URL": "https://sidra.ibge.gov.br/tabela/6112",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 7590,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7591,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7592,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que procuraram uma Unidade Básica de Saúde e foram ou não foram atendidos(as), nos 12 meses anteriores à pesquisa, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 763,
+      "nome": "Principal motivo da procura a uma Unidade Básica de Saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39924,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39925,
+          "nome": "Apoio para controle de peso (ganhar ou perder)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39929,
+          "nome": "Doença",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39934,
+          "nome": "Vacinação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39940,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

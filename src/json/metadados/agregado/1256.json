@@ -1,0 +1,107 @@
+{
+  "id": 1256,
+  "nome": "Pessoal ocupado, permanente, contratado, terceirizado ou somente comissionado, no serviço de manejo de águas pluviais, por alocação do pessoal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1256",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 80,
+      "nome": "Pessoal ocupado permanente no serviço de manejo de águas pluviais",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000080,
+      "nome": "Pessoal ocupado permanente no serviço de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 81,
+      "nome": "Pessoal ocupado contratado, terceirizado ou somente comissionado no serviço de manejo de águas pluviais",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000081,
+      "nome": "Pessoal ocupado contratado, terceirizado ou somente comissionado no serviço de manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11997,
+      "nome": "Alocação do pessoal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 528,
+          "nome": "Dedicação exclusiva - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 529,
+          "nome": "Dedicação exclusiva - na operação e/ou manutenção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 530,
+          "nome": "Dedicação exclusiva - na administração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 531,
+          "nome": "Dedicação parcial - total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 532,
+          "nome": "Dedicação parcial - na operação e/ou manutenção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 533,
+          "nome": "Dedicação parcial - na administração",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

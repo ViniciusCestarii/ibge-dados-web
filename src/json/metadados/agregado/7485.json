@@ -1,0 +1,90 @@
+{
+  "id": 7485,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e que fazem análise do efluente das ETEs e número de amostras analisadas, total e fora das condições de lançamento no corpo receptor, por tipo de análises realizadas",
+  "URL": "https://sidra.ibge.gov.br/tabela/7485",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10677,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e que fazem análise do efluente das ETEs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10678,
+      "nome": "Número de amostras analisadas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10679,
+      "nome": "Número de amostras analisadas fora das condições de lançamento no corpo receptor",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 965,
+      "nome": "Tipo de análise do efluente das ETEs",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48686,
+          "nome": "pH",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48687,
+          "nome": "Temperatura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48688,
+          "nome": "Materiais sedimentáveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48689,
+          "nome": "DBO 5,20",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48690,
+          "nome": "Óleos e graxas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48691,
+          "nome": "Materiais flutuantes",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

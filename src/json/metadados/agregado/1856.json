@@ -1,0 +1,218 @@
+{
+  "id": 1856,
+  "nome": "Estudantes de 5 anos ou mais de idade, por situação, sexo e grau e série que frequentavam",
+  "URL": "https://sidra.ibge.gov.br/tabela/1856",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 163,
+      "nome": "Estudantes de 5 anos ou mais",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000163,
+      "nome": "Estudantes de 5 anos ou mais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "nome": "Grau e série que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2839,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2863,
+          "nome": "Primeiro grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99061,
+          "nome": "Primeiro grau - regular",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99062,
+          "nome": "Primeiro grau - regular - primeira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99063,
+          "nome": "Primeiro grau - regular - segunda série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99064,
+          "nome": "Primeiro grau - regular - terceira série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99065,
+          "nome": "Primeiro grau - regular - quarta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99066,
+          "nome": "Primeiro grau - regular - quinta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99067,
+          "nome": "Primeiro grau - regular - sexta série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99068,
+          "nome": "Primeiro grau - regular - sétima série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99069,
+          "nome": "Primeiro grau - regular - oitava série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99070,
+          "nome": "Primeiro grau - regular - sem declaração",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99071,
+          "nome": "Primeiro grau - supletivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2864,
+          "nome": "Segundo grau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99072,
+          "nome": "Segundo grau - regular",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 99073,
+          "nome": "Segundo grau - supletivo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2865,
+          "nome": "Superior",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98264,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

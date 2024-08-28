@@ -1,0 +1,120 @@
+{
+  "id": 6788,
+  "nome": "Domicílios, por sexo do responsável e espécie da unidade doméstica",
+  "URL": "https://sidra.ibge.gov.br/tabela/6788",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características gerais da população",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9782,
+      "nome": "Distribuição percentual dos domicílios por sexo do responsável segundo espécie de unidade doméstica",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9783,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios por sexo do responsável segundo espécie de unidade doméstica",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 293,
+      "nome": "Sexo do responsável pelo domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100311,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100312,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100313,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "nome": "Espécie de unidade doméstica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 45902,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12076,
+          "nome": "Unipessoal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12077,
+          "nome": "Nuclear",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12078,
+          "nome": "Estendida",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12079,
+          "nome": "Composta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

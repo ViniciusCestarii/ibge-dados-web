@@ -1,0 +1,95 @@
+{
+  "id": 263,
+  "nome": "Número de estabelecimentos e Área dos estabelecimentos agropecuários por grupos de área total - série histórica (1920/2006)",
+  "URL": "https://sidra.ibge.gov.br/tabela/263",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1920,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 220,
+      "nome": "Grupos de área total",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 110085,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110049,
+          "nome": "Menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110045,
+          "nome": "Menos de 10 ha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 110046,
+          "nome": "10 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 110047,
+          "nome": "100 a menos de 1.000 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110048,
+          "nome": "1.000 ha e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

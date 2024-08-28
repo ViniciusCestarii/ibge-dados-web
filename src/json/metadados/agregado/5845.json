@@ -1,0 +1,63 @@
+{
+  "id": 5845,
+  "nome": "Indicador 1.2.1 - Proporção da população vivendo abaixo da linha de pobreza nacional, por cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/5845",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Erradicação da pobreza",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9948,
+      "nome": "Proporção da população abaixo da linha de pobreza nacional",
+      "unidade": "Proporção (%)",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

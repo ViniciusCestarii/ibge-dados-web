@@ -1,0 +1,71 @@
+{
+  "id": 5624,
+  "nome": "Área das unidades de conservação marinhas, considerando sobreposições, e proporção em relação à área marinha brasileira, por tipo de sobreposição",
+  "URL": "https://sidra.ibge.gov.br/tabela/5624",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Áreas protegidas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6315,
+      "nome": "Área das unidades de conservação marinhas considerando sobreposições",
+      "unidade": "Quilômetros quadrados",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 6316,
+      "nome": "Proporção da área das unidades de conservação marinhas considerando sobreposições em relação à área marinha brasileira",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 712,
+      "nome": "Tipo de sobreposição entre unidades de conservação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33554,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33555,
+          "nome": "Entre unidades de conservação de proteção integral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33556,
+          "nome": "Entre unidades de conservação de uso sustentável",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33557,
+          "nome": "Entre unidades de conservação de proteção integral e de uso sustentável",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

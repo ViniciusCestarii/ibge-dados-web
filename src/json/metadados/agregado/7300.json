@@ -1,0 +1,134 @@
+{
+  "id": 7300,
+  "nome": "Domicílios e Moradores com televisão sem conversor para receber sinal digital de televisão aberta, por situação do domicílio e recepção de sinal analógico de televisão aberta",
+  "URL": "https://sidra.ibge.gov.br/tabela/7300",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 359,
+      "nome": "Domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10583,
+      "nome": "Coeficiente de variação - Domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10584,
+      "nome": "Distribuição percentual dos domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10585,
+      "nome": "Coeficiente de variação - Distribuição percentual dos domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10586,
+      "nome": "Moradores em domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10587,
+      "nome": "Coeficiente de variação - Moradores em domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10588,
+      "nome": "Distribuição percentual dos moradores em domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10589,
+      "nome": "Coeficiente de variação - Distribuição percentual dos moradores em domicílios com televisão sem conversor para receber sinal digital de televisão aberta",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 942,
+      "nome": "Recepção de sinal analógico de televisão aberta",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48499,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48498,
+          "nome": "Recebiam sinal analógico de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48500,
+          "nome": "Não recebiam sinal analógico de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48501,
+          "nome": "Não sabiam se recebiam sinal digital de televisão aberta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

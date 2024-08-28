@@ -1,0 +1,254 @@
+{
+  "id": 2067,
+  "nome": "Número de estabelecimentos agropecuários, com agricultura familiar e não familiar, por uso de adubação, associação à cooperativa e/ou entidade de classe e grupos de área de lavoura - (MDA)",
+  "URL": "https://sidra.ibge.gov.br/tabela/2067",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2006,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133",
+      "N129"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 183,
+      "nome": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000183,
+      "nome": "Número de estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12522,
+      "nome": "Uso de adubação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114541,
+          "nome": "Usa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 112769,
+          "nome": "Em lavouras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112781,
+          "nome": "Em pastagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114542,
+          "nome": "Em lavouras e pastagens",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112008,
+          "nome": "Usa - não precisou usar em 2006",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 112009,
+          "nome": "Não usa",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12598,
+      "nome": "Associação do produtor à cooperativa e/ou à entidade de classe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114543,
+          "nome": "É associado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113455,
+          "nome": "Cooperativa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113456,
+          "nome": "Entidade de classe (sindicatos, associações/movimentos de produtores e moradores, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 114544,
+          "nome": "Cooperativa e entidade de classe (sindicatos, associações/movimentos de produtores e moradores, etc.)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 113457,
+          "nome": "Não é associado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12603,
+      "nome": "Grupos de área de lavoura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 113502,
+          "nome": "Maior de 0 a menos de 1 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113503,
+          "nome": "De 1 a menos de 2 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113504,
+          "nome": "De 2 a menos de 5 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113505,
+          "nome": "De 5 a menos de 10 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113506,
+          "nome": "De 10 a menos de 20 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113507,
+          "nome": "De 20 a menos de 50 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113508,
+          "nome": "De 50 a menos de 100 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113509,
+          "nome": "De 100 a menos de 200 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113510,
+          "nome": "De 200 a menos de 500 ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113511,
+          "nome": "De 500 e mais ha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 113512,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "nome": "Agricultura familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8864,
+          "nome": "Agricultura não familiar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8865,
+          "nome": "Agricultura familiar - Lei 11.326",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

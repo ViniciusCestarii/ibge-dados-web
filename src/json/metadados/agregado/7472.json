@@ -1,0 +1,78 @@
+{
+  "id": 7472,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento, por existência e tipo de cobrança",
+  "URL": "https://sidra.ibge.gov.br/tabela/7472",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10656,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 930,
+      "nome": "Existência e tipo de cobrança",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48419,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48798,
+          "nome": "Com cobrança",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48416,
+          "nome": "Tarifa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48417,
+          "nome": "Taxa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48418,
+          "nome": "Contribuição voluntária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 48799,
+          "nome": "Sem cobrança",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": 5842,
+  "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida, por rendimento mensal domiciliar per capita e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5842",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Crianças com menos de 2 anos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 7135,
+      "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7136,
+      "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7137,
+      "nome": "Crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 7138,
+      "nome": "Coeficiente de variação - Crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7139,
+      "nome": "Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7140,
+      "nome": "Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7141,
+      "nome": "Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7142,
+      "nome": "Coeficiente de variação - Percentual de crianças com menos de 2 anos de idade que realizaram o teste do pezinho na primeira semana de vida",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39253,
+          "nome": "Sem rendimento até 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39254,
+          "nome": "Mais de 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

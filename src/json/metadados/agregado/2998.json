@@ -1,0 +1,169 @@
+{
+  "id": 2998,
+  "nome": "População residente, por situação de segurança alimentar existente no domicílio, sexo e grupos de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/2998",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Segurança alimentar",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2004
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 93,
+      "nome": "População residente",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000093,
+      "nome": "População residente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12404,
+      "nome": "Situação de segurança alimentar existente no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 109098,
+          "nome": "Com segurança alimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109099,
+          "nome": "Com insegurança alimentar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109100,
+          "nome": "Com insegurança alimentar leve",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109101,
+          "nome": "Com insegurança alimentar moderada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109102,
+          "nome": "Com insegurança alimentar grave",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109103,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1140,
+          "nome": "0 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100448,
+          "nome": "5 a 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 109110,
+          "nome": "18 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104871,
+          "nome": "50 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6798,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3245,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

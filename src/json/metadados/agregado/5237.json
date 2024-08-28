@@ -1,0 +1,128 @@
+{
+  "id": 5237,
+  "nome": "Rendimento, médio e mediano, mensal per capita dos domicílios particulares permanentes, por tipo de conexão à Internet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5237",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5516,
+      "nome": "Rendimento médio mensal per capita dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5686,
+      "nome": "Coeficiente de variação - Rendimento médio mensal per capita dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5517,
+      "nome": "Rendimento mediano mensal per capita dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5687,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal per capita dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 691,
+      "nome": "Tipo de conexão à Internet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33329,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33325,
+          "nome": "Discada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33326,
+          "nome": "Discada - somente discada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33327,
+          "nome": "Banda larga",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33328,
+          "nome": "Banda larga - somente banda larga",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33330,
+          "nome": "Banda larga - banda larga fixa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33331,
+          "nome": "Banda larga - banda larga fixa - somente banda larga fixa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 33332,
+          "nome": "Banda larga - banda larga móvel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33333,
+          "nome": "Banda larga - banda larga móvel - somente banda larga móvel",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 33334,
+          "nome": "Banda larga - banda larga fixa e móvel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33335,
+          "nome": "Banda larga - banda larga fixa e móvel - somente banda larga fixa e móvel",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": 4734,
+  "nome": "Indicador 4.2.2 - Taxa de participação das pessoas de 5 anos de idade no ensino organizado, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/4734",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Educação de qualidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4775,
+      "nome": "Pessoas de 5 anos de idade que frequentam a escola",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4795,
+      "nome": "Coeficiente de variação - Pessoas de 5 anos de idade que frequentam a escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4796,
+      "nome": "Percentual de pessoas de 5 anos de idade que frequentam a escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4825,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 5 anos de idade que frequentam a escola",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

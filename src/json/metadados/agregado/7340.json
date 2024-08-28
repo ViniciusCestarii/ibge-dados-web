@@ -1,0 +1,154 @@
+{
+  "id": 7340,
+  "nome": "Municípios, total, e com conselho municipal na área de educação, por classe de tamanho da população e por tipo de conselho",
+  "URL": "https://sidra.ibge.gov.br/tabela/7340",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1504,
+      "nome": "Existência de Conselho Municipal na área de educação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58758,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58759,
+          "nome": "Com Conselho Municipal de Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58760,
+          "nome": "Sem Conselho Municipal de Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58761,
+          "nome": "Com Conselho Municipal de Alimentação Escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58762,
+          "nome": "Sem Conselho Municipal de Alimentação Escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58763,
+          "nome": "Com Conselho Municipal de Controle e Acompanhamento Social do FUNDEB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58764,
+          "nome": "Sem Conselho Municipal de Controle e Acompanhamento Social do FUNDEB",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58780,
+          "nome": "Com Conselho Municipal de Transporte Escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58781,
+          "nome": "Sem Conselho Municipal de Transporte Escolar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": 5883,
+  "nome": "Municípios, total, e com legislação específica, com legislação como parte do Plano Diretor e sem legislação, segundo o tipo de instrumento, por classes de tamanho da população",
+  "URL": "https://sidra.ibge.gov.br/tabela/5883",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1672,
+      "nome": "Existência de legislação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59778,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59779,
+          "nome": "Com legislação específica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59780,
+          "nome": "Com legislação como parte integrante do Plano Diretor",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59781,
+          "nome": "Sem legislação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1674,
+      "nome": "Instrumentos de Planejamento",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59782,
+          "nome": "Área e/ou zona especial de interesse social",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59783,
+          "nome": "Área e/ou zonas de interesse especial",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59784,
+          "nome": "Perímetro urbano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59785,
+          "nome": "Parcelamento do solo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59786,
+          "nome": "Zoneamento ou uso e ocupação do solo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59787,
+          "nome": "Solo criado ou outorga onerosa do direito de construir",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59788,
+          "nome": "Contribuição de melhoria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59789,
+          "nome": "Operação urbana consorciada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59790,
+          "nome": "Estudo de impacto de vizinhança",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59791,
+          "nome": "Código de obras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59792,
+          "nome": "Zoneamento ambiental ou zoneamento ecológico-econômico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59793,
+          "nome": "Servidão administrativa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59794,
+          "nome": "Tombamento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59795,
+          "nome": "Unidade de conservação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59796,
+          "nome": "Concessão de uso especial para fins de moradia",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59797,
+          "nome": "Usucapião especial de imóvel urbano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59798,
+          "nome": "Direito de superfície",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59799,
+          "nome": "Regularização fundiária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59800,
+          "nome": "Legitimação de posse",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59801,
+          "nome": "Estudo prévio de impacto ambiental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59802,
+          "nome": "Código de Posturas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

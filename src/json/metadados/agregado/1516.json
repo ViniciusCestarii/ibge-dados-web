@@ -1,0 +1,135 @@
+{
+  "id": 1516,
+  "nome": "Número de empresas com 20 ou mais pessoas ocupadas e pessoal ocupado da atividade de alimentação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1516",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Alojamento e/ou alimentação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 631,
+      "nome": "Pessoal ocupado em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000631,
+      "nome": "Pessoal ocupado em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 671,
+      "nome": "Média mensal do pessoal ocupado assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11576,
+      "nome": "Tipo de serviço de alimentação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93019,
+          "nome": "Restaurantes e estabelecimentos de bebidas com serviço completo (com garçons e atendimento em mesa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93020,
+          "nome": "Lanchonetes e similares (atendimento predominante em balcão)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93021,
+          "nome": "Serviços de alimentação privativos (cantinas e restaurantes instalados em fábricas, hospitais, universidades, clubes, etc.)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93022,
+          "nome": "Serviços de buffet, fornecimento de refeiçoes congeladas, etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93023,
+          "nome": "Outros serviços de alimentação (quiosques, traillers, etc.)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

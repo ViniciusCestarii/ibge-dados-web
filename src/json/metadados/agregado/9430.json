@@ -1,0 +1,149 @@
+{
+  "id": 9430,
+  "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares, que trabalharam por meio de plataformas de serviços, por tipo de influência na determinação da jornada de trabalho, existência de influência e tipo de plataforma de serviço utilizada no trabalho principal - Estatísticas experimentais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9430",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Trabalho por meio de plataformas digitais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12904,
+      "nome": "Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares, que trabalharam por meio de plataformas de serviços",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12905,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares, que trabalharam por meio de plataformas de serviços",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12908,
+      "nome": "Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares, que trabalharam por meio de plataformas de serviços",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12909,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 14 anos ou mais de idade ocupadas na semana de referência, exclusive os empregados no setor público e militares, que trabalharam por meio de plataformas de serviços",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1664,
+      "nome": "Tipo de influência na determinação da jornada de trabalho",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59672,
+          "nome": "Incentivos, bônus ou promoções que mudam os preços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59673,
+          "nome": "Ameaças de punições, bloqueios realizados pela plataforma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59674,
+          "nome": "Sugestão de turnos e dias pela plataforma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59675,
+          "nome": "Possibilidade de escolha de dias e horários de forma independente",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1665,
+      "nome": "Existência de influência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59676,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59677,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59678,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59679,
+          "nome": "Não sabe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1661,
+      "nome": "Tipo de plataforma de serviço utilizada no trabalho principal",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59656,
+          "nome": "Aplicativo de táxi",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59657,
+          "nome": "Aplicativo de transporte particular de passageiros (exclusive aplicativo de táxi)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60030,
+          "nome": "Aplicativo de entrega - Entregadores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 59659,
+          "nome": "Aplicativo de prestação de serviços gerais ou profissionais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

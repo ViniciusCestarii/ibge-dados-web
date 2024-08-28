@@ -1,0 +1,105 @@
+{
+  "id": 7142,
+  "nome": "Taxa ajustada de frequência escolar líquida, por cor ou raça e faixa etária ideal por curso frequentado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7142",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10282,
+      "nome": "Taxa ajustada de frequência escolar líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10283,
+      "nome": "Coeficiente de variação - Taxa ajustada de frequência escolar líquida",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 871,
+      "nome": "Faixa etária ideal por curso frequentado",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47815,
+          "nome": "6 a 14 anos no ensino fundamental",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47816,
+          "nome": "6 a 10 anos nos anos iniciais do ensino fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47817,
+          "nome": "11 a 14 anos nos anos finais do ensino fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47818,
+          "nome": "15 a 17 anos no ensino médio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47819,
+          "nome": "18 a 24 no ensino superior",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

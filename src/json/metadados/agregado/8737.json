@@ -1,0 +1,92 @@
+{
+  "id": 8737,
+  "nome": "Rendimento médio mensal real domiciliar per capita das pessoas de 15 anos ou mais de idade, a preços médios do último ano, por nível de confiança nas pessoas e grupo de pessoas",
+  "URL": "https://sidra.ibge.gov.br/tabela/8737",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12571,
+      "nome": "Rendimento médio mensal real domiciliar per capita das pessoas de 15 anos ou mais de idade, a preços médios do último ano",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 12572,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real domiciliar per capita das pessoas de 15 anos ou mais de idade, a preços médios do último ano",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1394,
+      "nome": "Nível de confiança nas pessoas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57576,
+          "nome": "Confia ou confia muito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57577,
+          "nome": "Não confia ou confia pouco",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1414,
+      "nome": "Grupo de pessoas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57579,
+          "nome": "Familiares ou parentes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57580,
+          "nome": "Amigos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57581,
+          "nome": "Colegas (trabalho, escola ou outra atividade)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57585,
+          "nome": "Vizinhos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

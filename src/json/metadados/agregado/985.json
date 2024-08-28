@@ -1,0 +1,228 @@
+{
+  "id": 985,
+  "nome": "Estudantes do ensino fundamental, de 5 anos ou mais de idade, por duração do ensino fundamental, série e rede de ensino que frequentavam, sexo e grupos de idades",
+  "URL": "https://sidra.ibge.gov.br/tabela/985",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Instrução e Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2007,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2271,
+      "nome": "Estudantes do ensino fundamental, de 5 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002271,
+      "nome": "Estudantes do ensino fundamental, de 5 anos ou mais de idade - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12761,
+      "nome": "Duração do ensino fundamental e série que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 116822,
+          "nome": "Regular em 8 anos e educação de jovens e adultos - total",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116823,
+          "nome": "Regular em 8 anos e educação de jovens e adultos - 1ª a 4ª séries",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116824,
+          "nome": "Regular em 8 anos e educação de jovens e adultos - 5ª a 8ª séries",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116825,
+          "nome": "Regular em 9 anos - total",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 116826,
+          "nome": "Regular em 9 anos - 1ª série",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116827,
+          "nome": "Regular em 9 anos - 2ª a 5ª séries",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 116828,
+          "nome": "Regular em 9 anos - 6ª a 9ª séries",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    },
+    {
+      "id": 12087,
+      "nome": "Rede de ensino que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100468,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100469,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110993,
+          "nome": "5 ou 6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2798,
+          "nome": "7 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116820,
+          "nome": "10 ou 11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 116821,
+          "nome": "12 ou 13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114536,
+          "nome": "14 ou 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114534,
+          "nome": "16 ou 17 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110992,
+          "nome": "18 ou 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1144,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1145,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3351,
+          "nome": "30 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

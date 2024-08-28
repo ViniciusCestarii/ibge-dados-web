@@ -1,0 +1,101 @@
+{
+  "id": 1367,
+  "nome": "Número de municípios, total e os que estabelecem tarifa mínima para consumo de água, por faixa de volume de consumo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1367",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 344,
+      "nome": "Municípios que estabelecem tarifa mínima para consumo de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000344,
+      "nome": "Municípios que estabelecem tarifa mínima para consumo de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11984,
+      "nome": "Faixa de volume de consumo de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2125,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98611,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98402,
+          "nome": "Até 5 m³",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98403,
+          "nome": "Mais de 5 a 10 m³",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98404,
+          "nome": "Mais de 10 a 15 m³",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98405,
+          "nome": "Mais de 15 a 20 m³",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98406,
+          "nome": "Mais de 20 m³",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2126,
+          "nome": "Não estabelecem tarifa mínima",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 2348,
+  "nome": "Número de municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos, por localização do destino do lixo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2348",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1223,
+      "nome": "Municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001223,
+      "nome": "Municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12208,
+      "nome": "Localização de destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103884,
+          "nome": "Total de municípios com serviço de coleta de lixo, que possuem áreas para disposição final dos resíduos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103885,
+          "nome": "Dentro do perímetro urbano - próximo à residências",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103886,
+          "nome": "Dentro do perímetro urbano - próximo a áreas com atividade agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103887,
+          "nome": "Dentro do perímetro urbano - próximo a áreas de proteção ambiental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103888,
+          "nome": "Dentro do perímetro urbano - outras áreas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103889,
+          "nome": "Fora do perímetro urbano - próximo à residências",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103890,
+          "nome": "Fora do perímetro urbano - próximo a áreas com atividade agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103891,
+          "nome": "Fora do perímetro urbano - próximo a áreas de proteção ambiental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103892,
+          "nome": "Fora do perímetro urbano - outras áreas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103893,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

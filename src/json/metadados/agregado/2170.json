@@ -1,0 +1,79 @@
+{
+  "id": 2170,
+  "nome": "Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência por anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2170",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1015,
+      "nome": "Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001015,
+      "nome": "Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1016,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, desocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          1016
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100696,
+          "nome": "Menos de 8 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100054,
+          "nome": "11 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

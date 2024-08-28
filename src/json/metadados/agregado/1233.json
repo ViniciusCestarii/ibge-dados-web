@@ -1,0 +1,108 @@
+{
+  "id": 1233,
+  "nome": "Número de municípios, total e os que exercem controle sobre o manejo de resíduos especiais realizado, por terceiros por tipo de resíduo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1233",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2610,
+      "nome": "Municípios que exercem controle sobre o manejo de resíduos especiais realizado por terceiros",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002610,
+      "nome": "Municípios que exercem controle sobre o manejo de resíduos especiais realizado por terceiros - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12976,
+      "nome": "Tipo de resíduo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121007,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121008,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121009,
+          "nome": "Resíduos de serviços de saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121010,
+          "nome": "Resíduos industriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121011,
+          "nome": "Resíduos de construção e demolição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121012,
+          "nome": "Pneumáticos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121013,
+          "nome": "Pilhas e baterias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121014,
+          "nome": "Lâmpadas fluorescentes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121015,
+          "nome": "Embalagens de agrotóxicos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

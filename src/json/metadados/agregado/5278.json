@@ -1,0 +1,145 @@
+{
+  "id": 5278,
+  "nome": "Pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5278",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Acidentes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5720,
+      "nome": "Pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5721,
+      "nome": "Pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5722,
+      "nome": "Pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5723,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5724,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5725,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5726,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5727,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que sempre usam capacete como passageiros de motocicleta",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

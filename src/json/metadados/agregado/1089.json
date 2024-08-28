@@ -1,0 +1,101 @@
+{
+  "id": 1089,
+  "nome": "Número de informantes e Quantidade de couro cru inteiro de bovino para curtimento (recebido de terceiros e total), no mês e no trimestre",
+  "URL": "https://sidra.ibge.gov.br/tabela/1089",
+  "pesquisa": "Pesquisa Trimestral do Couro",
+  "assunto": "Couro",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 199901,
+    "fim": 202401
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 151,
+      "nome": "Número de informantes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000151,
+      "nome": "Número de informantes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 623,
+      "nome": "Quantidade de couro cru inteiro de bovino recebido de terceiros para curtimento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000623,
+      "nome": "Quantidade de couro cru inteiro de bovino recebido de terceiros para curtimento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2417,
+      "nome": "Quantidade total de couro cru inteiro de bovino, adquirido e recebido de terceiros para curtimento",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002417,
+      "nome": "Quantidade total de couro cru inteiro de bovino, adquirido e recebido de terceiros para curtimento - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12716,
+      "nome": "Referência temporal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 115236,
+          "nome": "Total do trimestre",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 115233,
+          "nome": "No 1º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115234,
+          "nome": "No 2º mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 115235,
+          "nome": "No 3º mês",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

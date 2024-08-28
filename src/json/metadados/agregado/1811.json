@@ -1,0 +1,132 @@
+{
+  "id": 1811,
+  "nome": "Distribuição das famílias por avaliação do tipo de alimento consumido pela familia, classes de rendimento total e variação patrimonial mensal familiar e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/1811",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1208,
+      "nome": "Distribuição das famílias",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12194,
+      "nome": "Avaliação do tipo de alimento consumido pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103498,
+          "nome": "Sempre do tipo preferido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103499,
+          "nome": "Nem sempre do tipo preferido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103500,
+          "nome": "Raramente do tipo preferido",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "nome": "Classes de rendimento total e variação patrimonial mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 7999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8800,
+          "nome": "Até 1.245 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8002,
+          "nome": "Mais de 1.245 a 2.490 Reais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8802,
+          "nome": "Mais de 2.490 a 6.225 Reias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8803,
+          "nome": "Mais de 6.225 Reais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

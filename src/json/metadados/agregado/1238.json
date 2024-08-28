@@ -1,0 +1,92 @@
+{
+  "id": 1238,
+  "nome": "Número de municípios, total e com algum serviço de saneamento básico, por tipo de serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/1238",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2613,
+      "nome": "Municípios com algum serviço de saneamento básico",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002613,
+      "nome": "Municípios com algum serviço de saneamento básico - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11969,
+      "nome": "Tipo de serviço de saneamento básico",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121191,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98589,
+          "nome": "Total com algum serviço de saneamento básico",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98366,
+          "nome": "Rede geral de distribuição de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98367,
+          "nome": "Rede coletora de esgoto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121192,
+          "nome": "Manejo de resíduos sólidos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121194,
+          "nome": "Manejo de águas pluviais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

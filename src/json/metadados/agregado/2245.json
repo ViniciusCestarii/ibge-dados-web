@@ -1,0 +1,125 @@
+{
+  "id": 2245,
+  "nome": "Número de municípios, total e os que sofreram inundações ou enchentes nos últimos cinco anos, por fatores agravantes",
+  "URL": "https://sidra.ibge.gov.br/tabela/2245",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1169,
+      "nome": "Municípios que sofreram inundações ou enchentes nos últimos cinco anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001169,
+      "nome": "Municípios que sofreram inundações ou enchentes nos últimos cinco anos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12136,
+      "nome": "Fatores agravantes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101343,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101344,
+          "nome": "Total de municípios que sofreram inundações ou enchentes nos últimos cinco anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101345,
+          "nome": "Dimensionamento inadequado de projeto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101346,
+          "nome": "Obstrução de bueiros, bocas de lobo, etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101347,
+          "nome": "Obras inadequadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101348,
+          "nome": "Ocupação intensa e desordenada do solo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101349,
+          "nome": "Lençol freático alto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101350,
+          "nome": "Existência de interferência física no sistema de drenagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8491,
+          "nome": "Desmatamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8492,
+          "nome": "Lançamento inadequado de resíduos sólidos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101351,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 101352,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

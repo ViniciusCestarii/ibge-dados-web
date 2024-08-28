@@ -1,0 +1,131 @@
+{
+  "id": 3989,
+  "nome": "Pessoas que frequentavam escola ou creche, por curso que frequentavam e tipo do setor - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/3989",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 690,
+      "nome": "Pessoas que frequentavam escola ou creche",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000690,
+      "nome": "Pessoas que frequentavam escola ou creche - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11322,
+      "nome": "Curso que frequentavam",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 91116,
+          "nome": "Creche",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91117,
+          "nome": "Pré-escolar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 91118,
+          "nome": "Classe de alfabetização",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121400,
+          "nome": "Alfabetização de jovens e adultos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12121,
+          "nome": "Fundamental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12122,
+          "nome": "Médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121405,
+          "nome": "Superior de graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12123,
+          "nome": "Especialização de nível superior, mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "nome": "Tipo do setor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110,
+          "nome": "Aglomerados subnormais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 111,
+          "nome": "Outras áreas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

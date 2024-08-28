@@ -1,0 +1,144 @@
+{
+  "id": 314,
+  "nome": "Área dos estabelecimentos por grupo de atividade econômica e condição legal das terras",
+  "URL": "https://sidra.ibge.gov.br/tabela/314",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1995,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000184,
+      "nome": "Área dos estabelecimentos agropecuários - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 219,
+      "nome": "Grupo de atividade econômica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4784,
+          "nome": "Lavoura temporária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4785,
+          "nome": "Horticultura e produtos de viveiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4786,
+          "nome": "Lavoura permanente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4787,
+          "nome": "Pecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4788,
+          "nome": "Produção mista (lavoura e pecuária)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4789,
+          "nome": "Silvicultura e exploração florestal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4790,
+          "nome": "Pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4791,
+          "nome": "Produção de carvão vegetal",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "nome": "Condição legal das terras",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4808,
+          "nome": "Terras próprias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4809,
+          "nome": "Terras arrendadas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4810,
+          "nome": "Terras em parceria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4811,
+          "nome": "Terras ocupadas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

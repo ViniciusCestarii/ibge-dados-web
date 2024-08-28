@@ -1,0 +1,101 @@
+{
+  "id": 1709,
+  "nome": "Quantidade de caminhões utilizados nos serviços de manejo de resíduos sólidos, por tipo de caminhão",
+  "URL": "https://sidra.ibge.gov.br/tabela/1709",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 398,
+      "nome": "Quantidade de caminhões utilizados nos serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000398,
+      "nome": "Quantidade de caminhões utilizados nos serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 352,
+      "nome": "Tipo de caminhão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8173,
+          "nome": "Caminhão coletor com caçamba compactadora (até 8 m³)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8174,
+          "nome": "Caminhão coletor com caçamba compactadora (mais de 8 m³ até 12 m³)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8175,
+          "nome": "Caminhão coletor com caçamba compactadora (mais de 12 m³ até 16 m³)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8176,
+          "nome": "Caminhão coletor com caçamba compactadora (mais de 16 m³)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8177,
+          "nome": "Caminhão com caçamba basculante comum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8178,
+          "nome": "Caminhão com carroceria fixa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8179,
+          "nome": "Caminhão com caçamba basculante tipo prefeitura (baú)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

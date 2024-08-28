@@ -1,0 +1,84 @@
+{
+  "id": 7482,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento com ETAs ou UTSs e número de ETAs ou UTSs, por condição de funcionamento da unidade de tratamento",
+  "URL": "https://sidra.ibge.gov.br/tabela/7482",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10886,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com ETAs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10887,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com UTSs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10888,
+      "nome": "Número de ETAs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 10889,
+      "nome": "Número de UTSs",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 946,
+      "nome": "Condição de funcionamento da unidade de tratamento",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48514,
+          "nome": "Em operação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48517,
+          "nome": "Inacabada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48516,
+          "nome": "Concluída ainda sem utilização",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48515,
+          "nome": "Com operação interrompida",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

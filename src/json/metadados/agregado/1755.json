@@ -1,0 +1,113 @@
+{
+  "id": 1755,
+  "nome": "Número de municípios, total e os com geração de lodo no processo de tratamento de água, por destino do lodo gerado",
+  "URL": "https://sidra.ibge.gov.br/tabela/1755",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 438,
+      "nome": "Municípios com geração de lodo no processo de tratamento de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000438,
+      "nome": "Municípios com geração de lodo no processo de tratamento de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11978,
+      "nome": "Destino do lodo gerado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2087,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98606,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98554,
+          "nome": "Rio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98555,
+          "nome": "Mar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98777,
+          "nome": "Terreno baldio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98557,
+          "nome": "Aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98558,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98559,
+          "nome": "Reaproveitamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98560,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8474,
+          "nome": "Não há geração de lodo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

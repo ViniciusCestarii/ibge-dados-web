@@ -1,0 +1,124 @@
+{
+  "id": 2513,
+  "nome": "Pessoas que tiveram atendimento de saúde nas duas últimas semanas, por motivo principal da procura e tipo de serviço onde foi atendido",
+  "URL": "https://sidra.ibge.gov.br/tabela/2513",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1339,
+      "nome": "Pessoas que tiveram atendimento de saúde nas duas últimas semanas",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001339,
+      "nome": "Pessoas que tiveram atendimento de saúde nas duas últimas semanas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12272,
+      "nome": "Motivo principal da procura de atendimento de saúde",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104968,
+          "nome": "Doença ou problema odontológico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104969,
+          "nome": "Vacinação ou outros atendimentos de prevenção, pré-natal ou somente atestado médico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104970,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104971,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12274,
+      "nome": "Tipo de serviço onde foi atendido",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104982,
+          "nome": "Posto ou centro de saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104983,
+          "nome": "Consultório particular de médico, odontologista ou de outros profissionais de saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104984,
+          "nome": "Ambulatório ou consultório de empresa ou sindicato ou de clínica, pronto-socorro ou emergência ou hospital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104985,
+          "nome": "Farmácia, laboratório ou clínica para exames complementares e outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104986,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

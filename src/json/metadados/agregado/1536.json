@@ -1,0 +1,187 @@
+{
+  "id": 1536,
+  "nome": "Número de empresas e pessoal ocupado das atividades de transportes e serviços auxiliares dos transportes",
+  "URL": "https://sidra.ibge.gov.br/tabela/1536",
+  "pesquisa": "Pesquisa Anual de Serviços",
+  "assunto": "Transportes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1998,
+    "fim": 2001
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 631,
+      "nome": "Pessoal ocupado em 31/12",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000631,
+      "nome": "Pessoal ocupado em 31/12 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000668,
+      "nome": "Pessoal ocupado em 31/12 - assalariado - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000669,
+      "nome": "Pessoal ocupado em 31/12 - proprietários ou sócios - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000670,
+      "nome": "Pessoal ocupado em 31/12 - membros da família sem remuneração - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 671,
+      "nome": "Média mensal do pessoal ocupado assalariado",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11571,
+      "nome": "Tipo de atividade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93036,
+          "nome": "Transporte ferroviário e metroviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93041,
+          "nome": "Transporte rodoviário de passageiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93045,
+          "nome": "Transporte rodoviário de cargas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 93049,
+          "nome": "Transporte aquaviário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93053,
+          "nome": "Transporte aéreo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93056,
+          "nome": "Atividades anexas e auxiliares aos transportes e agências de viagens",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11574,
+      "nome": "Grupos de pessoal ocupado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 93012,
+          "nome": "Até 5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93013,
+          "nome": "De 6 a 19 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93014,
+          "nome": "De 20 a 49 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93015,
+          "nome": "De 50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 93016,
+          "nome": "100 e mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

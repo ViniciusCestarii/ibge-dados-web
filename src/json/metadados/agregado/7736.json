@@ -1,0 +1,157 @@
+{
+  "id": 7736,
+  "nome": "Pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana, por grupo de idade e situação do domicílio (2019)",
+  "URL": "https://sidra.ibge.gov.br/tabela/7736",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Atividade física",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 4238,
+      "nome": "Pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4239,
+      "nome": "Pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4240,
+      "nome": "Pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4809,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4241,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4242,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4243,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4810,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que praticam atividade física no trabalho por 150 minutos ou mais por semana",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100052,
+          "nome": "18 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108875,
+          "nome": "25 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

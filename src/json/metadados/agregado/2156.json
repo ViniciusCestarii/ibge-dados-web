@@ -1,0 +1,79 @@
+{
+  "id": 2156,
+  "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência (exclusive trabalhadores domésticos e empregados no setor público), por grupos de pessoas no empreendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/2156",
+  "pesquisa": "Pesquisa Mensal de Emprego",
+  "assunto": "Emprego",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 200203,
+    "fim": 201602
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N110"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000916,
+      "nome": "Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 917,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12105,
+      "nome": "Grupos de pessoas no empreendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          917
+        ]
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100688,
+          "nome": "Até 5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100689,
+          "nome": "6 a 10 pessoas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 100690,
+          "nome": "11 ou mais pessoas",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

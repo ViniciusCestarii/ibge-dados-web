@@ -1,0 +1,82 @@
+{
+  "id": 4912,
+  "nome": "Rendimento, médio e mediano, mensal per capita dos domicílios particulares permanentes com televisão, por recepção de sinal de televisão por antena parabólica",
+  "URL": "https://sidra.ibge.gov.br/tabela/4912",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5116,
+      "nome": "Rendimento médio mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5664,
+      "nome": "Coeficiente de variação - Rendimento médio mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5117,
+      "nome": "Rendimento mediano mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5665,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 682,
+      "nome": "Recepção de sinal de televisão por antena parabólica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33237,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33238,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33239,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

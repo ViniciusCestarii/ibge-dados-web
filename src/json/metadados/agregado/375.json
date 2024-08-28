@@ -1,0 +1,199 @@
+{
+  "id": 375,
+  "nome": "Domicílios particulares permanentes por número de dormitórios, abastecimento de água e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/375",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 74,
+      "nome": "Número de dormitórios",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3361,
+          "nome": "1 dormitório",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3362,
+          "nome": "2 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3363,
+          "nome": "3 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3364,
+          "nome": "4 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3365,
+          "nome": "5 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3366,
+          "nome": "6 dormitórios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3367,
+          "nome": "7 dormitórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3368,
+          "nome": "8 dormitórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3369,
+          "nome": "9 dormitórios ou mais",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2512,
+          "nome": "Com canalização interna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1033,
+          "nome": "Com canalização interna - com rede geral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1032,
+          "nome": "Com canalização interna - com poço ou nascente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1034,
+          "nome": "Com canalização interna - com outra forma",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2513,
+          "nome": "Sem canalização interna",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1035,
+          "nome": "Sem canalização interna - com rede geral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1036,
+          "nome": "Sem canalização interna - com poço ou nascente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1037,
+          "nome": "Sem canalização interna - com outra forma",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

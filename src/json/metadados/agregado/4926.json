@@ -1,0 +1,114 @@
+{
+  "id": 4926,
+  "nome": "Rendimento, médio e mediano, mensal per capita dos domicílios particulares permanentes com televisão, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4926",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5116,
+      "nome": "Rendimento médio mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5664,
+      "nome": "Coeficiente de variação - Rendimento médio mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5117,
+      "nome": "Rendimento mediano mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5665,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 8787,
+      "nome": "Tipo de televisão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33264,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33262,
+          "nome": "Somente tela fina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33260,
+          "nome": "Somente televisão de tubo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33263,
+          "nome": "Tela fina e televisão de tubo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

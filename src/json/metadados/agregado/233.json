@@ -1,0 +1,193 @@
+{
+  "id": 233,
+  "nome": "Domicílios particulares permanentes por destino do lixo, localização e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/233",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 67,
+      "nome": "Destino do lixo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2520,
+          "nome": "Coletado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1085,
+          "nome": "Coletado diretamente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1086,
+          "nome": "Coletado indiretamente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1087,
+          "nome": "Queimado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1088,
+          "nome": "Enterrado (na propriedade)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2521,
+          "nome": "Jogado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1089,
+          "nome": "Jogado em terreno baldio ou logradouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1090,
+          "nome": "Jogado em rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1091,
+          "nome": "Outro destino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "nome": "Localização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1025,
+          "nome": "Casa isolada ou de condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1026,
+          "nome": "Casa em conjunto residencial popular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1027,
+          "nome": "Casa em aglomerado subnormal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1028,
+          "nome": "Apartamento isolado ou de condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1029,
+          "nome": "Apartamento em conjunto residencial popular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1030,
+          "nome": "Apartamento em aglomerado subnormal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1031,
+          "nome": "Cômodo(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

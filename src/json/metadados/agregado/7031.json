@@ -1,0 +1,114 @@
+{
+  "id": 7031,
+  "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio, por sexo e pessoa que recebeu o cuidado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7031",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10200,
+      "nome": "Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10201,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10220,
+      "nome": "Percentual de pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10221,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 14 anos ou mais de idade que realizaram tarefas de cuidados de moradores do domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 850,
+      "nome": "Pessoa que recebeu o cuidado",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47592,
+          "nome": "Morador de 0 a 5 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47593,
+          "nome": "Morador de 6 a 14 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47594,
+          "nome": "Morador de 15 a 59 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47595,
+          "nome": "Morador de 60 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

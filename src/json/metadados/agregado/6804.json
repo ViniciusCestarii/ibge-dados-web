@@ -1,0 +1,138 @@
+{
+  "id": 6804,
+  "nome": "Domicílios particulares permanentes ocupados, por existência de canalização de água e principal forma de abastecimento de água",
+  "URL": "https://sidra.ibge.gov.br/tabela/6804",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000381,
+      "nome": "Domicílios particulares permanentes ocupados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 301,
+      "nome": "Principal forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72053,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31471,
+          "nome": "Rede geral de distribuição",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72054,
+          "nome": "Poço profundo ou artesiano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72055,
+          "nome": "Poço raso, freático ou cacimba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72088,
+          "nome": "Fonte, nascente ou mina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31472,
+          "nome": "Carro-pipa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72089,
+          "nome": "Água da chuva armazenada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72090,
+          "nome": "Rios, açudes, córregos, lagos e igarapés",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72091,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "nome": "Existência de canalização de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72125,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72126,
+          "nome": "Canalizada até dentro da casa, apartamento ou habitação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72127,
+          "nome": "Canalizada, mas apenas no terreno",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72128,
+          "nome": "Sem água canalizada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

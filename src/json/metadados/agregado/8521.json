@@ -1,0 +1,112 @@
+{
+  "id": 8521,
+  "nome": "Último roubo nos últimos 12 meses (carro, moto, bicicleta ou domicílio) em que houve procura de polícia ou guarda municipal, por tipo de roubo e tipo de polícia ou guarda municipal",
+  "URL": "https://sidra.ibge.gov.br/tabela/8521",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12497,
+      "nome": "Último roubo nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12498,
+      "nome": "Coeficiente de variação - Último roubo nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12499,
+      "nome": "Percentual de último roubo nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12500,
+      "nome": "Coeficiente de variação - Percentual de último roubo nos últimos 12 meses em que houve procura de polícia ou guarda municipal",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1351,
+      "nome": "Tipo de roubo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57305,
+          "nome": "Carro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57306,
+          "nome": "Moto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57307,
+          "nome": "Bicicleta",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57308,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1356,
+      "nome": "Tipo de polícia ou guarda municipal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          12499,
+          12500
+        ]
+      },
+      "categorias": [
+        {
+          "id": 57332,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57333,
+          "nome": "Polícia Militar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57334,
+          "nome": "Polícia Civil",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

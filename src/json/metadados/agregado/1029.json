@@ -1,0 +1,80 @@
+{
+  "id": 1029,
+  "nome": "Número de municípios, total e os com manejo de águas pluviais, por existência de legislação municipal que exige aprovação de sistema de manejo de águas pluviais para loteamentos novos",
+  "URL": "https://sidra.ibge.gov.br/tabela/1029",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2606,
+      "nome": "Municípios com manejo de águas pluviais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002606,
+      "nome": "Municípios com manejo de águas pluviais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12972,
+      "nome": "Existência de legislação municipal que exige a aprovação de sistema de manejo de águas pluviais para loteamentos novos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120977,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120978,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120979,
+          "nome": "Existe",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 120980,
+          "nome": "Não existe",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": 1990,
+  "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência por grupos de anos de estudo, sexo e posição na ocupação, subgrupo e categoria do emprego e contribuição para instituto de previdência oficial no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/1990",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000696,
+      "nome": "Pessoas de 10 anos ou mais de idade ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3319,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1123,
+          "nome": "1 a 3 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1126,
+          "nome": "4 a 7 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1130,
+          "nome": "8 a 10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1133,
+          "nome": "11 a 14 anos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 1137,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 6
+        },
+        {
+          "id": 2796,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11806,
+      "nome": "Posição na ocupação, subgrupo e categoria do emprego",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 95412,
+          "nome": "Empregados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95390,
+          "nome": "Empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95391,
+          "nome": "Empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95397,
+          "nome": "Empregados - outros sem carteira de trabalho assinada (inclusive os aprendizes e estagiários sem remuneração)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95392,
+          "nome": "Empregados - outros sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95393,
+          "nome": "Empregados - outros sem carteira de trabalho assinada - não contribuintes da previdência (inclusive os aprendizes e estagiários sem remuneração)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95394,
+          "nome": "Empregados - trabalhadores domésticos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95395,
+          "nome": "Empregados - trabalhadores domésticos - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95396,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95398,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 95399,
+          "nome": "Empregados - trabalhadores domésticos - sem carteira de trabalho assinada - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 95400,
+          "nome": "Empregados - demais empregados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95401,
+          "nome": "Empregados - demais empregados - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95402,
+          "nome": "Empregados - demais empregados - militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95403,
+          "nome": "Empregados - demais empregados - outros sem carteira de trabalho assinada (inclusive os aprendizes e estagiários sem remuneração)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 95404,
+          "nome": "Empregados - demais empregados - outros sem carteira de trabalho assinada - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 95405,
+          "nome": "Empregados - demais empregados - outros sem carteira de trabalho assinada - não contribuintes da previdência (inclusive os aprendizes e estagiários sem remuneração)",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 95413,
+          "nome": "Empregadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95406,
+          "nome": "Empregadores - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95407,
+          "nome": "Empregadores - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95414,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95408,
+          "nome": "Conta própria - contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95409,
+          "nome": "Conta própria - não contribuintes da previdência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 95410,
+          "nome": "Não remunerados em ajuda a membro do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 95411,
+          "nome": "Trabalhadores na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

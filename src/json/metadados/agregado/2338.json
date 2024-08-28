@@ -1,0 +1,110 @@
+{
+  "id": 2338,
+  "nome": "Número de municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes, por destinação dos resíduos",
+  "URL": "https://sidra.ibge.gov.br/tabela/2338",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 401,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000401,
+      "nome": "Municípios que coletam e/ou recebem resíduos sólidos industriais perigosos e/ou não-inertes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12202,
+      "nome": "Destinação dos resíduos sólidos industriais perigosos e/ou não-inertes",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103734,
+          "nome": "Total de municípios que coletam e/ou recebem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103735,
+          "nome": "Por incineração - em incineradores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103736,
+          "nome": "Por incineração - incinerado a céu aberto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103737,
+          "nome": "No mesmo local dos demais resíduos - vazadouro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103738,
+          "nome": "No mesmo local dos demais resíduos - aterro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103739,
+          "nome": "Aterro de resíduos especiais - próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103740,
+          "nome": "Aterro de resíduos especiais - de terceiros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103741,
+          "nome": "Pátio de estocagem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103742,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103743,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

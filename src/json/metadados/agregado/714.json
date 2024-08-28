@@ -1,0 +1,145 @@
+{
+  "id": 714,
+  "nome": "Número de famílias e Tamanho médio da família por categoria sócioprofissional principal da pessoa de referência da família e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/714",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1211,
+      "nome": "Número de famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001211,
+      "nome": "Número de famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 170,
+      "nome": "Tamanho médio das famílias",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12510,
+      "nome": "Categoria socioprofissional principal da pessoa de referência da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 111458,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111459,
+          "nome": "Atividades agropecuárias - empregador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111460,
+          "nome": "Atividades agropecuárias - conta própria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111461,
+          "nome": "Atividades agropecuárias - empregado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111462,
+          "nome": "Atividades não-agropecuárias - empregador",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111463,
+          "nome": "Atividades não-agropecuárias - conta própria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111464,
+          "nome": "Atividades não-agropecuárias - empregado com cargo de nível superior",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111465,
+          "nome": "Atividades não-agropecuárias - empregado com cargo de nível médio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111466,
+          "nome": "Atividades não-agropecuárias - empregado em outras ocupações",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111467,
+          "nome": "Atividades não-agropecuárias - empregado público",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111468,
+          "nome": "Atividades sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

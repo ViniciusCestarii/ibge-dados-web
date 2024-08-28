@@ -1,0 +1,79 @@
+{
+  "id": 3849,
+  "nome": "População residente em municípios com Fórum da Agenda 21 Local, por frequência das reuniões",
+  "URL": "https://sidra.ibge.gov.br/tabela/3849",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Agenda 21 Local",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 3821,
+      "nome": "População residente em municípios com Fórum da Agenda 21 Local",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 483,
+      "nome": "Frequência das reuniões do Fórum da Agenda 21 Local",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31435,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12577,
+          "nome": "Não se reuniu",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12576,
+          "nome": "Irregular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12575,
+          "nome": "Quadrimestral/semestral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12574,
+          "nome": "Bimestral/trimestral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12573,
+          "nome": "Mensal ou menor",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

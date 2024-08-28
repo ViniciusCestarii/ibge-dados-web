@@ -1,0 +1,76 @@
+{
+  "id": 5930,
+  "nome": "Área total existente em 31/12 dos efetivos da silvicultura, por espécie florestal",
+  "URL": "https://sidra.ibge.gov.br/tabela/5930",
+  "pesquisa": "Produção da Extração Vegetal e da Silvicultura",
+  "assunto": "Silvicultura",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6549,
+      "nome": "Área total existente em 31/12 dos efetivos da silvicultura",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1006549,
+      "nome": "Área total existente em 31/12 dos efetivos da silvicultura - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 734,
+      "nome": "Espécie florestal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39326,
+          "nome": "Eucalipto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39327,
+          "nome": "Pinus",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39328,
+          "nome": "Outras espécies",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

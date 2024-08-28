@@ -1,0 +1,621 @@
+{
+  "id": 6914,
+  "nome": "Número de unidades locais, pessoal ocupado assalariado, pessoal assalariado médio, salários e outras remunerações e salário médio mensal das fundações privadas e associações sem fins lucrativos, por sexo e nível de escolaridade, segundo classificação das entidades sem fins lucrativos, faixas de ano de fundação e faixas de pessoal ocupado assalariado",
+  "URL": "https://sidra.ibge.gov.br/tabela/6914",
+  "pesquisa": "Fundações Privadas e Associações Sem Fins Lucrativos",
+  "assunto": "Fundações e Associações sem fins lucrativos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2016
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2129,
+      "nome": "Número de unidades locais das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002129,
+      "nome": "Número de unidades locais das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2130,
+      "nome": "Pessoal ocupado assalariado em 31/12 das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002130,
+      "nome": "Pessoal ocupado assalariado em 31/12 das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1550,
+      "nome": "Pessoal ocupado assalariado do sexo masculino em 31/12 das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001550,
+      "nome": "Pessoal ocupado assalariado do sexo masculino em 31/12 das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1673,
+      "nome": "Pessoal ocupado assalariado do sexo feminino em 31/12 das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001673,
+      "nome": "Pessoal ocupado assalariado do sexo feminino em 31/12 das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1551,
+      "nome": "Pessoal ocupado assalariado do nível superior em 31/12 das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001551,
+      "nome": "Pessoal ocupado assalariado do nível superior em 31/12 das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9945,
+      "nome": "Pessoal ocupado assalariado sem nível superior em 31/12 das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009945,
+      "nome": "Pessoal ocupado assalariado sem nível superior em 31/12 das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9946,
+      "nome": "Pessoal assalariado médio das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9947,
+      "nome": "Pessoal assalariado médio do sexo masculino das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9949,
+      "nome": "Pessoal assalariado médio do sexo feminino das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9950,
+      "nome": "Pessoal assalariado médio do nível superior completo das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 9951,
+      "nome": "Pessoal assalariado médio sem nível superior completo das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2131,
+      "nome": "Salários e outras remunerações das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002131,
+      "nome": "Salários e outras remunerações das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1666,
+      "nome": "Salários e outras remunerações do sexo masculino das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001666,
+      "nome": "Salários e outras remunerações do sexo masculino das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1674,
+      "nome": "Salários e outras remunerações do sexo feminino das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001674,
+      "nome": "Salários e outras remunerações do sexo feminino das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1667,
+      "nome": "Salários e outras remunerações do nível superior das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001667,
+      "nome": "Salários e outras remunerações do nível superior das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9952,
+      "nome": "Salários e outras remunerações sem nível superior das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Mil Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1009952,
+      "nome": "Salários e outras remunerações sem nível superior das fundações privadas e associações sem fins lucrativos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2132,
+      "nome": "Salário médio mensal das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Salários mínimos",
+      "sumarizacao": []
+    },
+    {
+      "id": 1668,
+      "nome": "Salário médio mensal do sexo masculino das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Salários mínimos",
+      "sumarizacao": []
+    },
+    {
+      "id": 1675,
+      "nome": "Salário médio mensal do sexo feminino das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Salários mínimos",
+      "sumarizacao": []
+    },
+    {
+      "id": 1669,
+      "nome": "Salário médio mensal do nível superior das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Salários mínimos",
+      "sumarizacao": []
+    },
+    {
+      "id": 9953,
+      "nome": "Salário médio mensal sem nível superior das fundações privadas e associações sem fins lucrativos",
+      "unidade": "Salários mínimos",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 510,
+      "nome": "Classificação das fundações privadas e associações sem fins lucrativos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 128557,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 128522,
+          "nome": "01 Habitação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128523,
+          "nome": "01.0 Habitação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128524,
+          "nome": "02 Saúde",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128525,
+          "nome": "02.1 Hospitais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128526,
+          "nome": "02.2 Outros serviços de saúde",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128527,
+          "nome": "03 Cultura e recreação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128528,
+          "nome": "03.1 Cultura e arte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128529,
+          "nome": "03.2 Esporte e recreação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128530,
+          "nome": "04 Educação e pesquisa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128531,
+          "nome": "04.1 Educação infantil",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128532,
+          "nome": "04.2 Ensino fundamental",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128533,
+          "nome": "04.3 Ensino médio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128534,
+          "nome": "04.4 Educação superior",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128535,
+          "nome": "04.6 Estudos e pesquisas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128536,
+          "nome": "04.7 Educação profissional",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128537,
+          "nome": "04.8 Outras formas de educação/ensino",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128538,
+          "nome": "05 Assistência social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128539,
+          "nome": "05.0 Assistência social",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128540,
+          "nome": "06 Religião",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128541,
+          "nome": "06.0 Religião",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128542,
+          "nome": "07 Associações patronais, profissionais e de produtores rurais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128543,
+          "nome": "07.3 Associações empresariais e patronais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128544,
+          "nome": "07.4 Associações profissionais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128545,
+          "nome": "07.5 Associações de produtores rurais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128546,
+          "nome": "08 Meio ambiente e proteção animal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128547,
+          "nome": "08.0 Meio ambiente e proteção animal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128548,
+          "nome": "09 Desenvolvimento e defesa de direitos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128549,
+          "nome": "09.1 Associações de moradores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128550,
+          "nome": "09.2 Centros e associações comunitárias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128551,
+          "nome": "09.3 Desenvolvimento rural",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128552,
+          "nome": "09.4 Emprego e treinamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128553,
+          "nome": "09.5 Defesa de direitos de grupos e minorias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128554,
+          "nome": "09.6 Outras formas de desenvolvimento e defesa de direitos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 128555,
+          "nome": "10 Outras instituições privadas sem fins lucrativos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 128556,
+          "nome": "10.8 Outras instituições privadas sem fins lucrativos não especificadas anteriormente",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12386,
+      "nome": "Ano de fundação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 114485,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 114461,
+          "nome": "Até 1970",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107602,
+          "nome": "1971 a 1980",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 107603,
+          "nome": "1981 a 1990",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 114462,
+          "nome": "1991 a 2000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46276,
+          "nome": "2001 a 2010",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 30468,
+          "nome": "2011",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31754,
+          "nome": "2012",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33130,
+          "nome": "2013",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39410,
+          "nome": "2014",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40316,
+          "nome": "2015",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41127,
+          "nome": "2016",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "nome": "Faixas de pessoal ocupado assalariado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 9504,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46277,
+          "nome": "Sem pessoal ocupado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46278,
+          "nome": "1 a 2 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46279,
+          "nome": "3 a 4 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46280,
+          "nome": "5 a 9 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46281,
+          "nome": "10 a 49 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46282,
+          "nome": "50 a 99 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46283,
+          "nome": "100 a 499 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46284,
+          "nome": "500 ou mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

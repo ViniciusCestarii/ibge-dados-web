@@ -1,0 +1,115 @@
+{
+  "id": 6463,
+  "nome": "Pessoas de 14 anos ou mais de idade - Total, coeficiente de variação, variações percentuais e absolutas em relação ao trimestre anterior e ao mesmo trimestre do ano anterior, por condição em relação à força de trabalho e condição de ocupação",
+  "URL": "https://sidra.ibge.gov.br/tabela/6463",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua trimestral",
+  "assunto": "Trabalho",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201201,
+    "fim": 202402
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1641,
+      "nome": "Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4087,
+      "nome": "Coeficiente de variação - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6550,
+      "nome": "Variação percentual em relação ao trimestre anterior - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6551,
+      "nome": "Variação absoluta em relação ao trimestre anterior - Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9110,
+      "nome": "Situação da Variação em relação ao trimestre anterior - Pessoas de 14 anos ou mais de idade",
+      "unidade": "Nenhuma",
+      "sumarizacao": []
+    },
+    {
+      "id": 6555,
+      "nome": "Variação percentual em relação ao mesmo trimestre do ano anterior - Pessoas de 14 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 6556,
+      "nome": "Variação absoluta em relação ao mesmo trimestre do ano anterior - Pessoas de 14 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 9111,
+      "nome": "Situação da Variação em relação ao mesmo trimestre do ano anterior - Pessoas de 14 anos ou mais de idade",
+      "unidade": "Nenhuma",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 629,
+      "nome": "Condição em relação à força de trabalho e condição de ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32385,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32386,
+          "nome": "Força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32387,
+          "nome": "Força de trabalho - ocupada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32446,
+          "nome": "Força de trabalho - desocupada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32447,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

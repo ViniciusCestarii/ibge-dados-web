@@ -1,0 +1,104 @@
+{
+  "id": 7146,
+  "nome": "Estudantes do ensino superior, por cor ou raça e tipo de ensino superior",
+  "URL": "https://sidra.ibge.gov.br/tabela/7146",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10285,
+      "nome": "Estudantes do ensino superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10286,
+      "nome": "Coeficiente de variação - Estudantes do ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10287,
+      "nome": "Distribuição percentual dos estudantes do ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10288,
+      "nome": "Coeficiente de variação - Distribuição percentual dos estudantes do ensino superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 119525,
+          "nome": "Preta ou parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "nome": "Tipo de ensino superior",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47844,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47845,
+          "nome": "Graduação tecnológica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47846,
+          "nome": "Graduação não tecnológica",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 1031,
+  "nome": "Utilização das terras por tipo de utilização - série histórica (1920/2006)",
+  "URL": "https://sidra.ibge.gov.br/tabela/1031",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos estabelecimentos agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1920,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 184,
+      "nome": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "sumarizacao": []
+    },
+    {
+      "id": 2339,
+      "nome": "Percentual da área em relação à área total",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 2328,
+      "nome": "Variação percentual da área dos estabelecimentos agropecuários",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12777,
+      "nome": "Tipo de utilização das terras",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 118268,
+          "nome": "Lavouras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118269,
+          "nome": "Pastagens",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 118270,
+          "nome": "Matas e florestas",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

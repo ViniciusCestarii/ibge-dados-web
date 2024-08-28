@@ -1,0 +1,145 @@
+{
+  "id": 4263,
+  "nome": "Pessoas de 18 anos ou mais de idade fisicamente ativos no trabalho, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4263",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Atividade física",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 4232,
+      "nome": "Pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4233,
+      "nome": "Pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4234,
+      "nome": "Pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4807,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4235,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4236,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4237,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4808,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade fisicamente ativas no trabalho",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

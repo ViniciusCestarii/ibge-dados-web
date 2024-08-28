@@ -1,0 +1,80 @@
+{
+  "id": 1234,
+  "nome": "Número de municípios, total e os com manejo de resíduos sólidos, por existência de catadores na zona urbana",
+  "URL": "https://sidra.ibge.gov.br/tabela/1234",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2594,
+      "nome": "Municípios com manejo de residuos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002594,
+      "nome": "Municípios com manejo de residuos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12977,
+      "nome": "Existência de catadores na zona urbana",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121016,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121017,
+          "nome": "Total de municípios com manejo de resíduos sólidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121018,
+          "nome": "Existem catadores na zona urbana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121019,
+          "nome": "Não existem catadores na zona urbana",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

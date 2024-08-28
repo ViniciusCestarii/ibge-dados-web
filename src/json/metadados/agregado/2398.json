@@ -1,0 +1,2442 @@
+{
+  "id": 2398,
+  "nome": "Aquisição alimentar domiciliar per capita anual por situação do domicílio, forma de aquisição e grupos, subgrupos e produtos",
+  "URL": "https://sidra.ibge.gov.br/tabela/2398",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1207,
+      "nome": "Aquisição alimentar domiciliar per capita anual",
+      "unidade": "Quilogramas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1876,
+      "nome": "Forma de aquisição",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 104333,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104497,
+          "nome": "Monetária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104498,
+          "nome": "Não-monetária",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "nome": "Grupos, subgrupos e produtos",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3865,
+          "nome": "1. Cereais e leguminosas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3866,
+          "nome": "1.1 Cereais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104340,
+          "nome": "1.1.1 Arroz não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3869,
+          "nome": "1.1.2 Arroz polido",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104341,
+          "nome": "1.1.3 Milho em grão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104342,
+          "nome": "1.1.4 Milho verde em conserva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104343,
+          "nome": "1.1.5 Milho verde em espiga",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4192,
+          "nome": "1.1.6 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3878,
+          "nome": "1.2 Leguminosas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3885,
+          "nome": "1.2.1 Feijão-fradinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3886,
+          "nome": "1.2.2 Feijão-jalo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3888,
+          "nome": "1.2.3 Feijão-manteiga",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3889,
+          "nome": "1.2.4 Feijão-mulatinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3891,
+          "nome": "1.2.5 Feijão-preto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3892,
+          "nome": "1.2.6 Feijão-rajado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3895,
+          "nome": "1.2.7 Feijão-roxo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104344,
+          "nome": "1.2.8 Outros feijões",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4348,
+          "nome": "1.2.9 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3901,
+          "nome": "2. Hortaliças",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6230,
+          "nome": "2.1 Hortaliças folhosas e florais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104345,
+          "nome": "2.1.1 Acelga",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3904,
+          "nome": "2.1.2 Agrião",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3907,
+          "nome": "2.1.3 Alface",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3916,
+          "nome": "2.1.4 Cheiro-verde",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3919,
+          "nome": "2.1.5 Couve",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104346,
+          "nome": "2.1.6 Couve-brócolis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3920,
+          "nome": "2.1.7 Couve-flor",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104347,
+          "nome": "2.1.8 Repolho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4254,
+          "nome": "2.1.9 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4328,
+          "nome": "2.2 Hortaliças frutosas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104348,
+          "nome": "2.2.1 Abóbora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3935,
+          "nome": "2.2.2 Abobrinha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104349,
+          "nome": "2.2.3 Azeitona em conserva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3937,
+          "nome": "2.2.4 Berinjela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104350,
+          "nome": "2.2.5 Cebola",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3938,
+          "nome": "2.2.6 Chuchu",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3941,
+          "nome": "2.2.7 Jiló",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104351,
+          "nome": "2.2.8 Maxixe",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3944,
+          "nome": "2.2.9 Pepino fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3949,
+          "nome": "2.2.10 Pimentão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3951,
+          "nome": "2.2.11 Quiabo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3953,
+          "nome": "2.2.12 Tomate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3954,
+          "nome": "2.2.13 Vagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4714,
+          "nome": "2.2.14 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4721,
+          "nome": "2.3 Hortaliças tuberosas e outras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3957,
+          "nome": "2.3.1 Alho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104352,
+          "nome": "2.3.2 Batata-aipo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104353,
+          "nome": "2.3.3 Batata-baroa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3963,
+          "nome": "2.3.4 Batata-doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3964,
+          "nome": "2.3.5 Batata-inglesa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104354,
+          "nome": "2.3.6 Batata não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3965,
+          "nome": "2.3.7 Beterraba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104355,
+          "nome": "2.3.8 Cará",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3970,
+          "nome": "2.3.9 Cenoura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3974,
+          "nome": "2.3.10 Inhame",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3975,
+          "nome": "2.3.11 Mandioca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4748,
+          "nome": "2.3.12 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3981,
+          "nome": "3. Frutas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4090,
+          "nome": "3.1 Frutas de clima tropical",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3983,
+          "nome": "3.1.1 Abacate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3984,
+          "nome": "3.1.2 Abacaxi",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104356,
+          "nome": "3.1.3 Acerola",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3987,
+          "nome": "3.1.4 Banana-d'água",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104357,
+          "nome": "3.1.5 Banana-da-terra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3990,
+          "nome": "3.1.6 Banana-maçã",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104488,
+          "nome": "3.1.7 Banana-ouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3994,
+          "nome": "3.1.8 Banana-prata",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104358,
+          "nome": "3.1.9 Outras bananas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104359,
+          "nome": "3.1.10 Goiaba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4017,
+          "nome": "3.1.11 Laranja-baía",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4019,
+          "nome": "3.1.12 Laranja-lima",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4021,
+          "nome": "3.1.13 Laranja-pêra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4022,
+          "nome": "3.1.14 Laranja-seleta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104360,
+          "nome": "3.1.15 Outras laranjas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4024,
+          "nome": "3.1.16 Limão comum",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4026,
+          "nome": "3.1.17 Mamão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4027,
+          "nome": "3.1.18 Manga",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4029,
+          "nome": "3.1.19 Maracujá",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4030,
+          "nome": "3.1.20 Melancia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4031,
+          "nome": "3.1.21 Melão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4039,
+          "nome": "3.1.22 Tangerina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3955,
+          "nome": "3.1.23 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4427,
+          "nome": "3.2 Frutas de clima temperado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104361,
+          "nome": "3.2.1 Ameixa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4045,
+          "nome": "3.2.2 Caqui",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4049,
+          "nome": "3.2.3 Maçã",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104362,
+          "nome": "3.2.4 Morango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4054,
+          "nome": "3.2.5 Pêra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104363,
+          "nome": "3.2.6 Pêssego",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4057,
+          "nome": "3.2.7 Uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4349,
+          "nome": "3.2.8 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4058,
+          "nome": "4. Cocos, castanhas e nozes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4059,
+          "nome": "4.1 Cocos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104364,
+          "nome": "4.1.1 Açaí (emulsão)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4064,
+          "nome": "4.1.2 Coco-da-baía",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4500,
+          "nome": "4.1.3 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4069,
+          "nome": "4.2 Castanhas e nozes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4076,
+          "nome": "5. Farinhas, féculas e massas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4077,
+          "nome": "5.1 Farinhas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4083,
+          "nome": "5.1.1 Farinha de mandioca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4085,
+          "nome": "5.1.2 Farinha de rosca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4087,
+          "nome": "5.1.3 Farinha de trigo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4089,
+          "nome": "5.1.4 Farinha vitaminada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4502,
+          "nome": "5.1.5 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4091,
+          "nome": "5.2 Féculas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4092,
+          "nome": "5.2.1 Amido de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104365,
+          "nome": "5.2.2 Creme de arroz",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4094,
+          "nome": "5.2.3 Creme de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4097,
+          "nome": "5.2.4 Fécula de mandioca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104366,
+          "nome": "5.2.5 Flocos de aveia",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4102,
+          "nome": "5.2.6 Flocos de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104367,
+          "nome": "5.2.7 Flocos de outros cereais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4103,
+          "nome": "5.2.8 Fubá de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4593,
+          "nome": "5.2.9 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4104,
+          "nome": "5.3 Massas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4105,
+          "nome": "5.3.1 Macarrão com ovos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104368,
+          "nome": "5.3.2 Macarrão não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4107,
+          "nome": "5.3.3 Macarrão sem ovos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104369,
+          "nome": "5.3.4 Massa de lasanha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4115,
+          "nome": "5.3.5 Massa de pastel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104370,
+          "nome": "5.3.6 Massa de pizza",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4503,
+          "nome": "5.3.7 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4119,
+          "nome": "6. Panificados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4120,
+          "nome": "6.1 Pães",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104371,
+          "nome": "6.1.1 Pão caseiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104372,
+          "nome": "6.1.2 Pão de forma de padaria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4132,
+          "nome": "6.1.3 Pão de forma industrializado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104373,
+          "nome": "6.1.4 Pão de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104374,
+          "nome": "6.1.5 Pão de queijo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4139,
+          "nome": "6.1.6 Pão doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4140,
+          "nome": "6.1.7 Pão francês",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104375,
+          "nome": "6.1.8 Pão integral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104376,
+          "nome": "6.1.9 Torrada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4437,
+          "nome": "6.1.10 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4144,
+          "nome": "6.2 Bolos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4152,
+          "nome": "6.3 Biscoitos, roscas, etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4154,
+          "nome": "6.3.1 Biscoito doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104377,
+          "nome": "6.3.2 Biscoito não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4155,
+          "nome": "6.3.3 Biscoito salgado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104378,
+          "nome": "6.3.4 Rosca doce",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104379,
+          "nome": "6.3.5 Rosca não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104380,
+          "nome": "6.3.6 Rosca salgada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4213,
+          "nome": "6.3.7 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4158,
+          "nome": "7. Carnes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4292,
+          "nome": "7.1 Carnes bovinas de primeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4160,
+          "nome": "7.1.1 Alcatra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4161,
+          "nome": "7.1.2 Carne moída",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4162,
+          "nome": "7.1.3 Carne não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4163,
+          "nome": "7.1.4 Chã-de-dentro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4164,
+          "nome": "7.1.5 Contrafilé",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104381,
+          "nome": "7.1.6 Filé mignon",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4166,
+          "nome": "7.1.7 Lagarto comum",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4167,
+          "nome": "7.1.8 Lagarto redondo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4168,
+          "nome": "7.1.9 Patinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4420,
+          "nome": "7.2 Carnes bovinas de segunda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4170,
+          "nome": "7.2.1 Acém",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104382,
+          "nome": "7.2.2 Capa de filé",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4630,
+          "nome": "7.2.3 Carne moída",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4290,
+          "nome": "7.2.4 Carne não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4173,
+          "nome": "7.2.5 Costela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4176,
+          "nome": "7.2.6 Músculo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4177,
+          "nome": "7.2.7 Pá",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4178,
+          "nome": "7.2.8 Peito",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3978,
+          "nome": "7.2.9 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4743,
+          "nome": "7.3 Carnes bovinas outras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104383,
+          "nome": "7.3.1 Carne de hambúrger",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104384,
+          "nome": "7.3.2 Carne de sol",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104385,
+          "nome": "7.3.3 Carne moída não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104386,
+          "nome": "7.3.4 Carne não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4188,
+          "nome": "7.3.5 Carne-seca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104387,
+          "nome": "7.3.6 Mocotó",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3979,
+          "nome": "7.3.7 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4293,
+          "nome": "7.4 Carnes suínas com osso e sem osso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4197,
+          "nome": "7.4.1 Carré",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3972,
+          "nome": "7.4.2 Costela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4198,
+          "nome": "7.4.3 Lombo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4200,
+          "nome": "7.4.4 Pernil",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104388,
+          "nome": "7.4.5 Porco eviscerado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4350,
+          "nome": "7.4.6 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4631,
+          "nome": "7.5 Carnes suínas outras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104389,
+          "nome": "7.5.1 Cane salgada não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104390,
+          "nome": "7.5.2 Costela de porco salgada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4211,
+          "nome": "7.5.3 Mortadela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104391,
+          "nome": "7.5.4 Paio",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104392,
+          "nome": "7.5.5 Pé de porco salgado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4219,
+          "nome": "7.5.6 Presunto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104393,
+          "nome": "7.5.7 Salame",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104394,
+          "nome": "7.5.8 Salsicha comum",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104395,
+          "nome": "7.5.9 Toucinho fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104396,
+          "nome": "7.5.10 Toucinho defumado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4351,
+          "nome": "7.5.11 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4294,
+          "nome": "7.6 Carnes de outros animais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104397,
+          "nome": "7.6.1 Carne de cabrito",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104398,
+          "nome": "7.6.2 Carne de carneiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4236,
+          "nome": "7.6.3 Linguiça",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4594,
+          "nome": "7.6.4 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4237,
+          "nome": "8. Vísceras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3900,
+          "nome": "8.1 Vísceras bovinas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104399,
+          "nome": "8.1.1 Bucho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4241,
+          "nome": "8.1.2 Fígado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104400,
+          "nome": "8.1.3 Língua",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4352,
+          "nome": "8.1.4 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3877,
+          "nome": "8.2 Vísceras suínas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4249,
+          "nome": "8.3 Outras vísceras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4259,
+          "nome": "9. Pescados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4357,
+          "nome": "9.1 Pescados de água salgada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104489,
+          "nome": "9.1.1 Anchova fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4273,
+          "nome": "9.1.2 Bacalhau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104401,
+          "nome": "9.1.3 Bagre fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104402,
+          "nome": "9.1.4 Cação fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4291,
+          "nome": "9.1.5 Camarão fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4316,
+          "nome": "9.1.6 Corvina fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104490,
+          "nome": "9.1.7 Meluza em filé congelado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104491,
+          "nome": "9.1.8 Merluza em filé fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104403,
+          "nome": "9.1.9 Parati fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104404,
+          "nome": "9.1.10 Pescada em filé congelado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4374,
+          "nome": "9.1.11 Pescada em filé fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4375,
+          "nome": "9.1.12 Pescada fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4378,
+          "nome": "9.1.13 Pescadinha fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4390,
+          "nome": "9.1.14 Sardinha em conserva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4391,
+          "nome": "9.1.15 Sardinha fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104405,
+          "nome": "9.1.16 Tainha fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104406,
+          "nome": "9.1.17 Outros pescados em filé congelado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104407,
+          "nome": "9.1.18 Outros pescados em filé fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104408,
+          "nome": "9.1.19 Outros pescados frescos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104409,
+          "nome": "9.1.20 Outros pescados salgados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4358,
+          "nome": "9.2 Pescados de água doce",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104410,
+          "nome": "9.2.1 Acará fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104411,
+          "nome": "9.2.2 Acari fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104412,
+          "nome": "9.2.3 Anujá fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104413,
+          "nome": "9.2.4 Curimatã fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104414,
+          "nome": "9.2.5 Dourada fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104415,
+          "nome": "9.2.6 Jaraqui fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104416,
+          "nome": "9.2.7 Lambari fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104417,
+          "nome": "9.2.8 Mapará fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104418,
+          "nome": "9.2.9 Piau fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104419,
+          "nome": "9.2.10 Surubim fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104420,
+          "nome": "9.2.11 Tambaqui fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104421,
+          "nome": "9.2.12 Tilápia fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104422,
+          "nome": "9.2.13 Traíra fresca",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104423,
+          "nome": "9.2.14 Tucunaré fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104424,
+          "nome": "9.2.15 Outros pescados em filé congelado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104425,
+          "nome": "9.2.16 Outros pescados em filé fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104426,
+          "nome": "9.2.17 Outros pescados frescos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104427,
+          "nome": "9.2.18 Outros pescados salgados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104428,
+          "nome": "9.3 Pescados não especificados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104492,
+          "nome": "9.3.1 Peixe em filé congelado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104493,
+          "nome": "9.3.2 Peixe em filé fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104429,
+          "nome": "9.3.3 Peixe fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104430,
+          "nome": "9.3.4 Peixe salgado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4466,
+          "nome": "10. Aves e ovos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4467,
+          "nome": "10.1 Aves",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104431,
+          "nome": "10.1.1 Asa de frango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104432,
+          "nome": "10.1.2 Carne de frango não especificada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104433,
+          "nome": "10.1.3 Coxa de frango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104434,
+          "nome": "10.1.4 Dorso de frango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104435,
+          "nome": "10.1.5 Frango abatido (inteiro)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4482,
+          "nome": "10.1.6 Frango vivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104436,
+          "nome": "10.1.7 Miúdos de frango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104437,
+          "nome": "10.1.8 Peito de frango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104438,
+          "nome": "10.1.9 Outras carnes de frango",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104439,
+          "nome": "10.1.10 Pato inteiro ou em cortes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104440,
+          "nome": "10.1.11 Peru abatido",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104441,
+          "nome": "10.1.12 Peru em cortes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4122,
+          "nome": "10.1.13 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4499,
+          "nome": "10.2 Ovos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4501,
+          "nome": "10.2.1 Ovo de galinha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4123,
+          "nome": "10.2.2 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4504,
+          "nome": "11. Laticínios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4505,
+          "nome": "11.1 Leite e creme de leite",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104442,
+          "nome": "11.1.1 Creme de leite",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4510,
+          "nome": "11.1.2 Leite condensado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4514,
+          "nome": "11.1.3 Leite de vaca fresco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4515,
+          "nome": "11.1.4 Leite de vaca pasteurizado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104443,
+          "nome": "11.1.5 Leite em pó desengordurado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4517,
+          "nome": "11.1.6 Leite em pó integral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104444,
+          "nome": "11.1.7 Leite em pó não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4124,
+          "nome": "11.1.8 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4519,
+          "nome": "11.2 Queijos e requeijão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4541,
+          "nome": "11.2.1 Queijo minas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4542,
+          "nome": "11.2.2 Queijo mozarela",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104445,
+          "nome": "11.2.3 Queijo não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104446,
+          "nome": "11.2.4 Queijo parmezão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4545,
+          "nome": "11.2.5 Queijo prato",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4451,
+          "nome": "11.2.6 Outros queijos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4549,
+          "nome": "11.2.7 Requeijão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4179,
+          "nome": "11.3 Outros laticínios",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4552,
+          "nome": "11.3.1 Iogurte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104447,
+          "nome": "11.3.2 Leite fermentado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4554,
+          "nome": "11.3.3 Manteiga",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4332,
+          "nome": "11.3.4 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104448,
+          "nome": "12. Açúcares, doces e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4556,
+          "nome": "12.1 Açúcares",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4557,
+          "nome": "12.1.1 Açúcar cristal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104449,
+          "nome": "12.1.2 Açúcar demerara",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104450,
+          "nome": "12.1.3 Açúcar não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4559,
+          "nome": "12.1.4 Açúcar refinado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4261,
+          "nome": "12.1.5 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104451,
+          "nome": "12.2 Doces e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4567,
+          "nome": "12.2.1 Bombom",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104452,
+          "nome": "12.2.2 Chocolate em tablete",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4577,
+          "nome": "12.2.3 Doce a base de leite",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104453,
+          "nome": "12.2.4 Doce de fruta cristalizado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4585,
+          "nome": "12.2.5 Doce de fruta em calda",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4586,
+          "nome": "12.2.6 Doce de fruta em pasta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104454,
+          "nome": "12.2.7 Rapadura",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4600,
+          "nome": "12.2.8 Sorvete",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4392,
+          "nome": "12.2.9 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104455,
+          "nome": "12.3 Outros açúcares, doces e produtos de confeitaria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4605,
+          "nome": "12.3.1 Chocolate em pó",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104456,
+          "nome": "12.3.2 Gelatina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104457,
+          "nome": "12.3.3 Mel de abelha",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104458,
+          "nome": "12.3.4 Polpa de fruta",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4393,
+          "nome": "12.3.5 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4614,
+          "nome": "13. Sais e condimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4615,
+          "nome": "13.1 Sais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4618,
+          "nome": "13.1.1 Sal grosso",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4619,
+          "nome": "13.1.2 Sal refinado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3980,
+          "nome": "13.1.3 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4620,
+          "nome": "13.2 Condimentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4628,
+          "nome": "13.2.1 Caldo de carne em tablete",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4629,
+          "nome": "13.2.2 Caldo de galinha em tablete",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104459,
+          "nome": "13.2.3 Outros caldos em tablete",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104460,
+          "nome": "13.2.4 Colorau",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4642,
+          "nome": "13.2.5 Fermento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104461,
+          "nome": "13.2.6 Leite de coco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4646,
+          "nome": "13.2.7 Maionese",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4648,
+          "nome": "13.2.8 Massa de tomate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4651,
+          "nome": "13.2.9 Molho de tomate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4672,
+          "nome": "13.2.10 Tempero misto",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4673,
+          "nome": "13.2.11 Vinagre de álcool",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4675,
+          "nome": "13.2.12 Vinagre de vinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104462,
+          "nome": "13.2.13 Vinagre não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4462,
+          "nome": "13.2.14 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4676,
+          "nome": "14. Óleos e gorduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4677,
+          "nome": "14.1 Óleos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4679,
+          "nome": "14.1.1 Azeite de oliva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104463,
+          "nome": "14.1.2 Óleo de girassol",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104464,
+          "nome": "14.1.3 Óleo de canola",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4687,
+          "nome": "14.1.4 Óleo de milho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4689,
+          "nome": "14.1.5 Óleo de soja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104465,
+          "nome": "14.1.6 Óleo não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4592,
+          "nome": "14.1.7 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4690,
+          "nome": "14.2 Gorduras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104466,
+          "nome": "14.2.1 Banha de porco",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4697,
+          "nome": "14.2.2 Margarina vegetal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4209,
+          "nome": "14.2.3 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4698,
+          "nome": "15. Bebidas e infusões",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4699,
+          "nome": "15.1 Bebidas alcoólicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4700,
+          "nome": "15.1.1 Aguardente de cana",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104467,
+          "nome": "15.1.2 Outras aguardentes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4702,
+          "nome": "15.1.3 Cerveja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4712,
+          "nome": "15.1.4 Vinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4463,
+          "nome": "15.1.5 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4715,
+          "nome": "15.2 Bebidas não alcoólicas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4717,
+          "nome": "15.2.1 Água mineral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4724,
+          "nome": "15.2.2 Refrigerante de cola",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4725,
+          "nome": "15.2.3 Refrigerante de guaraná",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4726,
+          "nome": "15.2.4 Refrigerante de laranja",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4727,
+          "nome": "15.2.5 Refrigerante de limão",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104468,
+          "nome": "15.2.6 Refrigerante de maçã",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104469,
+          "nome": "15.2.7 Refrigerante de uva",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104470,
+          "nome": "15.2.8 Bebida energética",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104471,
+          "nome": "15.2.9 Refrigerante não especificado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4548,
+          "nome": "15.2.10 Outros refrigerantes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4730,
+          "nome": "15.2.11 Suco de fruta em pó",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4731,
+          "nome": "15.2.12 Suco de fruta envasado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4394,
+          "nome": "15.2.13 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4735,
+          "nome": "15.3 Cafés",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4740,
+          "nome": "15.3.1 Café moído",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4741,
+          "nome": "15.3.2 Café solúvel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4564,
+          "nome": "15.3.3 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4742,
+          "nome": "15.4 Chás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 4744,
+          "nome": "15.4.1 Chá-mate",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 4304,
+          "nome": "15.4.3 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104472,
+          "nome": "16. Alimentos preparados e misturas industriais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 104473,
+          "nome": "16.1 Alimentos preparados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104474,
+          "nome": "16.1.1 Alimento congelado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104475,
+          "nome": "16.1.2 Batata frita",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104476,
+          "nome": "16.1.3 Carne assada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104477,
+          "nome": "16.1.4 Frango assado ou defumado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104478,
+          "nome": "16.1.5 Frango empanado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104479,
+          "nome": "16.1.6 Massa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104480,
+          "nome": "16.1.7 Refeição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104481,
+          "nome": "16.1.8 Salgadinho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104482,
+          "nome": "16.1.9 Sanduíche",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104483,
+          "nome": "16.1.10 Outros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104484,
+          "nome": "16.2 Misturas industriais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 104485,
+          "nome": "16.2.1 Mistura para bolo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104486,
+          "nome": "16.2.2 Outras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 104487,
+          "nome": "17. Outros produtos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

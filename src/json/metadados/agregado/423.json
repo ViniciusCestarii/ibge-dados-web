@@ -1,0 +1,170 @@
+{
+  "id": 423,
+  "nome": "Trabalhadores domésticos de 10 anos ou mais de idade, no trabalho principal da semana de referência, e Valor do rendimento médio mensal do trabalho principal, por sexo, categoria do emprego e classes de rendimento mensal do trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/423",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1902,
+      "nome": "Trabalhadores domésticos de 10 anos ou mais de idade, no trabalho principal da semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001902,
+      "nome": "Trabalhadores domésticos de 10 anos ou mais de idade, no trabalho principal da semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1901,
+      "nome": "Valor do rendimento médio mensal do trabalho principal da semana de referência dos trabalhadores domésticos de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12046,
+      "nome": "Categoria do emprego",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99456,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99449,
+          "nome": "Com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111032,
+          "nome": "Sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99452,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12044,
+      "nome": "Classes de rendimento mensal do trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 100600,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100499,
+          "nome": "Até 1/2 salário mínimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100500,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99386,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99387,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99388,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 111033,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99445,
+          "nome": "Sem rendimento",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99446,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

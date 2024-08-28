@@ -1,0 +1,363 @@
+{
+  "id": 6757,
+  "nome": "Número de estabelecimentos agropecuários dirigidos por casais, por tipologia, sexo do cônjuge do produtor, escolaridade do cônjuge do produtor, conclusão do curso que frequentou, cor ou raça do cônjuge do produtor e classe de idade do cônjuge do produtor",
+  "URL": "https://sidra.ibge.gov.br/tabela/6757",
+  "pesquisa": "Censo Agropecuário",
+  "assunto": "Características dos produtores agropecuários ",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N132",
+      "N133"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9777,
+      "nome": "Número de estabelecimentos agropecuários dirigidos por casais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 829,
+      "nome": "Tipologia",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46302,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46303,
+          "nome": "Agricultura familiar - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46304,
+          "nome": "Agricultura familiar - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46305,
+          "nome": "Agricultura familiar - Pronaf B",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46306,
+          "nome": "Agricultura familiar - Pronaf V",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46307,
+          "nome": "Agricultura familiar - não pronafiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 46422,
+          "nome": "Pronamp - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46423,
+          "nome": "Pronamp - não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 815,
+      "nome": "Sexo do cônjuge do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41152,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41153,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 41154,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 801,
+      "nome": "Escolaridade do cônjuge do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41156,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46512,
+          "nome": "Sabe ler e escrever - sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46513,
+          "nome": "Sabe ler e escrever - não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40733,
+          "nome": "Nunca frequentou escola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40734,
+          "nome": "Classe de alfabetização - CA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40735,
+          "nome": "Alfabetização de jovens e adultos - AJA",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40739,
+          "nome": "Antigo primário (elementar)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40740,
+          "nome": "Antigo ginasial (médio 1º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40741,
+          "nome": "Regular do ensino fundamental ou 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40742,
+          "nome": "EJA - educação de jovens e adultos e supletivo do ensino fundamental ou do 1º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40743,
+          "nome": "Antigo científico, clássico, etc. (médio 2º ciclo)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40744,
+          "nome": "Regular de ensino médio ou 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40745,
+          "nome": "Técnico de ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40746,
+          "nome": "EJA - Educação de jovens e adultos e supletivo do ensino médio ou do 2º grau",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40747,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 40748,
+          "nome": "Mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "nome": "Conclusão do curso que o cônjuge do produtor frequentou",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31329,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31330,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31331,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 832,
+      "nome": "Cor ou raça do cônjuge do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46440,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46441,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46442,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46443,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46444,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46445,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 833,
+      "nome": "Classe de idade do cônjuge do produtor",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46514,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46515,
+          "nome": "Menor de 25 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46516,
+          "nome": "De 25 a menos de 35 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46517,
+          "nome": "De 35 a menos de 45 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46518,
+          "nome": "De 45 a menos de 55 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46519,
+          "nome": "De 55 a menos de 65 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46521,
+          "nome": "De 65 a menos de 75 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 46520,
+          "nome": "De 75 anos e mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

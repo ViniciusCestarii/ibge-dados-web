@@ -1,0 +1,131 @@
+{
+  "id": 1754,
+  "nome": "Número de municípios, total e os com captação de água, por existência e forma de proteção na captação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1754",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 433,
+      "nome": "Municípios com captação superficial",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000433,
+      "nome": "Municípios com captação superficial - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 434,
+      "nome": "Municípios com captação de poço raso",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000434,
+      "nome": "Municípios com captação de poço raso - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 435,
+      "nome": "Municípios com captação de poço profundo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000435,
+      "nome": "Municípios com captação de poço profundo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11972,
+      "nome": "Existência e forma de proteção na captação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8472,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8473,
+          "nome": "Total de municípios com captação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98603,
+          "nome": "Total com proteção na captação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98396,
+          "nome": "Segurança",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98397,
+          "nome": "Área cercada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98398,
+          "nome": "Preservação da vegetação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98399,
+          "nome": "Proibição de despejos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98400,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98401,
+          "nome": "Não existe proteção na captação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

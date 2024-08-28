@@ -1,0 +1,163 @@
+{
+  "id": 5028,
+  "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, por rendimento mensal domiciliar per capita e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5028",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5332,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5333,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5334,
+      "nome": "Pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5335,
+      "nome": "Coeficiente de variação - Pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5336,
+      "nome": "Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, em relação às que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5337,
+      "nome": "Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, em relação às que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5338,
+      "nome": "Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, em relação às que tinham algum plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5339,
+      "nome": "Coeficiente de variação - Percentual de pessoas cujo plano de saúde (médico ou odontológico) era pago diretamente pelo titular, outro morador do domicilio ou pessoa não moradora, em relação às que tinham algum plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 652,
+      "nome": "Rendimento mensal domiciliar per capita",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32851,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32852,
+          "nome": "Sem rendimento até 1/4 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32853,
+          "nome": "Mais de 1/4 a 1/2 do salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32854,
+          "nome": "Mais de 1/2 a 1 salário mínimo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32855,
+          "nome": "Mais de 1 a 2 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32856,
+          "nome": "Mais de 2 a 3 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32857,
+          "nome": "Mais de 3 a 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32858,
+          "nome": "Mais de 5 salários mínimos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

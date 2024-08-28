@@ -1,0 +1,186 @@
+{
+  "id": 9876,
+  "nome": "Número de microempreendedores individuais (MEIs) nascidos em 2019, sobreviventes em 3 anos e taxa de sobrevivência, por sexo, grande grupamento e seções da classificação de atividade econômica (CNAE 2.0), faixas de idade e nacionalidade/país de origem",
+  "URL": "https://sidra.ibge.gov.br/tabela/9876",
+  "pesquisa": "Estatísticas dos Cadastros de Microempreendedores Individuais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 13092,
+      "nome": "Número de microempreendedores individuais (MEIs) com 3 anos de idade",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 13093,
+      "nome": "Número de microempreendedores individuais (MEIs) sobreviventes em 3 anos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 8900,
+      "nome": "Taxa de sobrevivência de microempreendedores individuais (MEIs)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 956,
+      "nome": "Grande grupamento e seções da classificação de atividade econômica (CNAE 2.0)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59983,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48591,
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48592,
+          "nome": "B – E Indústria geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59963,
+          "nome": "F Construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59964,
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 59965,
+          "nome": "H – U Serviços",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "nome": "Faixas de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46571,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60077,
+          "nome": "Até 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102778,
+          "nome": "De 30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102779,
+          "nome": "De 40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 102780,
+          "nome": "De 50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1727,
+      "nome": "Nacionalidade/país de origem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 60103,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60104,
+          "nome": "Brasileira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60105,
+          "nome": "Estrangeira",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

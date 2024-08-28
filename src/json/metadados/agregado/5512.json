@@ -1,0 +1,117 @@
+{
+  "id": 5512,
+  "nome": "Idade média que tinham as mulheres de 18 a 49 anos de idade quando tiveram a primeira gravidez, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5512",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Saúde da mulher",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 6164,
+      "nome": "Idade média que tinham as mulheres de 18 a 49 anos de idade quando tiveram a primeira gravidez",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 6165,
+      "nome": "Idade média que tinham as mulheres de 18 a 49 anos de idade quando tiveram a primeira gravidez, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 6166,
+      "nome": "Idade média que tinham as mulheres de 18 a 49 anos de idade quando tiveram a primeira gravidez, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Anos",
+      "sumarizacao": []
+    },
+    {
+      "id": 6167,
+      "nome": "Coeficiente de variação - Idade média que tinham as mulheres de 18 a 49 anos de idade quando tiveram a primeira gravidez",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

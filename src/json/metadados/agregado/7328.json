@@ -1,0 +1,107 @@
+{
+  "id": 7328,
+  "nome": "Pessoas de 10 anos ou mais de idade, por condição de estudante e utilização da Internet no período de referência dos últimos três meses",
+  "URL": "https://sidra.ibge.gov.br/tabela/7328",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Tecnologia de informação e comunicação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 140,
+      "nome": "Pessoas de 10 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 889,
+      "nome": "Coeficiente de variação - Pessoas de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10648,
+      "nome": "Distribuição percentual das pessoas de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10649,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 10 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 426,
+      "nome": "Condição de estudante",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 11322,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11323,
+          "nome": "Estudantes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11324,
+          "nome": "Não estudantes",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "nome": "Utilização da internet no período de referência dos últimos três meses",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 10979,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48578,
+          "nome": "Utilizaram internet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48579,
+          "nome": "Não utilizaram internet",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

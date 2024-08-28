@@ -1,0 +1,92 @@
+{
+  "id": 2354,
+  "nome": "Número de municípios que têm conhecimento da existência de catadores nas unidades de destinação final do lixo, total e os que desenvolvem trabalho social com os catadores, por existência e tipo de trabalho desenvolvido com os catadores",
+  "URL": "https://sidra.ibge.gov.br/tabela/2354",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1226,
+      "nome": "Municípios que têm conhecimento da existência de catadores nas unidades de destinação final do lixo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001226,
+      "nome": "Municípios que têm conhecimento da existência de catadores nas unidades de destinação final do lixo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12211,
+      "nome": "Tipo de trabalho social desenvolvido com os catadores",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103904,
+          "nome": "Total de municípios que têm conhecimento da existência de catadores",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103905,
+          "nome": "Total de municípios que desenvolvem trabalho",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103906,
+          "nome": "Cadastro em unidades de destino final e encaminhamento a postos de trabalho e renda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103907,
+          "nome": "Encaminhamento a programas de coleta seletiva em postos de trabalho e renda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103908,
+          "nome": "Organização social dos catadores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103909,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103910,
+          "nome": "Não existe trabalho social desenvolvido com os catadores",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

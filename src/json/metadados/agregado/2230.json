@@ -1,0 +1,77 @@
+{
+  "id": 2230,
+  "nome": "Número de municípios, total e os com serviço de drenagem urbana subterrâneo, por tipo de rede coletora",
+  "URL": "https://sidra.ibge.gov.br/tabela/2230",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de águas pluviais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1164,
+      "nome": "Municípios com serviço de drenagem urbana subterrâneo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001164,
+      "nome": "Municípios com serviço de drenagem urbana subterrâneo - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12005,
+      "nome": "Tipo de rede coletora de esgoto sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 101286,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 101287,
+          "nome": "Total de municípios com serviço de drenagem urbana subterrâneo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98718,
+          "nome": "Unitária ou mista",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98719,
+          "nome": "Separadora",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

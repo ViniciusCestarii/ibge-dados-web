@@ -1,0 +1,158 @@
+{
+  "id": 3474,
+  "nome": "Domicílios particulares permanentes com pelo menos um morador indígena, por localização do domicílio, tipo de domicílio, existência de banheiro ou sanitário e esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/3474",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Características gerais dos indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1429,
+      "nome": "Domicílios particulares permanentes com pelo menos um morador indígena",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001429,
+      "nome": "Domicílios particulares permanentes com pelo menos um morador indígena - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12869,
+          "nome": "Em terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12870,
+          "nome": "Fora de terras indígenas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11557,
+      "nome": "Tipo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92844,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12910,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12911,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 10930,
+          "nome": "Tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 13013,
+          "nome": "Tinham banheiro ou sanitário - rede geral de esgoto ou pluvial ou fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13014,
+          "nome": "Tinham banheiro ou sanitário - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13015,
+          "nome": "Tinham banheiro ou sanitário - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 13016,
+          "nome": "Tinham banheiro ou sanitário - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10962,
+          "nome": "Tinham banheiro ou sanitário - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10963,
+          "nome": "Não tinham banheiro ou sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

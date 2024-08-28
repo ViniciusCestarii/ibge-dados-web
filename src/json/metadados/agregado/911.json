@@ -1,0 +1,62 @@
+{
+  "id": 911,
+  "nome": "Capacidade útil dos estabelecimentos inativos por tipo de unidade armazenadora",
+  "URL": "https://sidra.ibge.gov.br/tabela/911",
+  "pesquisa": "Pesquisa de Estoques",
+  "assunto": "Estoques agropecuários",
+  "periodicidade": {
+    "frequencia": "semestral",
+    "inicio": 200702,
+    "fim": 202302
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 153,
+      "nome": "Capacidade útil",
+      "unidade": "Vide categorias da classificação 'Tipo de unidade armazenadora'",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 166,
+      "nome": "Tipo de unidade armazenadora",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 3066,
+          "nome": "Armazéns convencionais, estruturais e infláveis",
+          "unidade": "Metros cúbicos",
+          "nivel": 0
+        },
+        {
+          "id": 3067,
+          "nome": "Armazéns graneleiros e granelizados",
+          "unidade": "Toneladas",
+          "nivel": 0
+        },
+        {
+          "id": 3327,
+          "nome": "Silos",
+          "unidade": "Toneladas",
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": 4472,
+  "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação, por condição em relação à força de trabalho na semana de referência e situação do domicílio (2013)",
+  "URL": "https://sidra.ibge.gov.br/tabela/4472",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4444,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4445,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4446,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4877,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4447,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4448,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4449,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4878,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial e se internaram por causa da hipertensão ou de alguma complicação",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 653,
+      "nome": "Condição em relação à força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32862,
+          "nome": "Na força de trabalho - Ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32863,
+          "nome": "Na força de trabalho - Desocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32864,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

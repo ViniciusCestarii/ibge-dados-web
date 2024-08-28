@@ -1,0 +1,74 @@
+{
+  "id": 2300,
+  "nome": "Número de municípios com serviços de manejo de resíduos sólidos, por controle da disposição do lixo industrial",
+  "URL": "https://sidra.ibge.gov.br/tabela/2300",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001183,
+      "nome": "Municípios com serviços de manejo de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12184,
+      "nome": "Controle da disposição do lixo industrial",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103362,
+          "nome": "Total de municípios com os serviços",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103363,
+          "nome": "Controla",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103364,
+          "nome": "Não controla",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103365,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

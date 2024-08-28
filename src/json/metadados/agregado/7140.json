@@ -1,0 +1,104 @@
+{
+  "id": 7140,
+  "nome": "Crianças de 0 a 5 anos de idade, por grupo de idade e frequência à creche ou escola",
+  "URL": "https://sidra.ibge.gov.br/tabela/7140",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10278,
+      "nome": "Crianças de 0 a 5 anos de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10279,
+      "nome": "Coeficiente de variação - Crianças de 0 a 5 anos de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10280,
+      "nome": "Distribuição percentual das crianças de 0 a 5 anos de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10281,
+      "nome": "Coeficiente de variação - Distribuição percentual das crianças de 0 a 5 anos de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47812,
+          "nome": "0 a 1 ano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47814,
+          "nome": "2 a 3 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47813,
+          "nome": "4 a 5 anos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 12081,
+      "nome": "Frequência à creche ou escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 109135,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47810,
+          "nome": "Frequenta escola ou creche",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47811,
+          "nome": "Não frequenta escola ou creche",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 411,
+  "nome": "Índice de Gini da distribuição do rendimento mensal de todos os trabalhos das pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com rendimento de trabalho, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/411",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2005,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1896,
+      "nome": "Índice de Gini da distribuição do rendimento mensal de todos os trabalhos das pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, com rendimento de trabalho",
+      "unidade": "Índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

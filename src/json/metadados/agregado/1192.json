@@ -1,0 +1,73 @@
+{
+  "id": 1192,
+  "nome": "Percentual de domicílios particulares permanentes adequados para moradia, por critérios de adequação",
+  "URL": "https://sidra.ibge.gov.br/tabela/1192",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Adequação de moradia",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2004,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2515,
+      "nome": "Domicílios particulares permanentes adequados para moradia",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2516,
+      "nome": "Percentual de domicílios particulares permanentes adequados para moradia",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12935,
+      "nome": "Critérios de adequação",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 119526,
+          "nome": "Até 2 moradores por dormitório",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119527,
+          "nome": "Rede geral de água",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119528,
+          "nome": "Rede geral de esgoto ou fossa séptica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 119529,
+          "nome": "Coleta de lixo direta ou indireta",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

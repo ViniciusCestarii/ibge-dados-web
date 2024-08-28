@@ -1,0 +1,63 @@
+{
+  "id": 6669,
+  "nome": "Quantidade e Peso total das carcaças dos animais abatidos, por tipo de rebanho - Primeiros Resultados (série encerrada)",
+  "URL": "https://sidra.ibge.gov.br/tabela/6669",
+  "pesquisa": "Pesquisa Trimestral do Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "trimestral",
+    "inicio": 201801,
+    "fim": 201803
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 284,
+      "nome": "Animais abatidos",
+      "unidade": "Mil cabeças",
+      "sumarizacao": []
+    },
+    {
+      "id": 285,
+      "nome": "Peso total das carcaças",
+      "unidade": "Toneladas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 79,
+      "nome": "Tipo de rebanho",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 41107,
+          "nome": "Bovinos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41108,
+          "nome": "Suínos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 41109,
+          "nome": "Frangos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

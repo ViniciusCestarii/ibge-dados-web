@@ -1,0 +1,157 @@
+{
+  "id": 8142,
+  "nome": "Pessoas de 15 anos ou mais de idade, por atividade em grupo e frequência a reuniões de grupo nos últimos 12 meses",
+  "URL": "https://sidra.ibge.gov.br/tabela/8142",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Características do trabalho e apoio social",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 950,
+      "nome": "Pessoas de 15 anos ou mais de idade",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11107,
+      "nome": "Pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11108,
+      "nome": "Pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 11109,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11110,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11111,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11112,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 11113,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 anos ou mais de idade",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1270,
+      "nome": "Atividade em grupo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56655,
+          "nome": "Prática de atividades esportivas, exercícios físicos, recreativos ou artísticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56656,
+          "nome": "Associações de moradores ou funcionários, movimentos sociais/comunitários, centros acadêmicos ou similares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56657,
+          "nome": "Trabalho voluntário não remunerado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56658,
+          "nome": "Atividades coletivas de sua religião ou de outra religião",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1269,
+      "nome": "Frequência a reuniões de grupo nos últimos 12 meses",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 56647,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 56648,
+          "nome": "Mais de uma vez por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56649,
+          "nome": "Uma vez por semana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56650,
+          "nome": "De 2 a 3 vezes por mês",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56651,
+          "nome": "Algumas vezes no ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56652,
+          "nome": "Uma vez no ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 56653,
+          "nome": "Nenhuma vez",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

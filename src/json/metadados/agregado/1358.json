@@ -1,0 +1,113 @@
+{
+  "id": 1358,
+  "nome": "Número de municípios, total e os com coleta de esgoto sanitário, por parte do sistema de esgotamento sanitário onde estão sendo feitas ampliações ou melhorias",
+  "URL": "https://sidra.ibge.gov.br/tabela/1358",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 336,
+      "nome": "Municípios com coleta de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000336,
+      "nome": "Municípios com coleta de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12014,
+      "nome": "Parte do sistema de esgotamento sanitário onde estão sendo feitas ampliações ou melhorias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2083,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2084,
+          "nome": "Total de municípios com coleta de esgoto sanitário com ampliações ou melhorias",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 7893,
+          "nome": "Ligações prediais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98792,
+          "nome": "Redes coletoras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98793,
+          "nome": "Interceptores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98794,
+          "nome": "Estações elevatórias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98795,
+          "nome": "Estações de tratamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98796,
+          "nome": "Emissários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98797,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98798,
+          "nome": "Não estão sendo feitas ampliações ou melhorias",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 5448,
+  "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, por motivo de não atendimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/5448",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Uso de serviço de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5390,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5391,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5392,
+      "nome": "Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5393,
+      "nome": "Coeficiente de variação - Pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5394,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5395,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5396,
+      "nome": "Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5397,
+      "nome": "Coeficiente de variação - Percentual de pessoas que procuraram atendimento de saúde nas duas últimas semanas anteriores à data da pesquisa e não conseguiram atendimento na primeira vez que procuraram",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12285,
+      "nome": "Motivo do não atendimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33352,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 105052,
+          "nome": "Não conseguiram vaga ou pegar senha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105053,
+          "nome": "Não havia médico atendendo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 105058,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

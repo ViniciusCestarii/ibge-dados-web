@@ -1,0 +1,126 @@
+{
+  "id": 6378,
+  "nome": "Percentual de escolares com idade de 13 a 17 anos que apresentaram excesso de peso, por sexo, dependência administrativa da escola e grupo de idade do escolar",
+  "URL": "https://sidra.ibge.gov.br/tabela/6378",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Antropometria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 8196,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos que apresentaram excesso de peso",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8227,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos que apresentaram excesso de peso, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 8330,
+      "nome": "Percentual de escolares com idade de 13 a 17 anos que apresentaram excesso de peso, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "nome": "Dependência administrativa da escola",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31050,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31052,
+          "nome": "Pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31051,
+          "nome": "Privada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 40087,
+          "nome": "13 a 17 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 40088,
+          "nome": "13 a 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92981,
+          "nome": "16 e 17 anos",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

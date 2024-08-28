@@ -1,0 +1,307 @@
+{
+  "id": 3296,
+  "nome": "Número de aquisições e Distribuição do número de aquisições, por locais de compra e grupos e tipos de despesa - agregação 2",
+  "URL": "https://sidra.ibge.gov.br/tabela/3296",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Aquisição",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 301,
+      "nome": "Número de aquisições",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000301,
+      "nome": "Número de aquisições - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 313,
+      "nome": "Grupos e tipos de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12730,
+          "nome": "Combustíveis domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12737,
+          "nome": "Manutenção e reforma com habitação e jazigo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12738,
+          "nome": "Manutenção e reforma com habitação e jazigo - serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12739,
+          "nome": "Manutenção e reforma com habitação e jazigo - tinta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12740,
+          "nome": "Manutenção e reforma com habitação e jazigo - materiais gerais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12741,
+          "nome": "Consertos e artigos do lar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12742,
+          "nome": "Eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12743,
+          "nome": "Eletrodomésticos - TV em cores",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12744,
+          "nome": "Eletrodomésticos - chuveiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12745,
+          "nome": "Eletrodomésticos - DVD",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12746,
+          "nome": "Eletrodomésticos - ferro elétrico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12747,
+          "nome": "Eletrodomésticos - fogão a gás",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12748,
+          "nome": "Eletrodomésticos - geladeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12749,
+          "nome": "Eletrodomésticos - micorcomputador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12750,
+          "nome": "Eletrodomésticos - outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12751,
+          "nome": "Utensílios domésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12752,
+          "nome": "Utensílios domésticos - filtro de água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12753,
+          "nome": "Utensílios domésticos - ferramentas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12754,
+          "nome": "Utensílios domésticos - utensílios de plástico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12755,
+          "nome": "Utensílios domésticos - copo de vidro comum",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12756,
+          "nome": "Utensílios domésticos - outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7051,
+          "nome": "Mobiliários",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12757,
+          "nome": "Mobiliários - cama",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12758,
+          "nome": "Mobiliários - colchão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12759,
+          "nome": "Mobiliários - armário simples, duplex, etc.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12760,
+          "nome": "Mobiliários - outros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 7056,
+          "nome": "Decoração e forração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12787,
+          "nome": "Decoração e forração - Tapete de sala ou quarto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12788,
+          "nome": "Decoração e forração - cortina pronta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12789,
+          "nome": "Decoração e forração - enfeites de árvores de natal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12790,
+          "nome": "Decoração e forração - outros",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "nome": "Locais de compra",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6231,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12699,
+          "nome": "Loja de eletrodomésticos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6997,
+          "nome": "Loja de materiais de construção",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6995,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12700,
+          "nome": "Depósito em geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12701,
+          "nome": "Loja de móveis",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6998,
+          "nome": "Supermercado e hipermercado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12698,
+          "nome": "Ambulante",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3580,
+          "nome": "Outros",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6993,
+          "nome": "Ignorado",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

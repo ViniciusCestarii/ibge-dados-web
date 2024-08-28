@@ -1,0 +1,206 @@
+{
+  "id": 4050,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência, por tempo de permanência no trabalho principal, sexo e posição na ocupação no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4050",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12043,
+      "nome": "Tempo de permanência no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99376,
+          "nome": "Até 5 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99377,
+          "nome": "6 a 11 meses",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99378,
+          "nome": "1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99379,
+          "nome": "2 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99380,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99381,
+          "nome": "10 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 92956,
+          "nome": "Homem",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92957,
+          "nome": "Mulher",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12029,
+      "nome": "Posição na ocupação no trabalho principal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99163,
+          "nome": "Empregado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99164,
+          "nome": "Empregado - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99165,
+          "nome": "Empregado - militar e funcionário público estatutário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99166,
+          "nome": "Empregado - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99168,
+          "nome": "Trabalhador doméstico",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99372,
+          "nome": "Trabalhador doméstico - com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99373,
+          "nome": "Trabalhador doméstico - sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99358,
+          "nome": "Empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99357,
+          "nome": "Conta própria",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 99375,
+          "nome": "Trabalhador na construção para o próprio uso",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99171,
+          "nome": "Trabalhador na produção para o próprio consumo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99170,
+          "nome": "Não remunerado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

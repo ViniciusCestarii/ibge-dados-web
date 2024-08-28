@@ -1,0 +1,128 @@
+{
+  "id": 4711,
+  "nome": "Domicílios recenseados, por espécie",
+  "URL": "https://sidra.ibge.gov.br/tabela/4711",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 617,
+      "nome": "Domicílios recenseados",
+      "unidade": "Domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000617,
+      "nome": "Domicílios recenseados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 3,
+      "nome": "Espécie",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 59993,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9697,
+          "nome": "Particular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2504,
+          "nome": "Particular permanente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 59998,
+          "nome": "Particular permanente ocupado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 59999,
+          "nome": "Particular permanente ocupado - com entrevista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 60000,
+          "nome": "Particular permanente ocupado - sem entrevista",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 60001,
+          "nome": "Particular permanente não ocupado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 60002,
+          "nome": "Particular permanente não ocupado - vago",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 60003,
+          "nome": "Particular permanente não ocupado - uso ocasional",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2505,
+          "nome": "Particular improvisado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103995,
+          "nome": "Coletivo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 10004,
+          "nome": "Coletivo - com morador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10005,
+          "nome": "Coletivo - sem morador",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

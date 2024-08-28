@@ -1,0 +1,87 @@
+{
+  "id": 7590,
+  "nome": "Indicador 5.5.1 - Proporção de assentos ocupados por mulheres eleitas em governos locais, por cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/7590",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Igualdade de gênero",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9727,
+      "nome": "Número de assentos na Câmara de Vereadores",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 9728,
+      "nome": "Número de assentos ocupados por mulheres na Câmara de Vereadores",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 9729,
+      "nome": "Proporção de assentos ocupados por mulheres na Câmara de Vereadores",
+      "unidade": "Proporção (%)",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2778,
+          "nome": "Amarela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2780,
+          "nome": "Indígena",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 4992,
+  "nome": "Pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção, por sexo e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4992",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 5300,
+      "nome": "Pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5301,
+      "nome": "Pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5302,
+      "nome": "Pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5303,
+      "nome": "Coeficiente de variação - Pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5304,
+      "nome": "Percentual de pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5305,
+      "nome": "Percentual de pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5306,
+      "nome": "Percentual de pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5307,
+      "nome": "Coeficiente de variação - Percentual de pessoas que tinham plano de saúde (médico ou odontológico) por mais de um ano sem interrupção",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 1002,
+  "nome": "Área plantada, área colhida, quantidade produzida e rendimento médio de feijão, 1ª, 2ª e 3ª safras",
+  "URL": "https://sidra.ibge.gov.br/tabela/1002",
+  "pesquisa": "Produção Agrícola Municipal",
+  "assunto": "Lavouras temporárias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2003,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 109,
+      "nome": "Área plantada",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000109,
+      "nome": "Área plantada - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 216,
+      "nome": "Área colhida",
+      "unidade": "Hectares",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000216,
+      "nome": "Área colhida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 214,
+      "nome": "Quantidade produzida",
+      "unidade": "Toneladas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000214,
+      "nome": "Quantidade produzida - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 112,
+      "nome": "Rendimento médio da produção",
+      "unidade": "Quilogramas por Hectare",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 81,
+      "nome": "Produto das lavouras temporárias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31693,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 117991,
+          "nome": "Feijão (em grão) - 1ª safra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117992,
+          "nome": "Feijão (em grão) - 2ª safra",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 117993,
+          "nome": "Feijão (em grão) - 3ª safra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

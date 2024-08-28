@@ -1,0 +1,69 @@
+{
+  "id": 43,
+  "nome": "Quantidade de equídeos abatidos",
+  "URL": "https://sidra.ibge.gov.br/tabela/43",
+  "pesquisa": "Pesquisa Mensal de Abate de Animais",
+  "assunto": "Abate de animais",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198901,
+    "fim": 199612
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 33,
+      "nome": "Quantidade de animais abatidos",
+      "unidade": "Cabeças",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000033,
+      "nome": "Quantidade de animais abatidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 20,
+      "nome": "Equídeos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 994,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 62,
+          "nome": "Muares",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60,
+          "nome": "Asininos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 61,
+          "nome": "Equinos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

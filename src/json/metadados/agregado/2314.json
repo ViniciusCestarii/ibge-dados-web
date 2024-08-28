@@ -1,0 +1,111 @@
+{
+  "id": 2314,
+  "nome": "Rendimento monetário e não monetário médio mensal familiar - valor e distribuição - por tipos de origem dos rendimentos e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/2314",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1206,
+      "nome": "Rendimento monetário e não monetário médio mensal familiar",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1205,
+      "nome": "Distribuição do rendimento monetário e não monetário médio mensal familiar",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 4908,
+      "nome": "Origem dos rendimentos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103423,
+          "nome": "Rendimento total",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103424,
+          "nome": "Rendimento do trabalho",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103428,
+          "nome": "Transferência",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103434,
+          "nome": "Rendimento de aluguel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103437,
+          "nome": "Outros rendimentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 103442,
+          "nome": "Rendimento não monetário",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

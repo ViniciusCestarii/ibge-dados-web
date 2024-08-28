@@ -1,0 +1,132 @@
+{
+  "id": 5168,
+  "nome": "Domicílios particulares permanentes e moradores em domicílios particulares permanentes, total e distribuição, por situação do domicílio e existência de microcomputador ou tablet no domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/5168",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2225,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2228,
+      "nome": "Coeficiente de variação - Moradores em domicílios particulares permanentes",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5504,
+      "nome": "Percentual de domicílios particulares permanentes, distribuído pela existência de microcomputador ou tablet no domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5674,
+      "nome": "Coeficiente de variação - Percentual de domicílios particulares permanentes, distribuído pela existência de microcomputador ou tablet no domicílio",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5505,
+      "nome": "Percentual de moradores em domicílios particulares permanentes, distribuído pela existência de microcomputador ou tablet no domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5675,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios particulares permanentes, distribuído pela existência de microcomputador ou tablet no domicílio",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "nome": "Existência de microcomputador ou tablet no domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33295,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33296,
+          "nome": "Havia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33297,
+          "nome": "Não havia",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

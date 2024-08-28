@@ -1,0 +1,103 @@
+{
+  "id": 26,
+  "nome": "Domicílios particulares e coletivos, por situação e condição na ocupação - Sinopse",
+  "URL": "https://sidra.ibge.gov.br/tabela/26",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1,
+      "nome": "Domicílios particulares e coletivos - Sinopse",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000001,
+      "nome": "Domicílios particulares e coletivos - Sinopse - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "nome": "Condição na ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6192,
+          "nome": "Coletivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6193,
+          "nome": "Particulares não ocupados",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6194,
+          "nome": "Particulares ocupados",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

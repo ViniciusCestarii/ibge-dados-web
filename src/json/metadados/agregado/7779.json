@@ -1,0 +1,121 @@
+{
+  "id": 7779,
+  "nome": "Número médio de cigarros fumados por dia entre os fumantes diários, por nível de instrução e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/7779",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Tabagismo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N22",
+      "N21"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 11080,
+      "nome": "Número médio de cigarros fumados por dia entre os fumantes diários",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 11081,
+      "nome": "Número médio de cigarros fumados por dia entre os fumantes diários, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 11082,
+      "nome": "Número médio de cigarros fumados por dia entre os fumantes diários, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 11083,
+      "nome": "Coeficiente de variação - Número médio de cigarros fumados por dia entre os fumantes diários",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1568,
+      "nome": "Nível de instrução",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120704,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 9493,
+          "nome": "Sem instrução e fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9494,
+          "nome": "Fundamental completo e médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9495,
+          "nome": "Médio completo e superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99713,
+          "nome": "Superior completo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": 4459,
+  "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados, por condição em relação à força de trabalho na semana de referência e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4459",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Doenças crônicas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4432,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4433,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4434,
+      "nome": "Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4873,
+      "nome": "Coeficiente de variação - Pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4435,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4436,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4437,
+      "nome": "Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 4874,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 18 anos ou mais de idade que referem diagnóstico médico de hipertensão arterial, e para as quais foram solicitados exames complementares, e conseguiram fazer todos os exames solicitados",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 653,
+      "nome": "Condição em relação à força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32862,
+          "nome": "Na força de trabalho - Ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32863,
+          "nome": "Na força de trabalho - Desocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32864,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

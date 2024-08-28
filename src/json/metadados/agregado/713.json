@@ -1,0 +1,93 @@
+{
+  "id": 713,
+  "nome": "Casamentos entre cônjuges masculino e feminino, por nacionalidade da mulher e do homem",
+  "URL": "https://sidra.ibge.gov.br/tabela/713",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Casamentos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1984,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 221,
+      "nome": "Número de casamentos entre cônjuges masculino e feminino",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000221,
+      "nome": "Número de casamentos entre cônjuges masculino e feminino - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 250,
+      "nome": "Nacionalidade da mulher",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5630,
+          "nome": "Brasileira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5631,
+          "nome": "Estrangeira",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "nome": "Nacionalidade do homem",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5628,
+          "nome": "Brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5629,
+          "nome": "Estrangeiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

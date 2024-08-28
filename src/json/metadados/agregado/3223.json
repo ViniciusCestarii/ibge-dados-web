@@ -1,0 +1,291 @@
+{
+  "id": 3223,
+  "nome": "Óbitos de pessoas que haviam residido com moradores dos domicílios particulares, ocorridos de agosto de 2009 a julho de 2010, por situação do domicílio, sexo e grupo de idade da pessoa falecida",
+  "URL": "https://sidra.ibge.gov.br/tabela/3223",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Mortalidade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 2618,
+      "nome": "Óbitos de pessoas que haviam residido com moradores dos domicílios particulares, ocorridos de agosto de 2009 a julho de 2010",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002618,
+      "nome": "Óbitos de pessoas que haviam residido com moradores dos domicílios particulares, ocorridos de agosto de 2009 a julho de 2010 - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 462,
+      "nome": "Situação do domicílio da pessoa falecida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12103,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12104,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "nome": "Sexo da pessoa falecida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3090,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3091,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12102,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "nome": "Grupos de idade da pessoa falecida",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5898,
+          "nome": "Menos de 1 ano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3092,
+          "nome": "Menos de 1 mês",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3093,
+          "nome": "1 a 3 meses",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3094,
+          "nome": "4 a 6 meses",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 3095,
+          "nome": "7 a 11 meses",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 5899,
+          "nome": "1 a 4 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5900,
+          "nome": "5 a 9 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5901,
+          "nome": "10 a 14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5902,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5903,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5904,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5905,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5906,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5907,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5908,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5909,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5910,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5911,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5912,
+          "nome": "65 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5913,
+          "nome": "70 a 74 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5914,
+          "nome": "75 a 79 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5915,
+          "nome": "80 a 84 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5917,
+          "nome": "85 a 89 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5918,
+          "nome": "90 a 94 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5919,
+          "nome": "95 a 99 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5920,
+          "nome": "100 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12091,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

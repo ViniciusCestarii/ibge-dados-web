@@ -1,0 +1,110 @@
+{
+  "id": 1242,
+  "nome": "Número de municípios, total e os com manejo de resíduos sólidos, por natureza dos serviços",
+  "URL": "https://sidra.ibge.gov.br/tabela/1242",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2594,
+      "nome": "Municípios com manejo de residuos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002594,
+      "nome": "Municípios com manejo de residuos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2646,
+      "nome": "Natureza dos serviços",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103366,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121205,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121206,
+          "nome": "Coleta domiciliar regular de lixo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103370,
+          "nome": "Coleta seletiva",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99987,
+          "nome": "Limpeza pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121207,
+          "nome": "Triagem de recicláveis",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121208,
+          "nome": "Coleta de resíduos especiais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 539,
+          "nome": "Tratamento de resíduos sólidos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 540,
+          "nome": "Disposição de resíduos sólidos no solo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 4892,
+  "nome": "Rendimento médio e mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade, por posse de telefone móvel celular para uso pessoal",
+  "URL": "https://sidra.ibge.gov.br/tabela/4892",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5014,
+      "nome": "Rendimento médio mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5624,
+      "nome": "Coeficiente de variação - Rendimento médio mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5015,
+      "nome": "Rendimento mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Reais",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5625,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal domiciliar per capita das pessoas de 10 anos ou mais de idade",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 427,
+      "nome": "Posse de telefone móvel celular para uso pessoal",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 11326,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 11327,
+          "nome": "Possuíam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 11328,
+          "nome": "Não possuíam",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

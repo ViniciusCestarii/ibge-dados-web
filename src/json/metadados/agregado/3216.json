@@ -1,0 +1,399 @@
+{
+  "id": 3216,
+  "nome": "Domicílios particulares permanentes e Moradores em domicílios particulares permanentes, por situação do domicílio, segundo o tipo do domicílio, a condição de ocupação, a existência de banheiro ou sanitário e esgotamento sanitário e a existência e número de banheiros de uso exclusivo do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/3216",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N102",
+      "N1",
+      "N10",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N11",
+      "N3"
+    ],
+    "Especial": [
+      "N23"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 137,
+      "nome": "Moradores em domicílios particulares permanentes",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000137,
+      "nome": "Moradores em domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Tipo de domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6815,
+          "nome": "Casa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121264,
+          "nome": "Casa de vila ou em condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3247,
+          "nome": "Apartamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121265,
+          "nome": "Habitação em casa de cômodos, cortiço ou cabeça de porco",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 121266,
+          "nome": "Oca ou maloca",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Condição de ocupação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2518,
+          "nome": "Próprio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 92873,
+          "nome": "Próprio já quitado",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 9893,
+          "nome": "Próprio em aquisição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1055,
+          "nome": "Alugado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2519,
+          "nome": "Cedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1056,
+          "nome": "Cedido por empregador",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 92872,
+          "nome": "Cedido de outra forma",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1058,
+          "nome": "Outra condição",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "nome": "Existência de banheiro ou sanitário e esgotamento sanitário",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2944,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2945,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2946,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2947,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2948,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2949,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2950,
+          "nome": "Tinham banheiro - de uso exclusivo do domicílio - outro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2958,
+          "nome": "Tinham sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2959,
+          "nome": "Tinham sanitário - rede geral de esgoto ou pluvial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2960,
+          "nome": "Tinham sanitário - fossa séptica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2961,
+          "nome": "Tinham sanitário - fossa rudimentar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2962,
+          "nome": "Tinham sanitário - vala",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2963,
+          "nome": "Tinham sanitário - rio, lago ou mar",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2964,
+          "nome": "Tinham sanitário - outro escoadouro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 10006,
+          "nome": "Não tinham banheiro nem sanitário",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "nome": "Existência e número de banheiros de uso exclusivo do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2966,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2967,
+          "nome": "Tinham - 1 banheiro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2968,
+          "nome": "Tinham - 2 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2995,
+          "nome": "Tinham - 3 banheiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 2996,
+          "nome": "Tinham - 4 banheiros ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 7991,
+          "nome": "Tinham - 4 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7992,
+          "nome": "Tinham - 5 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7993,
+          "nome": "Tinham - 6 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7994,
+          "nome": "Tinham - 7 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7995,
+          "nome": "Tinham - 8 banheiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 7997,
+          "nome": "Tinham - 9 banheiros ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 2997,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

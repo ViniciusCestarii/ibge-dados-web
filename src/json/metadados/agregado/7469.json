@@ -1,0 +1,96 @@
+{
+  "id": 7469,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com geração de lodo no processo de tratamento de água, por destino do lodo gerado",
+  "URL": "https://sidra.ibge.gov.br/tabela/7469",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10647,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com geração de lodo no processo de tratamento de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11978,
+      "nome": "Destino do lodo gerado",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98606,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48569,
+          "nome": "Corpos d'água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48570,
+          "nome": "Tereno baldio, lixão ou aterro controlado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98557,
+          "nome": "Aterro sanitário",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48571,
+          "nome": "Estação de Tratamento de Esgoto - ETE",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48572,
+          "nome": "Uso na construção civil",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48573,
+          "nome": "Uso como insumo para agricultura",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98558,
+          "nome": "Incineração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98560,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

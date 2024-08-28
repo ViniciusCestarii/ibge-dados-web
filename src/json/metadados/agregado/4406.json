@@ -1,0 +1,747 @@
+{
+  "id": 4406,
+  "nome": "Casamentos, por mês do registro, estado civil dos cônjuges, grupos de idade dos cônjuges e lugar do registro",
+  "URL": "https://sidra.ibge.gov.br/tabela/4406",
+  "pesquisa": "Pesquisa Estatísticas do Registro Civil",
+  "assunto": "Casamentos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 4993,
+      "nome": "Número de casamentos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1004993,
+      "nome": "Número de casamentos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 221,
+      "nome": "Número de casamentos entre cônjuges masculino e feminino",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000221,
+      "nome": "Número de casamentos entre cônjuges masculino e feminino - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4373,
+      "nome": "Número de casamentos entre cônjuges masculinos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1004373,
+      "nome": "Número de casamentos entre cônjuges masculinos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 4374,
+      "nome": "Número de casamentos entre cônjuges femininos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1004374,
+      "nome": "Número de casamentos entre cônjuges femininos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 236,
+      "nome": "Mês do registro",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5337,
+          "nome": "Janeiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5338,
+          "nome": "Fevereiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5339,
+          "nome": "Março",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5340,
+          "nome": "Abril",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5341,
+          "nome": "Maio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5342,
+          "nome": "Junho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5343,
+          "nome": "Julho",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5344,
+          "nome": "Agosto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5345,
+          "nome": "Setembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5346,
+          "nome": "Outubro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5347,
+          "nome": "Novembro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5348,
+          "nome": "Dezembro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 664,
+      "nome": "Estado civil do primeiro cônjuge",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32960,
+          "nome": "Solteiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32961,
+          "nome": "Viúvo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32962,
+          "nome": "Divorciado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32963,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "nome": "Estado civil do segundo cônjuge",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32964,
+          "nome": "Solteiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32965,
+          "nome": "Viúvo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32966,
+          "nome": "Divorciado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32967,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "nome": "Grupo de idade do primeiro cônjuge",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32968,
+          "nome": "Menos de 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32969,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32970,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32971,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32972,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32973,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32974,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32975,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32976,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32977,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32978,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32979,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32980,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32981,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32982,
+          "nome": "25 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32983,
+          "nome": "26 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32984,
+          "nome": "27 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32985,
+          "nome": "28 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32986,
+          "nome": "29 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32987,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32988,
+          "nome": "30 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32989,
+          "nome": "31 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32990,
+          "nome": "32 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32991,
+          "nome": "33 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32992,
+          "nome": "34 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32993,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32994,
+          "nome": "35 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32995,
+          "nome": "36 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32996,
+          "nome": "37 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32997,
+          "nome": "38 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32998,
+          "nome": "39 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 32999,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33000,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33001,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33002,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33003,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33004,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33005,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 667,
+      "nome": "Grupo de idade do segundo cônjuge",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33006,
+          "nome": "Menos de 15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33007,
+          "nome": "15 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33008,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33009,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33010,
+          "nome": "17 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33011,
+          "nome": "18 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33012,
+          "nome": "19 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33013,
+          "nome": "20 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33014,
+          "nome": "20 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33015,
+          "nome": "21 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33016,
+          "nome": "22 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33017,
+          "nome": "23 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33018,
+          "nome": "24 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33019,
+          "nome": "25 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33020,
+          "nome": "25 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33021,
+          "nome": "26 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33022,
+          "nome": "27 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33023,
+          "nome": "28 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33024,
+          "nome": "29 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33025,
+          "nome": "30 a 34 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33026,
+          "nome": "30 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33027,
+          "nome": "31 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33028,
+          "nome": "32 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33029,
+          "nome": "33 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33030,
+          "nome": "34 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33031,
+          "nome": "35 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33032,
+          "nome": "35 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33033,
+          "nome": "36 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33034,
+          "nome": "37 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33035,
+          "nome": "38 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33036,
+          "nome": "39 anos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 33037,
+          "nome": "40 a 44 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33038,
+          "nome": "45 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33039,
+          "nome": "50 a 54 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33040,
+          "nome": "55 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33041,
+          "nome": "60 a 64 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33042,
+          "nome": "65 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33043,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

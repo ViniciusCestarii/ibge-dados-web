@@ -1,0 +1,122 @@
+{
+  "id": 6677,
+  "nome": "Domicílios e Moradores, por posse de bens",
+  "URL": "https://sidra.ibge.gov.br/tabela/6677",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 162,
+      "nome": "Domicílios",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5123,
+      "nome": "Coeficiente de variação - Domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10250,
+      "nome": "Percentual de domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10251,
+      "nome": "Coeficiente de variação - Percentual de domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10114,
+      "nome": "Moradores em domicílios",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10116,
+      "nome": "Coeficiente de variação - Moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10252,
+      "nome": "Percentual de moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10253,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 845,
+      "nome": "Posse de bens",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47557,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47552,
+          "nome": "Geladeira",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47553,
+          "nome": "Máquina de lavar roupa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47554,
+          "nome": "Carro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47555,
+          "nome": "Motocicleta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47556,
+          "nome": "Carro e motocicleta",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

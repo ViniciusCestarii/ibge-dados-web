@@ -1,0 +1,92 @@
+{
+  "id": 1788,
+  "nome": "Número de distritos cujas entidades prestadoras de serviço de abastecimento de água estabelecem tarifa mínima para consumo, por faixa de volume de consumo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1788",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 734,
+      "nome": "Número de distritos com tarifa mínima para consumo de água",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000734,
+      "nome": "Número de distritos com tarifa mínima para consumo de água - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11984,
+      "nome": "Faixa de volume de consumo de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98611,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98402,
+          "nome": "Até 5 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98403,
+          "nome": "Mais de 5 a 10 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98404,
+          "nome": "Mais de 10 a 15 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98405,
+          "nome": "Mais de 15 a 20 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98406,
+          "nome": "Mais de 20 m³",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98414,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 6733,
+  "nome": "Domicílios e Moradores com água canalizada, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/6733",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9978,
+      "nome": "Domicílios com água canalizada",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 9979,
+      "nome": "Coeficiente de variação - Domicílios com água canalizada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9980,
+      "nome": "Percentual de domicílios com água canalizada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9981,
+      "nome": "Coeficiente de variação - Percentual de domicílios com água canalizada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10123,
+      "nome": "Moradores em domicílios com água canalizada",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10124,
+      "nome": "Coeficiente de variação - Moradores em domicílios com água canalizada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10125,
+      "nome": "Percentual de moradores em domicílios com água canalizada",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10126,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios com água canalizada",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

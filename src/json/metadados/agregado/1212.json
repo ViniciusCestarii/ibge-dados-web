@@ -1,0 +1,64 @@
+{
+  "id": 1212,
+  "nome": "Total de municípios e proporção de municípios que possuem conselho de meio ambiente, por condição de atividade do conselho",
+  "URL": "https://sidra.ibge.gov.br/tabela/1212",
+  "pesquisa": "Indicadores de Desenvolvimento Sustentável",
+  "assunto": "Existência de conselhos municipais",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2001,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 101,
+      "nome": "Número de municípios com conselho de meio ambiente",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2555,
+      "nome": "Número de municípios com conselho de meio ambiente ativo",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 115,
+      "nome": "Proporção de municípios com conselho de meio ambiente",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 2556,
+      "nome": "Proporção de municípios com conselho de meio ambiente ativo",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    }
+  ],
+  "classificacoes": []
+}

@@ -1,0 +1,205 @@
+{
+  "id": 231,
+  "nome": "Domicílios particulares permanentes por número de cômodos, localização e situação",
+  "URL": "https://sidra.ibge.gov.br/tabela/231",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Domicílios",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 96,
+      "nome": "Domicílios particulares permanentes",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000096,
+      "nome": "Domicílios particulares permanentes - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 65,
+      "nome": "Número de cômodos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1059,
+          "nome": "1 cômodo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1060,
+          "nome": "2 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1061,
+          "nome": "3 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1062,
+          "nome": "4 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1063,
+          "nome": "5 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1064,
+          "nome": "6 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1065,
+          "nome": "7 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 1066,
+          "nome": "8 cômodos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 1067,
+          "nome": "9 cômodos",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 3359,
+          "nome": "10 cômodos",
+          "unidade": null,
+          "nivel": 5
+        },
+        {
+          "id": 3360,
+          "nome": "11 cômodos ou mais",
+          "unidade": null,
+          "nivel": 5
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "nome": "Localização",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1025,
+          "nome": "Casa isolada ou de condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1026,
+          "nome": "Casa em conjunto residencial popular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1027,
+          "nome": "Casa em aglomerado subnormal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1028,
+          "nome": "Apartamento isolado ou de condomínio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1029,
+          "nome": "Apartamento em conjunto residencial popular",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1030,
+          "nome": "Apartamento em aglomerado subnormal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1031,
+          "nome": "Cômodo(s)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

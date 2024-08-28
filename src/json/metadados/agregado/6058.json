@@ -1,0 +1,114 @@
+{
+  "id": 6058,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que já tiveram relação sexual, distribuído pelo número de parceiros, por sexo",
+  "URL": "https://sidra.ibge.gov.br/tabela/6058",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Saúde sexual e reprodutiva",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 7509,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que já tiveram relação sexual, distribuído pelo número de parceiros",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7510,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que já tiveram relação sexual, distribuído pelo número de parceiros, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7511,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental que já tiveram relação sexual, distribuído pelo número de parceiros, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "nome": "Número de parceiros sexuais do escolar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39840,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39841,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39842,
+          "nome": "2 ou 3 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39843,
+          "nome": "4 ou 5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39844,
+          "nome": "6 ou mais pessoas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

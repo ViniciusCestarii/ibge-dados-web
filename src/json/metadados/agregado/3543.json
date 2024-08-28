@@ -1,0 +1,868 @@
+{
+  "id": 3543,
+  "nome": "Pessoas com pelo menos nível superior de graduação concluído, por nível de instrução mais elevado concluído, segundo o sexo e as áreas gerais, específicas e detalhadas de formação do curso de nível mais elevado consluído",
+  "URL": "https://sidra.ibge.gov.br/tabela/3543",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1920,
+      "nome": "Pessoas com pelo menos nível superior de graduação concluído",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001920,
+      "nome": "Pessoas com pelo menos nível superior de graduação concluído - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 518,
+      "nome": "Nível de instrução mais elevado concluído",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14438,
+          "nome": "Superior de graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14439,
+          "nome": "Mestrado",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14440,
+          "nome": "Doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "nome": "Áreas gerais, específicas e detalhadas de formação do curso de nível mais elevado concluído",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 14441,
+          "nome": "Educação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14442,
+          "nome": "Educação - formação de professores e ciências da educação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14634,
+          "nome": "Educação - formação de professores e ciências da educação - formação de professores e ciências da educação (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14635,
+          "nome": "Educação - formação de professores e ciências da educação - ciência da educação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14636,
+          "nome": "Educação - formação de professores e ciências da educação - formação de professores de educação infantil",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14637,
+          "nome": "Educação - formação de professores e ciências da educação - formação de professores de educação básica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14638,
+          "nome": "Educação - formação de professores e ciências da educação - formação de professores com especialização em matérias específicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14639,
+          "nome": "Educação - formação de professores e ciências da educação - formação de professores de disciplinas profissionais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14443,
+          "nome": "Humanidades e artes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14444,
+          "nome": "Humanidades e artes - artes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14641,
+          "nome": "Humanidades e artes - artes - artes (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14642,
+          "nome": "Humanidades e artes - artes - belas artes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14643,
+          "nome": "Humanidades e artes - artes - música e artes cênicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14644,
+          "nome": "Humanidades e artes - artes - técnicas audiovisuais e produção de mídia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14645,
+          "nome": "Humanidades e artes - artes - design e estilismo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14646,
+          "nome": "Humanidades e artes - artes - artesanato",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14445,
+          "nome": "Humanidades e artes - humanidades e letras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14647,
+          "nome": "Humanidades e artes - humanidades e letras - humanidades e letras (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14648,
+          "nome": "Humanidades e artes - humanidades e letras - religião",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14649,
+          "nome": "Humanidades e artes - humanidades e letras - línguas e culturas estrangeiras",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14650,
+          "nome": "Humanidades e artes - humanidades e letras - língua materna (vernácula)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14651,
+          "nome": "Humanidades e artes - humanidades e letras - história e arqueologia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14652,
+          "nome": "Humanidades e artes - humanidades e letras - filosofia e ética",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14446,
+          "nome": "Ciências sociais, negócios e direito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14447,
+          "nome": "Ciências sociais, negócios e direito - ciências sociais e comportamentais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14653,
+          "nome": "Ciências sociais, negócios e direito - ciências sociais e comportamentais - ciências sociais e comportamentais (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14654,
+          "nome": "Ciências sociais, negócios e direito - ciências sociais e comportamentais - psicologia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14655,
+          "nome": "Ciências sociais, negócios e direito - ciências sociais e comportamentais - sociologia e estudos cullturais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14656,
+          "nome": "Ciências sociais, negócios e direito - ciências sociais e comportamentais - ciência política e educação cívica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14657,
+          "nome": "Ciências sociais, negócios e direito - ciências sociais e comportamentais - economia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14472,
+          "nome": "Ciências sociais, negócios e direito - jornalismo e informação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14658,
+          "nome": "Ciências sociais, negócios e direito - jornalismo e informação - comunicação (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14659,
+          "nome": "Ciências sociais, negócios e direito - jornalismo e informação - jornalismo e reportagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14660,
+          "nome": "Ciências sociais, negócios e direito - jornalismo e informação - biblioteconomia, informação, arquivos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14473,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14661,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - comércio e administração (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14662,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - vendas em atacado e varejo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14663,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - marketing e publicidade",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14664,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - finanças, bancos, seguros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14665,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - contabilidade e tributação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14666,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - gerenciamento e administração",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14667,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - secretariado e trabalhos de escritório",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14668,
+          "nome": "Ciências sociais, negócios e direito - comércio e administração - vida profissional",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14474,
+          "nome": "Ciências sociais, negócios e direito - direito",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14669,
+          "nome": "Ciências sociais, negócios e direito - direito - direito",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14475,
+          "nome": "Ciências, matemática e computação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14476,
+          "nome": "Ciências, matemática e computação - ciências da vida",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14670,
+          "nome": "Ciências, matemática e computação - ciências da vida - ciências da vida (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14671,
+          "nome": "Ciências, matemática e computação - ciências da vida - biologia e bioquímica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14672,
+          "nome": "Ciências, matemática e computação - ciências da vida - ciências ambientais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14477,
+          "nome": "Ciências, matemática e computação - ciências físicas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14673,
+          "nome": "Ciências, matemática e computação - ciências físicas - (cursos gerais ou combinados)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14674,
+          "nome": "Ciências, matemática e computação - ciências físicas - física",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14737,
+          "nome": "Ciências, matemática e computação - ciências físicas - química",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14675,
+          "nome": "Ciências, matemática e computação - ciências físicas - ciências da terra",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14499,
+          "nome": "Ciências, matemática e computação - matemática e estatística",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14676,
+          "nome": "Ciências, matemática e computação - matemática e estatística - matemática",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14677,
+          "nome": "Ciências, matemática e computação - matemática e estatística - estatística",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14500,
+          "nome": "Ciências, matemática e computação - computação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14678,
+          "nome": "Ciências, matemática e computação - computação - ciência da computação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14679,
+          "nome": "Ciências, matemática e computação - computação - uso do computador",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14680,
+          "nome": "Ciências, matemática e computação - computação - processamento da informação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14501,
+          "nome": "Engenharia, produção e construção",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14502,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14681,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas - engenharia e profissões da engenharia (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14682,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas - engenharia mecânica e metalurgia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14683,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas - eletricidade e energia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14684,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas - eletrônica e automação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14685,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas - química e engenharia de processos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14686,
+          "nome": "Engenharia, produção e construção - engenharia e profissões correlatas - veículos a motor, construção naval e aeronáutica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14503,
+          "nome": "Engenharia, produção e construção - produção e processamento",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14687,
+          "nome": "Engenharia, produção e construção - produção e processamento - fabricação e processamento (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14688,
+          "nome": "Engenharia, produção e construção - produção e processamento - processamento de alimentos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14689,
+          "nome": "Engenharia, produção e construção - produção e processamento - têxteis, roupas, calçados e couro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14690,
+          "nome": "Engenharia, produção e construção - produção e processamento - materiais (madeira, papel, plástico, vidro)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14691,
+          "nome": "Engenharia, produção e construção - produção e processamento - mineração e extração",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14504,
+          "nome": "Engenharia, produção e construção - recursos minerais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14692,
+          "nome": "Engenharia, produção e construção - recursos minerais - recursos minerais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14505,
+          "nome": "Engenharia, produção e construção - arquitetura e construção",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14693,
+          "nome": "Engenharia, produção e construção - arquitetura e construção - arquitetura e urbanismo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14694,
+          "nome": "Engenharia, produção e construção - arquitetura e construção - engenharia civil e de construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14506,
+          "nome": "Agricultura e veterinária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14507,
+          "nome": "Agricultura e veterinária - agricultura, florestas e recursos pesqueiros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14695,
+          "nome": "Agricultura e veterinária - agricultura, florestas e recursos pesqueiros - agricultura, silvicultura e recursos pesquieiros (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14696,
+          "nome": "Agricultura e veterinária - agricultura, florestas e recursos pesqueiros - produção agrícola e pecuária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14697,
+          "nome": "Agricultura e veterinária - agricultura, florestas e recursos pesqueiros - horticultura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14698,
+          "nome": "Agricultura e veterinária - agricultura, florestas e recursos pesqueiros - engenharia florestal - silvicultura",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14699,
+          "nome": "Agricultura e veterinária - agricultura, florestas e recursos pesqueiros - recursos pesqueiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14508,
+          "nome": "Agricultura e veterinária - veterinária",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14700,
+          "nome": "Agricultura e veterinária - veterinária - veterinária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14511,
+          "nome": "Saúde e bem-estar-social",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14512,
+          "nome": "Saúde e bem-estar-social - saúde",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14701,
+          "nome": "Saúde e bem-estar-social - saúde - saúde (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14702,
+          "nome": "Saúde e bem-estar-social - saúde - medicina",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14703,
+          "nome": "Saúde e bem-estar-social - saúde - enfermagem e atenção primária",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14704,
+          "nome": "Saúde e bem-estar-social - saúde - odontologia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14705,
+          "nome": "Saúde e bem-estar-social - saúde - tecnologias de diagnóstico e tratamento médico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14706,
+          "nome": "Saúde e bem-estar-social - saúde - terapia e reabilitação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14707,
+          "nome": "Saúde e bem-estar-social - saúde - farmácia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14513,
+          "nome": "Saúde e bem-estar-social - serviço social",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14708,
+          "nome": "Saúde e bem-estar-social - serviço social - atendimento à criança e serviços aos jovens",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14717,
+          "nome": "Saúde e bem-estar-social - serviço social - serviço social e orientação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14514,
+          "nome": "Serviços",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 14515,
+          "nome": "Serviços - serviços pessoais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14718,
+          "nome": "Serviços - serviços pessoais - serviços particulares (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14719,
+          "nome": "Serviços - serviços pessoais - hotelaria, restaurantes e serviços de alimentação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14720,
+          "nome": "Serviços - serviços pessoais - viagens, turismo e lazer",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14721,
+          "nome": "Serviços - serviços pessoais - esportes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14722,
+          "nome": "Serviços - serviços pessoais - ciências domésticas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14723,
+          "nome": "Serviços - serviços pessoais - serviços de beleza",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14516,
+          "nome": "Serviços - serviços de transportes",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14724,
+          "nome": "Serviços - serviços de transportes - serviços de transportes (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14725,
+          "nome": "Serviços - serviços de transportes - meios específicos de transportes",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14517,
+          "nome": "Serviços - proteção ambiental",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14726,
+          "nome": "Serviços - proteção ambiental - proteção ambiental (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14727,
+          "nome": "Serviços - proteção ambiental - tecnologia de proteção ambiental",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14728,
+          "nome": "Serviços - proteção ambiental - ambientes naturais e vida selvagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14729,
+          "nome": "Serviços - proteção ambiental - serviços comunitários de saneamento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14518,
+          "nome": "Serviços - serviços de segurança",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 14730,
+          "nome": "Serviços - serviços de segurança - serviços de segurança (cursos gerais)",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14731,
+          "nome": "Serviços - serviços de segurança - proteção de pessoas e propriedades",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14735,
+          "nome": "Serviços - serviços de segurança - saúde e segurança do trabalho",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14736,
+          "nome": "Serviços - serviços de segurança - setor militar e de defesa",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 14591,
+          "nome": "Área de formação mal-especificada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

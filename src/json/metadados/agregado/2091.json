@@ -1,0 +1,168 @@
+{
+  "id": 2091,
+  "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência por posição na ocupação, segundo o sexo e grupos de anos de estudo",
+  "URL": "https://sidra.ibge.gov.br/tabela/2091",
+  "pesquisa": "Censo Comum do Mercosul, Bolívia e Chile",
+  "assunto": "Atividade",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [],
+    "Especial": [
+      "N101",
+      "N111"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1001139,
+      "nome": "Pessoas de 15 anos ou mais de idade, ocupadas na semana de referência - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2399,
+      "nome": "Posição na ocupação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 120443,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120444,
+          "nome": "Assalariado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120445,
+          "nome": "Não assalariado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120446,
+          "nome": "Trabalhador familiar sem remuneração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 120447,
+          "nome": "Desocupados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 96661,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "nome": "Grupos de anos de estudo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95309,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3319,
+          "nome": "Sem instrução e menos de 1 ano",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100982,
+          "nome": "1 a 5 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1128,
+          "nome": "6 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100983,
+          "nome": "7 a 9 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100984,
+          "nome": "10 a 12 anos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100985,
+          "nome": "13 anos ou mais",
+          "unidade": null,
+          "nivel": 4
+        },
+        {
+          "id": 2796,
+          "nome": "Não determinados",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

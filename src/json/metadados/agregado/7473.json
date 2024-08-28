@@ -1,0 +1,66 @@
+{
+  "id": 7473,
+  "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com cobrança de tarifa pelo serviço, por forma de cálculo da tarifa",
+  "URL": "https://sidra.ibge.gov.br/tabela/7473",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10705,
+      "nome": "Municípios com serviço de esgotamento sanitário por rede coletora em funcionamento e com cobrança de tarifa pelo serviço",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 978,
+      "nome": "Forma de cálculo da tarifa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48806,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 48807,
+          "nome": "Proporcional à água",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48808,
+          "nome": "Esgoto micromedido",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 48809,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

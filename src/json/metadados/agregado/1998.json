@@ -1,0 +1,987 @@
+{
+  "id": 1998,
+  "nome": "Estrutura das receitas das empresas industriais com 5 ou mais pessoas ocupadas, segundo as divisões e os grupos de atividades",
+  "URL": "https://sidra.ibge.gov.br/tabela/1998",
+  "pesquisa": "Pesquisa Industrial Anual - Empresa",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1996,
+    "fim": 2007
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 630,
+      "nome": "Número de empresas",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000630,
+      "nome": "Número de empresas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 863,
+      "nome": "Receita total",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000863,
+      "nome": "Receita total - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 864,
+      "nome": "Receita líquida de vendas",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000864,
+      "nome": "Receita líquida de vendas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 865,
+      "nome": "Receita bruta de vendas de produtos industriais",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000865,
+      "nome": "Receita bruta de vendas de produtos industriais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 866,
+      "nome": "Receita bruta de revenda de mercadorias",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000866,
+      "nome": "Receita bruta de revenda de mercadorias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 642,
+      "nome": "Deduções",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000642,
+      "nome": "Deduções - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 867,
+      "nome": "Receitas financeiras",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000867,
+      "nome": "Receitas financeiras - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 674,
+      "nome": "Outras receitas operacionais",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000674,
+      "nome": "Outras receitas operacionais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 646,
+      "nome": "Receitas não-operacionais",
+      "unidade": "Mil Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000646,
+      "nome": "Receitas não-operacionais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11939,
+      "nome": "Classificação Nacional de Atividades Econômicas (CNAE)",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99738,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 96912,
+          "nome": "C Indústrias extrativas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96913,
+          "nome": "10 Extração de carvão mineral",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96914,
+          "nome": "10.0 Extração de carvão mineral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96915,
+          "nome": "11 Extração de petróleo e serviços relacionados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96917,
+          "nome": "11.1 Extração de petróleo e gás natural",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96918,
+          "nome": "11.2 Atividades de serviços relacionados com a extração de petróleo e gás - exceto a prospecção realizada por terceiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96919,
+          "nome": "13 Extração de minerais metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96920,
+          "nome": "13.1 Extração de minério de ferro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96921,
+          "nome": "13.2 Extração de minerais metálicos não-ferrosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96922,
+          "nome": "14 Extração de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96923,
+          "nome": "14.1 Extração de pedra, areia e argila",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96924,
+          "nome": "14.2 Extração de outros minerais não-metálicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96925,
+          "nome": "D Indústrias de transformação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 96926,
+          "nome": "15 Fabricação de produtos alimentícios e bebidas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96927,
+          "nome": "15.1 Abate e preparação de produtos de carne e de pescado",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96928,
+          "nome": "15.2 Processamento, preservação e produção de conservas de frutas, legumes e outros vegetais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96929,
+          "nome": "15.3 Produção de óleos e gorduras vegetais e animais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96930,
+          "nome": "15.4 Laticínios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96931,
+          "nome": "15.5 Moagem, fabricação de produtos amiláceos e de rações balanceadas para animais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96932,
+          "nome": "15.6 Fabricação e refino de açúcar",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96933,
+          "nome": "15.7 Torrefação e moagem de café",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96934,
+          "nome": "15.8 Fabricação de outros produtos alimentícios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96935,
+          "nome": "15.9 Fabricação de bebidas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96936,
+          "nome": "16 Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96937,
+          "nome": "16.0 Fabricação de produtos do fumo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96938,
+          "nome": "17 Fabricação de produtos têxteis",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96939,
+          "nome": "17.1 Beneficiamento de fibras têxteis naturais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96940,
+          "nome": "17.2 Fiação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96941,
+          "nome": "17.3 Tecelagem - inclusive fiação e tecelagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96942,
+          "nome": "17.4 Fabricação de artefatos têxteis, incluindo tecelagem",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96943,
+          "nome": "17.5 Acabamentos em fios, tecidos e artigos têxteis, por terceiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96944,
+          "nome": "17.6 Fabricação de artefatos têxteis a partir de tecidos - exceto vestuário - e de outros artigos têxteis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96946,
+          "nome": "17.7 Fabricação de tecidos e artigos de malha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96947,
+          "nome": "18 Confecção de artigos do vestuário e acessórios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96948,
+          "nome": "18.1 Confecção de artigos do vestuário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96949,
+          "nome": "18.2 Fabricação de acessórios do vestuário e de segurança profissional",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96950,
+          "nome": "19 Preparação de couros e fabricação de artefatos de couro, artigos de viagem e calçados",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96951,
+          "nome": "19.1 Curtimento e outras preparações de couro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96952,
+          "nome": "19.2 Fabricação de artigos para viagem e de artefatos diversos de couro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96953,
+          "nome": "19.3 Fabricação de calçados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96954,
+          "nome": "20 Fabricação de produtos de madeira",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96955,
+          "nome": "20.1 Desdobramento de madeira",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96956,
+          "nome": "20.2 Fabricação de produtos de madeira, cortiça e material trançado - exceto móveis",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96957,
+          "nome": "21 Fabricação de celulose, papel e produtos de papel",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96958,
+          "nome": "21.1 Fabricação de celulose e outras pastas para a fabricação de papel",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96959,
+          "nome": "21.2 Fabricação de papel, papelão liso, cartolina e cartão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96960,
+          "nome": "21.3 Fabricação de embalagens de papel ou papelão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96961,
+          "nome": "21.4 Fabricação de artefatos diversos de papel, papelão, cartolina e cartão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96962,
+          "nome": "22 Edição, impressão e reprodução de gravações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96963,
+          "nome": "22.1 Edição; edição e impressão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96964,
+          "nome": "22.2 Impressão e serviços conexos para terceiros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96965,
+          "nome": "22.3 Reprodução de materiais gravados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96966,
+          "nome": "23 Fabricação de coque, refino de petróleo, elaboração de combustíveis nucleares e produção de álcool",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96967,
+          "nome": "23.1 Coquerias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96968,
+          "nome": "23.2 Fabricação de produtos derivados do petróleo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96969,
+          "nome": "23.3 Elaboração de combustíveis nucleares",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96970,
+          "nome": "23.4 Produção de álcool",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96971,
+          "nome": "24 Fabricação de produtos químicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96972,
+          "nome": "24.1 Fabricação de produtos químicos inorgânicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96973,
+          "nome": "24.2 Fabricação de produtos químicos orgânicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96974,
+          "nome": "24.3 Fabricação de resinas e elastômeros",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96976,
+          "nome": "24.4 Fabricação de fibras, fios, cabos e filamentos contínuos artificiais e sintéticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96977,
+          "nome": "24.5 Fabricação de produtos farmacêuticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96978,
+          "nome": "24.6 Fabricação de defensivos agrícolas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96979,
+          "nome": "24.7 Fabricação de sabões, detergentes, produtos de limpeza e artigos de perfumaria",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96980,
+          "nome": "24.8 Fabricação de tintas, vernizes, esmaltes, lacas e produtos afins",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96981,
+          "nome": "24.9 Fabricação de produtos e preparados químicos diversos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96982,
+          "nome": "25 Fabricação de artigos de borracha e plástico",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96983,
+          "nome": "25.1 Fabricação de artigos de borracha",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96984,
+          "nome": "25.2 Fabricação de produtos de plástico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96985,
+          "nome": "26 Fabricação de produtos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96986,
+          "nome": "26.1 Fabricação de vidro e de produtos do vidro",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96987,
+          "nome": "26.2 Fabricação de cimento",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96988,
+          "nome": "26.3 Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e estuque",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96989,
+          "nome": "26.4 Fabricação de produtos cerâmicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96990,
+          "nome": "26.9 Aparelhamento de pedras e fabricação de cal e de outros produtos de minerais não-metálicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96991,
+          "nome": "27 Metalurgia básica",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96992,
+          "nome": "27.1 Produção de ferro-gusa e de ferroligas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96993,
+          "nome": "27.2 Siderurgia",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96994,
+          "nome": "27.3 Fabricação de tubos - exceto em siderúrgicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96995,
+          "nome": "27.4 Metalurgia de metais não-ferrosos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96996,
+          "nome": "27.5 Fundição",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96997,
+          "nome": "28 Fabricação de produtos de metal - exceto máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 96998,
+          "nome": "28.1 Fabricação de estruturas metálicas e obras de caldeiraria pesada",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 96999,
+          "nome": "28.2 Fabricação de tanques, caldeiras e reservatórios metálicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97000,
+          "nome": "28.3 Forjaria, estamparia, metalurgia do pó e serviços de tratamento de metais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97001,
+          "nome": "28.4 Fabricação de artigos de cutelaria, de serralheria e ferramentas manuais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104289,
+          "nome": "28.8 Manutenção e reparação de tanques, caldeiras e reservatórios metálicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97002,
+          "nome": "28.9 Fabricação de produtos diversos de metal",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97003,
+          "nome": "29 Fabricação de máquinas e equipamentos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97004,
+          "nome": "29.1 Fabricação de motores, bombas, compressores e equipamentos de transmissão",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97005,
+          "nome": "29.2 Fabricação de máquinas e equipamentos de uso geral",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97006,
+          "nome": "29.3 Fabricação de tratores e de máquinas e equipamentos para a agricultura, avicultura e obtenção de produtos animais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97007,
+          "nome": "29.4 Fabricação de máquinas-ferramenta",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97008,
+          "nome": "29.5 Fabricação de máquinas e equipamentos de uso na extração mineral e construção",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97009,
+          "nome": "29.6 Fabricação de outras máquinas e equipamentos de uso específico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97011,
+          "nome": "29.7 Fabricação de armas, munições e equipamentos militares",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97012,
+          "nome": "29.8 Fabricação de eletrodomésticos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104290,
+          "nome": "29.9 Manutenção e reparação de máquinas e equipamentos industriais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97013,
+          "nome": "30 Fabricação de máquinas para escritório e equipamentos de informática",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97014,
+          "nome": "30.1 Fabricação de máquinas para escritório",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97015,
+          "nome": "30.2 Fabricação de máquinas e equipamentos de sistemas eletrônicos para processamento de dados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97016,
+          "nome": "31 Fabricação de máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97017,
+          "nome": "31.1 Fabricação de geradores, transformadores e motores elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97018,
+          "nome": "31.2 Fabricação de equipamentos para distribuição e controle de energia elétrica",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97019,
+          "nome": "31.3 Fabricação de fios, cabos e condutores elétricos isolados",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97020,
+          "nome": "31.4 Fabricação de pilhas, baterias e acumuladores elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97021,
+          "nome": "31.5 Fabricação de lâmpadas e equipamentos de iluminação",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97022,
+          "nome": "31.6 Fabricação de material elétrico para veículos - exceto baterias",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104291,
+          "nome": "31.8 Manutenção e reparação de máquinas, aparelhos e materiais elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97024,
+          "nome": "31.9 Fabricação de outros equipamentos e aparelhos elétricos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97025,
+          "nome": "32 Fabricação de material eletrônico e de aparelhos e equipamentos de comunicações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97026,
+          "nome": "32.1 Fabricação de material eletrônico básico",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97208,
+          "nome": "32.2 Fabricação de aparelhos e equipamentos de telefonia e radiotelefonia e de transmissores de televisão e rádio",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97028,
+          "nome": "32.3 Fabricação de aparelhos receptores de rádio e televisão e de reprodução, gravação ou amplificação de som e vídeo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104292,
+          "nome": "32.9 Manutenção e reparação de aparelhos e equipamentos de telefonia e radiotelefonia e de transmissores de televisão e rádio - exceto telefones",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97029,
+          "nome": "33 Fabricação de equipamentos de instrumentação médico-hospitalares, instrumentos de precisão e ópticos, equipamentos para automação industrial, cronômetros e relógios",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97030,
+          "nome": "33.1 Fabricação de aparelhos e instrumentos para usos médicos-hospitalares, odontológicos e de laboratórios e aparelhos ortopédicos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97031,
+          "nome": "33.2 Fabricação de aparelhos e instrumentos de medida, teste e controle - exceto equipamentos para controle de processos industriais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97032,
+          "nome": "33.3 Fabricação de máquinas, aparelhos e equipamentos de sistemas eletrônicos dedicados à automação industrial e controle do processo produtivo",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97033,
+          "nome": "33.4 Fabricação de aparelhos, instrumentos e materiais ópticos, fotográficos e cinematográficos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97034,
+          "nome": "33.5 Fabricação de cronômetros e relógios",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 104293,
+          "nome": "33.9 Manutenção e reparação de equipamentos médico-hospitalares, instrumentos de precisão e ópticos e equipamentos para automação industrial",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97035,
+          "nome": "34 Fabricação e montagem de veículos automotores, reboques e carrocerias",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97036,
+          "nome": "34.1 Fabricação de automóveis, caminhonetas e utilitários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97037,
+          "nome": "34.2 Fabricação de caminhões e ônibus",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97038,
+          "nome": "34.3 Fabricação de cabines, carrocerias e reboques",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97039,
+          "nome": "34.4 Fabricação de peças e acessórios para veículos automotores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97040,
+          "nome": "34.5 Recondicionamento ou recuperação de motores para veículos automotores",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97041,
+          "nome": "35 Fabricação de outros equipamentos de transporte",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97042,
+          "nome": "35.1 Construção e reparação de embarcações",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97043,
+          "nome": "35.2 Construção, montagem e reparação de veículos ferroviários",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97044,
+          "nome": "35.3 Construção, montagem e reparação de aeronaves",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97045,
+          "nome": "35.9 Fabricação de outros equipamentos de transporte",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97046,
+          "nome": "36 Fabricação de móveis e indústrias diversas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97047,
+          "nome": "36.1 Fabricação de artigos do mobiliário",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97048,
+          "nome": "36.9 Fabricação de produtos diversos",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97049,
+          "nome": "37 Reciclagem",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 97050,
+          "nome": "37.1 Reciclagem de sucatas metálicas",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 97051,
+          "nome": "37.2 Reciclagem de sucatas não-metálicas",
+          "unidade": null,
+          "nivel": 3
+        }
+      ]
+    }
+  ]
+}

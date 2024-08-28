@@ -1,0 +1,154 @@
+{
+  "id": 9703,
+  "nome": "Municípios, total, e com Plano Municipal de Cultura, por características do plano e classe de tamanho da população",
+  "URL": "https://sidra.ibge.gov.br/tabela/9703",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1529,
+      "nome": "Existência de Plano Municipal de Cultura",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58873,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 58874,
+          "nome": "Sim, por instrumento legal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58875,
+          "nome": "Sim, mas não é regulamentado por instrumento legal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58876,
+          "nome": "Em elaboração",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58877,
+          "nome": "Na fase de discussão com a sociedade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58878,
+          "nome": "Na fase de tramitação no Poder Executivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58879,
+          "nome": "Na fase de tramitação na Câmara Municipal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58880,
+          "nome": "Aguardando sanção pelo Poder Executivo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 58881,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

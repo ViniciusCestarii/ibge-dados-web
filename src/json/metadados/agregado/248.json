@@ -1,0 +1,194 @@
+{
+  "id": 248,
+  "nome": "Famílias por grupos de idade do chefe da família, número de componentes e sexo do chefe da família",
+  "URL": "https://sidra.ibge.gov.br/tabela/248",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Famílias",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 168,
+      "nome": "Famílias",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000168,
+      "nome": "Famílias - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 282,
+      "nome": "Grupos de idade do chefe da família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6200,
+          "nome": "10 a 19 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6201,
+          "nome": "20 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6202,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6203,
+          "nome": "40 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6204,
+          "nome": "50 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6205,
+          "nome": "60 a 69 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6206,
+          "nome": "70 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6199,
+          "nome": "Idade ignorada",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "nome": "Número de pessoas.",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3541,
+          "nome": "1 pessoa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3542,
+          "nome": "2 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3543,
+          "nome": "3 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3544,
+          "nome": "4 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3545,
+          "nome": "5 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3546,
+          "nome": "6 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3547,
+          "nome": "7 pessoas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3548,
+          "nome": "8 pessoas ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "nome": "Sexo do responsável pela família",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6197,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6198,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

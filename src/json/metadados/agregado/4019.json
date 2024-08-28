@@ -1,0 +1,73 @@
+{
+  "id": 4019,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por espaçamento predominante entre as construções",
+  "URL": "https://sidra.ibge.gov.br/tabela/4019",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 590,
+      "nome": "Espaçamento predominante entre as construções",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31388,
+          "nome": "Sem espaçamento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31389,
+          "nome": "Espaçamento médio",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31390,
+          "nome": "Espaçamento grande",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

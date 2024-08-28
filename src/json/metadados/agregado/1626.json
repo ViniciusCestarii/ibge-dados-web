@@ -1,0 +1,552 @@
+{
+  "id": 1626,
+  "nome": "Estrangeiros por condição, sexo, situação do domicílio e país de nascimento",
+  "URL": "https://sidra.ibge.gov.br/tabela/1626",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1991,
+    "fim": 1991
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 305,
+      "nome": "Estrangeiros",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000305,
+      "nome": "Estrangeiros - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11645,
+      "nome": "Condição do estrangeiro",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 94122,
+          "nome": "Naturalizado brasileiro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94123,
+          "nome": "Não naturalizado brasileiro",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1709,
+      "nome": "Pais de nascimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 21090,
+          "nome": "Argentina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94109,
+          "nome": "Belize",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21091,
+          "nome": "Bolívia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21092,
+          "nome": "Canadá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21093,
+          "nome": "Chile",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21094,
+          "nome": "Colômbia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21095,
+          "nome": "Costa Rica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21096,
+          "nome": "Cuba",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94121,
+          "nome": "El Salvador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21097,
+          "nome": "Equador",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21098,
+          "nome": "E.U.A.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21099,
+          "nome": "Guatemala",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94110,
+          "nome": "Guiana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21100,
+          "nome": "Guiana Francesa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21102,
+          "nome": "Haiti",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21103,
+          "nome": "Honduras",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21105,
+          "nome": "Jamaica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21106,
+          "nome": "México",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21107,
+          "nome": "Nicarágua",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21108,
+          "nome": "Panamá",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21109,
+          "nome": "Paraguai",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21110,
+          "nome": "Peru",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21111,
+          "nome": "República Dominicana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21113,
+          "nome": "Suriname",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21114,
+          "nome": "Uruguai",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21115,
+          "nome": "Venezuela",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94111,
+          "nome": "Outros países da América",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94112,
+          "nome": "Alemanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21119,
+          "nome": "Áustria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21120,
+          "nome": "Bélgica",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21121,
+          "nome": "Bulgária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21122,
+          "nome": "Dinamarca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21123,
+          "nome": "Espanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21124,
+          "nome": "Finlândia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21125,
+          "nome": "França",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21126,
+          "nome": "Grã Bretanha",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21127,
+          "nome": "Grécia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21128,
+          "nome": "Holanda",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21129,
+          "nome": "Hungria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21130,
+          "nome": "Irlanda (Eire)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21131,
+          "nome": "Itália",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21132,
+          "nome": "Iugoslávia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21133,
+          "nome": "Noruega",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21134,
+          "nome": "Polônia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21135,
+          "nome": "Portugal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21136,
+          "nome": "Romênia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21137,
+          "nome": "Suécia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21138,
+          "nome": "Suíça",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21139,
+          "nome": "Tchecoslováquia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21140,
+          "nome": "U.R.S.S.",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94113,
+          "nome": "Outros países da Europa",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94114,
+          "nome": "Angola",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94115,
+          "nome": "Egito",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94116,
+          "nome": "Moçambique",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94117,
+          "nome": "Outros países da África",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21144,
+          "nome": "China Continental",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94118,
+          "nome": "China (Formosa)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21146,
+          "nome": "Coréia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21147,
+          "nome": "Índia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21148,
+          "nome": "Israel",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21149,
+          "nome": "Japão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21150,
+          "nome": "Líbano",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21151,
+          "nome": "Paquistão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21152,
+          "nome": "Síria",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21153,
+          "nome": "Turquia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94119,
+          "nome": "Outros países da Ásia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 21155,
+          "nome": "Austrália",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94120,
+          "nome": "Outros países da Oceania",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 94108,
+          "nome": "País estrangeiro sem especificação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": 7445,
+  "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, de todos os trabalhos, a preços médios do último ano, por tipo de área geográfica",
+  "URL": "https://sidra.ibge.gov.br/tabela/7445",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Rendimento de todas as fontes",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10774,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 10775,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10776,
+      "nome": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, efetivamente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 10777,
+      "nome": "Coeficiente de variação - Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, efetivamente recebido em todos os trabalhos, a preços médios do último ano",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1031,
+      "nome": "Tipo de área geográfica",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49223,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49224,
+          "nome": "Residentes na capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49225,
+          "nome": "Residentes na Região Metropolitana, excluindo a capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49226,
+          "nome": "Residentes da RIDE (Região Integrada de Desenvolvimento Econômico), excluindo a capital",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49227,
+          "nome": "Residentes na Unidade da Federação, excluindo a região metropolitana e a RIDE",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

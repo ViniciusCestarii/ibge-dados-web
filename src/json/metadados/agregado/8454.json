@@ -1,0 +1,75 @@
+{
+  "id": 8454,
+  "nome": "Indicador 13.2.2 - Emissões de gases de efeito estufa direto, por fonte de emissão",
+  "URL": "https://sidra.ibge.gov.br/tabela/8454",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Desenvolvimento sustentável",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1990,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12341,
+      "nome": "Emissões de gases do efeito estufa diretos",
+      "unidade": "GT CO2 eq",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1340,
+      "nome": "Fonte de emissão de gases de efeito estufa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57203,
+          "nome": "Processos industriais e uso de produtos (IPPU)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57204,
+          "nome": "Agropecuária",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57205,
+          "nome": "Uso da Terra, Mudança do Uso da Terra e Florestas (LULUCF)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57206,
+          "nome": "Resíduos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57202,
+          "nome": "Energia",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

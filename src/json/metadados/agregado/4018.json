@@ -1,0 +1,73 @@
+{
+  "id": 4018,
+  "nome": "Domicílios particulares permanentes em aglomerados subnormais, por número de pavimentos predominante nas construções",
+  "URL": "https://sidra.ibge.gov.br/tabela/4018",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Aglomerado subnormal",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N20"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000749,
+      "nome": "Domicílios particulares permanentes em aglomerados subnormais - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 589,
+      "nome": "Número de pavimentos predominante nas construções",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31385,
+          "nome": "Um pavimento",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31386,
+          "nome": "Dois pavimentos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31387,
+          "nome": "Três pavimentos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

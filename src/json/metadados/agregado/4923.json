@@ -1,0 +1,134 @@
+{
+  "id": 4923,
+  "nome": "Domicílios particulares permanentes com televisão, total e percentual, e rendimento médio e mediano, mensal per capita dos domicílios particulares permanentes com televisão, por tipo de televisão e número de televisões",
+  "URL": "https://sidra.ibge.gov.br/tabela/4923",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5100,
+      "nome": "Domicílios particulares permanentes com televisão",
+      "unidade": "Mil domicílios",
+      "sumarizacao": []
+    },
+    {
+      "id": 5648,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5116,
+      "nome": "Rendimento médio mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5664,
+      "nome": "Coeficiente de variação - Rendimento médio mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5117,
+      "nome": "Rendimento mediano mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 5665,
+      "nome": "Coeficiente de variação - Rendimento mediano mensal per capita dos domicílios particulares permanentes com televisão",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5524,
+      "nome": "Percentual de domicílios particulares permanentes com televisão, distribuído pelo número de televisões",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5671,
+      "nome": "Coeficiente de variação - Percentual de domicílios particulares permanentes com televisão, distribuído pelo número de televisões",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 8787,
+      "nome": "Tipo de televisão",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33264,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33261,
+          "nome": "Tela fina",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33259,
+          "nome": "Televisão de tubo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 684,
+      "nome": "Número de televisões",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33291,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33265,
+          "nome": "1 televisão",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33266,
+          "nome": "2 televisões",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33267,
+          "nome": "3 televisões ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

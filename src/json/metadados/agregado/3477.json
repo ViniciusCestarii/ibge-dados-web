@@ -1,0 +1,111 @@
+{
+  "id": 3477,
+  "nome": "Pessoas de até 10 anos de idade, residentes em terras indígenas, total e indígenas, por existência e tipo de registro de nascimento, segundo as Terras Indígenas",
+  "URL": "https://sidra.ibge.gov.br/tabela/3477",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Terras indígenas",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1433,
+      "nome": "Pessoas de até 10 anos de idade, residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001433,
+      "nome": "Pessoas de até 10 anos de idade, residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 1434,
+      "nome": "Pessoas indígenas de até 10 anos de idade, residentes em terras indígenas",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001434,
+      "nome": "Pessoas indígenas de até 10 anos de idade, residentes em terras indígenas - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 297,
+      "nome": "Existência e tipo de registro de nascimento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12875,
+          "nome": "Tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12877,
+          "nome": "Registro de cartório",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12878,
+          "nome": "Declaração de nascido vivo - DNV - do hospital ou da maternidade",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12879,
+          "nome": "Registro administrativo de nascimento indígena - RANI",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 12876,
+          "nome": "Não tinham",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2767,
+          "nome": "Não sabiam",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2768,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

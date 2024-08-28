@@ -1,0 +1,580 @@
+{
+  "id": 400,
+  "nome": "Percentual da despesa média mensal familiar em alimentação por tipo de despesa e classes de recebimento mensal familiar",
+  "URL": "https://sidra.ibge.gov.br/tabela/400",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 1987,
+    "fim": 1995
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6",
+      "N7"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 174,
+      "nome": "Percentual da despesa média mensal familiar em alimentação",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 210,
+      "nome": "Tipo de despesa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 5764,
+          "nome": "Despesa em alimentação",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5473,
+          "nome": "Alimentação no domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5474,
+          "nome": "Cereais, leguminosas e oleaginosas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5765,
+          "nome": "Arroz",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5766,
+          "nome": "Feijão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5767,
+          "nome": "Outros (cereais, leguminosas e oleaginosas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5475,
+          "nome": "Farinhas, féculas e massas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5768,
+          "nome": "Macarrão",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5769,
+          "nome": "Farinha de trigo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5770,
+          "nome": "Farinha de mandioca",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5771,
+          "nome": "Outras (farinhas, féculas e massas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5476,
+          "nome": "Tubérculos e raízes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5772,
+          "nome": "Batata inglesa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5773,
+          "nome": "Cenoura",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5774,
+          "nome": "Outros (tubérculos e raízes)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5477,
+          "nome": "Açúcares e derivados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5775,
+          "nome": "Açúcar refinado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5776,
+          "nome": "Açúcar cristal",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5777,
+          "nome": "Outros (açúcares e derivados)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5478,
+          "nome": "Legumes e verduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5778,
+          "nome": "Tomate",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5779,
+          "nome": "Cebola",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5780,
+          "nome": "Alface",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5781,
+          "nome": "Outros (legumes e verduras)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5479,
+          "nome": "Frutas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5782,
+          "nome": "Banana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5783,
+          "nome": "Laranja",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5784,
+          "nome": "Maçã",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5785,
+          "nome": "Outras frutas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5822,
+          "nome": "Carnes, vísceras e pescados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5786,
+          "nome": "Carne de boi de primeira",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5787,
+          "nome": "Carne de boi de segunda",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5788,
+          "nome": "Carne de suíno",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5482,
+          "nome": "Carnes e peixes industrializados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5789,
+          "nome": "Pescados frescos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5790,
+          "nome": "Outros (carnes, vísceras e pescados)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5483,
+          "nome": "Aves e ovos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5791,
+          "nome": "Frango",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5792,
+          "nome": "Ovo de galinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5793,
+          "nome": "Outros (aves e ovos)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5484,
+          "nome": "Leites e derivados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5794,
+          "nome": "Leite pasteurizado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5795,
+          "nome": "Leite em pó integral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5796,
+          "nome": "Queijo tipo prato",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5797,
+          "nome": "Outros (leites e derivados)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5485,
+          "nome": "Panificados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5798,
+          "nome": "Pão francês",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5799,
+          "nome": "Biscoito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5800,
+          "nome": "Outros panificados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5486,
+          "nome": "Óleos e gorduras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5801,
+          "nome": "Óleo de soja",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5802,
+          "nome": "Azeite de oliva",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5803,
+          "nome": "Outros (óleos e gorduras)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5487,
+          "nome": "Bebidas e infusões",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5804,
+          "nome": "Café moído",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5805,
+          "nome": "Refrigerantes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5806,
+          "nome": "Cervejas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5807,
+          "nome": "Outras (bebidas e infusões)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5488,
+          "nome": "Enlatados e conservas",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5808,
+          "nome": "Peixe sardinha",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5809,
+          "nome": "Azeitona",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5810,
+          "nome": "Carne de boi",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5811,
+          "nome": "Outros (enlatados e conservas)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5584,
+          "nome": "Sal e condimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5812,
+          "nome": "Massa de tomate",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5813,
+          "nome": "Maionese",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5814,
+          "nome": "Sal refinado",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5815,
+          "nome": "Outros (sal e condimentos)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5489,
+          "nome": "Alimentos preparados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5816,
+          "nome": "Outros alimentos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5491,
+          "nome": "Alimentação fora do domicílio",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5817,
+          "nome": "Almoço e jantar",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5818,
+          "nome": "Café, leite, café/leite e chocolate",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5819,
+          "nome": "Sanduíches e salgados",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5820,
+          "nome": "Refrigerantes, cervejas e outras",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 5821,
+          "nome": "Agregadas e outras",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "nome": "Classes de recebimento mensal familiar",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6196,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 3497,
+          "nome": "Até 2",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3498,
+          "nome": "Mais de 2 a 3",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3499,
+          "nome": "Mais de 3 a 5",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3500,
+          "nome": "Mais de 5 a 6",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3501,
+          "nome": "Mais de 6 a 8",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3502,
+          "nome": "Mais de 8 a 10",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3503,
+          "nome": "Mais de 10 a 15",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3504,
+          "nome": "Mais de 15 a 20",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3505,
+          "nome": "Mais de 20 a 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3506,
+          "nome": "Mais de 30",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 6547,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

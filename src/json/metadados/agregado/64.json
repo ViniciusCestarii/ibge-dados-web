@@ -1,0 +1,93 @@
+{
+  "id": 64,
+  "nome": "Pessoal ocupado na produção por classes de indústrias e tipo de índice",
+  "URL": "https://sidra.ibge.gov.br/tabela/64",
+  "pesquisa": "Pesquisa Industrial Mensal - Dados Gerais",
+  "assunto": "Indústria",
+  "periodicidade": {
+    "frequencia": "mensal",
+    "inicio": 198501,
+    "fim": 200104
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12,
+      "nome": "Pessoal ocupado na produção",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 7,
+      "nome": "Classes de indústrias",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 23,
+          "nome": "Indústria geral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 24,
+          "nome": "Indústria extrativa mineral",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 25,
+          "nome": "Indústria de transformação",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Tipo de índice",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 70,
+          "nome": "Índice base fixa (Base: média de 1985 = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 71,
+          "nome": "Índice mensal (Base: igual mês do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72,
+          "nome": "Índice acumulado no ano (Base: igual período do ano anterior = 100)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 73,
+          "nome": "Índice acumulado doze meses (Base: últimos 12 meses anteriores = 100)",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 5199,
+  "nome": "Domicílios particulares permanentes com utilização da Internet, total e distribuição, por tablet",
+  "URL": "https://sidra.ibge.gov.br/tabela/5199",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Internet",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5518,
+      "nome": "Domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Mil domicílios",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 5688,
+      "nome": "Coeficiente de variação - Domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    },
+    {
+      "id": 5514,
+      "nome": "Distribuição dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "%",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1005514,
+      "nome": "Distribuição dos domicílios particulares permanentes com utilização da Internet - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5684,
+      "nome": "Coeficiente de variação - Distribuição dos domicílios particulares permanentes com utilização da Internet",
+      "unidade": "Coeficiente",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 680,
+      "nome": "Equipamento utilizado para acessar a Internet",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 33214,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 33308,
+          "nome": "Tablet",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 33313,
+          "nome": "Somente tablet",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 8899,
+  "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio, por nível de confiança nas pessoas e grupo de pessoas",
+  "URL": "https://sidra.ibge.gov.br/tabela/8899",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Sensação de segurança",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12567,
+      "nome": "Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12568,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12569,
+      "nome": "Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12570,
+      "nome": "Coeficiente de variação - Percentual de pessoas de 15 anos ou mais de idade que se sentem seguras ao andar sozinhas nas redondezas ou arredores do seu domicílio",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1394,
+      "nome": "Nível de confiança nas pessoas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57576,
+          "nome": "Confia ou confia muito",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57577,
+          "nome": "Não confia ou confia pouco",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1414,
+      "nome": "Grupo de pessoas",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57579,
+          "nome": "Familiares ou parentes",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57580,
+          "nome": "Amigos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57581,
+          "nome": "Colegas (trabalho, escola ou outra atividade)",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57585,
+          "nome": "Vizinhos",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

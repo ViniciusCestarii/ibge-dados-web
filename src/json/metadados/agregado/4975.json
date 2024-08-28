@@ -1,0 +1,134 @@
+{
+  "id": 4975,
+  "nome": "Pessoas que tinham mais de um plano de saúde (médico ou odontológico), por condição em relação à força de trabalho na semana de referência e situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/4975",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Cobertura de plano de saúde",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2013,
+    "fim": 2013
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5276,
+      "nome": "Pessoas que tinham mais de um plano de saúde (médico ou odontológico)",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5277,
+      "nome": "Pessoas que tinham mais de um plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5278,
+      "nome": "Pessoas que tinham mais de um plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 5279,
+      "nome": "Coeficiente de variação - Pessoas que tinham mais de um plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5280,
+      "nome": "Percentual de pessoas que tinham mais de um plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5281,
+      "nome": "Percentual de pessoas que tinham mais de um plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5282,
+      "nome": "Percentual de pessoas que tinham mais de um plano de saúde (médico ou odontológico), considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5283,
+      "nome": "Coeficiente de variação - Percentual de pessoas que tinham mais de um plano de saúde (médico ou odontológico)",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 653,
+      "nome": "Condição em relação à força de trabalho na semana de referência",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32860,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 32862,
+          "nome": "Na força de trabalho - Ocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32863,
+          "nome": "Na força de trabalho - Desocupada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 32864,
+          "nome": "Fora da força de trabalho",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

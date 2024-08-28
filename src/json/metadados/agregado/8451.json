@@ -1,0 +1,212 @@
+{
+  "id": 8451,
+  "nome": "Municípios, total e com infraestrutura de comercialização e exposição e com programa ou ação para aquisição de produtos agropecuários, por tipo de infraestrutura, por tipo de programa ou ação e por classe de tamanho dos municípios",
+  "URL": "https://sidra.ibge.gov.br/tabela/8451",
+  "pesquisa": "Pesquisa de Informações Básicas Municipais",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2020,
+    "fim": 2020
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 603,
+      "nome": "Número de municípios",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12446,
+      "nome": "Classe de tamanho da população do município",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47692,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110088,
+          "nome": "Até 5.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110089,
+          "nome": "De 5.001 a 10.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110090,
+          "nome": "De 10.001 a 20.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110091,
+          "nome": "De 20.001 a 50.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110092,
+          "nome": "De 50.001 a 100.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110093,
+          "nome": "De 100.001 a 500.000",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110094,
+          "nome": "Mais de 500.000",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "nome": "Existência de infraestrutura de comercialização e exposição de produtos agropecuários",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50544,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50545,
+          "nome": "Com infraestrutura de comercialização e exposição de produtos agropecuários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50546,
+          "nome": "Com centro de comercialização",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50547,
+          "nome": "Com feiras",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50548,
+          "nome": "Com parque de exposição próprio para uso do produtor",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50549,
+          "nome": "Com centro de comercialização de produtos da extração vegetal",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50550,
+          "nome": "Com outro tipo de infraestrutura de comercialização e exposição de produtos agropecuários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50551,
+          "nome": "Sem infraestrutura de comercialização e exposição de produtos agropecuários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57196,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 1148,
+      "nome": "Existência de programa ou ação para aquisição de produtos agropecuários",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 50552,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 50553,
+          "nome": "Com programa ou ação para aquisição de produtos agropecuários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 50554,
+          "nome": "Com aquisição diretamente dos produtores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50555,
+          "nome": "Com aquisição através de entidades (associações, cooperativas etc)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50556,
+          "nome": "Com Programa de Aquisição de Alimentos da Agricultura Familiar (PAA)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50557,
+          "nome": "Com outro programa ou ação para aquisição de produtos agropecuários",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 50558,
+          "nome": "Sem programa ou ação para aquisição de produtos agropecuários",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57197,
+          "nome": "Sem informação",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

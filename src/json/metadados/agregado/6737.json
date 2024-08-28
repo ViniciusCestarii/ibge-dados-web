@@ -1,0 +1,126 @@
+{
+  "id": 6737,
+  "nome": "Domicílios e Moradores com energia elétrica, por situação do domicílio e fonte de energia elétrica",
+  "URL": "https://sidra.ibge.gov.br/tabela/6737",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Características do domicílio",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 5157,
+      "nome": "Domicílios com energia elétrica",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 5160,
+      "nome": "Coeficiente de variação - Domicílios com energia elétrica",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5074,
+      "nome": "Percentual de domicílios com energia elétrica",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 5077,
+      "nome": "Coeficiente de variação - Percentual de domicílios com energia elétrica",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10135,
+      "nome": "Moradores em domicílios com energia elétrica",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10136,
+      "nome": "Coeficiente de variação - Moradores em domicílios com energia elétrica",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10137,
+      "nome": "Percentual de moradores em domicílios com energia elétrica",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10138,
+      "nome": "Coeficiente de variação - Percentual de moradores em domicílios com energia elétrica",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 827,
+      "nome": "Fonte de energia elétrica",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 46296,
+          "nome": "Rede geral ou fonte alternativa",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 46297,
+          "nome": "Rede geral",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

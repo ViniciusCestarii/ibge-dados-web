@@ -1,0 +1,160 @@
+{
+  "id": 7507,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com perdas de faturamento da água distribuída, por motivos e existência de programas de controle das perdas",
+  "URL": "https://sidra.ibge.gov.br/tabela/7507",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10742,
+      "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento e com perdas de faturamento da água distribuída",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 990,
+      "nome": "Motivo das perdas de faturamento",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48999,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49000,
+          "nome": "Tem conhecimento sobre os motivos das perdas de faturamento no município",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49001,
+          "nome": "Fraudes nas ligações",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49002,
+          "nome": "Erros de cadastro",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49003,
+          "nome": "Falta de hidrômetros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49004,
+          "nome": "Problemas de medição",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49005,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49006,
+          "nome": "Não tem conhecimento sobre os motivos das perdas de faturamento no município",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "nome": "Existência e programas ou ações de controle de perdas de faturamento da água distribuída",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 49007,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 49008,
+          "nome": "Realizou programas ou ações de controle",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 49009,
+          "nome": "Instalação adequada de macromedidores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49010,
+          "nome": "Calibração dos macromedidores",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49011,
+          "nome": "Melhoramento do sistema de gestão do controle de perdas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49012,
+          "nome": "Combate a fraudes, controle de ligações clandestinas e inativas",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49013,
+          "nome": "Qualificação de mão-de-obra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49014,
+          "nome": "Instalações, manutenção, desinclinação ou troca de hidrômetros",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49015,
+          "nome": "Outro(s)",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 49016,
+          "nome": "Não realizou programas e ações de controle",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

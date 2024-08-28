@@ -1,0 +1,70 @@
+{
+  "id": 425,
+  "nome": "Valor do rendimento e Número-índice do rendimento médio mensal real do trabalho principal dos empregados de 10 anos ou mais de idade, no trabalho principal da semana de referência, por categoria do emprego no trabalho principal",
+  "URL": "https://sidra.ibge.gov.br/tabela/425",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios",
+  "assunto": "Trabalho e rendimento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2006
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1911,
+      "nome": "Valor do rendimento médio mensal real do trabalho principal dos empregados de 10 anos ou mais de idade, no trabalho principal da semana de referência",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1912,
+      "nome": "Número-índice do rendimento médio mensal real do trabalho principal dos empregados de 10 anos ou mais de idade, no trabalho principal da semana de referência (Base:2005=100)",
+      "unidade": "Número-índice",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12046,
+      "nome": "Categoria do emprego",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 99456,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99449,
+          "nome": "Com carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99450,
+          "nome": "Militares e funcionários públicos estatutários",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 99451,
+          "nome": "Outros sem carteira de trabalho assinada",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

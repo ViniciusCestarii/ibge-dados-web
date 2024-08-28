@@ -1,0 +1,112 @@
+{
+  "id": 8525,
+  "nome": "Último roubo nos últimos 12 meses (carro, moto, bicicleta ou domicílio) com uso de arma, por tipo de roubo e tipo de arma usada",
+  "URL": "https://sidra.ibge.gov.br/tabela/8525",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12505,
+      "nome": "Último roubo nos últimos 12 meses com uso de arma",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12506,
+      "nome": "Coeficiente de variação - Último roubo nos últimos 12 meses com uso de arma",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12507,
+      "nome": "Percentual de último roubo nos últimos 12 meses com uso de arma",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12508,
+      "nome": "Coeficiente de variação - Percentual de último roubo nos últimos 12 meses com uso de arma",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1351,
+      "nome": "Tipo de roubo",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57305,
+          "nome": "Carro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57306,
+          "nome": "Moto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57307,
+          "nome": "Bicicleta",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57308,
+          "nome": "Domicílio",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": 1362,
+      "nome": "Tipo de arma",
+      "sumarizacao": {
+        "status": true,
+        "excecao": [
+          12507,
+          12508
+        ]
+      },
+      "categorias": [
+        {
+          "id": 57434,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57435,
+          "nome": "Faca ou canivete",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57436,
+          "nome": "Revólver ou outra arma de fogo",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

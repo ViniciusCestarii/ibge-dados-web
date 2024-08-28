@@ -1,0 +1,129 @@
+{
+  "id": 7154,
+  "nome": "Pessoas de 15 anos ou mais de idade que frequentaram escola, por sexo e curso mais elevado que frequentou",
+  "URL": "https://sidra.ibge.gov.br/tabela/7154",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Educação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2023
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10293,
+      "nome": "Pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "Mil pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 10294,
+      "nome": "Coeficiente de variação - Pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10295,
+      "nome": "Distribuição percentual das pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10296,
+      "nome": "Coeficiente de variação - Distribuição percentual das pessoas de 15 anos ou mais de idade que frequentaram escola",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6794,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 4,
+          "nome": "Homens",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5,
+          "nome": "Mulheres",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 11302,
+      "nome": "Curso mais elevado que frequentou",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 47875,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47877,
+          "nome": "Classe de alfabetização, AJA, Ensino Fundamental, EJA do Ensino Fundamental ou curso equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47868,
+          "nome": "Ensino Fundamental ou curso equivalente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 47869,
+          "nome": "Ensino Médio, EJA do Ensino Médio ou curso equivalente",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47870,
+          "nome": "Ensino Médio ou curso equivalente",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 91020,
+          "nome": "Superior - graduação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 47871,
+          "nome": "Especialização, mestrado ou doutorado",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

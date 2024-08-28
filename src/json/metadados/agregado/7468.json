@@ -1,0 +1,154 @@
+{
+  "id": 7468,
+  "nome": "Municípios com serviço de abastecimento de água por rede geral de distribuição em funcionamento com captação de água doce em ponto superficial, em poço raso ou em poço profundo, por existência e tipo de proteção e de poluição ou contaminação na captação",
+  "URL": "https://sidra.ibge.gov.br/tabela/7468",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Abastecimento de água",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2017,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 433,
+      "nome": "Municípios com captação superficial",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 434,
+      "nome": "Municípios com captação de poço raso",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 435,
+      "nome": "Municípios com captação de poço profundo",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11972,
+      "nome": "Existência e forma de proteção na captação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48414,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98603,
+          "nome": "Total com proteção na captação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98396,
+          "nome": "Segurança",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98397,
+          "nome": "Área cercada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98398,
+          "nome": "Preservação da vegetação",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98399,
+          "nome": "Proibição de despejos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98400,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 12001,
+      "nome": "Existência e tipo de poluição ou contaminação na captação",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 48415,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98595,
+          "nome": "Total com poluição ou contaminação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98596,
+          "nome": "Recebimento de esgoto sanitário",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98597,
+          "nome": "Recebimento de despejo industrial",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98598,
+          "nome": "Destinação inadequada de lixo",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98599,
+          "nome": "Atividade mineradora",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98600,
+          "nome": "Resíduos agrotóxicos",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 98601,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    }
+  ]
+}

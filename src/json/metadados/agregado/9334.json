@@ -1,0 +1,134 @@
+{
+  "id": 9334,
+  "nome": "Taxa de analfabetismo das pessoas de 15 anos ou mais de idade com deficiência, por grupo de idade e tipos de dificuldades funcionais",
+  "URL": "https://sidra.ibge.gov.br/tabela/9334",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Deficiência",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12803,
+      "nome": "Taxa de analfabetismo das pessoas de 15 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12804,
+      "nome": "Coeficiente de variação - Taxa de analfabetismo das pessoas de 15 anos ou mais de idade com deficiência",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2795,
+          "nome": "15 anos ou mais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 100452,
+          "nome": "18 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 108866,
+          "nome": "25 anos ou mais",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 109012,
+          "nome": "40 anos ou mais",
+          "unidade": null,
+          "nivel": 3
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 4
+        }
+      ]
+    },
+    {
+      "id": 1509,
+      "nome": "Tipos de dificuldades funcionais",
+      "sumarizacao": {
+        "status": false,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 58772,
+          "nome": "Dificuldade para enxergar, mesmo usando óculos ou lentes de contato",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58773,
+          "nome": "Dificuldade para ouvir, mesmo usando aparelhos auditivos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58774,
+          "nome": "Dificuldade para andar ou subir degraus",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58775,
+          "nome": "Dificuldade para levantar uma garrafa com dois litros de água da cintura até a altura dos olhos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58776,
+          "nome": "Dificuldade para pegar objetos pequenos ou abrir e fechar recipientes",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58777,
+          "nome": "Dificuldade para aprender, lembrar-se das coisas ou se concentrar",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58778,
+          "nome": "Dificuldade para realizar cuidados pessoais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 58779,
+          "nome": "Dificuldade de se comunicar, para compreender e ser compreendido",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

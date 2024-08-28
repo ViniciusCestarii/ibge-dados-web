@@ -1,0 +1,92 @@
+{
+  "id": 1817,
+  "nome": "Número de distritos com tratamento de esgoto sanitário, por existência e tipo de tratamento do lodo",
+  "URL": "https://sidra.ibge.gov.br/tabela/1817",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2000,
+    "fim": 2000
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 750,
+      "nome": "Número de distritos com tratamento de esgoto sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1000750,
+      "nome": "Número de distritos com tratamento de esgoto sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12009,
+      "nome": "Existência e tipo de tratamento do lodo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 98749,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98750,
+          "nome": "Biodigestor",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98751,
+          "nome": "Desidratação mecânica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98752,
+          "nome": "Leito de secagem",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98753,
+          "nome": "Outro",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98754,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98755,
+          "nome": "Não existe tratamento do lodo",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

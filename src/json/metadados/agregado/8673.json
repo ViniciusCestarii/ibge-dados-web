@@ -1,0 +1,81 @@
+{
+  "id": 8673,
+  "nome": "Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses, por uso de arma",
+  "URL": "https://sidra.ibge.gov.br/tabela/8673",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Furto e roubo",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2021,
+    "fim": 2021
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12521,
+      "nome": "Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "Mil unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 12522,
+      "nome": "Coeficiente de variação - Último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12525,
+      "nome": "Distribuição percentual de último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 12526,
+      "nome": "Coeficiente de variação - Distribuição percentual de último roubo sofrido fora do domicílio por cada morador nos últimos 12 meses",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1361,
+      "nome": "Uso de arma",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 57431,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 57432,
+          "nome": "Houve uso de arma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57433,
+          "nome": "Não houve uso de arma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 57487,
+          "nome": "Não sabe se houve uso de arma",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

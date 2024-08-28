@@ -1,0 +1,74 @@
+{
+  "id": 7097,
+  "nome": "Taxa de realização de trabalho voluntário, por grupo de idade",
+  "URL": "https://sidra.ibge.gov.br/tabela/7097",
+  "pesquisa": "Pesquisa Nacional por Amostra de Domicílios Contínua anual",
+  "assunto": "Outras formas de trabalho",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 10244,
+      "nome": "Taxa de realização de trabalho voluntário",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 10245,
+      "nome": "Coeficiente de variação - Taxa de realização de trabalho voluntário",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 47567,
+          "nome": "14 a 24 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 100053,
+          "nome": "25 a 49 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 5502,
+          "nome": "50 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

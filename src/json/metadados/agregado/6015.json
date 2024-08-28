@@ -1,0 +1,98 @@
+{
+  "id": 6015,
+  "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, por frequência de consumo de legumes e/ou verduras, nos 7 dias anteriores à pesquisa",
+  "URL": "https://sidra.ibge.gov.br/tabela/6015",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Alimentação",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2015,
+    "fim": 2015
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 3265,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3266,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 3267,
+      "nome": "Percentual de escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 767,
+      "nome": "Frequência de consumo de legumes e/ou verduras, nos 7 dias anteriores à pesquisa",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 39983,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 39984,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39985,
+          "nome": "1 dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39986,
+          "nome": "2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39987,
+          "nome": "3 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39988,
+          "nome": "4 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 39989,
+          "nome": "5 dias ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

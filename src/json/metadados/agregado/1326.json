@@ -1,0 +1,327 @@
+{
+  "id": 1326,
+  "nome": "Estudantes frequentando o 9º ano do ensino fundamental, por se mora com a mãe e/ou com o pai, sexo, se o escolar fumou cigarro alguma vez na vida, mesmo uma ou duas tragadas, idade quando experimentou cigarro pela 1ª vez, número de dias, nos últimos 30 dias, em que o escolar fumou cigarros",
+  "URL": "https://sidra.ibge.gov.br/tabela/1326",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Uso de cigarro",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2009,
+    "fim": 2009
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1103"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 31,
+      "nome": "Mora com a mãe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 584,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 585,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 586,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "nome": "Mora com o pai",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 587,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 588,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 589,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Sexo",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 110095,
+          "nome": "Masculino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 110096,
+          "nome": "Feminino",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 572,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "nome": "Fumou cigarro alguma vez na vida, mesmo uma ou duas tragadas",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1218,
+          "nome": "Sim",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1219,
+          "nome": "Não",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1220,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "nome": "Idade quando experimentou cigarro pela 1ª vez",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1221,
+          "nome": "Nunca experimentou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1222,
+          "nome": "9 anos ou menos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1223,
+          "nome": "10 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1224,
+          "nome": "11 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1225,
+          "nome": "12 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1226,
+          "nome": "13 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1227,
+          "nome": "14 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1228,
+          "nome": "15 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1229,
+          "nome": "16 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1230,
+          "nome": "17 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1231,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "nome": "Número de dias em que fumou cigarros nos últimos 30 dias",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1232,
+          "nome": "Nunca fumou",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1233,
+          "nome": "Nenhum dia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1234,
+          "nome": "1 ou 2 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1235,
+          "nome": "3 a 5 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1236,
+          "nome": "6 a 9 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1237,
+          "nome": "10 a 19 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1238,
+          "nome": "20 a 29 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1239,
+          "nome": "Todos os 30 dias",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 1240,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

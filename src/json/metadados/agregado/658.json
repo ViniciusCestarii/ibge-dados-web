@@ -1,0 +1,81 @@
+{
+  "id": 658,
+  "nome": "Despesa monetária e não-monetária média mensal familiar, total e per capita, das famílias 40% mais pobres e 10% mais ricas e Relação entre as despesas per capita por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/658",
+  "pesquisa": "Pesquisa de Orçamentos Familiares",
+  "assunto": "Despesa",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2002,
+    "fim": 2002
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 1965,
+      "nome": "Despesa monetária e não monetária total média mensal familiar das famílias 40% mais pobres",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1966,
+      "nome": "Despesa monetária e não monetária per capita média mensal familiar das famílias 40% mais pobres",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1968,
+      "nome": "Despesa monetária e não monetária total média mensal familiar das famílias 10% mais ricas",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1967,
+      "nome": "Despesa monetária e não monetária per capita média mensal familiar das famílias 10% mais ricas",
+      "unidade": "Reais",
+      "sumarizacao": []
+    },
+    {
+      "id": 1969,
+      "nome": "Relação entre as despesas per capita",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

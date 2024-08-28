@@ -1,0 +1,139 @@
+{
+  "id": 3679,
+  "nome": "Escolares frequentando o 9º ano do ensino fundamental, por nível de instrução da mãe e nível de instrução do pai",
+  "URL": "https://sidra.ibge.gov.br/tabela/3679",
+  "pesquisa": "Pesquisa Nacional de Saúde do Escolar",
+  "assunto": "Escolaridade materna e paterna",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2012,
+    "fim": 2012
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N130"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 331,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 3215,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 3216,
+      "nome": "Escolares frequentando o 9º ano do ensino fundamental, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 375,
+      "nome": "Nível de instrução da mãe",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31096,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31092,
+          "nome": "Nenhuma instrução ou ensino fundamental incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31093,
+          "nome": "Ensino fundamental completo ou médio incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31094,
+          "nome": "Ensino médio completo ou superior incompleto",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 31095,
+          "nome": "Ensino superior completo",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 9538,
+          "nome": "Não soube informar",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "nome": "Nível de instrução do pai",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 31097,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31098,
+          "nome": "Nenhuma instrução ou ensino fundamental incompleto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31099,
+          "nome": "Ensino fundamental completo ou médio incompleto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31100,
+          "nome": "Ensino médio completo ou superior incompleto",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31101,
+          "nome": "Ensino superior completo",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 31102,
+          "nome": "Não soube informar",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

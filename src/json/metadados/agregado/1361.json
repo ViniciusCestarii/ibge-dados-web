@@ -1,0 +1,119 @@
+{
+  "id": 1361,
+  "nome": "Número de municípios, total e os com coleta de esgoto sanitário, por tipo de constituição jurídica das entidades prestadoras de serviço de esgotamento sanitário",
+  "URL": "https://sidra.ibge.gov.br/tabela/1361",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Esgotamento sanitário",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2017
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2601,
+      "nome": "Municípios com serviço de esgotamento sanitário",
+      "unidade": "Unidades",
+      "sumarizacao": []
+    },
+    {
+      "id": 1002601,
+      "nome": "Municípios com serviço de esgotamento sanitário - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 11973,
+      "nome": "Natureza jurídica das entidades prestadoras de serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 2088,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98591,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 98377,
+          "nome": "Administração direta do poder público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98378,
+          "nome": "Autarquia",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 508,
+          "nome": "Empresa pública",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 509,
+          "nome": "Sociedade de economia mista",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 510,
+          "nome": "Consórcio público",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98380,
+          "nome": "Empresa privada",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 511,
+          "nome": "Fundação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 512,
+          "nome": "Associação",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 98381,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 8313,
+  "nome": "Número médio de filhos(as) tidos pelos homens de 15 anos ou mais, por grupo de idade e cor ou raça",
+  "URL": "https://sidra.ibge.gov.br/tabela/8313",
+  "pesquisa": "Pesquisa Nacional de Saúde",
+  "assunto": "Paternidade e pré-natal do parceiro",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2019,
+    "fim": 2019
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 12072,
+      "nome": "Número médio de filhos tidos pelos homens de 15 anos ou mais",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12073,
+      "nome": "Número médio de filhos tidos pelos homens de 15 anos ou mais, considerando um intervalo de confiança de 95% - limite inferior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12074,
+      "nome": "Número médio de filhos tidos pelos homens de 15 anos ou mais, considerando um intervalo de confiança de 95% - limite superior",
+      "unidade": "Pessoas",
+      "sumarizacao": []
+    },
+    {
+      "id": 12075,
+      "nome": "Coeficiente de variação - Número médio de filhos tidos pelos homens de 15 anos ou mais",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 58,
+      "nome": "Grupo de idade",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95253,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 6796,
+          "nome": "15 a 29 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3299,
+          "nome": "30 a 39 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 99127,
+          "nome": "40 a 59 anos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 3302,
+          "nome": "60 anos ou mais",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Cor ou raça",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 95251,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 2776,
+          "nome": "Branca",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2777,
+          "nome": "Preta",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2779,
+          "nome": "Parda",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

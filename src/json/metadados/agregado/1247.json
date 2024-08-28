@@ -1,0 +1,104 @@
+{
+  "id": 1247,
+  "nome": "Número de municípios, total e os com manejo de resíduos sólidos, por existência e forma de cobrança pelo serviço",
+  "URL": "https://sidra.ibge.gov.br/tabela/1247",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Gestão municipal de saneamento básico",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 2594,
+      "nome": "Municípios com manejo de residuos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "periodo",
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1002594,
+      "nome": "Municípios com manejo de residuos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12983,
+      "nome": "Existência e forma de cobrança pelo serviço",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 121221,
+          "nome": "Total geral de municípios",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121222,
+          "nome": "Total de municípios com manejo de resíduos sólidos",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121223,
+          "nome": "Taxa específica",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121224,
+          "nome": "Taxa junto com o IPTU",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121229,
+          "nome": "Tarifa por serviços especiais",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121230,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121231,
+          "nome": "Sem declaração",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 121232,
+          "nome": "Número de municípios que não cobram pelo serviço",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

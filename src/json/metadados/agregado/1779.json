@@ -1,0 +1,149 @@
+{
+  "id": 1779,
+  "nome": "Número de sedes do município com serviço de coleta domiciliar regular de resíduos sólidos, por tipo de serviço de coleta e frequência da coleta",
+  "URL": "https://sidra.ibge.gov.br/tabela/1779",
+  "pesquisa": "Pesquisa Nacional de Saneamento Básico",
+  "assunto": "Manejo de resíduos sólidos",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2008,
+    "fim": 2008
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N1105"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 449,
+      "nome": "Número de sedes de município com serviço de coleta domiciliar regular de resíduos sólidos",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000449,
+      "nome": "Número de sedes de município com serviço de coleta domiciliar regular de resíduos sólidos - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 12187,
+      "nome": "Tipo de serviço de coleta de resíduos sólidos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 8868,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103380,
+          "nome": "Residencial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8493,
+          "nome": "Residencial - centro",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8494,
+          "nome": "Residencial - bairros",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 103381,
+          "nome": "Comercial",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8495,
+          "nome": "Industrial (não-perigosos)",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 8496,
+          "nome": "Serviços de saúde (não-sépticos)",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": 12186,
+      "nome": "Frequência da coleta de resíduos sólidos",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 103733,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103375,
+          "nome": "Diária",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103378,
+          "nome": "Três vezes por semana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103377,
+          "nome": "Duas vezes por semana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103376,
+          "nome": "Uma vez por semana",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 103379,
+          "nome": "Outra",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 8497,
+          "nome": "Não faz coleta",
+          "unidade": null,
+          "nivel": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 9804,
+  "nome": "Domicílios particulares permanentes ocupados, total e com pelo menos um morador quilombola, por existência de ligação à rede geral de distribuição de água e principal forma de abastecimento de água e localização do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9804",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Geral",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2022,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1",
+      "N2",
+      "N6",
+      "N3"
+    ],
+    "Especial": [
+      "N134",
+      "N131"
+    ],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 381,
+      "nome": "Domicílios particulares permanentes ocupados",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1000381,
+      "nome": "Domicílios particulares permanentes ocupados - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 7081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola",
+      "unidade": "Unidades",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1007081,
+      "nome": "Domicílios particulares permanentes ocupados com pelo menos um morador quilombola - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1821,
+      "nome": "Existência de ligação à rede geral de distribuição de água e principal forma de abastecimento de água",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 72129,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 72144,
+          "nome": "Possui ligação à rede geral e a utiliza como forma principal",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72145,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72146,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Poço profundo ou artesiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72147,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Poço raso, freático ou cacimba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72148,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Fonte, nascente ou mina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72149,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Carro-pipa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72150,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Água da chuva armazenada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72151,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Rios, açudes, córregos, lagos e igarapés",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72152,
+          "nome": "Possui ligação à rede geral, mas utiliza principalmente outra forma - Outra",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72153,
+          "nome": "Não possui ligação com a rede geral",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 72154,
+          "nome": "Não possui ligação com a rede geral - Poço profundo ou artesiano",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72155,
+          "nome": "Não possui ligação com a rede geral - Poço raso, freático ou cacimba",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72156,
+          "nome": "Não possui ligação com a rede geral - Fonte, nascente ou mina",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72157,
+          "nome": "Não possui ligação com a rede geral - Carro-pipa",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72158,
+          "nome": "Não possui ligação com a rede geral - Água da chuva armazenada",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72159,
+          "nome": "Não possui ligação com a rede geral - Rios, açudes, córregos, lagos e igarapés",
+          "unidade": null,
+          "nivel": 2
+        },
+        {
+          "id": 72160,
+          "nome": "Não possui ligação com a rede geral - Outra",
+          "unidade": null,
+          "nivel": 2
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "nome": "Localização do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 32776,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 60027,
+          "nome": "Em territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 60028,
+          "nome": "Fora de territórios quilombolas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}

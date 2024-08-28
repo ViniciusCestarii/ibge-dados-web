@@ -1,0 +1,94 @@
+{
+  "id": 3422,
+  "nome": "Pessoas ocupadas na semana de referência, que trabalhavam fora do domicílio e retornavam para seu domicílio diariamente, por tempo habitual de deslocamento para o trabalho - Resultados Gerais da Amostra",
+  "URL": "https://sidra.ibge.gov.br/tabela/3422",
+  "pesquisa": "Censo Demográfico",
+  "assunto": "Migração e deslocamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2010,
+    "fim": 2010
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N15",
+      "N1",
+      "N2",
+      "N8",
+      "N9",
+      "N6",
+      "N14",
+      "N7",
+      "N13",
+      "N3"
+    ],
+    "Especial": [],
+    "IBGE": [
+      "N18"
+    ]
+  },
+  "variaveis": [
+    {
+      "id": 1319,
+      "nome": "Pessoas ocupadas na semana de referência, que trabalhavam fora do domicílio e retornavam para seu domicílio diariamente",
+      "unidade": "Pessoas",
+      "sumarizacao": [
+        "nivelTerritorial"
+      ]
+    },
+    {
+      "id": 1001319,
+      "nome": "Pessoas ocupadas na semana de referência, que trabalhavam fora do domicílio e retornavam para seu domicílio diariamente - percentual do total geral",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 490,
+      "nome": "Tempo habitual de deslocamento para o trabalho",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 0,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 12826,
+          "nome": "Até cinco minutos",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12827,
+          "nome": "De seis minutos até meia hora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12828,
+          "nome": "Mais de meia hora até uma hora",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12829,
+          "nome": "Mais de uma hora até duas horas",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 12830,
+          "nome": "Mais de duas horas",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}
