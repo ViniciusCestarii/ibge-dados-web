@@ -1,112 +1,220 @@
-import Image from 'next/image'
+'use client'
 
-export default function Home() {
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Checkbox } from '@/components/ui/checkbox'
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from '@/components/ui/command'
+import { Label } from '@/components/ui/label'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover'
+import { ScrollArea } from '@/components/ui/scroll-area'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
+import agregados from '@/json/agregados.json'
+import { cn } from '@/lib/utils'
+import { Check, ChevronsUpDown } from 'lucide-react'
+import { useState } from 'react'
+import { useQueryState, parseAsArrayOf, parseAsString } from 'nuqs'
+
+export default function Component() {
+  const [selectedVariables, setSelectedVariables] = useQueryState(
+    'variaveis',
+    parseAsArrayOf(parseAsString),
+  )
+  const [selectedPeriods, setSelectedPeriods] = useState<string[]>([])
+  const [selectedGeography, setSelectedGeography] = useState<string>('')
+  const [selectedPesquisa, setSelectedPesquisa] = useQueryState('agregado')
+  const [open, setOpen] = useState(false)
+
+  // fix: variables are receiveing the agregado value
+
+  const notNullselectedVariables = selectedVariables ?? []
+
+  const variables =
+    agregados.find((agregado) => agregado.id === selectedPesquisa)?.agregados ??
+    []
+
+  const periods = [
+    '2013 - 2013',
+    '2014 - 2014',
+    '2015 - 2015',
+    '2016 - 2016',
+    '2017 - 2017',
+  ]
+  const geographicLevels = [
+    'N1 - Brasil',
+    'N2 - Grande região (N, NE, SE, S, CO)',
+  ]
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <main className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">
+        Pesquisa: Contas Econômicas Ambientais da Água
+      </h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <Card>
+          <CardHeader>
+            <CardTitle>Agregados</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div>
+                <Label htmlFor="pesquisa">Selecione uma pesquisa</Label>
+                <Popover open={open} onOpenChange={setOpen}>
+                  <PopoverTrigger asChild>
+                    <Button
+                      variant="outline"
+                      role="combobox"
+                      aria-expanded={open}
+                      className="w-full justify-between"
+                    >
+                      {selectedPesquisa
+                        ? agregados.find(
+                            (agregado) =>
+                              agregado.id.toString() === selectedPesquisa,
+                          )?.nome
+                        : 'Escolha um agregado'}
+                      <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+                    </Button>
+                  </PopoverTrigger>
+                  <PopoverContent className="w-[calc(100vw_-3rem)] md:w-full md:min-w-[45rem] p-0">
+                    <Command>
+                      <CommandInput placeholder="Procurar agregado..." />
+                      <CommandEmpty>Nenhum agregado encontrado.</CommandEmpty>
+                      <CommandGroup>
+                        <CommandList>
+                          {agregados.map((agregado) => (
+                            <CommandItem
+                              key={agregado.id}
+                              onSelect={(currentValue) => {
+                                setSelectedPesquisa(
+                                  currentValue === selectedPesquisa
+                                    ? ''
+                                    : agregado.id.toString(),
+                                )
+                                setOpen(false)
+                              }}
+                            >
+                              <Check
+                                className={cn(
+                                  'mr-2 h-4 w-4',
+                                  selectedPesquisa === agregado.id.toString()
+                                    ? 'opacity-100'
+                                    : 'opacity-0',
+                                )}
+                              />
+                              {agregado.nome}
+                            </CommandItem>
+                          ))}
+                        </CommandList>
+                      </CommandGroup>
+                    </Command>
+                  </PopoverContent>
+                </Popover>
+              </div>
+
+              <div>
+                <Label htmlFor="variables">Variáveis</Label>
+                <ScrollArea className="h-32 w-full border rounded-md">
+                  {variables.map((variable) => (
+                    <div
+                      key={variable.id}
+                      className="flex items-center space-x-2 p-2"
+                    >
+                      <Checkbox
+                        id={variable.id}
+                        checked={notNullselectedVariables.includes(variable.id)}
+                        onCheckedChange={(checked) => {
+                          setSelectedVariables(
+                            checked
+                              ? [...notNullselectedVariables, variable.id]
+                              : notNullselectedVariables.filter(
+                                  (v) => v !== variable.id,
+                                ),
+                          )
+                        }}
+                      />
+                      <label htmlFor={variable.id}>{variable.nome}</label>
+                    </div>
+                  ))}
+                </ScrollArea>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Configurações Adicionais</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div>
+                <Label htmlFor="periods">Períodos</Label>
+                <ScrollArea className="h-32 w-full border rounded-md">
+                  {periods.map((period) => (
+                    <div
+                      key={period}
+                      className="flex items-center space-x-2 p-2"
+                    >
+                      <Checkbox
+                        id={period}
+                        checked={selectedPeriods.includes(period)}
+                        onCheckedChange={(checked) => {
+                          setSelectedPeriods(
+                            checked
+                              ? [...selectedPeriods, period]
+                              : selectedPeriods.filter((p) => p !== period),
+                          )
+                        }}
+                      />
+                      <label htmlFor={period}>{period}</label>
+                    </div>
+                  ))}
+                </ScrollArea>
+              </div>
+
+              <div>
+                <Label htmlFor="geography">Nível geográfico</Label>
+                <Select
+                  value={selectedGeography}
+                  onValueChange={setSelectedGeography}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="Selecione o nível geográfico" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {geographicLevels.map((level) => (
+                      <SelectItem key={level} value={level}>
+                        {level}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="mt-4">
+        <Button>Buscar</Button>
       </div>
     </main>
   )
