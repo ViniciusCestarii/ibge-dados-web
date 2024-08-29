@@ -25,11 +25,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-import agregados from '@/json/agregados.json'
+import pesquisas from '@/json/agregados.json'
 import { cn } from '@/lib/utils'
 import { Check, ChevronsUpDown } from 'lucide-react'
 import { useState } from 'react'
 import { useQueryState, parseAsArrayOf, parseAsString } from 'nuqs'
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 
 export default function Component() {
   const [selectedVariables, setSelectedVariables] = useQueryState(
@@ -38,15 +39,14 @@ export default function Component() {
   )
   const [selectedPeriods, setSelectedPeriods] = useState<string[]>([])
   const [selectedGeography, setSelectedGeography] = useState<string>('')
-  const [selectedPesquisa, setSelectedPesquisa] = useQueryState('agregado')
+  const [selectedPesquisa, setSelectedPesquisa] = useQueryState('pesquisa')
+  const [selectedAgregado, setSelectedAgregado] = useQueryState('agregado')
   const [open, setOpen] = useState(false)
-
-  // fix: variables are receiveing the agregado value
 
   const notNullselectedVariables = selectedVariables ?? []
 
-  const variables =
-    agregados.find((agregado) => agregado.id === selectedPesquisa)?.agregados ??
+  const agregados =
+    pesquisas.find((pesquisa) => pesquisa.id === selectedPesquisa)?.agregados ??
     []
 
   const periods = [
@@ -85,7 +85,7 @@ export default function Component() {
                       className="w-full justify-between"
                     >
                       {selectedPesquisa
-                        ? agregados.find(
+                        ? pesquisas.find(
                             (agregado) =>
                               agregado.id.toString() === selectedPesquisa,
                           )?.nome
@@ -95,11 +95,11 @@ export default function Component() {
                   </PopoverTrigger>
                   <PopoverContent className="w-[calc(100vw_-3rem)] md:w-full md:min-w-[45rem] p-0">
                     <Command>
-                      <CommandInput placeholder="Procurar agregado..." />
+                      <CommandInput placeholder="Procurar pesquisa..." />
                       <CommandEmpty>Nenhum agregado encontrado.</CommandEmpty>
                       <CommandGroup>
                         <CommandList>
-                          {agregados.map((agregado) => (
+                          {pesquisas.map((agregado) => (
                             <CommandItem
                               key={agregado.id}
                               onSelect={(currentValue) => {
@@ -108,6 +108,7 @@ export default function Component() {
                                     ? ''
                                     : agregado.id.toString(),
                                 )
+                                setSelectedAgregado(null)
                                 setOpen(false)
                               }}
                             >
@@ -129,6 +130,27 @@ export default function Component() {
                 </Popover>
               </div>
 
+              <div>
+                <Label htmlFor="variables">Agregados</Label>
+                <ScrollArea className="h-32 w-full border rounded-md">
+                  <RadioGroup
+                    value={selectedAgregado ?? ''}
+                    onValueChange={(value) => setSelectedAgregado(value)}
+                  >
+                    {/* virtualize this list for better performance */}
+                    {agregados.map((agregado) => (
+                      <div
+                        key={agregado.id}
+                        className="flex items-center space-x-2 p-2"
+                      >
+                        <RadioGroupItem value={agregado.id} id={agregado.id} />
+                        <Label htmlFor={agregado.id}>{agregado.nome}</Label>
+                      </div>
+                    ))}
+                  </RadioGroup>
+                </ScrollArea>
+              </div>
+              {/*
               <div>
                 <Label htmlFor="variables">Variáveis</Label>
                 <ScrollArea className="h-32 w-full border rounded-md">
@@ -155,6 +177,7 @@ export default function Component() {
                   ))}
                 </ScrollArea>
               </div>
+              */}
             </div>
           </CardContent>
         </Card>
