@@ -123,6 +123,42 @@ const VirtualizedCommand = ({
   )
 }
 
+interface ComboboxButtonProps
+  extends Pick<
+    // eslint-disable-next-line no-use-before-define
+    VirtualizedComboboxProps,
+    'disabled' | 'noItemSelectedText' | 'id'
+  > {
+  optionPlaceHolder?: string
+  open: boolean
+}
+
+const ComboboxButton = React.forwardRef<HTMLButtonElement, ComboboxButtonProps>(
+  ({ open, noItemSelectedText, optionPlaceHolder, ...props }, ref) => {
+    return (
+      <Button
+        {...props}
+        ref={ref} // Forward the ref to the Button component
+        variant="outline"
+        role="combobox"
+        aria-label={noItemSelectedText}
+        aria-expanded={open}
+        className="justify-between w-full"
+      >
+        <span
+          title={optionPlaceHolder}
+          className="overflow-hidden text-ellipsis"
+        >
+          {optionPlaceHolder}
+        </span>
+        <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+      </Button>
+    )
+  },
+)
+
+ComboboxButton.displayName = 'ComboboxButton'
+
 export interface VirtualizedComboboxProps {
   options: Option[]
   searchPlaceholder?: string
@@ -137,46 +173,36 @@ export interface VirtualizedComboboxProps {
 }
 
 export function VirtualizedCombobox({
+  id,
   options,
   searchPlaceholder = 'Search items...',
   noResultsText = 'No results found',
   noItemSelectedText = 'Select an item',
   width = '25rem',
   height = '25rem',
-  id,
-  disabled,
   selectedOption,
   onSelectOption,
+  disabled,
 }: VirtualizedComboboxProps) {
   const [open, setOpen] = React.useState<boolean>(false)
 
-  const isSm = useMediaQuery('(max-width: 40em)')
+  const isMd = useMediaQuery('(max-width: 48em)')
 
   const optionPlaceHolder = selectedOption
     ? options.find((option) => option.value === selectedOption)?.label
     : noItemSelectedText
 
-  if (isSm) {
+  if (isMd) {
     return (
       <Drawer open={open} onOpenChange={setOpen}>
         <DrawerTrigger asChild>
-          <Button
+          <ComboboxButton
             id={id}
+            open={open}
             disabled={disabled}
-            variant="outline"
-            role="combobox"
-            aria-label={noItemSelectedText}
-            aria-expanded={open}
-            className="justify-between w-full"
-          >
-            <span
-              title={optionPlaceHolder}
-              className="overflow-hidden text-ellipsis"
-            >
-              {optionPlaceHolder}
-            </span>
-            <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
-          </Button>
+            optionPlaceHolder={optionPlaceHolder}
+            noItemSelectedText={noItemSelectedText}
+          />
         </DrawerTrigger>
         <DrawerContent>
           <div className="mt-4 border-t">
@@ -204,22 +230,13 @@ export function VirtualizedCombobox({
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
-        <Button
+        <ComboboxButton
           id={id}
+          open={open}
           disabled={disabled}
-          variant="outline"
-          role="combobox"
-          aria-expanded={open}
-          className="justify-between w-full"
-        >
-          <span
-            title={optionPlaceHolder}
-            className="overflow-hidden text-ellipsis"
-          >
-            {optionPlaceHolder}
-          </span>
-          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
-        </Button>
+          optionPlaceHolder={optionPlaceHolder}
+          noItemSelectedText={noItemSelectedText}
+        />
       </PopoverTrigger>
       <PopoverContent className="p-0" style={{ width }}>
         <VirtualizedCommand
