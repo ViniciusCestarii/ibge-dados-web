@@ -1,7 +1,7 @@
-import path from 'path'
-import fs from 'fs'
 import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/fetch-data'
-import { Categoria } from '@/types/agregado'
+import { Pesquisa } from '@/types/agregado'
+import fs from 'fs'
+import path from 'path'
 import {
   fetchAllMissingAgregadoMetadados,
   fetchAllMissingNivelGeografico,
@@ -27,7 +27,7 @@ async function fetchAllAgregadoPeriodo() {
   const pathToAgregados = path.join(basePathToJson, 'agregados.json')
   const agregados = JSON.parse(
     fs.readFileSync(pathToAgregados, 'utf-8'),
-  ) as Categoria[]
+  ) as Pesquisa[]
 
   await Promise.all(
     agregados.map((categoria) =>

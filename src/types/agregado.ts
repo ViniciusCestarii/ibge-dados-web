@@ -3,7 +3,7 @@ export type Agregado = {
   nome: string
 }
 
-export type Categoria = {
+export type Pesquisa = {
   id: string
   nome: string
   agregados: Agregado[]

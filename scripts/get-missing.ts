@@ -1,6 +1,6 @@
 import path from 'path'
 import fs from 'fs'
-import { Categoria, Tabela } from '@/types/agregado'
+import { Pesquisa, Tabela } from '@/types/agregado'
 import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/fetch-data'
 import pLimit from 'p-limit'
 import chalk from 'chalk'
@@ -11,10 +11,10 @@ export async function fetchAllMissingAgregadoMetadados() {
   const pathToAgregados = path.join(basePathToJson, 'agregados.json')
   const agregados = JSON.parse(
     fs.readFileSync(pathToAgregados, 'utf-8'),
-  ) as Categoria[]
+  ) as Pesquisa[]
 
-  const promises = agregados.flatMap((categoria) =>
-    categoria.agregados
+  const promises = agregados.flatMap((pesquisa) =>
+    pesquisa.agregados
       .filter(
         (agregado) =>
           !fs.existsSync(
@@ -42,12 +42,12 @@ export async function fetchAllMissingNivelGeografico() {
   const pathToAgregados = path.join(basePathToJson, 'agregados.json')
   const agregados = JSON.parse(
     fs.readFileSync(pathToAgregados, 'utf-8'),
-  ) as Categoria[]
+  ) as Pesquisa[]
 
   const niveisTerritoriais: Record<string, number> = {}
 
-  agregados.forEach((categoria) => {
-    categoria.agregados.forEach((agregado) => {
+  agregados.forEach((pesquisa) => {
+    pesquisa.agregados.forEach((agregado) => {
       const pathToMetadado = path.join(
         basePathToJson,
         `metadados/agregado/${agregado.id}.json`,
