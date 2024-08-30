@@ -13,27 +13,27 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import pesquisas from '@/json/agregados.json'
-import { parseAsArrayOf, parseAsString, useQueryState } from 'nuqs'
+// use nuqs server to import correct metadados useing selectedAgregado
+import metadados from '@/json/metadados/agregado/20.json'
+import { useQueryState } from 'nuqs'
 import { Suspense, useState } from 'react'
 import AgregadoSelector from './agregado-selector'
 import PesquisaSelector from './pesquisa-selector'
+import VariavelSelector from './variavel-selector'
 
 function IbgeVisualization() {
-  const [selectedVariables, setSelectedVariables] = useQueryState(
-    'variaveis',
-    parseAsArrayOf(parseAsString),
-  )
   const [selectedPeriods, setSelectedPeriods] = useState<string[]>([])
   const [selectedGeography, setSelectedGeography] = useState<string>('')
   // use nuqs server instead
   const [selectedPesquisa, setSelectedPesquisa] = useQueryState('pesquisa')
   const [selectedAgregado, setSelectedAgregado] = useQueryState('agregado')
-
-  const notNullselectedVariables = selectedVariables ?? []
+  const [selectedVariavel, setSelectedVariavel] = useQueryState('variavel')
 
   const agregados =
     pesquisas.find((pesquisa) => pesquisa.id === selectedPesquisa)?.agregados ??
     []
+
+  const variaveis = metadados.variaveis
 
   const periods = [
     '2013 - 2013',
@@ -76,37 +76,23 @@ function IbgeVisualization() {
                 }
                 agregados={agregados}
                 selectedOption={selectedAgregado}
-                onSelectOption={setSelectedAgregado}
+                onSelectOption={(agregado) => {
+                  setSelectedAgregado(agregado)
+                  setSelectedVariavel(null)
+                }}
               />
 
-              {/*
-              <div>
-                <Label htmlFor="variables">Variáveis</Label>
-                <ScrollArea className="h-32 w-full border rounded-md">
-                  {variables.map((variable) => (
-                    <div
-                      key={variable.id}
-                      className="flex items-center space-x-2 p-2"
-                    >
-                      <Checkbox
-                        id={variable.id}
-                        checked={notNullselectedVariables.includes(variable.id)}
-                        onCheckedChange={(checked) => {
-                          setSelectedVariables(
-                            checked
-                              ? [...notNullselectedVariables, variable.id]
-                              : notNullselectedVariables.filter(
-                                  (v) => v !== variable.id,
-                                ),
-                          )
-                        }}
-                      />
-                      <label htmlFor={variable.id}>{variable.nome}</label>
-                    </div>
-                  ))}
-                </ScrollArea>
-              </div>
-              */}
+              <VariavelSelector
+                disabled={!selectedAgregado}
+                noItemSelectedText={
+                  selectedAgregado
+                    ? 'Selecione uma variável'
+                    : 'Selecione um agregado'
+                }
+                variaveis={variaveis}
+                selectedOption={selectedVariavel}
+                onSelectOption={setSelectedVariavel}
+              />
             </div>
           </CardContent>
         </Card>
