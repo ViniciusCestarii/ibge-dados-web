@@ -28,7 +28,7 @@ export type Variavel = {
   sumarizacao: string[]
 }
 
-export type Tabela = {
+export type Metadado = {
   id: number
   nome: string
   URL: string

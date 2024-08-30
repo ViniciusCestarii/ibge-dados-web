@@ -1,6 +1,6 @@
 import path from 'path'
 import fs from 'fs'
-import { Pesquisa, Tabela } from '@/types/agregado'
+import { Pesquisa, Metadado } from '@/types/agregado'
 import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/fetch-data'
 import pLimit from 'p-limit'
 import chalk from 'chalk'
@@ -52,22 +52,24 @@ export async function fetchAllMissingNivelGeografico() {
         basePathToJson,
         `metadados/agregado/${agregado.id}.json`,
       )
-      let tabela: Tabela
+      let metadado: Metadado
       try {
-        tabela = JSON.parse(fs.readFileSync(pathToMetadado, 'utf-8')) as Tabela
+        metadado = JSON.parse(
+          fs.readFileSync(pathToMetadado, 'utf-8'),
+        ) as Metadado
       } catch (e) {
         console.log(chalk.red(`Error reading file ${pathToMetadado}`))
         return
       }
 
-      tabela.nivelTerritorial.IBGE.forEach((nivel) => {
-        niveisTerritoriais[nivel] = tabela.id
+      metadado.nivelTerritorial.IBGE.forEach((nivel) => {
+        niveisTerritoriais[nivel] = metadado.id
       })
-      tabela.nivelTerritorial.Administrativo.forEach((nivel) => {
-        niveisTerritoriais[nivel] = tabela.id
+      metadado.nivelTerritorial.Administrativo.forEach((nivel) => {
+        niveisTerritoriais[nivel] = metadado.id
       })
-      tabela.nivelTerritorial.Especial.forEach((nivel) => {
-        niveisTerritoriais[nivel] = tabela.id
+      metadado.nivelTerritorial.Especial.forEach((nivel) => {
+        niveisTerritoriais[nivel] = metadado.id
       })
     })
   })
