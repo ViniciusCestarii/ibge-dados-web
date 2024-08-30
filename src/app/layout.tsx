@@ -4,6 +4,7 @@ import { Inter as FontSans } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme-provider'
 import { ToggleTheme } from '@/components/toggle-theme'
+import { Metadata } from 'next'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -12,6 +13,11 @@ const fontSans = FontSans({
 
 interface RootLayoutProps {
   children: React.ReactNode
+}
+
+export const metadata: Metadata = {
+  title: 'IBGE Agregados',
+  description: 'Visualize dados agregados do IBGE',
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {

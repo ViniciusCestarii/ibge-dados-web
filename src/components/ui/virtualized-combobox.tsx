@@ -12,10 +12,19 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover'
+import useMediaQuery from '@/hooks/use-media-query'
 import { cn } from '@/lib/utils'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { Check, ChevronsUpDown } from 'lucide-react'
 import * as React from 'react'
+import {
+  Drawer,
+  DrawerContent,
+  DrawerDescription,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from './drawer'
 
 type Option = {
   value: string
@@ -141,9 +150,56 @@ export function VirtualizedCombobox({
 }: VirtualizedComboboxProps) {
   const [open, setOpen] = React.useState<boolean>(false)
 
+  const isSm = useMediaQuery('(max-width: 40em)')
+
   const optionPlaceHolder = selectedOption
     ? options.find((option) => option.value === selectedOption)?.label
     : noItemSelectedText
+
+  if (isSm) {
+    return (
+      <Drawer open={open} onOpenChange={setOpen}>
+        <DrawerTrigger asChild>
+          <Button
+            id={id}
+            disabled={disabled}
+            variant="outline"
+            role="combobox"
+            aria-label={noItemSelectedText}
+            aria-expanded={open}
+            className="justify-between w-full"
+          >
+            <span
+              title={optionPlaceHolder}
+              className="overflow-hidden text-ellipsis"
+            >
+              {optionPlaceHolder}
+            </span>
+            <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+          </Button>
+        </DrawerTrigger>
+        <DrawerContent>
+          <div className="mt-4 border-t">
+            <DrawerHeader className="text-start border-b">
+              <DrawerTitle className="capitalize">{id}</DrawerTitle>
+              <DrawerDescription>{noItemSelectedText}</DrawerDescription>
+            </DrawerHeader>
+            <VirtualizedCommand
+              height={height}
+              options={options}
+              noResultsText={noResultsText}
+              placeholder={searchPlaceholder}
+              selectedOption={selectedOption ?? ''}
+              onSelectOption={(value) => {
+                onSelectOption(value === selectedOption ? null : value)
+                setOpen(false)
+              }}
+            />{' '}
+          </div>
+        </DrawerContent>
+      </Drawer>
+    )
+  }
 
   return (
     <Popover open={open} onOpenChange={setOpen}>

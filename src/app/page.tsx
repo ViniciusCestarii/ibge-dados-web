@@ -60,7 +60,10 @@ function IbgeVisualization() {
             <div className="space-y-4">
               <PesquisaSelector
                 pesquisas={pesquisas}
-                onSelectOption={setSelectedPesquisa}
+                onSelectOption={(pesquisa) => {
+                  setSelectedPesquisa(pesquisa)
+                  setSelectedAgregado(null)
+                }}
                 selectedOption={selectedPesquisa}
               />
 
