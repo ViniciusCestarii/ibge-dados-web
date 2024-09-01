@@ -4,14 +4,16 @@ import fs from 'fs'
 import path from 'path'
 import {
   fetchAllMissingAgregadoMetadados,
-  fetchAllMissingNivelGeografico,
+  fetchAllMissingAgregadoPeriodos,
 } from './get-missing'
 
 const generateAgregados = async () => {
   await fetchAgregados()
-  await fetchAllAgregadoPeriodo()
   await fetchAllMissingAgregadoMetadados()
-  await fetchAllMissingNivelGeografico()
+  await fetchAllMissingAgregadoPeriodos()
+
+  // await fetchAllAgregadoPeriodo()
+  // await fetchAllMissingNivelGeografico()
 }
 
 generateAgregados()

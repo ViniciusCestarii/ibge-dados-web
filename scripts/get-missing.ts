@@ -36,6 +36,37 @@ export async function fetchAllMissingAgregadoMetadados() {
   await Promise.all(promises)
 }
 
+export async function fetchAllMissingAgregadoPeriodos() {
+  const limit = pLimit(6)
+
+  const pathToAgregados = path.join(basePathToJson, 'agregados.json')
+  const agregados = JSON.parse(
+    fs.readFileSync(pathToAgregados, 'utf-8'),
+  ) as Pesquisa[]
+
+  const promises = agregados.flatMap((pesquisa) =>
+    pesquisa.agregados
+      .filter(
+        (agregado) =>
+          !fs.existsSync(
+            path.join(basePathToJson, `periodos/agregado/${agregado.id}.json`),
+          ),
+      )
+      .map((agregado) =>
+        limit(() => {
+          fetchDataAndSaveAsJson({
+            urlName: `agregados/${agregado.id}/periodos`,
+            pathname: `periodos/agregado/${agregado.id}`,
+          })
+        }),
+      ),
+  )
+
+  console.log(chalk.blue(`Missing agregado periodo: ${promises.length}`))
+
+  await Promise.all(promises)
+}
+
 export async function fetchAllMissingNivelGeografico() {
   const limit = pLimit(1)
 

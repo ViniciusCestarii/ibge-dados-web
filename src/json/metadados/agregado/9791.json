@@ -1,0 +1,63 @@
+{
+  "id": 9791,
+  "nome": "Indicador 6.1.1 - Percentual da população que utiliza serviços de água potável gerenciados de forma segura, por situação do domicílio",
+  "URL": "https://sidra.ibge.gov.br/tabela/9791",
+  "pesquisa": "Objetivos de Desenvolvimento Sustentável",
+  "assunto": "Água potável e saneamento",
+  "periodicidade": {
+    "frequencia": "anual",
+    "inicio": 2016,
+    "fim": 2022
+  },
+  "nivelTerritorial": {
+    "Administrativo": [
+      "N1"
+    ],
+    "Especial": [],
+    "IBGE": []
+  },
+  "variaveis": [
+    {
+      "id": 9484,
+      "nome": "Percentual da população que utiliza serviços de água potável gerenciados de forma segura",
+      "unidade": "%",
+      "sumarizacao": []
+    },
+    {
+      "id": 9485,
+      "nome": "Coeficiente de variação - Percentual da população que utiliza serviços de água potável gerenciados de forma segura",
+      "unidade": "%",
+      "sumarizacao": []
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": 1,
+      "nome": "Situação do domicílio",
+      "sumarizacao": {
+        "status": true,
+        "excecao": []
+      },
+      "categorias": [
+        {
+          "id": 6795,
+          "nome": "Total",
+          "unidade": null,
+          "nivel": 0
+        },
+        {
+          "id": 1,
+          "nome": "Urbana",
+          "unidade": null,
+          "nivel": 1
+        },
+        {
+          "id": 2,
+          "nome": "Rural",
+          "unidade": null,
+          "nivel": 1
+        }
+      ]
+    }
+  ]
+}
