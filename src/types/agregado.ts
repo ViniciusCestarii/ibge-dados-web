@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 export type Agregado = {
   id: string
   nome: string
@@ -54,4 +55,37 @@ export type LocalGeografico = {
   id: string
   nome: string
   nivel: Nivel
+}
+
+export type AgregadoDataResponse = {
+  id: string
+  variavel: string
+  unidade: string
+  resultados: Resultado[]
+}[]
+
+type Resultado = {
+  classificacoes: Classificacao[]
+  series: Serie[]
+}
+
+type Classificacao = {
+  id: string
+  nome: string
+  categoria: {
+    [key: string]: string
+  }
+}
+
+type Serie = {
+  localidade: Localidade
+  serie: {
+    [year: string]: string
+  }
+}
+
+type Localidade = {
+  id: string
+  nivel: Nivel
+  nome: string
 }

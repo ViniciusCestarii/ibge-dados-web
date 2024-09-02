@@ -44,28 +44,6 @@ export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
   return ibgeUrl
 }
 
-const fetchIbgeData = async (fetchParams: FetchParams) => {
-  const url = makeIbgeAgregadoUrl(fetchParams)
-
-  console.log('fetching', url)
-
-  const response = await fetch(url, {
-    next: {
-      revalidate: 3600,
-    },
-  })
-  if (!response.ok) {
-    throw new Error(
-      `failed with status ${response.status}: ${response.statusText}`,
-    )
-  }
-  const data = await response.json()
-
-  return { data, response }
-}
-
-export const useIbgeData = React.cache(fetchIbgeData)
-
 export const getIbgeUrl = (pathname: string) => {
   return `${env.IBGE_BASE_URL}/${pathname}`
 }
