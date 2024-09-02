@@ -140,13 +140,16 @@ export default function IbgeFilter({
                   periods.map((period) => {
                     const nonNullSelectedPeriods = selectedPeriods ?? []
 
+                    const periodId = `periodo-${period.id}`
+                    const name = period.literals[0]
                     return (
                       <div
                         key={period.id}
                         className="flex items-center space-x-2 p-2 text-sm"
                       >
                         <Checkbox
-                          id={period.id}
+                          id={periodId}
+                          aria-label={'perido ' + name}
                           checked={nonNullSelectedPeriods.includes(period.id)}
                           onCheckedChange={(checked) => {
                             setSelectedPeriods(
@@ -158,8 +161,8 @@ export default function IbgeFilter({
                             )
                           }}
                         />
-                        <label className="font-medium" htmlFor={period.id}>
-                          {period.literals[0]}
+                        <label className="font-medium" htmlFor={periodId}>
+                          {name}
                         </label>
                       </div>
                     )
@@ -184,6 +187,7 @@ export default function IbgeFilter({
               >
                 <SelectTrigger
                   id="nivel-geografico"
+                  aria-label="Nível geográfico"
                   disabled={!selectedAgregado}
                 >
                   <SelectValue placeholder="Selecione o nível geográfico" />
@@ -214,13 +218,16 @@ export default function IbgeFilter({
                     const nonNullSelectedLocalGeografico =
                       selectedLocaisGeograficos ?? []
 
+                    const localId = `local-${local.id}`
+
                     return (
                       <div
                         key={local.id}
                         className="flex items-center space-x-2 p-2 text-sm"
                       >
                         <Checkbox
-                          id={local.id}
+                          id={localId}
+                          aria-label={'local ' + local.nome}
                           checked={nonNullSelectedLocalGeografico.includes(
                             local.id,
                           )}
@@ -234,7 +241,7 @@ export default function IbgeFilter({
                             )
                           }}
                         />
-                        <label className="font-medium" htmlFor={local.id}>
+                        <label className="font-medium" htmlFor={localId}>
                           {local.nome}
                         </label>
                       </div>
