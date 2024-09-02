@@ -1,21 +1,21 @@
+import { FetchParams, useIbgeData } from '@/lib/utils'
 import React from 'react'
 
 interface IbgeVisualizationProps {
-  validFetchParams: {
-    agregado: string
-    periodos: string[]
-    variavel: string
-    nivelGeografico: string
-    locais: string[]
-  }
+  validFetchParams: FetchParams
 }
 
-const IbgeVisualization = ({ validFetchParams }: IbgeVisualizationProps) => {
+const IbgeVisualization = async ({
+  validFetchParams,
+}: IbgeVisualizationProps) => {
+  const { data } = await useIbgeData(validFetchParams)
+
   return (
     <pre>
       <code className="text-green-500">
         {JSON.stringify(validFetchParams, null, 2)}
       </code>
+      <code className="text-blue-500">{JSON.stringify(data, null, 2)}</code>
     </pre>
   )
 }

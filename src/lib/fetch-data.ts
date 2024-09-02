@@ -1,7 +1,7 @@
+import chalk from 'chalk'
 import fs from 'fs'
 import path from 'path'
-import env from '@/env'
-import chalk from 'chalk'
+import { getIbgeUrl } from './utils'
 
 export const basePathToJson = path.join(__dirname, '../json')
 
@@ -62,8 +62,4 @@ const createJsonFile = async (pathname: string, data: unknown) => {
   }
 
   await fs.promises.writeFile(pathname, JSON.stringify(data, null, 2), 'utf-8')
-}
-
-const getIbgeUrl = (pathname: string) => {
-  return `${env.IBGE_BASE_URL}/${pathname}`
 }
