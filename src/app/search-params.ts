@@ -12,7 +12,9 @@ export const searchParamsParsers = {
   variavel: parseAsString.withOptions({
     shallow: false,
   }),
-  periodos: parseAsArrayOf(parseAsString),
+  periodos: parseAsArrayOf(parseAsString).withOptions({
+    shallow: false,
+  }),
   nivelGeografico: parseAsString.withOptions({
     shallow: false,
   }),
