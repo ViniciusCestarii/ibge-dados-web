@@ -38,3 +38,9 @@ export type Metadado = {
   nivelTerritorial: NivelTerritorial
   variaveis: Variavel[]
 }
+
+export type Periodo = {
+  id: string
+  literals: string[]
+  modificacao: string
+}

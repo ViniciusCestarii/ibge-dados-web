@@ -1,9 +1,9 @@
 import { Button } from '@/components/ui/button'
-import { Metadado } from '@/types/agregado'
+import { Metadado, Periodo } from '@/types/agregado'
 import { Suspense } from 'react'
 import { searchParamsCache } from './search-params'
 import IbgeVisualization from './ibge-visualization'
-import { getMetadados } from '@/lib/get-json'
+import { getMetadados, getPeriodo } from '@/lib/get-json'
 
 export default async function Page({
   searchParams,
@@ -13,16 +13,25 @@ export default async function Page({
   const parsedSearchParams = searchParamsCache.parse(searchParams)
 
   let agregadoMetadados: Metadado | undefined
+  let agregadoPeriodo: Periodo[] | undefined
 
   if (parsedSearchParams.agregado) {
-    agregadoMetadados = await getMetadados(parsedSearchParams.agregado)
+    const [metadados, periodo] = await Promise.all([
+      getMetadados(parsedSearchParams.agregado),
+      getPeriodo(parsedSearchParams.agregado),
+    ])
+    agregadoMetadados = metadados
+    agregadoPeriodo = periodo
   }
 
   return (
     <main className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Dados Agregados do IBGE</h1>
       <Suspense fallback="Dados Agregados do IBGE">
-        <IbgeVisualization agregadoMetadados={agregadoMetadados} />
+        <IbgeVisualization
+          agregadoPeriodo={agregadoPeriodo}
+          agregadoMetadados={agregadoMetadados}
+        />
       </Suspense>
       <div className="mt-4">
         <Button>Buscar</Button>

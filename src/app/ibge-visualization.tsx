@@ -12,9 +12,8 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import pesquisas from '@/json/agregados.json'
-// use nuqs server to import correct metadados useing selectedAgregado
-import metadados from '@/json/metadados/agregado/20.json'
-import { Metadado } from '@/types/agregado'
+// use nuqs server to import correct Ometadados useing selectedAgregado
+import { Metadado, Periodo } from '@/types/agregado'
 import { useQueryState } from 'nuqs'
 import { useState } from 'react'
 import AgregadoSelector from './agregado-selector'
@@ -24,14 +23,14 @@ import VariavelSelector from './variavel-selector'
 
 interface IbgeVisualizationProps {
   agregadoMetadados: Metadado | undefined
+  agregadoPeriodo: Periodo[] | undefined
 }
 
 export default function IbgeVisualization({
   agregadoMetadados,
+  agregadoPeriodo,
 }: IbgeVisualizationProps) {
-  const [selectedPeriods, setSelectedPeriods] = useState<string[]>([])
   const [selectedGeography, setSelectedGeography] = useState<string>('')
-  // use nuqs server instead
   const [selectedPesquisa, setSelectedPesquisa] = useQueryState(
     'pesquisa',
     searchParamsParsers.pesquisa,
@@ -44,6 +43,10 @@ export default function IbgeVisualization({
     'variavel',
     searchParamsParsers.variavel,
   )
+  const [selectedPeriods, setSelectedPeriods] = useQueryState(
+    'periodo',
+    searchParamsParsers.periodo,
+  )
 
   const agregados =
     pesquisas.find((pesquisa) => pesquisa.id === selectedPesquisa)?.agregados ??
@@ -51,13 +54,8 @@ export default function IbgeVisualization({
 
   const variaveis = agregadoMetadados?.variaveis ?? []
 
-  const periods = [
-    '2013 - 2013',
-    '2014 - 2014',
-    '2015 - 2015',
-    '2016 - 2016',
-    '2017 - 2017',
-  ]
+  const periods = agregadoPeriodo ?? []
+
   const geographicLevels = [
     'N1 - Brasil',
     'N2 - Grande região (N, NE, SE, S, CO)',
@@ -77,6 +75,7 @@ export default function IbgeVisualization({
                 setSelectedPesquisa(pesquisa)
                 setSelectedAgregado(null)
                 setSelectedVariavel(null)
+                setSelectedPeriods(null)
               }}
               selectedOption={selectedPesquisa}
             />
@@ -93,6 +92,7 @@ export default function IbgeVisualization({
               onSelectOption={(agregado) => {
                 setSelectedAgregado(agregado)
                 setSelectedVariavel(null)
+                setSelectedPeriods(null)
               }}
             />
 
@@ -118,24 +118,44 @@ export default function IbgeVisualization({
         <CardContent>
           <div className="space-y-4">
             <div>
-              <Label htmlFor="periods">Períodos</Label>
-              <ScrollArea className="h-32 w-full border rounded-md relative">
-                {periods.map((period) => (
-                  <div key={period} className="flex items-center space-x-2 p-2">
-                    <Checkbox
-                      id={period}
-                      checked={selectedPeriods.includes(period)}
-                      onCheckedChange={(checked) => {
-                        setSelectedPeriods(
-                          checked
-                            ? [...selectedPeriods, period]
-                            : selectedPeriods.filter((p) => p !== period),
-                        )
-                      }}
-                    />
-                    <label htmlFor={period}>{period}</label>
-                  </div>
-                ))}
+              <span className="text-sm font-medium leading-none">Períodos</span>
+              <ScrollArea
+                type="auto"
+                className="h-32 w-full border rounded-md relative"
+              >
+                {periods.length > 0 ? (
+                  periods.map((period) => {
+                    const nonNullSelectedPeriods = selectedPeriods ?? []
+
+                    return (
+                      <div
+                        key={period.id}
+                        className="flex items-center space-x-2 p-2 text-sm"
+                      >
+                        <Checkbox
+                          id={period.id}
+                          checked={nonNullSelectedPeriods.includes(period.id)}
+                          onCheckedChange={(checked) => {
+                            setSelectedPeriods(
+                              checked
+                                ? [...nonNullSelectedPeriods, period.id]
+                                : nonNullSelectedPeriods.filter(
+                                    (p) => p !== period.id,
+                                  ),
+                            )
+                          }}
+                        />
+                        <label className="font-medium" htmlFor={period.id}>
+                          {period.literals[0]}
+                        </label>
+                      </div>
+                    )
+                  })
+                ) : (
+                  <span className="italic flex justify-center text-sm pt-3">
+                    Selecione um agregado
+                  </span>
+                )}
               </ScrollArea>
             </div>
 

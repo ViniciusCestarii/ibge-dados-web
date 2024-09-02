@@ -1,4 +1,8 @@
-import { createSearchParamsCache, parseAsString } from 'nuqs/server'
+import {
+  createSearchParamsCache,
+  parseAsArrayOf,
+  parseAsString,
+} from 'nuqs/server'
 
 export const searchParamsParsers = {
   pesquisa: parseAsString,
@@ -6,6 +10,7 @@ export const searchParamsParsers = {
     shallow: false,
   }),
   variavel: parseAsString,
+  periodo: parseAsArrayOf(parseAsString),
 }
 
 export const searchParamsCache = createSearchParamsCache(searchParamsParsers)
