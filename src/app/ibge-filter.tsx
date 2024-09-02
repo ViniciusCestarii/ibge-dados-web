@@ -85,6 +85,7 @@ export default function IbgeFilter({
                 setSelectedAgregado(null)
                 setSelectedVariavel(null)
                 setSelectedPeriods(null)
+                setSelectedNivelGeografico(null)
                 setSelectedLocaisGeograficos(null)
               }}
               selectedOption={selectedPesquisa}
@@ -181,7 +182,10 @@ export default function IbgeFilter({
                   setSelectedLocaisGeograficos(null)
                 }}
               >
-                <SelectTrigger id="nivel-geografico">
+                <SelectTrigger
+                  id="nivel-geografico"
+                  disabled={!selectedAgregado}
+                >
                   <SelectValue placeholder="Selecione o nível geográfico" />
                 </SelectTrigger>
                 <SelectContent>
