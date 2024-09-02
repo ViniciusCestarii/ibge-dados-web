@@ -1,14 +1,12 @@
 import { z } from 'zod'
 
-const isDevelopment = process.env.NODE_ENV === 'development'
-
 const envSchema = z.object({
   IBGE_BASE_URL: z
     .string()
     .url()
     .optional()
     .default('https://servicodados.ibge.gov.br/api/v3'),
-  SENTRY_AUTH_TOKEN: isDevelopment ? z.string().optional() : z.string(),
+  SENTRY_AUTH_TOKEN: z.string().optional(),
 })
 
 const _env = envSchema.safeParse(process.env)
