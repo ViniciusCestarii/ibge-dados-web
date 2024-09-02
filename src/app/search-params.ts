@@ -9,12 +9,16 @@ export const searchParamsParsers = {
   agregado: parseAsString.withOptions({
     shallow: false,
   }),
-  variavel: parseAsString,
-  periodo: parseAsArrayOf(parseAsString),
+  variavel: parseAsString.withOptions({
+    shallow: false,
+  }),
+  periodos: parseAsArrayOf(parseAsString),
   nivelGeografico: parseAsString.withOptions({
     shallow: false,
   }),
-  localGeografico: parseAsArrayOf(parseAsString),
+  locais: parseAsArrayOf(parseAsString).withOptions({
+    shallow: false,
+  }),
 }
 
 export const searchParamsCache = createSearchParamsCache(searchParamsParsers)

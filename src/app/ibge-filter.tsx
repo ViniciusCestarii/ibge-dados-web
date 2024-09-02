@@ -38,7 +38,7 @@ export default function IbgeFilter({
     searchParamsParsers.nivelGeografico,
   )
   const [selectedLocaisGeograficos, setSelectedLocaisGeograficos] =
-    useQueryState('locais', searchParamsParsers.localGeografico)
+    useQueryState('locais', searchParamsParsers.locais)
   const [selectedPesquisa, setSelectedPesquisa] = useQueryState(
     'pesquisa',
     searchParamsParsers.pesquisa,
@@ -52,8 +52,8 @@ export default function IbgeFilter({
     searchParamsParsers.variavel,
   )
   const [selectedPeriods, setSelectedPeriods] = useQueryState(
-    'periodo',
-    searchParamsParsers.periodo,
+    'periodos',
+    searchParamsParsers.periodos,
   )
 
   const agregados =
@@ -204,6 +204,7 @@ export default function IbgeFilter({
                 type="auto"
                 className="h-32 w-full border rounded-md relative"
               >
+                {/* TODO: paginar locais */}
                 {locaisGeograficos.length > 0 ? (
                   locaisGeograficos.map((local) => {
                     const nonNullSelectedLocalGeografico =

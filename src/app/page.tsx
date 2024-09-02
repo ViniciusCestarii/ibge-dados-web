@@ -1,8 +1,10 @@
 import { Button } from '@/components/ui/button'
 import { getLocaisGeograficos, getMetadados, getPeriodos } from '@/lib/get-json'
+import { validFetchParamsSchema } from '@/lib/utils'
 import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import { Suspense } from 'react'
 import IbgeFilter from './ibge-filter'
+import IbgeVisualization from './ibge-visualization'
 import { searchParamsCache } from './search-params'
 
 export default async function Page({
@@ -29,6 +31,8 @@ export default async function Page({
     nivelLocaisGeograficos = locaisGeograficos
   }
 
+  const _validFetchParams = validFetchParamsSchema.safeParse(parsedSearchParams)
+
   return (
     <main className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Dados Agregados do IBGE</h1>
@@ -42,6 +46,17 @@ export default async function Page({
       <div className="mt-4">
         <Button>Buscar</Button>
       </div>
+      {_validFetchParams.success ? (
+        <Suspense fallback="Loading...">
+          <IbgeVisualization validFetchParams={_validFetchParams.data} />
+        </Suspense>
+      ) : (
+        <pre>
+          <code className={'text-destructive'}>
+            {_validFetchParams.error?.message}
+          </code>
+        </pre>
+      )}
     </main>
   )
 }
