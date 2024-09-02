@@ -6,7 +6,6 @@ const envSchema = z.object({
     .url()
     .optional()
     .default('https://servicodados.ibge.gov.br/api/v3'),
-  SENTRY_AUTH_TOKEN: z.string().optional(),
 })
 
 const _env = envSchema.safeParse(process.env)
