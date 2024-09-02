@@ -1,9 +1,9 @@
 import { Button } from '@/components/ui/button'
-import { Metadado, Periodo } from '@/types/agregado'
+import { getLocaisGeograficos, getMetadados, getPeriodos } from '@/lib/get-json'
+import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import { Suspense } from 'react'
+import IbgeFilter from './ibge-filter'
 import { searchParamsCache } from './search-params'
-import IbgeVisualization from './ibge-visualization'
-import { getMetadados, getPeriodo } from '@/lib/get-json'
 
 export default async function Page({
   searchParams,
@@ -13,24 +13,30 @@ export default async function Page({
   const parsedSearchParams = searchParamsCache.parse(searchParams)
 
   let agregadoMetadados: Metadado | undefined
-  let agregadoPeriodo: Periodo[] | undefined
+  let agregadoPeriodos: Periodo[] | undefined
+  let nivelLocaisGeograficos: LocalGeografico[] | undefined
 
   if (parsedSearchParams.agregado) {
-    const [metadados, periodo] = await Promise.all([
+    const [metadados, periodos, locaisGeograficos] = await Promise.all([
       getMetadados(parsedSearchParams.agregado),
-      getPeriodo(parsedSearchParams.agregado),
+      getPeriodos(parsedSearchParams.agregado),
+      parsedSearchParams.nivelGeografico
+        ? getLocaisGeograficos(parsedSearchParams.nivelGeografico)
+        : undefined,
     ])
     agregadoMetadados = metadados
-    agregadoPeriodo = periodo
+    agregadoPeriodos = periodos
+    nivelLocaisGeograficos = locaisGeograficos
   }
 
   return (
     <main className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Dados Agregados do IBGE</h1>
       <Suspense fallback="Dados Agregados do IBGE">
-        <IbgeVisualization
-          agregadoPeriodo={agregadoPeriodo}
+        <IbgeFilter
+          agregadoPeriodos={agregadoPeriodos}
           agregadoMetadados={agregadoMetadados}
+          nivelLocaisGeograficos={nivelLocaisGeograficos}
         />
       </Suspense>
       <div className="mt-4">

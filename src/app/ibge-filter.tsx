@@ -13,24 +13,32 @@ import {
 } from '@/components/ui/select'
 import pesquisas from '@/json/agregados.json'
 // use nuqs server to import correct Ometadados useing selectedAgregado
-import { Metadado, Periodo } from '@/types/agregado'
+import { getNiveisArrayFromMetadados } from '@/lib/utils'
+import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import { useQueryState } from 'nuqs'
-import { useState } from 'react'
 import AgregadoSelector from './agregado-selector'
 import PesquisaSelector from './pesquisa-selector'
 import { searchParamsParsers } from './search-params'
 import VariavelSelector from './variavel-selector'
+import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
 
-interface IbgeVisualizationProps {
+interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined
-  agregadoPeriodo: Periodo[] | undefined
+  agregadoPeriodos: Periodo[] | undefined
+  nivelLocaisGeograficos: LocalGeografico[] | undefined
 }
 
-export default function IbgeVisualization({
+export default function IbgeFilter({
   agregadoMetadados,
-  agregadoPeriodo,
-}: IbgeVisualizationProps) {
-  const [selectedGeography, setSelectedGeography] = useState<string>('')
+  agregadoPeriodos,
+  nivelLocaisGeograficos,
+}: IbgeFilterProps) {
+  const [selectedNivelGeografico, setSelectedNivelGeografico] = useQueryState(
+    'nivelGeografico',
+    searchParamsParsers.nivelGeografico,
+  )
+  const [selectedLocaisGeograficos, setSelectedLocaisGeograficos] =
+    useQueryState('locais', searchParamsParsers.localGeografico)
   const [selectedPesquisa, setSelectedPesquisa] = useQueryState(
     'pesquisa',
     searchParamsParsers.pesquisa,
@@ -54,12 +62,13 @@ export default function IbgeVisualization({
 
   const variaveis = agregadoMetadados?.variaveis ?? []
 
-  const periods = agregadoPeriodo ?? []
+  const periods = agregadoPeriodos ?? []
 
-  const geographicLevels = [
-    'N1 - Brasil',
-    'N2 - Grande região (N, NE, SE, S, CO)',
-  ]
+  const niveisGeograficos = agregadoMetadados
+    ? getNiveisArrayFromMetadados(agregadoMetadados)
+    : []
+
+  const locaisGeograficos = nivelLocaisGeograficos ?? []
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -76,6 +85,7 @@ export default function IbgeVisualization({
                 setSelectedAgregado(null)
                 setSelectedVariavel(null)
                 setSelectedPeriods(null)
+                setSelectedLocaisGeograficos(null)
               }}
               selectedOption={selectedPesquisa}
             />
@@ -93,6 +103,8 @@ export default function IbgeVisualization({
                 setSelectedAgregado(agregado)
                 setSelectedVariavel(null)
                 setSelectedPeriods(null)
+                setSelectedNivelGeografico(null)
+                setSelectedLocaisGeograficos(null)
               }}
             />
 
@@ -160,22 +172,75 @@ export default function IbgeVisualization({
             </div>
 
             <div>
-              <Label htmlFor="geography">Nível geográfico</Label>
+              <Label htmlFor="nivel-geografico">Nível geográfico</Label>
               <Select
-                value={selectedGeography}
-                onValueChange={setSelectedGeography}
+                disabled={!selectedAgregado}
+                value={selectedNivelGeografico ?? ''}
+                onValueChange={(nivelGeografico) => {
+                  setSelectedNivelGeografico(nivelGeografico)
+                  setSelectedLocaisGeograficos(null)
+                }}
               >
-                <SelectTrigger>
+                <SelectTrigger id="nivel-geografico">
                   <SelectValue placeholder="Selecione o nível geográfico" />
                 </SelectTrigger>
                 <SelectContent>
-                  {geographicLevels.map((level) => (
-                    <SelectItem key={level} value={level}>
-                      {level}
+                  {niveisGeograficos.map((nivel) => (
+                    <SelectItem key={nivel} value={nivel}>
+                      {
+                        nivelGeograficoMap[
+                          nivel as keyof typeof nivelGeograficoMap
+                        ]
+                      }
                     </SelectItem>
                   ))}
                 </SelectContent>
               </Select>
+            </div>
+
+            <div>
+              <span className="text-sm font-medium leading-none">Locais</span>
+              <ScrollArea
+                type="auto"
+                className="h-32 w-full border rounded-md relative"
+              >
+                {locaisGeograficos.length > 0 ? (
+                  locaisGeograficos.map((local) => {
+                    const nonNullSelectedLocalGeografico =
+                      selectedLocaisGeograficos ?? []
+
+                    return (
+                      <div
+                        key={local.id}
+                        className="flex items-center space-x-2 p-2 text-sm"
+                      >
+                        <Checkbox
+                          id={local.id}
+                          checked={nonNullSelectedLocalGeografico.includes(
+                            local.id,
+                          )}
+                          onCheckedChange={(checked) => {
+                            setSelectedLocaisGeograficos(
+                              checked
+                                ? [...nonNullSelectedLocalGeografico, local.id]
+                                : nonNullSelectedLocalGeografico.filter(
+                                    (p) => p !== local.id,
+                                  ),
+                            )
+                          }}
+                        />
+                        <label className="font-medium" htmlFor={local.id}>
+                          {local.nome}
+                        </label>
+                      </div>
+                    )
+                  })
+                ) : (
+                  <span className="italic flex justify-center text-sm pt-3">
+                    Selecione um nivel geográfico
+                  </span>
+                )}
+              </ScrollArea>
             </div>
           </div>
         </CardContent>

@@ -6,11 +6,13 @@ import {
   fetchAllMissingAgregadoMetadados,
   fetchAllMissingAgregadoPeriodos,
 } from './get-missing'
+import { createNivelGeograficoMap } from './get-nivel-geografico-map'
 
 const generateAgregados = async () => {
   await fetchAgregados()
   await fetchAllMissingAgregadoMetadados()
   await fetchAllMissingAgregadoPeriodos()
+  await createNivelGeograficoMap()
 
   // await fetchAllAgregadoPeriodo()
   // await fetchAllMissingNivelGeografico()

@@ -11,6 +11,10 @@ export const searchParamsParsers = {
   }),
   variavel: parseAsString,
   periodo: parseAsArrayOf(parseAsString),
+  nivelGeografico: parseAsString.withOptions({
+    shallow: false,
+  }),
+  localGeografico: parseAsArrayOf(parseAsString),
 }
 
 export const searchParamsCache = createSearchParamsCache(searchParamsParsers)

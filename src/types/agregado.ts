@@ -44,3 +44,14 @@ export type Periodo = {
   literals: string[]
   modificacao: string
 }
+
+type Nivel = {
+  id: string
+  nome: string
+}
+
+export type LocalGeografico = {
+  id: string
+  nome: string
+  nivel: Nivel
+}

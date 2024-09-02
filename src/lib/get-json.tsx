@@ -1,8 +1,8 @@
 'use server'
 
-import path from 'path'
+import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import fs from 'fs'
-import { Metadado, Periodo } from '@/types/agregado'
+import path from 'path'
 
 export async function getMetadados(agregadoId: string): Promise<Metadado> {
   const filePath = path.resolve(
@@ -13,11 +13,19 @@ export async function getMetadados(agregadoId: string): Promise<Metadado> {
   return JSON.parse(fileContent)
 }
 
-export async function getPeriodo(agregadoId: string): Promise<Periodo[]> {
+export async function getPeriodos(agregadoId: string): Promise<Periodo[]> {
   const filePath = path.resolve(
     'src/json/periodos/agregado',
     `${agregadoId}.json`,
   )
+  const fileContent = await fs.promises.readFile(filePath, 'utf-8')
+  return JSON.parse(fileContent)
+}
+
+export async function getLocaisGeograficos(
+  nivelId: string,
+): Promise<LocalGeografico[]> {
+  const filePath = path.resolve('src/json/nivel-geografico', `${nivelId}.json`)
   const fileContent = await fs.promises.readFile(filePath, 'utf-8')
   return JSON.parse(fileContent)
 }
