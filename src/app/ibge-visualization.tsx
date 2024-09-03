@@ -1,6 +1,7 @@
 import useIbgeData from '@/hooks/use-ibge-data'
 import { FetchParams } from '@/lib/utils'
 import React from 'react'
+import MapVisualization from './map-visualization'
 
 interface IbgeVisualizationProps {
   validFetchParams: FetchParams
@@ -13,6 +14,14 @@ const IbgeVisualization = async ({
 
   return (
     <div>
+      <MapVisualization
+        data={[
+          {
+            name: 'Santa Catarina',
+            value: 2,
+          },
+        ]}
+      />
       {data.flatMap((ibgeData) =>
         ibgeData.resultados.flatMap((result) =>
           result.series.flatMap((serie) => (
