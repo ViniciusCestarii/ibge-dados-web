@@ -1,6 +1,6 @@
 import useIbgeData from '@/hooks/use-ibge-data'
 import { FetchParams } from '@/lib/utils'
-import MapVisualization from './map-visualization'
+import ChartVisualization from './chart-visualization'
 
 interface IbgeVisualizationProps {
   validFetchParams: FetchParams
@@ -13,7 +13,7 @@ const IbgeVisualization = async ({
 
   return (
     <div>
-      <MapVisualization fetchParams={validFetchParams} />
+      <ChartVisualization fetchParams={validFetchParams} />
       {data.flatMap((ibgeData) =>
         ibgeData.resultados.flatMap((result) =>
           result.series.flatMap((serie) => (

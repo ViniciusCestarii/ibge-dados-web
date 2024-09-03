@@ -2,8 +2,20 @@ import { FetchParams, makeIbgeAgregadoUrl } from '@/lib/utils'
 import { AgregadoDataResponse } from '@/types/agregado'
 import React from 'react'
 
-const fetchIbgeData = async (fetchParams: FetchParams) => {
-  const url = makeIbgeAgregadoUrl(fetchParams)
+const fetchIbgeData = async (
+  agregado: FetchParams['agregado'],
+  variavel: FetchParams['variavel'],
+  periodos: FetchParams['periodos'],
+  nivelGeografico: FetchParams['nivelGeografico'],
+  locais: FetchParams['locais'],
+) => {
+  const url = makeIbgeAgregadoUrl({
+    agregado,
+    variavel,
+    periodos,
+    nivelGeografico,
+    locais,
+  })
 
   const response = await fetch(url, {
     next: {
@@ -20,6 +32,18 @@ const fetchIbgeData = async (fetchParams: FetchParams) => {
   return { data, response }
 }
 
-const useIbgeData = React.cache(fetchIbgeData)
+const useMultiParamIbgeData = React.cache(fetchIbgeData)
+
+const useIbgeData = async (validFetchParams: FetchParams) => {
+  const { agregado, variavel, periodos, nivelGeografico, locais } =
+    validFetchParams
+  return useMultiParamIbgeData(
+    agregado,
+    variavel,
+    periodos,
+    nivelGeografico,
+    locais,
+  )
+}
 
 export default useIbgeData
