@@ -19,9 +19,9 @@ const IbgeVisualization = async ({
             <div key={serie.localidade.id}>
               {serie.localidade.nome}
               {Object.entries(serie.serie).map(([periodo, value]) => (
-                <div key={`${periodo}-${serie.localidade.id}`}>
-                  {`${ibgeData.variavel}: ${value} ${ibgeData.unidade}`}
-                </div>
+                <p key={`${periodo}-${serie.localidade.id}`}>
+                  {`${periodo} ${ibgeData.variavel}: ${value} ${ibgeData.unidade}`}
+                </p>
               ))}
             </div>
           )),
