@@ -1,17 +1,18 @@
 'use client'
-import React, { useEffect, useMemo, useRef, useState } from 'react'
-import brasilEstados from '@/json/geo/brasil/estados.json'
-import * as echarts from 'echarts/core'
+import { ChartData, ChartOptions } from '@/types/map'
+import { EChartsOption } from 'echarts'
 import { BarChart, MapChart } from 'echarts/charts'
 import {
+  DataZoomComponent,
+  GridComponent,
   TitleComponent,
+  ToolboxComponent,
   TooltipComponent,
   VisualMapComponent,
-  ToolboxComponent,
-  GridComponent,
-  DataZoomComponent,
 } from 'echarts/components'
+import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 echarts.use([
   BarChart,
@@ -25,13 +26,17 @@ echarts.use([
   DataZoomComponent,
 ])
 
-interface AnimatedSantaCatarinaMapEchartUsingJsonProps {
-  data: { name: string; value: number }[]
+interface MapVisualizationProps {
+  data: ChartData
+  geoJson: object
+  options: ChartOptions
 }
 
-const AnimatedSantaCatarinaMapEchartUsingJson = ({
+const MapVisualization = ({
   data,
-}: AnimatedSantaCatarinaMapEchartUsingJsonProps) => {
+  geoJson,
+  options,
+}: MapVisualizationProps) => {
   const chartRef = useRef(null)
   const echartRef = useRef<null | echarts.ECharts>(null)
   const [isMap, setIsMap] = useState(true)
@@ -45,12 +50,12 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
     return dataReversed
   }, [data])
 
-  const mapOption = {
+  const mapOption: EChartsOption = {
     tooltip: {
-      formatter: '{b}: {c} mil',
+      formatter: `{b}: {c} ${options.unidade}`,
     },
     title: {
-      text: 'População 2020 (mil)',
+      text: options.title,
       left: '1%',
     },
     visualMap: {
@@ -59,13 +64,14 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
       min: Math.ceil(data[data.length - 1].value),
       max: Math.floor(data[0].value),
       orient: 'vertical',
-      text: ['', 'População (mil)'],
+      text: ['', options.unidade],
       realtime: true,
       calculable: true,
       inRange: {
         color: ['#CAF0F8', '#90E0EF', '#0077B6', '#023E8A'],
       },
     },
+    backgroundColor: 'transparent',
     series: {
       id: 'population',
       name: 'Poulação 2020',
@@ -98,12 +104,12 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
     },
   }
 
-  const barOption = {
+  const barOption: EChartsOption = {
     tooltip: {
-      formatter: '{b}: {c} mil',
+      formatter: `{b}: {c} ${options.unidade}`,
     },
     title: {
-      text: 'População 2020 (mil)',
+      text: options.title,
       left: '1%',
     },
     yAxis: {
@@ -134,13 +140,14 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
       },
       universalTransition: true,
     },
+    backgroundColor: 'transparent',
     visualMap: {
       right: '2%',
       top: '15%',
       min: Math.ceil(data[data.length - 1].value),
       max: Math.floor(data[0].value),
       orient: 'vertical',
-      text: ['', 'População (mil)'],
+      text: ['', options.unidade],
       inRange: {
         color: ['#CAF0F8', '#90E0EF', '#0077B6', '#023E8A'],
       },
@@ -166,7 +173,7 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
   useEffect(() => {
     const myChart = echarts.init(chartRef.current, 'dark')
     echarts.registerMap('Santa_Catarina_Json_map', {
-      geoJSON: brasilEstados,
+      geoJSON: geoJson,
     } as any)
 
     echartRef.current = myChart
@@ -181,7 +188,7 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
       const currentOption: any = isMap ? mapOption : barOption
       echartRef.current.setOption(currentOption, true)
     }
-  }, [isMap])
+  }, [isMap, dataSorted])
 
   return (
     <>
@@ -197,4 +204,4 @@ const AnimatedSantaCatarinaMapEchartUsingJson = ({
   )
 }
 
-export default AnimatedSantaCatarinaMapEchartUsingJson
+export default MapVisualization

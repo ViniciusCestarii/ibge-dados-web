@@ -1,9 +1,9 @@
-import { Metadado } from '@/types/agregado'
+import { AgregadoDataResponse, Metadado } from '@/types/agregado'
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
-import React from 'react'
 import env from '@/env'
+import { ChartData, ChartOptions } from '@/types/map'
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -47,3 +47,20 @@ export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
 export const getIbgeUrl = (pathname: string) => {
   return `${env.IBGE_BASE_URL}/${pathname}`
 }
+
+export const mapIbgeDataToChartData = (data: AgregadoDataResponse): ChartData =>
+  data.flatMap((ibgeData) =>
+    ibgeData.resultados.flatMap((result) =>
+      result.series.flatMap((serie) =>
+        Object.entries(serie.serie).map(([_, value]) => ({
+          name: serie.localidade.nome,
+          value: Number(value),
+        })),
+      ),
+    ),
+  )
+
+export const makeChartOptions = (data: AgregadoDataResponse): ChartOptions => ({
+  title: data[0].variavel,
+  unidade: data[0].unidade,
+})

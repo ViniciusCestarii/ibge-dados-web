@@ -24,3 +24,15 @@ https://servicodados.ibge.gov.br/api/v3/agregados/{AGREGADO_ID}/periodos/{[PERIO
 ex:
 
 https://servicodados.ibge.gov.br/api/v3/agregados/1006/periodos/2006/variaveis/2321?localidades=N1[all]
+
+Malhas geográficas:
+
+https://servicodados.ibge.gov.br/api/docs/malhas?versao=3
+
+ex:
+
+https://servicodados.ibge.gov.br/api/v3/malhas/estados/RJ?intrarregiao=municipio
+
+https://servicodados.ibge.gov.br/api/v3/malhas/estados/RJ?intrarregiao=municipio&formato=application/vnd.geo+json
+
+https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?intrarregiao=regiao&formato=application/vnd.geo+json

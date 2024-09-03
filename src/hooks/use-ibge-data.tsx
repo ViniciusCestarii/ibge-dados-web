@@ -5,8 +5,6 @@ import React from 'react'
 const fetchIbgeData = async (fetchParams: FetchParams) => {
   const url = makeIbgeAgregadoUrl(fetchParams)
 
-  console.log('fetching', url)
-
   const response = await fetch(url, {
     next: {
       revalidate: 3600,

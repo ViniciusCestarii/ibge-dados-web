@@ -46,8 +46,18 @@ export type Periodo = {
   modificacao: string
 }
 
-type Nivel = {
-  id: string
+export type NivelId =
+  | 'N1'
+  | 'N2'
+  | 'N3'
+  | 'N4'
+  | 'N5'
+  | 'N6'
+  | 'N7'
+  | (string & Record<never, never>)
+
+export type Nivel = {
+  id: NivelId
   nome: string
 }
 

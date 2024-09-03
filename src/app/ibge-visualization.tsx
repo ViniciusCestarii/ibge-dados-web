@@ -1,7 +1,12 @@
 import useIbgeData from '@/hooks/use-ibge-data'
-import { FetchParams } from '@/lib/utils'
+import {
+  FetchParams,
+  makeChartOptions,
+  mapIbgeDataToChartData,
+} from '@/lib/utils'
 import React from 'react'
 import MapVisualization from './map-visualization'
+import useGeoJsonMap from '@/hooks/use-map-geo-json'
 
 interface IbgeVisualizationProps {
   validFetchParams: FetchParams
@@ -11,17 +16,14 @@ const IbgeVisualization = async ({
   validFetchParams,
 }: IbgeVisualizationProps) => {
   const { data } = await useIbgeData(validFetchParams)
+  const geoJson = await useGeoJsonMap(validFetchParams.nivelGeografico)
+
+  const geoData = mapIbgeDataToChartData(data)
+  const mapOptions = makeChartOptions(data)
 
   return (
     <div>
-      <MapVisualization
-        data={[
-          {
-            name: 'Santa Catarina',
-            value: 2,
-          },
-        ]}
-      />
+      <MapVisualization options={mapOptions} data={geoData} geoJson={geoJson} />
       {data.flatMap((ibgeData) =>
         ibgeData.resultados.flatMap((result) =>
           result.series.flatMap((serie) => (
