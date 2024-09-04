@@ -66,7 +66,7 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
       },
       height: '70%',
       series: {
-        id: 'population',
+        id: `bar-${options.title}`,
         type: 'bar',
         data: dataSorted.map(function (item) {
           return item.value
@@ -83,7 +83,7 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
       visualMap: {
         right: '2%',
         top: '15%',
-        min: Math.ceil(data[data.length - 1].value),
+        min: data.length > 1 ? Math.ceil(data[data.length - 1].value) : 0,
         max: Math.floor(data[0].value),
         orient: 'vertical',
         text: ['', options.unidade],

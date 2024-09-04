@@ -52,7 +52,7 @@ const GeoChartCore = ({
       visualMap: {
         right: '10%',
         top: '15%',
-        min: Math.ceil(data[data.length - 1].value),
+        min: data.length > 1 ? Math.ceil(data[data.length - 1].value) : 0,
         max: Math.floor(data[0].value),
         orient: 'vertical',
         text: ['', options.unidade],
@@ -64,7 +64,7 @@ const GeoChartCore = ({
       },
       backgroundColor: 'transparent',
       series: {
-        id: 'population',
+        id: `geo-${options.title}`,
         name: 'População 2020',
         type: 'map',
         map: 'geo-map',

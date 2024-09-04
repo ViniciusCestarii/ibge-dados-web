@@ -38,3 +38,11 @@ https://servicodados.ibge.gov.br/api/v3/malhas/estados/RJ?intrarregiao=municipio
 https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?intrarregiao=regiao&formato=application/vnd.geo+json
 
 Simplify geo json: https://mapshaper.org/
+
+Minify geo json: https://open-innovations.github.io/geojson-minify/ | npx simplify-geojson -t 0.01 < data.geojson > simplified.geojson
+
+
+
+
+
+
