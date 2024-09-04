@@ -33,6 +33,16 @@ const fetchIbgeData = async (
   }
   const data: AgregadoDataResponse = await response.json()
 
+  if (periodos.length === 1) {
+    data.map((ibgeData) =>
+      ibgeData.resultados.map((result) =>
+        result.series.sort(
+          (a, b) => Number(a.serie[periodos[0]]) - Number(b.serie[periodos[0]]),
+        ),
+      ),
+    )
+  }
+
   return { data, response }
 }
 
