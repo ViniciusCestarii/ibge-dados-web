@@ -214,7 +214,7 @@ export default function IbgeFilter({
               >
                 {/* TODO: paginar locais */}
                 {locaisGeograficos.length > 0 ? (
-                  locaisGeograficos.map((local) => {
+                  locaisGeograficos.slice(0, 50).map((local) => {
                     const nonNullSelectedLocalGeografico =
                       selectedLocaisGeograficos ?? []
 

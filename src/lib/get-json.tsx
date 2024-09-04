@@ -49,7 +49,7 @@ export async function getGeoJsonMap(
   const geoJsonFilename = getGeoFilename(nivelId)
   const filePath = path.resolve(
     'src/json/geo/brasil',
-    `${geoJsonFilename}.json`,
+    `${geoJsonFilename}.geojson`,
   )
   const fileContent = await fs.promises.readFile(filePath, 'utf-8')
   return JSON.parse(fileContent)
