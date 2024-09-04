@@ -64,3 +64,5 @@ export const makeChartOptions = (data: AgregadoDataResponse): ChartOptions => ({
   title: data[0].variavel,
   unidade: data[0].unidade,
 })
+
+export const ONE_DAY_IN_SECONDS = 86400

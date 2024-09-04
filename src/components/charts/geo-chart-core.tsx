@@ -1,4 +1,6 @@
 'use client'
+import { getGeoJsonMap } from '@/lib/get-json'
+import { NivelId } from '@/types/agregado'
 import { ChartData, ChartOptions } from '@/types/map'
 import { EChartsOption } from 'echarts'
 import { MapChart } from 'echarts/charts'
@@ -11,7 +13,7 @@ import {
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 echarts.use([
   MapChart,
@@ -25,13 +27,18 @@ echarts.use([
 
 interface GeoChartCoreProps {
   data: ChartData
-  geoJson: object
+  nivelGeografico: NivelId
   options: ChartOptions
 }
 
-const GeoChartCore = ({ data, geoJson, options }: GeoChartCoreProps) => {
-  const chartRef = useRef(null)
-  const echartRef = useRef<null | echarts.ECharts>(null)
+const GeoChartCore = ({
+  data,
+  options,
+  nivelGeografico,
+}: GeoChartCoreProps) => {
+  const chartRef = useRef<HTMLDivElement | null>(null)
+  const echartRef = useRef<echarts.ECharts | null>(null)
+  const [geoJson, setGeoJson] = useState<object | null>(null)
 
   const mapOption: EChartsOption = useMemo(
     () => ({
@@ -58,7 +65,7 @@ const GeoChartCore = ({ data, geoJson, options }: GeoChartCoreProps) => {
       backgroundColor: 'transparent',
       series: {
         id: 'population',
-        name: 'Poulação 2020',
+        name: 'População 2020',
         type: 'map',
         map: 'geo-map',
         roam: true,
@@ -90,23 +97,38 @@ const GeoChartCore = ({ data, geoJson, options }: GeoChartCoreProps) => {
   )
 
   useEffect(() => {
-    const myChart = echarts.init(chartRef.current, 'dark')
-    echarts.registerMap('geo-map', {
-      geoJSON: geoJson,
-    } as any)
+    if (!chartRef.current) return
 
+    const myChart = echarts.init(chartRef.current, 'dark')
     echartRef.current = myChart
 
     return () => {
       myChart.dispose()
     }
+  }, [])
+
+  useEffect(() => {
+    if (geoJson) {
+      echarts.registerMap('geo-map', {
+        geoJSON: geoJson,
+      } as any)
+    }
   }, [geoJson])
 
   useEffect(() => {
-    if (echartRef.current) {
+    const fetchGeoJson = async () => {
+      const geoJsonData = await getGeoJsonMap(nivelGeografico)
+      setGeoJson(geoJsonData)
+    }
+
+    fetchGeoJson()
+  }, [nivelGeografico])
+
+  useEffect(() => {
+    if (echartRef.current && geoJson) {
       echartRef.current.setOption(mapOption, true)
     }
-  }, [mapOption])
+  }, [mapOption, geoJson])
 
   return <div ref={chartRef} style={{ height: '600px', width: '100%' }} />
 }

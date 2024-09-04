@@ -1,7 +1,8 @@
 import chalk from 'chalk'
 import fs from 'fs'
 import path from 'path'
-import { getIbgeUrl } from './utils'
+import { getIbgeUrl, ONE_DAY_IN_SECONDS } from './utils'
+import { LocalGeografico, NivelId } from '@/types/agregado'
 
 export const basePathToJson = path.join(__dirname, '../json')
 
@@ -62,4 +63,17 @@ const createJsonFile = async (pathname: string, data: unknown) => {
   }
 
   await fs.promises.writeFile(pathname, JSON.stringify(data, null, 2), 'utf-8')
+}
+
+async function getGeoJsonMap(nivelId: NivelId): Promise<LocalGeografico[]> {
+  const response = await fetch(
+    `http://localhost:3000/api/geo-json/${nivelId}`,
+    {
+      next: {
+        revalidate: ONE_DAY_IN_SECONDS,
+      },
+    },
+  )
+  const data = await response.json()
+  return data
 }

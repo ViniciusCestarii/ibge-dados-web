@@ -1,4 +1,8 @@
-import { FetchParams, makeIbgeAgregadoUrl } from '@/lib/utils'
+import {
+  ONE_DAY_IN_SECONDS,
+  FetchParams,
+  makeIbgeAgregadoUrl,
+} from '@/lib/utils'
 import { AgregadoDataResponse } from '@/types/agregado'
 import React from 'react'
 
@@ -19,7 +23,7 @@ const fetchIbgeData = async (
 
   const response = await fetch(url, {
     next: {
-      revalidate: 3600,
+      revalidate: ONE_DAY_IN_SECONDS,
     },
   })
   if (!response.ok) {
