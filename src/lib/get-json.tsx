@@ -38,10 +38,7 @@ const getGeoFilename = (nivelId: NivelId) => {
       return 'grandes-regioes'
     case 'N3':
       return 'estados'
-    case 'N4':
-    case 'N5':
-    case 'N6':
-    case 'N7':
+    default:
       return 'municipios'
   }
 }

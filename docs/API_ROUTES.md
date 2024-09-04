@@ -36,3 +36,5 @@ https://servicodados.ibge.gov.br/api/v3/malhas/estados/RJ?intrarregiao=municipio
 https://servicodados.ibge.gov.br/api/v3/malhas/estados/RJ?intrarregiao=municipio&formato=application/vnd.geo+json
 
 https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?intrarregiao=regiao&formato=application/vnd.geo+json
+
+Simplify geo json: https://mapshaper.org/

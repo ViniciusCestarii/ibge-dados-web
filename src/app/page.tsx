@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import { getLocaisGeograficos, getMetadados, getPeriodos } from '@/lib/get-json'
 import { validFetchParamsSchema } from '@/lib/utils'
 import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'

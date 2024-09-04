@@ -1,7 +1,7 @@
 import path from 'path'
 import fs from 'fs'
 import { Pesquisa, Metadado } from '@/types/agregado'
-import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/fetch-data'
+import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/create-json'
 import pLimit from 'p-limit'
 import chalk from 'chalk'
 

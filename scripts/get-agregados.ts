@@ -1,4 +1,4 @@
-import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/fetch-data'
+import { basePathToJson, fetchDataAndSaveAsJson } from '@/lib/create-json'
 import { Pesquisa } from '@/types/agregado'
 import fs from 'fs'
 import path from 'path'

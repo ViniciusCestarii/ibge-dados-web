@@ -1,5 +1,5 @@
 'use client'
-import { getGeoJsonMap } from '@/lib/get-json'
+import { fetchGeoJsonMap } from '@/lib/fetch-data'
 import { NivelId } from '@/types/agregado'
 import { ChartData, ChartOptions } from '@/types/map'
 import { EChartsOption } from 'echarts'
@@ -121,7 +121,7 @@ const GeoChartCore = ({
 
   useEffect(() => {
     const fetchGeoJson = async () => {
-      const geoJsonData = await getGeoJsonMap(nivelGeografico)
+      const geoJsonData = await fetchGeoJsonMap(nivelGeografico)
       setGeoJson(geoJsonData)
     }
 
