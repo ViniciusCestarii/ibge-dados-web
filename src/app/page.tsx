@@ -43,13 +43,8 @@ export default async function Page({
           nivelLocaisGeograficos={nivelLocaisGeograficos}
         />
       </Suspense>
-      <div className="mt-4">
-        <Button>Buscar</Button>
-      </div>
       {_validFetchParams.success ? (
-        <Suspense fallback="Loading...">
-          <IbgeVisualization validFetchParams={_validFetchParams.data} />
-        </Suspense>
+        <IbgeVisualization validFetchParams={_validFetchParams.data} />
       ) : (
         <pre>
           <code className={'text-destructive'}>

@@ -22,6 +22,9 @@ const config = {
         xl: '80em',
         '2xl': '87.5em',
       },
+      height: {
+        chart: '38rem',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

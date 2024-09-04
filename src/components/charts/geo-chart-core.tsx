@@ -59,7 +59,7 @@ const GeoChartCore = ({
         realtime: true,
         calculable: true,
         inRange: {
-          color: ['#CAF0F8', '#90E0EF', '#0077B6', '#023E8A'],
+          color: ['#CACACA', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
         },
       },
       backgroundColor: 'transparent',
@@ -74,9 +74,9 @@ const GeoChartCore = ({
             show: false,
           },
           itemStyle: {
-            areaColor: '#023E8A',
-            borderColor: '#111A48',
-            borderWidth: 1,
+            areaColor: '#808080',
+            borderColor: '#000000',
+            borderWidth: 1.5,
           },
         },
         selectedMode: false,
@@ -101,6 +101,10 @@ const GeoChartCore = ({
 
     const myChart = echarts.init(chartRef.current, 'dark')
     echartRef.current = myChart
+
+    window.onresize = function () {
+      myChart.resize()
+    }
 
     return () => {
       myChart.dispose()
@@ -130,7 +134,7 @@ const GeoChartCore = ({
     }
   }, [mapOption, geoJson])
 
-  return <div ref={chartRef} style={{ height: '600px', width: '100%' }} />
+  return <div ref={chartRef} className="w-full h-chart px-4 sm:px-0" />
 }
 
 export default GeoChartCore
