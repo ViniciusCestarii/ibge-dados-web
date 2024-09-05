@@ -2,4 +2,4 @@
 
 - [ ] Fix municipio geo map to its city have its state on name
 
-- [ ] Simplify municipio geo json
+- [X] Simplify municipio geo json
