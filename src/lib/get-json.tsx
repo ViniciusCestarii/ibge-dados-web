@@ -3,6 +3,7 @@
 import { LocalGeografico, Metadado, NivelId, Periodo } from '@/types/agregado'
 import fs from 'fs'
 import path from 'path'
+import { getGeoFilename } from './utils'
 
 export async function getMetadados(agregadoId: string): Promise<Metadado> {
   const filePath = path.resolve(
@@ -28,19 +29,6 @@ export async function getLocaisGeograficos(
   const filePath = path.resolve('src/json/nivel-geografico', `${nivelId}.json`)
   const fileContent = await fs.promises.readFile(filePath, 'utf-8')
   return JSON.parse(fileContent)
-}
-
-const getGeoFilename = (nivelId: NivelId) => {
-  switch (nivelId) {
-    case 'N1':
-      return 'pais'
-    case 'N2':
-      return 'grandes-regioes'
-    case 'N3':
-      return 'estados'
-    default:
-      return 'municipios'
-  }
 }
 
 export async function getGeoJsonMap(

@@ -1,17 +1,6 @@
+import { GeoJson } from '@/types/map'
 import chalk from 'chalk'
 import fs from 'fs'
-
-interface Feature {
-  properties: {
-    uf_municipio?: string
-    name?: string
-  }
-}
-
-interface GeoJSON {
-  type: string
-  features: Feature[]
-}
 
 const ufSiglaMap: { [key: string]: string } = {
   Acre: 'AC',
@@ -48,9 +37,9 @@ checkPropertiesInGeoJSON(
 )
 
 function checkPropertiesInGeoJSON(path: string) {
-  const geojson = JSON.parse(fs.readFileSync(path, 'utf8')) as GeoJSON
+  const geojson = JSON.parse(fs.readFileSync(path, 'utf8')) as GeoJson
 
-  geojson.features = geojson.features.map((feature: Feature) => {
+  geojson.features = geojson.features.map((feature) => {
     if (!feature.properties.uf_municipio) {
       return feature
     }
@@ -71,11 +60,4 @@ function checkPropertiesInGeoJSON(path: string) {
 
   fs.writeFileSync(newPath, JSON.stringify(geojson), 'utf8')
   console.log(chalk.green(`File saved at ${newPath}`))
-}
-
-interface Feature {
-  properties: {
-    uf_municipio?: string
-    name?: string
-  }
 }

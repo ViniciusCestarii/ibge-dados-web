@@ -1,7 +1,8 @@
 'use client'
 import { fetchGeoJsonMap } from '@/lib/fetch-data'
+import { getGeoFilename } from '@/lib/utils'
 import { NivelId } from '@/types/agregado'
-import { ChartData, ChartOptions } from '@/types/map'
+import { ChartData, ChartOptions, GeoJson } from '@/types/map'
 import { EChartsOption } from 'echarts'
 import { MapChart } from 'echarts/charts'
 import {
@@ -13,7 +14,7 @@ import {
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
 echarts.use([
   MapChart,
@@ -38,7 +39,46 @@ const GeoChartCore = ({
 }: GeoChartCoreProps) => {
   const chartRef = useRef<HTMLDivElement | null>(null)
   const echartRef = useRef<echarts.ECharts | null>(null)
-  const [geoJson, setGeoJson] = useState<object | null>(null)
+  const [geoJson, setGeoJson] = useState<GeoJson | null>(null)
+
+  // Calculate the average coordinates from geoJson
+  const calculateGeoJsonCenter = useCallback(
+    (geoJson: GeoJson) => {
+      let totalLat = 0
+      let totalLon = 0
+      let count = 0
+
+      geoJson.features.forEach((feature) => {
+        if (
+          !feature.geometry?.coordinates ||
+          !feature.properties.name ||
+          !data.some(({ name }) => name === feature.properties.name) ||
+          !feature.geometry.coordinates[0][0] ||
+          feature.geometry.coordinates[0][0].length !== 2
+        )
+          return
+
+        feature.geometry.coordinates.forEach((coord) => {
+          coord.forEach((c) => {
+            const [lat, lon] = c
+            totalLat += lat
+            totalLon += lon
+            count++
+          })
+        })
+      })
+
+      return [totalLat / count, totalLon / count] // [latitude, longitude]
+    },
+    [data],
+  )
+
+  const mapCenter = useMemo(() => {
+    if (!geoJson || getGeoFilename(nivelGeografico) !== 'municipios')
+      return undefined
+
+    return calculateGeoJsonCenter(geoJson)
+  }, [calculateGeoJsonCenter, geoJson, nivelGeografico])
 
   const mapOption: EChartsOption = useMemo(
     () => ({
@@ -50,13 +90,13 @@ const GeoChartCore = ({
         left: '1%',
       },
       visualMap: {
-        right: '10%',
+        right: '2%',
         top: '15%',
         min: data.length > 1 ? Math.ceil(data[data.length - 1].value) : 0,
         max: Math.floor(data[0].value),
         orient: 'vertical',
         text: ['', options.unidade],
-        realtime: true,
+        realtime: getGeoFilename(nivelGeografico) !== 'municipios',
         calculable: true,
         inRange: {
           color: ['#CACACA', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
@@ -64,6 +104,8 @@ const GeoChartCore = ({
       },
       backgroundColor: 'transparent',
       series: {
+        zoom: getGeoFilename(nivelGeografico) === 'municipios' ? 5 : 1.1,
+        center: mapCenter,
         id: `geo-${options.title}`,
         name: 'População 2020',
         type: 'map',
@@ -93,7 +135,7 @@ const GeoChartCore = ({
         },
       },
     }),
-    [data, options],
+    [data, options, mapCenter],
   )
 
   useEffect(() => {

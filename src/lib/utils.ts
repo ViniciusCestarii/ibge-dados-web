@@ -1,4 +1,4 @@
-import { AgregadoDataResponse, Metadado } from '@/types/agregado'
+import { AgregadoDataResponse, Metadado, NivelId } from '@/types/agregado'
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
@@ -64,5 +64,18 @@ export const makeChartOptions = (data: AgregadoDataResponse): ChartOptions => ({
   title: data[0].variavel,
   unidade: data[0].unidade,
 })
+
+export const getGeoFilename = (nivelId: NivelId) => {
+  switch (nivelId) {
+    case 'N1':
+      return 'pais'
+    case 'N2':
+      return 'grandes-regioes'
+    case 'N3':
+      return 'estados'
+    default:
+      return 'municipios'
+  }
+}
 
 export const ONE_DAY_IN_SECONDS = 86400
