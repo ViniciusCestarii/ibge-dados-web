@@ -2,8 +2,8 @@ import './globals.css'
 import { Inter as FontSans } from 'next/font/google'
 
 import { cn } from '@/lib/utils'
-import { ThemeProvider } from '@/components/theme-provider'
-import { ToggleTheme } from '@/components/toggle-theme'
+import { ThemeProvider } from '@/components/theme/theme-provider'
+import { ToggleTheme } from '@/components/theme/toggle-theme'
 import { Metadata } from 'next'
 
 const fontSans = FontSans({
