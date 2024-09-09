@@ -137,7 +137,7 @@ export default function IbgeFilter({
                 className="h-32 w-full border rounded-md relative"
               >
                 {periods.length > 0 ? (
-                  periods.map((period) => {
+                  periods.toReversed().map((period) => {
                     const nonNullSelectedPeriods = selectedPeriods ?? []
 
                     const periodId = `periodo-${period.id}`
@@ -212,7 +212,7 @@ export default function IbgeFilter({
                 type="auto"
                 className="h-32 w-full border rounded-md relative"
               >
-                {/* TODO: paginar locais */}
+                {/* TODO: virtualizar locais */}
                 {locaisGeograficos.length > 0 ? (
                   locaisGeograficos.slice(0, 50).map((local) => {
                     const nonNullSelectedLocalGeografico =
