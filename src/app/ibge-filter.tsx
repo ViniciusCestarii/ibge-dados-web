@@ -21,7 +21,7 @@ import PesquisaSelector from './pesquisa-selector'
 import { searchParamsParsers } from './search-params'
 import VariavelSelector from './variavel-selector'
 import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
-import MultipleSelector from '@/components/ui/virtualized-multi-combobox'
+import MultipleSelector from '@/components/ui/multiple-selector'
 
 interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined
