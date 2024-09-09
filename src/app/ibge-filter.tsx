@@ -21,6 +21,7 @@ import PesquisaSelector from './pesquisa-selector'
 import { searchParamsParsers } from './search-params'
 import VariavelSelector from './variavel-selector'
 import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
+import MultipleSelector from '@/components/ui/virtualized-multi-combobox'
 
 interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined
@@ -131,48 +132,23 @@ export default function IbgeFilter({
         <CardContent>
           <div className="space-y-4">
             <div>
-              <span className="text-sm font-medium leading-none">Períodos</span>
-              <ScrollArea
-                type="auto"
-                className="h-32 w-full border rounded-md relative"
-              >
-                {periods.length > 0 ? (
-                  periods.toReversed().map((period) => {
-                    const nonNullSelectedPeriods = selectedPeriods ?? []
-
-                    const periodId = `periodo-${period.id}`
-                    const name = period.literals[0]
-                    return (
-                      <div
-                        key={period.id}
-                        className="flex items-center space-x-2 p-2 text-sm"
-                      >
-                        <Checkbox
-                          id={periodId}
-                          aria-label={'perido ' + name}
-                          checked={nonNullSelectedPeriods.includes(period.id)}
-                          onCheckedChange={(checked) => {
-                            setSelectedPeriods(
-                              checked
-                                ? [...nonNullSelectedPeriods, period.id]
-                                : nonNullSelectedPeriods.filter(
-                                    (p) => p !== period.id,
-                                  ),
-                            )
-                          }}
-                        />
-                        <label className="font-medium" htmlFor={periodId}>
-                          {name}
-                        </label>
-                      </div>
-                    )
-                  })
-                ) : (
-                  <span className="italic flex justify-center text-sm pt-3">
-                    Selecione um agregado
-                  </span>
-                )}
-              </ScrollArea>
+              <Label htmlFor=":RjajtacqH2:">Períodos</Label>
+              <MultipleSelector
+                inputProps={{
+                  id: ':RjajtacqH2:',
+                }}
+                value={selectedPeriods ?? []}
+                onChange={(options) =>
+                  setSelectedPeriods(options.length > 0 ? options : null)
+                }
+                placeholder="Selecione períodos"
+                emptyIndicator="Nenhum período encontrado"
+                disabled={!selectedAgregado}
+                options={periods.map((period) => ({
+                  label: period.literals[0],
+                  value: period.id,
+                }))}
+              />
             </div>
 
             <div>

@@ -127,29 +127,36 @@ interface ComboboxButtonProps
   extends Pick<
     // eslint-disable-next-line no-use-before-define
     VirtualizedComboboxProps,
-    'disabled' | 'noItemSelectedText' | 'id'
+    'disabled' | 'id'
   > {
-  optionPlaceHolder?: string
+  placeholder?: string
   open: boolean
+  label: string | null
 }
 
 const ComboboxButton = React.forwardRef<HTMLButtonElement, ComboboxButtonProps>(
-  ({ open, noItemSelectedText, optionPlaceHolder, ...props }, ref) => {
+  ({ open, placeholder, label, ...props }, ref) => {
+    const textToDisplay = label ?? placeholder
+    const isPlaceholder = label === null
+
     return (
       <Button
         {...props}
         ref={ref} // Forward the ref to the Button component
         variant="outline"
         role="combobox"
-        aria-label={noItemSelectedText}
+        aria-label={placeholder}
         aria-expanded={open}
         className="justify-between w-full"
       >
         <span
-          title={optionPlaceHolder}
-          className="overflow-hidden text-ellipsis"
+          title={textToDisplay}
+          className={cn(
+            'overflow-hidden text-ellipsis',
+            isPlaceholder && 'text-muted-foreground font-normal',
+          )}
         >
-          {optionPlaceHolder}
+          {textToDisplay}
         </span>
         <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
       </Button>
@@ -188,9 +195,8 @@ export function VirtualizedCombobox({
 
   const isMd = useMediaQuery('(max-width: 48em)')
 
-  const optionPlaceHolder = selectedOption
-    ? options.find((option) => option.value === selectedOption)?.label
-    : noItemSelectedText
+  const label =
+    options.find((option) => option.value === selectedOption)?.label ?? null
 
   if (isMd) {
     return (
@@ -200,8 +206,8 @@ export function VirtualizedCombobox({
             id={id}
             open={open}
             disabled={disabled}
-            optionPlaceHolder={optionPlaceHolder}
-            noItemSelectedText={noItemSelectedText}
+            label={label}
+            placeholder={noItemSelectedText}
           />
         </DrawerTrigger>
         <DrawerContent>
@@ -234,8 +240,8 @@ export function VirtualizedCombobox({
           id={id}
           open={open}
           disabled={disabled}
-          optionPlaceHolder={optionPlaceHolder}
-          noItemSelectedText={noItemSelectedText}
+          label={label}
+          placeholder={noItemSelectedText}
         />
       </PopoverTrigger>
       <PopoverContent className="p-0" style={{ width }}>
