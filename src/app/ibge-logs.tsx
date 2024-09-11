@@ -11,7 +11,7 @@ const IbgeLogs = async ({ validFetchParams }: IbgeLogsProps) => {
   const agregadoUrl = makeIbgeAgregadoUrl(validFetchParams)
 
   return (
-    <div>
+    <div className="overflow-x-auto">
       {
         <a target="_blank" href={agregadoUrl} rel="noreferrer">
           {agregadoUrl}

@@ -1,18 +1,9 @@
 'use client'
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Checkbox } from '@/components/ui/checkbox'
 import { Label } from '@/components/ui/label'
-import { ScrollArea } from '@/components/ui/scroll-area'
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
+import { VirtualizedSelect } from '@/components/ui/select'
 import pesquisas from '@/json/agregados.json'
-// use nuqs server to import correct Ometadados useing selectedAgregado
 import { getNiveisArrayFromMetadados } from '@/lib/utils'
 import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import { useQueryState } from 'nuqs'
@@ -28,7 +19,7 @@ interface IbgeFilterProps {
   agregadoPeriodos: Periodo[] | undefined
   nivelLocaisGeograficos: LocalGeografico[] | undefined
 }
-
+// TODO: Move to drawer to have a better layout
 export default function IbgeFilter({
   agregadoMetadados,
   agregadoPeriodos,
@@ -153,34 +144,21 @@ export default function IbgeFilter({
             </div>
 
             <div>
-              <Label htmlFor="nivel-geografico">Nível geográfico</Label>
-              <Select
+              <Label htmlFor="nivel-geográfico">Nível geográfico</Label>
+              <VirtualizedSelect
+                id="nivel-geográfico"
                 disabled={!selectedAgregado}
-                value={selectedNivelGeografico ?? ''}
-                onValueChange={(nivelGeografico) => {
-                  setSelectedNivelGeografico(nivelGeografico)
-                  setSelectedLocaisGeograficos(null)
-                }}
-              >
-                <SelectTrigger
-                  id="nivel-geografico"
-                  aria-label="Nível geográfico"
-                  disabled={!selectedAgregado}
-                >
-                  <SelectValue placeholder="Selecione o nível geográfico" />
-                </SelectTrigger>
-                <SelectContent>
-                  {niveisGeograficos.map((nivel) => (
-                    <SelectItem key={nivel} value={nivel}>
-                      {
-                        nivelGeograficoMap[
-                          nivel as keyof typeof nivelGeograficoMap
-                        ]
-                      }
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+                selectedOption={selectedNivelGeografico}
+                onSelectOption={(option) => setSelectedNivelGeografico(option)}
+                noItemSelectedText="Selecione um nível geográfico"
+                options={niveisGeograficos.map((nivel) => ({
+                  label:
+                    nivelGeograficoMap[
+                      nivel as keyof typeof nivelGeograficoMap
+                    ],
+                  value: nivel,
+                }))}
+              />
             </div>
 
             <div>

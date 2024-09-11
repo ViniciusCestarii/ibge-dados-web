@@ -1,184 +1,252 @@
-'use client'
-
-import * as React from 'react'
-import * as SelectPrimitive from '@radix-ui/react-select'
-import { Check, ChevronDown, ChevronUp } from 'lucide-react'
-
+import { Button } from '@/components/ui/button'
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandItem,
+  CommandList,
+} from '@/components/ui/command'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover'
+import useMediaQuery from '@/hooks/use-media-query'
 import { cn } from '@/lib/utils'
+import { useVirtualizer } from '@tanstack/react-virtual'
+import { Check, ChevronsUpDown } from 'lucide-react'
+import * as React from 'react'
+import {
+  Drawer,
+  DrawerContent,
+  DrawerDescription,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from './drawer'
 
-const SelectGroup = SelectPrimitive.Group
+type Option = {
+  value: string
+  label: string
+}
 
-const SelectValue = SelectPrimitive.Value
+interface VirtualizedCommandProps {
+  options: Option[]
+  placeholder: string
+  noResultsText: string
+  height: string
+  selectedOption: string
+  onSelectOption?: (option: string) => void
+}
 
-const SelectContext = React.createContext<
-  React.Dispatch<React.SetStateAction<boolean>>
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
->(() => {})
+const VirtualizedCommand = ({
+  options,
+  placeholder,
+  height,
+  noResultsText,
+  selectedOption,
+  onSelectOption,
+}: VirtualizedCommandProps) => {
+  const [filteredOptions, setFilteredOptions] =
+    React.useState<Option[]>(options)
+  const parentRef = React.useRef(null)
 
-const Select: React.FC<SelectPrimitive.SelectProps> = (props) => {
-  const [isOpen, setIsOpen] = React.useState(false)
+  const virtualizer = useVirtualizer({
+    count: filteredOptions.length,
+    getScrollElement: () => parentRef.current,
+    estimateSize: () => 35,
+    overscan: 5,
+  })
+
+  const virtualOptions = virtualizer.getVirtualItems()
+
   return (
-    <SelectContext.Provider value={setIsOpen}>
-      <SelectPrimitive.Root open={isOpen} onOpenChange={setIsOpen} {...props} />
-    </SelectContext.Provider>
+    <Command shouldFilter={false}>
+      <CommandGroup
+        ref={parentRef}
+        style={{
+          contain: 'strict',
+          height,
+        }}
+        className="w-full overflow-y-auto"
+      >
+        <CommandEmpty>{noResultsText}</CommandEmpty>
+        <div
+          style={{
+            height: virtualizer.getTotalSize(),
+          }}
+          className="relative w-full"
+        >
+          <CommandList
+            style={{
+              transform: `translateY(${virtualOptions[0]?.start ?? 0}px)`,
+            }}
+            className="w-full absolute top-0 left-0 overflow-visible"
+          >
+            {virtualOptions.map((virtualRow) => {
+              const option = filteredOptions[virtualRow.index]
+
+              return (
+                <CommandItem
+                  key={virtualRow.key}
+                  data-index={virtualRow.index}
+                  ref={virtualizer.measureElement}
+                  onSelect={onSelectOption}
+                  value={option.value}
+                >
+                  <Check
+                    className={cn(
+                      'mr-2 size-4 flex-shrink-0',
+                      selectedOption === option.value
+                        ? 'opacity-100'
+                        : 'opacity-0',
+                    )}
+                  />
+                  {option.label}
+                </CommandItem>
+              )
+            })}
+          </CommandList>
+        </div>
+      </CommandGroup>
+    </Command>
   )
 }
 
-const SelectTrigger = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.Trigger>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.Trigger>
->(({ className, children, ...props }, ref) => {
-  const setIsOpen = React.useContext(SelectContext)
+interface ComboboxButtonProps
+  extends Pick<
+    // eslint-disable-next-line no-use-before-define
+    VirtualizedSelectProps,
+    'disabled' | 'id'
+  > {
+  placeholder?: string
+  open: boolean
+  label: string | null
+}
+
+const ComboboxButton = React.forwardRef<HTMLButtonElement, ComboboxButtonProps>(
+  ({ open, placeholder, label, ...props }, ref) => {
+    const textToDisplay = label ?? placeholder
+    const isPlaceholder = label === null
+
+    return (
+      <Button
+        {...props}
+        ref={ref} // Forward the ref to the Button component
+        variant="outline"
+        role="combobox"
+        aria-label={placeholder}
+        aria-expanded={open}
+        className="justify-between w-full"
+      >
+        <span
+          title={textToDisplay}
+          className={cn(
+            'overflow-hidden text-ellipsis',
+            isPlaceholder && 'text-muted-foreground font-normal',
+          )}
+        >
+          {textToDisplay}
+        </span>
+        <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+      </Button>
+    )
+  },
+)
+
+ComboboxButton.displayName = 'ComboboxButton'
+
+export interface VirtualizedSelectProps {
+  options: Option[]
+  searchPlaceholder?: string
+  noResultsText?: string
+  noItemSelectedText?: string
+  width?: string
+  height?: string
+  id?: string
+  selectedOption: string | null
+  disabled?: boolean
+  onSelectOption: (value: string | null) => void
+}
+
+export function VirtualizedSelect({
+  id,
+  options,
+  searchPlaceholder = 'Search items...',
+  noResultsText = 'No results found',
+  noItemSelectedText = 'Select an item',
+  width = '25rem',
+  height = '25rem',
+  selectedOption,
+  onSelectOption,
+  disabled,
+}: VirtualizedSelectProps) {
+  const [open, setOpen] = React.useState<boolean>(false)
+
+  const isMd = useMediaQuery('(max-width: 48em)')
+
+  const label =
+    options.find((option) => option.value === selectedOption)?.label ?? null
+
+  if (isMd) {
+    return (
+      <Drawer open={open} onOpenChange={setOpen}>
+        <DrawerTrigger asChild>
+          <ComboboxButton
+            id={id}
+            open={open}
+            disabled={disabled}
+            label={label}
+            placeholder={noItemSelectedText}
+          />
+        </DrawerTrigger>
+        <DrawerContent>
+          <div className="mt-4 border-t">
+            <DrawerHeader className="text-start border-b">
+              <DrawerTitle className="capitalize">{id}</DrawerTitle>
+              <DrawerDescription>{noItemSelectedText}</DrawerDescription>
+            </DrawerHeader>
+            <VirtualizedCommand
+              height={height}
+              options={options}
+              noResultsText={noResultsText}
+              placeholder={searchPlaceholder}
+              selectedOption={selectedOption ?? ''}
+              onSelectOption={(value) => {
+                onSelectOption(value === selectedOption ? null : value)
+                setOpen(false)
+              }}
+            />{' '}
+          </div>
+        </DrawerContent>
+      </Drawer>
+    )
+  }
 
   return (
-    <SelectPrimitive.Trigger
-      ref={ref}
-      onPointerDown={(e) => {
-        if (e.pointerType === 'touch') e.preventDefault()
-      }}
-      onPointerUp={(e) => {
-        if (e.pointerType === 'touch' && !props.disabled) {
-          setIsOpen((prevState) => !prevState)
-        }
-      }}
-      className={cn(
-        'flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1',
-        className,
-      )}
-      {...props}
-    >
-      {children}
-      <SelectPrimitive.Icon asChild>
-        <ChevronDown className="h-4 w-4 opacity-50" />
-      </SelectPrimitive.Icon>
-    </SelectPrimitive.Trigger>
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <ComboboxButton
+          id={id}
+          open={open}
+          disabled={disabled}
+          label={label}
+          placeholder={noItemSelectedText}
+        />
+      </PopoverTrigger>
+      <PopoverContent className="p-0" style={{ width }}>
+        <VirtualizedCommand
+          height={height}
+          options={options}
+          noResultsText={noResultsText}
+          placeholder={searchPlaceholder}
+          selectedOption={selectedOption ?? ''}
+          onSelectOption={(value) => {
+            onSelectOption(value === selectedOption ? null : value)
+            setOpen(false)
+          }}
+        />
+      </PopoverContent>
+    </Popover>
   )
-})
-SelectTrigger.displayName = SelectPrimitive.Trigger.displayName
-
-const SelectScrollUpButton = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.ScrollUpButton>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.ScrollUpButton>
->(({ className, ...props }, ref) => (
-  <SelectPrimitive.ScrollUpButton
-    ref={ref}
-    className={cn(
-      'flex cursor-default items-center justify-center py-1',
-      className,
-    )}
-    {...props}
-  >
-    <ChevronUp className="h-4 w-4" />
-  </SelectPrimitive.ScrollUpButton>
-))
-SelectScrollUpButton.displayName = SelectPrimitive.ScrollUpButton.displayName
-
-const SelectScrollDownButton = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.ScrollDownButton>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.ScrollDownButton>
->(({ className, ...props }, ref) => (
-  <SelectPrimitive.ScrollDownButton
-    ref={ref}
-    className={cn(
-      'flex cursor-default items-center justify-center py-1',
-      className,
-    )}
-    {...props}
-  >
-    <ChevronDown className="h-4 w-4" />
-  </SelectPrimitive.ScrollDownButton>
-))
-SelectScrollDownButton.displayName =
-  SelectPrimitive.ScrollDownButton.displayName
-
-const SelectContent = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.Content>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.Content>
->(({ className, children, position = 'popper', ...props }, ref) => (
-  <SelectPrimitive.Portal>
-    <SelectPrimitive.Content
-      ref={ref}
-      className={cn(
-        'relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2',
-        position === 'popper' &&
-          'data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1',
-        className,
-      )}
-      position={position}
-      {...props}
-    >
-      <SelectScrollUpButton />
-      <SelectPrimitive.Viewport
-        className={cn(
-          'p-1',
-          position === 'popper' &&
-            'h-[var(--radix-select-trigger-height)] w-full min-w-[var(--radix-select-trigger-width)]',
-        )}
-      >
-        {children}
-      </SelectPrimitive.Viewport>
-      <SelectScrollDownButton />
-    </SelectPrimitive.Content>
-  </SelectPrimitive.Portal>
-))
-SelectContent.displayName = SelectPrimitive.Content.displayName
-
-const SelectLabel = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.Label>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.Label>
->(({ className, ...props }, ref) => (
-  <SelectPrimitive.Label
-    ref={ref}
-    className={cn('py-1.5 pl-8 pr-2 text-sm font-semibold', className)}
-    {...props}
-  />
-))
-SelectLabel.displayName = SelectPrimitive.Label.displayName
-
-const SelectItem = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.Item>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.Item>
->(({ className, children, ...props }, ref) => (
-  <SelectPrimitive.Item
-    ref={ref}
-    className={cn(
-      'relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
-      className,
-    )}
-    {...props}
-  >
-    <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
-      <SelectPrimitive.ItemIndicator>
-        <Check className="h-4 w-4" />
-      </SelectPrimitive.ItemIndicator>
-    </span>
-
-    <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>
-  </SelectPrimitive.Item>
-))
-SelectItem.displayName = SelectPrimitive.Item.displayName
-
-const SelectSeparator = React.forwardRef<
-  React.ElementRef<typeof SelectPrimitive.Separator>,
-  React.ComponentPropsWithoutRef<typeof SelectPrimitive.Separator>
->(({ className, ...props }, ref) => (
-  <SelectPrimitive.Separator
-    ref={ref}
-    className={cn('-mx-1 my-1 h-px bg-muted', className)}
-    {...props}
-  />
-))
-SelectSeparator.displayName = SelectPrimitive.Separator.displayName
-
-export {
-  Select,
-  SelectGroup,
-  SelectValue,
-  SelectTrigger,
-  SelectContent,
-  SelectLabel,
-  SelectItem,
-  SelectSeparator,
-  SelectScrollUpButton,
-  SelectScrollDownButton,
 }
