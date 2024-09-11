@@ -11,11 +11,13 @@ interface GeoChartProps {
 }
 
 const GeoChart = async ({ fetchParams }: GeoChartProps) => {
-  const { data } = await useIbgeData(fetchParams)
+  const response = await useIbgeData(fetchParams)
 
-  if (data.length === 0) {
+  if (response.isErr()) {
     return <div>Erro ao carregar dados</div>
   }
+
+  const { data } = response.value
 
   const geoData = mapIbgeDataToChartData(data)
   const mapOptions = makeChartOptions(data)
