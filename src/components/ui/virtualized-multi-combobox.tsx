@@ -97,7 +97,7 @@ const VirtualizedCommand = ({
           <Button
             onClick={hasAll ? diselectAll : selectAll}
             variant="ghost"
-            className="shrink-0 h-11"
+            className="shrink-0 h-11 rounded-none"
           >
             {hasAll ? 'Desmarcar todos' : 'Marcar todos'}
           </Button>

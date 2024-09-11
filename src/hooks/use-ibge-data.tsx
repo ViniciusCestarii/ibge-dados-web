@@ -87,6 +87,22 @@ const useIbgeData = async (validFetchParams: FetchParams) => {
       })
       Sentry.captureException(response.error)
     })
+  } else {
+    // remove NaN values from series
+    response.value.data.forEach((ibgeData) =>
+      ibgeData.resultados.forEach((result) =>
+        result.series.forEach((serie) => {
+          Object.keys(serie.serie).forEach((key) => {
+            const value = Number(serie.serie[key])
+            if (isNaN(value)) {
+              serie.serie[key] = '0'
+            } else {
+              serie.serie[key] = value.toString()
+            }
+          })
+        }),
+      ),
+    )
   }
 
   return response

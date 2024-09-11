@@ -35,12 +35,11 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
   const echartRef = useRef<null | echarts.ECharts>(null)
 
   const dataSorted = useMemo(() => {
-    data.sort(function (a, b) {
-      return a.value - b.value
+    const sortedData = data.toSorted(function (a, b) {
+      return b.value - a.value
     })
 
-    const dataReversed = data.slice().reverse()
-    return dataReversed
+    return sortedData
   }, [data])
 
   const barOption: EChartsOption = useMemo(
@@ -84,7 +83,7 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
         right: '2%',
         top: '15%',
         min: data.length > 1 ? Math.ceil(data[data.length - 1].value) : 0,
-        max: Math.floor(data[0].value),
+        max: Math.floor(Number.isNaN(data[0].value) ? 0 : data[0].value),
         orient: 'vertical',
         text: ['', options.unidade],
         inRange: {
