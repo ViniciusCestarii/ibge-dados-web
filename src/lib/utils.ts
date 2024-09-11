@@ -77,7 +77,7 @@ export const mapIbgeDataToChartData = (
 ): ChartData => {
   const hasMoreThanOnePeriod = data.some((ibgeData) =>
     ibgeData.resultados.some(
-      (result) => Object.keys(result.series[0]).length > 1,
+      (result) => Object.keys(result.series[0].serie).length > 1,
     ),
   )
 

@@ -89,7 +89,7 @@ const MultiPeriodLineChartCore = ({
         min:
           dataSorted.length > 1
             ? Math.ceil(dataSorted[dataSorted.length - 1].value)
-            : 0,
+            : Math.floor(dataSorted[0].value),
         max: Math.floor(dataSorted[0].value),
         orient: 'vertical',
         text: ['', options.unidade],
@@ -139,7 +139,7 @@ const MultiPeriodLineChartCore = ({
     }
   }, [barOption])
 
-  return <div ref={chartRef} className="h-chart w-full" />
+  return <div ref={chartRef} className="h-big-chart w-full" />
 }
 
 export default MultiPeriodLineChartCore

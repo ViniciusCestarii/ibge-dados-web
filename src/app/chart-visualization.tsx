@@ -11,18 +11,14 @@ const ChartVisualization = (props: ChartVisualizationProps) => {
   const { fetchParams } = props
 
   const allMoreThanOnePeriod = fetchParams.periodos.length > 1
-  return (
+  return allMoreThanOnePeriod ? (
+    <MultiPeriodLineChart {...props} />
+  ) : (
     <div className="grid grid-cols-1 lg:grid-cols-2">
-      {allMoreThanOnePeriod ? (
-        <>
-          <MultiPeriodLineChart {...props} />
-        </>
-      ) : (
-        <>
-          <BarChart {...props} />
-          <GeoChart {...props} />{' '}
-        </>
-      )}
+      <>
+        <BarChart {...props} />
+        <GeoChart {...props} />
+      </>
     </div>
   )
 }

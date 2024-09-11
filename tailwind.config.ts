@@ -24,6 +24,7 @@ const config = {
       },
       height: {
         chart: '38rem',
+        'big-chart': '50rem',
       },
       colors: {
         border: 'hsl(var(--border))',

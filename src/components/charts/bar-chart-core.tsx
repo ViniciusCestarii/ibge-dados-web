@@ -85,7 +85,7 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
         min:
           dataSorted.length > 1
             ? Math.ceil(dataSorted[dataSorted.length - 1].value)
-            : 0,
+            : Math.floor(dataSorted[0].value),
         max: Math.floor(dataSorted[0].value),
         orient: 'vertical',
         text: ['', options.unidade],
