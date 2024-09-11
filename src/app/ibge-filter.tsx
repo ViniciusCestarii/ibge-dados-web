@@ -21,7 +21,7 @@ import PesquisaSelector from './pesquisa-selector'
 import { searchParamsParsers } from './search-params'
 import VariavelSelector from './variavel-selector'
 import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
-import MultipleSelector from '@/components/ui/multiple-selector'
+import { VirtualizedMultiCombobox } from '@/components/ui/virtualized-multi-combobox'
 
 interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined
@@ -132,22 +132,23 @@ export default function IbgeFilter({
         <CardContent>
           <div className="space-y-4">
             <div>
-              <Label htmlFor=":RjajtacqH2:">Períodos</Label>
-              <MultipleSelector
-                inputProps={{
-                  id: ':RjajtacqH2:',
-                }}
-                value={selectedPeriods ?? []}
-                onChange={(options) =>
+              <Label htmlFor="periodos">Períodos</Label>
+              <VirtualizedMultiCombobox
+                id="periodos"
+                selectedOptions={selectedPeriods ?? []}
+                onSelectOptions={(options) =>
                   setSelectedPeriods(options.length > 0 ? options : null)
                 }
-                placeholder="Selecione períodos"
-                emptyIndicator="Nenhum período encontrado"
+                searchPlaceholder="Selecione períodos"
+                noItemSelectedText="Selecione um ou mais períodos"
+                noResultsText="Nenhum período encontrado"
                 disabled={!selectedAgregado}
-                options={periods.map((period) => ({
-                  label: period.literals[0],
-                  value: period.id,
-                }))}
+                options={periods
+                  .map((period) => ({
+                    label: period.literals[0],
+                    value: period.id,
+                  }))
+                  .toReversed()}
               />
             </div>
 
@@ -183,52 +184,24 @@ export default function IbgeFilter({
             </div>
 
             <div>
-              <span className="text-sm font-medium leading-none">Locais</span>
-              <ScrollArea
-                type="auto"
-                className="h-32 w-full border rounded-md relative"
-              >
-                {/* TODO: virtualizar locais */}
-                {locaisGeograficos.length > 0 ? (
-                  locaisGeograficos.slice(0, 50).map((local) => {
-                    const nonNullSelectedLocalGeografico =
-                      selectedLocaisGeograficos ?? []
-
-                    const localId = `local-${local.id}`
-
-                    return (
-                      <div
-                        key={local.id}
-                        className="flex items-center space-x-2 p-2 text-sm"
-                      >
-                        <Checkbox
-                          id={localId}
-                          aria-label={'local ' + local.nome}
-                          checked={nonNullSelectedLocalGeografico.includes(
-                            local.id,
-                          )}
-                          onCheckedChange={(checked) => {
-                            setSelectedLocaisGeograficos(
-                              checked
-                                ? [...nonNullSelectedLocalGeografico, local.id]
-                                : nonNullSelectedLocalGeografico.filter(
-                                    (p) => p !== local.id,
-                                  ),
-                            )
-                          }}
-                        />
-                        <label className="font-medium" htmlFor={localId}>
-                          {local.nome}
-                        </label>
-                      </div>
-                    )
-                  })
-                ) : (
-                  <span className="italic flex justify-center text-sm pt-3">
-                    Selecione um nivel geográfico
-                  </span>
-                )}
-              </ScrollArea>
+              <Label htmlFor="locais">Locais</Label>
+              <VirtualizedMultiCombobox
+                id="locais"
+                selectedOptions={selectedLocaisGeograficos ?? []}
+                onSelectOptions={(options) =>
+                  setSelectedLocaisGeograficos(
+                    options.length > 0 ? options : null,
+                  )
+                }
+                searchPlaceholder="Selecione locais"
+                noItemSelectedText="Selecione um ou mais locais"
+                noResultsText="Nenhum local encontrado"
+                disabled={!selectedNivelGeografico}
+                options={locaisGeograficos.map((local) => ({
+                  label: local.nome,
+                  value: local.id,
+                }))}
+              />
             </div>
           </div>
         </CardContent>
