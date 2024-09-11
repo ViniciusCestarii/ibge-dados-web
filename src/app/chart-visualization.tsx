@@ -1,5 +1,6 @@
 import BarChart from '@/components/charts/bar-chart'
 import GeoChart from '@/components/charts/geo-chart'
+import MultiPeriodLineChart from '@/components/charts/multi-period-line-chart'
 import { FetchParams } from '@/lib/utils'
 
 interface ChartVisualizationProps {
@@ -13,7 +14,9 @@ const ChartVisualization = (props: ChartVisualizationProps) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
       {allMoreThanOnePeriod ? (
-        'Ops, mais de um perído ainda não é suportado'
+        <>
+          <MultiPeriodLineChart {...props} />
+        </>
       ) : (
         <>
           <BarChart {...props} />

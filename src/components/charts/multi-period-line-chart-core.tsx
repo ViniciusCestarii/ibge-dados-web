@@ -1,7 +1,7 @@
 'use client'
 import { ChartData, ChartOptions } from '@/types/map'
 import { EChartsOption } from 'echarts'
-import { BarChart } from 'echarts/charts'
+import { LineChart } from 'echarts/charts'
 import {
   DataZoomComponent,
   GridComponent,
@@ -15,7 +15,7 @@ import { CanvasRenderer } from 'echarts/renderers'
 import { useEffect, useMemo, useRef } from 'react'
 
 echarts.use([
-  BarChart,
+  LineChart,
   TitleComponent,
   TooltipComponent,
   VisualMapComponent,
@@ -25,12 +25,15 @@ echarts.use([
   DataZoomComponent,
 ])
 
-interface BarChartCoreProps {
+interface MultiPeriodLineChartCoreProps {
   data: ChartData
   options: ChartOptions
 }
 
-const BarChartCore = ({ data, options }: BarChartCoreProps) => {
+const MultiPeriodLineChartCore = ({
+  data,
+  options,
+}: MultiPeriodLineChartCoreProps) => {
   const chartRef = useRef(null)
   const echartRef = useRef<null | echarts.ECharts>(null)
 
@@ -46,6 +49,7 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
     () => ({
       tooltip: {
         formatter: `{b}: {c} ${options.unidade}`,
+        trigger: 'axis',
       },
       title: {
         text: options.title,
@@ -59,15 +63,15 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
         axisLabel: {
           rotate: 30,
         },
-        data: dataSorted.map(function (item) {
+        data: data.map(function (item) {
           return item.name
         }),
       },
       height: '70%',
       series: {
-        id: `bar-${options.title}`,
-        type: 'bar',
-        data: dataSorted.map(function (item) {
+        id: `line-${options.title}`,
+        type: 'line',
+        data: data.map(function (item) {
           return item.value
         }),
         emphasis: {
@@ -89,6 +93,8 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
         max: Math.floor(dataSorted[0].value),
         orient: 'vertical',
         text: ['', options.unidade],
+        realtime: true,
+        calculable: true,
         inRange: {
           color: ['#FFFFFF', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
         },
@@ -110,7 +116,7 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
         },
       },
     }),
-    [dataSorted, options],
+    [dataSorted, data, options],
   )
 
   useEffect(() => {
@@ -136,4 +142,4 @@ const BarChartCore = ({ data, options }: BarChartCoreProps) => {
   return <div ref={chartRef} className="h-chart w-full" />
 }
 
-export default BarChartCore
+export default MultiPeriodLineChartCore

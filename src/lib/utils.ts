@@ -48,8 +48,53 @@ export const getIbgeUrl = (pathname: string) => {
   return `${env.IBGE_BASE_URL}/${pathname}`
 }
 
-export const mapIbgeDataToChartData = (data: AgregadoDataResponse): ChartData =>
-  data.flatMap((ibgeData) =>
+const numberToMonth = (number: number) => {
+  const date = new Date(0, number)
+  return date.toLocaleString('default', { month: 'long' })
+}
+
+const periodToText = (period: string) => {
+  const year = period.substring(0, 4)
+  if (period.length === 4) {
+    return year
+  }
+
+  if (period.length === 6) {
+    const month = numberToMonth(Number(period.substring(4, 6)) - 1)
+    return `${year} ${month}`
+  }
+
+  if (period.length === 7) {
+    const quarter = period.substring(5, 6)
+    return `${year} ${quarter}° trimestre`
+  }
+
+  return period
+}
+
+export const mapIbgeDataToChartData = (
+  data: AgregadoDataResponse,
+): ChartData => {
+  const hasMoreThanOnePeriod = data.some((ibgeData) =>
+    ibgeData.resultados.some(
+      (result) => Object.keys(result.series[0]).length > 1,
+    ),
+  )
+
+  if (hasMoreThanOnePeriod) {
+    return data.flatMap((ibgeData) =>
+      ibgeData.resultados.flatMap((result) =>
+        result.series.flatMap((serie) =>
+          Object.entries(serie.serie).map(([period, value]) => ({
+            name: `${periodToText(period)} ${serie.localidade.nome}`,
+            value: Number(value),
+          })),
+        ),
+      ),
+    )
+  }
+
+  return data.flatMap((ibgeData) =>
     ibgeData.resultados.flatMap((result) =>
       result.series.flatMap((serie) =>
         Object.entries(serie.serie).map(([_, value]) => ({
@@ -59,6 +104,7 @@ export const mapIbgeDataToChartData = (data: AgregadoDataResponse): ChartData =>
       ),
     ),
   )
+}
 
 export const makeChartOptions = (data: AgregadoDataResponse): ChartOptions => ({
   title: data[0].variavel,
