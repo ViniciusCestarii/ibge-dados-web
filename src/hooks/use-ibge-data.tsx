@@ -6,6 +6,7 @@ import {
 import { AgregadoDataResponse } from '@/types/agregado'
 import React from 'react'
 import { Result, ok, err } from 'neverthrow'
+import * as Sentry from '@sentry/nextjs'
 
 type FetchIbgeDataError = Error
 
@@ -66,13 +67,28 @@ const useMultiParamIbgeData = React.cache(fetchIbgeData)
 const useIbgeData = async (validFetchParams: FetchParams) => {
   const { agregado, variavel, periodos, nivelGeografico, locais } =
     validFetchParams
-  return useMultiParamIbgeData(
+  const response = await useMultiParamIbgeData(
     agregado,
     variavel,
     periodos,
     nivelGeografico,
     locais,
   )
+
+  if (response.isErr()) {
+    Sentry.withScope((scope) => {
+      scope.setExtras({
+        agregado,
+        variavel,
+        periodos,
+        nivelGeografico,
+        locais,
+      })
+      Sentry.captureException(response.error)
+    })
+  }
+
+  return response
 }
 
 export default useIbgeData

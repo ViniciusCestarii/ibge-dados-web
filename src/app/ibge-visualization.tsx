@@ -1,5 +1,4 @@
-import useIbgeData from '@/hooks/use-ibge-data'
-import { FetchParams, makeIbgeAgregadoUrl } from '@/lib/utils'
+import { FetchParams } from '@/lib/utils'
 import ChartVisualization from './chart-visualization'
 import IbgeLogs from './ibge-logs'
 
