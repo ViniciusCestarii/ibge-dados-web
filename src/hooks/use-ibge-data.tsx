@@ -77,6 +77,7 @@ const useIbgeData = async (validFetchParams: FetchParams) => {
 
   if (response.isErr()) {
     Sentry.withScope((scope) => {
+      scope.setTag('agregado', agregado)
       scope.setExtras({
         agregado,
         variavel,
