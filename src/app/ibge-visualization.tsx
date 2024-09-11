@@ -1,7 +1,6 @@
 import useIbgeData from '@/hooks/use-ibge-data'
 import { FetchParams, makeIbgeAgregadoUrl } from '@/lib/utils'
 import ChartVisualization from './chart-visualization'
-import { Suspense } from 'react'
 
 interface IbgeVisualizationProps {
   validFetchParams: FetchParams
@@ -16,9 +15,7 @@ const IbgeVisualization = async ({
 
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <ChartVisualization fetchParams={validFetchParams} />
-      </Suspense>
+      <ChartVisualization fetchParams={validFetchParams} />
       {
         <a target="_blank" href={agregadoUrl} rel="noreferrer">
           {agregadoUrl}
@@ -39,7 +36,7 @@ const IbgeVisualization = async ({
         ),
       )}
       <pre>
-        <code className="text-green-500">
+        <code className={'text-green-500'}>
           {JSON.stringify(validFetchParams, null, 2)}
         </code>
         <code className="text-blue-500">{JSON.stringify(data, null, 2)}</code>
