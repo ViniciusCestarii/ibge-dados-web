@@ -66,6 +66,7 @@ const MultiPeriodLineChartCore = (props: MultiPeriodLineChartCoreProps) => {
           return item.name
         }),
       },
+      height: '77.5%',
       series: {
         id: `line-${options.title}`,
         type: 'line',
