@@ -5,9 +5,7 @@ import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme/theme-provider'
 import { ToggleTheme } from '@/components/theme/toggle-theme'
 import { Metadata } from 'next'
-import { Button } from '@/components/ui/button'
-import { Share, Share2 } from 'lucide-react'
-import ShareButton from '@/components/share/share-button'
+import ShareDialog from '@/components/share/share-dialog'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -48,7 +46,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               >
                 Dados Agregados do IBGE
               </h1>
-              <ShareButton />
+              <ShareDialog />
             </div>
           </header>
           {children}
