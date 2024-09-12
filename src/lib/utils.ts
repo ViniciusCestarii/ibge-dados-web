@@ -46,6 +46,10 @@ export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
 }
 
 export const getIbgeUrl = (pathname: string) => {
+  if (pathname.startsWith('v1')) {
+    return `${env.IBGE_BASE_URL.substring(0, env.IBGE_BASE_URL.length - 3)}/${pathname}`
+  }
+
   return `${env.IBGE_BASE_URL}/${pathname}`
 }
 
@@ -149,7 +153,12 @@ export const generateChartOptions = ({
       right: '2%',
       top: '15%',
       calculable: true,
-      min: sortedData[sortedData.length - 1].value,
+      min:
+        sortedData.length === 1
+          ? sortedData[0].value > 0
+            ? 0
+            : sortedData[0].value - 1
+          : sortedData[sortedData.length - 1].value,
       max: sortedData[0].value,
       orient: 'vertical',
       text: ['', options.unidade],

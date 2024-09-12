@@ -38,7 +38,7 @@ export const fetchDataAndSaveAsJson = async ({
   }
 }
 
-const fetchIbgeData = async (pathname: string) => {
+export const fetchIbgeData = async (pathname: string) => {
   const url = getIbgeUrl(pathname)
 
   const response = await fetch(url)

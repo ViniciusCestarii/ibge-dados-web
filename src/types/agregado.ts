@@ -94,7 +94,7 @@ type Serie = {
   }
 }
 
-type Localidade = {
+export type Localidade = {
   id: string
   nivel: Nivel
   nome: string
