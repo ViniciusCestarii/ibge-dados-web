@@ -6,6 +6,7 @@ import IbgeFilter from './ibge-filter'
 import IbgeVisualization from './ibge-visualization'
 import { searchParamsCache } from './search-params'
 import { ErrorBoundary } from '@sentry/nextjs'
+import LoadingAnimation from '@/components/ui/loading-animation'
 
 export default async function PageContent({
   searchParams,
@@ -49,7 +50,7 @@ export default async function PageContent({
             </p>
           }
         >
-          <Suspense fallback={<div>Carregando...</div>}>
+          <Suspense fallback={<LoadingAnimation />}>
             <IbgeVisualization validFetchParams={_validFetchParams.data} />
           </Suspense>
         </ErrorBoundary>
