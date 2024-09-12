@@ -140,7 +140,7 @@ export const generateChartOptions = ({
   options,
   data,
 }: GenerateChartOptionsProps): EChartsOption => {
-  const sortedData = data.sort((a, b) => b.value - a.value)
+  const sortedData = data.toSorted((a, b) => b.value - a.value)
   return {
     tooltip: {
       formatter: `{b}: {c} ${options.unidade}`,
@@ -177,5 +177,17 @@ export const generateChartOptions = ({
         saveAsImage: {},
       },
     },
+    media: [
+      {
+        query: {
+          maxWidth: 800,
+        },
+        option: {
+          toolbox: {
+            top: '20px',
+          },
+        },
+      },
+    ],
   }
 }

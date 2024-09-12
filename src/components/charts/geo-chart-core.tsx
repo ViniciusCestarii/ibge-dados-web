@@ -14,6 +14,7 @@ import {
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
+import { useTheme } from 'next-themes'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
 echarts.use([
@@ -142,6 +143,33 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
 
     fetchGeoJson()
   }, [nivelGeografico])
+
+  const theme = useTheme().resolvedTheme ?? 'light'
+
+  useEffect(() => {
+    if (!(echartRef.current && geoJson)) return
+
+    echartRef.current?.dispose()
+
+    const wasDisposed = echartRef.current?.isDisposed()
+
+    const myChart = echarts.init(chartRef.current, theme)
+
+    if (wasDisposed) {
+      myChart.setOption(mapOption, true)
+    }
+
+    echartRef.current = myChart
+
+    const handleResize = () => myChart.resize()
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+      myChart.dispose()
+    }
+  }, [theme])
 
   useEffect(() => {
     if (echartRef.current && geoJson) {

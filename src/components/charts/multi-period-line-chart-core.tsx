@@ -13,6 +13,7 @@ import {
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
+import { useTheme } from 'next-themes'
 import { useEffect, useMemo, useRef } from 'react'
 
 echarts.use([
@@ -45,10 +46,14 @@ const MultiPeriodLineChartCore = (props: MultiPeriodLineChartCoreProps) => {
     return sortedData
   }, [data])
 
-  const barOption: EChartsOption = useMemo(() => {
+  const lineOption: EChartsOption = useMemo(() => {
     const basicOptions = generateChartOptions(props)
     return {
       ...basicOptions,
+      tooltip: {
+        ...basicOptions.tooltip,
+        trigger: 'axis',
+      },
       yAxis: {
         type: 'value',
       },
@@ -69,7 +74,7 @@ const MultiPeriodLineChartCore = (props: MultiPeriodLineChartCoreProps) => {
         }),
         emphasis: {
           itemStyle: {
-            borderColor: '#000000',
+            borderColor: '#808080',
             borderWidth: 6,
           },
         },
@@ -84,25 +89,36 @@ const MultiPeriodLineChartCore = (props: MultiPeriodLineChartCoreProps) => {
     }
   }, [dataSorted, data, options])
 
+  const theme = useTheme().resolvedTheme ?? 'light'
+
   useEffect(() => {
-    const myChart = echarts.init(chartRef.current, 'dark')
+    echartRef.current?.dispose()
+
+    const wasDisposed = echartRef.current?.isDisposed()
+
+    const myChart = echarts.init(chartRef.current, theme)
+
+    if (wasDisposed) {
+      myChart.setOption(lineOption, true)
+    }
 
     echartRef.current = myChart
 
-    window.onresize = function () {
-      myChart.resize()
-    }
+    const handleResize = () => myChart.resize()
+
+    window.addEventListener('resize', handleResize)
 
     return () => {
+      window.removeEventListener('resize', handleResize)
       myChart.dispose()
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (echartRef.current) {
-      echartRef.current.setOption(barOption, true)
+      echartRef.current.setOption(lineOption, true)
     }
-  }, [barOption])
+  }, [lineOption])
 
   return <div ref={chartRef} className="h-big-chart w-full" />
 }

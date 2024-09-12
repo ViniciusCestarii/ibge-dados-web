@@ -13,6 +13,7 @@ import {
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
+import { useTheme } from 'next-themes'
 import { useEffect, useMemo, useRef } from 'react'
 
 echarts.use([
@@ -89,19 +90,30 @@ const BarChartCore = (props: BarChartCoreProps) => {
     }
   }, [dataSorted, options])
 
+  const theme = useTheme().resolvedTheme ?? 'light'
+
   useEffect(() => {
-    const myChart = echarts.init(chartRef.current, 'dark')
+    echartRef.current?.dispose()
+
+    const wasDisposed = echartRef.current?.isDisposed()
+
+    const myChart = echarts.init(chartRef.current, theme)
+
+    if (wasDisposed) {
+      myChart.setOption(barOption, true)
+    }
 
     echartRef.current = myChart
 
-    window.onresize = function () {
-      myChart.resize()
-    }
+    const handleResize = () => myChart.resize()
+
+    window.addEventListener('resize', handleResize)
 
     return () => {
+      window.removeEventListener('resize', handleResize)
       myChart.dispose()
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (echartRef.current) {
