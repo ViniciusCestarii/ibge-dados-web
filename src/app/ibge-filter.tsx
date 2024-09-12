@@ -149,7 +149,10 @@ export default function IbgeFilter({
                 id="nivel-geográfico"
                 disabled={!selectedAgregado}
                 selectedOption={selectedNivelGeografico}
-                onSelectOption={(option) => setSelectedNivelGeografico(option)}
+                onSelectOption={(option) => {
+                  setSelectedNivelGeografico(option)
+                  setSelectedLocaisGeograficos(null)
+                }}
                 noItemSelectedText="Selecione um nível geográfico"
                 options={niveisGeograficos.map((nivel) => ({
                   label:

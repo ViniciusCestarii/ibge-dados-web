@@ -4,6 +4,7 @@ import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
 import env from '@/env'
 import { ChartData, ChartOptions } from '@/types/map'
+import { EChartsOption } from 'echarts'
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -125,3 +126,47 @@ export const getGeoFilename = (nivelId: NivelId) => {
 }
 
 export const ONE_DAY_IN_SECONDS = 86400
+
+interface GenerateChartOptionsProps {
+  options: ChartOptions
+  data: ChartData
+}
+
+export const generateChartOptions = ({
+  options,
+  data,
+}: GenerateChartOptionsProps): EChartsOption => {
+  const sortedData = data.sort((a, b) => b.value - a.value)
+  return {
+    tooltip: {
+      formatter: `{b}: {c} ${options.unidade}`,
+    },
+    title: {
+      text: options.title,
+      left: '1%',
+    },
+    visualMap: {
+      right: '2%',
+      top: '15%',
+      calculable: true,
+      min: sortedData[sortedData.length - 1].value,
+      max: sortedData[0].value,
+      orient: 'vertical',
+      text: ['', options.unidade],
+      inRange: {
+        color: ['#CACACA', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
+      },
+    },
+    backgroundColor: 'transparent',
+    toolbox: {
+      show: true,
+      left: 'right',
+      top: 'top',
+      feature: {
+        dataView: { readOnly: true },
+        restore: {},
+        saveAsImage: {},
+      },
+    },
+  }
+}

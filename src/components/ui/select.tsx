@@ -41,18 +41,15 @@ interface VirtualizedCommandProps {
 
 const VirtualizedCommand = ({
   options,
-  placeholder,
   height,
   noResultsText,
   selectedOption,
   onSelectOption,
 }: VirtualizedCommandProps) => {
-  const [filteredOptions, setFilteredOptions] =
-    React.useState<Option[]>(options)
   const parentRef = React.useRef(null)
 
   const virtualizer = useVirtualizer({
-    count: filteredOptions.length,
+    count: options.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => 35,
     overscan: 5,
@@ -84,7 +81,7 @@ const VirtualizedCommand = ({
             className="w-full absolute top-0 left-0 overflow-visible"
           >
             {virtualOptions.map((virtualRow) => {
-              const option = filteredOptions[virtualRow.index]
+              const option = options[virtualRow.index]
 
               return (
                 <CommandItem

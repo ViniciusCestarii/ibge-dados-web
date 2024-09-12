@@ -1,6 +1,6 @@
 'use client'
 import { fetchGeoJsonMap } from '@/lib/fetch-data'
-import { getGeoFilename } from '@/lib/utils'
+import { generateChartOptions, getGeoFilename } from '@/lib/utils'
 import { NivelId } from '@/types/agregado'
 import { ChartData, ChartOptions, GeoJson } from '@/types/map'
 import { EChartsOption } from 'echarts'
@@ -32,11 +32,9 @@ interface GeoChartCoreProps {
   options: ChartOptions
 }
 
-const GeoChartCore = ({
-  data,
-  options,
-  nivelGeografico,
-}: GeoChartCoreProps) => {
+const GeoChartCore = (props: GeoChartCoreProps) => {
+  const { data, nivelGeografico, options } = props
+
   const chartRef = useRef<HTMLDivElement | null>(null)
   const echartRef = useRef<echarts.ECharts | null>(null)
   const [geoJson, setGeoJson] = useState<GeoJson | null>(null)
@@ -80,34 +78,20 @@ const GeoChartCore = ({
     return calculateGeoJsonCenter(geoJson)
   }, [calculateGeoJsonCenter, geoJson, nivelGeografico])
 
-  const mapOption: EChartsOption = useMemo(
-    () => ({
-      tooltip: {
-        formatter: `{b}: {c} ${options.unidade}`,
-      },
-      title: {
-        text: options.title,
-        left: '1%',
-      },
+  const mapOption: EChartsOption = useMemo(() => {
+    const basicOptions = generateChartOptions(props)
+
+    return {
+      ...basicOptions,
       visualMap: {
-        right: '2%',
-        top: '15%',
-        min: data.length > 1 ? Math.ceil(data[data.length - 1].value) : 0,
-        max: Math.floor(data[0].value),
-        orient: 'vertical',
-        text: ['', options.unidade],
+        ...basicOptions.visualMap,
         realtime: getGeoFilename(nivelGeografico) !== 'municipios',
-        calculable: true,
-        inRange: {
-          color: ['#CACACA', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
-        },
       },
-      backgroundColor: 'transparent',
       series: {
         zoom: getGeoFilename(nivelGeografico) === 'municipios' ? 5 : 1.1,
         center: mapCenter,
         id: `geo-${options.title}`,
-        name: 'População 2020',
+        name: options.title,
         type: 'map',
         map: 'geo-map',
         roam: true,
@@ -124,19 +108,8 @@ const GeoChartCore = ({
         selectedMode: false,
         data,
       },
-      toolbox: {
-        show: true,
-        left: 'right',
-        top: 'top',
-        feature: {
-          dataView: { readOnly: true },
-          restore: {},
-          saveAsImage: {},
-        },
-      },
-    }),
-    [data, options, mapCenter],
-  )
+    }
+  }, [data, options, mapCenter])
 
   useEffect(() => {
     if (!chartRef.current) return

@@ -1,4 +1,5 @@
 'use client'
+import { generateChartOptions } from '@/lib/utils'
 import { ChartData, ChartOptions } from '@/types/map'
 import { EChartsOption } from 'echarts'
 import { LineChart } from 'echarts/charts'
@@ -30,10 +31,9 @@ interface MultiPeriodLineChartCoreProps {
   options: ChartOptions
 }
 
-const MultiPeriodLineChartCore = ({
-  data,
-  options,
-}: MultiPeriodLineChartCoreProps) => {
+const MultiPeriodLineChartCore = (props: MultiPeriodLineChartCoreProps) => {
+  const { data, options } = props
+
   const chartRef = useRef(null)
   const echartRef = useRef<null | echarts.ECharts>(null)
 
@@ -45,16 +45,10 @@ const MultiPeriodLineChartCore = ({
     return sortedData
   }, [data])
 
-  const barOption: EChartsOption = useMemo(
-    () => ({
-      tooltip: {
-        formatter: `{b}: {c} ${options.unidade}`,
-        trigger: 'axis',
-      },
-      title: {
-        text: options.title,
-        left: '1%',
-      },
+  const barOption: EChartsOption = useMemo(() => {
+    const basicOptions = generateChartOptions(props)
+    return {
+      ...basicOptions,
       yAxis: {
         type: 'value',
       },
@@ -67,7 +61,6 @@ const MultiPeriodLineChartCore = ({
           return item.name
         }),
       },
-      height: '70%',
       series: {
         id: `line-${options.title}`,
         type: 'line',
@@ -82,42 +75,14 @@ const MultiPeriodLineChartCore = ({
         },
         universalTransition: true,
       },
-      backgroundColor: 'transparent',
-      visualMap: {
-        right: '2%',
-        top: '15%',
-        min:
-          dataSorted.length > 1
-            ? Math.ceil(dataSorted[dataSorted.length - 1].value)
-            : Math.floor(dataSorted[0].value),
-        max: Math.floor(dataSorted[0].value),
-        orient: 'vertical',
-        text: ['', options.unidade],
-        realtime: true,
-        calculable: true,
-        inRange: {
-          color: ['#FFFFFF', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
-        },
-      },
       dataZoom: [
         {},
         {
           type: 'inside',
         },
       ],
-      toolbox: {
-        show: true,
-        left: 'right',
-        top: 'top',
-        feature: {
-          dataView: { readOnly: true },
-          restore: {},
-          saveAsImage: {},
-        },
-      },
-    }),
-    [dataSorted, data, options],
-  )
+    }
+  }, [dataSorted, data, options])
 
   useEffect(() => {
     const myChart = echarts.init(chartRef.current, 'dark')
