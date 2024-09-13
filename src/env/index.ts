@@ -6,6 +6,7 @@ const envSchema = z.object({
     .url()
     .optional()
     .default('https://servicodados.ibge.gov.br/api/v3'),
+  NODE_ENV: z.string().default('development'),
 })
 
 const _env = envSchema.safeParse(process.env)
