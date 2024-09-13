@@ -134,7 +134,7 @@ const ComboboxButton = React.forwardRef<HTMLButtonElement, ComboboxButtonProps>(
         role="combobox"
         aria-label={placeholder}
         aria-expanded={open}
-        className="justify-between w-full"
+        className="justify-between w-full min-h-10"
       >
         <span
           title={textToDisplay}
