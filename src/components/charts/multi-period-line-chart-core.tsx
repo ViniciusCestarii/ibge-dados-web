@@ -14,8 +14,10 @@ import {
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
-import { useTheme } from 'next-themes'
 import { useEffect, useMemo, useRef } from 'react'
+import langPtBr from 'echarts/i18n/langPT-br-obj.js'
+
+echarts.registerLocale('pt-br', langPtBr)
 
 echarts.use([
   LineChart,
@@ -93,7 +95,10 @@ const MultiPeriodLineChartCore = (props: ChartCoreProps) => {
 
     const wasDisposed = echartRef.current?.isDisposed()
 
-    const myChart = echarts.init(chartRef.current, theme)
+    const myChart = echarts.init(chartRef.current, theme, {
+      renderer: 'svg',
+      locale: 'pt-br',
+    })
 
     if (wasDisposed) {
       myChart.setOption(lineOption, true)
