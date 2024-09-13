@@ -1,7 +1,7 @@
 import { validFetchParamsSchema } from '@/lib/utils'
-import IbgeVisualization from '../ibge-visualization'
-import { searchParamsCache } from '../search-params'
-import PageContent from '../page-content'
+import IbgeVisualization from '../(main)/ibge-visualization'
+import { searchParamsCache } from '../(main)/search-params'
+import PageContent from '../(main)/page-content'
 
 export default async function Page({
   searchParams,

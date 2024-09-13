@@ -7,6 +7,7 @@ import IbgeVisualization from './ibge-visualization'
 import { searchParamsCache } from './search-params'
 import { ErrorBoundary } from '@sentry/nextjs'
 import LoadingAnimation from '@/components/ui/loading-animation'
+import { isProduction } from '@/lib/env-utils'
 
 export default async function PageContent({
   searchParams,
@@ -55,11 +56,13 @@ export default async function PageContent({
           </Suspense>
         </ErrorBoundary>
       ) : (
-        <pre>
-          <code className={'text-destructive'}>
-            {_validFetchParams.error?.message}
-          </code>
-        </pre>
+        !isProduction() && (
+          <pre>
+            <code className={'text-destructive'}>
+              {_validFetchParams.error?.message}
+            </code>
+          </pre>
+        )
       )}
     </>
   )
