@@ -36,7 +36,7 @@ export default async function PageContent({
   const _validFetchParams = validFetchParamsSchema.safeParse(parsedSearchParams)
 
   return (
-    <>
+    <div className="flex flex-col gap-4">
       <IbgeFilter
         agregadoPeriodos={agregadoPeriodos}
         agregadoMetadados={agregadoMetadados}
@@ -64,6 +64,6 @@ export default async function PageContent({
           </pre>
         )
       )}
-    </>
+    </div>
   )
 }
