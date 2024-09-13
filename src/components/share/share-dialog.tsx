@@ -26,7 +26,7 @@ import { useTheme } from 'next-themes'
 export default function ShareDialog() {
   const currentUrl = useCurrentUrl()
 
-  const { theme } = useTheme()
+  const { resolvedTheme } = useTheme()
 
   const shareText = `Confira Dados Agregados do IBGE: ${currentUrl}`
 
@@ -42,7 +42,7 @@ export default function ShareDialog() {
   const handleCopyEmbedCode = () => {
     const url = currentUrl.replace(
       '/?',
-      `/frame?${theme ? `theme=${theme}&` : ''}`,
+      `/frame?${resolvedTheme ? `theme=${resolvedTheme}&` : ''}`,
     )
     const embededCode = embedCode(url)
     copyToClipboard(embededCode)

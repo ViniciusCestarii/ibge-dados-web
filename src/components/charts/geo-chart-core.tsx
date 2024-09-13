@@ -1,4 +1,5 @@
 'use client'
+import useAppliedTheme from '@/hooks/use-applied-theme'
 import { fetchGeoJsonMap } from '@/lib/fetch-data'
 import { generateChartOptions, getGeoFilename } from '@/lib/utils'
 import { NivelId } from '@/types/agregado'
@@ -141,7 +142,7 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
     fetchGeoJson()
   }, [nivelGeografico])
 
-  const theme = useTheme().resolvedTheme ?? 'light'
+  const theme = useAppliedTheme()
 
   useEffect(() => {
     if (!(echartRef.current && geoJson)) return
@@ -166,7 +167,7 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
       window.removeEventListener('resize', handleResize)
       myChart.dispose()
     }
-  }, [theme, geoJson])
+  }, [geoJson])
 
   useEffect(() => {
     if (echartRef.current && geoJson) {

@@ -1,4 +1,5 @@
 'use client'
+import useAppliedTheme from '@/hooks/use-applied-theme'
 import { generateChartOptions } from '@/lib/utils'
 import { ChartCoreProps } from '@/types/chart'
 import { EChartsOption } from 'echarts'
@@ -85,7 +86,7 @@ const MultiPeriodLineChartCore = (props: ChartCoreProps) => {
     }
   }, [dataSorted, data, options])
 
-  const theme = useTheme().resolvedTheme ?? 'light'
+  const theme = useAppliedTheme()
 
   useEffect(() => {
     echartRef.current?.dispose()

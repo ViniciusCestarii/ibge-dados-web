@@ -19,7 +19,6 @@ export default async function Page({
     return (
       <ThemeProvider
         forcedTheme={theme}
-        storageKey="dont-use"
         attribute="class"
         disableTransitionOnChange
       >
