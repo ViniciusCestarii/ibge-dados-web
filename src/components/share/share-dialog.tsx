@@ -35,6 +35,12 @@ export default function ShareDialog() {
     email: `mailto:?subject=Dados%Agregados%Do%IBGE!&body=${shareText}`,
   }
 
+  const handleCopyEmbedCode = () => {
+    const url = currentUrl.replace('/?', '/frame?')
+    const embededCode = embedCode(url)
+    copyToClipboard(embededCode)
+  }
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -85,7 +91,7 @@ export default function ShareDialog() {
             variant="ghost"
             size="icon"
             className="mx-auto"
-            onClick={() => copyToClipboard(embedCode(currentUrl))}
+            onClick={handleCopyEmbedCode}
           >
             <CodeXml className="size-6" />
           </Button>

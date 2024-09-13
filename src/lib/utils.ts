@@ -198,5 +198,5 @@ export const copyToClipboard = (text: string) => {
 }
 
 export const embedCode = (url: string) => {
-  return `<iframe src="${url}" width="100%" height="600" frameborder="0"></iframe>`
+  return `<iframe src="${url}" width="100%" height="832" frameborder="0"></iframe>`
 }
