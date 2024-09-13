@@ -151,7 +151,7 @@ export const generateChartOptions = ({
     },
     visualMap: {
       right: '2%',
-      top: '15%',
+      bottom: '20%',
       calculable: true,
       min:
         sortedData.length === 1
