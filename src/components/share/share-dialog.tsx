@@ -21,9 +21,12 @@ import {
 } from '../ui/icons'
 import { copyToClipboard, embedCode } from '@/lib/utils'
 import { useCurrentUrl } from '@/hooks/use-current-url'
+import { useTheme } from 'next-themes'
 
 export default function ShareDialog() {
   const currentUrl = useCurrentUrl()
+
+  const { theme } = useTheme()
 
   const shareText = `Confira Dados Agregados do IBGE: ${currentUrl}`
 
@@ -37,7 +40,10 @@ export default function ShareDialog() {
   }
 
   const handleCopyEmbedCode = () => {
-    const url = currentUrl.replace('/?', '/frame?')
+    const url = currentUrl.replace(
+      '/?',
+      `/frame?${theme ? `theme=${theme}&` : ''}`,
+    )
     const embededCode = embedCode(url)
     copyToClipboard(embededCode)
   }
