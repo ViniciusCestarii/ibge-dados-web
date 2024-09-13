@@ -191,3 +191,12 @@ export const generateChartOptions = ({
     ],
   }
 }
+
+export const copyToClipboard = (text: string) => {
+  navigator.clipboard.writeText(text)
+  alert('Copiado para a área de transferência')
+}
+
+export const embedCode = (url: string) => {
+  return `<iframe src="${url}" width="100%" height="600" frameborder="0"></iframe>`
+}

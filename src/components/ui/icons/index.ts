@@ -1,0 +1,5 @@
+export * from './facebook-icon'
+export * from './linkedin-icon'
+export * from './twitter-icon'
+export * from './whatsapp-icon'
+export * from './reddit-icon'
