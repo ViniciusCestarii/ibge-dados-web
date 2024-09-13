@@ -1,6 +1,6 @@
 # IBGE Dados Web
 
-**IBGE Dados Web** é uma aplicação web que consome a [API de Agregados do IBGE](https://servicodados.ibge.gov.br/api/docs/agregados) para exibir dados estatísticos do Brasil em gráficos interativos e fáceis de visualizar. Com esta aplicação, você pode explorar diversas informações agregadas sobre temas econômicos, sociais, demográficos, entre outros.
+[**IBGE Dados Web**](https://ibge-dados-web.vercel.app/) é uma aplicação web que consome a [API de Agregados do IBGE](https://servicodados.ibge.gov.br/api/docs/agregados) para exibir dados estatísticos do Brasil em gráficos interativos e fáceis de visualizar. Com esta aplicação, você pode explorar diversas informações agregadas sobre temas econômicos, sociais, demográficos, entre outros.
 
 ## Exemplos de visualização
 
