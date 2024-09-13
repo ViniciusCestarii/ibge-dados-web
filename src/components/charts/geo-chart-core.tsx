@@ -2,7 +2,7 @@
 import { fetchGeoJsonMap } from '@/lib/fetch-data'
 import { generateChartOptions, getGeoFilename } from '@/lib/utils'
 import { NivelId } from '@/types/agregado'
-import { ChartData, ChartOptions, GeoJson } from '@/types/map'
+import { ChartCoreProps, GeoJson } from '@/types/chart'
 import { EChartsOption } from 'echarts'
 import { MapChart } from 'echarts/charts'
 import {
@@ -26,11 +26,8 @@ echarts.use([
   CanvasRenderer,
   DataZoomComponent,
 ])
-
-interface GeoChartCoreProps {
-  data: ChartData
+interface GeoChartCoreProps extends ChartCoreProps {
   nivelGeografico: NivelId
-  options: ChartOptions
 }
 
 const GeoChartCore = (props: GeoChartCoreProps) => {
@@ -169,7 +166,7 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
       window.removeEventListener('resize', handleResize)
       myChart.dispose()
     }
-  }, [theme])
+  }, [theme, geoJson])
 
   useEffect(() => {
     if (echartRef.current && geoJson) {

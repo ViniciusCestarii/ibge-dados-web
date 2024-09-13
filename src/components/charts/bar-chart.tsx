@@ -1,16 +1,9 @@
 import useIbgeData from '@/hooks/use-ibge-data'
-import {
-  FetchParams,
-  makeChartOptions,
-  mapIbgeDataToChartData,
-} from '@/lib/utils'
+import { makeChartOptions, mapIbgeDataToChartData } from '@/lib/utils'
 import BarChartCore from './bar-chart-core'
+import { ChartProps } from '@/types/chart'
 
-interface BarChartProps {
-  fetchParams: FetchParams
-}
-
-const BarChart = async ({ fetchParams }: BarChartProps) => {
+const BarChart = async ({ fetchParams }: ChartProps) => {
   const response = await useIbgeData(fetchParams)
 
   if (response.isErr()) {

@@ -1,6 +1,6 @@
 'use client'
 import { generateChartOptions } from '@/lib/utils'
-import { ChartData, ChartOptions } from '@/types/map'
+import { ChartCoreProps } from '@/types/chart'
 import { EChartsOption } from 'echarts'
 import { BarChart } from 'echarts/charts'
 import {
@@ -27,12 +27,7 @@ echarts.use([
   DataZoomComponent,
 ])
 
-interface BarChartCoreProps {
-  data: ChartData
-  options: ChartOptions
-}
-
-const BarChartCore = (props: BarChartCoreProps) => {
+const BarChartCore = (props: ChartCoreProps) => {
   const { data, options } = props
 
   const chartRef = useRef(null)

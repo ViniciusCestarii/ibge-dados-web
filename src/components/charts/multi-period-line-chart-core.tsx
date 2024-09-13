@@ -1,6 +1,6 @@
 'use client'
 import { generateChartOptions } from '@/lib/utils'
-import { ChartData, ChartOptions } from '@/types/map'
+import { ChartCoreProps } from '@/types/chart'
 import { EChartsOption } from 'echarts'
 import { LineChart } from 'echarts/charts'
 import {
@@ -27,12 +27,7 @@ echarts.use([
   DataZoomComponent,
 ])
 
-interface MultiPeriodLineChartCoreProps {
-  data: ChartData
-  options: ChartOptions
-}
-
-const MultiPeriodLineChartCore = (props: MultiPeriodLineChartCoreProps) => {
+const MultiPeriodLineChartCore = (props: ChartCoreProps) => {
   const { data, options } = props
 
   const chartRef = useRef(null)

@@ -1,13 +1,9 @@
 import BarChart from '@/components/charts/bar-chart'
 import GeoChart from '@/components/charts/geo-chart'
 import MultiPeriodLineChart from '@/components/charts/multi-period-line-chart'
-import { FetchParams } from '@/lib/utils'
+import { ChartProps } from '@/types/chart'
 
-interface ChartVisualizationProps {
-  fetchParams: FetchParams
-}
-
-const ChartVisualization = (props: ChartVisualizationProps) => {
+const ChartVisualization = (props: ChartProps) => {
   const { fetchParams } = props
 
   const allMoreThanOnePeriod = fetchParams.periodos.length > 1

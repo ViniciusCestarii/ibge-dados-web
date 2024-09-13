@@ -18,7 +18,7 @@ export default async function Page({
 
   return (
     <main className="container mx-auto p-4">
-      <IbgeVisualization validFetchParams={_validFetchParams.data} />
+      <IbgeVisualization fetchParams={_validFetchParams.data} />
     </main>
   )
 }

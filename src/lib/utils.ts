@@ -3,7 +3,7 @@ import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
 import env from '@/env'
-import { ChartData, ChartOptions } from '@/types/map'
+import { ChartData, ChartOptions } from '@/types/chart'
 import { EChartsOption } from 'echarts'
 
 export function cn(...inputs: ClassValue[]) {

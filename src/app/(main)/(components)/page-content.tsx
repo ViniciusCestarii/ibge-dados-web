@@ -52,7 +52,7 @@ export default async function PageContent({
           }
         >
           <Suspense fallback={<LoadingAnimation />}>
-            <IbgeVisualization validFetchParams={_validFetchParams.data} />
+            <IbgeVisualization fetchParams={_validFetchParams.data} />
           </Suspense>
         </ErrorBoundary>
       ) : (

@@ -1,19 +1,13 @@
-import { FetchParams } from '@/lib/utils'
 import { isProduction } from '@/lib/env-utils'
 import ChartVisualization from '@/app/(main)/(components)/chart-visualization'
 import IbgeLogs from './ibge-logs'
+import { ChartProps } from '@/types/chart'
 
-interface IbgeVisualizationProps {
-  validFetchParams: FetchParams
-}
-
-const IbgeVisualization = async ({
-  validFetchParams,
-}: IbgeVisualizationProps) => {
+const IbgeVisualization = async (props: ChartProps) => {
   return (
     <div>
-      <ChartVisualization fetchParams={validFetchParams} />
-      {!isProduction() && <IbgeLogs validFetchParams={validFetchParams} />}
+      <ChartVisualization {...props} />
+      {!isProduction() && <IbgeLogs {...props} />}
     </div>
   )
 }

@@ -1,11 +1,22 @@
+import { FetchParams } from '@/lib/utils'
+
 export type ChartData = {
   name: string
   value: number
 }[]
 
+export type ChartProps = {
+  fetchParams: FetchParams
+}
+
 export type ChartOptions = {
   title: string
   unidade: string
+}
+
+export type ChartCoreProps = {
+  data: ChartData
+  options: ChartOptions
 }
 
 export interface GeoJsonFeature {
@@ -16,7 +27,7 @@ export interface GeoJsonFeature {
   }
   properties: {
     name?: string
-    [key: string]: any
+    [key: string]: unknown
   }
 }
 

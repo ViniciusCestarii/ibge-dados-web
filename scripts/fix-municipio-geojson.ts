@@ -1,4 +1,4 @@
-import { GeoJson } from '@/types/map'
+import { GeoJson } from '@/types/chart'
 import chalk from 'chalk'
 import fs from 'fs'
 

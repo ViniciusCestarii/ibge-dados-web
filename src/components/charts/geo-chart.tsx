@@ -1,16 +1,9 @@
 import useIbgeData from '@/hooks/use-ibge-data'
-import {
-  FetchParams,
-  makeChartOptions,
-  mapIbgeDataToChartData,
-} from '@/lib/utils'
+import { makeChartOptions, mapIbgeDataToChartData } from '@/lib/utils'
 import GeoChartCore from './geo-chart-core'
+import { ChartProps } from '@/types/chart'
 
-interface GeoChartProps {
-  fetchParams: FetchParams
-}
-
-const GeoChart = async ({ fetchParams }: GeoChartProps) => {
+const GeoChart = async ({ fetchParams }: ChartProps) => {
   const response = await useIbgeData(fetchParams)
 
   if (response.isErr()) {

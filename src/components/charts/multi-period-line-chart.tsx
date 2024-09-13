@@ -1,18 +1,9 @@
 import useIbgeData from '@/hooks/use-ibge-data'
-import {
-  FetchParams,
-  makeChartOptions,
-  mapIbgeDataToChartData,
-} from '@/lib/utils'
+import { makeChartOptions, mapIbgeDataToChartData } from '@/lib/utils'
 import MultiPeriodLineChartCore from './multi-period-line-chart-core'
+import { ChartProps } from '@/types/chart'
 
-interface MultiPeriodLineChartProps {
-  fetchParams: FetchParams
-}
-
-const MultiPeriodLineChart = async ({
-  fetchParams,
-}: MultiPeriodLineChartProps) => {
+const MultiPeriodLineChart = async ({ fetchParams }: ChartProps) => {
   const response = await useIbgeData(fetchParams)
 
   if (response.isErr()) {

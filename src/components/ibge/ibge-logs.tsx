@@ -2,13 +2,13 @@ import useIbgeData from '@/hooks/use-ibge-data'
 import { FetchParams, makeIbgeAgregadoUrl } from '@/lib/utils'
 
 interface IbgeLogsProps {
-  validFetchParams: FetchParams
+  fetchParams: FetchParams
 }
 
-const IbgeLogs = async ({ validFetchParams }: IbgeLogsProps) => {
-  const result = await useIbgeData(validFetchParams)
+const IbgeLogs = async ({ fetchParams }: IbgeLogsProps) => {
+  const result = await useIbgeData(fetchParams)
 
-  const agregadoUrl = makeIbgeAgregadoUrl(validFetchParams)
+  const agregadoUrl = makeIbgeAgregadoUrl(fetchParams)
 
   return (
     <div className="overflow-x-auto">
@@ -20,7 +20,7 @@ const IbgeLogs = async ({ validFetchParams }: IbgeLogsProps) => {
       {result.isOk() ? (
         <pre>
           <code className={'text-green-500'}>
-            {JSON.stringify(validFetchParams, null, 2)}
+            {JSON.stringify(fetchParams, null, 2)}
           </code>
           <code className="text-blue-500">
             {JSON.stringify(result.value.data, null, 2)}
