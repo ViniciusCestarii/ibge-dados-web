@@ -3,11 +3,11 @@ import { validFetchParamsSchema } from '@/lib/utils'
 import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import { Suspense } from 'react'
 import IbgeFilter from './ibge-filter'
-import IbgeVisualization from './ibge-visualization'
-import { searchParamsCache } from './search-params'
+import { searchParamsCache } from '../../search-params'
 import { ErrorBoundary } from '@sentry/nextjs'
 import LoadingAnimation from '@/components/ui/loading-animation'
 import { isProduction } from '@/lib/env-utils'
+import IbgeVisualization from '@/components/ibge/ibge-visualization'
 
 export default async function PageContent({
   searchParams,

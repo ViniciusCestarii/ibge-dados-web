@@ -9,10 +9,10 @@ import { LocalGeografico, Metadado, Periodo } from '@/types/agregado'
 import { useQueryState } from 'nuqs'
 import AgregadoSelector from './agregado-selector'
 import PesquisaSelector from './pesquisa-selector'
-import { searchParamsParsers } from './search-params'
 import VariavelSelector from './variavel-selector'
 import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
 import { VirtualizedMultiCombobox } from '@/components/ui/virtualized-multi-combobox'
+import { searchParamsParsers } from '@/app/search-params'
 
 interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined

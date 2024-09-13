@@ -1,7 +1,7 @@
 import { FetchParams } from '@/lib/utils'
-import ChartVisualization from './chart-visualization'
-import IbgeLogs from './ibge-logs'
 import { isProduction } from '@/lib/env-utils'
+import ChartVisualization from '@/app/(main)/(components)/chart-visualization'
+import IbgeLogs from './ibge-logs'
 
 interface IbgeVisualizationProps {
   validFetchParams: FetchParams

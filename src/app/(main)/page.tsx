@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import PageContent from './page-content'
+import PageContent from './(components)/page-content'
 
 export default async function Page({
   searchParams,
