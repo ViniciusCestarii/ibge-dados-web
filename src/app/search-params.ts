@@ -5,6 +5,7 @@ import {
 } from 'nuqs/server'
 
 export const searchParamsParsers = {
+  theme: parseAsString,
   pesquisa: parseAsString,
   agregado: parseAsString.withOptions({
     shallow: false,

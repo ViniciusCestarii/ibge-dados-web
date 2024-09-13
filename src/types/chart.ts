@@ -27,7 +27,7 @@ export interface GeoJsonFeature {
   }
   properties: {
     name?: string
-    [key: string]: unknown
+    [key: string]: any
   }
 }
 
