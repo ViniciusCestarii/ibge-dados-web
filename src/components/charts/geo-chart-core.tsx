@@ -167,7 +167,7 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
       window.removeEventListener('resize', handleResize)
       myChart.dispose()
     }
-  }, [geoJson])
+  }, [theme, geoJson])
 
   useEffect(() => {
     if (echartRef.current && geoJson) {
