@@ -7,10 +7,8 @@ export default async function Page({
   searchParams: Record<string, string | string[] | undefined>
 }) {
   return (
-    <main className="container mx-auto p-4">
-      <Suspense fallback="Carregando...">
-        <PageContent searchParams={searchParams} />
-      </Suspense>
-    </main>
+    <Suspense fallback="Carregando...">
+      <PageContent searchParams={searchParams} />
+    </Suspense>
   )
 }
