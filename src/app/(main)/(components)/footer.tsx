@@ -1,3 +1,6 @@
+import { Button } from '@/components/ui/button'
+import { GithubIcon } from '@/components/ui/icons'
+
 const Footer = () => {
   return (
     <footer className="flex justify-center z-10 border-t sticky top-0 backdrop-blur-sm bg-background/45">
@@ -14,18 +17,29 @@ const Footer = () => {
             Licença MIT
           </a>
         </span>
-        <div className="w-full flex justify-end gap-1">
-          Desenvolvido por
-          <address className="not-italic">
-            <a
-              className="underline"
-              target="_blank"
-              href="https://github.com/ViniciusCestarii"
-              rel="noopener noreferrer"
-            >
-              Vinicius Cestari
-            </a>
-          </address>
+        <div className="w-full flex justify-between gap-1 items-end flex-wrap">
+          <a
+            target="_blank"
+            href="https://github.com/ViniciusCestarii/ibge-dados-web"
+            rel="noopener noreferrer"
+          >
+            <Button className=" flex items-center gap-1" variant="outline">
+              <GithubIcon /> Código fonte
+            </Button>
+          </a>
+          <span className="flex gap-1">
+            Desenvolvido por
+            <address className="not-italic">
+              <a
+                className="underline"
+                target="_blank"
+                href="https://github.com/ViniciusCestarii"
+                rel="noopener noreferrer"
+              >
+                Vinicius Cestari
+              </a>
+            </address>
+          </span>
         </div>
       </div>
     </footer>
