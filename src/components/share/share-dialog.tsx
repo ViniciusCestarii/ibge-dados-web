@@ -20,18 +20,12 @@ import {
   WhatsAppIcon,
 } from '../ui/icons'
 import { copyToClipboard, embedCode } from '@/lib/utils'
-import { usePathname, useSearchParams } from 'next/navigation'
+import { useCurrentUrl } from '@/hooks/use-current-url'
 
 export default function ShareDialog() {
-  const origin = typeof window !== 'undefined' ? window.location.origin : ''
-  const pathname = usePathname()
-  const searchParams = useSearchParams()
-
-  const currentUrl = `${origin}${pathname}?${searchParams.toString()}`
+  const currentUrl = useCurrentUrl()
 
   const shareText = `Confira Dados Agregados do IBGE: ${currentUrl}`
-
-  console.log('currentUrl', currentUrl)
 
   const shareLinks = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`,
