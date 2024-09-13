@@ -57,7 +57,7 @@ export default async function PageContent({
         </ErrorBoundary>
       ) : (
         !isProduction() && (
-          <pre>
+          <pre className="overflow-x-auto">
             <code className={'text-destructive'}>
               {_validFetchParams.error?.message}
             </code>
