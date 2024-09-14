@@ -25,8 +25,8 @@ export default function Error({
         Oops! Parece que deu algo de errado.
       </h2>
       <p className="text-lg mb-2">
-        Desculpe pela inconveniência. Nossa equipe já foi notificada e estamos
-        trabalhando para resolver o problema.
+        Desculpe pela inconveniência. Fui notificado e estou trabalhando para
+        corrigir o problema.
       </p>
       {error.digest && <p className="text-sm">Error Code: {error.digest}</p>}
       <div className="mt-6 flex gap-4 flex-wrap justify-center">
