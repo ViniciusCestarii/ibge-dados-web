@@ -1,4 +1,6 @@
-- [ ] Add a way to embed charts on other websites
+- [X] Add a way to embed charts on other websites
+
+- [ ] Add selector of "classificao"
 
 - [ ] Make geo map support mesoregiao, microregiao
 
