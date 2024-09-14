@@ -16,7 +16,7 @@
 - Gráficos dinâmicos para facilitar a compreensão dos dados.
 - Interface amigável e responsiva.
 - Filtros para seleção de dados por período, região ou categoria usando search params.
-- Possibilidade de incorporar gra´ficos em outras aplicações via iframe
+- Possibilidade de incorporar gráficos em outras aplicações via iframe
 
 ## Tecnologias Utilizadas
 
