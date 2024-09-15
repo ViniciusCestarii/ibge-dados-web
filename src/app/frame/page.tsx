@@ -33,9 +33,7 @@ export default async function Page({
       attribute="class"
       disableTransitionOnChange
     >
-      <main className="container mx-auto p-4">
-        <IbgeVisualization fetchParams={_validFetchParams.data} />
-      </main>
+      <IbgeVisualization fetchParams={_validFetchParams.data} />
     </ThemeProvider>
   )
 }
