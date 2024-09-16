@@ -22,7 +22,7 @@ const ParamsSteps = ({ errors }: ParamsStepsProps) => {
   }))
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
       <div>
         <h2 className="text-xl font-bold">Selecione os seguintes parâmetros</h2>
         <ul className="list-disc pl-3 space-y-3">
