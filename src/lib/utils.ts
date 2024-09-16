@@ -22,7 +22,7 @@ export interface FetchParams {
   variavel: string
   nivelGeografico: string
   locais: string[]
-  classificacao?: Record<string, string[]> | null
+  classificacao: Record<string, string[]> | null
 }
 
 export const validFetchParamsSchema = z.object({
@@ -31,7 +31,7 @@ export const validFetchParamsSchema = z.object({
   variavel: z.string(),
   nivelGeografico: z.string(),
   locais: z.array(z.string()).min(1),
-  classificacao: z.record(z.array(z.string())).optional().nullable(),
+  classificacao: z.record(z.array(z.string())).nullable(),
 })
 
 export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
