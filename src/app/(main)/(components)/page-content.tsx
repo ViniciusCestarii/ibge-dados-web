@@ -6,8 +6,8 @@ import IbgeFilter from './ibge-filter'
 import { searchParamsCache } from '../../search-params'
 import { ErrorBoundary } from '@sentry/nextjs'
 import LoadingAnimation from '@/components/ui/loading-animation'
-import { isProduction } from '@/lib/env-utils'
 import IbgeVisualization from '@/components/ibge/ibge-visualization'
+import ParamsSteps from '@/app/(main)/(components)/params-steps'
 
 export default async function PageContent({
   searchParams,
@@ -56,13 +56,7 @@ export default async function PageContent({
           </Suspense>
         </ErrorBoundary>
       ) : (
-        !isProduction() && (
-          <pre className="overflow-x-auto">
-            <code className={'text-destructive'}>
-              {_validFetchParams.error?.message}
-            </code>
-          </pre>
-        )
+        <ParamsSteps errors={_validFetchParams.error} />
       )}
     </div>
   )

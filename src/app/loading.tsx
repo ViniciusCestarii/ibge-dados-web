@@ -1,5 +1,5 @@
 import LoadingAnimation from '@/components/ui/loading-animation'
 
-export default function Example() {
+export default function Loading() {
   return <LoadingAnimation />
 }
