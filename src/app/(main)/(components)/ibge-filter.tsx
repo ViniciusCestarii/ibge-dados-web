@@ -13,6 +13,12 @@ import VariavelSelector from './variavel-selector'
 import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
 import { VirtualizedMultiCombobox } from '@/components/ui/virtualized-multi-combobox'
 import { searchParamsParsers } from '@/app/search-params'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion'
 
 interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined
@@ -84,6 +90,7 @@ export default function IbgeFilter({
                 setSelectedPeriods(null)
                 setSelectedNivelGeografico(null)
                 setSelectedLocaisGeograficos(null)
+                setSelectedClassificoes(null)
               }}
               selectedOption={selectedPesquisa}
             />
@@ -103,6 +110,7 @@ export default function IbgeFilter({
                 setSelectedPeriods(null)
                 setSelectedNivelGeografico(null)
                 setSelectedLocaisGeograficos(null)
+                setSelectedClassificoes(null)
               }}
             />
 
@@ -195,12 +203,10 @@ export default function IbgeFilter({
 
       {agregadoMetadados?.classificacoes &&
         agregadoMetadados?.classificacoes.length > 0 && (
-          <Card className="md:col-span-2">
-            <CardHeader>
-              <CardTitle>Filtros opcionais</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="gap-4 md:grid-cols-2 grid">
+          <Accordion type="single" collapsible className="md:col-span-2">
+            <AccordionItem value="item-1">
+              <AccordionTrigger>Filtros opcionais</AccordionTrigger>
+              <AccordionContent className="gap-4 md:grid-cols-2 grid">
                 {agregadoMetadados?.classificacoes.map((classificacao) => (
                   <div key={classificacao.id}>
                     <Label htmlFor={classificacao.nome}>
@@ -239,9 +245,9 @@ export default function IbgeFilter({
                     />
                   </div>
                 ))}
-              </div>
-            </CardContent>
-          </Card>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         )}
     </div>
   )
