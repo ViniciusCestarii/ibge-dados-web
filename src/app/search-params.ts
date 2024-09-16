@@ -2,6 +2,7 @@ import {
   createSearchParamsCache,
   parseAsArrayOf,
   parseAsString,
+  parseAsJson,
 } from 'nuqs/server'
 
 export const searchParamsParsers = {
@@ -20,6 +21,9 @@ export const searchParamsParsers = {
     shallow: false,
   }),
   locais: parseAsArrayOf(parseAsString).withOptions({
+    shallow: false,
+  }),
+  classificacao: parseAsJson().withOptions({
     shallow: false,
   }),
 }

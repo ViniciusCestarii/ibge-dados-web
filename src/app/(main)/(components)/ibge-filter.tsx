@@ -48,6 +48,11 @@ export default function IbgeFilter({
     searchParamsParsers.periodos,
   )
 
+  const [selectedClassificoes, setSelectedClassificoes] = useQueryState(
+    'classificacao',
+    searchParamsParsers.classificacao,
+  )
+
   const agregados =
     pesquisas.find((pesquisa) => pesquisa.id === selectedPesquisa)?.agregados ??
     []
@@ -187,6 +192,57 @@ export default function IbgeFilter({
           </div>
         </CardContent>
       </Card>
+
+      {agregadoMetadados?.classificacoes &&
+        agregadoMetadados?.classificacoes.length > 0 && (
+          <Card className="md:col-span-2">
+            <CardHeader>
+              <CardTitle>Filtros opcionais</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="gap-4 md:grid-cols-2 grid">
+                {agregadoMetadados?.classificacoes.map((classificacao) => (
+                  <div key={classificacao.id}>
+                    <Label htmlFor={classificacao.nome}>
+                      {classificacao.nome}
+                    </Label>
+                    <VirtualizedMultiCombobox
+                      id={classificacao.nome}
+                      noItemSelectedText={`Selecionar ${classificacao.nome}`}
+                      searchPlaceholder={`Pesquisar ${classificacao.nome}`}
+                      selectedOptions={
+                        selectedClassificoes?.[
+                          classificacao.id as keyof typeof selectedClassificoes
+                        ] ?? []
+                      }
+                      onSelectOptions={(options) =>
+                        setSelectedClassificoes((prev) => {
+                          const value = {
+                            ...prev,
+                            [classificacao.id]:
+                              options.length > 0 ? options : undefined,
+                          }
+
+                          if (Object.values(value).every((v) => !v)) {
+                            return null
+                          }
+
+                          console.log(value)
+
+                          return value
+                        })
+                      }
+                      options={classificacao.categorias.map((categoria) => ({
+                        label: categoria.nome,
+                        value: String(categoria.id),
+                      }))}
+                    />
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        )}
     </div>
   )
 }

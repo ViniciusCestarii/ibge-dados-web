@@ -2,12 +2,16 @@ import { FetchParams } from '@/lib/utils'
 import { Square, SquareCheck } from 'lucide-react'
 import { ZodError } from 'zod'
 import AstrounautAnimation from './astronaut-animation'
+import { isProduction } from '@/lib/env-utils'
 
 interface ParamsStepsProps {
   errors: ZodError<FetchParams>
 }
 
-const nameToDisplayMap: Record<keyof FetchParams, string> = {
+const nameToDisplayMap: Record<
+  Exclude<keyof FetchParams, 'classificacao'>,
+  string
+> = {
   agregado: 'Agregado',
   variavel: 'Variável',
   periodos: 'Períodos',
@@ -22,20 +26,29 @@ const ParamsSteps = ({ errors }: ParamsStepsProps) => {
   }))
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-      <div>
-        <h2 className="text-xl font-bold">Selecione os seguintes parâmetros</h2>
-        <ul className="list-disc pl-3 space-y-3">
-          {params.map((param) => (
-            <li key={param.name} className="flex items-center gap-2">
-              <CheckboxIcon checked={!param.error} />
-              {param.name}
-            </li>
-          ))}
-        </ul>
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div>
+          <h2 className="text-xl font-bold">
+            Selecione os seguintes parâmetros
+          </h2>
+          <ul className="list-disc pl-3 space-y-3">
+            {params.map((param) => (
+              <li key={param.name} className="flex items-center gap-2">
+                <CheckboxIcon checked={!param.error} />
+                {param.name}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <AstrounautAnimation />
       </div>
-      <AstrounautAnimation />
-    </div>
+      {!isProduction() && (
+        <pre className="overflow-x-auto">
+          <code className={'text-destructive'}>{errors?.message}</code>
+        </pre>
+      )}
+    </>
   )
 }
 

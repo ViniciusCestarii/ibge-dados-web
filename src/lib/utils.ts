@@ -22,6 +22,7 @@ export interface FetchParams {
   variavel: string
   nivelGeografico: string
   locais: string[]
+  classificacao?: Record<string, string[]> | null
 }
 
 export const validFetchParamsSchema = z.object({
@@ -30,6 +31,7 @@ export const validFetchParamsSchema = z.object({
   variavel: z.string(),
   nivelGeografico: z.string(),
   locais: z.array(z.string()).min(1),
+  classificacao: z.record(z.array(z.string())).optional().nullable(),
 })
 
 export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
@@ -38,8 +40,12 @@ export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
   const periodosString = periodos.join(',')
   const nivelGeograficoString = `${nivelGeografico}[${locais.join(',')}]`
 
+  const classificaoString = makeClassificaoSearchParam(
+    fetchParams.classificacao,
+  )
+
   const ibgeUrl = getIbgeUrl(
-    `agregados/${agregado}/periodos/${periodosString}/variaveis/${variavel}?localidades=${nivelGeograficoString}`,
+    `agregados/${agregado}/periodos/${periodosString}/variaveis/${variavel}?localidades=${nivelGeograficoString}${classificaoString}`,
   )
 
   return ibgeUrl
@@ -51,6 +57,27 @@ export const getIbgeUrl = (pathname: string) => {
   }
 
   return `${env.IBGE_BASE_URL}/${pathname}`
+}
+
+const makeClassificaoSearchParam = (
+  classificacao?: FetchParams['classificacao'],
+) => {
+  if (!classificacao) {
+    return ''
+  }
+
+  const content = Object.entries(classificacao).reduce(
+    (acc, [key, value], index) => {
+      if (index === 0) {
+        return `${key}[${value.join(',')}]`
+      }
+
+      return `${acc}|${key}[${value.join(',')}]`
+    },
+    '',
+  )
+
+  return `&classificacao=${content}`
 }
 
 const numberToMonth = (number: number) => {
