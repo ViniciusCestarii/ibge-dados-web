@@ -10,6 +10,8 @@
 
 - [Proporção da população abaixo da linha de pobreza internacional por estado em 2022](https://ibge-dados-web.vercel.app/frame?pesquisa=C2&agregado=5817&variavel=9617&nivelGeografico=N3&locais=11%2C12%2C13%2C14%2C15%2C16%2C17%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C31%2C32%2C33%2C35%2C41%2C42%2C43%2C50%2C51%2C52%2C53&periodos=2022)
 
+- [Sálario médio mensal por estado em 2021](https://ibge-dados-web.vercel.app/frame?pesquisa=CL&agregado=1685&variavel=1606&periodos=2021&nivelGeografico=N3&locais=11,12,13,14,15,16,17,21,22,23,24,25,26,27,28,29,31,32,33,35,41,42,43,50,51,52,53)
+
 ## Funcionalidades
 
 - Visualização interativa de dados estatísticos do IBGE.

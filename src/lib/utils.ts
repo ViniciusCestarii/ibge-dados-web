@@ -147,6 +147,7 @@ export const generateChartOptions = ({
     },
     title: {
       text: options.title,
+      subtext: `Unidade: ${options.unidade}, Fonte: IBGE`,
       left: '1%',
     },
     visualMap: {
@@ -161,7 +162,6 @@ export const generateChartOptions = ({
           : sortedData[sortedData.length - 1].value,
       max: sortedData[0].value,
       orient: 'vertical',
-      text: ['', options.unidade],
       inRange: {
         color: ['#CACACA', '#A9A9A9', '#808080', '#696969', '#2F2F2F'],
       },
