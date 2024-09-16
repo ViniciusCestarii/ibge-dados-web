@@ -13,7 +13,7 @@ import {
   VisualMapComponent,
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
-import { CanvasRenderer } from 'echarts/renderers'
+import { SVGRenderer } from 'echarts/renderers'
 import { useEffect, useMemo, useRef } from 'react'
 import langPtBr from 'echarts/i18n/langPT-br-obj.js'
 
@@ -25,7 +25,7 @@ echarts.use([
   TooltipComponent,
   VisualMapComponent,
   ToolboxComponent,
-  CanvasRenderer,
+  SVGRenderer,
   GridComponent,
   DataZoomComponent,
 ])
