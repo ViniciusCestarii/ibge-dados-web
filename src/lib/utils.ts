@@ -155,7 +155,7 @@ export const mapIbgeDataToChartData = async ({
 
       return result.series.flatMap((serie) =>
         Object.entries(serie.serie).map(([_, value]) => ({
-          name: `${serie.localidade.nome} ${postFix}`,
+          name: `${serie.localidade.nome} ${postFix}`.trim(),
           value: Number(value),
         })),
       )
