@@ -90,20 +90,22 @@ const numberToMonth = (number: number) => {
   return date.toLocaleString('default', { month: 'long' })
 }
 
-const periodToText = (period: string) => {
+const periodToText = (period: string, variavel: string) => {
   const year = period.substring(0, 4)
   if (period.length === 4) {
     return year
   }
 
+  const isVariavelTrimestral = variavel.includes('trimestr')
+
+  if (period.length === 6 && isVariavelTrimestral) {
+    const quarter = period.substring(5, 6)
+    return `${year} ${quarter}° trimestre`
+  }
+
   if (period.length === 6) {
     const month = numberToMonth(Number(period.substring(4, 6)) - 1)
     return `${year} ${month}`
-  }
-
-  if (period.length === 7) {
-    const quarter = period.substring(5, 6)
-    return `${year} ${quarter}° trimestre`
   }
 
   return period
@@ -125,7 +127,7 @@ export const mapIbgeDataToChartData = (
 
         return result.series.flatMap((serie) =>
           Object.entries(serie.serie).map(([period, value]) => ({
-            name: `${periodToText(period)} ${serie.localidade.nome} ${postFix}`,
+            name: `${periodToText(period, ibgeData.variavel)} ${serie.localidade.nome} ${postFix}`,
             value: Number(value),
           })),
         )
