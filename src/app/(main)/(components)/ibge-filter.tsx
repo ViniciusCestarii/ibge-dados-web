@@ -13,6 +13,12 @@ import VariavelSelector from './variavel-selector'
 import nivelGeograficoMap from '@/json/nivel-geografico-map.json'
 import { VirtualizedMultiCombobox } from '@/components/ui/virtualized-multi-combobox'
 import { searchParamsParsers } from '@/app/search-params'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion'
 
 interface IbgeFilterProps {
   agregadoMetadados: Metadado | undefined
@@ -48,6 +54,11 @@ export default function IbgeFilter({
     searchParamsParsers.periodos,
   )
 
+  const [selectedClassificoes, setSelectedClassificoes] = useQueryState(
+    'classificacao',
+    searchParamsParsers.classificacao,
+  )
+
   const agregados =
     pesquisas.find((pesquisa) => pesquisa.id === selectedPesquisa)?.agregados ??
     []
@@ -79,6 +90,7 @@ export default function IbgeFilter({
                 setSelectedPeriods(null)
                 setSelectedNivelGeografico(null)
                 setSelectedLocaisGeograficos(null)
+                setSelectedClassificoes(null)
               }}
               selectedOption={selectedPesquisa}
             />
@@ -98,6 +110,7 @@ export default function IbgeFilter({
                 setSelectedPeriods(null)
                 setSelectedNivelGeografico(null)
                 setSelectedLocaisGeograficos(null)
+                setSelectedClassificoes(null)
               }}
             />
 
@@ -187,6 +200,55 @@ export default function IbgeFilter({
           </div>
         </CardContent>
       </Card>
+
+      {agregadoMetadados?.classificacoes &&
+        agregadoMetadados?.classificacoes.length > 0 && (
+          <Accordion type="single" collapsible className="md:col-span-2">
+            <AccordionItem value="item-1">
+              <AccordionTrigger>Filtros opcionais</AccordionTrigger>
+              <AccordionContent className="gap-4 md:grid-cols-2 grid">
+                {agregadoMetadados?.classificacoes.map((classificacao) => (
+                  <div key={classificacao.id}>
+                    <Label htmlFor={classificacao.nome}>
+                      {classificacao.nome}
+                    </Label>
+                    <VirtualizedMultiCombobox
+                      id={classificacao.nome}
+                      noItemSelectedText={`Selecionar ${classificacao.nome}`}
+                      searchPlaceholder={`Pesquisar ${classificacao.nome}`}
+                      selectedOptions={
+                        selectedClassificoes?.[
+                          classificacao.id as keyof typeof selectedClassificoes
+                        ] ?? []
+                      }
+                      onSelectOptions={(options) =>
+                        setSelectedClassificoes((prev) => {
+                          const value = {
+                            ...prev,
+                            [classificacao.id]:
+                              options.length > 0 ? options : undefined,
+                          }
+
+                          if (Object.values(value).every((v) => !v)) {
+                            return null
+                          }
+
+                          console.log(value)
+
+                          return value
+                        })
+                      }
+                      options={classificacao.categorias.map((categoria) => ({
+                        label: categoria.nome,
+                        value: String(categoria.id),
+                      }))}
+                    />
+                  </div>
+                ))}
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        )}
     </div>
   )
 }

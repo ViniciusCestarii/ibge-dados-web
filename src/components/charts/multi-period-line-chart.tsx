@@ -12,10 +12,10 @@ const MultiPeriodLineChart = async ({ fetchParams }: ChartProps) => {
 
   const { data } = response.value
 
-  const geoData = mapIbgeDataToChartData(data)
+  const mappedData = mapIbgeDataToChartData(data)
   const mapOptions = makeChartOptions(data)
 
-  return <MultiPeriodLineChartCore data={geoData} options={mapOptions} />
+  return <MultiPeriodLineChartCore data={mappedData} options={mapOptions} />
 }
 
 export default MultiPeriodLineChart

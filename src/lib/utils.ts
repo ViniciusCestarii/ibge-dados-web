@@ -1,4 +1,9 @@
-import { AgregadoDataResponse, Metadado, NivelId } from '@/types/agregado'
+import {
+  AgregadoDataResponse,
+  Metadado,
+  NivelId,
+  Resultado,
+} from '@/types/agregado'
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
@@ -22,6 +27,7 @@ export interface FetchParams {
   variavel: string
   nivelGeografico: string
   locais: string[]
+  classificacao: Record<string, string[]> | null
 }
 
 export const validFetchParamsSchema = z.object({
@@ -30,6 +36,7 @@ export const validFetchParamsSchema = z.object({
   variavel: z.string(),
   nivelGeografico: z.string(),
   locais: z.array(z.string()).min(1),
+  classificacao: z.record(z.array(z.string())).nullable(),
 })
 
 export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
@@ -38,8 +45,12 @@ export const makeIbgeAgregadoUrl = (fetchParams: FetchParams) => {
   const periodosString = periodos.join(',')
   const nivelGeograficoString = `${nivelGeografico}[${locais.join(',')}]`
 
+  const classificaoString = makeClassificaoSearchParam(
+    fetchParams.classificacao,
+  )
+
   const ibgeUrl = getIbgeUrl(
-    `agregados/${agregado}/periodos/${periodosString}/variaveis/${variavel}?localidades=${nivelGeograficoString}`,
+    `agregados/${agregado}/periodos/${periodosString}/variaveis/${variavel}?localidades=${nivelGeograficoString}${classificaoString}`,
   )
 
   return ibgeUrl
@@ -51,6 +62,27 @@ export const getIbgeUrl = (pathname: string) => {
   }
 
   return `${env.IBGE_BASE_URL}/${pathname}`
+}
+
+const makeClassificaoSearchParam = (
+  classificacao?: FetchParams['classificacao'],
+) => {
+  if (!classificacao) {
+    return ''
+  }
+
+  const content = Object.entries(classificacao).reduce(
+    (acc, [key, value], index) => {
+      if (index === 0) {
+        return `${key}[${value.join(',')}]`
+      }
+
+      return `${acc}|${key}[${value.join(',')}]`
+    },
+    '',
+  )
+
+  return `&classificacao=${content}`
 }
 
 const numberToMonth = (number: number) => {
@@ -88,27 +120,44 @@ export const mapIbgeDataToChartData = (
 
   if (hasMoreThanOnePeriod) {
     return data.flatMap((ibgeData) =>
-      ibgeData.resultados.flatMap((result) =>
-        result.series.flatMap((serie) =>
+      ibgeData.resultados.flatMap((result) => {
+        const postFix = getPostfixName(result)
+
+        return result.series.flatMap((serie) =>
           Object.entries(serie.serie).map(([period, value]) => ({
-            name: `${periodToText(period)} ${serie.localidade.nome}`,
+            name: `${periodToText(period)} ${serie.localidade.nome} ${postFix}`,
             value: Number(value),
           })),
-        ),
-      ),
+        )
+      }),
     )
   }
 
   return data.flatMap((ibgeData) =>
-    ibgeData.resultados.flatMap((result) =>
-      result.series.flatMap((serie) =>
+    ibgeData.resultados.flatMap((result) => {
+      const postFix = getPostfixName(result)
+
+      return result.series.flatMap((serie) =>
         Object.entries(serie.serie).map(([_, value]) => ({
-          name: serie.localidade.nome,
+          name: `${serie.localidade.nome} ${postFix}`,
           value: Number(value),
         })),
-      ),
-    ),
+      )
+    }),
   )
+}
+
+const getPostfixName = (result: Resultado) => {
+  const allClassificao = result.classificacoes.flatMap((classificacao) =>
+    Object.entries(classificacao.categoria).flatMap(([_, value]) => {
+      if (value === 'Total') {
+        return []
+      }
+      return value
+    }),
+  )
+
+  return allClassificao.join(' ')
 }
 
 export const makeChartOptions = (data: AgregadoDataResponse): ChartOptions => ({

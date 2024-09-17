@@ -151,7 +151,7 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
     const wasDisposed = echartRef.current?.isDisposed()
 
     const myChart = echarts.init(chartRef.current, theme, {
-      renderer: 'svg',
+      renderer: 'canvas',
       locale: 'pt-br',
     })
 

@@ -29,6 +29,25 @@ export type Variavel = {
   sumarizacao: string[]
 }
 
+interface MetadadoClassificacao {
+  id: number
+  nome: string
+  sumarizacao: Sumarizacao
+  categorias: Categoria[]
+}
+
+interface Sumarizacao {
+  status: boolean
+  excecao: any[]
+}
+
+interface Categoria {
+  id: number
+  nome: string
+  unidade: string | null
+  nivel: number
+}
+
 export type Metadado = {
   id: number
   nome: string
@@ -38,6 +57,7 @@ export type Metadado = {
   periodicidade: Periodicidade
   nivelTerritorial: NivelTerritorial
   variaveis: Variavel[]
+  classificacoes: MetadadoClassificacao[]
 }
 
 export type Periodo = {
@@ -74,7 +94,7 @@ export type AgregadoDataResponse = {
   resultados: Resultado[]
 }[]
 
-type Resultado = {
+export type Resultado = {
   classificacoes: Classificacao[]
   series: Serie[]
 }

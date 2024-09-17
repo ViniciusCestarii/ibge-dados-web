@@ -16,6 +16,7 @@ const fetchIbgeData = async (
   periodos: FetchParams['periodos'],
   nivelGeografico: FetchParams['nivelGeografico'],
   locais: FetchParams['locais'],
+  classificacao: FetchParams['classificacao'],
 ): Promise<
   Result<{ data: AgregadoDataResponse; response: Response }, FetchIbgeDataError>
 > => {
@@ -25,6 +26,7 @@ const fetchIbgeData = async (
     periodos,
     nivelGeografico,
     locais,
+    classificacao,
   })
 
   try {
@@ -65,14 +67,21 @@ const fetchIbgeData = async (
 const useMultiParamIbgeData = React.cache(fetchIbgeData)
 
 const useIbgeData = async (validFetchParams: FetchParams) => {
-  const { agregado, variavel, periodos, nivelGeografico, locais } =
-    validFetchParams
+  const {
+    agregado,
+    variavel,
+    periodos,
+    nivelGeografico,
+    locais,
+    classificacao,
+  } = validFetchParams
   const response = await useMultiParamIbgeData(
     agregado,
     variavel,
     periodos,
     nivelGeografico,
     locais,
+    classificacao,
   )
 
   if (response.isErr()) {

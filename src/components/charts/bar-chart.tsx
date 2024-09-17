@@ -12,9 +12,10 @@ const BarChart = async ({ fetchParams }: ChartProps) => {
 
   const { data } = response.value
   // todo: add period on title
-  const geoData = mapIbgeDataToChartData(data)
+  const mappedData = mapIbgeDataToChartData(data)
   const mapOptions = makeChartOptions(data)
-  return <BarChartCore data={geoData} options={mapOptions} />
+
+  return <BarChartCore data={mappedData} options={mapOptions} />
 }
 
 export default BarChart
