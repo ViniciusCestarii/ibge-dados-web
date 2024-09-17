@@ -1,10 +1,10 @@
 - [ ] Add search param height and width to iframe embed
 
-- [ ] Add selector of "classificao"
-
 - [ ] Make geo map support mesoregiao, microregiao
 
 - [ ] Support multi series of data instead of only one
+
+- [X] Add selector of "classificao"
 
 - [X] Add a way to embed charts on other websites
 
