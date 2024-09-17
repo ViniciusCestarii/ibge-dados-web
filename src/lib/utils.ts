@@ -1,4 +1,9 @@
-import { AgregadoDataResponse, Metadado, NivelId } from '@/types/agregado'
+import {
+  AgregadoDataResponse,
+  Metadado,
+  NivelId,
+  Resultado,
+} from '@/types/agregado'
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
@@ -115,27 +120,44 @@ export const mapIbgeDataToChartData = (
 
   if (hasMoreThanOnePeriod) {
     return data.flatMap((ibgeData) =>
-      ibgeData.resultados.flatMap((result) =>
-        result.series.flatMap((serie) =>
+      ibgeData.resultados.flatMap((result) => {
+        const postFix = getPostfixName(result)
+
+        return result.series.flatMap((serie) =>
           Object.entries(serie.serie).map(([period, value]) => ({
-            name: `${periodToText(period)} ${serie.localidade.nome}`,
+            name: `${periodToText(period)} ${serie.localidade.nome} ${postFix}`,
             value: Number(value),
           })),
-        ),
-      ),
+        )
+      }),
     )
   }
 
   return data.flatMap((ibgeData) =>
-    ibgeData.resultados.flatMap((result) =>
-      result.series.flatMap((serie) =>
+    ibgeData.resultados.flatMap((result) => {
+      const postFix = getPostfixName(result)
+
+      return result.series.flatMap((serie) =>
         Object.entries(serie.serie).map(([_, value]) => ({
-          name: serie.localidade.nome,
+          name: `${serie.localidade.nome} ${postFix}`,
           value: Number(value),
         })),
-      ),
-    ),
+      )
+    }),
   )
+}
+
+const getPostfixName = (result: Resultado) => {
+  const allClassificao = result.classificacoes.flatMap((classificacao) =>
+    Object.entries(classificacao.categoria).flatMap(([_, value]) => {
+      if (value === 'Total') {
+        return []
+      }
+      return value
+    }),
+  )
+
+  return allClassificao.join(' ')
 }
 
 export const makeChartOptions = (data: AgregadoDataResponse): ChartOptions => ({

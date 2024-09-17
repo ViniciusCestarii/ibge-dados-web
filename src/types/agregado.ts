@@ -94,7 +94,7 @@ export type AgregadoDataResponse = {
   resultados: Resultado[]
 }[]
 
-type Resultado = {
+export type Resultado = {
   classificacoes: Classificacao[]
   series: Serie[]
 }

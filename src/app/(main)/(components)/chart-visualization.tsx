@@ -6,15 +6,20 @@ import { ChartProps } from '@/types/chart'
 const ChartVisualization = (props: ChartProps) => {
   const { fetchParams } = props
 
-  const allMoreThanOnePeriod = fetchParams.periodos.length > 1
-  return allMoreThanOnePeriod ? (
-    <MultiPeriodLineChart {...props} />
-  ) : (
+  const moreThanOnePeriod = fetchParams.periodos.length > 1
+
+  if (moreThanOnePeriod) {
+    return <MultiPeriodLineChart {...props} />
+  }
+
+  const usingClassificacao = Object.values(
+    fetchParams.classificacao ?? {},
+  ).some((value) => value.some((v) => v !== '0'))
+
+  return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
-      <>
-        <BarChart {...props} />
-        <GeoChart {...props} />
-      </>
+      <BarChart {...props} />
+      {!usingClassificacao && <GeoChart {...props} />}
     </div>
   )
 }
