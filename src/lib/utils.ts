@@ -10,6 +10,7 @@ import { z } from 'zod'
 import env from '@/env'
 import { ChartData, ChartOptions } from '@/types/chart'
 import { EChartsOption } from 'echarts'
+import { getMetadados } from './get-json'
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -90,13 +91,18 @@ const numberToMonth = (number: number) => {
   return date.toLocaleString('default', { month: 'long' })
 }
 
-const periodToText = (period: string, variavel: string) => {
+interface GetPeriodTextProps {
+  period: string
+  periodicidade: string
+}
+
+const periodToText = ({ period, periodicidade }: GetPeriodTextProps) => {
   const year = period.substring(0, 4)
   if (period.length === 4) {
     return year
   }
 
-  const isVariavelTrimestral = variavel.includes('trimestr')
+  const isVariavelTrimestral = periodicidade === 'trimestral'
 
   if (period.length === 6 && isVariavelTrimestral) {
     const quarter = period.substring(5, 6)
@@ -111,9 +117,15 @@ const periodToText = (period: string, variavel: string) => {
   return period
 }
 
-export const mapIbgeDataToChartData = (
-  data: AgregadoDataResponse,
-): ChartData => {
+interface MapIbgeDataToChartData {
+  data: AgregadoDataResponse
+  agregadoId: string
+}
+
+export const mapIbgeDataToChartData = async ({
+  agregadoId,
+  data,
+}: MapIbgeDataToChartData): Promise<ChartData> => {
   const hasMoreThanOnePeriod = data.some((ibgeData) =>
     ibgeData.resultados.some(
       (result) => Object.keys(result.series[0].serie).length > 1,
@@ -121,13 +133,15 @@ export const mapIbgeDataToChartData = (
   )
 
   if (hasMoreThanOnePeriod) {
+    const metadados = await getMetadados(agregadoId)
+
     return data.flatMap((ibgeData) =>
       ibgeData.resultados.flatMap((result) => {
         const postFix = getPostfixName(result)
 
         return result.series.flatMap((serie) =>
           Object.entries(serie.serie).map(([period, value]) => ({
-            name: `${periodToText(period, ibgeData.variavel)} ${serie.localidade.nome} ${postFix}`,
+            name: `${periodToText({ period, periodicidade: metadados.periodicidade.frequencia })} ${serie.localidade.nome} ${postFix}`,
             value: Number(value),
           })),
         )

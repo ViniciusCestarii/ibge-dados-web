@@ -4,15 +4,18 @@ import { LocalGeografico, Metadado, NivelId, Periodo } from '@/types/agregado'
 import fs from 'fs'
 import path from 'path'
 import { getGeoFilename } from './utils'
+import React from 'react'
 
-export async function getMetadados(agregadoId: string): Promise<Metadado> {
-  const filePath = path.resolve(
-    'src/json/metadados/agregado',
-    `${agregadoId}.json`,
-  )
-  const fileContent = await fs.promises.readFile(filePath, 'utf-8')
-  return JSON.parse(fileContent)
-}
+export const getMetadados = React.cache(
+  async (agregadoId: string): Promise<Metadado> => {
+    const filePath = path.resolve(
+      'src/json/metadados/agregado',
+      `${agregadoId}.json`,
+    )
+    const fileContent = await fs.promises.readFile(filePath, 'utf-8')
+    return JSON.parse(fileContent)
+  },
+)
 
 export async function getPeriodos(agregadoId: string): Promise<Periodo[]> {
   const filePath = path.resolve(

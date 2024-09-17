@@ -12,12 +12,15 @@ const GeoChart = async ({ fetchParams }: ChartProps) => {
 
   const { data } = response.value
 
-  const geoData = mapIbgeDataToChartData(data)
+  const mappedData = await mapIbgeDataToChartData({
+    data,
+    agregadoId: fetchParams.agregado,
+  })
   const mapOptions = makeChartOptions(data)
 
   return (
     <GeoChartCore
-      data={geoData}
+      data={mappedData}
       nivelGeografico={fetchParams.nivelGeografico}
       options={mapOptions}
     />
