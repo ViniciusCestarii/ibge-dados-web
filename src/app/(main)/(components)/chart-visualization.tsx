@@ -16,10 +16,14 @@ const ChartVisualization = (props: ChartProps) => {
     fetchParams.classificacao ?? {},
   ).some((value) => value.some((v) => v !== '0'))
 
+  if (usingClassificacao) {
+    return <BarChart {...props} />
+  }
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
       <BarChart {...props} />
-      {!usingClassificacao && <GeoChart {...props} />}
+      <GeoChart {...props} />
     </div>
   )
 }
