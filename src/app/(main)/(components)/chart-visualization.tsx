@@ -16,6 +16,7 @@ const ChartVisualization = (props: ChartProps) => {
     fetchParams.classificacao ?? {},
   ).some((value) => value.some((v) => v !== '0'))
 
+  // todo: make geoChart support classificacao
   if (usingClassificacao) {
     return <BarChart {...props} />
   }
