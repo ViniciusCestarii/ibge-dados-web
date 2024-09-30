@@ -10,21 +10,27 @@ export const searchParamsParsers = {
   pesquisa: parseAsString,
   agregado: parseAsString.withOptions({
     shallow: false,
+    history: 'push',
   }),
   variavel: parseAsString.withOptions({
     shallow: false,
+    history: 'push',
   }),
   periodos: parseAsArrayOf(parseAsString).withOptions({
     shallow: false,
+    history: 'push',
   }),
   nivelGeografico: parseAsString.withOptions({
     shallow: false,
+    history: 'push',
   }),
   locais: parseAsArrayOf(parseAsString).withOptions({
     shallow: false,
+    history: 'push',
   }),
   classificacao: parseAsJson().withOptions({
     shallow: false,
+    history: 'push',
   }),
 }
 
