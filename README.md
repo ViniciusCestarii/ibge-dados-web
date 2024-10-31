@@ -21,6 +21,7 @@
 - Interface amigável e responsiva.
 - Filtros para seleção de dados por período, região ou categoria usando search params.
 - Possibilidade de incorporar gráficos em outras aplicações via iframe
+- Dark mode
 
 ## Tecnologias Utilizadas
 
