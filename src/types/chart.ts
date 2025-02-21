@@ -1,6 +1,7 @@
 import { FetchParams } from '@/lib/utils'
 
 export type ChartData = {
+  localidade: string
   name: string
   value: number
 }[]

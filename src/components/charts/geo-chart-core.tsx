@@ -104,7 +104,10 @@ const GeoChartCore = (props: GeoChartCoreProps) => {
           },
         },
         selectedMode: false,
-        data,
+        data: data.map(({ localidade, value }) => ({
+          name: localidade,
+          value,
+        })),
       },
     }
   }, [data, options, mapCenter])

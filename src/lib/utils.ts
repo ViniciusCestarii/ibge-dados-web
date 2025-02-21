@@ -142,6 +142,7 @@ export const mapIbgeDataToChartData = async ({
         return result.series.flatMap((serie) =>
           Object.entries(serie.serie).map(([period, value]) => ({
             name: `${periodToText({ period, periodicidade: metadados.periodicidade.frequencia })} ${serie.localidade.nome} ${postFix}`,
+            localidade: serie.localidade.nome,
             value: Number(value),
           })),
         )
@@ -156,6 +157,7 @@ export const mapIbgeDataToChartData = async ({
       return result.series.flatMap((serie) =>
         Object.entries(serie.serie).map(([_, value]) => ({
           name: `${serie.localidade.nome} ${postFix}`.trim(),
+          localidade: serie.localidade.nome,
           value: Number(value),
         })),
       )

@@ -12,12 +12,11 @@ const ChartVisualization = (props: ChartProps) => {
     return <MultiPeriodLineChart {...props} />
   }
 
-  const usingClassificacao = Object.values(
+  const usingMultiClassificacao = Object.values(
     fetchParams.classificacao ?? {},
-  ).some((value) => value.some((v) => v !== '0'))
+  ).some((classificacao) => classificacao.length > 1)
 
-  // todo: make geoChart support classificacao
-  if (usingClassificacao) {
+  if (usingMultiClassificacao) {
     return <BarChart {...props} />
   }
 
