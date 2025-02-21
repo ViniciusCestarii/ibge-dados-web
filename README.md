@@ -50,7 +50,7 @@
    ```bash
    npm install
    ```
-3. **Copie or arquivo `.env.example` para `.env.local`:**
+3. **Copie o arquivo `.env.example` para `.env.local`:**
    ```bash
    cp .env.example .env.local
    ```
