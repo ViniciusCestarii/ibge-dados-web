@@ -32,6 +32,7 @@
 
 - Visualização interativa de dados estatísticos do IBGE.
 - Gráficos dinâmicos para facilitar a compreensão dos dados.
+- Opção para baixar gráficos e visualizar dados em texto
 - Interface amigável e responsiva.
 - Filtros para seleção de dados por período, região ou categoria usando search params.
 - Possibilidade de incorporar gráficos em outras aplicações via iframe
