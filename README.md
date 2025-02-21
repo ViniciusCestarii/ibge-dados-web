@@ -50,13 +50,17 @@
    ```bash
    npm install
    ```
+3. **Copie or arquivo `.env.example` para `.env.local`:**
+   ```bash
+   cp .env.example .env.local
+   ```
 
-3. **Inicie o servidor de desenvolvimento:**
+4. **Inicie o servidor de desenvolvimento:**
    ```bash
     npm run dev
     ```
 
-4. **Acesse a aplicação em seu navegador:**
+5. **Acesse a aplicação em seu navegador:**
     ```
     http://localhost:3000
     ```
